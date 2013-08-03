@@ -1,2 +1,12 @@
 
 .DS_Store
+
+*.sce
+
+umc180_curves/gm_Id_angel/Instrucciones.txt
+
+umc180_curves/gm_Id_angel/Interpolation_fcns.sci
+
+umc180_curves/gm_Id_angel/gm_Id.sci
+
+*.m~
