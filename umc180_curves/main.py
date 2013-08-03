@@ -115,10 +115,10 @@ if format[0] == 'scilab':
 
 #	Create the output file
 m = open(outputfile + ex,'w')
-m.write(('W\t= [' + ';'.join(W) + '];').replace('u','') + '\n')
-m.write(('L\t= [' + ';'.join(L) + '];').replace('u','') + '\n')
-m.write('Vds\t= [' + ';'.join(VDS) + '];\n')
-m.write('Vgs\t= (' + VGS_ini[0] + ':' + VGS_step[0] + ':' + VGS_last[0] + ')\';\n\n')
+m.write(('W_' + flavor[0] + '\t= [' + ';'.join(W) + '];').replace('u','') + '\n')
+m.write(('L_' + flavor[0] + '\t= [' + ';'.join(L) + '];').replace('u','') + '\n')
+m.write('Vds_' + flavor[0] + '\t= [' + ';'.join(VDS) + '];\n')
+m.write('Vgs_' + flavor[0] + '\t= (' + VGS_ini[0] + ':' + VGS_step[0] + ':' + VGS_last[0] + ')\';\n\n')
 
 m.write(ct + '\tStored transistor parameters: ' + ' , '.join(outputs) + '\n\n')
 
