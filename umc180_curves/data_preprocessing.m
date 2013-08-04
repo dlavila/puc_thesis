@@ -3,6 +3,7 @@ clc
 data_n
 data_p
 
+%%
 vgs_n = zeros(size(vt_n));
 vgs_p = zeros(size(vt_p));
 
@@ -32,4 +33,4 @@ for i=1:numel(gmId_n(1,:,:,:))
     gmId_n((lvgs_n*(i-1)+1):(lvgs_n*i)) = fliplr(cumsum([rev_arr(1) subplus(diff(rev_arr))]));
 end
 
-%vi = interpn(W_n,L_n,Vds_n,Vgs_n,gmId_n, 0.5,0.5,0.5,0.5,'spline');
+%%vi = interpn(Vgs_n,Vds_n,L_n,W_n,gmId_n, 0.5,0.5,0.36,0.6,'spline');
