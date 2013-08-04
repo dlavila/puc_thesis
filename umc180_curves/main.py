@@ -71,8 +71,12 @@ for var in sim_var:
 	vars()[var] = []
 
 for line in open(inputfile + '.ini'):
-	[eval(var).extend((line.split())[1:]) for var in sim_var if line.find(var + ' ') == 0]
+	[eval(var).extend((line.split())[1:]) for var in sim_var if line.find(var+' ') == 0 or line.find(var+'\t')==0]
 
+for var in sim_var:
+	print var
+	print eval(var)
+	
 for var in outputs:
 	vars()[var] = []
 
