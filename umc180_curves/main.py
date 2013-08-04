@@ -17,12 +17,12 @@ def nindex5(array, i1, i2, i3, i4,i5):
 	l3     = len(array[0][0])
 	l4     = len(array[0][0][0])
 	l5     = len(array[0][0][0][0])
-	nindex = i1*(l2*l3*l4*i5)+i2*(l3*l4*i5)+i3*(l4*i5)+i4*(i5)+i5+1
-	i1n    = nindex/(l2*l3*l4*i5)
-	i2n    = (nindex-i1n*(l2*l3*l4*i5))/(l3*l4*i5)
-	i3n    = (nindex-i1n*(l2*l3*l4*i5)-i2n*(l3*l4*i5))/(i4*l5)
-	i4n    = (nindex-i1n*(l2*l3*l4*u5)-i2n*(l3*l4*i5)-i3n*(l4*i5))/i5
-	i5n    = (nindex-i1n*(l2*l3*l4*u5)-i2n*(l3*l4*i5)-i3n*(l4*i5)+i4n*(i5))
+	nindex = i1*(l2*l3*l4*l5)+i2*(l3*l4*l5)+i3*(l4*l5)+i4*(l5)+i5+1
+	i1n    = nindex/(l2*l3*l4*l5)
+	i2n    = (nindex-i1n*(l2*l3*l4*l5))/(l3*l4*l5)
+	i3n    = (nindex-i1n*(l2*l3*l4*l5)-i2n*(l3*l4*l5))/(l4*l5)
+	i4n    = (nindex-i1n*(l2*l3*l4*l5)-i2n*(l3*l4*l5)-i3n*(l4*l5))/l5
+	i5n    = (nindex-i1n*(l2*l3*l4*l5)-i2n*(l3*l4*l5)-i3n*(l4*l5)-i4n*(l5))
 	return i1n,i2n,i3n,i4n,i5n
 	
 #	Return the next index of a 4 dimensional array, given the index i1,i2,i3,i4
@@ -88,10 +88,6 @@ for var in sim_var:
 for line in open(inputfile + '.ini'):
 	[eval(var).extend((line.split())[1:]) for var in sim_var if line.find(var+' ') == 0 or line.find(var+'\t')==0]
 
-for var in sim_var:
-	print var
-	print eval(var)
-	
 for var in outputs:
 	vars()[var] = []
 
@@ -124,7 +120,7 @@ line_printfile 			= '.printfile DC ' + ' '.join([a+'(M1)' for a in outputs]) + '
 line_end 				= '.op\n\n.end'
 
 
-tran_data = [[[[a + ' ' + b + ' ' + c ' ' + d for d in VBS]  for c in VDS] for b in L] for a in W]
+tran_data = [[[[a + ' ' + b + ' ' + c + ' ' + d for d in VBS]  for c in VDS] for b in L] for a in W]
 
 sim_n = len(tran_data)*len(tran_data[0])*len(tran_data[0][0])*len(tran_data[0][0][0])
 
@@ -177,7 +173,7 @@ for j in range(sim_n):
 		d_line = line.split()
 		if len(d_line) == len(outputs) + 1:
 			a = 1
-			for var in outputs:		
+			for var in outputs:
 				eval(var + '_data')[a1][a2][a3][a4][a5] = d_line[a]
 				a = a + 1
 			a1,a2,a3,a4,a5 = nindex5(eval(outputs[0]+'_data'),a1,a2,a3,a4,a5)
