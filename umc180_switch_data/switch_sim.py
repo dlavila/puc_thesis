@@ -59,7 +59,7 @@ if inputfile == '' or outputfile == '':
 
 #	Initialitate the variables
 
-sim_var = ['model_n','model_p','temp','outputs','options','format','include','flavor','W', 'L','Ld','tran_extra' , 'Vin_ini', 'Vin_last', 'Vin_step','tempdata_filename','net_filename']
+sim_var = ['model_n','model_p','temp','outputs','options','format','include','flavor','W', 'L','Ld','tran_extra' ,'VDS_delta', 'Vin_ini', 'Vin_last', 'Vin_step','tempdata_filename','net_filename']
 
 for var in sim_var:
 	vars()[var] = []
