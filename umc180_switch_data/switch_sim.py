@@ -158,8 +158,8 @@ for j in range(sim_n):
 	[m.write(var + '_'+ flavor[0] +'(:,' + str(i2+1) + ',' + str(i1+1) + ') = [' + ';'.join(eval(var + '_data')[i1][i2]) + '];\n') for var in outputs]
 	i1,i2= nindex2(tran_data,i1,i2)
 
-os.system('rm ' + tempdata_filename[0] + '*')
-os.system('rm ' + net_filename[0] + '*')
+#os.system('rm ' + tempdata_filename[0] + '*')
+#os.system('rm ' + net_filename[0] + '*')
 m.close()
 
 
