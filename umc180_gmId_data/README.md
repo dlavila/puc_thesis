@@ -1,10 +1,10 @@
 This folder contains:
 
 
-main.py - generates the matlab files with the transistors data.
+gmId_sim.py - generates the matlab files with the transistors data.
 	* OS: Unix.
 	* Dependences: python2.7, Eldos.
-	* Usage: python main.py -i inputfilename -o outputfilename		// inputfilename and outputfilename must be written without extension
+	* Usage: python gmId_sim.py -i inputfilename -o outputfilename		// inputfilename and outputfilename must be written without extension
 			 inputfilename.ini must be created in the current folder and has the following format:
 			
 			
@@ -21,6 +21,7 @@ main.py - generates the matlab files with the transistors data.
 			Ld			0.49u													//	transistor Ld 
 			tran_extra		AS='Ld*W' AD='Ld*W' PS='2*Ld+2*W' PD='2*Ld+2*W' 	//	extra arguments for the transistor instantiation, SPICE format string
 			VDS 			0.01 0.03 0.06 0.09 0.1 0.2 0.3 0.4 0.5 0.6 0.7		//	list of Vds values
+			VBS				0 0.5 1												// 	list of Vbs values
 			VGS_ini 		0.1													//	lower value of Vgs for the DC simulation
 			VGS_last 		1.8													//	high value of Vgs for the DC simulation
 			VGS_step 		0.01												//	step of Vgs for the DC simulation
