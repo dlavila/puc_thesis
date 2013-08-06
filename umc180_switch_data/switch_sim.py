@@ -89,10 +89,10 @@ else:
 	line_tran       	= Template("M1 OUT 0 IN DD " + model_p[0] + " W = 'W' L = 'L' $textra\n")
 
 
-line_vdd 				= 'VDD DD 0 DC 1.8 \n')
-line_out				= 'E1 OUT 0 IN X 1'
-line_ds					= Template('VIN X 0 $DSX')
-line_vi					= 'VIN IN 0 DC 1'
+line_vdd 				= 'VDD DD 0 DC 1.8 \n'
+line_out				= 'E1 OUT 0 IN X 1 \n'
+line_ds					= Template('VIN X 0 $DSX \n')
+line_vi					= 'VIN IN 0 DC 1 \n\n'
 
 line_sim 				= '.DC VIN ' + Vin_ini[0] + ' ' + Vin_last[0] + ' ' + Vin_step[0] + '\n\n'
 line_printfile 			= '.printfile DC Id(M1) file="'+ tempdata_filename[0] + '.dat" \n\n'	
@@ -132,9 +132,10 @@ for j in range(sim_n):
 	i_data = tran_data[i1][i2].split()
 	o.write(line_param.substitute(WX = i_data[0], LX = i_data[1]))
 	o.write(line_tran.substitute(textra = ' '.join(tran_extra)))
-	o.write(line_vds.substitute(VDSX = i_data[2]))
-	o.write(line_vgs)
-	o.write(line_vbs.substitute(VBSX = i_data[3]))
+	o.write(line_vdd)
+	o.write(line_out)
+	o.write(line_ds.substitute(DSX = VDS_delta[0]))
+	o.write(line_vi)
 	o.write(line_sim)
 	o.write(line_printfile)
 	o.write(line_end)
