@@ -91,7 +91,7 @@ else:
 
 line_vdd 				= 'VDD DD 0 DC 1.8 \n'
 line_out				= 'E1 OUT 0 IN X 1 \n'
-line_ds					= Template('VIN X 0 $DSX \n')
+line_ds					= Template('VAUX X 0 DC $DSX \n')
 line_vi					= 'VIN IN 0 DC 1 \n\n'
 
 line_sim 				= '.DC VIN ' + Vin_ini[0] + ' ' + Vin_last[0] + ' ' + Vin_step[0] + '\n\n'
