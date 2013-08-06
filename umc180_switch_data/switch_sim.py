@@ -113,7 +113,7 @@ m = open(outputfile + ex,'w')
 m.write(('W_' + flavor[0] + '\t= [' + ';'.join(W) + '];').replace('u','') + '\n')
 m.write(('L_' + flavor[0] + '\t= [' + ';'.join(L) + '];').replace('u','') + '\n')
 m.write('Vin_' + flavor[0] + '\t= (' + Vin_ini[0] + ':' + Vin_step[0] + ':' + Vin_last[0] + ')\';\n\n')
-
+m.write('Vds_' + flavor[0] + '\t= ' + VDS_delta[0] + ';\n\n')
 
 m.write(ct + '\tStored transistor parameters: ' + ' , '.join(outputs) + '\n\n')
 
@@ -157,9 +157,9 @@ for j in range(sim_n):
 	m.write('\n')
 	[m.write(var + '_'+ flavor[0] +'(:,' + str(i2+1) + ',' + str(i1+1) + ') = [' + ';'.join(eval(var + '_data')[i1][i2]) + '];\n') for var in outputs]
 	i1,i2= nindex2(tran_data,i1,i2)
-
-#os.system('rm ' + tempdata_filename[0] + '*')
-#os.system('rm ' + net_filename[0] + '*')
+m.write('\n\nr_swith_' + flavor[0] + ' = Vds_' + flavor[0] + './id_n;')
+os.system('rm ' + tempdata_filename[0] + '*')
+os.system('rm ' + net_filename[0] + '*')
 m.close()
 
 
