@@ -43,10 +43,4 @@ av_p = gm_p./gds_p;
 fT_n = 1/(2*pi)* gm_n./cgg_n;
 fT_p = 1/(2*pi)* gm_p./cgg_p;
 
-wsvars = evalin('caller', 'who');
-for wscon=1:size(wsvars,1)
-    thisvar=evalin('caller', wsvars{wscon});
-    dat.(wsvars{wscon})=thisvar;
-end
-
-save('tran_data', '-struct', 'dat') 
+save tran_data.mat
