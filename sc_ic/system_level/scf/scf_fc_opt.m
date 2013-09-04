@@ -88,7 +88,7 @@ for k = 20:Ibudget/10;
     
     It = k*10e-6;
     Il = (Ibudget/10-k)*10e-6;
-    count = 1;
+    
     for i_in = 1:length(L)
         for i_f = 1:length(L)
             for i_cf = 1:length(L)
@@ -100,67 +100,66 @@ for k = 20:Ibudget/10;
                                 for j_l = find(gmId <=((y*gmId(j_in)*It-gmId(j_f)*If)/Il))
                                     for j_cf = 1:length(gmId)
                                         for j_cl = 1:length(gmId)
-                                            count = count+1;
-% 
-%                                             % Min
-%                                             ro_in = ro(gmId(j_in), 0, Vdd/2, L(i_in), 'p');
-% 
-%                                             % Mf
-%                                             gm_f = gmId(j_f)*If/2;
-% 
-%                                             %Vds_f = 2*Vov(gmId(j_n),0,Vdd/2,L(i_n), 'n');
-%                                             %Vds_f = 2*Vov(gmId(j_n),0,Vds_f,L(i_n), 'n');
-%                                             %Vds_f = 2*Vov(gmId(j_n),0,Vds_f,L(i_n), 'n');
-%                                             Vds_f = Vdd/4.6;
-% 
-%                                             ro_f  = ro(gmId(j_f), 0, Vds_f, L(i_f), 'n');
-% 
-%                                             % Mcf
-%                                             gm_cf = gmId(j_cf)*Il/2;
-% 
-%                                             %Vds_cf = 2*Vov(gmId(j_n),0,Vdd/2,L(i_n), 'n');
-%                                             %Vds_cf = 2*Vov(gmId(j_n),0,Vds_cf,L(i_n), 'n');
-%                                             %Vds_cf = 2*Vov(gmId(j_n),0,Vds_cf,L(i_n), 'n');
-%                                             Vds_cf = Vdd/4.6;
-% 
-%                                             ro_cf  = ro(gmId(j_cf), 0, Vds_cf, L(i_cf), 'n');
-% 
-%                                             % Mcl
-%                                             gm_cl = gmId(j_cl)*Il/2;
-% 
-%                                             %Vds_cl = 2*abs(Vov(gmId(j_p),0,Vdd/2,L(i_p), 'p'));
-%                                             %Vds_cl = 2*abs(Vov(gmId(j_p),0,Vds_cl,L(i_p), 'p'));
-%                                             %Vds_cl = 2*abs(Vov(gmId(j_p),0,Vds_cl,L(i_p), 'p'));
-%                                             Vds_cl = Vdd/4.6;
-% 
-%                                             ro_cl  = ro(gmId(j_cl), 0, Vds_cl, L(i_cl), 'p');
-% 
-%                                             % Ml
-%                                             gm_l = gmId(j_l)*Il/2;
-% 
-%                                             %Vds_l = 2*abs(Vov(gmId(j_p),0,Vdd/2,L(i_p), 'p'));
-%                                             %Vds_l = 2*abs(Vov(gmId(j_p),0,Vds_l,L(i_p), 'p'));
-%                                             %Vds_l = 2*abs(Vov(gmId(j_p),0,Vds_l,L(i_p), 'p'));
-%                                             Vds_l = Vdd/4.6;
-% 
-%                                             ro_l  = ro(gmId(j_l), 0, Vds_l, L(i_l), 'p');
-% 
-%                                             Ro = par(gm_cl*ro_cl*ro_l, gm_cf*ro_cf*par(ro_in,ro_f));
-% 
-%                                             Av = 2*gm_in*Ro;
-%                                             
-%                                             y = (gm_f+gm_l)/gm_in;
-% 
-%                                             if(Av > 1000)
-%                                                 Av 
-%                                                 y
-%                                                 gmId(j_in)
-%                                                 gmId(j_f)
-%                                                 gmId(j_l)
-%                                                 gmId(j_cf)
-%                                                 gmId(j_cl)
-%                                                 idx = [idx ; [k,Av,y,i_in, i_f, i_cf, i_cl, i_l,j_in,j_f,j_l,j_cf,j_cl]];
-%                                             end
+
+                                            % Min
+                                            ro_in = ro(gmId(j_in), 0, Vdd/2, L(i_in), 'p');
+
+                                            % Mf
+                                            gm_f = gmId(j_f)*If/2;
+
+                                            %Vds_f = 2*Vov(gmId(j_n),0,Vdd/2,L(i_n), 'n');
+                                            %Vds_f = 2*Vov(gmId(j_n),0,Vds_f,L(i_n), 'n');
+                                            %Vds_f = 2*Vov(gmId(j_n),0,Vds_f,L(i_n), 'n');
+                                            Vds_f = Vdd/4.6;
+
+                                            ro_f  = ro(gmId(j_f), 0, Vds_f, L(i_f), 'n');
+
+                                            % Mcf
+                                            gm_cf = gmId(j_cf)*Il/2;
+
+                                            %Vds_cf = 2*Vov(gmId(j_n),0,Vdd/2,L(i_n), 'n');
+                                            %Vds_cf = 2*Vov(gmId(j_n),0,Vds_cf,L(i_n), 'n');
+                                            %Vds_cf = 2*Vov(gmId(j_n),0,Vds_cf,L(i_n), 'n');
+                                            Vds_cf = Vdd/4.6;
+
+                                            ro_cf  = ro(gmId(j_cf), 0, Vds_cf, L(i_cf), 'n');
+
+                                            % Mcl
+                                            gm_cl = gmId(j_cl)*Il/2;
+
+                                            %Vds_cl = 2*abs(Vov(gmId(j_p),0,Vdd/2,L(i_p), 'p'));
+                                            %Vds_cl = 2*abs(Vov(gmId(j_p),0,Vds_cl,L(i_p), 'p'));
+                                            %Vds_cl = 2*abs(Vov(gmId(j_p),0,Vds_cl,L(i_p), 'p'));
+                                            Vds_cl = Vdd/4.6;
+
+                                            ro_cl  = ro(gmId(j_cl), 0, Vds_cl, L(i_cl), 'p');
+
+                                            % Ml
+                                            gm_l = gmId(j_l)*Il/2;
+
+                                            %Vds_l = 2*abs(Vov(gmId(j_p),0,Vdd/2,L(i_p), 'p'));
+                                            %Vds_l = 2*abs(Vov(gmId(j_p),0,Vds_l,L(i_p), 'p'));
+                                            %Vds_l = 2*abs(Vov(gmId(j_p),0,Vds_l,L(i_p), 'p'));
+                                            Vds_l = Vdd/4.6;
+
+                                            ro_l  = ro(gmId(j_l), 0, Vds_l, L(i_l), 'p');
+
+                                            Ro = par(gm_cl*ro_cl*ro_l, gm_cf*ro_cf*par(ro_in,ro_f));
+
+                                            Av = 2*gm_in*Ro;
+                                            
+                                            y = (gm_f+gm_l)/gm_in;
+
+                                            if(Av > 1000)
+                                                Av 
+                                                y
+                                                gmId(j_in)
+                                                gmId(j_f)
+                                                gmId(j_l)
+                                                gmId(j_cf)
+                                                gmId(j_cl)
+                                                idx = [idx ; [k,Av,y,i_in, i_f, i_cf, i_cl, i_l,j_in,j_f,j_l,j_cf,j_cl]];
+                                            end
                                         end
                                     end
                                 end
@@ -172,4 +171,3 @@ for k = 20:Ibudget/10;
         end
     end
 end
-count
