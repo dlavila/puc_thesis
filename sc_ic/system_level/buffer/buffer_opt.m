@@ -14,6 +14,11 @@ load_data_gmId;
 load_data_switch
 
 
+Vdd     = 1.8;
+
+Vocm = Vdd/2;
+
+
 %   Min_n
 %   Min_p
 %   Mc_n
@@ -23,27 +28,17 @@ load_data_switch
 %   Mout_n
 %   Mout_p
 
+CL      = 8e-12;
 
-FSR     = 1;
-fs      = 51.95e6;
-ts      = 1/fs;
-tsett   = ts/5;
-
-minSR   = FSR/tsett;
-
-Aobj    = 10^(90/20);
-Pmobj   = 70;
-
-CL      = 5e-12;
-
-IL      = CL*minSR;
+It = 
+Ic = 
+Il =
 
 
 
 %%
 
-gm_in =  gm_in_n;
-gm_in_p = gm_in_p;
+gm_in =  (gm_in_n + gm_in_p)/2;
 
 
 Ra = gm_c_p*r0_c_p*par(r0_f_p, r0_in_n);
