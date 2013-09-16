@@ -1,0 +1,17 @@
+A 5 u mgc_sheet 523782554e41.03.7f.00.00.01.00.21.7d 2 2 3 0
+V v 1 2 523782554e41.03.7f.00.00.01.01.21.7d
+F f 1 "sheet1.ssht_1"
+F f 1 "sheet1.sgfx_1"
+V v 2 2 5237826a5bc5.03.7f.00.00.01.00.21.7d
+F f 2 "sheet1.ssht_2"
+F f 2 "sheet1.sgfx_2"
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "/home/dlavila/puc_thesis/sc_ic/spice_level/SCF/OTA/schematic" 1 mgc_schematic 523782554d97.03.7f.00.00.01.01.21.7d 523782554d97.03.7f.00.00.01.00.21.7d
+R csduv 1 "$MGC_DESIGN_KIT/symbols/P_18_MM/part" 23 Eddm_part 462e23ba79d1.03.7f.00.00.01.00.54.63 461b99bfbe81.03.89.ca.19.1a.00.4f.21
+R csduv 2 "$MGC_DESIGN_KIT/symbols/P_18_MM/P_18_MM" 6 mgc_symbol 462e23ba79c0.03.7f.00.00.01.00.54.63 461b99c2ec2d.03.89.ca.19.1a.00.4f.21
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "/home/dlavila/puc_thesis/sc_ic/spice_level/SCF/OTA/schematic" 1 mgc_schematic 523782554d97.03.7f.00.00.01.01.21.7d 523782554d97.03.7f.00.00.01.00.21.7d
+R csduv 1 "$MGC_DESIGN_KIT/symbols/P_18_MM/part" 23 Eddm_part 462e23ba79d1.03.7f.00.00.01.00.54.63 461b99bfbe81.03.89.ca.19.1a.00.4f.21
+R csduv 2 "$MGC_DESIGN_KIT/symbols/P_18_MM/P_18_MM" 6 mgc_symbol 462e23ba79c0.03.7f.00.00.01.00.54.63 461b99c2ec2d.03.89.ca.19.1a.00.4f.21
