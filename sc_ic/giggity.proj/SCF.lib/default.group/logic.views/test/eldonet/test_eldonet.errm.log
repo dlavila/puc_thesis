@@ -1,0 +1,3 @@
+START report: Mon Sep 23 11:22:32 2013 
+Warning: (eldo - 252)  In file "./test_eldonet.spi" line 17:
++   OBJECT "M1": Self-connected object not created.

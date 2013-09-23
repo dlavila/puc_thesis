@@ -236,6 +236,7 @@ $$set_sim_value("sim_dcop_dec_places",2);
 $$set_sim_value("sim_monitor_entries",[]);
 $$set_sim_value("sim_monitor_font","stroke");
 $$set_sim_value("sim_monitor_font_half_height",@true);
+$$set_sim_value("sim_ss_show_dialog",@true);
 
 // Safe Operating Area
 $$set_sim_value("sim_soa_result","");
@@ -279,6 +280,7 @@ $$set_sim_value("sim_adms_command_default","$MGC_AMS_HOME/bin/vasim");
 $$set_sim_value("sim_adms_command_options",[["-c"], ["-cmd", "<input_file>"], ["-do", "$MGC_HOME/shared/pkgs/daicsim/userware/En_na/do_top_eldo.do"]]);
 $$set_sim_value("sim_command","$MGC_AMS_HOME/bin/eldo");
 $$set_sim_value("sim_command_options",[["-i", "<input_file>"], ["-o", "<output_file>"], ["-nocou"], ["-gwl", "jwdb"], ["-wdb_folder"]]);
+$$set_sim_value("sim_dcop_file","$SCF/default.group/logic.views/test/eldonet/test_eldonet.op1");
 $$set_sim_value("sim_eldo_command","$MGC_AMS_HOME/bin/eldo");
 $$set_sim_value("sim_eldo_command_default","$MGC_AMS_HOME/bin/eldo");
 $$set_sim_value("sim_eldo_command_options",[["-i", "<input_file>"], ["-o", "<output_file>"], ["-nocou"], ["-gwl", "jwdb"], ["-wdb_folder"]]);
