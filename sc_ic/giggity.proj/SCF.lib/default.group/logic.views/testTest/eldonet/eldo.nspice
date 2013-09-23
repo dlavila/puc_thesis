@@ -1,0 +1,26 @@
+* ELDO netlist generated with ICnet by 'dlavila' on Mon Sep 23 2013 at 15:16:16
+
+*
+* Globals.
+*
+.global ground vdd
+
+*
+* Component pathname : $SCF/default.group/logic.views/test
+*
+.subckt test  out in vdd_esc1 vss
+
+        m2 out in vss vss n_18_mm l=0.18u w=0.24u ad=0.118p as=0.118p pd=1.46u
++  ps=1.46u m=1
+        m1 out in vdd_esc1 vdd_esc1 p_18_mm l=0.18u w=0.24u ad=0.118p as=0.118p
++  pd=1.46u ps=1.46u m=1
+.ends test
+
+*
+* MAIN CELL: Component pathname : $SCF/default.group/logic.views/testTest
+*
+        v2 vin ground PULSE ( 0V 1.8V 1uS 1nS 1nS 20nS 50nS )
+        v1 vdd ground DC 1.8V
+        x_test1 vout vin vdd ground test
+*
+.end

@@ -3,6 +3,21 @@
 # object between its name on the schematic and its name in the netlist.
 version 1.0
 
+Globals
+   ground ground
+   VDD vdd
+End Globals
+
+Cell pulse_v_source
+   Pin POS pos
+   Pin NEG neg
+End Cell
+
+Cell dc_v_source
+   Pin POS pos
+   Pin NEG neg
+End Cell
+
 Cell n_18_mm
    Pin D d
    Pin G g
@@ -17,16 +32,28 @@ Cell p_18_mm
    Pin B b
 End Cell
 
-Cell #top#
+Cell test
    Pin OUT out
    Pin IN in
    Pin Vdd vdd
    Pin Vss vss
    Net OUT out
    Net Vss vss
-   Net Vdd vdd
+   Net Vdd_esc1 vdd_esc1
    Net IN in
    Inst M2 m2 n_18_mm
    Inst M1 m1 p_18_mm
+End Cell
+
+Cell #top#
+   Pin VOUT vout
+   Pin VIN vin
+   Net VOUT vout
+   Net VIN vin
+   Global ground ground
+   Global VDD vdd
+   Inst V2 v2 pulse_v_source
+   Inst V1 v1 dc_v_source
+   Inst TEST1 x_test1 test
 End Cell
 

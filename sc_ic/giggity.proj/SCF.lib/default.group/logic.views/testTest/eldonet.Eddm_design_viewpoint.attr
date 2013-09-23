@@ -1,0 +1,50 @@
+A 5 u Eddm_design_viewpoint 524083257e7c.03.7f.00.00.01.00.4a.b5 6 2 35 0
+V v 4 4 52408569cfee.03.7f.00.00.01.00.4a.b5
+F f 4 "eldonet.dvpt_4"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 5 4 5240857039a2.03.7f.00.00.01.00.4a.b5
+F f 5 "eldonet.dvpt_5"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 6 4 52408576b764.03.7f.00.00.01.00.4a.b5
+F f 6 "eldonet.dvpt_6"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+O 6
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$SCF/default.group/logic.views/testTest/part" 1 Eddm_part 524083257644.03.7f.00.00.01.00.4a.b5 524083257643.03.7f.00.00.01.00.4a.b5
+R cspuv 1 "$SCF/default.group/logic.views/testTest/schematic" 3 mgc_schematic 5240856ab730.03.7f.00.00.01.00.4a.b5 5240829586dd.03.7f.00.00.01.00.4a.b5
+R cspuv 2 "$SCF/default.group/logic.views/testTest/eldonet" 1 Eddm_ba_mgr 524083257f49.03.7f.00.00.01.01.4a.b5 524083257f49.03.7f.00.00.01.00.4a.b5
+R cspuv 3 "$SCF/default.group/logic.views/test/part" 3 Eddm_part 5240812f7af6.03.7f.00.00.01.00.49.67 52405758e0de.03.7f.00.00.01.00.35.1b
+R cspuv 4 "$MGC_IC_SOURCES_LIB/dc_v_source/part" 1 Eddm_part 3890a89d50f5.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.01.34.72
+R cspuv 5 "$MGC_IC_SOURCES_LIB/pulse_v_source/part" 2 Eddm_part 48349c3e2130.03.93.22.29.54.00.75.8d 3890b26cc0aa.03.86.56.31.70.03.34.72
+R cspuv 8 "$SCF/default.group/logic.views/test/schematic" 5 mgc_schematic 524080e1b0a3.03.7f.00.00.01.00.49.67 524056a77af4.03.7f.00.00.01.00.35.1b
+R cspuv 18 "$MGC_DESIGN_KIT/symbols/P_18_MM/part" 23 Eddm_part 462e23ba79d1.03.7f.00.00.01.00.54.63 461b99bfbe81.03.89.ca.19.1a.00.4f.21
+R cspuv 19 "$MGC_DESIGN_KIT/symbols/N_18_MM/part" 26 Eddm_part 462e23b780f6.03.7f.00.00.01.00.54.63 461b99901841.03.89.ca.19.1a.00.4f.21
+O 5
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$SCF/default.group/logic.views/testTest/part" 1 Eddm_part 524083257644.03.7f.00.00.01.00.4a.b5 524083257643.03.7f.00.00.01.00.4a.b5
+R cspuv 1 "$SCF/default.group/logic.views/testTest/schematic" 3 mgc_schematic 5240856ab730.03.7f.00.00.01.00.4a.b5 5240829586dd.03.7f.00.00.01.00.4a.b5
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 2 "$SCF/default.group/logic.views/testTest/eldonet" 1 Eddm_ba_mgr 524083257f49.03.7f.00.00.01.01.4a.b5 524083257f49.03.7f.00.00.01.00.4a.b5
+R cspuv 3 "$SCF/default.group/logic.views/test/part" 3 Eddm_part 5240812f7af6.03.7f.00.00.01.00.49.67 52405758e0de.03.7f.00.00.01.00.35.1b
+R cspuv 4 "$MGC_IC_SOURCES_LIB/dc_v_source/part" 1 Eddm_part 3890a89d50f5.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.01.34.72
+R cspuv 5 "$MGC_IC_SOURCES_LIB/pulse_v_source/part" 2 Eddm_part 48349c3e2130.03.93.22.29.54.00.75.8d 3890b26cc0aa.03.86.56.31.70.03.34.72
+R cspuv 8 "$SCF/default.group/logic.views/test/schematic" 5 mgc_schematic 524080e1b0a3.03.7f.00.00.01.00.49.67 524056a77af4.03.7f.00.00.01.00.35.1b
+R cspuv 18 "$MGC_DESIGN_KIT/symbols/P_18_MM/part" 23 Eddm_part 462e23ba79d1.03.7f.00.00.01.00.54.63 461b99bfbe81.03.89.ca.19.1a.00.4f.21
+R cspuv 19 "$MGC_DESIGN_KIT/symbols/N_18_MM/part" 26 Eddm_part 462e23b780f6.03.7f.00.00.01.00.54.63 461b99901841.03.89.ca.19.1a.00.4f.21
+O 4
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$SCF/default.group/logic.views/testTest/part" 1 Eddm_part 524083257644.03.7f.00.00.01.00.4a.b5 524083257643.03.7f.00.00.01.00.4a.b5
+R cspuv 1 "$SCF/default.group/logic.views/testTest/schematic" 2 mgc_schematic 5240832578c6.03.7f.00.00.01.00.4a.b5 5240829586dd.03.7f.00.00.01.00.4a.b5
+R cspuv 2 "$SCF/default.group/logic.views/testTest/eldonet" 1 Eddm_ba_mgr 524083257f49.03.7f.00.00.01.01.4a.b5 524083257f49.03.7f.00.00.01.00.4a.b5
+R cspuv 3 "$SCF/default.group/logic.views/test/part" 3 Eddm_part 5240812f7af6.03.7f.00.00.01.00.49.67 52405758e0de.03.7f.00.00.01.00.35.1b
+R cspuv 4 "$MGC_IC_SOURCES_LIB/dc_v_source/part" 1 Eddm_part 3890a89d50f5.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.01.34.72
+R cspuv 5 "$MGC_IC_SOURCES_LIB/pulse_v_source/part" 2 Eddm_part 48349c3e2130.03.93.22.29.54.00.75.8d 3890b26cc0aa.03.86.56.31.70.03.34.72
+R cspuv 8 "$SCF/default.group/logic.views/test/schematic" 5 mgc_schematic 524080e1b0a3.03.7f.00.00.01.00.49.67 524056a77af4.03.7f.00.00.01.00.35.1b
+R cspuv 18 "$MGC_DESIGN_KIT/symbols/P_18_MM/part" 23 Eddm_part 462e23ba79d1.03.7f.00.00.01.00.54.63 461b99bfbe81.03.89.ca.19.1a.00.4f.21
+R cspuv 19 "$MGC_DESIGN_KIT/symbols/N_18_MM/part" 26 Eddm_part 462e23b780f6.03.7f.00.00.01.00.54.63 461b99901841.03.89.ca.19.1a.00.4f.21

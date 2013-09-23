@@ -1,0 +1,14 @@
+A 5 u mgc_schematic 5240829586dd.03.7f.00.00.01.00.4a.b5 3 2 1 0
+V v 1 1 5240829586dd.03.7f.00.00.01.01.4a.b5
+F o 0 ""
+V v 2 1 5240832578c6.03.7f.00.00.01.00.4a.b5
+F o 0 ""
+V v 3 1 5240856ab730.03.7f.00.00.01.00.4a.b5
+F o 0 ""
+O 3
+R cspuv 0 "$SCF/default.group/logic.views/testTest/schematic/sheet1" 2 mgc_sheet 5240856ab71c.03.7f.00.00.01.00.4a.b5 5240829587d4.03.7f.00.00.01.00.4a.b5
+O 2
+R cspuv 0 "$SCF/default.group/logic.views/testTest/schematic/sheet1" 1 mgc_sheet 5240829587d5.03.7f.00.00.01.00.4a.b5 5240829587d4.03.7f.00.00.01.00.4a.b5
+O 1
+R cspuv 0 "$SCF/default.group/logic.views/testTest/schematic/sheet1" 1 mgc_sheet 5240829587d5.03.7f.00.00.01.00.4a.b5 5240829587d4.03.7f.00.00.01.00.4a.b5
+P "eddm__refer_state" "eddm__refer_floating"

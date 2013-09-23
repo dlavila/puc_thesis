@@ -1,0 +1,9 @@
+A 5 u mgc_symbol 524080ebe418.03.7f.00.00.01.00.49.67 2 2 1 0
+V v 1 1 524080ebe418.03.7f.00.00.01.01.49.67
+F f 1 "test.smbl_1"
+V v 2 1 5240812f7aef.03.7f.00.00.01.00.49.67
+F f 2 "test.smbl_2"
+O 2
+R csduv 0 "$SCF/default.group/logic.views/test/part" 3 Eddm_part 5240812f7af6.03.7f.00.00.01.00.49.67 52405758e0de.03.7f.00.00.01.00.35.1b
+O 1
+R csduv 0 "$SCF/default.group/logic.views/test/part" 2 Eddm_part 524080ebe5e1.03.7f.00.00.01.00.49.67 52405758e0de.03.7f.00.00.01.00.35.1b

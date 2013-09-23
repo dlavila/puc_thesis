@@ -1,0 +1,31 @@
+* ELDO netlist generated with ICnet by 'dlavila' on Mon Sep 23 2013 at 13:46:59
+
+*
+* MAIN CELL: Component pathname : $SCF/default.group/logic.views/OTA
+*
+        mf1 n$52 vb4 vss vss n_18_mm l=0.18u w=0.24u ad=0.118p as=0.118p
++  pd=1.46u ps=1.46u m=1
+        mf2 n$53 vb4 vss vss n_18_mm l=0.18u w=0.24u ad=0.118p as=0.118p
++  pd=1.46u ps=1.46u m=1
+        mcf2 vo- vb3 n$53 vss n_18_mm l=0.18u w=0.24u ad=0.118p as=0.118p
++  pd=1.46u ps=1.46u m=1
+        min2 n$61 vi- n$52 vdd n_18_mm l=0.18u w=0.24u ad=0.118p as=0.118p
++  pd=1.46u ps=1.46u m=1
+        mtailc n$60 vb2 n$61 vdd n_18_mm l=0.18u w=0.24u ad=0.118p as=0.118p
++  pd=1.46u ps=1.46u m=1
+        mtail vdd vb1 n$60 vdd n_18_mm l=0.18u w=0.24u ad=0.118p as=0.118p
++  pd=1.46u ps=1.46u m=1
+        min1 n$61 vi+ n$53 vdd n_18_mm l=0.18u w=0.24u ad=0.118p as=0.118p
++  pd=1.46u ps=1.46u m=1
+        mcf1 vo+ vb3 n$52 vss n_18_mm l=0.18u w=0.24u ad=0.118p as=0.118p
++  pd=1.46u ps=1.46u m=1
+        ml1 n$22 vb1 vdd vdd p_18_mm l=0.18u w=0.24u ad=0.118p as=0.118p
++  pd=1.46u ps=1.46u m=1
+        ml2 n$18 vb1 vdd vdd p_18_mm l=0.18u w=0.24u ad=0.118p as=0.118p
++  pd=1.46u ps=1.46u m=1
+        mcl1 vo+ vb2 n$22 vdd p_18_mm l=0.18u w=0.24u ad=0.118p as=0.118p
++  pd=1.46u ps=1.46u m=1
+        mcl2 vo- vb2 n$18 vdd p_18_mm l=0.18u w=0.24u ad=0.118p as=0.118p
++  pd=1.46u ps=1.46u m=1
+*
+.end
