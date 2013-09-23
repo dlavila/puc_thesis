@@ -1,0 +1,34 @@
+# NOTE: This library list was created by ICstudio.
+# Changes made manually will be lost.
+
+MGC_LOCATION_MAP_2
+
+$MGC_DESIGN_KIT -t LIBRARY
+/usr/local/mentor/UMC180PDK
+
+$MGC_IC_DEVICE_LIB -t LIBRARY
+/usr/local/mentor/2008.2b_linux_x86_64/icflow_home/mgc_icstd_lib/device_lib
+
+$MGC_IC_GENERIC_LIB -t LIBRARY
+/usr/local/mentor/2008.2b_linux_x86_64/icflow_home/mgc_icstd_lib/generic_lib
+
+$MGC_IC_SOURCES_LIB -t LIBRARY
+/usr/local/mentor/2008.2b_linux_x86_64/icflow_home/mgc_icstd_lib/sources_lib
+
+$MGC_MACROLIB -t LIBRARY
+/usr/local/mentor/2008.2b_linux_x86_64/icflow_home/mgc_icstd_lib/mgc_ic_macrolib
+
+$MGC_IC_COMMLIB -t LIBRARY
+/usr/local/mentor/2008.2b_linux_x86_64/icflow_home/mgc_icstd_lib/mgc_ic_commlib
+
+$MGC_IC_COMMLIB_QS -t LIBRARY
+/usr/local/mentor/2008.2b_linux_x86_64/icflow_home/mgc_icstd_lib/mgc_ic_comm_qs
+
+$MGC_IC_COMMLIB_RF -t LIBRARY
+/usr/local/mentor/2008.2b_linux_x86_64/icflow_home/mgc_icstd_lib/mgc_ic_comm_rf
+
+$MGC_IC_VERILOG_LIB -t LIBRARY
+/usr/local/mentor/2008.2b_linux_x86_64/icflow_home/mgc_icstd_lib/mgc_ic_verilog
+
+$NCF_GLOBAL -t LIBRARY
+/usr/local/mentor/2008.2b_linux_x86_64/icflow_home/mgc_icstd_lib/global.ncf
