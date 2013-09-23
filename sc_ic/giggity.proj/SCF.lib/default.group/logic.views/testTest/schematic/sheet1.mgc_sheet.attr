@@ -1,18 +1,16 @@
-A 5 u mgc_sheet 5240829587d4.03.7f.00.00.01.00.4a.b5 12 2 19 0
-V v 10 2 52408240f0e2.03.92.9b.0e.fc.00.01.c8
-F f 10 "sheet1.ssht_10"
-F f 10 "sheet1.sgfx_10"
-V v 11 2 524082485342.03.92.9b.0e.fc.00.01.c8
-F f 11 "sheet1.ssht_11"
-F f 11 "sheet1.sgfx_11"
-V v 12 2 52409c2d1fd9.03.7f.00.00.01.00.53.54
-F f 12 "sheet1.ssht_12"
-F f 12 "sheet1.sgfx_12"
-O 12
+A 5 u mgc_sheet 5240829587d4.03.7f.00.00.01.00.4a.b5 18 2 23 0
+V v 16 2 52408f6b6827.03.92.9b.0e.fc.00.24.1f
+F f 16 "sheet1.ssht_16"
+F f 16 "sheet1.sgfx_16"
+V v 17 2 52408f84ed63.03.92.9b.0e.fc.00.24.1f
+F f 17 "sheet1.ssht_17"
+F f 17 "sheet1.sgfx_17"
+V v 18 2 52408fa504f3.03.92.9b.0e.fc.00.24.1f
+F f 18 "sheet1.ssht_18"
+F f 18 "sheet1.sgfx_18"
+O 18
 P "eddm__stream_to_use" "eddm__propl_dstream"
 R csduv 0 "$SCF/default.group/logic.views/testTest/schematic" 1 mgc_schematic 5240829586dd.03.7f.00.00.01.01.4a.b5 5240829586dd.03.7f.00.00.01.00.4a.b5
-R csduv 1 "$SCF/default.group/logic.views/test/part" 6 Eddm_part 52409b9e6d9f.03.7f.00.00.01.00.52.d7 52405758e0de.03.7f.00.00.01.00.35.1b
-R csduv 2 "$SCF/default.group/logic.views/test/test" 7 mgc_symbol 52409b9e6d77.03.7f.00.00.01.00.52.d7 524080ebe418.03.7f.00.00.01.00.49.67
 R csduv 3 "$MGC_IC_SOURCES_LIB/dc_v_source/part" 1 Eddm_part 3890a89d50f5.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.01.34.72
 R csduv 4 "$MGC_IC_SOURCES_LIB/dc_v_source/dc_v_source" 1 mgc_symbol 3890a89d50ce.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.02.34.72
 R csduv 5 "$MGC_IC_GENERIC_LIB/vdd/part" 1 Eddm_part 3db48b399318.03.93.22.29.75.00.28.94 3db48b399317.03.93.22.29.75.00.28.94
@@ -23,15 +21,11 @@ R csduv 9 "$MGC_IC_SOURCES_LIB/pulse_v_source/part" 2 Eddm_part 48349c3e2130.03.
 R csduv 10 "$MGC_IC_SOURCES_LIB/pulse_v_source/pulse_v_source" 5 mgc_symbol 48ac585944d7.03.93.22.29.5e.00.3f.5a 3890b26cc0aa.03.86.56.31.70.02.34.72
 R csduv 11 "$MGC_IC_GENERIC_LIB/portin/part" 1 Eddm_part 35773eaadc18.03.86.56.31.87.00.0e.9f 3890e8888efb.03.86.56.31.70.00.3a.eb
 R csduv 12 "$MGC_IC_GENERIC_LIB/portin/portin" 1 mgc_symbol 35773d18855d.03.86.56.31.87.00.0e.9f 3890e8888efa.03.86.56.31.70.04.3a.eb
-R csduv 13 "$MGC_IC_GENERIC_LIB/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 3890e8888efa.03.86.56.31.70.03.3a.eb
-R csduv 14 "$MGC_IC_GENERIC_LIB/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 3890e8888efa.03.86.56.31.70.02.3a.eb
-R csduv 17 "$MGC_DESIGN_KIT/symbols/NCAP_MM/part" 28 Eddm_part 462e8193c6ec.03.7f.00.00.01.00.0f.12 461b998c1e07.03.89.ca.19.1a.00.4f.21
-R csduv 18 "$MGC_DESIGN_KIT/symbols/NCAP_MM/NCAP_MM" 11 mgc_symbol 462e8193c6db.03.7f.00.00.01.00.0f.12 461b998f7a30.03.89.ca.19.1a.00.4f.21
-O 11
+R csduv 21 "$SCF/default.group/logic.views/test/part" 6 Eddm_part 52409b9e6d9f.03.7f.00.00.01.00.52.d7 52405758e0de.03.7f.00.00.01.00.35.1b
+R csduv 22 "$SCF/default.group/logic.views/test/test" 7 mgc_symbol 52409b9e6d77.03.7f.00.00.01.00.52.d7 524080ebe418.03.7f.00.00.01.00.49.67
+O 17
 P "eddm__stream_to_use" "eddm__propl_dstream"
 R csduv 0 "$SCF/default.group/logic.views/testTest/schematic" 1 mgc_schematic 5240829586dd.03.7f.00.00.01.01.4a.b5 5240829586dd.03.7f.00.00.01.00.4a.b5
-R csduv 1 "$SCF/default.group/logic.views/test/part" 4 Eddm_part 52407bd9281c.03.92.9b.0e.fc.00.01.c8 52405758e0de.03.7f.00.00.01.00.35.1b
-R csduv 2 "$SCF/default.group/logic.views/test/test" 5 mgc_symbol 52407f0ed3ef.03.92.9b.0e.fc.00.01.c8 524080ebe418.03.7f.00.00.01.00.49.67
 R csduv 3 "$MGC_IC_SOURCES_LIB/dc_v_source/part" 1 Eddm_part 3890a89d50f5.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.01.34.72
 R csduv 4 "$MGC_IC_SOURCES_LIB/dc_v_source/dc_v_source" 1 mgc_symbol 3890a89d50ce.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.02.34.72
 R csduv 5 "$MGC_IC_GENERIC_LIB/vdd/part" 1 Eddm_part 3db48b399318.03.93.22.29.75.00.28.94 3db48b399317.03.93.22.29.75.00.28.94
@@ -42,15 +36,11 @@ R csduv 9 "$MGC_IC_SOURCES_LIB/pulse_v_source/part" 2 Eddm_part 48349c3e2130.03.
 R csduv 10 "$MGC_IC_SOURCES_LIB/pulse_v_source/pulse_v_source" 5 mgc_symbol 48ac585944d7.03.93.22.29.5e.00.3f.5a 3890b26cc0aa.03.86.56.31.70.02.34.72
 R csduv 11 "$MGC_IC_GENERIC_LIB/portin/part" 1 Eddm_part 35773eaadc18.03.86.56.31.87.00.0e.9f 3890e8888efb.03.86.56.31.70.00.3a.eb
 R csduv 12 "$MGC_IC_GENERIC_LIB/portin/portin" 1 mgc_symbol 35773d18855d.03.86.56.31.87.00.0e.9f 3890e8888efa.03.86.56.31.70.04.3a.eb
-R csduv 13 "$MGC_IC_GENERIC_LIB/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 3890e8888efa.03.86.56.31.70.03.3a.eb
-R csduv 14 "$MGC_IC_GENERIC_LIB/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 3890e8888efa.03.86.56.31.70.02.3a.eb
-R csduv 17 "$MGC_DESIGN_KIT/symbols/NCAP_MM/part" 28 Eddm_part 462e8193c6ec.03.7f.00.00.01.00.0f.12 461b998c1e07.03.89.ca.19.1a.00.4f.21
-R csduv 18 "$MGC_DESIGN_KIT/symbols/NCAP_MM/NCAP_MM" 11 mgc_symbol 462e8193c6db.03.7f.00.00.01.00.0f.12 461b998f7a30.03.89.ca.19.1a.00.4f.21
-O 10
+R csduv 21 "$SCF/default.group/logic.views/test/part" 6 Eddm_part 52409b9e6d9f.03.7f.00.00.01.00.52.d7 52405758e0de.03.7f.00.00.01.00.35.1b
+R csduv 22 "$SCF/default.group/logic.views/test/test" 7 mgc_symbol 52409b9e6d77.03.7f.00.00.01.00.52.d7 524080ebe418.03.7f.00.00.01.00.49.67
+O 16
 P "eddm__stream_to_use" "eddm__propl_dstream"
 R csduv 0 "$SCF/default.group/logic.views/testTest/schematic" 1 mgc_schematic 5240829586dd.03.7f.00.00.01.01.4a.b5 5240829586dd.03.7f.00.00.01.00.4a.b5
-R csduv 1 "$SCF/default.group/logic.views/test/part" 4 Eddm_part 52407bd9281c.03.92.9b.0e.fc.00.01.c8 52405758e0de.03.7f.00.00.01.00.35.1b
-R csduv 2 "$SCF/default.group/logic.views/test/test" 5 mgc_symbol 52407f0ed3ef.03.92.9b.0e.fc.00.01.c8 524080ebe418.03.7f.00.00.01.00.49.67
 R csduv 3 "$MGC_IC_SOURCES_LIB/dc_v_source/part" 1 Eddm_part 3890a89d50f5.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.01.34.72
 R csduv 4 "$MGC_IC_SOURCES_LIB/dc_v_source/dc_v_source" 1 mgc_symbol 3890a89d50ce.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.02.34.72
 R csduv 5 "$MGC_IC_GENERIC_LIB/vdd/part" 1 Eddm_part 3db48b399318.03.93.22.29.75.00.28.94 3db48b399317.03.93.22.29.75.00.28.94
@@ -61,7 +51,3 @@ R csduv 9 "$MGC_IC_SOURCES_LIB/pulse_v_source/part" 2 Eddm_part 48349c3e2130.03.
 R csduv 10 "$MGC_IC_SOURCES_LIB/pulse_v_source/pulse_v_source" 5 mgc_symbol 48ac585944d7.03.93.22.29.5e.00.3f.5a 3890b26cc0aa.03.86.56.31.70.02.34.72
 R csduv 11 "$MGC_IC_GENERIC_LIB/portin/part" 1 Eddm_part 35773eaadc18.03.86.56.31.87.00.0e.9f 3890e8888efb.03.86.56.31.70.00.3a.eb
 R csduv 12 "$MGC_IC_GENERIC_LIB/portin/portin" 1 mgc_symbol 35773d18855d.03.86.56.31.87.00.0e.9f 3890e8888efa.03.86.56.31.70.04.3a.eb
-R csduv 13 "$MGC_IC_GENERIC_LIB/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 3890e8888efa.03.86.56.31.70.03.3a.eb
-R csduv 14 "$MGC_IC_GENERIC_LIB/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 3890e8888efa.03.86.56.31.70.02.3a.eb
-R csduv 17 "$MGC_DESIGN_KIT/symbols/NCAP_MM/part" 28 Eddm_part 462e8193c6ec.03.7f.00.00.01.00.0f.12 461b998c1e07.03.89.ca.19.1a.00.4f.21
-R csduv 18 "$MGC_DESIGN_KIT/symbols/NCAP_MM/NCAP_MM" 11 mgc_symbol 462e8193c6db.03.7f.00.00.01.00.0f.12 461b998f7a30.03.89.ca.19.1a.00.4f.21

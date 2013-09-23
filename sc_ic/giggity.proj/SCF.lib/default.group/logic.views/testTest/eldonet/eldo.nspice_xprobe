@@ -4,26 +4,9 @@
 version 1.0
 
 Globals
-   ground GROUND
    VDD VDD
+   ground GROUND
 End Globals
-
-Cell NCAP_MM
-   Pin D D
-   Pin G G
-   Pin S S
-   Pin B B
-End Cell
-
-Cell PULSE_V_SOURCE
-   Pin POS POS
-   Pin NEG NEG
-End Cell
-
-Cell DC_V_SOURCE
-   Pin POS POS
-   Pin NEG NEG
-End Cell
 
 Cell N_18_MM
    Pin D D
@@ -52,16 +35,24 @@ Cell TEST
    Inst M1 M1 P_18_MM
 End Cell
 
+Cell DC_V_SOURCE
+   Pin POS POS
+   Pin NEG NEG
+End Cell
+
+Cell PULSE_V_SOURCE
+   Pin POS POS
+   Pin NEG NEG
+End Cell
+
 Cell #top#
-   Pin VOUT VOUT
    Pin VIN VIN
-   Net VOUT VOUT
+   Net N$16 N$16
    Net VIN VIN
-   Global ground GROUND
    Global VDD VDD
-   Inst M1 M1 NCAP_MM
-   Inst V2 V2 PULSE_V_SOURCE
-   Inst V1 V1 DC_V_SOURCE
+   Global ground GROUND
    Inst TEST1 X_TEST1 TEST
+   Inst V1 V1 DC_V_SOURCE
+   Inst V2 V2 PULSE_V_SOURCE
 End Cell
 

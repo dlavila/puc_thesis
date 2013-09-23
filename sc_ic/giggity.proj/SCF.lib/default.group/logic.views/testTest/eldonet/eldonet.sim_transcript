@@ -54,18 +54,18 @@ with Eldo libraries :
 
 ***** GENERATION ...
 
-Warning 220: In file "./testTest_eldonet.spi" line 30:
-+   OBJECT "V2": Default values used for time specification.
 ERROR  214: In file "./testTest_eldonet.spi" line 19:
-+   OBJECT "X_TEST1.M2": No value specified for L
++   OBJECT "X_TEST1.M2": No value specified for $LIN
 Warning 255: In file "./testTest_eldonet.spi" line 19:
 +   OBJECT "X_TEST1.M2":  Size not consistent with LMIN/LMAX/WMIN/WMAX/TEMPMIN/TEMPMAX specification.
 +    l (-1.492310e+42u) is lower than lmin (1.800000e-01u)
 ERROR  214: In file "./testTest_eldonet.spi" line 21:
-+   OBJECT "X_TEST1.M1": No value specified for L
++   OBJECT "X_TEST1.M1": No value specified for $LIN
 Warning 255: In file "./testTest_eldonet.spi" line 21:
 +   OBJECT "X_TEST1.M1":  Size not consistent with LMIN/LMAX/WMIN/WMAX/TEMPMIN/TEMPMAX specification.
 +    l (-1.492310e+42u) is lower than lmin (1.800000e-01u)
+Warning 220: In file "./testTest_eldonet.spi" line 30:
++   OBJECT "V2": Default values used for time specification.
 Warning 1615: In file "./testTest_eldonet.cir" line 16:
 +   COMMAND ".TRAN": Tstep can not be <= 0.0.
 +   It is set to Tmax/20.0 = 1.500e-07 s.
@@ -77,21 +77,21 @@ Warning 1615: In file "./testTest_eldonet.cir" line 16:
 INFORMATION ABOUT COMPILATION...
 
 
-Memory space allocated (bytes): 120487936
-5 elements
+Memory space allocated (bytes): 120504320
+4 elements
 4 nodes
 1 input signals
 
 Check your input netlist...
 
 
-***>CPU TIME 0h 0mn 0s 050ms <***
+***>CPU TIME 0h 0mn 0s 060ms <***
 
 ***>MESSAGE SUMMARY: 2 errors, 4 warnings
 
 ***>GLOBAL CPU TIME 0s 050ms <***
 
 
-***>GLOBAL ELAPSED TIME 1s <***
+***>GLOBAL ELAPSED TIME 0s <***
 
 

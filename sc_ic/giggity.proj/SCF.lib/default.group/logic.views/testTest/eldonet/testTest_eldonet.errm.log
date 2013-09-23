@@ -1,4 +1,4 @@
-START report: Mon Sep 23 15:03:02 2013 
+START report: Mon Sep 23 16:00:30 2013 
 Warning: (eldo - 255)  In file "./testTest_eldonet.spi" line 19:
 +   OBJECT "X_TEST1.M2":  Size not consistent with LMIN/LMAX/WMIN/WMAX/TEMPMIN/TEMPMAX specification.
 +    l (-1.492310e+42u) is lower than lmin (1.800000e-01u)

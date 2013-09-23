@@ -6,7 +6,7 @@
 
 ***** PRE-PROCESSING ...
 
-1*******23-Sep-13 *******  ELDO 2009.2e (64 bits)  (v7.2_6.1)  *******15:03:02******
+1*******23-Sep-13 *******  ELDO 2009.2e (64 bits)  (v7.2_6.1)  *******16:00:30******
 
 0* Component: $SCF/default.group/logic.views/testTest  Viewpoint: eldonet
 
@@ -20,34 +20,32 @@
     4  .CONNECT GROUND 0
     5  
     6  
-    7  * ELDO netlist generated with ICnet by 'dlavila' on Mon Sep 23 2013 at 15:03:00
+    7  * ELDO netlist generated with ICnet by 'dlavila' on Mon Sep 23 2013 at 16:00:29
     8  
     9  *
    10  * Globals.
    11  *
-   12  .GLOBAL GROUND VDD
+   12  .GLOBAL VDD GROUND
    13  
    14  *
    15  * Component pathname : $SCF/default.group/logic.views/test
    16  *
    17  .SUBCKT TEST  OUT IN VDD_ESC1 VSS
    18  
-   19          M2 OUT IN VSS VSS N_18_MM L=L W=0.24U AD=0.118P AS=0.118P PD=1.46U
+   19          M2 OUT IN VSS VSS N_18_MM L=$LIN W=0.24U AD=0.118P AS=0.118P PD=1.46U
    20  +  PS=1.46U M=1
-   21          M1 OUT IN VDD_ESC1 VDD_ESC1 P_18_MM L=L W=0.24U AD=0.118P AS=0.118P
+   21          M1 OUT IN VDD_ESC1 VDD_ESC1 P_18_MM L=$LIN W=0.24U AD=0.118P AS=0.118P
    22  +  PD=1.46U PS=1.46U M=1
    23  .ENDS TEST
    24  
    25  *
    26  * MAIN CELL: Component pathname : $SCF/default.group/logic.views/testTest
    27  *
-   28          M1 GROUND VOUT GROUND GROUND N_18_MM L=50U W=50U AD=24.5P AS=24.5P
-   29  +  PD=0.101M PS=0.101M M=1
+   28          X_TEST1 N$16 VIN VDD GROUND TEST
+   29          V1 VDD GROUND DC 1.8V
    30          V2 VIN GROUND PULSE ( 0V 1.8V 0.01uS 0.01uS 0.5uS 1uS )
-   31          V1 VDD GROUND DC 1.8V
-   32          X_TEST1 VOUT VIN VDD GROUND TEST
-   33  *
-   34  *end
+   31  *
+   32  *end
     2  
     3  ** including /usr/local/mentor/UMC180PDK/models/ELDO/include_all
     1  *.lib  "./018-rf-v2d4-control.eldo" tt
@@ -3181,18 +3179,18 @@ End of file
 
 ***** GENERATION ...
 
-Warning 220: In file "./testTest_eldonet.spi" line 30:
-+   OBJECT "V2": Default values used for time specification.
 ERROR  214: In file "./testTest_eldonet.spi" line 19:
-+   OBJECT "X_TEST1.M2": No value specified for L
++   OBJECT "X_TEST1.M2": No value specified for $LIN
 Warning 255: In file "./testTest_eldonet.spi" line 19:
 +   OBJECT "X_TEST1.M2":  Size not consistent with LMIN/LMAX/WMIN/WMAX/TEMPMIN/TEMPMAX specification.
 +    l (-1.492310e+42u) is lower than lmin (1.800000e-01u)
 ERROR  214: In file "./testTest_eldonet.spi" line 21:
-+   OBJECT "X_TEST1.M1": No value specified for L
++   OBJECT "X_TEST1.M1": No value specified for $LIN
 Warning 255: In file "./testTest_eldonet.spi" line 21:
 +   OBJECT "X_TEST1.M1":  Size not consistent with LMIN/LMAX/WMIN/WMAX/TEMPMIN/TEMPMAX specification.
 +    l (-1.492310e+42u) is lower than lmin (1.800000e-01u)
+Warning 220: In file "./testTest_eldonet.spi" line 30:
++   OBJECT "V2": Default values used for time specification.
 Warning 1615: In file "./testTest_eldonet.cir" line 16:
 +   COMMAND ".TRAN": Tstep can not be <= 0.0.
 +   It is set to Tmax/20.0 = 1.500e-07 s.
@@ -3204,8 +3202,8 @@ Warning 1615: In file "./testTest_eldonet.cir" line 16:
 INFORMATION ABOUT COMPILATION 
 
 
-Memory space allocated (bytes): 120487936
-5 elements
+Memory space allocated (bytes): 120504320
+4 elements
 4 nodes 
 1 input signals
 
@@ -3216,11 +3214,11 @@ Check your input netlist...
 ***>GLOBAL CPU TIME 0s 050ms <***
 
 
-***>GLOBAL ELAPSED TIME 1s <***
+***>GLOBAL ELAPSED TIME 0s <***
 
 
-  Job started at 23-Sep-2013 15:03:01
-  Job end at     23-Sep-2013 15:03:02
+  Job started at 23-Sep-2013 16:00:30
+  Job end at     23-Sep-2013 16:00:30
 
   Run on megatron (Linux 2.6.18-348.16.1.el5)
 
