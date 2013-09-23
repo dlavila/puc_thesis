@@ -1,0 +1,10 @@
+START report: Mon Sep 23 15:03:02 2013 
+Warning: (eldo - 255)  In file "./testTest_eldonet.spi" line 19:
++   OBJECT "X_TEST1.M2":  Size not consistent with LMIN/LMAX/WMIN/WMAX/TEMPMIN/TEMPMAX specification.
++    l (-1.492310e+42u) is lower than lmin (1.800000e-01u)
+Warning: (eldo - 255)  In file "./testTest_eldonet.spi" line 21:
++   OBJECT "X_TEST1.M1":  Size not consistent with LMIN/LMAX/WMIN/WMAX/TEMPMIN/TEMPMAX specification.
++    l (-1.492310e+42u) is lower than lmin (1.800000e-01u)
+Warning: (eldo - 1615)  In file "./testTest_eldonet.cir" line 16:
++   COMMAND ".TRAN": Tstep can not be <= 0.0.
++   It is set to Tmax/20.0 = 1.500e-07 s.

@@ -1,9 +1,13 @@
-A 5 u mgc_symbol 524080ebe418.03.7f.00.00.01.00.49.67 2 2 1 0
-V v 1 1 524080ebe418.03.7f.00.00.01.01.49.67
-F f 1 "test.smbl_1"
-V v 2 1 5240812f7aef.03.7f.00.00.01.00.49.67
-F f 2 "test.smbl_2"
-O 2
-R csduv 0 "$SCF/default.group/logic.views/test/part" 3 Eddm_part 5240812f7af6.03.7f.00.00.01.00.49.67 52405758e0de.03.7f.00.00.01.00.35.1b
-O 1
-R csduv 0 "$SCF/default.group/logic.views/test/part" 2 Eddm_part 524080ebe5e1.03.7f.00.00.01.00.49.67 52405758e0de.03.7f.00.00.01.00.35.1b
+A 5 u mgc_symbol 524080ebe418.03.7f.00.00.01.00.49.67 6 2 1 0
+V v 4 1 52407d13e313.03.92.9b.0e.fc.00.01.c8
+F f 4 "test.smbl_4"
+V v 5 1 52407f0ed3ef.03.92.9b.0e.fc.00.01.c8
+F f 5 "test.smbl_5"
+V v 6 1 524088bd8d04.03.92.9b.0e.fc.00.01.c8
+F f 6 "test.smbl_6"
+O 6
+R csduv 0 "$SCF/default.group/logic.views/test/part" 5 Eddm_part 524088bd8d0a.03.92.9b.0e.fc.00.01.c8 52405758e0de.03.7f.00.00.01.00.35.1b
+O 5
+R csduv 0 "$SCF/default.group/logic.views/test/part" 4 Eddm_part 52407bd9281c.03.92.9b.0e.fc.00.01.c8 52405758e0de.03.7f.00.00.01.00.35.1b
+O 4
+R csduv 0 "$SCF/default.group/logic.views/test/part" 4 Eddm_part 52407bd9281c.03.92.9b.0e.fc.00.01.c8 52405758e0de.03.7f.00.00.01.00.35.1b

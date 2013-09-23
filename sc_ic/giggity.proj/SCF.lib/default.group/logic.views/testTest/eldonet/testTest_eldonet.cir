@@ -13,4 +13,4 @@
 
 .TEMP 27 
 
-.TRAN  0 10us
+.TRAN  0 3us 0 0.001us

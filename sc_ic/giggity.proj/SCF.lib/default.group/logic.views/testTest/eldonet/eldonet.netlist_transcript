@@ -1,3 +1,13 @@
+// *************************************************************************
+// Warning: This Linux distribution is not supported.
+// 
+// Supported runtime operating systems for this 64 bit application are: 
+// RHEL 3  64 bit
+// RHEL 4  64 bit
+// RHEL 5  64 bit
+// SLES 9  64 bit
+// SLES 10 64 bit
+// *************************************************************************
 //  ICnet  v2008.2_3.1 (2008.2b)  Tue May 5 19:07:13 PDT 2009
 //  Core Libraries  v2008.2_3.1 Tue May  5 19:22:21 PDT 2009
 //

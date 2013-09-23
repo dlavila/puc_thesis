@@ -1,3 +1,9 @@
+*
+* .CONNECT statements
+*
+.CONNECT GROUND 0
+
+
 * ELDO netlist generated with ICnet by 'dlavila' on Mon Sep 23 2013 at 15:03:00
 
 *
