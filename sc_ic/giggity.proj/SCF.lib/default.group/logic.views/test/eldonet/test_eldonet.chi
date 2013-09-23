@@ -1,0 +1,3 @@
+Error: Simulator not setup properly or installed.
+       Please check your anacad environment or your simulator setup:
+       Session > Simulator/Viewer from the schematic_sim palette.

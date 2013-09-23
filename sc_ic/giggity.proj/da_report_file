@@ -1,0 +1,377 @@
+
+
+Check Schematic  "OTA/schematic/sheet1"
+Check Sheet "OTA/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Unconnected pins on
+           Instance(s) at Pins(s):
+           I$1         P$61       P$67       P$72       P$77
+           I$2         P$109      P$114      P$119      P$124
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   2 warnings  (MGC-required)
+  Warning:  Unable to evaluate property "nfm" on I$1
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$2
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 3 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Schematic is not registered with an interface
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 4 Warnings
+
+
+Check Schematic  "OTA/schematic/sheet1"
+Check Sheet "OTA/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors  12 warnings  (MGC-required)
+  Warning:  Unable to evaluate property "nfm" on I$1
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$2
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$3
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$4
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$5
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$6
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$7
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$8
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$9
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$10
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$11
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$12
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   5 warnings  (MGC-required)
+  Warning:  Net name "Vdd" connects the following nets:
+             N$6         N$3        N$9        N$13       N$45       N$43
+            N$42
+  Warning:  Net name "NET" connects the following nets:
+             N$2         N$51
+  Warning:  Net name "Vb2" connects the following nets:
+             N$4         N$46
+  Warning:  Net name "Vb1" connects the following nets:
+             N$15        N$47
+  Warning:  Net name "Vss" connects the following nets:
+             N$22        N$19       N$25       N$29
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 17 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "OTA" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 18 Warnings
+
+
+Check Schematic  "OTA/schematic/sheet1"
+Check Sheet "OTA/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors  12 warnings  (MGC-required)
+  Warning:  Unable to evaluate property "nfm" on I$1
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$2
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$3
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$4
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$5
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$6
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$7
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$8
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$9
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$10
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$11
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$12
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   5 warnings  (MGC-required)
+  Warning:  Net name "Vdd" connects the following nets:
+             N$6         N$3        N$9        N$13       N$45       N$43
+            N$42
+  Warning:  Net name "NET" connects the following nets:
+             N$2         N$51
+  Warning:  Net name "Vb2" connects the following nets:
+             N$4         N$46
+  Warning:  Net name "Vb1" connects the following nets:
+             N$15        N$47
+  Warning:  Net name "Vss" connects the following nets:
+             N$22        N$19       N$25       N$29
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 17 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "OTA" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 18 Warnings
+
+
+Check Schematic  "OTA/schematic/sheet1"
+Check Sheet "OTA/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors  12 warnings  (MGC-required)
+  Warning:  Unable to evaluate property "nfm" on I$1
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$2
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$3
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$4
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$5
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$6
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$7
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$8
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$9
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$10
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$11
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$12
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   4 warnings  (MGC-required)
+  Warning:  Net name "Vdd" connects the following nets:
+             N$6         N$3        N$9        N$13       N$45       N$43
+            N$42
+  Warning:  Net name "Vb2" connects the following nets:
+             N$4         N$46
+  Warning:  Net name "Vb1" connects the following nets:
+             N$15        N$47
+  Warning:  Net name "Vss" connects the following nets:
+             N$22        N$19       N$25       N$29
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 16 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "OTA" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 17 Warnings
+
+
+Check Schematic  "OTA/schematic/sheet1"
+Check Sheet "OTA/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors  12 warnings  (MGC-required)
+  Warning:  Unable to evaluate property "nfm" on I$1
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$2
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$3
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$4
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$5
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$6
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$7
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$8
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$9
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$10
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$11
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$12
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   4 warnings  (MGC-required)
+  Warning:  Net name "Vdd" connects the following nets:
+             N$6         N$3        N$9        N$13       N$45       N$43
+            N$42
+  Warning:  Net name "Vb2" connects the following nets:
+             N$4         N$46
+  Warning:  Net name "Vb1" connects the following nets:
+             N$15        N$47
+  Warning:  Net name "Vss" connects the following nets:
+             N$22        N$19       N$25       N$29
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 16 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "OTA" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 17 Warnings
+
+
+Check Schematic  "test/schematic/sheet1"
+Check Sheet "test/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   1 warnings
+  Warning:  The following class-instances may overlap with
+            other class or non-class instances:
+            GLOBAL:    I$3        I$4        I$5
+            other:     I$1
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "test/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Schematic is not registered with an interface
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "test/schematic/sheet1" passed check :  0 Errors, 2 Warnings

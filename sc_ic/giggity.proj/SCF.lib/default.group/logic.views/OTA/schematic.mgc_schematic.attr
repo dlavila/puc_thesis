@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 524050b43373.03.7f.00.00.01.00.32.34 7 2 1 0
+V v 5 1 5240536b1466.03.7f.00.00.01.00.32.34
+F o 0 ""
+V v 6 1 52405394b0a5.03.7f.00.00.01.00.32.34
+F o 0 ""
+V v 7 1 524053c7540b.03.7f.00.00.01.00.32.34
+F o 0 ""
+O 7
+R cspuv 0 "$SCF/default.group/logic.views/OTA/schematic/sheet1" 6 mgc_sheet 524053c753e4.03.7f.00.00.01.00.32.34 524050b4345c.03.7f.00.00.01.00.32.34
+O 6
+R cspuv 0 "$SCF/default.group/logic.views/OTA/schematic/sheet1" 5 mgc_sheet 52405394b091.03.7f.00.00.01.00.32.34 524050b4345c.03.7f.00.00.01.00.32.34
+O 5
+R cspuv 0 "$SCF/default.group/logic.views/OTA/schematic/sheet1" 4 mgc_sheet 5240536b1444.03.7f.00.00.01.00.32.34 524050b4345c.03.7f.00.00.01.00.32.34

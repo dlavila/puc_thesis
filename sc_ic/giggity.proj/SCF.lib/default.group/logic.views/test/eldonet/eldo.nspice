@@ -1,0 +1,14 @@
+* ELDO netlist generated with ICnet by 'dlavila' on Mon Sep 23 2013 at 12:01:13
+
+*
+* Globals.
+*
+.global ground
+
+*
+* MAIN CELL: Component pathname : $SCF/default.group/logic.views/test
+*
+        m1 ground ground ground ground p_18_mm l=0.18u w=0.24u ad=0.118p
++  as=0.118p pd=1.46u ps=1.46u m=1
+*
+.end

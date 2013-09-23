@@ -1,0 +1,6 @@
+A 5 u Eddm_part 524051301f7c.03.7f.00.00.01.00.32.34 1 2 1 0
+V v 1 1 524051301f7c.03.7f.00.00.01.01.32.34
+F f 1 "part.part_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SCF/default.group/logic.views/OTA/schematic" 1 mgc_schematic 524050b43373.03.7f.00.00.01.01.32.34 524050b43373.03.7f.00.00.01.00.32.34

@@ -51,5 +51,10 @@
     <location>/usr/local/mentor/2008.2b_linux_x86_64/icflow_home/mgc_icstd_lib/global.ncf</location>
    </locations>
   </library>
+  <library name="SCF" >
+   <locations>
+    <location>SCF.lib</location>
+   </locations>
+  </library>
  </entries>
 </locmap>
