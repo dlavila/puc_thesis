@@ -1,13 +1,13 @@
-A 5 u mgc_schematic 524056a77af4.03.7f.00.00.01.00.35.1b 9 2 1 0
-V v 7 1 52407d1ce1c2.03.92.9b.0e.fc.00.01.c8
+A 5 u mgc_schematic 524056a77af4.03.7f.00.00.01.00.35.1b 14 2 1 0
+V v 12 1 52409c266980.03.7f.00.00.01.00.53.54
 F o 0 ""
-V v 8 1 52407f0cb330.03.92.9b.0e.fc.00.01.c8
+V v 13 1 52409c2728e4.03.7f.00.00.01.00.53.54
 F o 0 ""
-V v 9 1 524081ab0ba3.03.92.9b.0e.fc.00.01.c8
+V v 14 1 52409c7fa692.03.7f.00.00.01.00.53.54
 F o 0 ""
-O 9
-R cspuv 0 "$SCF/default.group/logic.views/test/schematic/sheet1" 8 mgc_sheet 524081ab0b90.03.92.9b.0e.fc.00.01.c8 524056a77b83.03.7f.00.00.01.00.35.1b
-O 8
-R cspuv 0 "$SCF/default.group/logic.views/test/schematic/sheet1" 7 mgc_sheet 52407f0cb31c.03.92.9b.0e.fc.00.01.c8 524056a77b83.03.7f.00.00.01.00.35.1b
-O 7
-R cspuv 0 "$SCF/default.group/logic.views/test/schematic/sheet1" 6 mgc_sheet 52407d1ce1b0.03.92.9b.0e.fc.00.01.c8 524056a77b83.03.7f.00.00.01.00.35.1b
+O 14
+R cspuv 0 "$SCF/default.group/logic.views/test/schematic/sheet1" 13 mgc_sheet 52409c7fa676.03.7f.00.00.01.00.53.54 524056a77b83.03.7f.00.00.01.00.35.1b
+O 13
+R cspuv 0 "$SCF/default.group/logic.views/test/schematic/sheet1" 12 mgc_sheet 52409c2728ce.03.7f.00.00.01.00.53.54 524056a77b83.03.7f.00.00.01.00.35.1b
+O 12
+R cspuv 0 "$SCF/default.group/logic.views/test/schematic/sheet1" 11 mgc_sheet 52409c266968.03.7f.00.00.01.00.53.54 524056a77b83.03.7f.00.00.01.00.35.1b

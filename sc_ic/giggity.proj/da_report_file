@@ -1882,3 +1882,14 @@ Check Pin --------   0 errors   0 warnings  (MGC-required)
 Check Special ----   0 errors   0 warnings  (MGC-required)
 
  "test/test" passed check :  0 Errors, 1 Warnings
+
+
+Check Symbol "test/test"
+Check Body -------   0 errors   0 warnings  (MGC-required)
+Check Interface --   0 errors   1 warnings
+  Warning:  Property "lin" on the symbol is not on the interface
+
+Check Pin --------   0 errors   0 warnings  (MGC-required)
+Check Special ----   0 errors   0 warnings  (MGC-required)
+
+ "test/test" passed check :  0 Errors, 1 Warnings
