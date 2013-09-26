@@ -1,0 +1,60 @@
+<!DOCTYPE ICstudioLocMap>
+<locmap type="project" >
+ <entries>
+  <library name="MGC_DESIGN_KIT" >
+   <locations>
+    <location>/usr/local/mentor/UMC180PDK</location>
+   </locations>
+  </library>
+  <library name="MGC_IC_DEVICE_LIB" >
+   <locations>
+    <location>/usr/local/mentor/2008.2b_linux_x86_64/icflow_home/mgc_icstd_lib/device_lib</location>
+   </locations>
+  </library>
+  <library name="MGC_IC_GENERIC_LIB" >
+   <locations>
+    <location>/usr/local/mentor/2008.2b_linux_x86_64/icflow_home/mgc_icstd_lib/generic_lib</location>
+   </locations>
+  </library>
+  <library name="MGC_IC_SOURCES_LIB" >
+   <locations>
+    <location>/usr/local/mentor/2008.2b_linux_x86_64/icflow_home/mgc_icstd_lib/sources_lib</location>
+   </locations>
+  </library>
+  <library name="MGC_MACROLIB" >
+   <locations>
+    <location>/usr/local/mentor/2008.2b_linux_x86_64/icflow_home/mgc_icstd_lib/mgc_ic_macrolib</location>
+   </locations>
+  </library>
+  <library name="MGC_IC_COMMLIB" >
+   <locations>
+    <location>/usr/local/mentor/2008.2b_linux_x86_64/icflow_home/mgc_icstd_lib/mgc_ic_commlib</location>
+   </locations>
+  </library>
+  <library name="MGC_IC_COMMLIB_QS" >
+   <locations>
+    <location>/usr/local/mentor/2008.2b_linux_x86_64/icflow_home/mgc_icstd_lib/mgc_ic_comm_qs</location>
+   </locations>
+  </library>
+  <library name="MGC_IC_COMMLIB_RF" >
+   <locations>
+    <location>/usr/local/mentor/2008.2b_linux_x86_64/icflow_home/mgc_icstd_lib/mgc_ic_comm_rf</location>
+   </locations>
+  </library>
+  <library name="MGC_IC_VERILOG_LIB" >
+   <locations>
+    <location>/usr/local/mentor/2008.2b_linux_x86_64/icflow_home/mgc_icstd_lib/mgc_ic_verilog</location>
+   </locations>
+  </library>
+  <library name="NCF_GLOBAL" >
+   <locations>
+    <location>/usr/local/mentor/2008.2b_linux_x86_64/icflow_home/mgc_icstd_lib/global.ncf</location>
+   </locations>
+  </library>
+  <library name="SCF" >
+   <locations>
+    <location>SCF.lib</location>
+   </locations>
+  </library>
+ </entries>
+</locmap>

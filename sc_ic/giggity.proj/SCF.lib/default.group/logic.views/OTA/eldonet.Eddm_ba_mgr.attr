@@ -1,0 +1,6 @@
+A 5 u Eddm_ba_mgr 524070835912.03.7f.00.00.01.00.43.8e 1 2 1 0
+V v 1 1 524070835912.03.7f.00.00.01.01.43.8e
+F f 1 "eldonet.ba_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$SCF/default.group/logic.views/OTA/eldonet" 1 Eddm_design_viewpoint 5240708356d4.03.7f.00.00.01.01.43.8e 5240708356d4.03.7f.00.00.01.00.43.8e

@@ -1,0 +1,19 @@
+A 5 u Eddm_part 52405c01dbe2.03.92.9b.0e.fc.00.58.18 6 2 2 0
+V v 4 1 52407f7ae2e0.03.7f.00.00.01.00.47.ba
+F f 4 "part.part_4"
+V v 5 1 52407fd0167d.03.7f.00.00.01.00.47.ba
+F f 5 "part.part_5"
+V v 6 1 52407fd16930.03.7f.00.00.01.00.47.ba
+F f 6 "part.part_6"
+O 6
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SCF/default.group/logic.views/OTA/schematic" 1 mgc_schematic 52405bd9e983.03.92.9b.0e.fc.00.58.18 52405bd9e982.03.92.9b.0e.fc.00.58.18
+R csduv 1 "$SCF/default.group/logic.views/OTA/OTA" 8 mgc_symbol 52407fd16927.03.7f.00.00.01.00.47.ba 52407840b6ae.03.7f.00.00.01.00.43.8e
+O 5
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SCF/default.group/logic.views/OTA/schematic" 1 mgc_schematic 52405bd9e983.03.92.9b.0e.fc.00.58.18 52405bd9e982.03.92.9b.0e.fc.00.58.18
+R csduv 1 "$SCF/default.group/logic.views/OTA/OTA" 7 mgc_symbol 52407fd01665.03.7f.00.00.01.00.47.ba 52407840b6ae.03.7f.00.00.01.00.43.8e
+O 4
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SCF/default.group/logic.views/OTA/schematic" 1 mgc_schematic 52405bd9e983.03.92.9b.0e.fc.00.58.18 52405bd9e982.03.92.9b.0e.fc.00.58.18
+R csduv 1 "$SCF/default.group/logic.views/OTA/OTA" 6 mgc_symbol 52407f7ae2d0.03.7f.00.00.01.00.47.ba 52407840b6ae.03.7f.00.00.01.00.43.8e

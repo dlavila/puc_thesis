@@ -1,0 +1,11 @@
+* ELDO netlist generated with ICnet by 'dlavila' on Mon Sep 23 2013 at 14:32:18
+
+*
+* MAIN CELL: Component pathname : $SCF/default.group/logic.views/test
+*
+        m2 out in vss vss n_18_mm l=0.18u w=0.24u ad=0.118p as=0.118p pd=1.46u
++  ps=1.46u m=1
+        m1 out in vdd vdd p_18_mm l=0.18u w=0.24u ad=0.118p as=0.118p pd=1.46u
++  ps=1.46u m=1
+*
+.end

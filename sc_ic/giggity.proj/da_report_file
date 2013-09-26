@@ -1,0 +1,2146 @@
+
+
+Check Schematic  "OTA/schematic/sheet1"
+Check Sheet "OTA/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Unconnected pins on
+           Instance(s) at Pins(s):
+           I$1         P$61       P$67       P$72       P$77
+           I$2         P$109      P$114      P$119      P$124
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   2 warnings  (MGC-required)
+  Warning:  Unable to evaluate property "nfm" on I$1
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$2
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 3 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Schematic is not registered with an interface
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 4 Warnings
+
+
+Check Schematic  "OTA/schematic/sheet1"
+Check Sheet "OTA/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors  12 warnings  (MGC-required)
+  Warning:  Unable to evaluate property "nfm" on I$1
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$2
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$3
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$4
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$5
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$6
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$7
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$8
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$9
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$10
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$11
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$12
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   5 warnings  (MGC-required)
+  Warning:  Net name "Vdd" connects the following nets:
+             N$6         N$3        N$9        N$13       N$45       N$43
+            N$42
+  Warning:  Net name "NET" connects the following nets:
+             N$2         N$51
+  Warning:  Net name "Vb2" connects the following nets:
+             N$4         N$46
+  Warning:  Net name "Vb1" connects the following nets:
+             N$15        N$47
+  Warning:  Net name "Vss" connects the following nets:
+             N$22        N$19       N$25       N$29
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 17 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "OTA" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 18 Warnings
+
+
+Check Schematic  "OTA/schematic/sheet1"
+Check Sheet "OTA/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors  12 warnings  (MGC-required)
+  Warning:  Unable to evaluate property "nfm" on I$1
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$2
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$3
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$4
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$5
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$6
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$7
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$8
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$9
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$10
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$11
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$12
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   5 warnings  (MGC-required)
+  Warning:  Net name "Vdd" connects the following nets:
+             N$6         N$3        N$9        N$13       N$45       N$43
+            N$42
+  Warning:  Net name "NET" connects the following nets:
+             N$2         N$51
+  Warning:  Net name "Vb2" connects the following nets:
+             N$4         N$46
+  Warning:  Net name "Vb1" connects the following nets:
+             N$15        N$47
+  Warning:  Net name "Vss" connects the following nets:
+             N$22        N$19       N$25       N$29
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 17 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "OTA" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 18 Warnings
+
+
+Check Schematic  "OTA/schematic/sheet1"
+Check Sheet "OTA/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors  12 warnings  (MGC-required)
+  Warning:  Unable to evaluate property "nfm" on I$1
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$2
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$3
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$4
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$5
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$6
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$7
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$8
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$9
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$10
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$11
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$12
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   4 warnings  (MGC-required)
+  Warning:  Net name "Vdd" connects the following nets:
+             N$6         N$3        N$9        N$13       N$45       N$43
+            N$42
+  Warning:  Net name "Vb2" connects the following nets:
+             N$4         N$46
+  Warning:  Net name "Vb1" connects the following nets:
+             N$15        N$47
+  Warning:  Net name "Vss" connects the following nets:
+             N$22        N$19       N$25       N$29
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 16 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "OTA" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 17 Warnings
+
+
+Check Schematic  "OTA/schematic/sheet1"
+Check Sheet "OTA/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors  12 warnings  (MGC-required)
+  Warning:  Unable to evaluate property "nfm" on I$1
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$2
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$3
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$4
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$5
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$6
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$7
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$8
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$9
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$10
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$11
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$12
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   4 warnings  (MGC-required)
+  Warning:  Net name "Vdd" connects the following nets:
+             N$6         N$3        N$9        N$13       N$45       N$43
+            N$42
+  Warning:  Net name "Vb2" connects the following nets:
+             N$4         N$46
+  Warning:  Net name "Vb1" connects the following nets:
+             N$15        N$47
+  Warning:  Net name "Vss" connects the following nets:
+             N$22        N$19       N$25       N$29
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 16 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "OTA" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 17 Warnings
+
+
+Check Schematic  "test/schematic/sheet1"
+Check Sheet "test/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   1 warnings
+  Warning:  The following class-instances may overlap with
+            other class or non-class instances:
+            GLOBAL:    I$3        I$4        I$5
+            other:     I$1
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "test/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Schematic is not registered with an interface
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "test/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+
+Check Schematic  "OTA/schematic/sheet1"
+Check Sheet "OTA/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors  12 warnings  (MGC-required)
+  Warning:  Unable to evaluate property "nfm" on I$1
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$2
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$3
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$4
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$5
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$6
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$7
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$8
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$9
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$10
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$11
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+  Warning:  Unable to evaluate property "nfm" on I$12
+            Unable to evaluate expression
+            Unable to resolve expression symbol $s2n
+
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   4 warnings  (MGC-required)
+  Warning:  Net name "Vdd" connects the following nets:
+             N$6         N$3        N$9        N$13       N$45       N$43
+            N$42
+  Warning:  Net name "Vb2" connects the following nets:
+             N$4         N$46
+  Warning:  Net name "Vb1" connects the following nets:
+             N$15        N$47
+  Warning:  Net name "Vss" connects the following nets:
+             N$22        N$19       N$25       N$29
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 16 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "OTA" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 17 Warnings
+
+
+Check Schematic  "OTA/schematic/sheet1"
+Check Sheet "OTA/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Unconnected pins on
+           Instance(s) at Pins(s):
+           I$1         P$61       P$67       P$72       P$77
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Schematic is not registered with an interface
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+
+Check Schematic  "OTA/schematic/sheet1"
+Check Sheet "OTA/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Unconnected pins on
+           Instance(s) at Pins(s):
+           I$3         P$156      P$161      P$166      P$171
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "OTA" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+
+Check Schematic  "OTA/schematic/sheet1"
+Check Sheet "OTA/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Unconnected pins on
+           Instance(s) at Pins(s):
+           I$3         P$156      P$161      P$166      P$171
+           I$4         P$203      P$208      P$213      P$218
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "OTA" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+
+Check Schematic  "OTA/schematic/sheet1"
+Check Sheet "OTA/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Unconnected pins on
+           Instance(s) at Pins(s):
+           I$3         P$156      P$161      P$166
+           I$4         P$203      P$208      P$213
+           I$5         P$250      P$260      P$265
+           I$6         P$297      P$307      P$312
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "OTA" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+
+Check Schematic  "OTA/schematic/sheet1"
+Check Sheet "OTA/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$9         V$514
+           N$10        V$519
+           N$13        V$526
+           N$17        V$555
+           N$21        V$550
+           N$30        V$530
+           N$27        V$528
+           N$31        V$524
+           N$36        V$545
+           N$40        V$537
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "OTA" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+
+Check Schematic  "OTA/schematic/sheet1"
+Check Sheet "OTA/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$9         V$514
+           N$10        V$519
+           N$13        V$526
+           N$17        V$555
+           N$21        V$550
+           N$30        V$530
+           N$27        V$528
+           N$31        V$524
+           N$36        V$545
+           N$40        V$537
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   1 warnings  (MGC-required)
+  Warning:  Net name "NET" connects the following nets:
+             N$39        N$28
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "OTA" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 3 Warnings
+
+
+Check Schematic  "OTA/schematic/sheet1"
+Check Sheet "OTA/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$9         V$514
+           N$10        V$519
+           N$13        V$526
+           N$17        V$555
+           N$21        V$550
+           N$30        V$530
+           N$27        V$528
+           N$31        V$524
+           N$36        V$545
+           N$40        V$537
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "OTA" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+
+Check Schematic  "OTA/schematic/sheet1"
+Check Sheet "OTA/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   1 errors   0 warnings
+  Error:  I$14 overlaps I$15
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$9         V$514
+           N$10        V$519
+           N$13        V$526
+           N$17        V$555
+           N$21        V$550
+           N$30        V$530
+           N$27        V$528
+           N$31        V$524
+           N$36        V$545
+           N$46        V$778
+           N$58        V$811
+           N$57        V$809
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   1 warnings  (MGC-required)
+  Warning:  Net name "NET" connects the following nets:
+             N$40        N$55       N$54       N$45
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "OTA/schematic/sheet1" failed check :  1 Errors, 2 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "OTA" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "OTA/schematic/sheet1" failed check :  1 Errors, 3 Warnings
+
+
+Check Schematic  "OTA/schematic/sheet1"
+Check Sheet "OTA/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   1 errors   0 warnings
+  Error:  I$14 overlaps I$15
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$9         V$514
+           N$10        V$519
+           N$13        V$526
+           N$17        V$555
+           N$21        V$550
+           N$30        V$530
+           N$27        V$528
+           N$31        V$524
+           N$36        V$545
+           N$46        V$778
+           N$58        V$811
+           N$57        V$809
+           N$54        V$800
+           N$55        V$802
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   1 warnings  (MGC-required)
+  Warning:  Net name "NET" connects the following nets:
+             N$40        N$45
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "OTA/schematic/sheet1" failed check :  1 Errors, 2 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "OTA" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "OTA/schematic/sheet1" failed check :  1 Errors, 3 Warnings
+
+
+Check Schematic  "OTA/schematic/sheet1"
+Check Sheet "OTA/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   1 errors   0 warnings
+  Error:  I$14 overlaps I$15
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$9         V$514
+           N$10        V$519
+           N$13        V$526
+           N$17        V$555
+           N$21        V$550
+           N$30        V$530
+           N$27        V$528
+           N$31        V$524
+           N$36        V$545
+           N$40        V$537
+           N$46        V$778
+           N$58        V$811
+           N$57        V$809
+           N$54        V$800
+           N$55        V$802
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "OTA/schematic/sheet1" failed check :  1 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "OTA" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "OTA/schematic/sheet1" failed check :  1 Errors, 2 Warnings
+
+
+Check Schematic  "OTA/schematic/sheet1"
+Check Sheet "OTA/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   1 errors   0 warnings
+  Error:  I$14 overlaps I$15
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$9         V$514
+           N$10        V$519
+           N$13        V$526
+           N$17        V$555
+           N$21        V$550
+           N$30        V$530
+           N$27        V$528
+           N$31        V$524
+           N$36        V$545
+           N$40        V$537
+           N$46        V$778
+           N$58        V$811
+           N$45        V$807
+           N$57        V$809
+           N$54        V$800
+           N$55        V$802
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "OTA/schematic/sheet1" failed check :  1 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "OTA" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "OTA/schematic/sheet1" failed check :  1 Errors, 2 Warnings
+
+
+Check Schematic  "OTA/schematic/sheet1"
+Check Sheet "OTA/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   2 warnings
+  Warning:  Unconnected pins on
+           Instance(s) at Pins(s):
+           I$9         P$453
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$9         V$514
+           N$13        V$526
+           N$17        V$555
+           N$21        V$550
+           N$36        V$943
+           N$46        V$847
+           N$58        V$850
+           N$57        V$842
+           N$54        V$879
+           N$55        V$862
+           N$31        V$524
+           N$27        V$528
+           N$10        V$519
+           N$30        V$530
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "OTA" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 3 Warnings
+
+
+Check Schematic  "OTA/schematic/sheet1"
+Check Sheet "OTA/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   2 warnings
+  Warning:  Unconnected pins on
+           Instance(s) at Pins(s):
+           I$9         P$453
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$9         V$514
+           N$13        V$526
+           N$17        V$555
+           N$21        V$550
+           N$36        V$943
+           N$46        V$1013
+           N$58        V$1018
+           N$57        V$1028
+           N$54        V$1007
+           N$55        V$974
+           N$31        V$524
+           N$27        V$528
+           N$10        V$519
+           N$30        V$530
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "OTA" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 3 Warnings
+
+
+Check Schematic  "OTA/schematic/sheet1"
+Check Sheet "OTA/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$9         V$514
+           N$13        V$526
+           N$17        V$555
+           N$21        V$550
+           N$36        V$1045
+           N$46        V$1013
+           N$58        V$1018
+           N$57        V$1028
+           N$54        V$1007
+           N$55        V$974
+           N$31        V$524
+           N$27        V$528
+           N$10        V$519
+           N$30        V$530
+           N$40        V$1043
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "OTA" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+
+Check Schematic  "OTA/schematic/sheet1"
+Check Sheet "OTA/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$9         V$514
+           N$13        V$526
+           N$17        V$555
+           N$21        V$550
+           N$46        V$1013
+           N$58        V$1018
+           N$45        V$1073
+           N$57        V$1028
+           N$54        V$1007
+           N$55        V$974
+           N$31        V$524
+           N$27        V$528
+           N$10        V$519
+           N$30        V$530
+           N$40        V$1043
+           N$36        V$1045
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "OTA" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+
+Check Schematic  "OTA/schematic/sheet1"
+Check Sheet "OTA/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$9         V$514
+           N$13        V$526
+           N$17        V$555
+           N$21        V$550
+           N$46        V$1013
+           N$58        V$1018
+           N$57        V$1028
+           N$31        V$524
+           N$27        V$528
+           N$10        V$519
+           N$30        V$530
+           N$36        V$1045
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   1 warnings  (MGC-required)
+  Warning:  Net name "NET" connects the following nets:
+             N$45        N$54       N$55       N$40
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "OTA" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 3 Warnings
+
+
+Check Schematic  "OTA/schematic/sheet1"
+Check Sheet "OTA/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$9         V$514
+           N$13        V$526
+           N$17        V$555
+           N$21        V$550
+           N$46        V$1013
+           N$58        V$1018
+           N$57        V$1028
+           N$31        V$524
+           N$27        V$528
+           N$10        V$519
+           N$30        V$530
+           N$36        V$1045
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   1 warnings  (MGC-required)
+  Warning:  Net name "Vdd" connects the following nets:
+             N$51        N$45
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "OTA" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 3 Warnings
+
+
+Check Schematic  "OTA/schematic/sheet1"
+Check Sheet "OTA/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   4 warnings  (MGC-required)
+  Warning:  Net name "Vdd" connects the following nets:
+             N$9         N$13       N$17       N$21       N$51       N$46
+            N$45
+  Warning:  Net name "Vb2" connects the following nets:
+             N$15        N$58
+  Warning:  Net name "Vb1" connects the following nets:
+             N$23        N$57
+  Warning:  Net name "Vss" connects the following nets:
+             N$27        N$30       N$40       N$36
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 4 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "OTA" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 5 Warnings
+
+
+Check Schematic  "OTA/schematic/sheet1"
+Check Sheet "OTA/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   4 warnings  (MGC-required)
+  Warning:  Net name "Vdd" connects the following nets:
+             N$9         N$13       N$17       N$21       N$51       N$46
+            N$45
+  Warning:  Net name "Vb2" connects the following nets:
+             N$15        N$58
+  Warning:  Net name "Vb1" connects the following nets:
+             N$23        N$57
+  Warning:  Net name "Vss" connects the following nets:
+             N$27        N$30       N$40       N$36
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 4 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "OTA" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 5 Warnings
+
+
+Check Schematic  "OTA/schematic/sheet1"
+Check Sheet "OTA/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   4 warnings  (MGC-required)
+  Warning:  Net name "Vdd" connects the following nets:
+             N$9         N$13       N$17       N$21       N$51       N$46
+            N$45
+  Warning:  Net name "Vb2" connects the following nets:
+             N$15        N$58
+  Warning:  Net name "Vb1" connects the following nets:
+             N$23        N$57
+  Warning:  Net name "Vss" connects the following nets:
+             N$27        N$30       N$40       N$36
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 4 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "OTA" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 5 Warnings
+
+
+Check Schematic  "OTA/schematic/sheet1"
+Check Sheet "OTA/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   2 errors   0 warnings
+  Error:  I$9 overlaps I$32
+  Error:  I$10 overlaps I$31
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   4 warnings  (MGC-required)
+  Warning:  Net name "Vdd" connects the following nets:
+             N$9         N$13       N$17       N$21       N$51       N$46
+            N$45
+  Warning:  Net name "Vb2" connects the following nets:
+             N$15        N$58
+  Warning:  Net name "Vb1" connects the following nets:
+             N$23        N$57
+  Warning:  Net name "Vss" connects the following nets:
+             N$27        N$30       N$40       N$36       N$68       N$69
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "OTA/schematic/sheet1" failed check :  2 Errors, 4 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "OTA" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "OTA/schematic/sheet1" failed check :  2 Errors, 5 Warnings
+
+
+Check Schematic  "OTA/schematic/sheet1"
+Check Sheet "OTA/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   2 errors   0 warnings
+  Error:  I$9 overlaps I$32
+  Error:  I$10 overlaps I$31
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   4 warnings  (MGC-required)
+  Warning:  Net name "Vdd" connects the following nets:
+             N$9         N$13       N$17       N$21       N$51       N$46
+            N$45
+  Warning:  Net name "Vb2" connects the following nets:
+             N$15        N$58
+  Warning:  Net name "Vb1" connects the following nets:
+             N$23        N$57
+  Warning:  Net name "Vss" connects the following nets:
+             N$27        N$30       N$36       N$69       N$68       N$40
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "OTA/schematic/sheet1" failed check :  2 Errors, 4 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "OTA" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "OTA/schematic/sheet1" failed check :  2 Errors, 5 Warnings
+
+
+Check Schematic  "OTA/schematic/sheet1"
+Check Sheet "OTA/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   1 errors   0 warnings
+  Error:  I$9 overlaps I$32
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   4 warnings  (MGC-required)
+  Warning:  Net name "Vdd" connects the following nets:
+             N$9         N$13       N$17       N$21       N$51       N$46
+            N$45
+  Warning:  Net name "Vb2" connects the following nets:
+             N$15        N$58
+  Warning:  Net name "Vb1" connects the following nets:
+             N$23        N$57
+  Warning:  Net name "Vss" connects the following nets:
+             N$27        N$30       N$36       N$69       N$40       N$73
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "OTA/schematic/sheet1" failed check :  1 Errors, 4 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "OTA" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "OTA/schematic/sheet1" failed check :  1 Errors, 5 Warnings
+
+
+Check Schematic  "OTA/schematic/sheet1"
+Check Sheet "OTA/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   4 warnings  (MGC-required)
+  Warning:  Net name "Vdd" connects the following nets:
+             N$9         N$13       N$17       N$21       N$51       N$46
+            N$45
+  Warning:  Net name "Vb2" connects the following nets:
+             N$15        N$58
+  Warning:  Net name "Vb1" connects the following nets:
+             N$23        N$57
+  Warning:  Net name "Vss" connects the following nets:
+             N$27        N$30       N$36       N$40       N$73       N$69
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 4 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "OTA" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 5 Warnings
+
+
+Check Schematic  "OTA/schematic/sheet1"
+Check Sheet "OTA/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   4 warnings  (MGC-required)
+  Warning:  Net name "Vdd" connects the following nets:
+             N$9         N$13       N$17       N$21       N$51       N$46
+            N$45
+  Warning:  Net name "Vb2" connects the following nets:
+             N$15        N$58
+  Warning:  Net name "Vb1" connects the following nets:
+             N$23        N$57
+  Warning:  Net name "Vss" connects the following nets:
+             N$27        N$30       N$36       N$40       N$73       N$69
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 4 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "OTA" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 5 Warnings
+
+
+Check Schematic  "test/schematic/sheet1"
+Check Sheet "test/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Unconnected pins on
+           Instance(s) at Pins(s):
+           I$6         P$145      P$150      P$155      P$160      P$165
+                       P$170      P$175      P$180      P$185      P$190
+                       P$195      P$200
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "test/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "test" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "test/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+
+Check Schematic  "OTA/schematic/sheet1"
+Check Sheet "OTA/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   4 warnings  (MGC-required)
+  Warning:  Net name "Vdd" connects the following nets:
+             N$9         N$13       N$17       N$21       N$51       N$46
+            N$45
+  Warning:  Net name "Vb2" connects the following nets:
+             N$15        N$58
+  Warning:  Net name "Vb1" connects the following nets:
+             N$23        N$57
+  Warning:  Net name "Vss" connects the following nets:
+             N$27        N$30       N$36       N$40       N$73       N$69
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 4 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 4 Warnings
+
+
+Check Schematic  "OTA/schematic/sheet1"
+Check Sheet "OTA/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   4 warnings  (MGC-required)
+  Warning:  Net name "Vdd" connects the following nets:
+             N$9         N$13       N$17       N$21       N$51       N$46
+            N$45
+  Warning:  Net name "Vb2" connects the following nets:
+             N$15        N$58
+  Warning:  Net name "Vb1" connects the following nets:
+             N$23        N$57
+  Warning:  Net name "Vss" connects the following nets:
+             N$27        N$30       N$36       N$40       N$73       N$69
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 4 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "OTA/schematic/sheet1" passed check :  0 Errors, 4 Warnings
+
+
+Check Schematic  "test/schematic/sheet1"
+Check Sheet "test/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   1 warnings  (MGC-required)
+  Warning:  Net name "NET" connects the following nets:
+             N$38        N$36       N$33       N$35
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "test/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "test" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "test/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+
+Check Schematic  "test/schematic/sheet1"
+Check Sheet "test/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "test/schematic/sheet1" passed check :  0 Errors, 0 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "test" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "test/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+
+Check Schematic  "testTest/schematic/sheet1"
+Check Sheet "testTest/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   1 warnings
+  Warning:  The following class-instances may overlap with
+            other class or non-class instances:
+            GLOBAL:    I$4        I$5
+            other:     I$1
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "testTest/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "testTest" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "testTest/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+
+Check Schematic  "testTest/schematic/sheet1"
+Check Sheet "testTest/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   1 warnings
+  Warning:  The following class-instances may overlap with
+            other class or non-class instances:
+            GLOBAL:    I$4        I$5
+            other:     I$1
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "testTest/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "testTest" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "testTest/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+
+Check Symbol "test/test"
+Check Body -------   0 errors   0 warnings  (MGC-required)
+Check Interface --   0 errors   1 warnings
+  Warning:  Property "l" on the symbol is not on the interface
+
+Check Pin --------   0 errors   0 warnings  (MGC-required)
+Check Special ----   0 errors   0 warnings  (MGC-required)
+
+ "test/test" passed check :  0 Errors, 1 Warnings
+
+
+Check Schematic  "testTest/schematic/sheet1"
+Check Sheet "testTest/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   1 warnings
+  Warning:  The following class-instances may overlap with
+            other class or non-class instances:
+            GLOBAL:    I$4        I$5
+            other:     I$1
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "testTest/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "testTest" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "testTest/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+
+Check Schematic  "testTest/schematic/sheet1"
+Check Sheet "testTest/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   1 warnings
+  Warning:  The following class-instances may overlap with
+            other class or non-class instances:
+            GLOBAL:    I$4        I$5
+            other:     I$1
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "testTest/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "testTest" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "testTest/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+
+Check Schematic  "testTest/schematic/sheet1"
+Check Sheet "testTest/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   1 warnings
+  Warning:  The following class-instances may overlap with
+            other class or non-class instances:
+            GLOBAL:    I$4        I$5
+            other:     I$1
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "testTest/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "testTest" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "testTest/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+
+Check Schematic  "testTest/schematic/sheet1"
+Check Sheet "testTest/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   1 warnings
+  Warning:  The following class-instances may overlap with
+            other class or non-class instances:
+            GLOBAL:    I$4        I$5
+            PORT:      I$9
+            other:     I$1        I$13
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "testTest/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "testTest" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "testTest/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+
+Check Symbol "test/test"
+Check Body -------   0 errors   0 warnings  (MGC-required)
+Check Interface --   0 errors   1 warnings
+  Warning:  Property "l" on the interface is not on the symbol
+
+Check Pin --------   0 errors   0 warnings  (MGC-required)
+Check Special ----   0 errors   0 warnings  (MGC-required)
+
+ "test/test" passed check :  0 Errors, 1 Warnings
+
+
+Check Symbol "test/test"
+Check Body -------   0 errors   0 warnings  (MGC-required)
+Check Interface --   0 errors   1 warnings
+  Warning:  Property "lin" on the symbol is not on the interface
+
+Check Pin --------   0 errors   0 warnings  (MGC-required)
+Check Special ----   0 errors   0 warnings  (MGC-required)
+
+ "test/test" passed check :  0 Errors, 1 Warnings
+
+
+Check Schematic  "testTest/schematic/sheet1"
+Check Sheet "testTest/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   1 errors   1 warnings
+  Error:  I$13 overlaps I$16
+  Warning:  The following class-instances may overlap with
+            other class or non-class instances:
+            GLOBAL:    I$4        I$5
+            PORT:      I$9
+            other:     I$16       I$13
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "testTest/schematic/sheet1" failed check :  1 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "testTest" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "testTest/schematic/sheet1" failed check :  1 Errors, 2 Warnings
+
+
+Check Schematic  "testTest/schematic/sheet1"
+Check Sheet "testTest/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   1 warnings
+  Warning:  The following class-instances may overlap with
+            other class or non-class instances:
+            PORT:      I$9
+            other:     I$13
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   2 warnings
+  Warning:  Unconnected pins on
+           Instance(s) at Pins(s):
+           I$4         P$63
+           I$5         P$70
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$1         V$17
+           N$3         V$11
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "testTest/schematic/sheet1" passed check :  0 Errors, 3 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "testTest" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "testTest/schematic/sheet1" passed check :  0 Errors, 4 Warnings
+
+
+Check Schematic  "testTest/schematic/sheet1"
+Check Sheet "testTest/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   1 errors   1 warnings
+  Error:  I$13 overlaps I$17
+  Warning:  The following class-instances may overlap with
+            other class or non-class instances:
+            GLOBAL:    I$4        I$5
+            PORT:      I$9
+            other:     I$17       I$13
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "testTest/schematic/sheet1" failed check :  1 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "testTest" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "testTest/schematic/sheet1" failed check :  1 Errors, 2 Warnings
+
+
+Check Schematic  "testTest/schematic/sheet1"
+Check Sheet "testTest/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   1 warnings
+  Warning:  The following class-instances may overlap with
+            other class or non-class instances:
+            PORT:      I$9
+            other:     I$13
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$1         V$17
+           N$3         V$11
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "testTest/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "testTest" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "testTest/schematic/sheet1" passed check :  0 Errors, 3 Warnings
+
+
+Check Schematic  "testTest/schematic/sheet1"
+Check Sheet "testTest/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$3         V$11
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "testTest/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "testTest" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "testTest/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+
+Check Schematic  "testTest/schematic/sheet1"
+Check Sheet "testTest/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Unconnected pins on
+           Instance(s) at Pins(s):
+           I$18        P$780      P$785      P$790
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "testTest/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "testTest" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "testTest/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+
+Check Schematic  "testTest/schematic/sheet1"
+Check Sheet "testTest/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   1 warnings
+  Warning:  The following class-instances may overlap with
+            other class or non-class instances:
+            GLOBAL:    I$19       I$20
+            other:     I$18
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$16        V$814
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "testTest/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "testTest" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "testTest/schematic/sheet1" passed check :  0 Errors, 3 Warnings

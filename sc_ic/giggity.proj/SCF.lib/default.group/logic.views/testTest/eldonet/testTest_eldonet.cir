@@ -1,0 +1,16 @@
+* Component: $SCF/default.group/logic.views/testTest  Viewpoint: eldonet
+.INCLUDE $SCF/default.group/logic.views/testTest/eldonet/testTest_eldonet.spi
+.INCLUDE $MGC_DESIGN_KIT/models/ELDO/include_all
+.PROBE VX
+
+
+
+
+.OPTION NOASCII
+.OPTION MODWL
+.OPTION ENGNOT
+.OPTION AEX
+
+.TEMP 27 
+
+.TRAN  0 3us 0 0.001us

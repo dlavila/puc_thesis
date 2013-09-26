@@ -1,0 +1,54 @@
+A 5 u Eddm_design_viewpoint 5240577866f7.03.7f.00.00.01.00.35.1b 10 2 21 0
+V v 7 4 52404ece5ce8.03.92.9b.0e.fc.00.3f.3f
+F f 7 "eldonet.dvpt_7"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 8 4 5240814bc950.03.7f.00.00.01.00.4a.06
+F f 8 "eldonet.dvpt_8"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 9 4 524082845eea.03.7f.00.00.01.00.4a.06
+F f 9 "eldonet.dvpt_9"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 10 4 52407b221ab4.03.92.9b.0e.fc.00.7e.5b
+F f 10 "eldonet.dvpt_10"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+O 10
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$SCF/default.group/logic.views/test/part" 3 Eddm_part 5240812f7af6.03.7f.00.00.01.00.49.67 52405758e0de.03.7f.00.00.01.00.35.1b
+R cspuv 1 "$SCF/default.group/logic.views/test/schematic" 5 mgc_schematic 524080e1b0a3.03.7f.00.00.01.00.49.67 524056a77af4.03.7f.00.00.01.00.35.1b
+R cspuv 2 "$SCF/default.group/logic.views/test/eldonet" 1 Eddm_ba_mgr 524057786810.03.7f.00.00.01.01.35.1b 524057786810.03.7f.00.00.01.00.35.1b
+R cspuv 3 "$MGC_DESIGN_KIT/symbols/P_18_MM/part" 23 Eddm_part 462e23ba79d1.03.7f.00.00.01.00.54.63 461b99bfbe81.03.89.ca.19.1a.00.4f.21
+R cspuv 14 "$MGC_DESIGN_KIT/symbols/N_18_MM/part" 26 Eddm_part 462e23b780f6.03.7f.00.00.01.00.54.63 461b99901841.03.89.ca.19.1a.00.4f.21
+R cspuv 20 "$SCF/default.group/logic.views/test/test" 2 mgc_symbol 5240812f7aef.03.7f.00.00.01.00.49.67 524080ebe418.03.7f.00.00.01.00.49.67
+O 9
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$SCF/default.group/logic.views/test/part" 3 Eddm_part 5240812f7af6.03.7f.00.00.01.00.49.67 52405758e0de.03.7f.00.00.01.00.35.1b
+R cspuv 1 "$SCF/default.group/logic.views/test/schematic" 5 mgc_schematic 524080e1b0a3.03.7f.00.00.01.00.49.67 524056a77af4.03.7f.00.00.01.00.35.1b
+R cspuv 2 "$SCF/default.group/logic.views/test/eldonet" 1 Eddm_ba_mgr 524057786810.03.7f.00.00.01.01.35.1b 524057786810.03.7f.00.00.01.00.35.1b
+R cspuv 3 "$MGC_DESIGN_KIT/symbols/P_18_MM/part" 23 Eddm_part 462e23ba79d1.03.7f.00.00.01.00.54.63 461b99bfbe81.03.89.ca.19.1a.00.4f.21
+R cspuv 14 "$MGC_DESIGN_KIT/symbols/N_18_MM/part" 26 Eddm_part 462e23b780f6.03.7f.00.00.01.00.54.63 461b99901841.03.89.ca.19.1a.00.4f.21
+O 8
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$SCF/default.group/logic.views/test/part" 3 Eddm_part 5240812f7af6.03.7f.00.00.01.00.49.67 52405758e0de.03.7f.00.00.01.00.35.1b
+R cspuv 1 "$SCF/default.group/logic.views/test/schematic" 5 mgc_schematic 524080e1b0a3.03.7f.00.00.01.00.49.67 524056a77af4.03.7f.00.00.01.00.35.1b
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 2 "$SCF/default.group/logic.views/test/eldonet" 1 Eddm_ba_mgr 524057786810.03.7f.00.00.01.01.35.1b 524057786810.03.7f.00.00.01.00.35.1b
+R cspuv 3 "$MGC_DESIGN_KIT/symbols/P_18_MM/part" 23 Eddm_part 462e23ba79d1.03.7f.00.00.01.00.54.63 461b99bfbe81.03.89.ca.19.1a.00.4f.21
+R cspuv 10 "$MGC_DESIGN_KIT/symbols/P_18_MM/P_18_MM" 6 mgc_symbol 462e23ba79c0.03.7f.00.00.01.00.54.63 461b99c2ec2d.03.89.ca.19.1a.00.4f.21
+R cspuv 12 "$MGC_IC_GENERIC_LIB/ground/ground" 1 mgc_symbol 3db4867e5447.03.93.22.29.75.00.27.f6 3db4867e5446.03.93.22.29.75.00.27.f6
+R cspuv 13 "$SCF/default.group/logic.views/test/test" 2 mgc_symbol 5240812f7aef.03.7f.00.00.01.00.49.67 524080ebe418.03.7f.00.00.01.00.49.67
+O 7
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$SCF/default.group/logic.views/test/part" 1 Eddm_part 52405758e0de.03.7f.00.00.01.01.35.1b 52405758e0de.03.7f.00.00.01.00.35.1b
+R cspuv 1 "$SCF/default.group/logic.views/test/schematic" 2 mgc_schematic 52405758e271.03.7f.00.00.01.00.35.1b 524056a77af4.03.7f.00.00.01.00.35.1b
+R cspuv 2 "$SCF/default.group/logic.views/test/eldonet" 1 Eddm_ba_mgr 524057786810.03.7f.00.00.01.01.35.1b 524057786810.03.7f.00.00.01.00.35.1b
+R cspuv 3 "$MGC_DESIGN_KIT/symbols/P_18_MM/part" 23 Eddm_part 462e23ba79d1.03.7f.00.00.01.00.54.63 461b99bfbe81.03.89.ca.19.1a.00.4f.21
+R cspuv 10 "$MGC_DESIGN_KIT/symbols/P_18_MM/P_18_MM" 6 mgc_symbol 462e23ba79c0.03.7f.00.00.01.00.54.63 461b99c2ec2d.03.89.ca.19.1a.00.4f.21
+R cspuv 12 "$MGC_IC_GENERIC_LIB/ground/ground" 1 mgc_symbol 3db4867e5447.03.93.22.29.75.00.27.f6 3db4867e5446.03.93.22.29.75.00.27.f6
