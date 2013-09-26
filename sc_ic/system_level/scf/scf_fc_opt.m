@@ -64,10 +64,9 @@ beta_bc = 1;
 
 CLt_max = CL + (1-beta_wc)*CF;
 
-%L = [0.6];
-L = [0.18 0.3 0.45 0.6];
+L = [0.18 0.3 0.45];
 
-gmId = 4:2.3:21;
+gmId = (3:2.6:20.5)+1.5;
 
 NBf = Qn2- 2*K*T/CF*3;
 
@@ -80,7 +79,7 @@ y = 3/4*(NBf*(1+x)/(4*K*T/CF)-7/3-2*x);
 %         Independent variables
 % Min   : L_in, gmId_in
 % Mf    : L_p, gmId_p
-% Mcf   : L_p, gmId_p
+% Mcin  : L_p, gmId_p
 % Mcl   : L_n, gmId_n
 % Ml    : L_n, gmId_n
 %         It, Il for a fixed If
@@ -89,9 +88,9 @@ Ibudget = 400;
 If = Ibudget*10e-6;
 idx = [];
 
-
+Vds_in = Vdd/2;
 Vds_f  = Vdd/4.6;
-Vds_cf = Vdd/4.6;
+Vds_cin = Vdd/4.6;
 Vds_cl = Vdd/4.6;
 Vds_l  = Vdd/4.6;
 
@@ -99,45 +98,44 @@ for k = 20:Ibudget/10;
     
     It = k*10e-6;
     Il = (Ibudget/10-k)*10e-6;
-    
+    tic
     for i_in = 1:length(L)
         for i_f = 1:length(L)
-            for i_cf = 1:length(L)
+            for i_cin = 1:length(L)
                 for i_cl = 1:length(L)
                     for i_l = 1:length(L)
                         for j_in = 1:length(gmId)
                             gm_in = gmId(j_in)*It/2;
                             for j_f = find(gmId <= y*gmId(j_in)*It/If)
                                 for j_l = find(gmId <=((y*gmId(j_in)*It-gmId(j_f)*If)/Il))
-                                    for j_cf = 1:length(gmId)
+                                    for j_cin = 1:length(gmId)
                                         for j_cl = 1:length(gmId)
                                             % Min
-                                            ro_in = ro(gmId(j_in), 0, Vdd/2, L(i_in), 'p');
+                                            ro_in = ro(gmId(j_in), 0, Vds_in, L(i_in), 'p');
 
                                             % Mf
                                             gm_f = gmId(j_f)*If/2;
-                                            ro_f  = ro(gmId(j_f), 0, Vds_f, L(i_f), 'n');
+                                            ro_f  = ro(gmId(j_f), 0, Vds_f, L(i_f), 'p');
 
-                                            % Mcf
-                                            gm_cf = gmId(j_cf)*Il/2;
-                                            ro_cf  = ro(gmId(j_cf), 0, Vds_cf, L(i_cf), 'n');
+                                            % Mcin
+                                            gm_cin = gmId(j_cin)*Il/2;
+                                            ro_cin  = ro(gmId(j_cin), 0, Vds_cin, L(i_cin), 'p');
 
                                             % Mcl
                                             gm_cl = gmId(j_cl)*Il/2;
-                                            ro_cl  = ro(gmId(j_cl)+++++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------zz, 0, Vds_cl, L(i_cl), 'p');
+                                            ro_cl  = ro(gmId(j_cl), 0, Vds_cl, L(i_cl), 'n');
 
                                             % Ml
                                             gm_l = gmId(j_l)*Il/2;
-                                            ro_l  = ro(gmId(j_l), 0, Vds_l, L(i_l), 'p');
+                                            ro_l  = ro(gmId(j_l), 0, Vds_l, L(i_l), 'n');
+                                            
 
-                                            Ro = par(gm_cl*ro_cl*ro_l, gm_cf*ro_cf*par(ro_in,ro_f));
+                                            Ro = par(gm_cl*ro_cl*ro_l, gm_cin*ro_cin*par(ro_in,ro_f));
 
                                             Av = 2*gm_in*Ro;
-                                            
-                                            %y = (gm_f+gm_l)/gm_in;
 
                                             if(Av > 1000)
-                                                idx = [idx ; [k,Av,i_in, i_f, i_cf, i_cl, i_l,j_in,j_f,j_l,j_cf,j_cl]];
+                                                idx = [idx ; [k, Av ,i_in , i_f, i_cin, i_cl, i_l,j_in,j_f,j_cin,j_cl,j_l]];
                                             end
                                         end
                                     end
@@ -149,6 +147,8 @@ for k = 20:Ibudget/10;
             end
         end
     end
+    toc
+    sprintf('Paso %d de %d terminado',k-19,(Ibudget/10-20))
 end
 
-save('solutions.mat','idx')
+save('scf_opt_sol_step1.mat','idx','L','gmId','Ibudget','Vds_in','Vds_f','Vds_cin','Vds_cl','Vds_l')
