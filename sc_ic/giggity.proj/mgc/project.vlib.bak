@@ -1,9 +1,14 @@
 <!DOCTYPE ICstudioLocMap>
 <locmap type="project" >
  <entries>
+  <library name="AnalogIP" >
+   <locations>
+    <location>AnalogIP.lib</location>
+   </locations>
+  </library>
   <library name="MGC_DESIGN_KIT" >
    <locations>
-    <location>/usr/local/mentor/UMC180PDK</location>
+    <location>/home/dlavila/UMC180PDK</location>
    </locations>
   </library>
   <library name="MGC_IC_DEVICE_LIB" >
@@ -49,11 +54,6 @@
   <library name="NCF_GLOBAL" >
    <locations>
     <location>/usr/local/mentor/2008.2b_linux_x86_64/icflow_home/mgc_icstd_lib/global.ncf</location>
-   </locations>
-  </library>
-  <library name="SCF" >
-   <locations>
-    <location>SCF.lib</location>
    </locations>
   </library>
  </entries>

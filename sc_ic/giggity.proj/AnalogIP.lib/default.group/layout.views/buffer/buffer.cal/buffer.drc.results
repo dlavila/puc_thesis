@@ -1,0 +1,292 @@
+buffer 1000
+4.17N
+1 1 3 Sep 26 17:40:18 2013                     
+Rule File Pathname: /home/dlavila/puc_thesis/sc_ic/giggity.proj/AnalogIP.lib/default.group/layout.views/buffer/./_G-DF-Mixed_Mode_RFCMOS18-1.8v_3.3v-1P6M-MMC-Calibre-DRC-2.10_p3_
+Maximum P+ DIFFUSION to nearest N+ pick-up spacing (inside N_WELL) is 20um
+(I/O, RAM, ROM, capacitor and diode are expected)
+p 1 4
+-4370 -250
+3990 -250
+3990 1550
+-4370 1550
+4.29NOTICE
+1 1 4 Sep 26 17:40:18 2013                     
+Rule File Pathname: /home/dlavila/puc_thesis/sc_ic/giggity.proj/AnalogIP.lib/default.group/layout.views/buffer/./_G-DF-Mixed_Mode_RFCMOS18-1.8v_3.3v-1P6M-MMC-Calibre-DRC-2.10_p3_
+There is NO RFMMCMK in the GDS file,
+all RF RULES ( 4.29G ~ 4.29K ) will not be checked,
+if the process is NOT a RF process, please unselect RF_RULES OPTION to bypass the rule check.
+p 1 4
+-5800 -1680
+5420 -1680
+5420 2980
+-5800 2980
+4.20F
+1 1 2 Sep 26 17:40:18 2013                     
+Rule File Pathname: /home/dlavila/puc_thesis/sc_ic/giggity.proj/AnalogIP.lib/default.group/layout.views/buffer/./_G-DF-Mixed_Mode_RFCMOS18-1.8v_3.3v-1P6M-MMC-Calibre-DRC-2.10_p3_
+The ME1 coverage must be larger than 30% of entire chip area
+p 1 4
+-4800 -680
+4420 -680
+4420 1980
+-4800 1980
+4.20G
+1 1 2 Sep 26 17:40:18 2013                     
+Rule File Pathname: /home/dlavila/puc_thesis/sc_ic/giggity.proj/AnalogIP.lib/default.group/layout.views/buffer/./_G-DF-Mixed_Mode_RFCMOS18-1.8v_3.3v-1P6M-MMC-Calibre-DRC-2.10_p3_
+The ME1 coverage must be larger than 25% for every 500*500um square
+p 1 4
+-4800 -680
+4420 -680
+4420 1980
+-4800 1980
+4.22F
+1 1 2 Sep 26 17:40:18 2013                     
+Rule File Pathname: /home/dlavila/puc_thesis/sc_ic/giggity.proj/AnalogIP.lib/default.group/layout.views/buffer/./_G-DF-Mixed_Mode_RFCMOS18-1.8v_3.3v-1P6M-MMC-Calibre-DRC-2.10_p3_
+The ME2 coverage must be larger than 30% of entire chip area
+p 1 4
+-4800 -680
+4420 -680
+4420 1980
+-4800 1980
+4.22G
+1 1 2 Sep 26 17:40:18 2013                     
+Rule File Pathname: /home/dlavila/puc_thesis/sc_ic/giggity.proj/AnalogIP.lib/default.group/layout.views/buffer/./_G-DF-Mixed_Mode_RFCMOS18-1.8v_3.3v-1P6M-MMC-Calibre-DRC-2.10_p3_
+The ME2 coverage must be larger than 25% for every 500*500um square
+p 1 4
+-4800 -680
+4420 -680
+4420 1980
+-4800 1980
+4.24F
+1 1 2 Sep 26 17:40:18 2013                     
+Rule File Pathname: /home/dlavila/puc_thesis/sc_ic/giggity.proj/AnalogIP.lib/default.group/layout.views/buffer/./_G-DF-Mixed_Mode_RFCMOS18-1.8v_3.3v-1P6M-MMC-Calibre-DRC-2.10_p3_
+The ME3 coverage must be larger than 30% of entire chip area
+p 1 4
+-4800 -680
+4420 -680
+4420 1980
+-4800 1980
+4.24G
+1 1 2 Sep 26 17:40:18 2013                     
+Rule File Pathname: /home/dlavila/puc_thesis/sc_ic/giggity.proj/AnalogIP.lib/default.group/layout.views/buffer/./_G-DF-Mixed_Mode_RFCMOS18-1.8v_3.3v-1P6M-MMC-Calibre-DRC-2.10_p3_
+The ME3 coverage must be larger than 25% for every 500*500um square
+p 1 4
+-4800 -680
+4420 -680
+4420 1980
+-4800 1980
+4.26F
+1 1 2 Sep 26 17:40:18 2013                     
+Rule File Pathname: /home/dlavila/puc_thesis/sc_ic/giggity.proj/AnalogIP.lib/default.group/layout.views/buffer/./_G-DF-Mixed_Mode_RFCMOS18-1.8v_3.3v-1P6M-MMC-Calibre-DRC-2.10_p3_
+The ME4 coverage must be larger than 30% of entire chip area
+p 1 4
+-4800 -680
+4420 -680
+4420 1980
+-4800 1980
+4.26G
+1 1 2 Sep 26 17:40:18 2013                     
+Rule File Pathname: /home/dlavila/puc_thesis/sc_ic/giggity.proj/AnalogIP.lib/default.group/layout.views/buffer/./_G-DF-Mixed_Mode_RFCMOS18-1.8v_3.3v-1P6M-MMC-Calibre-DRC-2.10_p3_
+The ME4 coverage must be larger than 25% for every 500*500um square
+p 1 4
+-4800 -680
+4420 -680
+4420 1980
+-4800 1980
+4.28F
+1 1 2 Sep 26 17:40:18 2013                     
+Rule File Pathname: /home/dlavila/puc_thesis/sc_ic/giggity.proj/AnalogIP.lib/default.group/layout.views/buffer/./_G-DF-Mixed_Mode_RFCMOS18-1.8v_3.3v-1P6M-MMC-Calibre-DRC-2.10_p3_
+The ME5 coverage must be larger than 30% of entire chip area
+p 1 4
+-4800 -680
+4420 -680
+4420 1980
+-4800 1980
+4.28G
+1 1 2 Sep 26 17:40:18 2013                     
+Rule File Pathname: /home/dlavila/puc_thesis/sc_ic/giggity.proj/AnalogIP.lib/default.group/layout.views/buffer/./_G-DF-Mixed_Mode_RFCMOS18-1.8v_3.3v-1P6M-MMC-Calibre-DRC-2.10_p3_
+The ME5 coverage must be larger than 25% for every 500*500um square
+p 1 4
+-4800 -680
+4420 -680
+4420 1980
+-4800 1980
+4.31E
+1 1 2 Sep 26 17:40:18 2013                     
+Rule File Pathname: /home/dlavila/puc_thesis/sc_ic/giggity.proj/AnalogIP.lib/default.group/layout.views/buffer/./_G-DF-Mixed_Mode_RFCMOS18-1.8v_3.3v-1P6M-MMC-Calibre-DRC-2.10_p3_
+The Metal6 coverage must be larger than 30% of entire chip area
+p 1 4
+-4800 -680
+4420 -680
+4420 1980
+-4800 1980
+4.31F
+1 1 2 Sep 26 17:40:18 2013                     
+Rule File Pathname: /home/dlavila/puc_thesis/sc_ic/giggity.proj/AnalogIP.lib/default.group/layout.views/buffer/./_G-DF-Mixed_Mode_RFCMOS18-1.8v_3.3v-1P6M-MMC-Calibre-DRC-2.10_p3_
+The Metal6 coverage must be larger than 25% for every 500*500um square
+p 1 4
+-4800 -680
+4420 -680
+4420 1980
+-4800 1980
+6Bb.ME1
+36 36 2 Sep 26 17:40:18 2013                   
+Rule File Pathname: /home/dlavila/puc_thesis/sc_ic/giggity.proj/AnalogIP.lib/default.group/layout.views/buffer/./_G-DF-Mixed_Mode_RFCMOS18-1.8v_3.3v-1P6M-MMC-Calibre-DRC-2.10_p3_
+Die corner rule 1, ME1 must draw with 135 angle
+p 1 3
+-4350 -50
+-4250 -50
+-4350 50
+p 2 3
+-4350 1250
+-4250 1350
+-4350 1350
+p 3 3
+-4050 -50
+-3950 -50
+-3950 50
+p 4 3
+-4050 1350
+-3950 1250
+-3950 1350
+p 5 3
+-3360 -50
+-3260 -50
+-3360 50
+p 6 3
+-3360 1250
+-3260 1350
+-3360 1350
+p 7 3
+-3060 -50
+-2960 -50
+-2960 50
+p 8 3
+-3060 1350
+-2960 1250
+-2960 1350
+p 9 3
+-2370 -50
+-2270 -50
+-2370 50
+p 10 3
+-2370 1250
+-2270 1350
+-2370 1350
+p 11 3
+-2070 -50
+-1970 -50
+-1970 50
+p 12 3
+-2070 1350
+-1970 1250
+-1970 1350
+p 13 3
+-1380 -50
+-1280 -50
+-1380 50
+p 14 3
+-1380 1250
+-1280 1350
+-1380 1350
+p 15 3
+-1080 -50
+-980 -50
+-980 50
+p 16 3
+-1080 1350
+-980 1250
+-980 1350
+p 17 3
+-390 -50
+-290 -50
+-390 50
+p 18 3
+-390 1250
+-290 1350
+-390 1350
+p 19 3
+-90 -50
+10 -50
+10 50
+p 20 3
+-90 1350
+10 1250
+10 1350
+p 21 3
+600 -50
+700 -50
+600 50
+p 22 3
+600 1250
+700 1350
+600 1350
+p 23 3
+900 -50
+1000 -50
+1000 50
+p 24 3
+900 1350
+1000 1250
+1000 1350
+p 25 3
+1590 -50
+1690 -50
+1590 50
+p 26 3
+1590 1250
+1690 1350
+1590 1350
+p 27 3
+1890 -50
+1990 -50
+1990 50
+p 28 3
+1890 1350
+1990 1250
+1990 1350
+p 29 3
+2580 -50
+2680 -50
+2580 50
+p 30 3
+2580 1250
+2680 1350
+2580 1350
+p 31 3
+2880 -50
+2980 -50
+2980 50
+p 32 3
+2880 1350
+2980 1250
+2980 1350
+p 33 3
+3570 -50
+3670 -50
+3570 50
+p 34 3
+3570 1250
+3670 1350
+3570 1350
+p 35 3
+3870 -50
+3970 -50
+3970 50
+p 36 3
+3870 1350
+3970 1250
+3970 1350
+DENSITY_PRINT_FILES
+0 0 12 Sep 26 17:40:18 2013
+4.20F_M1.density
+4.20G_M1.density
+4.22F_M2.density
+4.22G_M2.density
+4.24F_M3.density
+4.24G_M3.density
+4.26F_M4.density
+4.26G_M4.density
+4.28F_M5.density
+4.28G_M5.density
+4.31E_M6.density
+4.31F_M6.density

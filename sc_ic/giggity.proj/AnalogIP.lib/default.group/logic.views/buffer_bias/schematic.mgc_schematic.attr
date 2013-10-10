@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 52431d937fe6.03.7f.00.00.01.00.28.ad 15 2 1 0
+V v 13 1 52443e9a88ee.03.7f.00.00.01.00.47.1f
+F o 0 ""
+V v 14 1 5244442f18c2.03.7f.00.00.01.00.66.8e
+F o 0 ""
+V v 15 1 524444322312.03.7f.00.00.01.00.66.8e
+F o 0 ""
+O 15
+R cspuv 0 "$AnalogIP/default.group/logic.views/buffer_bias/schematic/sheet1" 14 mgc_sheet 5244443222e5.03.7f.00.00.01.00.66.8e 52431d93805c.03.7f.00.00.01.00.28.ad
+O 14
+R cspuv 0 "$AnalogIP/default.group/logic.views/buffer_bias/schematic/sheet1" 13 mgc_sheet 5244442f1862.03.7f.00.00.01.00.66.8e 52431d93805c.03.7f.00.00.01.00.28.ad
+O 13
+R cspuv 0 "$AnalogIP/default.group/logic.views/buffer_bias/schematic/sheet1" 12 mgc_sheet 52443e9a88b8.03.7f.00.00.01.00.47.1f 52431d93805c.03.7f.00.00.01.00.28.ad

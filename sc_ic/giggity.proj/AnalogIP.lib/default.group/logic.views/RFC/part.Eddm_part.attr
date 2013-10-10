@@ -1,0 +1,19 @@
+A 5 u Eddm_part 524c84467e14.03.7f.00.00.01.00.24.12 17 2 5 0
+V v 15 1 52531a436e64.03.7f.00.00.01.00.57.72
+F f 15 "part.part_15"
+V v 16 1 52531a6ed008.03.7f.00.00.01.00.57.72
+F f 16 "part.part_16"
+V v 17 1 52531a6f4cea.03.7f.00.00.01.00.57.72
+F f 17 "part.part_17"
+O 17
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$AnalogIP/default.group/logic.views/RFC/schematic" 1 mgc_schematic 524c8197ad52.03.7f.00.00.01.01.24.12 524c8197ad52.03.7f.00.00.01.00.24.12
+R csduv 4 "$AnalogIP/default.group/logic.views/RFC/RFC" 7 mgc_symbol 52531a6f4ce4.03.7f.00.00.01.00.57.72 524f21c6b476.03.7f.00.00.01.00.7a.d6
+O 16
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$AnalogIP/default.group/logic.views/RFC/schematic" 1 mgc_schematic 524c8197ad52.03.7f.00.00.01.01.24.12 524c8197ad52.03.7f.00.00.01.00.24.12
+R csduv 4 "$AnalogIP/default.group/logic.views/RFC/RFC" 6 mgc_symbol 52531a6ecff7.03.7f.00.00.01.00.57.72 524f21c6b476.03.7f.00.00.01.00.7a.d6
+O 15
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$AnalogIP/default.group/logic.views/RFC/schematic" 1 mgc_schematic 524c8197ad52.03.7f.00.00.01.01.24.12 524c8197ad52.03.7f.00.00.01.00.24.12
+R csduv 4 "$AnalogIP/default.group/logic.views/RFC/RFC" 5 mgc_symbol 52531a436e4f.03.7f.00.00.01.00.57.72 524f21c6b476.03.7f.00.00.01.00.7a.d6

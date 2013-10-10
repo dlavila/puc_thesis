@@ -1,0 +1,100 @@
+# This file provides name mapping information for all objects
+# on the schematic design.  It provides a mapping for each
+# object between its name on the schematic and its name in the netlist.
+version 1.0
+
+Cell P_18_MM
+   Pin D D
+   Pin G G
+   Pin S S
+   Pin B B
+End Cell
+
+Cell N_18_MM
+   Pin D D
+   Pin G G
+   Pin S S
+   Pin B B
+End Cell
+
+Cell VCVS_2PIN
+   Pin POS POS
+   Pin NEG NEG
+End Cell
+
+Cell VCVS
+   Pin POS POS
+   Pin NEG NEG
+   Pin CP CP
+   Pin CN CN
+End Cell
+
+Cell #top#
+   Pin Vout+ VOUT+
+   Pin Vout- VOUT-
+   Pin Vb1 VB1
+   Pin Vb1t VB1T
+   Pin Vb2 VB2
+   Pin Vb2t VB2T
+   Pin Vb3 VB3
+   Pin Vdd VDD
+   Pin Vin+ VIN+
+   Pin Vin- VIN-
+   Pin Vocm VOCM
+   Pin Vss VSS
+   Net N$669 N$669
+   Net N$656 N$656
+   Net N$653 N$653
+   Net N$655 N$655
+   Net N$651 N$651
+   Net N$652 N$652
+   Net N$638 N$638
+   Net N$631 N$631
+   Net N$593 N$593
+   Net CMFB CMFB
+   Net N$410 N$410
+   Net N$336 N$336
+   Net N$329 N$329
+   Net N$63 N$63
+   Net N$112 N$112
+   Net Vocm VOCM
+   Net Vb3 VB3
+   Net Vb1 VB1
+   Net Vdd VDD
+   Net Vss VSS
+   Net Vb1t VB1T
+   Net Vb2t VB2T
+   Net Vout- VOUT-
+   Net Vout+ VOUT+
+   Net Vb2 VB2
+   Net Vin- VIN-
+   Net Vin+ VIN+
+   Inst M1b M1B P_18_MM
+   Inst M11 M11 N_18_MM
+   Inst M1a M1A P_18_MM
+   Inst M5 M5 N_18_MM
+   Inst E2 E2 VCVS_2PIN
+   Inst M15 M15 P_18_MM
+   Inst M3A M3A N_18_MM
+   Inst M2 M2 N_18_MM
+   Inst M3 M3 N_18_MM
+   Inst M1 M1 P_18_MM
+   Inst M3b M3B N_18_MM
+   Inst M4 M4 N_18_MM
+   Inst M13 M13 N_18_MM
+   Inst E3 E3 VCVS_2PIN
+   Inst M14 M14 P_18_MM
+   Inst E1 E1 VCVS
+   Inst M4B M4B N_18_MM
+   Inst M4a M4A N_18_MM
+   Inst M12 M12 N_18_MM
+   Inst M2b M2B P_18_MM
+   Inst M0 M0 P_18_MM
+   Inst M6 M6 N_18_MM
+   Inst M10 M10 P_18_MM
+   Inst M7 M7 P_18_MM
+   Inst M9 M9 P_18_MM
+   Inst M2a M2A P_18_MM
+   Inst M8 M8 P_18_MM
+End Cell
+

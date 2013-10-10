@@ -1,0 +1,14 @@
+* Component: $AnalogIP/default.group/logic.views/RFC  Viewpoint: eldonet
+.INCLUDE $AnalogIP/default.group/logic.views/RFC/eldonet/RFC_eldonet.spi
+.INCLUDE $MGC_DESIGN_KIT/models/ELDO/include_all
+
+
+
+
+.OPTION NOASCII
+.OPTION MODWL
+.OPTION ENGNOT
+.OPTION AEX
+
+.TEMP 27 
+

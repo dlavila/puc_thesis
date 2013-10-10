@@ -3,6 +3,9 @@
 
 MGC_LOCATION_MAP_2
 
+$AnalogIP -t LIBRARY
+/home/dlavila/puc_thesis/sc_ic/giggity.proj/AnalogIP.lib
+
 $MGC_DESIGN_KIT -t LIBRARY
 /usr/local/mentor/UMC180PDK
 
@@ -32,6 +35,3 @@ $MGC_IC_VERILOG_LIB -t LIBRARY
 
 $NCF_GLOBAL -t LIBRARY
 /usr/local/mentor/2008.2b_linux_x86_64/icflow_home/mgc_icstd_lib/global.ncf
-
-$SCF -t LIBRARY
-/home/dlavila/puc_thesis/sc_ic/giggity.proj/SCF.lib

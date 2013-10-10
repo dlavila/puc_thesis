@@ -1,0 +1,13 @@
+A 5 u mgc_symbol 5243188e59e1.03.7f.00.00.01.00.18.6c 7 2 1 0
+V v 5 1 52443f2593ab.03.7f.00.00.01.00.4b.70
+F f 5 "buffer.smbl_5"
+V v 6 1 524441284884.03.7f.00.00.01.00.50.4e
+F f 6 "buffer.smbl_6"
+V v 7 1 52444299da8c.03.7f.00.00.01.00.52.8e
+F f 7 "buffer.smbl_7"
+O 7
+R csduv 0 "$AnalogIP/default.group/logic.views/buffer/part" 6 Eddm_part 524441284897.03.7f.00.00.01.00.50.4e 5242e3c7bcad.03.7f.00.00.01.00.27.71
+O 6
+R csduv 0 "$AnalogIP/default.group/logic.views/buffer/part" 6 Eddm_part 524441284897.03.7f.00.00.01.00.50.4e 5242e3c7bcad.03.7f.00.00.01.00.27.71
+O 5
+R csduv 0 "$AnalogIP/default.group/logic.views/buffer/part" 5 Eddm_part 52443f2593c0.03.7f.00.00.01.00.4b.70 5242e3c7bcad.03.7f.00.00.01.00.27.71

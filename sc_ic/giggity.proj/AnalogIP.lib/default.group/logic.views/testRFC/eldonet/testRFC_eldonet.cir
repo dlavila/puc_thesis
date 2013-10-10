@@ -1,0 +1,18 @@
+* Component: $AnalogIP/default.group/logic.views/testRFC  Viewpoint: eldonet
+.INCLUDE $AnalogIP/default.group/logic.views/testRFC/eldonet/testRFC_eldonet.spi
+.INCLUDE $MGC_DESIGN_KIT/models/ELDO/include_all
+.PROBE VX
+.PROBE I
+.PROBE ISUB
+
+
+
+
+.OPTION NOASCII
+.OPTION MODWL
+.OPTION ENGNOT
+.OPTION AEX
+
+.TEMP 27 
+
+.TRAN  0 100n 0 10p

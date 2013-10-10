@@ -1,0 +1,6 @@
+A 5 u Eddm_part 524c8a369e70.03.7f.00.00.01.00.2a.6c 1 2 1 0
+V v 1 1 524c8a369e70.03.7f.00.00.01.01.2a.6c
+F f 1 "part.part_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$AnalogIP/default.group/logic.views/testRFC/schematic" 1 mgc_schematic 524c87eba143.03.7f.00.00.01.01.2a.6c 524c87eba143.03.7f.00.00.01.00.2a.6c

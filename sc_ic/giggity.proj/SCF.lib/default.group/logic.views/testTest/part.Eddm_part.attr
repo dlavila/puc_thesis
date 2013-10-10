@@ -1,6 +1,0 @@
-A 5 u Eddm_part 524083257643.03.7f.00.00.01.00.4a.b5 1 2 1 0
-V v 1 1 524083257644.03.7f.00.00.01.00.4a.b5
-F f 1 "part.part_1"
-O 1
-P "eddm__stream_to_use" "eddm__propl_dstream"
-R csduv 0 "$SCF/default.group/logic.views/testTest/schematic" 1 mgc_schematic 5240829586dd.03.7f.00.00.01.01.4a.b5 5240829586dd.03.7f.00.00.01.00.4a.b5

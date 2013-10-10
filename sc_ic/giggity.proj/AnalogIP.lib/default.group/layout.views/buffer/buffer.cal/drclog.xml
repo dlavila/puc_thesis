@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<drc_log>
+<comment>
+This file was automatically created. Please do not hand edit.
+</comment>
+ username="dlavila"
+ datestamp="Thu Sep 26 17:40:18 2013
+"
+<version version="2"/>
+<rve_log runset_name="/dev/null" timestamp="1380228018" drc_file="$AnalogIP/default.group/layout.views/buffer/buffer.cal/buffer.drc.results" ll_areax="0" ll_areay="0" ur_areax="0" ur_areay="0" check_area="off" drc_summary_file="drc.summary"/>
+</drc_log>
