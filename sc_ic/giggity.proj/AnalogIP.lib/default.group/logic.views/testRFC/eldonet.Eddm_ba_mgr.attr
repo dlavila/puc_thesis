@@ -1,19 +1,19 @@
-A 5 u Eddm_ba_mgr 524f24d110d1.03.7f.00.00.01.00.7f.2c 190 2 379 0
-V v 188 1 525610bf0e5a.03.7f.00.00.01.00.12.69
-F f 188 "eldonet.ba_188"
-V v 189 1 5256110fc818.03.7f.00.00.01.00.12.69
-F f 189 "eldonet.ba_189"
-V v 190 1 525611422cbe.03.7f.00.00.01.00.12.69
-F f 190 "eldonet.ba_190"
-O 190
+A 5 u Eddm_ba_mgr 5261779d5410.03.7f.00.00.01.00.42.02 6 2 10 0
+V v 4 1 52693563ca3f.03.7f.00.00.01.00.04.83
+F f 4 "eldonet.ba_4"
+V v 5 1 526938ebad38.03.7f.00.00.01.00.04.83
+F f 5 "eldonet.ba_5"
+V v 6 1 52698df1bbdf.03.7f.00.00.01.00.69.55
+F f 6 "eldonet.ba_6"
+O 6
 P "eddm__stream_to_use" "eddm__propl_dstream"
-R cspuv 377 "$AnalogIP/default.group/logic.views/testRFC/eldonet" 1010 Eddm_design_viewpoint 525611422c9e.03.7f.00.00.01.00.12.69 524f24d10fea.03.7f.00.00.01.00.7f.2c
-R cspuv 378 "$AnalogIP/default.group/logic.views/testRFC/schematic" 412 mgc_schematic 5256105430f0.03.7f.00.00.01.00.12.69 524c87eba143.03.7f.00.00.01.00.2a.6c
-O 189
+R cspuv 8 "$AnalogIP/default.group/logic.views/testRFC/eldonet" 101 Eddm_design_viewpoint 52698df1bbc3.03.7f.00.00.01.00.69.55 5261779d52ee.03.7f.00.00.01.00.42.02
+R cspuv 9 "$AnalogIP/default.group/logic.views/testRFC/schematic" 512 mgc_schematic 52698da1582a.03.7f.00.00.01.00.69.55 524c87eba143.03.7f.00.00.01.00.2a.6c
+P "eddm__refer_state" "eddm__refer_floating"
+O 5
 P "eddm__stream_to_use" "eddm__propl_dstream"
-R cspuv 375 "$AnalogIP/default.group/logic.views/testRFC/eldonet" 1009 Eddm_design_viewpoint 5256110fc7fd.03.7f.00.00.01.00.12.69 524f24d10fea.03.7f.00.00.01.00.7f.2c
-R cspuv 376 "$AnalogIP/default.group/logic.views/testRFC/schematic" 412 mgc_schematic 5256105430f0.03.7f.00.00.01.00.12.69 524c87eba143.03.7f.00.00.01.00.2a.6c
-O 188
+R cspuv 6 "$AnalogIP/default.group/logic.views/testRFC/eldonet" 46 Eddm_design_viewpoint 526938ebad1b.03.7f.00.00.01.00.04.83 5261779d52ee.03.7f.00.00.01.00.42.02
+R cspuv 7 "$AnalogIP/default.group/logic.views/testRFC/schematic" 484 mgc_schematic 526936227db8.03.7f.00.00.01.00.04.83 524c87eba143.03.7f.00.00.01.00.2a.6c
+O 4
 P "eddm__stream_to_use" "eddm__propl_dstream"
-R cspuv 373 "$AnalogIP/default.group/logic.views/testRFC/eldonet" 1008 Eddm_design_viewpoint 525610bf0e42.03.7f.00.00.01.00.12.69 524f24d10fea.03.7f.00.00.01.00.7f.2c
-R cspuv 374 "$AnalogIP/default.group/logic.views/testRFC/schematic" 412 mgc_schematic 5256105430f0.03.7f.00.00.01.00.12.69 524c87eba143.03.7f.00.00.01.00.2a.6c
+R cspuv 5 "$AnalogIP/default.group/logic.views/testRFC/eldonet" 39 Eddm_design_viewpoint 52693563ca11.03.7f.00.00.01.00.04.83 5261779d52ee.03.7f.00.00.01.00.42.02

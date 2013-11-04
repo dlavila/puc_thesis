@@ -1,13 +1,13 @@
-A 5 u mgc_symbol 5253177b71d1.03.7f.00.00.01.00.57.72 10 2 1 0
-V v 8 1 52531a6f9b34.03.7f.00.00.01.00.57.72
-F f 8 "RFC.smbl_8"
-V v 9 1 52531a6fc327.03.7f.00.00.01.00.57.72
-F f 9 "RFC.smbl_9"
-V v 10 1 52531a703382.03.7f.00.00.01.00.57.72
-F f 10 "RFC.smbl_10"
-O 10
-R csduv 0 "$AnalogIP/default.group/logic.views/RFC/part" 17 Eddm_part 52531a6f4cea.03.7f.00.00.01.00.57.72 524c84467e14.03.7f.00.00.01.00.24.12
-O 9
-R csduv 0 "$AnalogIP/default.group/logic.views/RFC/part" 17 Eddm_part 52531a6f4cea.03.7f.00.00.01.00.57.72 524c84467e14.03.7f.00.00.01.00.24.12
-O 8
-R csduv 0 "$AnalogIP/default.group/logic.views/RFC/part" 17 Eddm_part 52531a6f4cea.03.7f.00.00.01.00.57.72 524c84467e14.03.7f.00.00.01.00.24.12
+A 5 u mgc_symbol 5253177b71d1.03.7f.00.00.01.00.57.72 20 2 1 0
+V v 18 1 5256eda78c59.03.7f.00.00.01.00.55.27
+F f 18 "RFC.smbl_18"
+V v 19 1 5256ede203ab.03.7f.00.00.01.00.55.27
+F f 19 "RFC.smbl_19"
+V v 20 1 5256ede27b89.03.7f.00.00.01.00.55.27
+F f 20 "RFC.smbl_20"
+O 20
+R csduv 0 "$AnalogIP/default.group/logic.views/RFC/part" 27 Eddm_part 5256ede27bfa.03.7f.00.00.01.00.55.27 524c84467e14.03.7f.00.00.01.00.24.12
+O 19
+R csduv 0 "$AnalogIP/default.group/logic.views/RFC/part" 26 Eddm_part 5256ede203c0.03.7f.00.00.01.00.55.27 524c84467e14.03.7f.00.00.01.00.24.12
+O 18
+R csduv 0 "$AnalogIP/default.group/logic.views/RFC/part" 25 Eddm_part 5256eda78c6a.03.7f.00.00.01.00.55.27 524c84467e14.03.7f.00.00.01.00.24.12

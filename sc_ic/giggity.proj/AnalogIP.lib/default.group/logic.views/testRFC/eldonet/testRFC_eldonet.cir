@@ -14,5 +14,7 @@
 .OPTION AEX
 
 .TEMP 27 
+.PARAM Ln=0.18u 
+.PARAM Vicm=0.7 
 
-.TRAN  0 100n 0 10p
+.TRAN  0 200n 0 10p

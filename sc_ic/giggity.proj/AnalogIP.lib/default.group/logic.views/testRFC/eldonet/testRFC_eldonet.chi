@@ -6,7 +6,7 @@
 
 ***** PRE-PROCESSING ...
 
-1******* 9-Oct-13 *******  ELDO 2009.2 (64 bits)  (v7.2_1.1)  *******23:30:30******
+1*******28-Oct-13 *******  ELDO 2009.2 (64 bits)  (v7.2_1.1)  *******13:33:38******
 
 0* Component: $AnalogIP/default.group/logic.views/testRFC  Viewpoint: eldonet
 
@@ -20,7 +20,7 @@
     4  .CONNECT GROUND 0
     5  
     6  
-    7  * ELDO netlist generated with ICnet by 'dlavila' on Wed Oct  9 2013 at 23:30:29
+    7  * ELDO netlist generated with ICnet by 'dlavila' on Mon Oct 28 2013 at 13:33:37
     8  
     9  *
    10  * Globals.
@@ -36,37 +36,37 @@
    20  *
    21  * Component pathname : $AnalogIP/default.group/logic.views/RFC_bias
    22  *
-   23  .SUBCKT RFC_BIAS  VB1 VB1T VB2 VB2T VB3 CURRENTIN VDD_ESC1 VSS
+   23  .SUBCKT RFC_BIAS  VB1 VB1T VB2 VB2T VB3 VB4 CURRENTIN VDD_ESC1 VSS
    24  
    25          M13 VB2T VB3 N$181 VSS N_18_MM L=0.18U W=8U AD=3.92P AS=3.92P PD=16.98U
    26  +  PS=16.98U M=1
    27          M14 VB1T VB3 N$179 VSS N_18_MM L=0.18U W=8U AD=3.92P AS=3.92P PD=16.98U
    28  +  PS=16.98U M=1
-   29          M10 VB1 VB1 VSS VSS N_18_MM L=0.5U W=2U AD=0.98P AS=0.98P PD=4.98U
+   29          M10 VB4 VB4 VSS VSS N_18_MM L=0.5U W=2U AD=0.98P AS=0.98P PD=4.98U
    30  +  PS=4.98U M=1
-   31          M9 VB3 VB3 VB1 VSS N_18_MM L=0.18U W=2U AD=0.98P AS=0.98P PD=4.98U
+   31          M9 VB3 VB3 VB4 VSS N_18_MM L=0.18U W=2U AD=0.98P AS=0.98P PD=4.98U
    32  +  PS=4.98U M=1
    33          M4 VB3 CURRENTIN N$65 VDD_ESC1 P_18_MM L=0.18U W=2U AD=0.98P AS=0.98P
    34  +  PD=4.98U PS=4.98U M=1
-   35          M18 N$181 VB1 VSS VSS N_18_MM L=0.18U W=8U AD=3.92P AS=3.92P PD=16.98U
+   35          M18 N$181 VB4 VSS VSS N_18_MM L=0.18U W=8U AD=3.92P AS=3.92P PD=16.98U
    36  +  PS=16.98U M=1
-   37          M7 N$89 VB1T VDD_ESC1 VDD_ESC1 P_18_MM L=0.18U W=2U AD=0.98P AS=0.98P
-   38  +  PD=4.98U PS=4.98U M=1
+   37          M7 N$89 VB1T VDD_ESC1 VDD_ESC1 P_18_MM L=0.18U W=0.5U AD=0.245P
+   38  +  AS=0.245P PD=1.98U PS=1.98U M=1
    39          M21 VB2 VB3 N$175 VSS N_18_MM L=0.18U W=2U AD=0.98P AS=0.98P PD=4.98U
    40  +  PS=4.98U M=1
-   41          M17 N$179 VB1 VSS VSS N_18_MM L=0.18U W=8U AD=3.92P AS=3.92P PD=16.98U
+   41          M17 N$179 VB4 VSS VSS N_18_MM L=0.18U W=8U AD=3.92P AS=3.92P PD=16.98U
    42  +  PS=16.98U M=1
-   43          M12 N$198 N$198 VDD_ESC1 VDD_ESC1 P_18_MM L=0.5U W=8U AD=3.92P AS=3.92P
+   43          M12 VB1 VB1 VDD_ESC1 VDD_ESC1 P_18_MM L=0.5U W=8U AD=3.92P AS=3.92P
    44  +  PD=16.98U PS=16.98U M=1
-   45          M11 VB2 VB2 N$198 VDD_ESC1 P_18_MM L=0.18U W=8U AD=3.92P AS=3.92P
+   45          M11 VB2 VB2 VB1 VDD_ESC1 P_18_MM L=0.18U W=8U AD=3.92P AS=3.92P
    46  +  PD=16.98U PS=16.98U M=1
-   47          MVB2 VB1T VB2T N$89 VDD_ESC1 P_18_MM L=0.18U W=2U AD=0.98P AS=0.98P
-   48  +  PD=4.98U PS=4.98U M=1
-   49          M1 VB2T VB2T N$91 VDD_ESC1 P_18_MM L=0.18U W=2U AD=0.98P AS=0.98P
-   50  +  PD=4.98U PS=4.98U M=1
-   51          M15 N$91 VB2T VDD_ESC1 VDD_ESC1 P_18_MM L=2U W=1U AD=0.49P AS=0.49P
-   52  +  PD=2.98U PS=2.98U M=1
-   53          M20 N$175 VB1 VSS VSS N_18_MM L=0.18U W=2U AD=0.98P AS=0.98P PD=4.98U
+   47          MVB2 VB1T VB2T N$89 VDD_ESC1 P_18_MM L=0.18U W=0.5U AD=0.245P AS=0.245P
+   48  +  PD=1.98U PS=1.98U M=1
+   49          M1 VB2T VB2T N$91 VDD_ESC1 P_18_MM L=0.18U W=0.5U AD=0.245P AS=0.245P
+   50  +  PD=1.98U PS=1.98U M=1
+   51          M15 N$91 VB2T VDD_ESC1 VDD_ESC1 P_18_MM L=2U W=0.5U AD=0.245P AS=0.245P
+   52  +  PD=1.98U PS=1.98U M=1
+   53          M20 N$175 VB4 VSS VSS N_18_MM L=0.18U W=2U AD=0.98P AS=0.98P PD=4.98U
    54  +  PS=4.98U M=1
    55          M2 N$65 N$195 VDD_ESC1 VDD_ESC1 P_18_MM L=0.18U W=2U AD=0.98P AS=0.98P
    56  +  PD=4.98U PS=4.98U M=1
@@ -77,101 +77,113 @@
    61  .ENDS RFC_BIAS
    62  
    63  *
-   64  * Component pathname : $AnalogIP/default.group/logic.views/RFC
+   64  * Component pathname : $AnalogIP/default.group/logic.views/s2d
    65  *
-   66  .SUBCKT RFC  VOUT+ VOUT- VB1 VB1T VB2 VB2T VB3 VDD_ESC1 VIN+ VIN- VOCM VSS
+   66  .SUBCKT S2D  VD+ VD- VICM VID VSS
    67  
-   68          M5 VOUT- VB3 N$638 VSS N_18_MM L=0.18U W=8U AD=3.92P AS=3.92P PD=16.98U
-   69  +  PS=16.98U M=1
-   70          M6 VOUT+ VB3 N$682 VSS N_18_MM L=0.18U W=8U AD=3.92P AS=3.92P PD=16.98U
-   71  +  PS=16.98U M=1
-   72          E2 N$329 N$336 VOUT+ VSS 0.5
-   73          M9 N$63 CMFB VDD_ESC1 VDD_ESC1 P_18_MM L=0.5U W=32U AD=15.68P AS=15.68P
-   74  +  PD=64.98U PS=64.98U M=1
-   75          M8 VOUT+ VB2 N$112 VDD_ESC1 P_18_MM L=0.18U W=32U AD=15.68P AS=15.68P
-   76  +  PD=64.98U PS=64.98U M=1
-   77          M11 N$681 VB3 N$653 VSS N_18_MM L=0.18U W=4U AD=1.96P AS=1.96P PD=8.98U
-   78  +  PS=8.98U M=1
-   79          M10 N$112 CMFB VDD_ESC1 VDD_ESC1 P_18_MM L=0.5U W=32U AD=15.68P
-   80  +  AS=15.68P PD=64.98U PS=64.98U M=1
-   81          M18 N$682 VIN- N$687 VDD_ESC1 P_18_MM L=0.3U W=32U AD=15.68P AS=15.68P
-   82  +  PD=64.98U PS=64.98U M=1
-   83          M17 N$681 VIN- N$687 VDD_ESC1 P_18_MM L=0.3U W=32U AD=15.68P AS=15.68P
-   84  +  PD=64.98U PS=64.98U M=1
-   85          M16 N$679 VIN+ N$687 VDD_ESC1 P_18_MM L=0.3U W=32U AD=15.68P AS=15.68P
-   86  +  PD=64.98U PS=64.98U M=1
-   87          M15 N$681 N$681 N$638 VDD_ESC1 P_18_MM L=0.18U W=4U AD=1.96P AS=1.96P
-   88  +  PD=8.98U PS=8.98U M=1
-   89          M3A N$638 N$681 VSS VSS N_18_MM L=0.5U W=16U AD=7.84P AS=7.84P PD=32.98U
-   90  +  PS=32.98U M=1
-   91          M2 N$681 VB3 N$655 VSS N_18_MM L=0.18U W=4U AD=1.96P AS=1.96P PD=8.98U
-   92  +  PS=8.98U M=1
-   93          M3 N$679 VB3 N$669 VSS N_18_MM L=0.18U W=4U AD=1.96P AS=1.96P PD=8.98U
-   94  +  PS=8.98U M=1
-   95          M7 VOUT- VB2 N$63 VDD_ESC1 P_18_MM L=0.18U W=32U AD=15.68P AS=15.68P
-   96  +  PD=64.98U PS=64.98U M=1
-   97          M3B N$653 N$681 VSS VSS N_18_MM L=0.5U W=4U AD=1.96P AS=1.96P PD=8.98U
-   98  +  PS=8.98U M=1
-   99          M4 N$655 VB1 VSS VSS N_18_MM L=0.5U W=12U AD=5.88P AS=5.88P PD=24.98U
-  100  +  PS=24.98U M=1
-  101          M13 N$669 VB1 VSS VSS N_18_MM L=0.5U W=12U AD=5.88P AS=5.88P PD=24.98U
-  102  +  PS=24.98U M=1
-  103          E3 N$336 VSS VOUT- VSS 0.5
-  104          M14 N$679 N$679 N$682 VDD_ESC1 P_18_MM L=0.18U W=4U AD=1.96P AS=1.96P
-  105  +  PD=8.98U PS=8.98U M=1
-  106          E1 VDD_ESC1 CMFB N$329 VOCM -10
-  107          M1A N$638 VIN+ N$687 VDD_ESC1 P_18_MM L=0.3U W=32U AD=15.68P AS=15.68P
-  108  +  PD=64.98U PS=64.98U M=1
-  109          M4B N$656 N$679 VSS VSS N_18_MM L=0.5U W=4U AD=1.96P AS=1.96P PD=8.98U
-  110  +  PS=8.98U M=1
-  111          M1 N$687 VB2T N$410 VDD_ESC1 P_18_MM L=0.18U W=16U AD=7.84P AS=7.84P
-  112  +  PD=32.98U PS=32.98U M=1
-  113          M0 N$410 VB1T VDD_ESC1 VDD_ESC1 P_18_MM L=0.18U W=16U AD=7.84P AS=7.84P
-  114  +  PD=32.98U PS=32.98U M=1
-  115          M4A N$682 N$679 VSS VSS N_18_MM L=0.5U W=16U AD=7.84P AS=7.84P PD=32.98U
-  116  +  PS=32.98U M=1
-  117          M12 N$679 VB3 N$656 VSS N_18_MM L=0.18U W=4U AD=1.96P AS=1.96P PD=8.98U
-  118  +  PS=8.98U M=1
-  119  .ENDS RFC
-  120  
-  121  *
-  122  * Component pathname : $AnalogIP/default.group/logic.views/s2d
-  123  *
-  124  .SUBCKT S2D  VD+ VD- VICM VID VSS
-  125  
-  126          E3 N$2 VSS VICM VSS 1
-  127          E2 VD- N$2 VSS VID 0.5
-  128          E1 VD+ N$2 VID VSS 0.5
-  129  .ENDS S2D
-  130  
-  131  *
-  132  * MAIN CELL: Component pathname : $AnalogIP/default.group/logic.views/testRFC
-  133  *
-  134          V3 N$336 GROUND PULSE ( 0V 1V 10nS 0.01nS 0.01nS 10nS 20nS )
-  135          E1 VO GROUND VO+ VO- -1
-  136          V1 VDD GROUND DC 1.8V
-  137          C1 VO+ GROUND 1P
-  138          XC3 N$810 VO- MIMCAPS_MM W=2U L=2U M=64
-  139          M1 N$658 N$658 GROUND GROUND N_18_MM L=0.18U W=2U AD=0.98P AS=0.98P
-  140  +  PD=4.98U PS=4.98U M=1
-  141          M4 N$657 N$659 N$660 GROUND N_18_MM L=0.18U W=2U AD=0.98P AS=0.98P
-  142  +  PD=4.98U PS=4.98U M=1
-  143          I1 VDD N$659 DC 5u
-  144          XC4 N$811 VO+ MIMCAPS_MM W=2U L=2U M=64
-  145          M3 N$659 N$659 N$658 GROUND N_18_MM L=0.18U W=2U AD=0.98P AS=0.98P
-  146  +  PD=4.98U PS=4.98U M=1
-  147          X_RFC_BIAS1 VB1 VB1T VB2 VB2T VB3 N$657 VDD GROUND RFC_BIAS
-  148          X_RFC1 VO- VO+ VB1 VB1T VB2 VB2T VB3 VDD N$811 N$810 VCM GROUND RFC
-  149          V4 VCM GROUND DC 1V
-  150          C2 GROUND VO- 1P
-  151          X_S2D1 N$786 N$809 N$331 N$336 GROUND S2D
-  152          M2 N$660 N$658 GROUND GROUND N_18_MM L=0.18U W=2U AD=0.98P AS=0.98P
-  153  +  PD=4.98U PS=4.98U M=1
-  154          V2 N$331 GROUND DC 0.5V
-  155          XC6 N$811 N$809 MIMCAPS_MM W=2U L=2U M=64
-  156          XC5 N$810 N$786 MIMCAPS_MM W=2U L=2U M=64
-  157  *
-  158  *end
+   68          E3 N$2 VSS VICM VSS 1
+   69          E2 VD- N$2 VSS VID 0.5
+   70          E1 VD+ N$2 VID VSS 0.5
+   71  .ENDS S2D
+   72  
+   73  *
+   74  * Component pathname : $AnalogIP/default.group/logic.views/RFC
+   75  *
+   76  .SUBCKT RFC  VOUT+ VOUT- VB1 VB1T VB2 VB2T VB3 VB4 VDD_ESC1 VIN+ VIN- VOCM
+   77  + VSS
+   78  
+   79          E4 VDD_ESC1 CMFB2 N$727 VB1 -5
+   80          M0 N$717 VB1T VDD_ESC1 VDD_ESC1 P_18_MM L=0.18U W=4U AD=1.96P AS=1.96P
+   81  +  PD=8.98U PS=8.98U M=1
+   82          M4A N$682 N$679 VSS VSS N_18_MM L=0.5U W=16U AD=7.84P AS=7.84P PD=32.98U
+   83  +  PS=32.98U M=1
+   84          M12 N$679 VB3 N$656 VSS N_18_MM L=0.18U W=4U AD=1.96P AS=1.96P PD=8.98U
+   85  +  PS=8.98U M=1
+   86          M5 VOUT- VB3 N$638 VSS N_18_MM L=0.18U W=8U AD=3.92P AS=3.92P PD=16.98U
+   87  +  PS=16.98U M=1
+   88          M6 VOUT+ VB3 N$682 VSS N_18_MM L=0.18U W=8U AD=3.92P AS=3.92P PD=16.98U
+   89  +  PS=16.98U M=1
+   90          E2 N$329 VSS VOUT+ VSS 1
+   91          M9 N$692 CMFB1 VDD_ESC1 VDD_ESC1 P_18_MM L=0.5U W=8U AD=3.92P AS=3.92P
+   92  +  PD=16.98U PS=16.98U M=1
+   93          M8 VOUT+ VB2 N$112 VDD_ESC1 P_18_MM L=0.18U W=32U AD=15.68P AS=15.68P
+   94  +  PD=64.98U PS=64.98U M=1
+   95          M11 N$681 VB3 N$653 VSS N_18_MM L=0.18U W=4U AD=1.96P AS=1.96P PD=8.98U
+   96  +  PS=8.98U M=1
+   97          M10 N$112 CMFB2 VDD_ESC1 VDD_ESC1 P_18_MM L=0.5U W=8U AD=3.92P AS=3.92P
+   98  +  PD=16.98U PS=16.98U M=1
+   99          M18 N$682 VIN- N$718 VDD_ESC1 P_18_MM L=0.3U W=32U AD=15.68P AS=15.68P
+  100  +  PD=64.98U PS=64.98U M=1
+  101          M17 N$681 VIN- N$718 VDD_ESC1 P_18_MM L=0.3U W=32U AD=15.68P AS=15.68P
+  102  +  PD=64.98U PS=64.98U M=1
+  103          M16 N$679 VIN+ N$718 VDD_ESC1 P_18_MM L=0.3U W=32U AD=15.68P AS=15.68P
+  104  +  PD=64.98U PS=64.98U M=1
+  105          M15 N$681 N$681 N$638 VDD_ESC1 P_18_MM L=0.18U W=4U AD=1.96P AS=1.96P
+  106  +  PD=8.98U PS=8.98U M=1
+  107          M1 N$718 VB2T N$717 VDD_ESC1 P_18_MM L=0.18U W=4U AD=1.96P AS=1.96P
+  108  +  PD=8.98U PS=8.98U M=1
+  109          M3A N$638 N$681 VSS VSS N_18_MM L=0.5U W=16U AD=7.84P AS=7.84P PD=32.98U
+  110  +  PS=32.98U M=1
+  111          M3 N$679 VB3 N$669 VSS N_18_MM L=0.18U W=4U AD=1.96P AS=1.96P PD=8.98U
+  112  +  PS=8.98U M=1
+  113          M7 VOUT- VB2 N$692 VDD_ESC1 P_18_MM L=LN W=32U AD=15.68P AS=15.68P
+  114  +  PD=64.98U PS=64.98U M=1
+  115          M3B N$653 N$681 VSS VSS N_18_MM L=0.5U W=4U AD=1.96P AS=1.96P PD=8.98U
+  116  +  PS=8.98U M=1
+  117          M20 N$112 VB1 VDD_ESC1 VDD_ESC1 P_18_MM L=0.5U W=24U AD=11.76P AS=11.76P
+  118  +  PD=48.98U PS=48.98U M=1
+  119          M19 N$692 VB1 VDD_ESC1 VDD_ESC1 P_18_MM L=0.5U W=24U AD=11.76P AS=11.76P
+  120  +  PD=48.98U PS=48.98U M=1
+  121          R2 N$727 N$336 1K
+  122          R1 N$329 N$727 1K
+  123          M13 N$669 VB4 VSS VSS N_18_MM L=0.5U W=16U AD=7.84P AS=7.84P PD=32.98U
+  124  +  PS=32.98U M=1
+  125          E3 N$336 VSS VOUT- VSS 1
+  126          M14 N$679 N$679 N$682 VDD_ESC1 P_18_MM L=0.18U W=4U AD=1.96P AS=1.96P
+  127  +  PD=8.98U PS=8.98U M=1
+  128          E1 VDD_ESC1 CMFB1 N$727 VB1 -5
+  129          M4 N$655 VB4 VSS VSS N_18_MM L=0.5U W=16U AD=7.84P AS=7.84P PD=32.98U
+  130  +  PS=32.98U M=1
+  131          M1A N$638 VIN+ N$718 VDD_ESC1 P_18_MM L=0.3U W=32U AD=15.68P AS=15.68P
+  132  +  PD=64.98U PS=64.98U M=1
+  133          M4B N$656 N$679 VSS VSS N_18_MM L=0.5U W=4U AD=1.96P AS=1.96P PD=8.98U
+  134  +  PS=8.98U M=1
+  135          M2 N$681 VB3 N$655 VSS N_18_MM L=0.18U W=4U AD=1.96P AS=1.96P PD=8.98U
+  136  +  PS=8.98U M=1
+  137  .ENDS RFC
+  138  
+  139  *
+  140  * MAIN CELL: Component pathname : $AnalogIP/default.group/logic.views/testRFC
+  141  *
+  142          X_RFC_BIAS1 VB1 VB1T VB2 VB2T VB3 N$814 N$657 VDD GROUND RFC_BIAS
+  143          M1 N$658 N$658 GROUND GROUND N_18_MM L=0.18U W=2U AD=0.98P AS=0.98P
+  144  +  PD=4.98U PS=4.98U M=1
+  145          V3 N$336 GROUND PULSE ( -0.1V 0.1V 10nS 1nS 1nS 20nS 50nS )
+  146          E2 VI GROUND VI+ VI- 1
+  147          M4 N$657 N$659 N$660 GROUND N_18_MM L=0.18U W=2U AD=0.98P AS=0.98P
+  148  +  PD=4.98U PS=4.98U M=1
+  149          X_S2D1 N$897 N$893 N$331 N$336 GROUND S2D
+  150          XC4 VO+ VI- MIMCAPS_MM W=2U L=2U M=64
+  151          X_RFC1 VO- VO+ VB1 VB1T VB2 VB2T VB3 N$814 VDD VI- VI+ VCM GROUND RFC
+  152          R1 VDD VCM 1K
+  153          M3 N$659 N$659 N$658 GROUND N_18_MM L=0.18U W=2U AD=0.98P AS=0.98P
+  154  +  PD=4.98U PS=4.98U M=1
+  155          V1 VDD GROUND DC 1.8V
+  156          V2 N$331 GROUND DC Vicm
+  157          I1 VDD N$659 DC 5u
+  158          R4 GROUND VO- 10GIG
+  159          R3 VO+ GROUND 10GIG
+  160          XC5 VI+ N$897 MIMCAPS_MM W=2U L=2U M=64
+  161          XC3 VO- VI+ MIMCAPS_MM W=2U L=2U M=64
+  162          M2 N$660 N$658 GROUND GROUND N_18_MM L=0.18U W=2U AD=0.98P AS=0.98P
+  163  +  PD=4.98U PS=4.98U M=1
+  164          C1 GROUND VO- 1P
+  165          XC6 VI- N$893 MIMCAPS_MM W=2U L=2U M=64
+  166          C2 VO+ GROUND 1P
+  167          R2 VCM GROUND 1K
+  168          E1 VO GROUND VO+ VO- 1
+  169  *
+  170  *end
     2  
     3  ** including /usr/local/mentor/UMC180PDK/models/ELDO/include_all
     1  .LIB   ./018-rf-v2d4-control.eldo 	tt
@@ -3297,9 +3309,11 @@ Warning 406: In file "/usr/local/mentor/UMC180PDK/models/ELDO/include_all" line 
    14  .OPTION AEX
    15  
    16  .TEMP 27 
-   17  
-   18  .TRAN  0 100n 0 10p
-   19  .END
+   17  .PARAM LN=0.18U 
+   18  .PARAM VICM=0.7 
+   19  
+   20  .TRAN  0 200n 0 10p
+   21  .END
 
 End of file 
 
@@ -3312,55 +3326,60 @@ End of file
 ***** GENERATION ...
 
 Warning 706: In file "/usr/local/mentor/UMC180PDK/models/ELDO/MM180_MIMCAP_V101.mdl.eldo" line 9:
-+   During the creation of XC3, the parameter W in subckt MIMCAPS_MM is ignored as it is already specified on the instance line.
++   During the creation of XC4, the parameter W in subckt MIMCAPS_MM is ignored as it is already specified on the instance line.
 Warning 706: In file "/usr/local/mentor/UMC180PDK/models/ELDO/MM180_MIMCAP_V101.mdl.eldo" line 9:
-+   During the creation of XC3, the parameter L in subckt MIMCAPS_MM is ignored as it is already specified on the instance line.
-Warning 1615: In file "./testRFC_eldonet.cir" line 18:
++   During the creation of XC4, the parameter L in subckt MIMCAPS_MM is ignored as it is already specified on the instance line.
+Warning 1615: In file "./testRFC_eldonet.cir" line 20:
 +   COMMAND ".TRAN": Tstep can not be <= 0.0.
-+   It is set to Tmax/20.0 = 5.000e-09 s.
++   It is set to Tmax/20.0 = 1.000e-08 s.
 Warning 107:  NODE "VO": Less than two connections.
+Warning 107:  NODE "VI": Less than two connections.
 
 ***** 0  error(s). 
-***** 5  warning(s). 
+***** 6  warning(s). 
 
 
 INFORMATION ABOUT COMPILATION 
 
 
-Memory space allocated (bytes): 123469824
-64 elements
-44 nodes 
+Memory space allocated (bytes): 123486208
+73 elements
+47 nodes 
 5 input signals
 Detail about objects and nodes found in the design...
-Number of nodes                     44
+Number of nodes                     47
 Number of intrinsic nodes           0
 Number of input signals             5
-Number of resistors                 0
+Number of resistors                 6
 Number of floating capacitors       6
 Number of grounded capacitors       0
 Number of inductors                 0
-Number of voltage sources           4
+Number of voltage sources           3
 Number of current sources           1
-Number of dependent sources         7
+Number of dependent sources         9
 Number of diodes                    0
 Number of BJT                       0
 Number of JFET                      0
-Number of MOS                       46
+Number of MOS                       48
 Number of SWITCHES                  0
 Number of transmission lines        0
-Total number of elements            64
-Warning 118:  NODE "N$810": No DC path to ground.
-Warning 118:  NODE "N$811": No DC path to ground.
+Total number of elements            73
+Warning 108:  NODE "VI+": This node is a floating gate.
++   List of MOS devices connected to that node follows:
++   --> X_RFC1.M18
++   --> X_RFC1.M17
+
+Warning 118:  NODE "VI-": No DC path to ground.
 
 Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
 
-*** DATE:  9-Oct-2013 23:30:31
+*** DATE: 28-Oct-2013 13:33:38
 
 *** TITLE: * Component: $AnalogIP/default.group/logic.views/testRFC  Viewpoint: eldonet
 
 TEMPERATURE : 27.000000 degrees C
 
-1*************** 9-Oct-2013 ***********************  ELDO 2009.2 (64 bits)  (v7.2_1.1)  ***********************23:30:31*****************
+1***************28-Oct-2013 ***********************  ELDO 2009.2 (64 bits)  (v7.2_1.1)  ***********************13:33:38*****************
 
 0* Component: $AnalogIP/default.group/log
 0****                 MODELS PARAMETERS                                    TEMPERATURE =   27.000 DEG C
@@ -3659,17 +3678,17 @@ unit6 represents 1/degK^2
 
 
 Warning 1619:This netlist contains expressions using strongly non-linear functions such as ABS() MIN(), 
-+   MAX() (found in device XC3.C1 for instance) 
++   MAX() (found in device XC4.C1 for instance) 
 +   If, and only if, convergence problems occur either in DC or transient analysis, 
 +   the .option mmsmooth is a possible workaround worth testing. 
 +   It is NOT recommended to activate it systematically, or if there are no particular convergence problems. 
 +   Please refer to the documentation for further discussions about this option
-Searching Operating Point between -1.800000E+00V and 
-                                  3.600000E+00V
+Searching Operating Point between -2.000000E+00V and 
+                                  3.700000E+00V
 
 
 
-1*************** 9-Oct-2013 ***********************  ELDO 2009.2 (64 bits)  (v7.2_1.1)  ***********************23:30:31*****************
+1***************28-Oct-2013 ***********************  ELDO 2009.2 (64 bits)  (v7.2_1.1)  ***********************13:33:38*****************
 
 0* Component: $AnalogIP/default.group/logic.views/testRFC  Viewpoint: eldonet
 0****                 OPTION SUMMARY                                        TEMPERATURE =   27.000 DEG C
@@ -3739,14 +3758,14 @@ ULOGIC         = 0
 
 
 
-***> DC CPU TIME 0s 020ms <***
+***> DC CPU TIME 0s 030ms <***
 
 DC:2 iterations FOR DC analysis
 
 
 
 
-1*************** 9-Oct-2013 ***********************  ELDO 2009.2 (64 bits)  (v7.2_1.1)  ***********************23:30:31*****************
+1***************28-Oct-2013 ***********************  ELDO 2009.2 (64 bits)  (v7.2_1.1)  ***********************13:33:38*****************
 
 0* Component: $AnalogIP/default.group/logic.views/testRFC  Viewpoint: eldonet
 0****                 INITIAL TRANSIENT SOLUTION                           TEMPERATURE =   27.000 DEG C
@@ -3755,70 +3774,76 @@ DC:2 iterations FOR DC analysis
 
 
   NODE         VOLTAGE    
- N$331       500.0000M  
- N$336       0.0000     
+ N$331       700.0000M  
+ N$336      -100.0000M  
  N$657       502.4406M  
  N$658       485.1606M  
  N$659       1.0295     
  N$660       447.7953M  
- N$786       500.0000M  
- N$809       500.0000M  
- N$810       0.0000     
- N$811       0.0000     
- VB1       508.5264M  
- VB1T       1.0495     
+ N$814       508.5264M  
+ N$893       750.0000M  
+ N$897       650.0000M  
+ VB1       1.1996     
+ VB1T       694.8128M  
  VB2       541.4707M  
- VB2T       56.1058M   
+ VB2T       24.3542M   
  VB3       1.0536     
- VCM       1.0000     
+ VCM       900.0000M  
  VDD       1.8000     
- VO      -7.7850F    
- VO+       926.7300M  
- VO-       926.7300M  
- X_RFC1.CMFB       1.0673     
- X_RFC1.N$112       1.2637     
- X_RFC1.N$329       926.7300M  
- X_RFC1.N$336       463.3650M  
- X_RFC1.N$410       1.0803     
- X_RFC1.N$63       1.2637     
- X_RFC1.N$638       408.0245M  
- X_RFC1.N$653       403.8669M  
- X_RFC1.N$655       429.4760M  
- X_RFC1.N$656       403.8669M  
- X_RFC1.N$669       429.4760M  
- X_RFC1.N$679       641.8483M  
- X_RFC1.N$681       641.8483M  
- X_RFC1.N$682       408.0245M  
- X_RFC1.N$687       875.3525M  
+ VI       0.0000     
+ VI+       0.0000     
+ VI-       0.0000     
+ VO       5.8774F    
+ VO+       1.1028     
+ VO-       1.1028     
+ X_RFC1.CMFB1       1.3160     
+ X_RFC1.CMFB2       1.3160     
+ X_RFC1.N$112       1.1992     
+ X_RFC1.N$329       1.1028     
+ X_RFC1.N$336       1.1028     
+ X_RFC1.N$638       500.7891M  
+ X_RFC1.N$653       444.9637M  
+ X_RFC1.N$655       404.5269M  
+ X_RFC1.N$656       444.9637M  
+ X_RFC1.N$669       404.5269M  
+ X_RFC1.N$679       558.5665M  
+ X_RFC1.N$681       558.5665M  
+ X_RFC1.N$682       500.7891M  
+ X_RFC1.N$692       1.1992     
+ X_RFC1.N$717       1.3031     
+ X_RFC1.N$718       856.9681M  
+ X_RFC1.N$727       1.1028     
  X_RFC_BIAS1.N$175       456.9904M  
- X_RFC_BIAS1.N$179       485.4527M  
- X_RFC_BIAS1.N$181       53.7044M   
+ X_RFC_BIAS1.N$179       470.8526M  
+ X_RFC_BIAS1.N$181       23.1410M   
  X_RFC_BIAS1.N$195       1.2240     
- X_RFC_BIAS1.N$198       1.1996     
  X_RFC_BIAS1.N$65       1.2398     
- X_RFC_BIAS1.N$89       1.1684     
- X_RFC_BIAS1.N$91       930.4340M  
- X_S2D1.N$2       500.0000M  
+ X_RFC_BIAS1.N$89       1.2713     
+ X_RFC_BIAS1.N$91       973.2891M  
+ X_S2D1.N$2       700.0000M  
 
 
 
    VOLTAGE SOURCE CURRENT
 
 NAME      CURRENT      VOLTAGE      POWER        
-V3         0.0000       0.0000       0.0000      
-E1         0.0000      -7.7850F      0.0000      
-V1        -642.3242U    1.8000      -1.1562M     
+V3         0.0000      -100.0000M    0.0000      
+E2         0.0000       0.0000       0.0000      
+X_S2D1.E3   0.0000       700.0000M    0.0000      
+X_S2D1.E2   0.0000       50.0000M     0.0000      
+X_S2D1.E1   0.0000      -50.0000M     0.0000      
+X_RFC1.E4   0.0000       484.0036M    0.0000      
+X_RFC1.E2   2.9387A      1.1028       3.2407A     
+X_RFC1.E3  -2.9387A      1.1028      -3.2407A     
+X_RFC1.E1   0.0000       484.0036M    0.0000      
+V1        -1.2703M      1.8000      -2.2866M     
+V2         0.0000       700.0000M    0.0000      
 I1         5.0000U      770.4821M    3.8524U     
-X_RFC1.E2   0.0000       463.3650M    0.0000      
-X_RFC1.E3   0.0000       463.3650M    0.0000      
-X_RFC1.E1   0.0000       732.7000M    0.0000      
-V4         0.0000       1.0000       0.0000      
-X_S2D1.E3   0.0000       500.0000M    0.0000      
-X_S2D1.E2   0.0000       0.0000       0.0000      
-X_S2D1.E1   0.0000       0.0000       0.0000      
-V2         0.0000       500.0000M    0.0000      
+E1         0.0000       5.8774F      0.0000      
 
-   TOTAL POWER DISSIPATION:  1.1523M     WATTS
+   TOTAL POWER DISSIPATION:  2.2828M     WATTS
+
+   POWER DISSIPATION THROUGH CONTROLLED SOURCES:  0.0000A     WATTS
 
 
 
@@ -3827,39 +3852,39 @@ V2         0.0000       500.0000M    0.0000
 Eldo NEWTON: VNTOL=1.000000e-06 RELTOL=6.111111e-04
 
 ................................................
-Simulation progress           : 10% (t = 10.0021 N)
-Elapsed CPU time              :  0h  0mn  0s 200    ( 0h  0mn  0s 200)
+Simulation progress           : 10% (t = 20.0000 N)
+Elapsed CPU time              :  0h  0mn  0s 450    ( 0h  0mn  0s 450)
 ................................................
-Simulation progress           : 20% (t = 20.0056 N)
-Elapsed CPU time              :  0h  0mn  0s 260    ( 0h  0mn  0s 460)
+Simulation progress           : 20% (t = 40.0100 N)
+Elapsed CPU time              :  0h  0mn  0s 430    ( 0h  0mn  0s 880)
 ................................................
-Simulation progress           : 30% (t = 30.0020 N)
-Elapsed CPU time              :  0h  0mn  0s 240    ( 0h  0mn  0s 700)
+Simulation progress           : 30% (t = 60.0100 N)
+Elapsed CPU time              :  0h  0mn  0s 400    ( 0h  0mn  1s 280)
 ................................................
-Simulation progress           : 40% (t = 40.0054 N)
-Elapsed CPU time              :  0h  0mn  0s 220    ( 0h  0mn  0s 920)
+Simulation progress           : 40% (t = 80.0000 N)
+Elapsed CPU time              :  0h  0mn  0s 470    ( 0h  0mn  1s 750)
 ................................................
-Simulation progress           : 50% (t = 50.0020 N)
-Elapsed CPU time              :  0h  0mn  0s 240    ( 0h  0mn  1s 160)
+Simulation progress           : 50% (t = 100.0000 N)
+Elapsed CPU time              :  0h  0mn  0s 370    ( 0h  0mn  2s 120)
 ................................................
-Simulation progress           : 60% (t = 60.0055 N)
-Elapsed CPU time              :  0h  0mn  0s 230    ( 0h  0mn  1s 390)
+Simulation progress           : 60% (t = 120.0000 N)
+Elapsed CPU time              :  0h  0mn  0s 400    ( 0h  0mn  2s 520)
 ................................................
-Simulation progress           : 70% (t = 70.0021 N)
-Elapsed CPU time              :  0h  0mn  0s 240    ( 0h  0mn  1s 630)
+Simulation progress           : 70% (t = 140.0100 N)
+Elapsed CPU time              :  0h  0mn  0s 400    ( 0h  0mn  2s 920)
 ................................................
-Simulation progress           : 80% (t = 80.0056 N)
-Elapsed CPU time              :  0h  0mn  0s 210    ( 0h  0mn  1s 840)
+Simulation progress           : 80% (t = 160.0000 N)
+Elapsed CPU time              :  0h  0mn  0s 420    ( 0h  0mn  3s 340)
 ................................................
-Simulation progress           : 90% (t = 90.0020 N)
-Elapsed CPU time              :  0h  0mn  0s 210    ( 0h  0mn  2s  50)
+Simulation progress           : 90% (t = 180.0100 N)
+Elapsed CPU time              :  0h  0mn  0s 420    ( 0h  0mn  3s 760)
 ................................................
-Simulation progress           : 100% (t = 100.0000 N)
-Elapsed CPU time              :  0h  0mn  0s 210    ( 0h  0mn  2s 260)
+Simulation progress           : 100% (t = 200.0000 N)
+Elapsed CPU time              :  0h  0mn  0s 420    ( 0h  0mn  4s 180)
 
 
 
-1*************** 9-Oct-2013 ***********************  ELDO 2009.2 (64 bits)  (v7.2_1.1)  ***********************23:30:31*****************
+1***************28-Oct-2013 ***********************  ELDO 2009.2 (64 bits)  (v7.2_1.1)  ***********************13:33:38*****************
 
 0* Component: $AnalogIP/default.group/logic.views/testRFC  Viewpoint: eldonet
 0****                 ACCOUNTING INFORMATION                                TEMPERATURE =   27.000 DEG C
@@ -3872,43 +3897,43 @@ Elapsed CPU time              :  0h  0mn  0s 210    ( 0h  0mn  2s 260)
 
     NUNODS NCNODS NUMNOD   NUMEL   DIODES    BJT  JFET  MOSFET
 
-       112     44    136      64        0      0     0      46
+       118     47    143      73        0      0     0      48
 
 
     NSTOP    NTERM    PERSPA  
 
-      139      751 9.611e+01
+      149      796 9.641e+01
 
     NUMTTP  NUMRTP  LTERTP  LTERTPNW NWNOCON
 
-     10055       0       0       0       0
+     20001       0       0       0       0
 
   DIGITAL  INWCALL    ITERNW   MEMSIZE
 
-        0    19167 1.906e+00  126398464
+        0    39024 1.951e+00  126414848
 
     NDEVCALL       NKIRCH  NMAXCALL      ITERM     LATENCY
 
-       58976            1         3   9.96e-01   0.000e+00%
+       34834            1         3   1.00e+00   0.000e+00%
 
 
-  TRANSIENT JOB TIME                 2
+  TRANSIENT JOB TIME                 4
 
 
 
 
-***>CPU TIME 2s 260ms <***
+***>CPU TIME 4s 180ms <***
 
-***>MESSAGE SUMMARY: 8 warnings
+***>MESSAGE SUMMARY: 9 warnings
 
-***>GLOBAL CPU TIME 2s 320ms <***
-
-
-***>GLOBAL ELAPSED TIME 5s <***
+***>GLOBAL CPU TIME 4s 250ms <***
 
 
-  Job started at  9-Oct-2013 23:30:29
-  Job end at      9-Oct-2013 23:30:34
+***>GLOBAL ELAPSED TIME 6s <***
+
+
+  Job started at 28-Oct-2013 13:33:37
+  Job end at     28-Oct-2013 13:33:43
 
   Run on localhost.localdomain (Linux 2.6.18-348.el5)
 

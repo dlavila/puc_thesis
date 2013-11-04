@@ -1,13 +1,13 @@
-A 5 u mgc_schematic 524c8197ad52.03.7f.00.00.01.00.24.12 322 2 1 0
-V v 320 1 52560f7c83a9.03.7f.00.00.01.00.12.69
+A 5 u mgc_schematic 524c8197ad52.03.7f.00.00.01.00.24.12 372 2 1 0
+V v 370 1 526ab5dfdd58.03.7f.00.00.01.00.0f.f1
 F o 0 ""
-V v 321 1 52561038007f.03.7f.00.00.01.00.12.69
+V v 371 1 526ae064d41f.03.7f.00.00.01.00.47.71
 F o 0 ""
-V v 322 1 525610391207.03.7f.00.00.01.00.12.69
+V v 372 1 526e91d9d4c6.03.7f.00.00.01.00.62.a4
 F o 0 ""
-O 322
-R cspuv 0 "$AnalogIP/default.group/logic.views/RFC/schematic/sheet1" 321 mgc_sheet 5256103911e8.03.7f.00.00.01.00.12.69 524c8197af44.03.7f.00.00.01.00.24.12
-O 321
-R cspuv 0 "$AnalogIP/default.group/logic.views/RFC/schematic/sheet1" 320 mgc_sheet 52561038005f.03.7f.00.00.01.00.12.69 524c8197af44.03.7f.00.00.01.00.24.12
-O 320
-R cspuv 0 "$AnalogIP/default.group/logic.views/RFC/schematic/sheet1" 319 mgc_sheet 52560f7c837f.03.7f.00.00.01.00.12.69 524c8197af44.03.7f.00.00.01.00.24.12
+O 372
+R cspuv 0 "$AnalogIP/default.group/logic.views/RFC/schematic/sheet1" 371 mgc_sheet 526e91d9d4a3.03.7f.00.00.01.00.62.a4 524c8197af44.03.7f.00.00.01.00.24.12
+O 371
+R cspuv 0 "$AnalogIP/default.group/logic.views/RFC/schematic/sheet1" 370 mgc_sheet 526ae064d3ed.03.7f.00.00.01.00.47.71 524c8197af44.03.7f.00.00.01.00.24.12
+O 370
+R cspuv 0 "$AnalogIP/default.group/logic.views/RFC/schematic/sheet1" 369 mgc_sheet 526ab5dfdd25.03.7f.00.00.01.00.0f.f1 524c8197af44.03.7f.00.00.01.00.24.12

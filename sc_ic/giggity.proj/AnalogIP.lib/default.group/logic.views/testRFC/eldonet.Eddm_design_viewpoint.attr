@@ -1,115 +1,86 @@
-A 5 u Eddm_design_viewpoint 524f24d10fea.03.7f.00.00.01.00.7f.2c 1012 2 5311 0
-V v 1010 4 525611422c9e.03.7f.00.00.01.00.12.69
-F f 1010 "eldonet.dvpt_1010"
+A 5 u Eddm_design_viewpoint 5261779d52ee.03.7f.00.00.01.00.42.02 146 2 986 0
+V v 144 4 526e91a5c7ad.03.7f.00.00.01.00.62.a4
+F f 144 "eldonet.dvpt_144"
 F o 0 ""
 F o 0 ""
 F o 0 ""
-V v 1011 4 525611a11b2b.03.7f.00.00.01.00.12.69
-F f 1011 "eldonet.dvpt_1011"
+V v 145 4 526e91df765f.03.7f.00.00.01.00.62.a4
+F f 145 "eldonet.dvpt_145"
 F o 0 ""
 F o 0 ""
 F o 0 ""
-V v 1012 4 525611a5d8f9.03.7f.00.00.01.00.12.69
-F f 1012 "eldonet.dvpt_1012"
+V v 146 4 526e920997b4.03.7f.00.00.01.00.62.a4
+F f 146 "eldonet.dvpt_146"
 F o 0 ""
 F o 0 ""
 F o 0 ""
-O 1012
+O 146
 P "eddm__stream_to_use" "eddm__propl_dstream"
 R cspuv 0 "$AnalogIP/default.group/logic.views/testRFC/part" 1 Eddm_part 524c8a369e70.03.7f.00.00.01.01.2a.6c 524c8a369e70.03.7f.00.00.01.00.2a.6c
-R cspuv 1 "$AnalogIP/default.group/logic.views/testRFC/schematic" 412 mgc_schematic 5256105430f0.03.7f.00.00.01.00.12.69 524c87eba143.03.7f.00.00.01.00.2a.6c
-R cspuv 2 "$AnalogIP/default.group/logic.views/testRFC/eldonet" 190 Eddm_ba_mgr 525611422cbe.03.7f.00.00.01.00.12.69 524f24d110d1.03.7f.00.00.01.00.7f.2c
-R cspuv 3 "$MGC_IC_SOURCES_LIB/dc_i_source/part" 1 Eddm_part 3890a870199d.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.00.34.72
-R cspuv 4 "$MGC_DESIGN_KIT/symbols/P_18_MM/part" 23 Eddm_part 462e23ba79d1.03.7f.00.00.01.00.54.63 461b99bfbe81.03.89.ca.19.1a.00.4f.21
-R cspuv 5 "$MGC_IC_SOURCES_LIB/vcvs_2pin/part" 1 Eddm_part 359ac661711d.03.86.56.31.87.00.43.29 3890ce7e2bcb.03.86.56.31.70.01.34.72
+R cspuv 1 "$AnalogIP/default.group/logic.views/testRFC/schematic" 531 mgc_schematic 526e91dcf14e.03.7f.00.00.01.00.62.a4 524c87eba143.03.7f.00.00.01.00.2a.6c
+R cspuv 2 "$AnalogIP/default.group/logic.views/testRFC/eldonet" 6 Eddm_ba_mgr 52698df1bbdf.03.7f.00.00.01.00.69.55 5261779d5410.03.7f.00.00.01.00.42.02
+R cspuv 3 "$MGC_IC_DEVICE_LIB/ideal_resistor/part" 2 Eddm_part 3fa692def27e.03.93.22.28.48.00.08.df 3900e8d5419c.03.93.22.22.60.00.56.1b
+R cspuv 4 "$MGC_DESIGN_KIT/symbols/MIMCAPS_MM/part" 22 Eddm_part 462e5a1f20e0.03.7f.00.00.01.00.3d.95 461b9a1cd72a.03.89.ca.19.1a.00.4f.21
 R cspuv 6 "$MGC_IC_SOURCES_LIB/dc_v_source/part" 1 Eddm_part 3890a89d50f5.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.01.34.72
-R cspuv 8 "$AnalogIP/default.group/logic.views/s2d/part" 4 Eddm_part 5253162a4992.03.7f.00.00.01.00.57.72 524f2400480a.03.7f.00.00.01.00.7f.2c
-R cspuv 9 "$MGC_DESIGN_KIT/symbols/N_18_MM/part" 26 Eddm_part 462e23b780f6.03.7f.00.00.01.00.54.63 461b99901841.03.89.ca.19.1a.00.4f.21
-R cspuv 10 "$MGC_IC_DEVICE_LIB/ideal_capacitor/part" 2 Eddm_part 3fa692696ca3.03.93.22.28.48.00.08.df 3900e8d5884e.03.93.22.22.60.00.56.1b
-R cspuv 11 "$AnalogIP/default.group/logic.views/RFC/part" 17 Eddm_part 52531a6f4cea.03.7f.00.00.01.00.57.72 524c84467e14.03.7f.00.00.01.00.24.12
-R cspuv 17 "$AnalogIP/default.group/logic.views/s2d/schematic" 2 mgc_schematic 524f240048f8.03.7f.00.00.01.00.7f.2c 524f230cd625.03.7f.00.00.01.00.7f.2c
-R cspuv 20 "$AnalogIP/default.group/logic.views/RFC/schematic" 322 mgc_schematic 525610391207.03.7f.00.00.01.00.12.69 524c8197ad52.03.7f.00.00.01.00.24.12
-R cspuv 543 "$MGC_IC_SOURCES_LIB/vcvs/part" 1 Eddm_part 3890ce21ee10.03.86.56.31.70.00.34.2e 3890ce7e2bcc.03.86.56.31.70.00.34.72
-R cspuv 1165 "$AnalogIP/default.group/logic.views/RFC_bias/part" 3 Eddm_part 52532fae5c4c.03.7f.00.00.01.00.15.d5 52532703aae5.03.7f.00.00.01.00.0d.e9
-R cspuv 1175 "$AnalogIP/default.group/logic.views/RFC_bias/schematic" 105 mgc_schematic 52560ec17201.03.7f.00.00.01.00.12.69 525325be08e9.03.7f.00.00.01.00.0d.e9
-R cspuv 1329 "$MGC_DESIGN_KIT/symbols/MIMCAPS_MM/part" 22 Eddm_part 462e5a1f20e0.03.7f.00.00.01.00.3d.95 461b9a1cd72a.03.89.ca.19.1a.00.4f.21
-R cspuv 5264 "$MGC_IC_SOURCES_LIB/pulse_v_source/part" 2 Eddm_part 48349c3e2130.03.93.22.29.54.00.75.8d 3890b26cc0aa.03.86.56.31.70.03.34.72
-R cspuv 5289 "$MGC_IC_SOURCES_LIB/pulse_v_source/pulse_v_source" 5 mgc_symbol 48ac585944d7.03.93.22.29.5e.00.3f.5a 3890b26cc0aa.03.86.56.31.70.02.34.72
-R cspuv 5299 "$MGC_IC_DEVICE_LIB/ideal_capacitor/ideal_capacitor" 2 mgc_symbol 3fa692696c7b.03.93.22.28.48.00.08.df 3900e8d588b1.03.93.22.22.60.00.56.1b
-R cspuv 5302 "$MGC_DESIGN_KIT/symbols/MIMCAPS_MM/MIMCAPS_MM" 5 mgc_symbol 462e5a1f20cc.03.7f.00.00.01.00.3d.95 461b9a2010e0.03.89.ca.19.1a.00.4f.21
-O 1011
+R cspuv 8 "$MGC_DESIGN_KIT/symbols/N_18_MM/part" 26 Eddm_part 462e23b780f6.03.7f.00.00.01.00.54.63 461b99901841.03.89.ca.19.1a.00.4f.21
+R cspuv 9 "$MGC_IC_SOURCES_LIB/vcvs_2pin/part" 1 Eddm_part 359ac661711d.03.86.56.31.87.00.43.29 3890ce7e2bcb.03.86.56.31.70.01.34.72
+R cspuv 10 "$AnalogIP/default.group/logic.views/RFC/part" 27 Eddm_part 5256ede27bfa.03.7f.00.00.01.00.55.27 524c84467e14.03.7f.00.00.01.00.24.12
+R cspuv 11 "$AnalogIP/default.group/logic.views/RFC_bias/part" 4 Eddm_part 5256ed705e54.03.7f.00.00.01.00.55.27 52532703aae5.03.7f.00.00.01.00.0d.e9
+R cspuv 12 "$AnalogIP/default.group/logic.views/s2d/part" 4 Eddm_part 5253162a4992.03.7f.00.00.01.00.57.72 524f2400480a.03.7f.00.00.01.00.7f.2c
+R cspuv 13 "$MGC_IC_SOURCES_LIB/dc_i_source/part" 1 Eddm_part 3890a870199d.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.00.34.72
+R cspuv 15 "$AnalogIP/default.group/logic.views/RFC_bias/schematic" 116 mgc_schematic 526999d4ad58.03.7f.00.00.01.00.18.76 525325be08e9.03.7f.00.00.01.00.0d.e9
+R cspuv 22 "$AnalogIP/default.group/logic.views/s2d/schematic" 2 mgc_schematic 524f240048f8.03.7f.00.00.01.00.7f.2c 524f230cd625.03.7f.00.00.01.00.7f.2c
+R cspuv 23 "$AnalogIP/default.group/logic.views/s2d/s2d" 5 mgc_symbol 5253162b1e98.03.7f.00.00.01.00.57.72 524f2404b66a.03.7f.00.00.01.00.7f.2c
+R cspuv 26 "$AnalogIP/default.group/logic.views/RFC/schematic" 372 mgc_schematic 526e91d9d4c6.03.7f.00.00.01.00.62.a4 524c8197ad52.03.7f.00.00.01.00.24.12
+R cspuv 32 "$MGC_DESIGN_KIT/symbols/P_18_MM/part" 23 Eddm_part 462e23ba79d1.03.7f.00.00.01.00.54.63 461b99bfbe81.03.89.ca.19.1a.00.4f.21
+R cspuv 34 "$MGC_IC_SOURCES_LIB/vcvs/part" 1 Eddm_part 3890ce21ee10.03.86.56.31.70.00.34.2e 3890ce7e2bcc.03.86.56.31.70.00.34.72
+R cspuv 432 "$MGC_IC_SOURCES_LIB/pulse_v_source/part" 2 Eddm_part 48349c3e2130.03.93.22.29.54.00.75.8d 3890b26cc0aa.03.86.56.31.70.03.34.72
+R cspuv 542 "$MGC_IC_DEVICE_LIB/ideal_capacitor/part" 2 Eddm_part 3fa692696ca3.03.93.22.28.48.00.08.df 3900e8d5884e.03.93.22.22.60.00.56.1b
+O 145
 P "eddm__stream_to_use" "eddm__propl_dstream"
 R cspuv 0 "$AnalogIP/default.group/logic.views/testRFC/part" 1 Eddm_part 524c8a369e70.03.7f.00.00.01.01.2a.6c 524c8a369e70.03.7f.00.00.01.00.2a.6c
-R cspuv 1 "$AnalogIP/default.group/logic.views/testRFC/schematic" 412 mgc_schematic 5256105430f0.03.7f.00.00.01.00.12.69 524c87eba143.03.7f.00.00.01.00.2a.6c
-R cspuv 2 "$AnalogIP/default.group/logic.views/testRFC/eldonet" 190 Eddm_ba_mgr 525611422cbe.03.7f.00.00.01.00.12.69 524f24d110d1.03.7f.00.00.01.00.7f.2c
-R cspuv 3 "$MGC_IC_SOURCES_LIB/dc_i_source/part" 1 Eddm_part 3890a870199d.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.00.34.72
-R cspuv 4 "$MGC_DESIGN_KIT/symbols/P_18_MM/part" 23 Eddm_part 462e23ba79d1.03.7f.00.00.01.00.54.63 461b99bfbe81.03.89.ca.19.1a.00.4f.21
-R cspuv 5 "$MGC_IC_SOURCES_LIB/vcvs_2pin/part" 1 Eddm_part 359ac661711d.03.86.56.31.87.00.43.29 3890ce7e2bcb.03.86.56.31.70.01.34.72
+R cspuv 1 "$AnalogIP/default.group/logic.views/testRFC/schematic" 531 mgc_schematic 526e91dcf14e.03.7f.00.00.01.00.62.a4 524c87eba143.03.7f.00.00.01.00.2a.6c
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 2 "$AnalogIP/default.group/logic.views/testRFC/eldonet" 6 Eddm_ba_mgr 52698df1bbdf.03.7f.00.00.01.00.69.55 5261779d5410.03.7f.00.00.01.00.42.02
+R cspuv 3 "$MGC_IC_DEVICE_LIB/ideal_resistor/part" 2 Eddm_part 3fa692def27e.03.93.22.28.48.00.08.df 3900e8d5419c.03.93.22.22.60.00.56.1b
+R cspuv 4 "$MGC_DESIGN_KIT/symbols/MIMCAPS_MM/part" 22 Eddm_part 462e5a1f20e0.03.7f.00.00.01.00.3d.95 461b9a1cd72a.03.89.ca.19.1a.00.4f.21
 R cspuv 6 "$MGC_IC_SOURCES_LIB/dc_v_source/part" 1 Eddm_part 3890a89d50f5.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.01.34.72
-R cspuv 8 "$AnalogIP/default.group/logic.views/s2d/part" 4 Eddm_part 5253162a4992.03.7f.00.00.01.00.57.72 524f2400480a.03.7f.00.00.01.00.7f.2c
-R cspuv 9 "$MGC_DESIGN_KIT/symbols/N_18_MM/part" 26 Eddm_part 462e23b780f6.03.7f.00.00.01.00.54.63 461b99901841.03.89.ca.19.1a.00.4f.21
-R cspuv 10 "$MGC_IC_DEVICE_LIB/ideal_capacitor/part" 2 Eddm_part 3fa692696ca3.03.93.22.28.48.00.08.df 3900e8d5884e.03.93.22.22.60.00.56.1b
-R cspuv 11 "$AnalogIP/default.group/logic.views/RFC/part" 17 Eddm_part 52531a6f4cea.03.7f.00.00.01.00.57.72 524c84467e14.03.7f.00.00.01.00.24.12
-R cspuv 17 "$AnalogIP/default.group/logic.views/s2d/schematic" 2 mgc_schematic 524f240048f8.03.7f.00.00.01.00.7f.2c 524f230cd625.03.7f.00.00.01.00.7f.2c
-R cspuv 20 "$AnalogIP/default.group/logic.views/RFC/schematic" 322 mgc_schematic 525610391207.03.7f.00.00.01.00.12.69 524c8197ad52.03.7f.00.00.01.00.24.12
-R cspuv 543 "$MGC_IC_SOURCES_LIB/vcvs/part" 1 Eddm_part 3890ce21ee10.03.86.56.31.70.00.34.2e 3890ce7e2bcc.03.86.56.31.70.00.34.72
-R cspuv 1165 "$AnalogIP/default.group/logic.views/RFC_bias/part" 3 Eddm_part 52532fae5c4c.03.7f.00.00.01.00.15.d5 52532703aae5.03.7f.00.00.01.00.0d.e9
-R cspuv 1175 "$AnalogIP/default.group/logic.views/RFC_bias/schematic" 105 mgc_schematic 52560ec17201.03.7f.00.00.01.00.12.69 525325be08e9.03.7f.00.00.01.00.0d.e9
-R cspuv 1329 "$MGC_DESIGN_KIT/symbols/MIMCAPS_MM/part" 22 Eddm_part 462e5a1f20e0.03.7f.00.00.01.00.3d.95 461b9a1cd72a.03.89.ca.19.1a.00.4f.21
-R cspuv 5264 "$MGC_IC_SOURCES_LIB/pulse_v_source/part" 2 Eddm_part 48349c3e2130.03.93.22.29.54.00.75.8d 3890b26cc0aa.03.86.56.31.70.03.34.72
-R cspuv 5289 "$MGC_IC_SOURCES_LIB/pulse_v_source/pulse_v_source" 5 mgc_symbol 48ac585944d7.03.93.22.29.5e.00.3f.5a 3890b26cc0aa.03.86.56.31.70.02.34.72
-R cspuv 5296 "$AnalogIP/default.group/logic.views/s2d/s2d" 4 mgc_symbol 5253162a498a.03.7f.00.00.01.00.57.72 524f2404b66a.03.7f.00.00.01.00.7f.2c
-R cspuv 5297 "$MGC_IC_SOURCES_LIB/vcvs_2pin/vcvs_2pin" 1 mgc_symbol 359938903115.03.86.56.31.87.00.1c.d1 3890ce7e2bcb.03.86.56.31.70.00.34.72
-R cspuv 5298 "$MGC_IC_SOURCES_LIB/dc_v_source/dc_v_source" 1 mgc_symbol 3890a89d50ce.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.02.34.72
-R cspuv 5299 "$MGC_IC_DEVICE_LIB/ideal_capacitor/ideal_capacitor" 2 mgc_symbol 3fa692696c7b.03.93.22.28.48.00.08.df 3900e8d588b1.03.93.22.22.60.00.56.1b
-R cspuv 5300 "$MGC_IC_SOURCES_LIB/dc_i_source/dc_i_source" 1 mgc_symbol 3890a8701970.03.86.56.31.70.00.34.2e 3890a962031e.03.86.56.31.70.00.34.72
-R cspuv 5301 "$AnalogIP/default.group/logic.views/RFC_bias/RFC_bias" 2 mgc_symbol 52532fae5c3b.03.7f.00.00.01.00.15.d5 52532f79df18.03.7f.00.00.01.00.15.d5
-R cspuv 5302 "$MGC_DESIGN_KIT/symbols/MIMCAPS_MM/MIMCAPS_MM" 5 mgc_symbol 462e5a1f20cc.03.7f.00.00.01.00.3d.95 461b9a2010e0.03.89.ca.19.1a.00.4f.21
-R cspuv 5303 "$MGC_DESIGN_KIT/symbols/N_18_MM/N_18_MM" 9 mgc_symbol 462e23b780e7.03.7f.00.00.01.00.54.63 461b99935891.03.89.ca.19.1a.00.4f.21
-R cspuv 5304 "$AnalogIP/default.group/logic.views/RFC/RFC" 7 mgc_symbol 52531a6f4ce4.03.7f.00.00.01.00.57.72 524f21c6b476.03.7f.00.00.01.00.7a.d6
-R cspuv 5305 "$MGC_IC_GENERIC_LIB/vdd/part" 1 Eddm_part 3db48b399318.03.93.22.29.75.00.28.94 3db48b399317.03.93.22.29.75.00.28.94
+R cspuv 8 "$MGC_DESIGN_KIT/symbols/N_18_MM/part" 26 Eddm_part 462e23b780f6.03.7f.00.00.01.00.54.63 461b99901841.03.89.ca.19.1a.00.4f.21
+R cspuv 9 "$MGC_IC_SOURCES_LIB/vcvs_2pin/part" 1 Eddm_part 359ac661711d.03.86.56.31.87.00.43.29 3890ce7e2bcb.03.86.56.31.70.01.34.72
+R cspuv 10 "$AnalogIP/default.group/logic.views/RFC/part" 27 Eddm_part 5256ede27bfa.03.7f.00.00.01.00.55.27 524c84467e14.03.7f.00.00.01.00.24.12
+R cspuv 11 "$AnalogIP/default.group/logic.views/RFC_bias/part" 4 Eddm_part 5256ed705e54.03.7f.00.00.01.00.55.27 52532703aae5.03.7f.00.00.01.00.0d.e9
+R cspuv 12 "$AnalogIP/default.group/logic.views/s2d/part" 4 Eddm_part 5253162a4992.03.7f.00.00.01.00.57.72 524f2400480a.03.7f.00.00.01.00.7f.2c
+R cspuv 13 "$MGC_IC_SOURCES_LIB/dc_i_source/part" 1 Eddm_part 3890a870199d.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.00.34.72
+R cspuv 15 "$AnalogIP/default.group/logic.views/RFC_bias/schematic" 116 mgc_schematic 526999d4ad58.03.7f.00.00.01.00.18.76 525325be08e9.03.7f.00.00.01.00.0d.e9
+R cspuv 22 "$AnalogIP/default.group/logic.views/s2d/schematic" 2 mgc_schematic 524f240048f8.03.7f.00.00.01.00.7f.2c 524f230cd625.03.7f.00.00.01.00.7f.2c
+R cspuv 23 "$AnalogIP/default.group/logic.views/s2d/s2d" 5 mgc_symbol 5253162b1e98.03.7f.00.00.01.00.57.72 524f2404b66a.03.7f.00.00.01.00.7f.2c
+R cspuv 26 "$AnalogIP/default.group/logic.views/RFC/schematic" 372 mgc_schematic 526e91d9d4c6.03.7f.00.00.01.00.62.a4 524c8197ad52.03.7f.00.00.01.00.24.12
 P "eddm__refer_state" "eddm__refer_floating"
-R cspuv 5306 "$MGC_IC_GENERIC_LIB/ground/part" 1 Eddm_part 3db4867e4bc8.03.93.22.29.75.00.27.f6 3db4867e4bc7.03.93.22.29.75.00.27.f6
-P "eddm__refer_state" "eddm__refer_floating"
-R cspuv 5307 "$MGC_IC_GENERIC_LIB/vdd/vdd" 1 mgc_symbol 3db48b399bae.03.93.22.29.75.00.28.94 3db48b399bac.03.93.22.29.75.00.28.94
-R cspuv 5308 "$MGC_IC_GENERIC_LIB/ground/ground" 1 mgc_symbol 3db4867e5447.03.93.22.29.75.00.27.f6 3db4867e5446.03.93.22.29.75.00.27.f6
-R cspuv 5309 "$MGC_DESIGN_KIT/symbols/P_18_MM/P_18_MM" 6 mgc_symbol 462e23ba79c0.03.7f.00.00.01.00.54.63 461b99c2ec2d.03.89.ca.19.1a.00.4f.21
-R cspuv 5310 "$MGC_IC_SOURCES_LIB/vcvs/vcvs" 1 mgc_symbol 3890ce21edda.03.86.56.31.70.00.34.2e 3890ce7e2bcb.03.86.56.31.70.02.34.72
-O 1010
+R cspuv 32 "$MGC_DESIGN_KIT/symbols/P_18_MM/part" 23 Eddm_part 462e23ba79d1.03.7f.00.00.01.00.54.63 461b99bfbe81.03.89.ca.19.1a.00.4f.21
+R cspuv 34 "$MGC_IC_SOURCES_LIB/vcvs/part" 1 Eddm_part 3890ce21ee10.03.86.56.31.70.00.34.2e 3890ce7e2bcc.03.86.56.31.70.00.34.72
+R cspuv 432 "$MGC_IC_SOURCES_LIB/pulse_v_source/part" 2 Eddm_part 48349c3e2130.03.93.22.29.54.00.75.8d 3890b26cc0aa.03.86.56.31.70.03.34.72
+R cspuv 542 "$MGC_IC_DEVICE_LIB/ideal_capacitor/part" 2 Eddm_part 3fa692696ca3.03.93.22.28.48.00.08.df 3900e8d5884e.03.93.22.22.60.00.56.1b
+R cspuv 955 "$MGC_IC_SOURCES_LIB/pulse_v_source/pulse_v_source" 5 mgc_symbol 48ac585944d7.03.93.22.29.5e.00.3f.5a 3890b26cc0aa.03.86.56.31.70.02.34.72
+O 144
 P "eddm__stream_to_use" "eddm__propl_dstream"
 R cspuv 0 "$AnalogIP/default.group/logic.views/testRFC/part" 1 Eddm_part 524c8a369e70.03.7f.00.00.01.01.2a.6c 524c8a369e70.03.7f.00.00.01.00.2a.6c
-R cspuv 1 "$AnalogIP/default.group/logic.views/testRFC/schematic" 412 mgc_schematic 5256105430f0.03.7f.00.00.01.00.12.69 524c87eba143.03.7f.00.00.01.00.2a.6c
-R cspuv 2 "$AnalogIP/default.group/logic.views/testRFC/eldonet" 190 Eddm_ba_mgr 525611422cbe.03.7f.00.00.01.00.12.69 524f24d110d1.03.7f.00.00.01.00.7f.2c
-R cspuv 3 "$MGC_IC_SOURCES_LIB/dc_i_source/part" 1 Eddm_part 3890a870199d.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.00.34.72
-R cspuv 4 "$MGC_DESIGN_KIT/symbols/P_18_MM/part" 23 Eddm_part 462e23ba79d1.03.7f.00.00.01.00.54.63 461b99bfbe81.03.89.ca.19.1a.00.4f.21
-R cspuv 5 "$MGC_IC_SOURCES_LIB/vcvs_2pin/part" 1 Eddm_part 359ac661711d.03.86.56.31.87.00.43.29 3890ce7e2bcb.03.86.56.31.70.01.34.72
+R cspuv 1 "$AnalogIP/default.group/logic.views/testRFC/schematic" 530 mgc_schematic 526e91842df6.03.7f.00.00.01.00.62.a4 524c87eba143.03.7f.00.00.01.00.2a.6c
+R cspuv 2 "$AnalogIP/default.group/logic.views/testRFC/eldonet" 6 Eddm_ba_mgr 52698df1bbdf.03.7f.00.00.01.00.69.55 5261779d5410.03.7f.00.00.01.00.42.02
+R cspuv 3 "$MGC_IC_DEVICE_LIB/ideal_resistor/part" 2 Eddm_part 3fa692def27e.03.93.22.28.48.00.08.df 3900e8d5419c.03.93.22.22.60.00.56.1b
+R cspuv 4 "$MGC_DESIGN_KIT/symbols/MIMCAPS_MM/part" 22 Eddm_part 462e5a1f20e0.03.7f.00.00.01.00.3d.95 461b9a1cd72a.03.89.ca.19.1a.00.4f.21
 R cspuv 6 "$MGC_IC_SOURCES_LIB/dc_v_source/part" 1 Eddm_part 3890a89d50f5.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.01.34.72
-R cspuv 8 "$AnalogIP/default.group/logic.views/s2d/part" 4 Eddm_part 5253162a4992.03.7f.00.00.01.00.57.72 524f2400480a.03.7f.00.00.01.00.7f.2c
-R cspuv 9 "$MGC_DESIGN_KIT/symbols/N_18_MM/part" 26 Eddm_part 462e23b780f6.03.7f.00.00.01.00.54.63 461b99901841.03.89.ca.19.1a.00.4f.21
-R cspuv 10 "$MGC_IC_DEVICE_LIB/ideal_capacitor/part" 2 Eddm_part 3fa692696ca3.03.93.22.28.48.00.08.df 3900e8d5884e.03.93.22.22.60.00.56.1b
-R cspuv 11 "$AnalogIP/default.group/logic.views/RFC/part" 17 Eddm_part 52531a6f4cea.03.7f.00.00.01.00.57.72 524c84467e14.03.7f.00.00.01.00.24.12
-R cspuv 17 "$AnalogIP/default.group/logic.views/s2d/schematic" 2 mgc_schematic 524f240048f8.03.7f.00.00.01.00.7f.2c 524f230cd625.03.7f.00.00.01.00.7f.2c
-R cspuv 20 "$AnalogIP/default.group/logic.views/RFC/schematic" 322 mgc_schematic 525610391207.03.7f.00.00.01.00.12.69 524c8197ad52.03.7f.00.00.01.00.24.12
-R cspuv 543 "$MGC_IC_SOURCES_LIB/vcvs/part" 1 Eddm_part 3890ce21ee10.03.86.56.31.70.00.34.2e 3890ce7e2bcc.03.86.56.31.70.00.34.72
-R cspuv 1165 "$AnalogIP/default.group/logic.views/RFC_bias/part" 3 Eddm_part 52532fae5c4c.03.7f.00.00.01.00.15.d5 52532703aae5.03.7f.00.00.01.00.0d.e9
-R cspuv 1175 "$AnalogIP/default.group/logic.views/RFC_bias/schematic" 105 mgc_schematic 52560ec17201.03.7f.00.00.01.00.12.69 525325be08e9.03.7f.00.00.01.00.0d.e9
-R cspuv 1329 "$MGC_DESIGN_KIT/symbols/MIMCAPS_MM/part" 22 Eddm_part 462e5a1f20e0.03.7f.00.00.01.00.3d.95 461b9a1cd72a.03.89.ca.19.1a.00.4f.21
-R cspuv 5264 "$MGC_IC_SOURCES_LIB/pulse_v_source/part" 2 Eddm_part 48349c3e2130.03.93.22.29.54.00.75.8d 3890b26cc0aa.03.86.56.31.70.03.34.72
-R cspuv 5289 "$MGC_IC_SOURCES_LIB/pulse_v_source/pulse_v_source" 5 mgc_symbol 48ac585944d7.03.93.22.29.5e.00.3f.5a 3890b26cc0aa.03.86.56.31.70.02.34.72
-R cspuv 5296 "$AnalogIP/default.group/logic.views/s2d/s2d" 4 mgc_symbol 5253162a498a.03.7f.00.00.01.00.57.72 524f2404b66a.03.7f.00.00.01.00.7f.2c
-R cspuv 5297 "$MGC_IC_SOURCES_LIB/vcvs_2pin/vcvs_2pin" 1 mgc_symbol 359938903115.03.86.56.31.87.00.1c.d1 3890ce7e2bcb.03.86.56.31.70.00.34.72
-R cspuv 5298 "$MGC_IC_SOURCES_LIB/dc_v_source/dc_v_source" 1 mgc_symbol 3890a89d50ce.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.02.34.72
-R cspuv 5299 "$MGC_IC_DEVICE_LIB/ideal_capacitor/ideal_capacitor" 2 mgc_symbol 3fa692696c7b.03.93.22.28.48.00.08.df 3900e8d588b1.03.93.22.22.60.00.56.1b
-R cspuv 5300 "$MGC_IC_SOURCES_LIB/dc_i_source/dc_i_source" 1 mgc_symbol 3890a8701970.03.86.56.31.70.00.34.2e 3890a962031e.03.86.56.31.70.00.34.72
-R cspuv 5301 "$AnalogIP/default.group/logic.views/RFC_bias/RFC_bias" 2 mgc_symbol 52532fae5c3b.03.7f.00.00.01.00.15.d5 52532f79df18.03.7f.00.00.01.00.15.d5
-R cspuv 5302 "$MGC_DESIGN_KIT/symbols/MIMCAPS_MM/MIMCAPS_MM" 5 mgc_symbol 462e5a1f20cc.03.7f.00.00.01.00.3d.95 461b9a2010e0.03.89.ca.19.1a.00.4f.21
-R cspuv 5303 "$MGC_DESIGN_KIT/symbols/N_18_MM/N_18_MM" 9 mgc_symbol 462e23b780e7.03.7f.00.00.01.00.54.63 461b99935891.03.89.ca.19.1a.00.4f.21
-R cspuv 5304 "$AnalogIP/default.group/logic.views/RFC/RFC" 7 mgc_symbol 52531a6f4ce4.03.7f.00.00.01.00.57.72 524f21c6b476.03.7f.00.00.01.00.7a.d6
-R cspuv 5305 "$MGC_IC_GENERIC_LIB/vdd/part" 1 Eddm_part 3db48b399318.03.93.22.29.75.00.28.94 3db48b399317.03.93.22.29.75.00.28.94
-P "eddm__refer_state" "eddm__refer_floating"
-R cspuv 5306 "$MGC_IC_GENERIC_LIB/ground/part" 1 Eddm_part 3db4867e4bc8.03.93.22.29.75.00.27.f6 3db4867e4bc7.03.93.22.29.75.00.27.f6
-P "eddm__refer_state" "eddm__refer_floating"
-R cspuv 5307 "$MGC_IC_GENERIC_LIB/vdd/vdd" 1 mgc_symbol 3db48b399bae.03.93.22.29.75.00.28.94 3db48b399bac.03.93.22.29.75.00.28.94
-R cspuv 5308 "$MGC_IC_GENERIC_LIB/ground/ground" 1 mgc_symbol 3db4867e5447.03.93.22.29.75.00.27.f6 3db4867e5446.03.93.22.29.75.00.27.f6
-R cspuv 5309 "$MGC_DESIGN_KIT/symbols/P_18_MM/P_18_MM" 6 mgc_symbol 462e23ba79c0.03.7f.00.00.01.00.54.63 461b99c2ec2d.03.89.ca.19.1a.00.4f.21
-R cspuv 5310 "$MGC_IC_SOURCES_LIB/vcvs/vcvs" 1 mgc_symbol 3890ce21edda.03.86.56.31.70.00.34.2e 3890ce7e2bcb.03.86.56.31.70.02.34.72
+R cspuv 8 "$MGC_DESIGN_KIT/symbols/N_18_MM/part" 26 Eddm_part 462e23b780f6.03.7f.00.00.01.00.54.63 461b99901841.03.89.ca.19.1a.00.4f.21
+R cspuv 9 "$MGC_IC_SOURCES_LIB/vcvs_2pin/part" 1 Eddm_part 359ac661711d.03.86.56.31.87.00.43.29 3890ce7e2bcb.03.86.56.31.70.01.34.72
+R cspuv 10 "$AnalogIP/default.group/logic.views/RFC/part" 27 Eddm_part 5256ede27bfa.03.7f.00.00.01.00.55.27 524c84467e14.03.7f.00.00.01.00.24.12
+R cspuv 11 "$AnalogIP/default.group/logic.views/RFC_bias/part" 4 Eddm_part 5256ed705e54.03.7f.00.00.01.00.55.27 52532703aae5.03.7f.00.00.01.00.0d.e9
+R cspuv 12 "$AnalogIP/default.group/logic.views/s2d/part" 4 Eddm_part 5253162a4992.03.7f.00.00.01.00.57.72 524f2400480a.03.7f.00.00.01.00.7f.2c
+R cspuv 13 "$MGC_IC_SOURCES_LIB/dc_i_source/part" 1 Eddm_part 3890a870199d.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.00.34.72
+R cspuv 15 "$AnalogIP/default.group/logic.views/RFC_bias/schematic" 116 mgc_schematic 526999d4ad58.03.7f.00.00.01.00.18.76 525325be08e9.03.7f.00.00.01.00.0d.e9
+R cspuv 22 "$AnalogIP/default.group/logic.views/s2d/schematic" 2 mgc_schematic 524f240048f8.03.7f.00.00.01.00.7f.2c 524f230cd625.03.7f.00.00.01.00.7f.2c
+R cspuv 23 "$AnalogIP/default.group/logic.views/s2d/s2d" 5 mgc_symbol 5253162b1e98.03.7f.00.00.01.00.57.72 524f2404b66a.03.7f.00.00.01.00.7f.2c
+R cspuv 26 "$AnalogIP/default.group/logic.views/RFC/schematic" 371 mgc_schematic 526ae064d41f.03.7f.00.00.01.00.47.71 524c8197ad52.03.7f.00.00.01.00.24.12
+R cspuv 32 "$MGC_DESIGN_KIT/symbols/P_18_MM/part" 23 Eddm_part 462e23ba79d1.03.7f.00.00.01.00.54.63 461b99bfbe81.03.89.ca.19.1a.00.4f.21
+R cspuv 34 "$MGC_IC_SOURCES_LIB/vcvs/part" 1 Eddm_part 3890ce21ee10.03.86.56.31.70.00.34.2e 3890ce7e2bcc.03.86.56.31.70.00.34.72
+R cspuv 432 "$MGC_IC_SOURCES_LIB/pulse_v_source/part" 2 Eddm_part 48349c3e2130.03.93.22.29.54.00.75.8d 3890b26cc0aa.03.86.56.31.70.03.34.72
+R cspuv 542 "$MGC_IC_DEVICE_LIB/ideal_capacitor/part" 2 Eddm_part 3fa692696ca3.03.93.22.28.48.00.08.df 3900e8d5884e.03.93.22.22.60.00.56.1b
+R cspuv 955 "$MGC_IC_SOURCES_LIB/pulse_v_source/pulse_v_source" 5 mgc_symbol 48ac585944d7.03.93.22.29.5e.00.3f.5a 3890b26cc0aa.03.86.56.31.70.02.34.72

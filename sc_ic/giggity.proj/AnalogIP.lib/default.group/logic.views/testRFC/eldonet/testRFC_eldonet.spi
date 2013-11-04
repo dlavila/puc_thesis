@@ -4,7 +4,7 @@
 .CONNECT GROUND 0
 
 
-* ELDO netlist generated with ICnet by 'dlavila' on Wed Oct  9 2013 at 23:30:29
+* ELDO netlist generated with ICnet by 'dlavila' on Mon Oct 28 2013 at 13:33:37
 
 *
 * Globals.
@@ -20,37 +20,37 @@
 *
 * Component pathname : $AnalogIP/default.group/logic.views/RFC_bias
 *
-.subckt RFC_BIAS  VB1 VB1T VB2 VB2T VB3 CURRENTIN VDD_ESC1 VSS
+.subckt RFC_BIAS  VB1 VB1T VB2 VB2T VB3 VB4 CURRENTIN VDD_ESC1 VSS
 
         M13 VB2T VB3 N$181 VSS n_18_mm l=0.18u w=8u ad=3.92p as=3.92p pd=16.98u
 +  ps=16.98u m=1
         M14 VB1T VB3 N$179 VSS n_18_mm l=0.18u w=8u ad=3.92p as=3.92p pd=16.98u
 +  ps=16.98u m=1
-        M10 VB1 VB1 VSS VSS n_18_mm l=0.5u w=2u ad=0.98p as=0.98p pd=4.98u
+        M10 VB4 VB4 VSS VSS n_18_mm l=0.5u w=2u ad=0.98p as=0.98p pd=4.98u
 +  ps=4.98u m=1
-        M9 VB3 VB3 VB1 VSS n_18_mm l=0.18u w=2u ad=0.98p as=0.98p pd=4.98u
+        M9 VB3 VB3 VB4 VSS n_18_mm l=0.18u w=2u ad=0.98p as=0.98p pd=4.98u
 +  ps=4.98u m=1
         M4 VB3 CURRENTIN N$65 VDD_ESC1 p_18_mm l=0.18u w=2u ad=0.98p as=0.98p
 +  pd=4.98u ps=4.98u m=1
-        M18 N$181 VB1 VSS VSS n_18_mm l=0.18u w=8u ad=3.92p as=3.92p pd=16.98u
+        M18 N$181 VB4 VSS VSS n_18_mm l=0.18u w=8u ad=3.92p as=3.92p pd=16.98u
 +  ps=16.98u m=1
-        M7 N$89 VB1T VDD_ESC1 VDD_ESC1 p_18_mm l=0.18u w=2u ad=0.98p as=0.98p
-+  pd=4.98u ps=4.98u m=1
+        M7 N$89 VB1T VDD_ESC1 VDD_ESC1 p_18_mm l=0.18u w=0.5u ad=0.245p
++  as=0.245p pd=1.98u ps=1.98u m=1
         M21 VB2 VB3 N$175 VSS n_18_mm l=0.18u w=2u ad=0.98p as=0.98p pd=4.98u
 +  ps=4.98u m=1
-        M17 N$179 VB1 VSS VSS n_18_mm l=0.18u w=8u ad=3.92p as=3.92p pd=16.98u
+        M17 N$179 VB4 VSS VSS n_18_mm l=0.18u w=8u ad=3.92p as=3.92p pd=16.98u
 +  ps=16.98u m=1
-        M12 N$198 N$198 VDD_ESC1 VDD_ESC1 p_18_mm l=0.5u w=8u ad=3.92p as=3.92p
+        M12 VB1 VB1 VDD_ESC1 VDD_ESC1 p_18_mm l=0.5u w=8u ad=3.92p as=3.92p
 +  pd=16.98u ps=16.98u m=1
-        M11 VB2 VB2 N$198 VDD_ESC1 p_18_mm l=0.18u w=8u ad=3.92p as=3.92p
+        M11 VB2 VB2 VB1 VDD_ESC1 p_18_mm l=0.18u w=8u ad=3.92p as=3.92p
 +  pd=16.98u ps=16.98u m=1
-        MVB2 VB1T VB2T N$89 VDD_ESC1 p_18_mm l=0.18u w=2u ad=0.98p as=0.98p
-+  pd=4.98u ps=4.98u m=1
-        M1 VB2T VB2T N$91 VDD_ESC1 p_18_mm l=0.18u w=2u ad=0.98p as=0.98p
-+  pd=4.98u ps=4.98u m=1
-        M15 N$91 VB2T VDD_ESC1 VDD_ESC1 p_18_mm l=2u w=1u ad=0.49p as=0.49p
-+  pd=2.98u ps=2.98u m=1
-        M20 N$175 VB1 VSS VSS n_18_mm l=0.18u w=2u ad=0.98p as=0.98p pd=4.98u
+        MVB2 VB1T VB2T N$89 VDD_ESC1 p_18_mm l=0.18u w=0.5u ad=0.245p as=0.245p
++  pd=1.98u ps=1.98u m=1
+        M1 VB2T VB2T N$91 VDD_ESC1 p_18_mm l=0.18u w=0.5u ad=0.245p as=0.245p
++  pd=1.98u ps=1.98u m=1
+        M15 N$91 VB2T VDD_ESC1 VDD_ESC1 p_18_mm l=2u w=0.5u ad=0.245p as=0.245p
++  pd=1.98u ps=1.98u m=1
+        M20 N$175 VB4 VSS VSS n_18_mm l=0.18u w=2u ad=0.98p as=0.98p pd=4.98u
 +  ps=4.98u m=1
         M2 N$65 N$195 VDD_ESC1 VDD_ESC1 p_18_mm l=0.18u w=2u ad=0.98p as=0.98p
 +  pd=4.98u ps=4.98u m=1
@@ -59,64 +59,6 @@
         M3 N$195 N$195 VDD_ESC1 VDD_ESC1 p_18_mm l=0.18u w=2u ad=0.98p as=0.98p
 +  pd=4.98u ps=4.98u m=1
 .ends RFC_BIAS
-
-*
-* Component pathname : $AnalogIP/default.group/logic.views/RFC
-*
-.subckt RFC  VOUT+ VOUT- VB1 VB1T VB2 VB2T VB3 VDD_ESC1 VIN+ VIN- VOCM VSS
-
-        M5 VOUT- VB3 N$638 VSS n_18_mm l=0.18u w=8u ad=3.92p as=3.92p pd=16.98u
-+  ps=16.98u m=1
-        M6 VOUT+ VB3 N$682 VSS n_18_mm l=0.18u w=8u ad=3.92p as=3.92p pd=16.98u
-+  ps=16.98u m=1
-        E2 N$329 N$336 Vout+ Vss 0.5
-        M9 N$63 CMFB VDD_ESC1 VDD_ESC1 p_18_mm l=0.5u w=32u ad=15.68p as=15.68p
-+  pd=64.98u ps=64.98u m=1
-        M8 VOUT+ VB2 N$112 VDD_ESC1 p_18_mm l=0.18u w=32u ad=15.68p as=15.68p
-+  pd=64.98u ps=64.98u m=1
-        M11 N$681 VB3 N$653 VSS n_18_mm l=0.18u w=4u ad=1.96p as=1.96p pd=8.98u
-+  ps=8.98u m=1
-        M10 N$112 CMFB VDD_ESC1 VDD_ESC1 p_18_mm l=0.5u w=32u ad=15.68p
-+  as=15.68p pd=64.98u ps=64.98u m=1
-        M18 N$682 VIN- N$687 VDD_ESC1 p_18_mm l=0.3u w=32u ad=15.68p as=15.68p
-+  pd=64.98u ps=64.98u m=1
-        M17 N$681 VIN- N$687 VDD_ESC1 p_18_mm l=0.3u w=32u ad=15.68p as=15.68p
-+  pd=64.98u ps=64.98u m=1
-        M16 N$679 VIN+ N$687 VDD_ESC1 p_18_mm l=0.3u w=32u ad=15.68p as=15.68p
-+  pd=64.98u ps=64.98u m=1
-        M15 N$681 N$681 N$638 VDD_ESC1 p_18_mm l=0.18u w=4u ad=1.96p as=1.96p
-+  pd=8.98u ps=8.98u m=1
-        M3A N$638 N$681 VSS VSS n_18_mm l=0.5u w=16u ad=7.84p as=7.84p pd=32.98u
-+  ps=32.98u m=1
-        M2 N$681 VB3 N$655 VSS n_18_mm l=0.18u w=4u ad=1.96p as=1.96p pd=8.98u
-+  ps=8.98u m=1
-        M3 N$679 VB3 N$669 VSS n_18_mm l=0.18u w=4u ad=1.96p as=1.96p pd=8.98u
-+  ps=8.98u m=1
-        M7 VOUT- VB2 N$63 VDD_ESC1 p_18_mm l=0.18u w=32u ad=15.68p as=15.68p
-+  pd=64.98u ps=64.98u m=1
-        M3B N$653 N$681 VSS VSS n_18_mm l=0.5u w=4u ad=1.96p as=1.96p pd=8.98u
-+  ps=8.98u m=1
-        M4 N$655 VB1 VSS VSS n_18_mm l=0.5u w=12u ad=5.88p as=5.88p pd=24.98u
-+  ps=24.98u m=1
-        M13 N$669 VB1 VSS VSS n_18_mm l=0.5u w=12u ad=5.88p as=5.88p pd=24.98u
-+  ps=24.98u m=1
-        E3 N$336 VSS Vout- Vss 0.5
-        M14 N$679 N$679 N$682 VDD_ESC1 p_18_mm l=0.18u w=4u ad=1.96p as=1.96p
-+  pd=8.98u ps=8.98u m=1
-        E1 VDD_ESC1 CMFB N$329 VOCM -10
-        M1A N$638 VIN+ N$687 VDD_ESC1 p_18_mm l=0.3u w=32u ad=15.68p as=15.68p
-+  pd=64.98u ps=64.98u m=1
-        M4B N$656 N$679 VSS VSS n_18_mm l=0.5u w=4u ad=1.96p as=1.96p pd=8.98u
-+  ps=8.98u m=1
-        M1 N$687 VB2T N$410 VDD_ESC1 p_18_mm l=0.18u w=16u ad=7.84p as=7.84p
-+  pd=32.98u ps=32.98u m=1
-        M0 N$410 VB1T VDD_ESC1 VDD_ESC1 p_18_mm l=0.18u w=16u ad=7.84p as=7.84p
-+  pd=32.98u ps=32.98u m=1
-        M4A N$682 N$679 VSS VSS n_18_mm l=0.5u w=16u ad=7.84p as=7.84p pd=32.98u
-+  ps=32.98u m=1
-        M12 N$679 VB3 N$656 VSS n_18_mm l=0.18u w=4u ad=1.96p as=1.96p pd=8.98u
-+  ps=8.98u m=1
-.ends RFC
 
 *
 * Component pathname : $AnalogIP/default.group/logic.views/s2d
@@ -129,30 +71,100 @@
 .ends S2D
 
 *
+* Component pathname : $AnalogIP/default.group/logic.views/RFC
+*
+.subckt RFC  VOUT+ VOUT- VB1 VB1T VB2 VB2T VB3 VB4 VDD_ESC1 VIN+ VIN- VOCM
++ VSS
+
+        E4 VDD_ESC1 CMFB2 N$727 VB1 -5
+        M0 N$717 VB1T VDD_ESC1 VDD_ESC1 p_18_mm l=0.18u w=4u ad=1.96p as=1.96p
++  pd=8.98u ps=8.98u m=1
+        M4A N$682 N$679 VSS VSS n_18_mm l=0.5u w=16u ad=7.84p as=7.84p pd=32.98u
++  ps=32.98u m=1
+        M12 N$679 VB3 N$656 VSS n_18_mm l=0.18u w=4u ad=1.96p as=1.96p pd=8.98u
++  ps=8.98u m=1
+        M5 VOUT- VB3 N$638 VSS n_18_mm l=0.18u w=8u ad=3.92p as=3.92p pd=16.98u
++  ps=16.98u m=1
+        M6 VOUT+ VB3 N$682 VSS n_18_mm l=0.18u w=8u ad=3.92p as=3.92p pd=16.98u
++  ps=16.98u m=1
+        E2 N$329 VSS Vout+ Vss 1
+        M9 N$692 CMFB1 VDD_ESC1 VDD_ESC1 p_18_mm l=0.5u w=8u ad=3.92p as=3.92p
++  pd=16.98u ps=16.98u m=1
+        M8 VOUT+ VB2 N$112 VDD_ESC1 p_18_mm l=0.18u w=32u ad=15.68p as=15.68p
++  pd=64.98u ps=64.98u m=1
+        M11 N$681 VB3 N$653 VSS n_18_mm l=0.18u w=4u ad=1.96p as=1.96p pd=8.98u
++  ps=8.98u m=1
+        M10 N$112 CMFB2 VDD_ESC1 VDD_ESC1 p_18_mm l=0.5u w=8u ad=3.92p as=3.92p
++  pd=16.98u ps=16.98u m=1
+        M18 N$682 VIN- N$718 VDD_ESC1 p_18_mm l=0.3u w=32u ad=15.68p as=15.68p
++  pd=64.98u ps=64.98u m=1
+        M17 N$681 VIN- N$718 VDD_ESC1 p_18_mm l=0.3u w=32u ad=15.68p as=15.68p
++  pd=64.98u ps=64.98u m=1
+        M16 N$679 VIN+ N$718 VDD_ESC1 p_18_mm l=0.3u w=32u ad=15.68p as=15.68p
++  pd=64.98u ps=64.98u m=1
+        M15 N$681 N$681 N$638 VDD_ESC1 p_18_mm l=0.18u w=4u ad=1.96p as=1.96p
++  pd=8.98u ps=8.98u m=1
+        M1 N$718 VB2T N$717 VDD_ESC1 p_18_mm l=0.18u w=4u ad=1.96p as=1.96p
++  pd=8.98u ps=8.98u m=1
+        M3A N$638 N$681 VSS VSS n_18_mm l=0.5u w=16u ad=7.84p as=7.84p pd=32.98u
++  ps=32.98u m=1
+        M3 N$679 VB3 N$669 VSS n_18_mm l=0.18u w=4u ad=1.96p as=1.96p pd=8.98u
++  ps=8.98u m=1
+        M7 VOUT- VB2 N$692 VDD_ESC1 p_18_mm l=Ln w=32u ad=15.68p as=15.68p
++  pd=64.98u ps=64.98u m=1
+        M3B N$653 N$681 VSS VSS n_18_mm l=0.5u w=4u ad=1.96p as=1.96p pd=8.98u
++  ps=8.98u m=1
+        M20 N$112 VB1 VDD_ESC1 VDD_ESC1 p_18_mm l=0.5u w=24u ad=11.76p as=11.76p
++  pd=48.98u ps=48.98u m=1
+        M19 N$692 VB1 VDD_ESC1 VDD_ESC1 p_18_mm l=0.5u w=24u ad=11.76p as=11.76p
++  pd=48.98u ps=48.98u m=1
+        R2 N$727 N$336 1K
+        R1 N$329 N$727 1K
+        M13 N$669 VB4 VSS VSS n_18_mm l=0.5u w=16u ad=7.84p as=7.84p pd=32.98u
++  ps=32.98u m=1
+        E3 N$336 VSS Vout- Vss 1
+        M14 N$679 N$679 N$682 VDD_ESC1 p_18_mm l=0.18u w=4u ad=1.96p as=1.96p
++  pd=8.98u ps=8.98u m=1
+        E1 VDD_ESC1 CMFB1 N$727 VB1 -5
+        M4 N$655 VB4 VSS VSS n_18_mm l=0.5u w=16u ad=7.84p as=7.84p pd=32.98u
++  ps=32.98u m=1
+        M1A N$638 VIN+ N$718 VDD_ESC1 p_18_mm l=0.3u w=32u ad=15.68p as=15.68p
++  pd=64.98u ps=64.98u m=1
+        M4B N$656 N$679 VSS VSS n_18_mm l=0.5u w=4u ad=1.96p as=1.96p pd=8.98u
++  ps=8.98u m=1
+        M2 N$681 VB3 N$655 VSS n_18_mm l=0.18u w=4u ad=1.96p as=1.96p pd=8.98u
++  ps=8.98u m=1
+.ends RFC
+
+*
 * MAIN CELL: Component pathname : $AnalogIP/default.group/logic.views/testRFC
 *
-        V3 N$336 GROUND PULSE ( 0V 1V 10nS 0.01nS 0.01nS 10nS 20nS )
-        E1 VO GROUND Vo+ Vo- -1
-        V1 VDD GROUND DC 1.8V
-        C1 VO+ GROUND 1p
-        XC3 N$810 VO- mimcaps_mm w=2u l=2u m=64
+        X_RFC_BIAS1 VB1 VB1T VB2 VB2T VB3 N$814 N$657 VDD GROUND RFC_BIAS
         M1 N$658 N$658 GROUND GROUND n_18_mm l=0.18u w=2u ad=0.98p as=0.98p
 +  pd=4.98u ps=4.98u m=1
+        V3 N$336 GROUND PULSE ( -0.1V 0.1V 10nS 1nS 1nS 20nS 50nS )
+        E2 VI GROUND Vi+ Vi- 1
         M4 N$657 N$659 N$660 GROUND n_18_mm l=0.18u w=2u ad=0.98p as=0.98p
 +  pd=4.98u ps=4.98u m=1
-        I1 VDD N$659 DC 5u
-        XC4 N$811 VO+ mimcaps_mm w=2u l=2u m=64
+        X_S2D1 N$897 N$893 N$331 N$336 GROUND S2D
+        XC4 VO+ VI- mimcaps_mm w=2u l=2u m=64
+        X_RFC1 VO- VO+ VB1 VB1T VB2 VB2T VB3 N$814 VDD VI- VI+ VCM GROUND RFC
+        R1 VDD VCM 1K
         M3 N$659 N$659 N$658 GROUND n_18_mm l=0.18u w=2u ad=0.98p as=0.98p
 +  pd=4.98u ps=4.98u m=1
-        X_RFC_BIAS1 VB1 VB1T VB2 VB2T VB3 N$657 VDD GROUND RFC_BIAS
-        X_RFC1 VO- VO+ VB1 VB1T VB2 VB2T VB3 VDD N$811 N$810 VCM GROUND RFC
-        V4 VCM GROUND DC 1V
-        C2 GROUND VO- 1P
-        X_S2D1 N$786 N$809 N$331 N$336 GROUND S2D
+        V1 VDD GROUND DC 1.8V
+        V2 N$331 GROUND DC Vicm
+        I1 VDD N$659 DC 5u
+        R4 GROUND VO- 10gig
+        R3 VO+ GROUND 10gig
+        XC5 VI+ N$897 mimcaps_mm w=2u l=2u m=64
+        XC3 VO- VI+ mimcaps_mm w=2u l=2u m=64
         M2 N$660 N$658 GROUND GROUND n_18_mm l=0.18u w=2u ad=0.98p as=0.98p
 +  pd=4.98u ps=4.98u m=1
-        V2 N$331 GROUND DC 0.5V
-        XC6 N$811 N$809 mimcaps_mm w=2u l=2u m=64
-        XC5 N$810 N$786 mimcaps_mm w=2u l=2u m=64
+        C1 GROUND VO- 1P
+        XC6 VI- N$893 mimcaps_mm w=2u l=2u m=64
+        C2 VO+ GROUND 1P
+        R2 VCM GROUND 1K
+        E1 VO GROUND Vo+ Vo- 1
 *
 .end

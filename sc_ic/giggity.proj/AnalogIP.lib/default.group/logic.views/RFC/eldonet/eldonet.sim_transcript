@@ -57,13 +57,13 @@ Warning 406: In file "/usr/local/mentor/UMC180PDK/models/ELDO/include_all" line 
 ***** GENERATION ...
 
 Warning 124:  NODE "GROUND": Appears in .CONNECT only.
-Warning 107:  NODE "VB2T": Less than two connections.
 Warning 107:  NODE "VOCM": Less than two connections.
+Warning 107:  NODE "N$707": Less than two connections.
 Warning 107:  NODE "VB1T": Less than two connections.
 Warning  29: Such messages will not be displayed in future. Set .option MSGNODE = 0 to receive all such warnings.
 
-Warning 117:  NODE "VSS": Not connected to any power supply.
 Warning 117:  NODE "VDD": Not connected to any power supply.
+Warning 117:  NODE "VSS": Not connected to any power supply.
 ERROR   26:  No analysis specified
 
 ***** 1  error(s). 
@@ -73,21 +73,21 @@ ERROR   26:  No analysis specified
 INFORMATION ABOUT COMPILATION...
 
 
-Memory space allocated (bytes): 123367424
-27 elements
-27 nodes
+Memory space allocated (bytes): 123375616
+31 elements
+28 nodes
 0 input signals
 
 Check your input netlist...
 
 
-***>CPU TIME 0h 0mn 0s 030ms <***
+***>CPU TIME 0h 0mn 0s 090ms <***
 
 ***>MESSAGE SUMMARY: 1 error, 8 warnings
 
-***>GLOBAL CPU TIME 0s 030ms <***
+***>GLOBAL CPU TIME 0s 060ms <***
 
 
-***>GLOBAL ELAPSED TIME 1s <***
+***>GLOBAL ELAPSED TIME 16s <***
 
 

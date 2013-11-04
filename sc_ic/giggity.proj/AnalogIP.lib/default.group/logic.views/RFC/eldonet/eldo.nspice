@@ -1,58 +1,64 @@
-* ELDO netlist generated with ICnet by 'dlavila' on Wed Oct  9 2013 at 20:45:27
+* ELDO netlist generated with ICnet by 'dlavila' on Tue Oct 15 2013 at 17:19:24
 
 *
 * MAIN CELL: Component pathname : $AnalogIP/default.group/logic.views/RFC
 *
-        M1B N$651 VIN+ N$593 VDD p_18_mm l=0.3u w=32u ad=15.68p as=15.68p
-+  pd=64.98u ps=64.98u m=1
-        M11 N$652 VB3 N$653 VSS n_18_mm l=0.18u w=2u ad=0.98p as=0.98p pd=4.98u
-+  ps=4.98u m=1
-        M1A N$638 VIN+ N$593 VDD p_18_mm l=0.3u w=32u ad=15.68p as=15.68p
-+  pd=64.98u ps=64.98u m=1
-        M5 VOUT- VB3 N$638 VSS n_18_mm l=0.18u w=8u ad=3.92p as=3.92p pd=16.98u
-+  ps=16.98u m=1
-        E2 N$329 N$336 Vout+ Vss 0.5
-        M15 N$652 N$652 N$638 VDD p_18_mm l=0.18u w=4u ad=1.96p as=1.96p
+        e3 n$336 vss Vout- Vss 1
+        m14 n$679 n$679 n$682 vdd p_18_mm l=0.18u w=4u ad=1.96p as=1.96p
 +  pd=8.98u ps=8.98u m=1
-        M3A N$638 N$652 VSS VSS n_18_mm l=0.5u w=16u ad=7.84p as=7.84p pd=32.98u
-+  ps=32.98u m=1
-        M2 N$652 VB3 N$655 VSS n_18_mm l=0.18u w=2u ad=0.98p as=0.98p pd=4.98u
-+  ps=4.98u m=1
-        M3 N$651 VB3 N$669 VSS n_18_mm l=0.18u w=2u ad=0.98p as=0.98p pd=4.98u
-+  ps=4.98u m=1
-        M1 N$593 VB2T N$410 VDD p_18_mm l=0.18u w=16u ad=7.84p as=7.84p
+        e1 vdd cmfb vb2t vocm -100
+        m1a n$638 vin+ n$410 vdd p_18_mm l=0.3u w=32u ad=15.68p as=15.68p
++  pd=64.98u ps=64.98u m=1
+        m4b n$656 n$679 vss vss n_18_mm l=0.5u w=4u ad=1.96p as=1.96p pd=8.98u
++  ps=8.98u m=1
+        m1 n$410 n$707 n$410 vdd p_18_mm l=0.18u w=16u ad=7.84p as=7.84p
 +  pd=32.98u ps=32.98u m=1
-        M3B N$653 N$652 VSS VSS n_18_mm l=0.5u w=4u ad=1.96p as=1.96p pd=8.98u
-+  ps=8.98u m=1
-        M4 N$655 VB1 VSS VSS n_18_mm l=0.5u w=12u ad=5.88p as=5.88p pd=24.98u
-+  ps=24.98u m=1
-        M13 N$669 VB1 VSS VSS n_18_mm l=0.5u w=12u ad=5.88p as=5.88p pd=24.98u
-+  ps=24.98u m=1
-        E3 N$336 VSS Vout- Vss 0.5
-        M14 N$651 N$651 N$631 VDD p_18_mm l=0.18u w=4u ad=1.96p as=1.96p
-+  pd=8.98u ps=8.98u m=1
-        E1 VDD CMFB N$329 VOCM -10
-        M4B N$656 N$651 VSS VSS n_18_mm l=0.5u w=4u ad=1.96p as=1.96p pd=8.98u
-+  ps=8.98u m=1
-        M4A N$631 N$651 VSS VSS n_18_mm l=0.5u w=16u ad=7.84p as=7.84p pd=32.98u
+        m0 n$410 vb1t vdd vdd p_18_mm l=0.18u w=16u ad=7.84p as=7.84p pd=32.98u
 +  ps=32.98u m=1
-        M12 N$651 VB3 N$656 VSS n_18_mm l=0.18u w=2u ad=0.98p as=0.98p pd=4.98u
-+  ps=4.98u m=1
-        M2B N$652 VIN- N$593 VDD p_18_mm l=0.3u w=32u ad=15.68p as=15.68p
-+  pd=64.98u ps=64.98u m=1
-        M0 N$410 VB1T VDD VDD p_18_mm l=0.18u w=16u ad=7.84p as=7.84p pd=32.98u
+        m4a n$682 n$679 vss vss n_18_mm l=0.5u w=16u ad=7.84p as=7.84p pd=32.98u
 +  ps=32.98u m=1
-        M6 VOUT+ VB3 N$631 VSS n_18_mm l=0.18u w=8u ad=3.92p as=3.92p pd=16.98u
+        m12 n$679 vb3 n$656 vss n_18_mm l=0.18u w=4u ad=1.96p as=1.96p pd=8.98u
++  ps=8.98u m=1
+        m5 vout- vb3 n$638 vss n_18_mm l=0.18u w=8u ad=3.92p as=3.92p pd=16.98u
 +  ps=16.98u m=1
-        M10 N$112 CMFB VDD VDD p_18_mm l=0.5u w=32u ad=15.68p as=15.68p
+        m6 vout+ vb3 n$682 vss n_18_mm l=0.18u w=8u ad=3.92p as=3.92p pd=16.98u
++  ps=16.98u m=1
+        e2 n$329 vss Vout+ Vss 1
+        m9 n$692 cmfb vdd vdd p_18_mm l=0.5u w=8u ad=3.92p as=3.92p pd=16.98u
++  ps=16.98u m=1
+        m8 vout+ vb2 n$112 vdd p_18_mm l=0.18u w=32u ad=15.68p as=15.68p
 +  pd=64.98u ps=64.98u m=1
-        M7 VOUT- VB2 N$63 VDD p_18_mm l=0.5u w=32u ad=15.68p as=15.68p pd=64.98u
+        m11 n$681 vb3 n$653 vss n_18_mm l=0.18u w=4u ad=1.96p as=1.96p pd=8.98u
++  ps=8.98u m=1
+        m10 n$112 cmfb vdd vdd p_18_mm l=0.5u w=8u ad=3.92p as=3.92p pd=16.98u
++  ps=16.98u m=1
+        m18 n$682 vin- n$410 vdd p_18_mm l=0.3u w=32u ad=15.68p as=15.68p
++  pd=64.98u ps=64.98u m=1
+        m17 n$681 vin- n$410 vdd p_18_mm l=0.3u w=32u ad=15.68p as=15.68p
++  pd=64.98u ps=64.98u m=1
+        m16 n$679 vin+ n$410 vdd p_18_mm l=0.3u w=32u ad=15.68p as=15.68p
++  pd=64.98u ps=64.98u m=1
+        m15 n$681 n$681 n$638 vdd p_18_mm l=0.18u w=4u ad=1.96p as=1.96p
++  pd=8.98u ps=8.98u m=1
+        m3a n$638 n$681 vss vss n_18_mm l=0.5u w=16u ad=7.84p as=7.84p pd=32.98u
++  ps=32.98u m=1
+        m2 n$681 vb3 n$655 vss n_18_mm l=0.18u w=4u ad=1.96p as=1.96p pd=8.98u
++  ps=8.98u m=1
+        m3 n$679 vb3 n$669 vss n_18_mm l=0.18u w=4u ad=1.96p as=1.96p pd=8.98u
++  ps=8.98u m=1
+        m7 vout- vb2 n$692 vdd p_18_mm l=Ln w=32u ad=15.68p as=15.68p pd=64.98u
 +  ps=64.98u m=1
-        M9 N$63 CMFB VDD VDD p_18_mm l=0.5u w=32u ad=15.68p as=15.68p pd=64.98u
-+  ps=64.98u m=1
-        M2A N$631 VIN- N$593 VDD p_18_mm l=0.3u w=32u ad=15.68p as=15.68p
-+  pd=64.98u ps=64.98u m=1
-        M8 VOUT+ VB2 N$112 VDD p_18_mm l=0.5u w=32u ad=15.68p as=15.68p
-+  pd=64.98u ps=64.98u m=1
+        m3b n$653 n$681 vss vss n_18_mm l=0.5u w=4u ad=1.96p as=1.96p pd=8.98u
++  ps=8.98u m=1
+        m4 n$655 vb4 vss vss n_18_mm l=0.5u w=16u ad=7.84p as=7.84p pd=32.98u
++  ps=32.98u m=1
+        m20 n$112 vb1 vdd vdd p_18_mm l=0.5u w=24u ad=11.76p as=11.76p pd=48.98u
++  ps=48.98u m=1
+        m19 n$692 vb1 vdd vdd p_18_mm l=0.5u w=24u ad=11.76p as=11.76p pd=48.98u
++  ps=48.98u m=1
+        r2 vb2t n$336 1K
+        r1 n$329 vb2t 1K
+        m13 n$669 vb4 vss vss n_18_mm l=0.5u w=16u ad=7.84p as=7.84p pd=32.98u
++  ps=32.98u m=1
 *
 .end
