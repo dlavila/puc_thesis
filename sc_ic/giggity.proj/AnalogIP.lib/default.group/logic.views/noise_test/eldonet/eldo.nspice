@@ -1,0 +1,18 @@
+* ELDO netlist generated with ICnet by 'dlavila' on Thu Nov  7 2013 at 17:47:27
+
+*
+* Globals.
+*
+.global ground
+
+*
+* MAIN CELL: Component pathname : $AnalogIP/default.group/logic.views/noise_test
+*
+        m1 n$6 vi ground ground n_18_mm l=0.18u w=50u ad=24.5p as=24.5p
++  pd=0.101m ps=0.101m m=1
+        h1 vo ground V2 -1
+        v3 n$12 ground DC 0.7V
+        v1 vi n$12 DC 0V AC 1 0
+        v2 n$6 ground DC 1.8V
+*
+.end

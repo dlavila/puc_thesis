@@ -1,0 +1,43 @@
+A 5 u Eddm_design_viewpoint 52963b941fa1.03.7f.00.00.01.00.7f.2d 3 2 21 0
+V v 1 4 528390af3e45.03.7f.00.00.01.01.65.4e
+F f 1 "eldonet.dvpt_1"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 2 4 528390af4ca6.03.7f.00.00.01.00.65.4e
+F f 2 "eldonet.dvpt_2"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 3 4 528390b886a8.03.7f.00.00.01.00.65.4e
+F f 3 "eldonet.dvpt_3"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+O 3
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$SC_filter/default.group/logic.views/PHASE_GEN/part" 5 Eddm_part 528389971122.03.7f.00.00.01.00.62.9a 52963b941fee.03.7f.00.00.01.00.7f.2d
+R cspuv 1 "$SC_filter/default.group/logic.views/PHASE_GEN/schematic" 17 mgc_schematic 528390ae5348.03.7f.00.00.01.00.65.4e 52963b941f7c.03.7f.00.00.01.00.7f.2d
+R cspuv 3 "$SC_filter/default.group/logic.views/PHASE_GEN/eldonet" 1 Eddm_ba_mgr 528390af40b3.03.7f.00.00.01.01.65.4e 52963b941fe5.03.7f.00.00.01.00.7f.2d
+R cspuv 4 "$SC_filter/default.group/logic.views/INV_clk_gen_1/part" 6 Eddm_part 528387ca0078.03.7f.00.00.01.00.60.26 5283879465cc.03.7f.00.00.01.00.60.26
+R cspuv 5 "$SC_filter/default.group/logic.views/NAND_clk_gen/part" 4 Eddm_part 528387261756.03.7f.00.00.01.00.5d.8c 5283866b9a0d.03.7f.00.00.01.00.5d.8c
+R cspuv 6 "$SC_filter/default.group/logic.views/INV_clk_gen_2/part" 7 Eddm_part 528387dc2382.03.7f.00.00.01.00.60.87 528387dab87a.03.7f.00.00.01.00.18.29
+R cspuv 7 "$SC_filter/default.group/logic.views/INV_clk_gen_1/schematic" 4 mgc_schematic 52838908b67e.03.7f.00.00.01.00.62.9a 5283874950ce.03.7f.00.00.01.00.60.26
+R cspuv 9 "$SC_filter/default.group/logic.views/NAND_clk_gen/schematic" 8 mgc_schematic 528389223ff8.03.7f.00.00.01.00.62.9a 5283861d0b90.03.7f.00.00.01.00.5d.8c
+R cspuv 11 "$SC_filter/default.group/logic.views/INV_clk_gen_2/schematic" 7 mgc_schematic 52838bee5be0.03.7f.00.00.01.00.65.4e 528387dab7db.03.7f.00.00.01.00.18.29
+R cspuv 17 "$MGC_DESIGN_KIT/symbols/P_18_MM/part" 23 Eddm_part 462e23ba79d1.03.7f.00.00.01.00.54.63 461b99bfbe81.03.89.ca.19.1a.00.4f.21
+R cspuv 18 "$MGC_DESIGN_KIT/symbols/N_18_MM/part" 26 Eddm_part 462e23b780f6.03.7f.00.00.01.00.54.63 461b99901841.03.89.ca.19.1a.00.4f.21
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$SC_filter/default.group/logic.views/PHASE_GEN/part" 5 Eddm_part 528389971122.03.7f.00.00.01.00.62.9a 52963b941fee.03.7f.00.00.01.00.7f.2d
+R cspuv 1 "$SC_filter/default.group/logic.views/PHASE_GEN/schematic" 1 mgc_schematic 528387ee7464.03.7f.00.00.01.01.62.9a 52963b941f7c.03.7f.00.00.01.00.7f.2d
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 2 "$SC_filter/default.group/logic.views/PHASE_GEN/PHASE_GEN" 4 mgc_symbol 528389971119.03.7f.00.00.01.00.62.9a 52963b941f74.03.7f.00.00.01.00.7f.2d
+R cspuv 3 "$SC_filter/default.group/logic.views/PHASE_GEN/eldonet" 1 Eddm_ba_mgr 528390af40b3.03.7f.00.00.01.01.65.4e 52963b941fe5.03.7f.00.00.01.00.7f.2d
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$SC_filter/default.group/logic.views/PHASE_GEN/part" 5 Eddm_part 528389971122.03.7f.00.00.01.00.62.9a 52963b941fee.03.7f.00.00.01.00.7f.2d
+R cspuv 1 "$SC_filter/default.group/logic.views/PHASE_GEN/schematic" 1 mgc_schematic 528387ee7464.03.7f.00.00.01.01.62.9a 52963b941f7c.03.7f.00.00.01.00.7f.2d
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 2 "$SC_filter/default.group/logic.views/PHASE_GEN/PHASE_GEN" 4 mgc_symbol 528389971119.03.7f.00.00.01.00.62.9a 52963b941f74.03.7f.00.00.01.00.7f.2d
+R cspuv 3 "$SC_filter/default.group/logic.views/PHASE_GEN/eldonet" 1 Eddm_ba_mgr 528390af40b3.03.7f.00.00.01.01.65.4e 52963b941fe5.03.7f.00.00.01.00.7f.2d

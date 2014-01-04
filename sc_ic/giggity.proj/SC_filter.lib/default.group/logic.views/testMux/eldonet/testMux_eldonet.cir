@@ -1,0 +1,16 @@
+* Component: $SC_filter/default.group/logic.views/testMux  Viewpoint: eldonet
+.INCLUDE $SC_filter/default.group/logic.views/testMux/eldonet/testMux_eldonet.spi
+.INCLUDE $MGC_DESIGN_KIT/models/ELDO/include_all
+.PROBE VX
+
+
+
+
+.OPTION NOASCII
+.OPTION MODWL
+.OPTION ENGNOT
+.OPTION AEX
+
+.TEMP 27 
+
+.TRAN  0 10u

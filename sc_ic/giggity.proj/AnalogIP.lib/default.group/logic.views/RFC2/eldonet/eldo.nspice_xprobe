@@ -1,0 +1,160 @@
+# This file provides name mapping information for all objects
+# on the schematic design.  It provides a mapping for each
+# object between its name on the schematic and its name in the netlist.
+version 1.0
+
+Globals
+   ground GROUND
+End Globals
+
+Cell N_18_MM
+   Pin D D
+   Pin G G
+   Pin S S
+   Pin B B
+End Cell
+
+Cell P_18_MM
+   Pin D D
+   Pin G G
+   Pin S S
+   Pin B B
+End Cell
+
+Cell VCVS_2PIN
+   Pin POS POS
+   Pin NEG NEG
+End Cell
+
+Cell VCVS
+   Pin POS POS
+   Pin NEG NEG
+   Pin CP CP
+   Pin CN CN
+End Cell
+
+Cell IDEAL_CAPACITOR
+   Pin POS POS
+   Pin NEG NEG
+End Cell
+
+Cell DC_V_SOURCE
+   Pin POS POS
+   Pin NEG NEG
+End Cell
+
+Cell S2D
+   Pin Vd+ VD+
+   Pin Vd- VD-
+   Pin Vicm VICM
+   Pin Vid VID
+   Pin Vss VSS
+   Net N$2 N$2
+   Net Vd- VD-
+   Net Vd+ VD+
+   Net Vss VSS
+   Net Vicm VICM
+   Net Vid VID
+   Inst E3 E3 VCVS_2PIN
+   Inst E2 E2 VCVS_2PIN
+   Inst E1 E1 VCVS_2PIN
+End Cell
+
+Cell IDEAL_RESISTOR
+   Pin POS POS
+   Pin NEG NEG
+End Cell
+
+Cell AC_V_SOURCE
+   Pin POS POS
+   Pin NEG NEG
+End Cell
+
+Cell DC_I_SOURCE
+   Pin POS POS
+   Pin NEG NEG
+End Cell
+
+Cell #top#
+   Pin Vo+ VO+
+   Pin Vo- VO-
+   Pin Vb1t VB1T
+   Pin Vb2 VB2
+   Pin Vb3 VB3
+   Pin Vdd VDD
+   Pin Vi+ VI+
+   Pin Vi- VI-
+   Net N$189 N$189
+   Net N$186 N$186
+   Net N$172 N$172
+   Net N$163 N$163
+   Net N$21 N$21
+   Net N$5 N$5
+   Net N$34 N$34
+   Net N$122 N$122
+   Net N$93 N$93
+   Net Vocm VOCM
+   Net Vo VO
+   Net N$92 N$92
+   Net N$84 N$84
+   Net N$80 N$80
+   Net N$79 N$79
+   Net N$137 N$137
+   Net CMFB CMFB
+   Net N$46 N$46
+   Net N$20 N$20
+   Net N$45 N$45
+   Net Vb1t VB1T
+   Net Vi+ VI+
+   Net Vo+ VO+
+   Net Vb3 VB3
+   Net Vo- VO-
+   Net Vb2 VB2
+   Net Vi- VI-
+   Net Vdd VDD
+   Global ground GROUND
+   Inst M4b M4B N_18_MM
+   Inst M9 M9 P_18_MM
+   Inst M8 M8 P_18_MM
+   Inst M7 M7 P_18_MM
+   Inst M5 M5 N_18_MM
+   Inst M6 M6 N_18_MM
+   Inst M3a M3A N_18_MM
+   Inst E6 E6 VCVS_2PIN
+   Inst E7 E7 VCVS
+   Inst M1a M1A P_18_MM
+   Inst M0 M0 P_18_MM
+   Inst C5 C5 IDEAL_CAPACITOR
+   Inst C2 C2 IDEAL_CAPACITOR
+   Inst C4 C4 IDEAL_CAPACITOR
+   Inst C3 C3 IDEAL_CAPACITOR
+   Inst M13 M13 P_18_MM
+   Inst M4 M4 P_18_MM
+   Inst V6 V6 DC_V_SOURCE
+   Inst S2D2 X_S2D2 S2D
+   Inst E5 E5 VCVS_2PIN
+   Inst M4a M4A N_18_MM
+   Inst C7 C7 IDEAL_CAPACITOR
+   Inst R3 R3 IDEAL_RESISTOR
+   Inst R5 R5 IDEAL_RESISTOR
+   Inst V1 V1 AC_V_SOURCE
+   Inst V2 V2 DC_V_SOURCE
+   Inst R4 R4 IDEAL_RESISTOR
+   Inst I3 I3 DC_I_SOURCE
+   Inst I2 I2 DC_I_SOURCE
+   Inst M2 M2 N_18_MM
+   Inst M3 M3 N_18_MM
+   Inst M11 M11 N_18_MM
+   Inst M2a M2A P_18_MM
+   Inst M2b M2B P_18_MM
+   Inst M1b M1B P_18_MM
+   Inst M3b M3B N_18_MM
+   Inst M1 M1 P_18_MM
+   Inst M12 M12 N_18_MM
+   Inst R6 R6 IDEAL_RESISTOR
+   Inst E4 E4 VCVS
+   Inst M10 M10 P_18_MM
+   Inst V3 V3 DC_V_SOURCE
+   Inst C6 C6 IDEAL_CAPACITOR
+End Cell
+

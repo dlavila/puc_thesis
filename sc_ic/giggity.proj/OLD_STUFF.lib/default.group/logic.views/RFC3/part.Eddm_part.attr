@@ -1,0 +1,6 @@
+A 5 u Eddm_part 52b1e7430a72.03.7f.00.00.01.00.15.55 1 2 1 0
+V v 1 1 52791911e300.03.7f.00.00.01.01.10.83
+F f 1 "part.part_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$OLD_STUFF/default.group/logic.views/RFC3/schematic" 1 mgc_schematic 527917b8efd5.03.7f.00.00.01.01.10.83 52b1e74309e3.03.7f.00.00.01.00.15.55

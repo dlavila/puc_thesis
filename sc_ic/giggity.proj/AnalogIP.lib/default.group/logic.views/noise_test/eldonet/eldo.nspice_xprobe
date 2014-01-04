@@ -1,0 +1,44 @@
+# This file provides name mapping information for all objects
+# on the schematic design.  It provides a mapping for each
+# object between its name on the schematic and its name in the netlist.
+version 1.0
+
+Globals
+   ground ground
+End Globals
+
+Cell n_18_mm
+   Pin D d
+   Pin G g
+   Pin S s
+   Pin B b
+End Cell
+
+Cell ccvs_2pin
+   Pin POS pos
+   Pin NEG neg
+End Cell
+
+Cell dc_v_source
+   Pin POS pos
+   Pin NEG neg
+End Cell
+
+Cell ac_v_source
+   Pin POS pos
+   Pin NEG neg
+End Cell
+
+Cell #top#
+   Net Vo vo
+   Net Vi vi
+   Net N$12 n$12
+   Net N$6 n$6
+   Global ground ground
+   Inst M1 m1 n_18_mm
+   Inst H1 h1 ccvs_2pin
+   Inst V3 v3 dc_v_source
+   Inst V1 v1 ac_v_source
+   Inst V2 v2 dc_v_source
+End Cell
+

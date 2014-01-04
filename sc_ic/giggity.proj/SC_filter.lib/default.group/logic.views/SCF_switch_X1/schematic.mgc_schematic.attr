@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 5294bbe12697.03.7f.00.00.01.00.7f.2d 23 2 1 0
+V v 21 1 5294b7b98c3e.03.7f.00.00.01.00.67.4f
+F o 0 ""
+V v 22 1 5294b7b9b2ff.03.7f.00.00.01.00.67.4f
+F o 0 ""
+V v 23 1 5294b7b9ebed.03.7f.00.00.01.00.67.4f
+F o 0 ""
+O 23
+R cspuv 0 "$SC_filter/default.group/logic.views/SCF_switch_X1/schematic/sheet1" 22 mgc_sheet 5294b7b9ebd4.03.7f.00.00.01.00.67.4f 5294bbe126a7.03.7f.00.00.01.00.7f.2d
+O 22
+R cspuv 0 "$SC_filter/default.group/logic.views/SCF_switch_X1/schematic/sheet1" 21 mgc_sheet 5294b7b9b2e4.03.7f.00.00.01.00.67.4f 5294bbe126a7.03.7f.00.00.01.00.7f.2d
+O 21
+R cspuv 0 "$SC_filter/default.group/logic.views/SCF_switch_X1/schematic/sheet1" 20 mgc_sheet 5294b7b98c22.03.7f.00.00.01.00.67.4f 5294bbe126a7.03.7f.00.00.01.00.7f.2d

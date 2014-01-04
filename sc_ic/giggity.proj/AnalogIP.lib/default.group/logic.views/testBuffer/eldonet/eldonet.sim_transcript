@@ -1,0 +1,803 @@
+Obsolete option -64b ignored
+
+Running eldo on localhost.localdomain
+with Eldo libraries :
+/usr/local/mentor/ams/aol/lib/libeldoudm_64.so
+/usr/local/mentor/ams/aol/lib/libeldomos1_64.so
+/usr/local/mentor/ams/aol/lib/libeldoekv_64.so
+/usr/local/mentor/ams/aol/lib/libeldomosp9_64.so
+/usr/local/mentor/ams/aol/lib/libeldocsem_64.so
+/usr/local/mentor/ams/aol/lib/libeldomos2_64.so
+/usr/local/mentor/ams/aol/lib/libeldomos3_64.so
+/usr/local/mentor/ams/aol/lib/libeldobip_64.so
+/usr/local/mentor/ams/aol/lib/libeldodio_64.so
+/usr/local/mentor/ams/aol/lib/libeldojfet_64.so
+/usr/local/mentor/ams/aol/lib/libeldosoi_64.so
+/usr/local/mentor/ams/aol/lib/libeldomos4_64.so
+/usr/local/mentor/ams/aol/lib/libeldoasitft_64.so
+/usr/local/mentor/ams/aol/lib/libeldohisim_64.so
+/usr/local/mentor/ams/aol/lib/libeldospmod_64.so
+/usr/local/mentor/ams/aol/lib/libeldopsp_64.so
+/usr/local/mentor/ams/aol/lib/libeldomosvar_64.so
+/usr/local/mentor/ams/aol/lib/libeldomoto_64.so
+/usr/local/mentor/ams/aol/lib/libeldost_64.so
+/usr/local/mentor/ams/aol/lib/libeldobnr_64.so
+/usr/local/mentor/ams/aol/lib/libeldorockw_64.so
+/usr/local/mentor/ams/aol/lib/libeldopubhicum_64.so
+/usr/local/mentor/ams/aol/lib/libeldotftsh_64.so
+/usr/local/mentor/ams/aol/lib/libeldobta_64.so
+/usr/local/mentor/ams/aol/lib/libeldofas_64.so
+/usr/local/mentor/ams/aol/lib/libeldofascm_64.so
+/usr/local/mentor/ams/aol/lib/libeldosdsim_64.so
+/usr/local/mentor/ams/aol/lib/libeldowire_64.so
+/usr/local/mentor/ams/aol/lib/libogr_64.so loaded.
+
+
+
+              Software under License 
+       Copyright Mentor Graphics Corporation
+
+
+
+
+***** PRE-PROCESSING ...
+
+
+
+***** ANALYSIS ....
+
+Warning 406: In file "/usr/local/mentor/UMC180PDK/models/ELDO/include_all" line 1:
++   COMMAND .LIB cannot find corner tt in library /usr/local/mentor/UMC180PDK/models/ELDO/018-rf-v2d4-control.eldo
+Warning 444: In file "./testBuffer_eldonet.cir" line 16:
++   COMMAND .STEP: Compared to Eldo 5.4, the semantic of the .STEP ... LIN has changed:
++   LIN stands for 'number of runs'
++   Rather use keyword INCR if 'increment value' is meant
+
+***** 0  error(s). 
+***** 2  warning(s). 
+
+
+
+***** GENERATION ...
+
+Warning 706: In file "/usr/local/mentor/UMC180PDK/models/ELDO/MM180_MIMCAP_V101.mdl.eldo" line 9:
++   During the creation of X_BUFFER1.XC2, the parameter W in subckt MIMCAPS_MM is ignored as it is already specified on the instance line.
+Warning 706: In file "/usr/local/mentor/UMC180PDK/models/ELDO/MM180_MIMCAP_V101.mdl.eldo" line 9:
++   During the creation of X_BUFFER1.XC2, the parameter L in subckt MIMCAPS_MM is ignored as it is already specified on the instance line.
+
+***** 0  error(s). 
+***** 4  warning(s). 
+
+
+INFORMATION ABOUT COMPILATION...
+
+
+Memory space allocated (bytes): 123621376
+44 elements
+28 nodes
+3 input signals
+
+
+run number 1 out of 10
+   value of parameter IB is 2.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE: 15-Nov-2013 12:30:40
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/testBuffer  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+Warning 1619:This netlist contains expressions using strongly non-linear functions such as ABS() MIN(), 
++   MAX() (found in device X_BUFFER1.XC2.C1 for instance) 
++   If, and only if, convergence problems occur either in DC or transient analysis, 
++   the .option mmsmooth is a possible workaround worth testing. 
++   It is NOT recommended to activate it systematically, or if there are no particular convergence problems. 
++   Please refer to the documentation for further discussions about this option
+Searching Operating Point between -1.800000e+00V and 
+                                  3.600000e+00V
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 010ms <***
+
+DC:24 iterations FOR DC analysis
+N$101  475.7324M  
+N$102  1.2462     
+N$107  1.0000     
+N$113  1.0000     
+N$115  0.0000     
+N$140  525.7400M  
+N$141  1.2391     
+N$27  1.0000     
+VB1  1.2382     
+VB2  526.8275M  
+VB3  1.1330     
+VB4  525.8026M  
+VDD  1.8000     
+VNCAS  1.1329     
+VO  740.6484M  
+VPCAS  528.8086M  
+X_BUFFER1.N$145  448.4169M  
+X_BUFFER1.N$206  999.9131M  
+X_BUFFER1.N$214  1.5901     
+X_BUFFER1.N$232  1.2669     
+X_BUFFER1.N$234  1.2669     
+X_BUFFER1.N$239  491.7385M  
+X_BUFFER1.N$242  491.7385M  
+X_BUFFER1.N$252  560.4115M  
+X_BUFFER1.N$253  1.2060     
+X_BUFFER1.N$257  1.2060     
+X_BUFFER1.N$258  560.4115M  
+X_S2D1.N$2  1.0000     
+
+   TOTAL POWER DISSIPATION:  487.9830U   WATTS
+
+Connecting to JWDB server, please wait...
+connected to wdb server : -jwdbhost localhost.localdomain -jwdbport 60944
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 000ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 2 out of 10
+   value of parameter IB is 2.444444E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE: 15-Nov-2013 12:30:40
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/testBuffer  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 010ms <***
+
+DC:3 iterations FOR DC analysis
+N$101  458.3044M  
+N$102  1.2441     
+N$107  1.0000     
+N$113  1.0000     
+N$115  0.0000     
+N$140  538.9382M  
+N$141  1.2269     
+N$27  1.0000     
+VB1  1.2255     
+VB2  498.1318M  
+VB3  1.1611     
+VB4  539.0930M  
+VDD  1.8000     
+VNCAS  1.1607     
+VO  750.0610M  
+VPCAS  501.3803M  
+X_BUFFER1.N$145  448.3523M  
+X_BUFFER1.N$206  999.8706M  
+X_BUFFER1.N$214  1.5901     
+X_BUFFER1.N$232  1.2599     
+X_BUFFER1.N$234  1.2599     
+X_BUFFER1.N$239  498.9708M  
+X_BUFFER1.N$242  498.9708M  
+X_BUFFER1.N$252  572.7353M  
+X_BUFFER1.N$253  1.1946     
+X_BUFFER1.N$257  1.1946     
+X_BUFFER1.N$258  572.7353M  
+X_S2D1.N$2  1.0000     
+
+   TOTAL POWER DISSIPATION:  565.7248U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 020ms <***
+
+
+
+run number 3 out of 10
+   value of parameter IB is 2.888889E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE: 15-Nov-2013 12:30:40
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/testBuffer  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:3 iterations FOR DC analysis
+N$101  439.3679M  
+N$102  1.2510     
+N$107  1.0000     
+N$113  1.0000     
+N$115  0.0000     
+N$140  550.5573M  
+N$141  1.2163     
+N$27  1.0000     
+VB1  1.2143     
+VB2  472.9358M  
+VB3  1.1859     
+VB4  550.8780M  
+VDD  1.8000     
+VNCAS  1.1853     
+VO  758.6103M  
+VPCAS  477.5069M  
+X_BUFFER1.N$145  448.2947M  
+X_BUFFER1.N$206  999.8330M  
+X_BUFFER1.N$214  1.5901     
+X_BUFFER1.N$232  1.2537     
+X_BUFFER1.N$234  1.2537     
+X_BUFFER1.N$239  505.5896M  
+X_BUFFER1.N$242  505.5896M  
+X_BUFFER1.N$252  583.9659M  
+X_BUFFER1.N$253  1.1843     
+X_BUFFER1.N$257  1.1843     
+X_BUFFER1.N$258  583.9659M  
+X_S2D1.N$2  1.0000     
+
+   TOTAL POWER DISSIPATION:  643.1592U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 4 out of 10
+   value of parameter IB is 3.333333E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE: 15-Nov-2013 12:30:40
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/testBuffer  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:3 iterations FOR DC analysis
+N$101  420.6780M  
+N$102  1.2628     
+N$107  1.0000     
+N$113  1.0000     
+N$115  0.0000     
+N$140  561.0288M  
+N$141  1.2069     
+N$27  1.0000     
+VB1  1.2043     
+VB2  450.2738M  
+VB3  1.2085     
+VB4  561.5681M  
+VDD  1.8000     
+VNCAS  1.2073     
+VO  766.4259M  
+VPCAS  456.1756M  
+X_BUFFER1.N$145  448.2425M  
+X_BUFFER1.N$206  999.7990M  
+X_BUFFER1.N$214  1.5901     
+X_BUFFER1.N$232  1.2480     
+X_BUFFER1.N$234  1.2480     
+X_BUFFER1.N$239  511.7152M  
+X_BUFFER1.N$242  511.7152M  
+X_BUFFER1.N$252  594.3365M  
+X_BUFFER1.N$253  1.1748     
+X_BUFFER1.N$257  1.1748     
+X_BUFFER1.N$258  594.3365M  
+X_S2D1.N$2  1.0000     
+
+   TOTAL POWER DISSIPATION:  720.2639U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 020ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 020ms <***
+
+
+
+run number 5 out of 10
+   value of parameter IB is 3.777778E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE: 15-Nov-2013 12:30:40
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/testBuffer  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:3 iterations FOR DC analysis
+N$101  402.7564M  
+N$102  1.2770     
+N$107  1.0000     
+N$113  1.0000     
+N$115  0.0000     
+N$140  570.6284M  
+N$141  1.1983     
+N$27  1.0000     
+VB1  1.1951     
+VB2  429.5386M  
+VB3  1.2292     
+VB4  571.4216M  
+VDD  1.8000     
+VNCAS  1.2276     
+VO  773.6152M  
+VPCAS  436.7730M  
+X_BUFFER1.N$145  448.1946M  
+X_BUFFER1.N$206  999.7680M  
+X_BUFFER1.N$214  1.5901     
+X_BUFFER1.N$232  1.2428     
+X_BUFFER1.N$234  1.2428     
+X_BUFFER1.N$239  517.4406M  
+X_BUFFER1.N$242  517.4406M  
+X_BUFFER1.N$252  604.0125M  
+X_BUFFER1.N$253  1.1660     
+X_BUFFER1.N$257  1.1660     
+X_BUFFER1.N$258  604.0125M  
+X_S2D1.N$2  1.0000     
+
+   TOTAL POWER DISSIPATION:  797.0478U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 6 out of 10
+   value of parameter IB is 4.222222E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE: 15-Nov-2013 12:30:40
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/testBuffer  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:3 iterations FOR DC analysis
+N$101  385.7191M  
+N$102  1.2920     
+N$107  1.0000     
+N$113  1.0000     
+N$115  0.0000     
+N$140  579.5398M  
+N$141  1.1904     
+N$27  1.0000     
+VB1  1.1866     
+VB2  410.3225M  
+VB3  1.2486     
+VB4  580.6125M  
+VDD  1.8000     
+VNCAS  1.2463     
+VO  780.2646M  
+VPCAS  418.8980M  
+X_BUFFER1.N$145  448.1502M  
+X_BUFFER1.N$206  999.7394M  
+X_BUFFER1.N$214  1.5901     
+X_BUFFER1.N$232  1.2380     
+X_BUFFER1.N$234  1.2380     
+X_BUFFER1.N$239  522.8376M  
+X_BUFFER1.N$242  522.8376M  
+X_BUFFER1.N$252  613.1124M  
+X_BUFFER1.N$253  1.1578     
+X_BUFFER1.N$257  1.1578     
+X_BUFFER1.N$258  613.1124M  
+X_S2D1.N$2  1.0000     
+
+   TOTAL POWER DISSIPATION:  873.5143U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 7 out of 10
+   value of parameter IB is 4.666667E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE: 15-Nov-2013 12:30:41
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/testBuffer  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:3 iterations FOR DC analysis
+N$101  369.5481M  
+N$102  1.3072     
+N$107  1.0000     
+N$113  1.0000     
+N$115  0.0000     
+N$140  587.8910M  
+N$141  1.1830     
+N$27  1.0000     
+VB1  1.1786     
+VB2  392.3377M  
+VB3  1.2668     
+VB4  589.2636M  
+VDD  1.8000     
+VNCAS  1.2639     
+VO  786.4431M  
+VPCAS  402.2736M  
+X_BUFFER1.N$145  448.1087M  
+X_BUFFER1.N$206  999.7128M  
+X_BUFFER1.N$214  1.5901     
+X_BUFFER1.N$232  1.2335     
+X_BUFFER1.N$234  1.2335     
+X_BUFFER1.N$239  527.9608M  
+X_BUFFER1.N$242  527.9608M  
+X_BUFFER1.N$252  621.7234M  
+X_BUFFER1.N$253  1.1500     
+X_BUFFER1.N$257  1.1500     
+X_BUFFER1.N$258  621.7234M  
+X_S2D1.N$2  1.0000     
+
+   TOTAL POWER DISSIPATION:  949.6568U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 8 out of 10
+   value of parameter IB is 5.111111E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE: 15-Nov-2013 12:30:41
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/testBuffer  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:3 iterations FOR DC analysis
+N$101  354.1865M  
+N$102  1.3222     
+N$107  1.0000     
+N$113  1.0000     
+N$115  0.0000     
+N$140  595.7750M  
+N$141  1.1761     
+N$27  1.0000     
+VB1  1.1711     
+VB2  375.3734M  
+VB3  1.2841     
+VB4  597.4649M  
+VDD  1.8000     
+VNCAS  1.2805     
+VO  792.2069M  
+VPCAS  386.7010M  
+X_BUFFER1.N$145  448.0696M  
+X_BUFFER1.N$206  999.6878M  
+X_BUFFER1.N$214  1.5901     
+X_BUFFER1.N$232  1.2292     
+X_BUFFER1.N$234  1.2292     
+X_BUFFER1.N$239  532.8529M  
+X_BUFFER1.N$242  532.8529M  
+X_BUFFER1.N$252  629.9107M  
+X_BUFFER1.N$253  1.1427     
+X_BUFFER1.N$257  1.1427     
+X_BUFFER1.N$258  629.9107M  
+X_S2D1.N$2  1.0000     
+
+   TOTAL POWER DISSIPATION:  1.0255M     WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 9 out of 10
+   value of parameter IB is 5.555556E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE: 15-Nov-2013 12:30:41
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/testBuffer  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:3 iterations FOR DC analysis
+N$101  339.5712M  
+N$102  1.3370     
+N$107  1.0000     
+N$113  1.0000     
+N$115  0.0000     
+N$140  603.2610M  
+N$141  1.1696     
+N$27  1.0000     
+VB1  1.1640     
+VB2  359.2702M  
+VB3  1.3005     
+VB4  605.2847M  
+VDD  1.8000     
+VNCAS  1.2962     
+VO  797.6021M  
+VPCAS  372.0338M  
+X_BUFFER1.N$145  448.0325M  
+X_BUFFER1.N$206  999.6642M  
+X_BUFFER1.N$214  1.5901     
+X_BUFFER1.N$232  1.2252     
+X_BUFFER1.N$234  1.2252     
+X_BUFFER1.N$239  537.5475M  
+X_BUFFER1.N$242  537.5475M  
+X_BUFFER1.N$252  637.7245M  
+X_BUFFER1.N$253  1.1358     
+X_BUFFER1.N$257  1.1358     
+X_BUFFER1.N$258  637.7245M  
+X_S2D1.N$2  1.0000     
+
+   TOTAL POWER DISSIPATION:  1.1009M     WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 020ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 020ms <***
+
+
+
+run number 10 out of 10
+   value of parameter IB is 6.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE: 15-Nov-2013 12:30:41
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/testBuffer  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:3 iterations FOR DC analysis
+N$101  325.6443M  
+N$102  1.3514     
+N$107  1.0000     
+N$113  1.0000     
+N$115  0.0000     
+N$140  610.4028M  
+N$141  1.1635     
+N$27  1.0000     
+VB1  1.1572     
+VB2  343.9046M  
+VB3  1.3162     
+VB4  612.7761M  
+VDD  1.8000     
+VNCAS  1.3113     
+VO  802.6671M  
+VPCAS  358.1623M  
+X_BUFFER1.N$145  447.9971M  
+X_BUFFER1.N$206  999.6418M  
+X_BUFFER1.N$214  1.5901     
+X_BUFFER1.N$232  1.2213     
+X_BUFFER1.N$234  1.2213     
+X_BUFFER1.N$239  542.0715M  
+X_BUFFER1.N$242  542.0715M  
+X_BUFFER1.N$252  645.2038M  
+X_BUFFER1.N$253  1.1291     
+X_BUFFER1.N$257  1.1291     
+X_BUFFER1.N$258  645.2038M  
+X_S2D1.N$2  1.0000     
+
+   TOTAL POWER DISSIPATION:  1.1759M     WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+SIMULATION INFORMATION 
+memory size allocated in bytes 127492096
+nb of components: 108
+nb of nodes: 92
+nb of MOS or BIP calls: 416
+Number of steps computed: 0
+
+***>CPU TIME 0s 020ms <***
+
+***>MESSAGE SUMMARY: 5 warnings
+
+***>GLOBAL CPU TIME 0s 190ms <***
+
+
+***>GLOBAL ELAPSED TIME 2s <***
+
+

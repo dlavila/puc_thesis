@@ -1,0 +1,14 @@
+A 5 u Eddm_part 52b0bb799194.03.7f.00.00.01.00.45.0b 2 2 2 0
+V v 1 1 52b0bb799195.03.7f.00.00.01.00.45.0b
+F f 1 "part.part_1"
+V v 2 1 52b0bb8b81af.03.7f.00.00.01.00.45.0b
+F f 2 "part.part_2"
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/BGR/schematic" 1 mgc_schematic 52b0b9cc85ab.03.7f.00.00.01.01.45.0b 52b0b9cc85ab.03.7f.00.00.01.00.45.0b
+P "eddm__refer_state" "eddm__refer_floating"
+R csduv 1 "$SC_filter/default.group/logic.views/BGR/BGR" 1 mgc_symbol 52b0bb8b8060.03.7f.00.00.01.01.45.0b 52b0bb8b8060.03.7f.00.00.01.00.45.0b
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/BGR/schematic" 1 mgc_schematic 52b0b9cc85ab.03.7f.00.00.01.01.45.0b 52b0b9cc85ab.03.7f.00.00.01.00.45.0b
+P "eddm__refer_state" "eddm__refer_floating"

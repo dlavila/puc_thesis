@@ -1,0 +1,23 @@
+//  ICnet  v2008.2_3.1 (2008.2b)  Tue May 5 19:07:13 PDT 2009
+//  Core Libraries  v2008.2_3.1 Tue May  5 19:22:21 PDT 2009
+//
+//             Copyright Mentor Graphics Corporation 1982
+//
+//                      All Rights Reserved.
+//
+//    THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR
+//           ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  Mentor Graphics software executing under x86_64 Linux.
+//
+
+
+//  Invocation args:  -dmsfile /home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib/default.group/logic.views/testOTA/eldonet/design.dms -force /home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib/default.group/logic.views/testOTA/eldonet
+
+// **** Reading <$SC_filter/default.group/logic.views/testOTA/eldonet> for ELDO netlist ****
+
+
+// ICnet: Cannot get to root model
+//    Evaluation of model "$SC_filter/default.group/logic.views/testOTA/schematic" for instance "/" is empty - instance treated as primitive
+

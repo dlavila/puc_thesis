@@ -1,0 +1,24 @@
+* Component: $SC_filter/default.group/logic.views/LS_BUFFER  Viewpoint: eldonet
+.INCLUDE $SC_filter/default.group/logic.views/LS_BUFFER/eldonet/LS_BUFFER_eldonet.spi
+.INCLUDE $MGC_DESIGN_KIT/models/ELDO/include_all
+.PROBE VX
+
+
+
+
+.OPTION NOASCII
+.OPTION MODWL
+.OPTION ENGNOT
+.OPTION AEX
+
+.TEMP 27 
+.PARAM Ib=10u 
+.PARAM Ln=0.45u 
+.PARAM Lp=0.18u 
+.PARAM Wn=40u 
+.PARAM Wp=30u 
+
+.OPTION PROBOP2
+.OPTION PROBOPX
+.OP
+.TRAN  0 400N 0 10p

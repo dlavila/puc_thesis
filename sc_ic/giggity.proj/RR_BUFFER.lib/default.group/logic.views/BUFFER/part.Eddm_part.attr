@@ -1,0 +1,7 @@
+A 5 u Eddm_part 5283ec734bc5.03.7f.00.00.01.00.48.cb 1 2 1 0
+V v 1 1 5283ec734bc5.03.7f.00.00.01.01.48.cb
+F f 1 "part.part_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$RR_BUFFER/default.group/logic.views/BUFFER/schematic" 1 mgc_schematic 5283e89699db.03.7f.00.00.01.00.48.cb 5283e89699da.03.7f.00.00.01.00.48.cb
+P "eddm__refer_state" "eddm__refer_floating"

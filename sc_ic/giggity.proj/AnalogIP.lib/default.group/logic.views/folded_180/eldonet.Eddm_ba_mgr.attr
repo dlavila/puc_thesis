@@ -1,0 +1,6 @@
+A 5 u Eddm_ba_mgr 52782d184766.03.7f.00.00.01.00.2a.3a 1 2 1 0
+V v 1 1 52782d184767.03.7f.00.00.01.00.2a.3a
+F f 1 "eldonet.ba_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$AnalogIP/default.group/logic.views/folded_180/eldonet" 1 Eddm_design_viewpoint 52782d18469a.03.7f.00.00.01.01.2a.3a 52782d18469a.03.7f.00.00.01.00.2a.3a

@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 526ed62175bb.03.7f.00.00.01.00.16.b0 10 2 1 0
+V v 8 1 526ed87d36ab.03.7f.00.00.01.00.21.00
+F o 0 ""
+V v 9 1 526ed8a6e9fe.03.7f.00.00.01.00.21.00
+F o 0 ""
+V v 10 1 526eeeada119.03.7f.00.00.01.00.30.ad
+F o 0 ""
+O 10
+R cspuv 0 "$AnalogIP/default.group/logic.views/testMiniOpamps/schematic/sheet1" 9 mgc_sheet 526eeeada0f5.03.7f.00.00.01.00.30.ad 526ed62176cd.03.7f.00.00.01.00.16.b0
+O 9
+R cspuv 0 "$AnalogIP/default.group/logic.views/testMiniOpamps/schematic/sheet1" 8 mgc_sheet 526ed8a6e9e7.03.7f.00.00.01.00.21.00 526ed62176cd.03.7f.00.00.01.00.16.b0
+O 8
+R cspuv 0 "$AnalogIP/default.group/logic.views/testMiniOpamps/schematic/sheet1" 7 mgc_sheet 526ed87d3695.03.7f.00.00.01.00.21.00 526ed62176cd.03.7f.00.00.01.00.16.b0

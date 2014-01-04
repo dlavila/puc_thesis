@@ -1,0 +1,9 @@
+START report: Tue Nov  5 13:05:58 2013 
+Warning: (eldo - 406)  In file "/usr/local/mentor/UMC180PDK/models/ELDO/include_all" line 1:
++   COMMAND .LIB cannot find corner tt in library /usr/local/mentor/UMC180PDK/models/ELDO/018-rf-v2d4-control.eldo
+Warning: (eldo - 252)  In file "./RFC2_eldonet.spi" line 48:
++   OBJECT "C2": Self-connected object not created.
+Warning: (eldo - 252)  In file "./RFC2_eldonet.spi" line 60:
++   OBJECT "C7": Self-connected object not created.
+Warning: (eldo - 252)  In file "./RFC2_eldonet.spi" line 62:
++   OBJECT "R5": Self-connected object not created.

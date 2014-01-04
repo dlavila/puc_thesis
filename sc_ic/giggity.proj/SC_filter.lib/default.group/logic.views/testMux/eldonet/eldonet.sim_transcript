@@ -1,0 +1,169 @@
+Obsolete option -64b ignored
+
+Running eldo on localhost.localdomain
+with Eldo libraries :
+/usr/local/mentor/ams/aol/lib/libeldoudm_64.so
+/usr/local/mentor/ams/aol/lib/libeldomos1_64.so
+/usr/local/mentor/ams/aol/lib/libeldoekv_64.so
+/usr/local/mentor/ams/aol/lib/libeldomosp9_64.so
+/usr/local/mentor/ams/aol/lib/libeldocsem_64.so
+/usr/local/mentor/ams/aol/lib/libeldomos2_64.so
+/usr/local/mentor/ams/aol/lib/libeldomos3_64.so
+/usr/local/mentor/ams/aol/lib/libeldobip_64.so
+/usr/local/mentor/ams/aol/lib/libeldodio_64.so
+/usr/local/mentor/ams/aol/lib/libeldojfet_64.so
+/usr/local/mentor/ams/aol/lib/libeldosoi_64.so
+/usr/local/mentor/ams/aol/lib/libeldomos4_64.so
+/usr/local/mentor/ams/aol/lib/libeldoasitft_64.so
+/usr/local/mentor/ams/aol/lib/libeldohisim_64.so
+/usr/local/mentor/ams/aol/lib/libeldospmod_64.so
+/usr/local/mentor/ams/aol/lib/libeldopsp_64.so
+/usr/local/mentor/ams/aol/lib/libeldomosvar_64.so
+/usr/local/mentor/ams/aol/lib/libeldomoto_64.so
+/usr/local/mentor/ams/aol/lib/libeldost_64.so
+/usr/local/mentor/ams/aol/lib/libeldobnr_64.so
+/usr/local/mentor/ams/aol/lib/libeldorockw_64.so
+/usr/local/mentor/ams/aol/lib/libeldopubhicum_64.so
+/usr/local/mentor/ams/aol/lib/libeldotftsh_64.so
+/usr/local/mentor/ams/aol/lib/libeldobta_64.so
+/usr/local/mentor/ams/aol/lib/libeldofas_64.so
+/usr/local/mentor/ams/aol/lib/libeldofascm_64.so
+/usr/local/mentor/ams/aol/lib/libeldosdsim_64.so
+/usr/local/mentor/ams/aol/lib/libeldowire_64.so
+/usr/local/mentor/ams/aol/lib/libogr_64.so loaded.
+
+
+
+              Software under License 
+       Copyright Mentor Graphics Corporation
+
+
+
+
+***** PRE-PROCESSING ...
+
+
+
+***** ANALYSIS ....
+
+Warning 406: In file "/usr/local/mentor/UMC180PDK/models/ELDO/include_all" line 1:
++   COMMAND .LIB cannot find corner tt in library /usr/local/mentor/UMC180PDK/models/ELDO/018-rf-v2d4-control.eldo
+
+***** 0  error(s). 
+***** 1  warning(s). 
+
+
+
+***** GENERATION ...
+
+Warning 1615: In file "./testMux_eldonet.cir" line 16:
++   COMMAND ".TRAN": Tstep can not be <= 0.0.
++   It is set to Tmax/20.0 = 5.000e-07 s.
+
+***** 0  error(s). 
+***** 2  warning(s). 
+
+
+INFORMATION ABOUT COMPILATION...
+
+
+Memory space allocated (bytes): 123424768
+23 elements
+13 nodes
+5 input signals
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  7-Nov-2013 15:54:24
+
+*** TITLE: * Component: $SC_filter/default.group/logic.views/testMux  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+A  900.0000M  
+B  900.0000M  
+E  0.0000     
+S  0.0000     
+SCF_VDD  1.8000     
+VO  900.0368M  
+X_MUX_WITH_ENABLE_SCF_INPUT1.N$112  1.8000     
+X_MUX_WITH_ENABLE_SCF_INPUT1.N$113  63.2128M   
+X_MUX_WITH_ENABLE_SCF_INPUT1.N$120  6.2507N    
+X_MUX_WITH_ENABLE_SCF_INPUT1.N$124  1.8000     
+X_MUX_WITH_ENABLE_SCF_INPUT1.N$144  13.4021N   
+X_MUX_WITH_ENABLE_SCF_INPUT1.N$148  13.4021N   
+X_MUX_WITH_ENABLE_SCF_INPUT1.N$63  1.8000     
+
+   TOTAL POWER DISSIPATION:  526.9981P   WATTS
+
+
+Eldo NEWTON: VNTOL=1.000000e-06 RELTOL=6.111111e-04
+
+Connecting to JWDB server, please wait...
+connected to wdb server : -jwdbhost localhost.localdomain -jwdbport 57943
+
+Compute from 0.000000 Nano to 1.000000E+04 Nano
+................................................
+Simulation progress           : 10% (t = 1.0197 U)
+Elapsed CPU time              :  0h  0mn  0s  10    ( 0h  0mn  0s  10)
+................................................
+Simulation progress           : 20% (t = 2.0197 U)
+Elapsed CPU time              :  0h  0mn  0s  10    ( 0h  0mn  0s  20)
+................................................
+Simulation progress           : 30% (t = 3.0000 U)
+Elapsed CPU time              :  0h  0mn  0s   0    ( 0h  0mn  0s  20)
+................................................
+Simulation progress           : 40% (t = 4.0197 U)
+Elapsed CPU time              :  0h  0mn  0s  10    ( 0h  0mn  0s  30)
+................................................
+Simulation progress           : 50% (t = 5.0000 U)
+Elapsed CPU time              :  0h  0mn  0s  10    ( 0h  0mn  0s  40)
+................................................
+Simulation progress           : 60% (t = 6.0197 U)
+Elapsed CPU time              :  0h  0mn  0s  10    ( 0h  0mn  0s  50)
+................................................
+Simulation progress           : 70% (t = 7.0197 U)
+Elapsed CPU time              :  0h  0mn  0s   0    ( 0h  0mn  0s  50)
+................................................
+Simulation progress           : 80% (t = 8.0000 U)
+Elapsed CPU time              :  0h  0mn  0s  10    ( 0h  0mn  0s  60)
+................................................
+Simulation progress           : 90% (t = 9.0197 U)
+Elapsed CPU time              :  0h  0mn  0s  10    ( 0h  0mn  0s  70)
+................................................
+Simulation progress           : 100% (t = 10.0000 U)
+Elapsed CPU time              :  0h  0mn  0s  10    ( 0h  0mn  0s  80)
+
+
+***>Current simulation completed
+
+
+
+
+SIMULATION INFORMATION 
+memory size allocated in bytes 126353408
+Latency: 0.000000%
+average number of newton iterations: 2.188251
+nb of components: 59
+nb of nodes: 49
+nb of MOS or BIP calls: 8420
+Number of steps computed: 735
+
+***>CPU TIME 0s 080ms <***
+
+***>MESSAGE SUMMARY: 2 warnings
+
+***>GLOBAL CPU TIME 0s 130ms <***
+
+
+***>GLOBAL ELAPSED TIME 1s <***
+
+

@@ -1,0 +1,18 @@
+* Component: $SC_filter/default.group/logic.views/testBIAS  Viewpoint: eldonet
+.INCLUDE $SC_filter/default.group/logic.views/testBIAS/eldonet/testBIAS_eldonet.spi
+.INCLUDE $MGC_DESIGN_KIT/models/ELDO/include_all
+.PROBE VX
+
+
+
+
+.OPTION NOASCII
+.OPTION MODWL
+.OPTION ENGNOT
+.OPTION AEX
+
+.TEMP 27 
+
+.OPTION PROBOP2
+.OPTION PROBOPX
+.OP

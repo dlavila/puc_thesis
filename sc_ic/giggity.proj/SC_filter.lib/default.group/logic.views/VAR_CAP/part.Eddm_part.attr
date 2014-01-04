@@ -1,0 +1,6 @@
+A 5 u Eddm_part 5283e16404c1.03.7f.00.00.01.00.31.82 1 2 1 0
+V v 1 1 5283e16404c2.03.7f.00.00.01.00.31.82
+F f 1 "part.part_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/VAR_CAP/schematic" 1 mgc_schematic 5283b34f019e.03.7f.00.00.01.01.31.82 5283b34f019e.03.7f.00.00.01.00.31.82

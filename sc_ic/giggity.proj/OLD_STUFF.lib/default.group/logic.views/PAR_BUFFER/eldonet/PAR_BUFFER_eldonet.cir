@@ -1,0 +1,33 @@
+* Component: $OLD_STUFF/default.group/logic.views/PAR_BUFFER  Viewpoint: eldonet
+.INCLUDE $OLD_STUFF/default.group/logic.views/PAR_BUFFER/eldonet/BUFFER_eldonet.spi
+.INCLUDE $MGC_DESIGN_KIT/models/ELDO/include_all
+.PROBE VX
+.PROBE I
+.PROBE ISUB
+.PROBE I
+.PROBE ISUB
+
+
+
+
+.OPTION NOASCII
+.OPTION MODWL
+.OPTION ENGNOT
+.OPTION AEX
+
+.TEMP 27 
+.PARAM Ib=30u 
+.PARAM Win_n=12.8u 
+.PARAM Win_p=40u 
+.PARAM Wn=3.2u 
+.PARAM Wp=10u 
+.PARAM Lin_n=0.3u 
+.PARAM Lin_p=0.3u 
+.PARAM Rr=3.5k 
+.PARAM Vicm=0.9 
+
+.OPTION PROBOP2
+.OPTION PROBOPX
+.OP
+.AC dec 10 1 10gig
+

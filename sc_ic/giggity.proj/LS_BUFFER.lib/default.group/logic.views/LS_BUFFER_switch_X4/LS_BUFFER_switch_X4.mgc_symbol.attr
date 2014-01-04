@@ -1,0 +1,13 @@
+A 5 u mgc_symbol 52ab4d87e023.03.7f.00.00.01.00.11.d3 17 2 1 0
+V v 15 1 5294bad53996.03.7f.00.00.01.00.70.4f
+F f 15 "LS_BUFFER_switch_X4.smbl_15"
+V v 16 1 5294bad585ad.03.7f.00.00.01.00.70.4f
+F f 16 "LS_BUFFER_switch_X4.smbl_16"
+V v 17 1 5294bad74d66.03.7f.00.00.01.00.70.4f
+F f 17 "LS_BUFFER_switch_X4.smbl_17"
+O 17
+R csduv 0 "$LS_BUFFER/default.group/logic.views/LS_BUFFER_switch_X4/part" 19 Eddm_part 5294bad74d6a.03.7f.00.00.01.00.70.4f 52ab4d87e01b.03.7f.00.00.01.00.11.d3
+O 16
+R csduv 0 "$LS_BUFFER/default.group/logic.views/LS_BUFFER_switch_X4/part" 18 Eddm_part 5294bad585b2.03.7f.00.00.01.00.70.4f 52ab4d87e01b.03.7f.00.00.01.00.11.d3
+O 15
+R csduv 0 "$LS_BUFFER/default.group/logic.views/LS_BUFFER_switch_X4/part" 17 Eddm_part 5294bad5399b.03.7f.00.00.01.00.70.4f 52ab4d87e01b.03.7f.00.00.01.00.11.d3

@@ -1,0 +1,129 @@
+# This file provides name mapping information for all objects
+# on the schematic design.  It provides a mapping for each
+# object between its name on the schematic and its name in the netlist.
+version 1.0
+
+Globals
+   ground GROUND
+   SCF_VDD SCF_VDD
+End Globals
+
+Cell N_18_MM
+   Pin D D
+   Pin G G
+   Pin S S
+   Pin B B
+End Cell
+
+Cell P_18_MM
+   Pin D D
+   Pin G G
+   Pin S S
+   Pin B B
+End Cell
+
+Cell INV_CLK_GEN_1
+   Pin O O
+   Pin I I
+   Net O O
+   Net I I
+   Global ground GROUND
+   Global SCF_VDD SCF_VDD
+   Inst M4 M4 N_18_MM
+   Inst M2 M2 P_18_MM
+End Cell
+
+Cell NAND_CLK_GEN
+   Pin O O
+   Pin A A
+   Pin B B
+   Net N$52 N$52
+   Net O O
+   Net B B
+   Net A A
+   Global ground GROUND
+   Global SCF_VDD SCF_VDD
+   Inst M3 M3 N_18_MM
+   Inst M1 M1 P_18_MM
+   Inst M2 M2 P_18_MM
+   Inst M4 M4 N_18_MM
+End Cell
+
+Cell INV_CLK_GEN_2
+   Pin O O
+   Pin I I
+   Net O O
+   Net I I
+   Global ground GROUND
+   Global SCF_VDD SCF_VDD
+   Inst M4 M4 N_18_MM
+   Inst M2 M2 P_18_MM
+End Cell
+
+Cell #top#
+   Pin phi1 PHI1
+   Pin phi1e PHI1E
+   Pin phi2 PHI2
+   Pin phi2e PHI2E
+   Pin clk CLK
+   Net N$72 N$72
+   Net N$71 N$71
+   Net N$74 N$74
+   Net N$73 N$73
+   Net N$70 N$70
+   Net N$69 N$69
+   Net N$66 N$66
+   Net N$64 N$64
+   Net N$63 N$63
+   Net N$61 N$61
+   Net N$33 N$33
+   Net N$26 N$26
+   Net N$16 N$16
+   Net N$57 N$57
+   Net N$13 N$13
+   Net N$29 N$29
+   Net N$38 N$38
+   Net N$31 N$31
+   Net N$42 N$42
+   Net N$22 N$22
+   Net N$20 N$20
+   Net N$17 N$17
+   Net N$15 N$15
+   Net N$10 N$10
+   Net N$9 N$9
+   Net phi2e PHI2E
+   Net phi2 PHI2
+   Net phi1 PHI1
+   Net phi1e PHI1E
+   Net clk CLK
+   Inst INV_CLK_GEN_119 X_INV_CLK_GEN_119 INV_CLK_GEN_1
+   Inst INV_CLK_GEN_118 X_INV_CLK_GEN_118 INV_CLK_GEN_1
+   Inst NAND_CLK_GEN3 X_NAND_CLK_GEN3 NAND_CLK_GEN
+   Inst INV_CLK_GEN_15 X_INV_CLK_GEN_15 INV_CLK_GEN_1
+   Inst INV_CLK_GEN_16 X_INV_CLK_GEN_16 INV_CLK_GEN_1
+   Inst INV_CLK_GEN_24 X_INV_CLK_GEN_24 INV_CLK_GEN_2
+   Inst INV_CLK_GEN_23 X_INV_CLK_GEN_23 INV_CLK_GEN_2
+   Inst INV_CLK_GEN_22 X_INV_CLK_GEN_22 INV_CLK_GEN_2
+   Inst INV_CLK_GEN_21 X_INV_CLK_GEN_21 INV_CLK_GEN_2
+   Inst NAND_CLK_GEN4 X_NAND_CLK_GEN4 NAND_CLK_GEN
+   Inst NAND_CLK_GEN2 X_NAND_CLK_GEN2 NAND_CLK_GEN
+   Inst INV_CLK_GEN_113 X_INV_CLK_GEN_113 INV_CLK_GEN_1
+   Inst INV_CLK_GEN_112 X_INV_CLK_GEN_112 INV_CLK_GEN_1
+   Inst INV_CLK_GEN_111 X_INV_CLK_GEN_111 INV_CLK_GEN_1
+   Inst INV_CLK_GEN_110 X_INV_CLK_GEN_110 INV_CLK_GEN_1
+   Inst INV_CLK_GEN_19 X_INV_CLK_GEN_19 INV_CLK_GEN_1
+   Inst INV_CLK_GEN_17 X_INV_CLK_GEN_17 INV_CLK_GEN_1
+   Inst INV_CLK_GEN_14 X_INV_CLK_GEN_14 INV_CLK_GEN_1
+   Inst INV_CLK_GEN_13 X_INV_CLK_GEN_13 INV_CLK_GEN_1
+   Inst INV_CLK_GEN_12 X_INV_CLK_GEN_12 INV_CLK_GEN_1
+   Inst NAND_CLK_GEN1 X_NAND_CLK_GEN1 NAND_CLK_GEN
+   Inst INV_CLK_GEN_11 X_INV_CLK_GEN_11 INV_CLK_GEN_1
+   Inst INV_CLK_GEN_117 X_INV_CLK_GEN_117 INV_CLK_GEN_1
+   Inst INV_CLK_GEN_116 X_INV_CLK_GEN_116 INV_CLK_GEN_1
+   Inst INV_CLK_GEN_115 X_INV_CLK_GEN_115 INV_CLK_GEN_1
+   Inst INV_CLK_GEN_114 X_INV_CLK_GEN_114 INV_CLK_GEN_1
+   Inst INV_CLK_GEN_18 X_INV_CLK_GEN_18 INV_CLK_GEN_1
+   Inst INV_CLK_GEN_121 X_INV_CLK_GEN_121 INV_CLK_GEN_1
+   Inst INV_CLK_GEN_120 X_INV_CLK_GEN_120 INV_CLK_GEN_1
+End Cell
+

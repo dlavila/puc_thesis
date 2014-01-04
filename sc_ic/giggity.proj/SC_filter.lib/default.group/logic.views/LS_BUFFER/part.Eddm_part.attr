@@ -1,0 +1,6 @@
+A 5 u Eddm_part 52b1e5debc01.03.7f.00.00.01.00.15.55 1 2 1 0
+V v 1 1 528a4ce0bce4.03.7f.00.00.01.01.73.35
+F f 1 "part.part_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/LS_BUFFER/schematic" 1 mgc_schematic 528a498e66c0.03.7f.00.00.01.01.73.35 52b1e5debb7f.03.7f.00.00.01.00.15.55

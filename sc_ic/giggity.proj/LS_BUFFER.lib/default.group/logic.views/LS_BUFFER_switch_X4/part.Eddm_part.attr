@@ -1,0 +1,22 @@
+A 5 u Eddm_part 52ab4d87e01b.03.7f.00.00.01.00.11.d3 21 2 2 0
+V v 19 1 5294bad74d6a.03.7f.00.00.01.00.70.4f
+F f 19 "part.part_19"
+V v 20 1 5294bbee81f5.03.7f.00.00.01.00.78.99
+F f 20 "part.part_20"
+V v 21 1 52ab4d895c3d.03.7f.00.00.01.00.45.cb
+F f 21 "part.part_21"
+O 21
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$LS_BUFFER/default.group/logic.views/LS_BUFFER_switch_X4/schematic" 1 mgc_schematic 527ade06aea4.03.7f.00.00.01.01.26.40 52ab4d87dffb.03.7f.00.00.01.00.11.d3
+P "eddm__refer_state" "eddm__refer_floating"
+R csduv 1 "$LS_BUFFER/default.group/logic.views/LS_BUFFER_switch_X4/LS_BUFFER_switch_X4" 17 mgc_symbol 5294bad74d66.03.7f.00.00.01.00.70.4f 52ab4d87e023.03.7f.00.00.01.00.11.d3
+O 20
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$LS_BUFFER/default.group/logic.views/LS_BUFFER_switch_X4/schematic" 1 mgc_schematic 527ade06aea4.03.7f.00.00.01.01.26.40 52ab4d87dffb.03.7f.00.00.01.00.11.d3
+P "eddm__refer_state" "eddm__refer_floating"
+R csduv 1 "$LS_BUFFER/default.group/logic.views/LS_BUFFER_switch_X4/LS_BUFFER_switch_X4" 17 mgc_symbol 5294bad74d66.03.7f.00.00.01.00.70.4f 52ab4d87e023.03.7f.00.00.01.00.11.d3
+O 19
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$LS_BUFFER/default.group/logic.views/LS_BUFFER_switch_X4/schematic" 1 mgc_schematic 527ade06aea4.03.7f.00.00.01.01.26.40 52ab4d87dffb.03.7f.00.00.01.00.11.d3
+P "eddm__refer_state" "eddm__refer_floating"
+R csduv 1 "$LS_BUFFER/default.group/logic.views/LS_BUFFER_switch_X4/LS_BUFFER_switch_X4" 17 mgc_symbol 5294bad74d66.03.7f.00.00.01.00.70.4f 52ab4d87e023.03.7f.00.00.01.00.11.d3

@@ -1,0 +1,6 @@
+A 5 u Eddm_part 526edbfdb455.03.7f.00.00.01.00.2c.26 1 2 1 0
+V v 1 1 526edbfdb456.03.7f.00.00.01.00.2c.26
+F f 1 "part.part_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$AnalogIP/default.group/logic.views/Tel_OTA/schematic" 1 mgc_schematic 526ed8beb1c5.03.7f.00.00.01.01.2c.26 526ed8beb1c5.03.7f.00.00.01.00.2c.26

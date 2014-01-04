@@ -1,0 +1,19 @@
+A 5 u Eddm_part 52b1e791c6b6.03.7f.00.00.01.00.15.55 4 2 2 0
+V v 2 1 524f2404b799.03.7f.00.00.01.00.7f.2c
+F f 2 "part.part_2"
+V v 3 1 525316055ee5.03.7f.00.00.01.00.57.72
+F f 3 "part.part_3"
+V v 4 1 5253162a4992.03.7f.00.00.01.00.57.72
+F f 4 "part.part_4"
+O 4
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$UTILS/default.group/logic.views/s2d/schematic" 1 mgc_schematic 524f230cd625.03.7f.00.00.01.01.7f.2c 52b1e791c699.03.7f.00.00.01.00.15.55
+R csduv 1 "$UTILS/default.group/logic.views/s2d/s2d" 4 mgc_symbol 5253162a498a.03.7f.00.00.01.00.57.72 52b1e791c6b0.03.7f.00.00.01.00.15.55
+O 3
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$UTILS/default.group/logic.views/s2d/schematic" 1 mgc_schematic 524f230cd625.03.7f.00.00.01.01.7f.2c 52b1e791c699.03.7f.00.00.01.00.15.55
+R csduv 1 "$UTILS/default.group/logic.views/s2d/s2d" 3 mgc_symbol 525316055ec1.03.7f.00.00.01.00.57.72 52b1e791c6b0.03.7f.00.00.01.00.15.55
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$UTILS/default.group/logic.views/s2d/schematic" 1 mgc_schematic 524f230cd625.03.7f.00.00.01.01.7f.2c 52b1e791c699.03.7f.00.00.01.00.15.55
+R csduv 1 "$UTILS/default.group/logic.views/s2d/s2d" 1 mgc_symbol 524f2404b66a.03.7f.00.00.01.01.7f.2c 52b1e791c6b0.03.7f.00.00.01.00.15.55

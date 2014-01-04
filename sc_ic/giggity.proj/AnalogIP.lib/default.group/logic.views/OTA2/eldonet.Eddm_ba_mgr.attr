@@ -1,0 +1,19 @@
+A 5 u Eddm_ba_mgr 526accc29ac1.03.7f.00.00.01.00.09.5c 3 2 5 0
+V v 1 1 526accc29ac1.03.7f.00.00.01.01.09.5c
+F f 1 "eldonet.ba_1"
+V v 2 1 526ad414b55c.03.7f.00.00.01.00.25.f5
+F f 2 "eldonet.ba_2"
+V v 3 1 526ad4d6617c.03.7f.00.00.01.00.25.f5
+F f 3 "eldonet.ba_3"
+O 3
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 3 "$AnalogIP/default.group/logic.views/OTA2/eldonet" 21 Eddm_design_viewpoint 526ad4d66150.03.7f.00.00.01.00.25.f5 526accc299c2.03.7f.00.00.01.00.09.5c
+R cspuv 4 "$AnalogIP/default.group/logic.views/OTA2/schematic" 10 mgc_schematic 526ad48692be.03.7f.00.00.01.00.25.f5 526acb2c4fd3.03.7f.00.00.01.00.09.5c
+P "eddm__refer_state" "eddm__refer_floating"
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 1 "$AnalogIP/default.group/logic.views/OTA2/eldonet" 18 Eddm_design_viewpoint 526ad414b52a.03.7f.00.00.01.00.25.f5 526accc299c2.03.7f.00.00.01.00.09.5c
+R cspuv 2 "$AnalogIP/default.group/logic.views/OTA2/schematic" 9 mgc_schematic 526ad3e95daa.03.7f.00.00.01.00.09.5c 526acb2c4fd3.03.7f.00.00.01.00.09.5c
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$AnalogIP/default.group/logic.views/OTA2/eldonet" 1 Eddm_design_viewpoint 526accc299c2.03.7f.00.00.01.01.09.5c 526accc299c2.03.7f.00.00.01.00.09.5c

@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 52b1e74309e3.03.7f.00.00.01.00.15.55 55 2 1 0
+V v 53 1 527a7e9a1f44.03.7f.00.00.01.00.4a.4a
+F o 0 ""
+V v 54 1 527a87886b6c.03.7f.00.00.01.00.70.ef
+F o 0 ""
+V v 55 1 527a882b0f02.03.7f.00.00.01.00.70.ef
+F o 0 ""
+O 55
+R cspuv 0 "$OLD_STUFF/default.group/logic.views/RFC3/schematic/sheet1" 54 mgc_sheet 527a882b0ec0.03.7f.00.00.01.00.70.ef 52b1e74309ff.03.7f.00.00.01.00.15.55
+O 54
+R cspuv 0 "$OLD_STUFF/default.group/logic.views/RFC3/schematic/sheet1" 53 mgc_sheet 527a87886af1.03.7f.00.00.01.00.70.ef 52b1e74309ff.03.7f.00.00.01.00.15.55
+O 53
+R cspuv 0 "$OLD_STUFF/default.group/logic.views/RFC3/schematic/sheet1" 52 mgc_sheet 527a7e9a1f1b.03.7f.00.00.01.00.4a.4a 52b1e74309ff.03.7f.00.00.01.00.15.55

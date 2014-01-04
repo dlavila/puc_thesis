@@ -1,0 +1,257 @@
+# This file provides name mapping information for all objects
+# on the schematic design.  It provides a mapping for each
+# object between its name on the schematic and its name in the netlist.
+version 1.0
+
+Globals
+   VDD vdd
+   ground ground
+End Globals
+
+Cell n_18_mm
+   Pin D d
+   Pin G g
+   Pin S s
+   Pin B b
+End Cell
+
+Cell p_18_mm
+   Pin D d
+   Pin G g
+   Pin S s
+   Pin B b
+End Cell
+
+Cell mimcaps_mm
+   Pin PLUS plus
+   Pin MINUS minus
+End Cell
+
+Cell rnhr1000_mm
+   Pin PLUS plus
+   Pin MINUS minus
+   Pin B b
+End Cell
+
+Cell buffer
+   Pin Vo vo
+   Pin AGnd agnd
+   Pin AVdd avdd
+   Pin Ib ib
+   Pin Vi+ vi+
+   Pin Vi- vi-
+   Net N$741 n$741
+   Net N$737 n$737
+   Net N$698 n$698
+   Net N$626 n$626
+   Net N$688 n$688
+   Net N$689 n$689
+   Net N$696 n$696
+   Net N$642 n$642
+   Net N$695 n$695
+   Net N$650 n$650
+   Net N$665 n$665
+   Net N$701 n$701
+   Net N$668 n$668
+   Net N$671 n$671
+   Net N$672 n$672
+   Net N$702 n$702
+   Net N$676 n$676
+   Net N$692 n$692
+   Net N$734 n$734
+   Net N$733 n$733
+   Net N$715 n$715
+   Net N$711 n$711
+   Net N$708 n$708
+   Net N$705 n$705
+   Net N$687 n$687
+   Net N$684 n$684
+   Net N$683 n$683
+   Net N$681 n$681
+   Net N$660 n$660
+   Net N$659 n$659
+   Net N$618 n$618
+   Net ND7 nd7
+   Net ND9 nd9
+   Net N$610 n$610
+   Net N$593 n$593
+   Net N$427 n$427
+   Net N$204 n$204
+   Net N$356 n$356
+   Net N$279 n$279
+   Net N$277 n$277
+   Net N$274 n$274
+   Net Vncas vncas
+   Net N$255 n$255
+   Net N$253 n$253
+   Net N$250 n$250
+   Net N$249 n$249
+   Net N$247 n$247
+   Net Vb1 vb1
+   Net N$209 n$209
+   Net ND2 nd2
+   Net ND1 nd1
+   Net ND4 nd4
+   Net Vpcas vpcas
+   Net ND3 nd3
+   Net ND6 nd6
+   Net N$206 n$206
+   Net Vb3 vb3
+   Net N$165 n$165
+   Net N$148 n$148
+   Net ND8 nd8
+   Net Vb4 vb4
+   Net Vb2 vb2
+   Net N$131 n$131
+   Net Ib ib
+   Net Vi- vi-
+   Net Vi+ vi+
+   Net Vo vo
+   Net AVdd avdd
+   Net AGnd agnd
+   Inst M49 m49 n_18_mm
+   Inst M47 m47 n_18_mm
+   Inst M57 m57 n_18_mm
+   Inst M46 m46 p_18_mm
+   Inst M44 m44 p_18_mm
+   Inst MIN1 min1 n_18_mm
+   Inst M2 m2 n_18_mm
+   Inst M8 m8 n_18_mm
+   Inst M42 m42 p_18_mm
+   Inst M33 m33 p_18_mm
+   Inst C2 xc2 mimcaps_mm
+   Inst M19 m19 p_18_mm
+   Inst M15 m15 n_18_mm
+   Inst M29 m29 n_18_mm
+   Inst M7 m7 n_18_mm
+   Inst C1 xc1 mimcaps_mm
+   Inst R2 xr2 rnhr1000_mm
+   Inst M12 m12 p_18_mm
+   Inst M64 m64 p_18_mm
+   Inst M63 m63 p_18_mm
+   Inst M62 m62 n_18_mm
+   Inst M61 m61 n_18_mm
+   Inst M56 m56 p_18_mm
+   Inst M55 m55 p_18_mm
+   Inst M54 m54 n_18_mm
+   Inst M76 m76 n_18_mm
+   Inst M75 m75 n_18_mm
+   Inst M68 m68 p_18_mm
+   Inst M67 m67 p_18_mm
+   Inst M66 m66 n_18_mm
+   Inst M65 m65 n_18_mm
+   Inst M28 m28 n_18_mm
+   Inst M3 m3 p_18_mm
+   Inst M17 m17 n_18_mm
+   Inst M6 m6 p_18_mm
+   Inst R1 xr1 rnhr1000_mm
+   Inst MOUTN moutn n_18_mm
+   Inst M53 m53 n_18_mm
+   Inst M52 m52 p_18_mm
+   Inst M1 m1 p_18_mm
+   Inst M11 m11 n_18_mm
+   Inst M40 m40 p_18_mm
+   Inst M18 m18 p_18_mm
+   Inst M39 m39 p_18_mm
+   Inst M74 m74 p_18_mm
+   Inst M73 m73 p_18_mm
+   Inst M20 m20 n_18_mm
+   Inst D1 m_d1 n_18_mm
+   Inst M35 m35 n_18_mm
+   Inst M50 m50 n_18_mm
+   Inst M45 m45 p_18_mm
+   Inst M21 m21 n_18_mm
+   Inst M24 m24 n_18_mm
+   Inst M43 m43 p_18_mm
+   Inst M48 m48 p_18_mm
+   Inst M4 m4 n_18_mm
+   Inst M10 m10 p_18_mm
+   Inst M34 m34 p_18_mm
+   Inst M51 m51 p_18_mm
+   Inst M41 m41 p_18_mm
+   Inst M30 m30 n_18_mm
+   Inst MOUTP moutp p_18_mm
+   Inst M23 m23 n_18_mm
+   Inst M22 m22 p_18_mm
+   Inst M38 m38 p_18_mm
+   Inst M72 m72 p_18_mm
+   Inst M71 m71 p_18_mm
+   Inst M9 m9 n_18_mm
+   Inst M16 m16 n_18_mm
+   Inst M36 m36 p_18_mm
+   Inst M13 m13 p_18_mm
+   Inst M60 m60 p_18_mm
+   Inst M59 m59 p_18_mm
+   Inst M58 m58 n_18_mm
+   Inst M32 m32 n_18_mm
+   Inst M70 m70 p_18_mm
+   Inst M69 m69 p_18_mm
+   Inst M5 m5 p_18_mm
+   Inst M37 m37 p_18_mm
+   Inst M25 m25 n_18_mm
+   Inst M14 m14 p_18_mm
+   Inst M27 m27 n_18_mm
+   Inst M26 m26 n_18_mm
+   Inst M31 m31 n_18_mm
+End Cell
+
+Cell vcvs_2pin
+   Pin POS pos
+   Pin NEG neg
+End Cell
+
+Cell s2d
+   Pin Vd+ vd+
+   Pin Vd- vd-
+   Pin Vicm vicm
+   Pin Vid vid
+   Pin Vss vss
+   Net N$2 n$2
+   Net Vd- vd-
+   Net Vd+ vd+
+   Net Vss vss
+   Net Vicm vicm
+   Net Vid vid
+   Inst E3 e3 vcvs_2pin
+   Inst E2 e2 vcvs_2pin
+   Inst E1 e1 vcvs_2pin
+End Cell
+
+Cell dc_v_source
+   Pin POS pos
+   Pin NEG neg
+End Cell
+
+Cell ideal_capacitor
+   Pin POS pos
+   Pin NEG neg
+End Cell
+
+Cell dc_i_source
+   Pin POS pos
+   Pin NEG neg
+End Cell
+
+Cell ac_v_source
+   Pin POS pos
+   Pin NEG neg
+End Cell
+
+Cell #top#
+   Net Vo vo
+   Net N$2 n$2
+   Net N$31 n$31
+   Net N$29 n$29
+   Net N$34 n$34
+   Net N$33 n$33
+   Global VDD vdd
+   Global ground ground
+   Inst BUFFER1 x_buffer1 buffer
+   Inst S2D1 x_s2d1 s2d
+   Inst V2 v2 dc_v_source
+   Inst C1 c1 ideal_capacitor
+   Inst V1 v1 dc_v_source
+   Inst I1 i1 dc_i_source
+   Inst V3 v3 ac_v_source
+End Cell
+

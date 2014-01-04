@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 52b0bb9f6849.03.7f.00.00.01.00.51.ca 8 2 1 0
+V v 6 1 52b0bdd45b79.03.7f.00.00.01.00.51.ca
+F o 0 ""
+V v 7 1 52b0be24b6ac.03.7f.00.00.01.00.51.ca
+F o 0 ""
+V v 8 1 52b0be954a44.03.7f.00.00.01.00.60.4a
+F o 0 ""
+O 8
+R cspuv 0 "$SC_filter/default.group/logic.views/testBGR/schematic/sheet1" 7 mgc_sheet 52b0be954a2a.03.7f.00.00.01.00.60.4a 52b0bb9f69e5.03.7f.00.00.01.00.51.ca
+O 7
+R cspuv 0 "$SC_filter/default.group/logic.views/testBGR/schematic/sheet1" 6 mgc_sheet 52b0be24b694.03.7f.00.00.01.00.51.ca 52b0bb9f69e5.03.7f.00.00.01.00.51.ca
+O 6
+R cspuv 0 "$SC_filter/default.group/logic.views/testBGR/schematic/sheet1" 5 mgc_sheet 52b0bdd45b64.03.7f.00.00.01.00.51.ca 52b0bb9f69e5.03.7f.00.00.01.00.51.ca

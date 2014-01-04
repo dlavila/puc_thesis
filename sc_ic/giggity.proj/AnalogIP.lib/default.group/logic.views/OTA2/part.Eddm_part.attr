@@ -1,0 +1,7 @@
+A 5 u Eddm_part 526accbead3a.03.7f.00.00.01.00.09.5c 1 2 1 0
+V v 1 1 526accbead3a.03.7f.00.00.01.01.09.5c
+F f 1 "part.part_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$AnalogIP/default.group/logic.views/OTA2/schematic" 1 mgc_schematic 526acb2c4fd3.03.7f.00.00.01.01.09.5c 526acb2c4fd3.03.7f.00.00.01.00.09.5c
+P "eddm__refer_state" "eddm__refer_floating"

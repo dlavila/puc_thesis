@@ -1,0 +1,39 @@
+A 5 u Eddm_design_viewpoint 5283e1dd94ac.03.7f.00.00.01.00.18.29 45 2 285 0
+V v 43 4 529623a07cfc.03.7f.00.00.01.00.7a.ea
+F f 43 "eldonet.dvpt_43"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 44 4 529623a5a3d1.03.7f.00.00.01.00.7a.ea
+F f 44 "eldonet.dvpt_44"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 45 4 529623ad2cfe.03.7f.00.00.01.00.7a.ea
+F f 45 "eldonet.dvpt_45"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+O 45
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$SC_filter/default.group/logic.views/SCF_ota/part" 27 Eddm_part 5294cafc39a5.03.7f.00.00.01.00.7a.ea 5283e1dd94e4.03.7f.00.00.01.00.18.29
+R cspuv 1 "$SC_filter/default.group/logic.views/SCF_ota/schematic" 190 mgc_schematic 529623a1977c.03.7f.00.00.01.00.7a.ea 5283e1dd9485.03.7f.00.00.01.00.18.29
+R cspuv 3 "$SC_filter/default.group/logic.views/SCF_ota/eldonet" 1 Eddm_ba_mgr 527bfb19d64b.03.7f.00.00.01.01.3d.cb 5283e1dd94dc.03.7f.00.00.01.00.18.29
+R cspuv 4 "$MGC_DESIGN_KIT/symbols/P_18_MM/part" 23 Eddm_part 462e23ba79d1.03.7f.00.00.01.00.54.63 461b99bfbe81.03.89.ca.19.1a.00.4f.21
+R cspuv 5 "$MGC_DESIGN_KIT/symbols/N_18_MM/part" 26 Eddm_part 462e23b780f6.03.7f.00.00.01.00.54.63 461b99901841.03.89.ca.19.1a.00.4f.21
+O 44
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$SC_filter/default.group/logic.views/SCF_ota/part" 27 Eddm_part 5294cafc39a5.03.7f.00.00.01.00.7a.ea 5283e1dd94e4.03.7f.00.00.01.00.18.29
+R cspuv 1 "$SC_filter/default.group/logic.views/SCF_ota/schematic" 190 mgc_schematic 529623a1977c.03.7f.00.00.01.00.7a.ea 5283e1dd9485.03.7f.00.00.01.00.18.29
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 3 "$SC_filter/default.group/logic.views/SCF_ota/eldonet" 1 Eddm_ba_mgr 527bfb19d64b.03.7f.00.00.01.01.3d.cb 5283e1dd94dc.03.7f.00.00.01.00.18.29
+R cspuv 4 "$MGC_DESIGN_KIT/symbols/P_18_MM/part" 23 Eddm_part 462e23ba79d1.03.7f.00.00.01.00.54.63 461b99bfbe81.03.89.ca.19.1a.00.4f.21
+R cspuv 5 "$MGC_DESIGN_KIT/symbols/N_18_MM/part" 26 Eddm_part 462e23b780f6.03.7f.00.00.01.00.54.63 461b99901841.03.89.ca.19.1a.00.4f.21
+R cspuv 278 "$SC_filter/default.group/logic.views/SCF_ota/SCF_ota" 33 mgc_symbol 5294cafc3945.03.7f.00.00.01.00.7a.ea 5283e1dd94a1.03.7f.00.00.01.00.18.29
+O 43
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$SC_filter/default.group/logic.views/SCF_ota/part" 27 Eddm_part 5294cafc39a5.03.7f.00.00.01.00.7a.ea 5283e1dd94e4.03.7f.00.00.01.00.18.29
+R cspuv 1 "$SC_filter/default.group/logic.views/SCF_ota/schematic" 189 mgc_schematic 52962394ac38.03.7f.00.00.01.00.7a.ea 5283e1dd9485.03.7f.00.00.01.00.18.29
+R cspuv 3 "$SC_filter/default.group/logic.views/SCF_ota/eldonet" 1 Eddm_ba_mgr 527bfb19d64b.03.7f.00.00.01.01.3d.cb 5283e1dd94dc.03.7f.00.00.01.00.18.29
+R cspuv 4 "$MGC_DESIGN_KIT/symbols/P_18_MM/part" 23 Eddm_part 462e23ba79d1.03.7f.00.00.01.00.54.63 461b99bfbe81.03.89.ca.19.1a.00.4f.21
+R cspuv 5 "$MGC_DESIGN_KIT/symbols/N_18_MM/part" 26 Eddm_part 462e23b780f6.03.7f.00.00.01.00.54.63 461b99901841.03.89.ca.19.1a.00.4f.21

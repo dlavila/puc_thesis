@@ -1,0 +1,13 @@
+* Component: $LS_BUFFER/default.group/logic.views/PHASE_GEN  Viewpoint: eldonet
+.INCLUDE $LS_BUFFER/default.group/logic.views/PHASE_GEN/eldonet/PHASE_GEN_eldonet.spi
+
+
+
+
+.OPTION NOASCII
+.OPTION MODWL
+.OPTION ENGNOT
+.OPTION AEX
+
+.TEMP 27 
+

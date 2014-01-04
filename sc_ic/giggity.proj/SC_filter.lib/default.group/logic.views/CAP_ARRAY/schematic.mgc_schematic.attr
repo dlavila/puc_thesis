@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 52b2efa65225.03.7f.00.00.01.00.37.f3 7 2 1 0
+V v 5 1 52b2f0bb574a.03.7f.00.00.01.00.37.f3
+F o 0 ""
+V v 6 1 52b2f0bb5c57.03.7f.00.00.01.00.37.f3
+F o 0 ""
+V v 7 1 52b2f0bbb5a6.03.7f.00.00.01.00.37.f3
+F o 0 ""
+O 7
+R cspuv 0 "$SC_filter/default.group/logic.views/CAP_ARRAY/schematic/sheet1" 6 mgc_sheet 52b2f0bbb591.03.7f.00.00.01.00.37.f3 52b2efa652d4.03.7f.00.00.01.00.37.f3
+O 6
+R cspuv 0 "$SC_filter/default.group/logic.views/CAP_ARRAY/schematic/sheet1" 5 mgc_sheet 52b2f0bb5c43.03.7f.00.00.01.00.37.f3 52b2efa652d4.03.7f.00.00.01.00.37.f3
+O 5
+R cspuv 0 "$SC_filter/default.group/logic.views/CAP_ARRAY/schematic/sheet1" 4 mgc_sheet 52b2f0bb5734.03.7f.00.00.01.00.37.f3 52b2efa652d4.03.7f.00.00.01.00.37.f3

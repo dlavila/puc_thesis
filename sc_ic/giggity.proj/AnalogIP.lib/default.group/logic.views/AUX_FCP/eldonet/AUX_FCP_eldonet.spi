@@ -1,0 +1,100 @@
+*
+* .CONNECT statements
+*
+.CONNECT GROUND 0
+
+
+* ELDO netlist generated with ICnet by 'dlavila' on Mon Oct 28 2013 at 18:14:41
+
+*
+* Globals.
+*
+.global GROUND
+
+*
+* Component pathname : $AnalogIP/default.group/logic.views/AUX_FCP_Bias
+*
+.subckt AUX_FCP_BIAS  VB1 VB2 VB3 VB4 IIN VDD VSS
+
+        M12 VB1 VB3 N$32 VSS n_18_mm l=0.45u w=0.24u ad=0.118p as=0.118p
++  pd=1.46u ps=1.46u m=1
+        M7 N$32 VB4 VSS VSS n_18_mm l=0.45u w=0.24u ad=0.118p as=0.118p
++  pd=1.46u ps=1.46u m=1
+        M4 N$31 VB4 VSS VSS n_18_mm l=0.45u w=0.24u ad=0.118p as=0.118p
++  pd=1.46u ps=1.46u m=1
+        M2 VB2 VB3 N$31 VSS n_18_mm l=0.45u w=0.24u ad=0.118p as=0.118p
++  pd=1.46u ps=1.46u m=1
+        M1 VB2 VB2 N$33 VDD p_18_mm l=0.45u w=1u ad=0.49p as=0.49p pd=2.98u
++  ps=2.98u m=1
+        M11 N$30 VB4 VSS VSS n_18_mm l=0.45u w=0.24u ad=0.118p as=0.118p
++  pd=1.46u ps=1.46u m=1
+        M8 VB4 VB3 N$30 VSS n_18_mm l=0.45u w=0.24u ad=0.118p as=0.118p
++  pd=1.46u ps=1.46u m=1
+        M5 N$29 VB3 VSS VSS n_18_mm l=2.5u w=0.24u ad=0.118p as=0.118p pd=1.46u
++  ps=1.46u m=1
+        M9 VB3 VB3 N$29 VSS n_18_mm l=0.45u w=0.24u ad=0.118p as=0.118p
++  pd=1.46u ps=1.46u m=1
+        M18 VB4 IIN N$25 VDD p_18_mm l=0.45u w=1.2u ad=0.588p as=0.588p
++  pd=3.38u ps=3.38u m=1
+        M16 N$25 N$22 VDD VDD p_18_mm l=0.45u w=1.2u ad=0.588p as=0.588p
++  pd=3.38u ps=3.38u m=1
+        M25 N$24 N$22 VDD VDD p_18_mm l=0.45u w=1.2u ad=0.588p as=0.588p
++  pd=3.38u ps=3.38u m=1
+        M24 VB3 IIN N$24 VDD p_18_mm l=0.45u w=1.2u ad=0.588p as=0.588p
++  pd=3.38u ps=3.38u m=1
+        M23 N$34 VB1 VDD VDD p_18_mm l=0.45u w=1u ad=0.49p as=0.49p pd=2.98u
++  ps=2.98u m=1
+        M29 N$22 N$22 VDD VDD p_18_mm l=0.45u w=1.2u ad=0.588p as=0.588p
++  pd=3.38u ps=3.38u m=1
+        M28 IIN IIN N$22 VDD p_18_mm l=0.45u w=1.2u ad=0.588p as=0.588p
++  pd=3.38u ps=3.38u m=1
+        M26 VB1 VB2 N$34 VDD p_18_mm l=0.45u w=1u ad=0.49p as=0.49p pd=2.98u
++  ps=2.98u m=1
+        M22 N$33 VB2 VDD VDD p_18_mm l=2.5u w=1u ad=0.49p as=0.49p pd=2.98u
++  ps=2.98u m=1
+.ends AUX_FCP_BIAS
+
+*
+* Component pathname : $AnalogIP/default.group/logic.views/s2d
+*
+.subckt S2D  VD+ VD- VICM VID VSS
+
+        E3 N$2 VSS Vicm Vss 1
+        E2 VD- N$2 Vss Vid 0.5
+        E1 VD+ N$2 Vid Vss 0.5
+.ends S2D
+
+*
+* MAIN CELL: Component pathname : $AnalogIP/default.group/logic.views/AUX_FCP
+*
+        M3 N$253 VI- N$252 VDD p_18_mm l=0.45u w=1u ad=0.27p as=0.38p pd=1.54u
++  ps=2.26u m=4
+        X_AUX_FCP_BIAS1 VB1 VB2 VB3 VB4 N$73 VDD GROUND AUX_FCP_BIAS
+        C1 VO GROUND 0.1P
+        I3 N$73 GROUND DC 6u
+        M10 N$253 VB4 GROUND GROUND n_18_mm l=0.45u w=0.5u ad=0.135p as=0.245p
++  pd=1.04u ps=1.98u m=2
+        V1 N$4 GROUND DC 0V AC 1 0
+        V2 N$3 GROUND DC 1V
+        V3 VDD GROUND DC 1.8V
+        M6 N$252 VB1 VDD VDD p_18_mm l=0.45u w=1u ad=0.27p as=0.38p pd=1.54u
++  ps=2.26u m=4
+        M15 VO VB2 N$248 VDD p_18_mm l=0.45u w=1u ad=0.27p as=0.38p pd=1.54u
++  ps=2.26u m=4
+        M14 N$249 VB2 N$246 VDD p_18_mm l=0.45u w=1u ad=0.27p as=0.38p pd=1.54u
++  ps=2.26u m=4
+        M13 N$246 N$249 VDD VDD p_18_mm l=0.45u w=1u ad=0.27p as=0.38p pd=1.54u
++  ps=2.26u m=4
+        M19 N$248 N$249 VDD VDD p_18_mm l=0.45u w=1u ad=0.27p as=0.38p pd=1.54u
++  ps=2.26u m=4
+        M30 N$251 VI+ N$252 VDD p_18_mm l=0.45u w=1u ad=0.27p as=0.38p pd=1.54u
++  ps=2.26u m=4
+        M20 VO VB3 N$251 GROUND n_18_mm l=0.45u w=0.5u ad=0.135p as=0.245p
++  pd=1.04u ps=1.98u m=2
+        M21 N$251 VB4 GROUND GROUND n_18_mm l=0.45u w=0.5u ad=0.135p as=0.245p
++  pd=1.04u ps=1.98u m=2
+        M17 N$249 VB3 N$253 GROUND n_18_mm l=0.45u w=0.5u ad=0.135p as=0.245p
++  pd=1.04u ps=1.98u m=2
+        X_S2D1 VI+ VI- N$3 N$4 GROUND S2D
+*
+.end

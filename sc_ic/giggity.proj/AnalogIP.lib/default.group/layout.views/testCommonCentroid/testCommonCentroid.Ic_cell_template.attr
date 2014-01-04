@@ -1,0 +1,14 @@
+A 5 u Ic_cell_template 525db3332ada.03.7f.00.00.01.00.18.b3 2 4 5 0
+V v 1 1 525db33b27ed.03.7f.00.00.01.00.18.b3
+F f 1 "testCommonCentroid.iccel_1"
+V v 2 1 525dbf835add.03.7f.00.00.01.00.1f.33
+F f 2 "testCommonCentroid.iccel_2"
+O 2
+R csduv 1 "$MGC_DESIGN_KIT/process/umc18ummrf" 25 Ic_persist_process 4b49fbac2b9a.03.89.ca.1c.10.00.03.ca 462ccb24bc64.03.7f.00.00.02.00.14.78
+R csduv 2 "$AnalogIP/default.group/layout_cfg.views/testCommonCentroid/SDL" 1 Eddm_design_viewpoint 525dbe295c0f.03.7f.00.00.01.00.1f.33 525dbe295c0e.03.7f.00.00.01.00.1f.33
+R csdni 3 "$MGC_DESIGN_KIT/process/umc18mmrf_sdl_rules" 1 Mgc_file
+R cmduv 4 "49052f642000.0d.00.01.a5.b0.00.00.00" 1 Ic_device_template 49fba4394000.0d.00.01.a5.b0.00.00.00 49052f642000.0d.00.01.a5.b0.00.00.00
+O 1
+R csduv 1 "$MGC_DESIGN_KIT/process/umc18ummrf" 25 Ic_persist_process 4b49fbac2b9a.03.89.ca.1c.10.00.03.ca 462ccb24bc64.03.7f.00.00.02.00.14.78
+R csduv 2 "$AnalogIP/default.group/layout_cfg.views/testCommonCentroid/SDL" 1 Eddm_design_viewpoint 525db33325d9.03.7f.00.00.01.00.18.b3 525db33325d8.03.7f.00.00.01.00.18.b3
+R csdni 3 "$MGC_DESIGN_KIT/process/umc18mmrf_sdl_rules" 1 Mgc_file

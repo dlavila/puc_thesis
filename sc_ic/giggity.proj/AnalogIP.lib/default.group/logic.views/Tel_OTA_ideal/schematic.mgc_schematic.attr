@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 526ef046045b.03.7f.00.00.01.00.39.1a 18 2 1 0
+V v 16 1 526fb78224e5.03.7f.00.00.01.00.1e.56
+F o 0 ""
+V v 17 1 526fba2f1017.03.7f.00.00.01.00.1e.56
+F o 0 ""
+V v 18 1 52712161bf29.03.7f.00.00.01.00.34.38
+F o 0 ""
+O 18
+R cspuv 0 "$AnalogIP/default.group/logic.views/Tel_OTA_ideal/schematic/sheet1" 17 mgc_sheet 52712161bdf1.03.7f.00.00.01.00.34.38 526ef0460584.03.7f.00.00.01.00.39.1a
+O 17
+R cspuv 0 "$AnalogIP/default.group/logic.views/Tel_OTA_ideal/schematic/sheet1" 16 mgc_sheet 526fba2f0ff3.03.7f.00.00.01.00.1e.56 526ef0460584.03.7f.00.00.01.00.39.1a
+O 16
+R cspuv 0 "$AnalogIP/default.group/logic.views/Tel_OTA_ideal/schematic/sheet1" 15 mgc_sheet 526fb78224b7.03.7f.00.00.01.00.1e.56 526ef0460584.03.7f.00.00.01.00.39.1a

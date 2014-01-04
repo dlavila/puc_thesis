@@ -1,0 +1,34 @@
+* Component: $OLD_STUFF/default.group/logic.views/RFC3  Viewpoint: eldonet
+.INCLUDE $OLD_STUFF/default.group/logic.views/RFC3/eldonet/RFC3_eldonet.spi
+.INCLUDE $MGC_DESIGN_KIT/models/ELDO/include_all
+.PROBE VX
+
+
+
+
+.OPTION NOASCII
+.OPTION MODWL
+.OPTION ENGNOT
+.OPTION AEX
+
+.TEMP 27 
+.PARAM k=2 
+.PARAM Ib=25u 
+.PARAM Win=48u 
+.PARAM Lin=0.36u 
+.PARAM Waux=2u 
+.PARAM Laux=0.18u 
+.PARAM Wf=4u 
+.PARAM Lf=0.45u 
+.PARAM Wcf=8u 
+.PARAM Lcf=0.45u 
+.PARAM Wcl=16u 
+.PARAM Lcl=0.3u 
+.PARAM Wl=32u 
+.PARAM Ll=1u 
+.PARAM Vicm=1.1 
+
+.OPTION PROBOP2
+.OPTION PROBOPX
+.OP
+.TRAN  0 300N 0 100p

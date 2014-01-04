@@ -1,0 +1,18 @@
+A 5 u Eddm_ba_mgr 528a476c61ff.03.7f.00.00.01.00.62.54 3 2 5 0
+V v 1 1 528a476c61ff.03.7f.00.00.01.01.62.54
+F f 1 "eldonet.ba_1"
+V v 2 1 5298db62e711.03.7f.00.00.01.00.2f.e9
+F f 2 "eldonet.ba_2"
+V v 3 1 5298dc743c32.03.7f.00.00.01.00.2f.e9
+F f 3 "eldonet.ba_3"
+O 3
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 3 "$RR_BUFFER/default.group/logic.views/testBuffer/eldonet" 13 Eddm_design_viewpoint 5298dc743c15.03.7f.00.00.01.00.2f.e9 528a476c6144.03.7f.00.00.01.00.62.54
+R cspuv 4 "$RR_BUFFER/default.group/logic.views/testBuffer/schematic" 4 mgc_schematic 5298d9afc840.03.7f.00.00.01.00.2f.e9 528a46ebd62a.03.7f.00.00.01.00.62.54
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 1 "$RR_BUFFER/default.group/logic.views/testBuffer/eldonet" 11 Eddm_design_viewpoint 5298db62e69c.03.7f.00.00.01.00.2f.e9 528a476c6144.03.7f.00.00.01.00.62.54
+R cspuv 2 "$RR_BUFFER/default.group/logic.views/testBuffer/schematic" 4 mgc_schematic 5298d9afc840.03.7f.00.00.01.00.2f.e9 528a46ebd62a.03.7f.00.00.01.00.62.54
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$RR_BUFFER/default.group/logic.views/testBuffer/eldonet" 1 Eddm_design_viewpoint 528a476c6144.03.7f.00.00.01.01.62.54 528a476c6144.03.7f.00.00.01.00.62.54

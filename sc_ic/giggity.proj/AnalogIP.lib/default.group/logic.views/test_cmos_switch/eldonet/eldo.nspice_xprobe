@@ -1,0 +1,56 @@
+# This file provides name mapping information for all objects
+# on the schematic design.  It provides a mapping for each
+# object between its name on the schematic and its name in the netlist.
+version 1.0
+
+Globals
+   SCF_VDD SCF_VDD
+   ground GROUND
+End Globals
+
+Cell P_18_MM
+   Pin D D
+   Pin G G
+   Pin S S
+   Pin B B
+End Cell
+
+Cell N_18_MM
+   Pin D D
+   Pin G G
+   Pin S S
+   Pin B B
+End Cell
+
+Cell CMOS_SWITCH_X16
+   Pin out OUT
+   Pin e E
+   Pin in IN
+   Net N$46 N$46
+   Net out OUT
+   Net e E
+   Net in IN
+   Global ground GROUND
+   Global SCF_VDD SCF_VDD
+   Inst M12 M12 P_18_MM
+   Inst M11 M11 N_18_MM
+   Inst M2 M2 N_18_MM
+   Inst M1 M1 P_18_MM
+End Cell
+
+Cell DC_V_SOURCE
+   Pin POS POS
+   Pin NEG NEG
+End Cell
+
+Cell #top#
+   Net Vo VO
+   Net Vi VI
+   Global SCF_VDD SCF_VDD
+   Global ground GROUND
+   Inst CMOS_SWITCH_X161 X_CMOS_SWITCH_X161 CMOS_SWITCH_X16
+   Inst V2 V2 DC_V_SOURCE
+   Inst V3 V3 DC_V_SOURCE
+   Inst V1 V1 DC_V_SOURCE
+End Cell
+

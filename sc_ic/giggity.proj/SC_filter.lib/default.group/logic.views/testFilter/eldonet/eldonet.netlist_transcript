@@ -1,0 +1,63 @@
+// *************************************************************************
+// Warning: This Linux distribution is not supported.
+// 
+// Supported runtime operating systems for this 64 bit application are: 
+// RHEL 3  64 bit
+// RHEL 4  64 bit
+// RHEL 5  64 bit
+// SLES 9  64 bit
+// SLES 10 64 bit
+// *************************************************************************
+//  ICnet  v2008.2_3.1 (2008.2b)  Tue May 5 19:07:13 PDT 2009
+//  Core Libraries  v2008.2_3.1 Tue May  5 19:22:21 PDT 2009
+//
+//             Copyright Mentor Graphics Corporation 1982
+//
+//                      All Rights Reserved.
+//
+//    THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR
+//           ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  Mentor Graphics software executing under x86_64 Linux.
+//
+
+
+//  Invocation args:  -eldo -o /home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib/default.group/logic.views/test_FILTER/eldonet/test_FILTER_eldonet.spi -check -upper -dmsfile /home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib/default.group/logic.views/test_FILTER/eldonet/design.dms /home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib/default.group/logic.views/test_FILTER/eldonet
+
+// **** Reading <$SC_filter/default.group/logic.views/test_FILTER/eldonet> for ELDO netlist ****
+
+// Checking 14 sheet(s) for out of date references to symbols and interfaces...
+// Done.
+// NOTE: There is no part interface for the top level schematic.  The external nets in the schematic
+//       are being scanned to create the pin names for the top level subckt.
+Processing [$SC_filter/default.group/logic.views/test_FILTER] [test_FILTER/test_FILTER] [schematic] (NCF entry line:17 file:$NCF_GLOBAL)
+Processing [$SC_filter/default.group/logic.views/s2d] [s2d/s2d] [schematic] (NCF entry line:17 file:$NCF_GLOBAL)
+Processing [$SC_filter/default.group/logic.views/FILTER] [Filter/FILTER] [schematic] (NCF entry line:17 file:$NCF_GLOBAL)
+Processing [$SC_filter/default.group/logic.views/PHASE_GEN_nand_X4] [PHASE_GEN_nand_X4/PHASE_GEN_nand_X4] [schematic] (NCF entry line:17 file:$NCF_GLOBAL)
+Processing [$SC_filter/default.group/logic.views/SCF_switch_X1] [SCf_switch_X1/SCF_switch_X1] [schematic] (NCF entry line:17 file:$NCF_GLOBAL)
+Processing [$SC_filter/default.group/logic.views/PHASE_GEN_inv_X8] [PHASE_GEN_inv_X8/PHASE_GEN_inv_X8] [schematic] (NCF entry line:17 file:$NCF_GLOBAL)
+Processing [$SC_filter/default.group/logic.views/SCF_ota] [SCF_ota/SCF_ota] [schematic] (NCF entry line:17 file:$NCF_GLOBAL)
+Processing [$SC_filter/default.group/logic.views/SCF_switch_X16] [SCF_switch_X16/SCF_switch_X16] [schematic] (NCF entry line:17 file:$NCF_GLOBAL)
+Processing [$SC_filter/default.group/logic.views/PHASE_GEN_inv_X4] [PHASE_GEN_inv_X4/PHASE_GEN_inv_X4] [schematic] (NCF entry line:17 file:$NCF_GLOBAL)
+Processing [$SC_filter/default.group/logic.views/PHASE_GEN] [PHASE_GEN/PHASE_GEN] [schematic] (NCF entry line:17 file:$NCF_GLOBAL)
+Processing [$SC_filter/default.group/logic.views/PHASE_GEN_inv_X2] [PHASE_GEN_inv_X2/PHASE_GEN_inv_X2] [schematic] (NCF entry line:17 file:$NCF_GLOBAL)
+Processing [$SC_filter/default.group/logic.views/PHASE_GEN_inv_X16] [PHASE_GEN_inv_X16/PHASE_GEN_inv_X16] [schematic] (NCF entry line:17 file:$NCF_GLOBAL)
+Processing [$SC_filter/default.group/logic.views/SCF_mux_X16] [SCF_mux_X16/SCF_mux_X16] [schematic] (NCF entry line:17 file:$NCF_GLOBAL)
+Processing [$SC_filter/default.group/logic.views/PHASE_GEN_nand_X1] [PHASE_GEN_nand_X1/PHASE_GEN_nand_X1] [schematic] (NCF entry line:17 file:$NCF_GLOBAL)
+Primitive [$MGC_DESIGN_KIT/symbols/P_18_MM] [P_18_MM/P_18_MM] [ELDOSPICE=M] (NCF entry line:19 file:$MGC_DESIGN_KIT/symbols/P_18_MM/@ncf.dir/P_18_MM.ncf)
+Primitive [$MGC_DESIGN_KIT/symbols/N_18_MM] [N_18_MM/N_18_MM] [ELDOSPICE=M] (NCF entry line:19 file:$MGC_DESIGN_KIT/symbols/N_18_MM/@ncf.dir/N_18_MM.ncf)
+Primitive [$MGC_DESIGN_KIT/symbols/MIMCAPS_MM] [MIMCAPS_MM/MIMCAPS_MM] [ELDOSPICE=X] (NCF entry line:19 file:$MGC_DESIGN_KIT/symbols/MIMCAPS_MM/@ncf.dir/MIMCAPS_MM.ncf)
+Primitive [$MGC_IC_SOURCES_LIB/vcvs_2pin] [vcvs_2pin/vcvs_2pin] [SPICE=E] (NCF entry line:1027 file:$NCF_GLOBAL)
+Primitive [$MGC_IC_SOURCES_LIB/vcvs] [vcvs/vcvs] [SPICE=E] (NCF entry line:1078 file:$NCF_GLOBAL)
+Primitive [$MGC_IC_SOURCES_LIB/dc_i_source] [dc_i_source/dc_i_source] [SPICE=I] (NCF entry line:596 file:$NCF_GLOBAL)
+Primitive [$MGC_IC_SOURCES_LIB/pwl_v_source] [pwl_v_source/pwl_v_source] [SPICE=V] (NCF entry line:770 file:$NCF_GLOBAL)
+Primitive [$MGC_IC_SOURCES_LIB/pulse_v_source] [pulse_v_source/pulse_v_source] [SPICE=V] (NCF entry line:722 file:$NCF_GLOBAL)
+Primitive [$MGC_IC_SOURCES_LIB/dc_v_source] [dc_v_source/dc_v_source] [SPICE=V] (NCF entry line:564 file:$NCF_GLOBAL)
+
+**** Writing <$SC_filter/default.group/logic.views/test_FILTER/eldonet> netlist for ELDO ****
+
+Number of cells: 23
+Number of primitive instances: 213
+
+Done...

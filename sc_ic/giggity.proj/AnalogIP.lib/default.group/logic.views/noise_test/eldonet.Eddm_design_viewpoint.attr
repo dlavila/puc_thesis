@@ -1,0 +1,43 @@
+A 5 u Eddm_design_viewpoint 527967ab28e6.03.7f.00.00.01.00.18.71 22 2 58 0
+V v 20 4 527a857625ec.03.7f.00.00.01.00.69.36
+F f 20 "eldonet.dvpt_20"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 21 4 527bfc5ec025.03.7f.00.00.01.00.69.17
+F f 21 "eldonet.dvpt_21"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 22 4 527ceac59a90.03.7f.00.00.01.00.69.17
+F f 22 "eldonet.dvpt_22"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+O 22
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$AnalogIP/default.group/logic.views/noise_test/part" 1 Eddm_part 527967ab1e6f.03.7f.00.00.01.01.18.71 527967ab1e6f.03.7f.00.00.01.00.18.71
+R cspuv 1 "$AnalogIP/default.group/logic.views/noise_test/schematic" 8 mgc_schematic 52796ad89bf8.03.7f.00.00.01.00.18.71 527966698f19.03.7f.00.00.01.00.18.71
+R cspuv 2 "$AnalogIP/default.group/logic.views/noise_test/eldonet" 2 Eddm_ba_mgr 52796bd75682.03.7f.00.00.01.00.18.71 527967ab2a80.03.7f.00.00.01.00.18.71
+R cspuv 4 "$MGC_IC_SOURCES_LIB/dc_v_source/part" 1 Eddm_part 3890a89d50f5.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.01.34.72
+R cspuv 9 "$MGC_IC_SOURCES_LIB/ac_v_source/part" 3 Eddm_part 3af197522955.03.93.22.22.60.00.4a.bf 3890a9620320.03.86.56.31.70.00.34.72
+R cspuv 28 "$MGC_IC_SOURCES_LIB/ccvs_2pin/part" 1 Eddm_part 359ac6590f5b.03.86.56.31.87.00.43.0d 3890ce7e2bce.03.86.56.31.70.00.34.72
+R cspuv 41 "$MGC_DESIGN_KIT/symbols/N_18_MM/part" 26 Eddm_part 462e23b780f6.03.7f.00.00.01.00.54.63 461b99901841.03.89.ca.19.1a.00.4f.21
+O 21
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$AnalogIP/default.group/logic.views/noise_test/part" 1 Eddm_part 527967ab1e6f.03.7f.00.00.01.01.18.71 527967ab1e6f.03.7f.00.00.01.00.18.71
+R cspuv 1 "$AnalogIP/default.group/logic.views/noise_test/schematic" 8 mgc_schematic 52796ad89bf8.03.7f.00.00.01.00.18.71 527966698f19.03.7f.00.00.01.00.18.71
+R cspuv 2 "$AnalogIP/default.group/logic.views/noise_test/eldonet" 2 Eddm_ba_mgr 52796bd75682.03.7f.00.00.01.00.18.71 527967ab2a80.03.7f.00.00.01.00.18.71
+R cspuv 4 "$MGC_IC_SOURCES_LIB/dc_v_source/part" 1 Eddm_part 3890a89d50f5.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.01.34.72
+R cspuv 9 "$MGC_IC_SOURCES_LIB/ac_v_source/part" 3 Eddm_part 3af197522955.03.93.22.22.60.00.4a.bf 3890a9620320.03.86.56.31.70.00.34.72
+R cspuv 28 "$MGC_IC_SOURCES_LIB/ccvs_2pin/part" 1 Eddm_part 359ac6590f5b.03.86.56.31.87.00.43.0d 3890ce7e2bce.03.86.56.31.70.00.34.72
+R cspuv 41 "$MGC_DESIGN_KIT/symbols/N_18_MM/part" 26 Eddm_part 462e23b780f6.03.7f.00.00.01.00.54.63 461b99901841.03.89.ca.19.1a.00.4f.21
+O 20
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$AnalogIP/default.group/logic.views/noise_test/part" 1 Eddm_part 527967ab1e6f.03.7f.00.00.01.01.18.71 527967ab1e6f.03.7f.00.00.01.00.18.71
+R cspuv 1 "$AnalogIP/default.group/logic.views/noise_test/schematic" 8 mgc_schematic 52796ad89bf8.03.7f.00.00.01.00.18.71 527966698f19.03.7f.00.00.01.00.18.71
+R cspuv 2 "$AnalogIP/default.group/logic.views/noise_test/eldonet" 2 Eddm_ba_mgr 52796bd75682.03.7f.00.00.01.00.18.71 527967ab2a80.03.7f.00.00.01.00.18.71
+R cspuv 4 "$MGC_IC_SOURCES_LIB/dc_v_source/part" 1 Eddm_part 3890a89d50f5.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.01.34.72
+R cspuv 9 "$MGC_IC_SOURCES_LIB/ac_v_source/part" 3 Eddm_part 3af197522955.03.93.22.22.60.00.4a.bf 3890a9620320.03.86.56.31.70.00.34.72
+R cspuv 28 "$MGC_IC_SOURCES_LIB/ccvs_2pin/part" 1 Eddm_part 359ac6590f5b.03.86.56.31.87.00.43.0d 3890ce7e2bce.03.86.56.31.70.00.34.72
+R cspuv 41 "$MGC_DESIGN_KIT/symbols/N_18_MM/part" 26 Eddm_part 462e23b780f6.03.7f.00.00.01.00.54.63 461b99901841.03.89.ca.19.1a.00.4f.21

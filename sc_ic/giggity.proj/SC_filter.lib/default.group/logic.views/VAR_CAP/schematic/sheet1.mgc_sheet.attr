@@ -1,0 +1,21 @@
+A 5 u mgc_sheet 5283b34f021a.03.7f.00.00.01.00.31.82 2 2 5 0
+V v 1 2 5283b34f021a.03.7f.00.00.01.01.31.82
+F f 1 "sheet1.ssht_1"
+F f 1 "sheet1.sgfx_1"
+V v 2 2 5283e164a05a.03.7f.00.00.01.00.31.82
+F f 2 "sheet1.ssht_2"
+F f 2 "sheet1.sgfx_2"
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/VAR_CAP/schematic" 1 mgc_schematic 5283b34f019e.03.7f.00.00.01.01.31.82 5283b34f019e.03.7f.00.00.01.00.31.82
+R csduv 1 "$MGC_DESIGN_KIT/symbols/MIMCAPS_MM/part" 22 Eddm_part 462e5a1f20e0.03.7f.00.00.01.00.3d.95 461b9a1cd72a.03.89.ca.19.1a.00.4f.21
+R csduv 2 "$MGC_DESIGN_KIT/symbols/MIMCAPS_MM/MIMCAPS_MM" 5 mgc_symbol 462e5a1f20cc.03.7f.00.00.01.00.3d.95 461b9a2010e0.03.89.ca.19.1a.00.4f.21
+R csduv 3 "$SC_filter/default.group/logic.views/VAR_CAP_switch/part" 14 Eddm_part 5283b4e2ab42.03.7f.00.00.01.00.32.2b 5283b4e13a11.03.7f.00.00.01.00.18.29
+R csduv 4 "$SC_filter/default.group/logic.views/VAR_CAP_switch/VAR_CAP_switch" 14 mgc_symbol 527ae7b448b9.03.7f.00.00.01.00.34.5d 5283b4e13a18.03.7f.00.00.01.00.18.29
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/VAR_CAP/schematic" 1 mgc_schematic 5283b34f019e.03.7f.00.00.01.01.31.82 5283b34f019e.03.7f.00.00.01.00.31.82
+R csduv 1 "$MGC_DESIGN_KIT/symbols/MIMCAPS_MM/part" 22 Eddm_part 462e5a1f20e0.03.7f.00.00.01.00.3d.95 461b9a1cd72a.03.89.ca.19.1a.00.4f.21
+R csduv 2 "$MGC_DESIGN_KIT/symbols/MIMCAPS_MM/MIMCAPS_MM" 5 mgc_symbol 462e5a1f20cc.03.7f.00.00.01.00.3d.95 461b9a2010e0.03.89.ca.19.1a.00.4f.21
+R csduv 3 "$SC_filter/default.group/logic.views/VAR_CAP_switch/part" 14 Eddm_part 5283b4e2ab42.03.7f.00.00.01.00.32.2b 5283b4e13a11.03.7f.00.00.01.00.18.29
+R csduv 4 "$SC_filter/default.group/logic.views/VAR_CAP_switch/VAR_CAP_switch" 14 mgc_symbol 527ae7b448b9.03.7f.00.00.01.00.34.5d 5283b4e13a18.03.7f.00.00.01.00.18.29

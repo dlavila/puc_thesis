@@ -1,0 +1,30 @@
+* Component: $AnalogIP/default.group/logic.views/OTA_SC1  Viewpoint: eldonet
+.INCLUDE $AnalogIP/default.group/logic.views/OTA_SC1/eldonet/OTA_SC1_eldonet.spi
+.INCLUDE $MGC_DESIGN_KIT/models/ELDO/include_all
+.PROBE VX
+
+
+
+
+.OPTION NOASCII
+.OPTION MODWL
+.OPTION ENGNOT
+.OPTION AEX
+
+.TEMP 27 
+.PARAM Lin=0.5u 
+.PARAM Win=12u 
+.PARAM Ll=0.45u 
+.PARAM Wl=5u 
+.PARAM Lt=0.18u 
+.PARAM Wt=12u 
+.PARAM Ln=0.18u 
+.PARAM Wn=8u 
+.PARAM Lp=0.18u 
+.PARAM Wp=20u 
+.PARAM Lc=20u 
+.PARAM Wc=30u 
+.PARAM Ib=40uA 
+.PARAM Cc=100f 
+
+.TRAN  0 2u 0 10p

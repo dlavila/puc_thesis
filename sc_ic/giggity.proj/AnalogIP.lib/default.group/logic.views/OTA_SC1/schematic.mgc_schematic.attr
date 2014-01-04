@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 52617faf44df.03.7f.00.00.01.00.53.9d 91 2 1 0
+V v 89 1 52697bf2aaa0.03.7f.00.00.01.00.4b.97
+F o 0 ""
+V v 90 1 52697c30d4f9.03.7f.00.00.01.00.4b.97
+F o 0 ""
+V v 91 1 52697d2f5b63.03.7f.00.00.01.00.4b.97
+F o 0 ""
+O 91
+R cspuv 0 "$AnalogIP/default.group/logic.views/OTA_SC1/schematic/sheet1" 90 mgc_sheet 52697d2f5b4e.03.7f.00.00.01.00.4b.97 52617faf4581.03.7f.00.00.01.00.53.9d
+O 90
+R cspuv 0 "$AnalogIP/default.group/logic.views/OTA_SC1/schematic/sheet1" 89 mgc_sheet 52697c30d4cb.03.7f.00.00.01.00.4b.97 52617faf4581.03.7f.00.00.01.00.53.9d
+O 89
+R cspuv 0 "$AnalogIP/default.group/logic.views/OTA_SC1/schematic/sheet1" 88 mgc_sheet 52697bf2aa8a.03.7f.00.00.01.00.4b.97 52617faf4581.03.7f.00.00.01.00.53.9d

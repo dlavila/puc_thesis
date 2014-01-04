@@ -1,0 +1,250 @@
+Obsolete option -64b ignored
+
+Running eldo on localhost.localdomain
+with Eldo libraries :
+/usr/local/mentor/ams/aol/lib/libeldoudm_64.so
+/usr/local/mentor/ams/aol/lib/libeldomos1_64.so
+/usr/local/mentor/ams/aol/lib/libeldoekv_64.so
+/usr/local/mentor/ams/aol/lib/libeldomosp9_64.so
+/usr/local/mentor/ams/aol/lib/libeldocsem_64.so
+/usr/local/mentor/ams/aol/lib/libeldomos2_64.so
+/usr/local/mentor/ams/aol/lib/libeldomos3_64.so
+/usr/local/mentor/ams/aol/lib/libeldobip_64.so
+/usr/local/mentor/ams/aol/lib/libeldodio_64.so
+/usr/local/mentor/ams/aol/lib/libeldojfet_64.so
+/usr/local/mentor/ams/aol/lib/libeldosoi_64.so
+/usr/local/mentor/ams/aol/lib/libeldomos4_64.so
+/usr/local/mentor/ams/aol/lib/libeldoasitft_64.so
+/usr/local/mentor/ams/aol/lib/libeldohisim_64.so
+/usr/local/mentor/ams/aol/lib/libeldospmod_64.so
+/usr/local/mentor/ams/aol/lib/libeldopsp_64.so
+/usr/local/mentor/ams/aol/lib/libeldomosvar_64.so
+/usr/local/mentor/ams/aol/lib/libeldomoto_64.so
+/usr/local/mentor/ams/aol/lib/libeldost_64.so
+/usr/local/mentor/ams/aol/lib/libeldobnr_64.so
+/usr/local/mentor/ams/aol/lib/libeldorockw_64.so
+/usr/local/mentor/ams/aol/lib/libeldopubhicum_64.so
+/usr/local/mentor/ams/aol/lib/libeldotftsh_64.so
+/usr/local/mentor/ams/aol/lib/libeldobta_64.so
+/usr/local/mentor/ams/aol/lib/libeldofas_64.so
+/usr/local/mentor/ams/aol/lib/libeldofascm_64.so
+/usr/local/mentor/ams/aol/lib/libeldosdsim_64.so
+/usr/local/mentor/ams/aol/lib/libeldowire_64.so
+/usr/local/mentor/ams/aol/lib/libogr_64.so loaded.
+
+
+
+              Software under License 
+       Copyright Mentor Graphics Corporation
+
+
+
+
+***** PRE-PROCESSING ...
+
+
+
+***** ANALYSIS ....
+
+Warning 406: In file "/usr/local/mentor/UMC180PDK/models/ELDO/include_all" line 1:
++   COMMAND .LIB cannot find corner tt in library /usr/local/mentor/UMC180PDK/models/ELDO/018-rf-v2d4-control.eldo
+
+***** 0  error(s). 
+***** 1  warning(s). 
+
+
+
+***** GENERATION ...
+
+Warning 1615: In file "./RFC3_eldonet.cir" line 34:
++   COMMAND ".TRAN": Tstep can not be <= 0.0.
++   It is set to Tmax/20.0 = 1.500e-08 s.
+Warning 107:  NODE "VO": Less than two connections.
+
+***** 0  error(s). 
+***** 3  warning(s). 
+
+
+INFORMATION ABOUT COMPILATION...
+
+
+Memory space allocated (bytes): 123465728
+46 elements
+30 nodes
+5 input signals
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  6-Nov-2013 16:53:22
+
+*** TITLE: * Component: $SC_filter/default.group/logic.views/RFC3  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+Searching Operating Point between -2.000000e+00V and 
+                                  3.700000e+00V
+
+Performing DC analysis...
+Connecting to JWDB server, please wait...
+connected to wdb server : -jwdbhost localhost.localdomain -jwdbport 39604
+
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 130ms <***
+
+DC:40 iterations FOR DC analysis
+CMFB          1.0824     
+N$101         1.2142     
+N$103         516.6704M  
+N$105         631.8653M  
+N$106         448.1950M  
+N$124         1.1500     
+N$167         568.5386M  
+N$17          1.2163     
+N$181         1.1633     
+N$195         475.8390M  
+N$23          1.5611     
+N$26          1.0500     
+N$28          1.1000     
+N$29         -100.0000M  
+N$41          463.0249M  
+N$42          876.0813M  
+N$47          448.2281M  
+N$5           519.1360M  
+N$98          631.8121M  
+VB1T          1.0869     
+VB2           402.0632M  
+VB3           1.1722     
+VDD           1.8000     
+VI+           988.0249M  
+VI-           988.0564M  
+VO            99.9370M   
+VO+           826.1128M  
+VO-           926.0498M  
+VOCM          900.0000M  
+X_S2D2.N$2    1.1000     
+
+   TOTAL POWER DISSIPATION:  605.7151U   WATTS
+
+
+   POWER DISSIPATION THROUGH CONTROLLED SOURCES:  2.5131P     WATTS
+
+
+
+***>Current simulation completed
+
+
+
+
+SIMULATION INFORMATION 
+memory size allocated in bytes 126394368
+nb of components: 98
+nb of nodes: 82
+nb of MOS or BIP calls: 77220
+Number of steps computed: 0
+
+***>CPU TIME 0s 130ms <***
+
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:1 iterations FOR DC analysis
+CMFB          1.0824     
+N$101         1.2142     
+N$103         516.6704M  
+N$105         631.8653M  
+N$106         448.1950M  
+N$124         1.1500     
+N$167         568.5386M  
+N$17          1.2163     
+N$181         1.1633     
+N$195         475.8390M  
+N$23          1.5611     
+N$26          1.0500     
+N$28          1.1000     
+N$29         -100.0000M  
+N$41          463.0249M  
+N$42          876.0813M  
+N$47          448.2281M  
+N$5           519.1360M  
+N$98          631.8121M  
+VB1T          1.0869     
+VB2           402.0632M  
+VB3           1.1722     
+VDD           1.8000     
+VI+           988.0249M  
+VI-           988.0564M  
+VO            99.9370M   
+VO+           826.1128M  
+VO-           926.0498M  
+VOCM          900.0000M  
+X_S2D2.N$2    1.1000     
+
+   TOTAL POWER DISSIPATION:  605.7151U   WATTS
+
+
+   POWER DISSIPATION THROUGH CONTROLLED SOURCES:  2.5131P     WATTS
+
+
+Eldo NEWTON: VNTOL=1.000000e-06 RELTOL=6.111111e-04
+
+Compute from 0.000000 Nano to 300.000000 Nano
+................................................
+Simulation progress           : 10% (t = 30.0100 N)
+Elapsed CPU time              :  0h  0mn  0s  20    ( 0h  0mn  0s  20)
+................................................
+Simulation progress           : 20% (t = 60.0100 N)
+Elapsed CPU time              :  0h  0mn  0s  30    ( 0h  0mn  0s  50)
+................................................
+Simulation progress           : 30% (t = 90.0100 N)
+Elapsed CPU time              :  0h  0mn  0s  20    ( 0h  0mn  0s  70)
+................................................
+Simulation progress           : 40% (t = 120.0100 N)
+Elapsed CPU time              :  0h  0mn  0s  30    ( 0h  0mn  0s 100)
+................................................
+Simulation progress           : 50% (t = 150.0100 N)
+Elapsed CPU time              :  0h  0mn  0s  20    ( 0h  0mn  0s 120)
+................................................
+Simulation progress           : 60% (t = 180.0100 N)
+Elapsed CPU time              :  0h  0mn  0s  30    ( 0h  0mn  0s 150)
+................................................
+Simulation progress           : 70% (t = 210.0100 N)
+Elapsed CPU time              :  0h  0mn  0s  40    ( 0h  0mn  0s 190)
+................................................
+Simulation progress           : 80% (t = 240.0100 N)
+Elapsed CPU time              :  0h  0mn  0s  30    ( 0h  0mn  0s 220)
+................................................
+Simulation progress           : 90% (t = 270.0100 N)
+Elapsed CPU time              :  0h  0mn  0s  20    ( 0h  0mn  0s 240)
+................................................
+Simulation progress           : 100% (t = 300.0000 N)
+Elapsed CPU time              :  0h  0mn  0s  30    ( 0h  0mn  0s 270)
+
+
+***>Current simulation completed
+
+
+
+
+SIMULATION INFORMATION 
+memory size allocated in bytes 127127552
+Latency: 0.000000%
+average number of newton iterations: 2.026675
+nb of components: 98
+nb of nodes: 82
+nb of MOS or BIP calls: 90537
+Number of steps computed: 3149
+
+***>CPU TIME 0s 270ms <***
+
+***>MESSAGE SUMMARY: 3 warnings
+
+***>GLOBAL CPU TIME 0s 450ms <***
+
+
+***>GLOBAL ELAPSED TIME 1s <***
+
+

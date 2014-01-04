@@ -1,0 +1,346 @@
+Obsolete option -64b ignored
+
+Running eldo on localhost.localdomain
+with Eldo libraries :
+/usr/local/mentor/ams/aol/lib/libeldoudm_64.so
+/usr/local/mentor/ams/aol/lib/libeldomos1_64.so
+/usr/local/mentor/ams/aol/lib/libeldoekv_64.so
+/usr/local/mentor/ams/aol/lib/libeldomosp9_64.so
+/usr/local/mentor/ams/aol/lib/libeldocsem_64.so
+/usr/local/mentor/ams/aol/lib/libeldomos2_64.so
+/usr/local/mentor/ams/aol/lib/libeldomos3_64.so
+/usr/local/mentor/ams/aol/lib/libeldobip_64.so
+/usr/local/mentor/ams/aol/lib/libeldodio_64.so
+/usr/local/mentor/ams/aol/lib/libeldojfet_64.so
+/usr/local/mentor/ams/aol/lib/libeldosoi_64.so
+/usr/local/mentor/ams/aol/lib/libeldomos4_64.so
+/usr/local/mentor/ams/aol/lib/libeldoasitft_64.so
+/usr/local/mentor/ams/aol/lib/libeldohisim_64.so
+/usr/local/mentor/ams/aol/lib/libeldospmod_64.so
+/usr/local/mentor/ams/aol/lib/libeldopsp_64.so
+/usr/local/mentor/ams/aol/lib/libeldomosvar_64.so
+/usr/local/mentor/ams/aol/lib/libeldomoto_64.so
+/usr/local/mentor/ams/aol/lib/libeldost_64.so
+/usr/local/mentor/ams/aol/lib/libeldobnr_64.so
+/usr/local/mentor/ams/aol/lib/libeldorockw_64.so
+/usr/local/mentor/ams/aol/lib/libeldopubhicum_64.so
+/usr/local/mentor/ams/aol/lib/libeldotftsh_64.so
+/usr/local/mentor/ams/aol/lib/libeldobta_64.so
+/usr/local/mentor/ams/aol/lib/libeldofas_64.so
+/usr/local/mentor/ams/aol/lib/libeldofascm_64.so
+/usr/local/mentor/ams/aol/lib/libeldosdsim_64.so
+/usr/local/mentor/ams/aol/lib/libeldowire_64.so
+/usr/local/mentor/ams/aol/lib/libogr_64.so loaded.
+
+
+
+              Software under License 
+       Copyright Mentor Graphics Corporation
+
+
+
+
+***** PRE-PROCESSING ...
+
+
+
+***** ANALYSIS ....
+
+
+***** 0  error(s). 
+***** 0  warning(s). 
+
+
+
+***** GENERATION ...
+
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 19:
++   OBJECT "X_INV_CLK_GEN_119.M4": Model INV_CLK_GEN_1.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 19:
++   OBJECT "X_INV_CLK_GEN_119.M4": Model INV_CLK_GEN_1.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 21:
++   OBJECT "X_INV_CLK_GEN_119.M2": Model INV_CLK_GEN_1.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 21:
++   OBJECT "X_INV_CLK_GEN_119.M2": Model INV_CLK_GEN_1.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 19:
++   OBJECT "X_INV_CLK_GEN_118.M4": Model INV_CLK_GEN_1.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 19:
++   OBJECT "X_INV_CLK_GEN_118.M4": Model INV_CLK_GEN_1.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 21:
++   OBJECT "X_INV_CLK_GEN_118.M2": Model INV_CLK_GEN_1.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 21:
++   OBJECT "X_INV_CLK_GEN_118.M2": Model INV_CLK_GEN_1.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 30:
++   OBJECT "X_NAND_CLK_GEN3.M3": Model NAND_CLK_GEN.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 30:
++   OBJECT "X_NAND_CLK_GEN3.M3": Model NAND_CLK_GEN.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 32:
++   OBJECT "X_NAND_CLK_GEN3.M1": Model NAND_CLK_GEN.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 32:
++   OBJECT "X_NAND_CLK_GEN3.M1": Model NAND_CLK_GEN.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 34:
++   OBJECT "X_NAND_CLK_GEN3.M2": Model NAND_CLK_GEN.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 34:
++   OBJECT "X_NAND_CLK_GEN3.M2": Model NAND_CLK_GEN.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 36:
++   OBJECT "X_NAND_CLK_GEN3.M4": Model NAND_CLK_GEN.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 36:
++   OBJECT "X_NAND_CLK_GEN3.M4": Model NAND_CLK_GEN.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 19:
++   OBJECT "X_INV_CLK_GEN_15.M4": Model INV_CLK_GEN_1.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 19:
++   OBJECT "X_INV_CLK_GEN_15.M4": Model INV_CLK_GEN_1.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 21:
++   OBJECT "X_INV_CLK_GEN_15.M2": Model INV_CLK_GEN_1.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 21:
++   OBJECT "X_INV_CLK_GEN_15.M2": Model INV_CLK_GEN_1.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 19:
++   OBJECT "X_INV_CLK_GEN_16.M4": Model INV_CLK_GEN_1.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 19:
++   OBJECT "X_INV_CLK_GEN_16.M4": Model INV_CLK_GEN_1.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 21:
++   OBJECT "X_INV_CLK_GEN_16.M2": Model INV_CLK_GEN_1.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 21:
++   OBJECT "X_INV_CLK_GEN_16.M2": Model INV_CLK_GEN_1.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 45:
++   OBJECT "X_INV_CLK_GEN_24.M4": Model INV_CLK_GEN_2.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 45:
++   OBJECT "X_INV_CLK_GEN_24.M4": Model INV_CLK_GEN_2.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 47:
++   OBJECT "X_INV_CLK_GEN_24.M2": Model INV_CLK_GEN_2.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 47:
++   OBJECT "X_INV_CLK_GEN_24.M2": Model INV_CLK_GEN_2.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 45:
++   OBJECT "X_INV_CLK_GEN_23.M4": Model INV_CLK_GEN_2.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 45:
++   OBJECT "X_INV_CLK_GEN_23.M4": Model INV_CLK_GEN_2.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 47:
++   OBJECT "X_INV_CLK_GEN_23.M2": Model INV_CLK_GEN_2.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 47:
++   OBJECT "X_INV_CLK_GEN_23.M2": Model INV_CLK_GEN_2.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 45:
++   OBJECT "X_INV_CLK_GEN_22.M4": Model INV_CLK_GEN_2.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 45:
++   OBJECT "X_INV_CLK_GEN_22.M4": Model INV_CLK_GEN_2.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 47:
++   OBJECT "X_INV_CLK_GEN_22.M2": Model INV_CLK_GEN_2.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 47:
++   OBJECT "X_INV_CLK_GEN_22.M2": Model INV_CLK_GEN_2.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 45:
++   OBJECT "X_INV_CLK_GEN_21.M4": Model INV_CLK_GEN_2.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 45:
++   OBJECT "X_INV_CLK_GEN_21.M4": Model INV_CLK_GEN_2.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 47:
++   OBJECT "X_INV_CLK_GEN_21.M2": Model INV_CLK_GEN_2.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 47:
++   OBJECT "X_INV_CLK_GEN_21.M2": Model INV_CLK_GEN_2.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 30:
++   OBJECT "X_NAND_CLK_GEN4.M3": Model NAND_CLK_GEN.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 30:
++   OBJECT "X_NAND_CLK_GEN4.M3": Model NAND_CLK_GEN.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 32:
++   OBJECT "X_NAND_CLK_GEN4.M1": Model NAND_CLK_GEN.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 32:
++   OBJECT "X_NAND_CLK_GEN4.M1": Model NAND_CLK_GEN.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 34:
++   OBJECT "X_NAND_CLK_GEN4.M2": Model NAND_CLK_GEN.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 34:
++   OBJECT "X_NAND_CLK_GEN4.M2": Model NAND_CLK_GEN.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 36:
++   OBJECT "X_NAND_CLK_GEN4.M4": Model NAND_CLK_GEN.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 36:
++   OBJECT "X_NAND_CLK_GEN4.M4": Model NAND_CLK_GEN.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 30:
++   OBJECT "X_NAND_CLK_GEN2.M3": Model NAND_CLK_GEN.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 30:
++   OBJECT "X_NAND_CLK_GEN2.M3": Model NAND_CLK_GEN.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 32:
++   OBJECT "X_NAND_CLK_GEN2.M1": Model NAND_CLK_GEN.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 32:
++   OBJECT "X_NAND_CLK_GEN2.M1": Model NAND_CLK_GEN.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 34:
++   OBJECT "X_NAND_CLK_GEN2.M2": Model NAND_CLK_GEN.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 34:
++   OBJECT "X_NAND_CLK_GEN2.M2": Model NAND_CLK_GEN.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 36:
++   OBJECT "X_NAND_CLK_GEN2.M4": Model NAND_CLK_GEN.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 36:
++   OBJECT "X_NAND_CLK_GEN2.M4": Model NAND_CLK_GEN.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 19:
++   OBJECT "X_INV_CLK_GEN_113.M4": Model INV_CLK_GEN_1.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 19:
++   OBJECT "X_INV_CLK_GEN_113.M4": Model INV_CLK_GEN_1.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 21:
++   OBJECT "X_INV_CLK_GEN_113.M2": Model INV_CLK_GEN_1.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 21:
++   OBJECT "X_INV_CLK_GEN_113.M2": Model INV_CLK_GEN_1.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 19:
++   OBJECT "X_INV_CLK_GEN_112.M4": Model INV_CLK_GEN_1.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 19:
++   OBJECT "X_INV_CLK_GEN_112.M4": Model INV_CLK_GEN_1.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 21:
++   OBJECT "X_INV_CLK_GEN_112.M2": Model INV_CLK_GEN_1.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 21:
++   OBJECT "X_INV_CLK_GEN_112.M2": Model INV_CLK_GEN_1.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 19:
++   OBJECT "X_INV_CLK_GEN_111.M4": Model INV_CLK_GEN_1.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 19:
++   OBJECT "X_INV_CLK_GEN_111.M4": Model INV_CLK_GEN_1.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 21:
++   OBJECT "X_INV_CLK_GEN_111.M2": Model INV_CLK_GEN_1.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 21:
++   OBJECT "X_INV_CLK_GEN_111.M2": Model INV_CLK_GEN_1.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 19:
++   OBJECT "X_INV_CLK_GEN_110.M4": Model INV_CLK_GEN_1.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 19:
++   OBJECT "X_INV_CLK_GEN_110.M4": Model INV_CLK_GEN_1.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 21:
++   OBJECT "X_INV_CLK_GEN_110.M2": Model INV_CLK_GEN_1.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 21:
++   OBJECT "X_INV_CLK_GEN_110.M2": Model INV_CLK_GEN_1.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 19:
++   OBJECT "X_INV_CLK_GEN_19.M4": Model INV_CLK_GEN_1.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 19:
++   OBJECT "X_INV_CLK_GEN_19.M4": Model INV_CLK_GEN_1.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 21:
++   OBJECT "X_INV_CLK_GEN_19.M2": Model INV_CLK_GEN_1.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 21:
++   OBJECT "X_INV_CLK_GEN_19.M2": Model INV_CLK_GEN_1.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 19:
++   OBJECT "X_INV_CLK_GEN_17.M4": Model INV_CLK_GEN_1.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 19:
++   OBJECT "X_INV_CLK_GEN_17.M4": Model INV_CLK_GEN_1.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 21:
++   OBJECT "X_INV_CLK_GEN_17.M2": Model INV_CLK_GEN_1.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 21:
++   OBJECT "X_INV_CLK_GEN_17.M2": Model INV_CLK_GEN_1.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 19:
++   OBJECT "X_INV_CLK_GEN_14.M4": Model INV_CLK_GEN_1.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 19:
++   OBJECT "X_INV_CLK_GEN_14.M4": Model INV_CLK_GEN_1.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 21:
++   OBJECT "X_INV_CLK_GEN_14.M2": Model INV_CLK_GEN_1.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 21:
++   OBJECT "X_INV_CLK_GEN_14.M2": Model INV_CLK_GEN_1.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 19:
++   OBJECT "X_INV_CLK_GEN_13.M4": Model INV_CLK_GEN_1.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 19:
++   OBJECT "X_INV_CLK_GEN_13.M4": Model INV_CLK_GEN_1.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 21:
++   OBJECT "X_INV_CLK_GEN_13.M2": Model INV_CLK_GEN_1.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 21:
++   OBJECT "X_INV_CLK_GEN_13.M2": Model INV_CLK_GEN_1.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 19:
++   OBJECT "X_INV_CLK_GEN_12.M4": Model INV_CLK_GEN_1.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 19:
++   OBJECT "X_INV_CLK_GEN_12.M4": Model INV_CLK_GEN_1.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 21:
++   OBJECT "X_INV_CLK_GEN_12.M2": Model INV_CLK_GEN_1.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 21:
++   OBJECT "X_INV_CLK_GEN_12.M2": Model INV_CLK_GEN_1.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 30:
++   OBJECT "X_NAND_CLK_GEN1.M3": Model NAND_CLK_GEN.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 30:
++   OBJECT "X_NAND_CLK_GEN1.M3": Model NAND_CLK_GEN.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 32:
++   OBJECT "X_NAND_CLK_GEN1.M1": Model NAND_CLK_GEN.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 32:
++   OBJECT "X_NAND_CLK_GEN1.M1": Model NAND_CLK_GEN.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 34:
++   OBJECT "X_NAND_CLK_GEN1.M2": Model NAND_CLK_GEN.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 34:
++   OBJECT "X_NAND_CLK_GEN1.M2": Model NAND_CLK_GEN.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 36:
++   OBJECT "X_NAND_CLK_GEN1.M4": Model NAND_CLK_GEN.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 36:
++   OBJECT "X_NAND_CLK_GEN1.M4": Model NAND_CLK_GEN.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 19:
++   OBJECT "X_INV_CLK_GEN_11.M4": Model INV_CLK_GEN_1.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 19:
++   OBJECT "X_INV_CLK_GEN_11.M4": Model INV_CLK_GEN_1.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 21:
++   OBJECT "X_INV_CLK_GEN_11.M2": Model INV_CLK_GEN_1.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 21:
++   OBJECT "X_INV_CLK_GEN_11.M2": Model INV_CLK_GEN_1.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 19:
++   OBJECT "X_INV_CLK_GEN_117.M4": Model INV_CLK_GEN_1.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 19:
++   OBJECT "X_INV_CLK_GEN_117.M4": Model INV_CLK_GEN_1.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 21:
++   OBJECT "X_INV_CLK_GEN_117.M2": Model INV_CLK_GEN_1.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 21:
++   OBJECT "X_INV_CLK_GEN_117.M2": Model INV_CLK_GEN_1.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 19:
++   OBJECT "X_INV_CLK_GEN_116.M4": Model INV_CLK_GEN_1.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 19:
++   OBJECT "X_INV_CLK_GEN_116.M4": Model INV_CLK_GEN_1.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 21:
++   OBJECT "X_INV_CLK_GEN_116.M2": Model INV_CLK_GEN_1.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 21:
++   OBJECT "X_INV_CLK_GEN_116.M2": Model INV_CLK_GEN_1.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 19:
++   OBJECT "X_INV_CLK_GEN_115.M4": Model INV_CLK_GEN_1.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 19:
++   OBJECT "X_INV_CLK_GEN_115.M4": Model INV_CLK_GEN_1.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 21:
++   OBJECT "X_INV_CLK_GEN_115.M2": Model INV_CLK_GEN_1.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 21:
++   OBJECT "X_INV_CLK_GEN_115.M2": Model INV_CLK_GEN_1.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 19:
++   OBJECT "X_INV_CLK_GEN_114.M4": Model INV_CLK_GEN_1.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 19:
++   OBJECT "X_INV_CLK_GEN_114.M4": Model INV_CLK_GEN_1.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 21:
++   OBJECT "X_INV_CLK_GEN_114.M2": Model INV_CLK_GEN_1.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 21:
++   OBJECT "X_INV_CLK_GEN_114.M2": Model INV_CLK_GEN_1.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 19:
++   OBJECT "X_INV_CLK_GEN_18.M4": Model INV_CLK_GEN_1.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 19:
++   OBJECT "X_INV_CLK_GEN_18.M4": Model INV_CLK_GEN_1.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 21:
++   OBJECT "X_INV_CLK_GEN_18.M2": Model INV_CLK_GEN_1.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 21:
++   OBJECT "X_INV_CLK_GEN_18.M2": Model INV_CLK_GEN_1.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 19:
++   OBJECT "X_INV_CLK_GEN_121.M4": Model INV_CLK_GEN_1.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 19:
++   OBJECT "X_INV_CLK_GEN_121.M4": Model INV_CLK_GEN_1.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 21:
++   OBJECT "X_INV_CLK_GEN_121.M2": Model INV_CLK_GEN_1.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 21:
++   OBJECT "X_INV_CLK_GEN_121.M2": Model INV_CLK_GEN_1.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 19:
++   OBJECT "X_INV_CLK_GEN_120.M4": Model INV_CLK_GEN_1.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 19:
++   OBJECT "X_INV_CLK_GEN_120.M4": Model INV_CLK_GEN_1.N_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 21:
++   OBJECT "X_INV_CLK_GEN_120.M2": Model INV_CLK_GEN_1.P_18_MM not yet defined.
+ERROR 1577: In file "./CLK_gen_eldonet.spi" line 21:
++   OBJECT "X_INV_CLK_GEN_120.M2": Model INV_CLK_GEN_1.P_18_MM not yet defined.
+
+***** 132  error(s). 
+***** 0  warning(s). 
+
+
+INFORMATION ABOUT COMPILATION...
+
+
+Memory space allocated (bytes): 118767616
+66 elements
+36 nodes
+0 input signals
+
+Check your input netlist...
+
+
+***>CPU TIME 0h 0mn 0s 020ms <***
+
+***>MESSAGE SUMMARY: 132 errors
+
+***>GLOBAL CPU TIME 0s 020ms <***
+
+
+***>GLOBAL ELAPSED TIME 0s <***
+
+

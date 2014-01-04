@@ -1,0 +1,141 @@
+Obsolete option -64b ignored
+
+Running eldo on localhost.localdomain
+with Eldo libraries :
+/usr/local/mentor/ams/aol/lib/libeldoudm_64.so
+/usr/local/mentor/ams/aol/lib/libeldomos1_64.so
+/usr/local/mentor/ams/aol/lib/libeldoekv_64.so
+/usr/local/mentor/ams/aol/lib/libeldomosp9_64.so
+/usr/local/mentor/ams/aol/lib/libeldocsem_64.so
+/usr/local/mentor/ams/aol/lib/libeldomos2_64.so
+/usr/local/mentor/ams/aol/lib/libeldomos3_64.so
+/usr/local/mentor/ams/aol/lib/libeldobip_64.so
+/usr/local/mentor/ams/aol/lib/libeldodio_64.so
+/usr/local/mentor/ams/aol/lib/libeldojfet_64.so
+/usr/local/mentor/ams/aol/lib/libeldosoi_64.so
+/usr/local/mentor/ams/aol/lib/libeldomos4_64.so
+/usr/local/mentor/ams/aol/lib/libeldoasitft_64.so
+/usr/local/mentor/ams/aol/lib/libeldohisim_64.so
+/usr/local/mentor/ams/aol/lib/libeldospmod_64.so
+/usr/local/mentor/ams/aol/lib/libeldopsp_64.so
+/usr/local/mentor/ams/aol/lib/libeldomosvar_64.so
+/usr/local/mentor/ams/aol/lib/libeldomoto_64.so
+/usr/local/mentor/ams/aol/lib/libeldost_64.so
+/usr/local/mentor/ams/aol/lib/libeldobnr_64.so
+/usr/local/mentor/ams/aol/lib/libeldorockw_64.so
+/usr/local/mentor/ams/aol/lib/libeldopubhicum_64.so
+/usr/local/mentor/ams/aol/lib/libeldotftsh_64.so
+/usr/local/mentor/ams/aol/lib/libeldobta_64.so
+/usr/local/mentor/ams/aol/lib/libeldofas_64.so
+/usr/local/mentor/ams/aol/lib/libeldofascm_64.so
+/usr/local/mentor/ams/aol/lib/libeldosdsim_64.so
+/usr/local/mentor/ams/aol/lib/libeldowire_64.so
+/usr/local/mentor/ams/aol/lib/libogr_64.so loaded.
+
+
+
+              Software under License 
+       Copyright Mentor Graphics Corporation
+
+
+
+
+***** PRE-PROCESSING ...
+
+
+
+***** ANALYSIS ....
+
+Warning 406: In file "/usr/local/mentor/UMC180PDK/models/ELDO/include_all" line 1:
++   COMMAND .LIB cannot find corner tt in library /usr/local/mentor/UMC180PDK/models/ELDO/018-rf-v2d4-control.eldo
+
+***** 0  error(s). 
+***** 1  warning(s). 
+
+
+
+***** GENERATION ...
+
+Warning 107:  NODE "VO": Less than two connections.
+Warning 117:  NODE "X_SCF_OTA1.VDD": Not connected to any power supply.
+
+***** 0  error(s). 
+***** 3  warning(s). 
+
+
+INFORMATION ABOUT COMPILATION...
+
+
+Memory space allocated (bytes): 123494400
+101 elements
+63 nodes
+6 input signals
+Warning 109: NODE "X_SCF_OTA1.VDD": This bulk node is not biased. 
+Warning 118:  NODE "N$111": No DC path to ground.
+Warning 118:  NODE "N$112": No DC path to ground.
+Warning 118:  NODE "N$109": No DC path to ground.
+Warning 118:  NODE "N$110": No DC path to ground.
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE: 21-Nov-2013 17:39:51
+
+*** TITLE: * Component: $SC_filter/default.group/logic.views/testOTA  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+Searching Operating Point between -1.800000e+00V and 
+                                  3.600000e+00V
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 080ms <***
+
+DC:2 iterations FOR DC analysis
+
+   TOTAL POWER DISSIPATION:  600.5366U   WATTS
+
+Connecting to JWDB server, please wait...
+connected to wdb server : -jwdbhost localhost.localdomain -jwdbport 36794
+
+
+***>AC analysis starts
+Warning  22:  Non invertible matrix.
+Singularity can sometimes be removed by changing Eldo
+parameters PIVTOL and/or PIVREL
+See ASCII output file for detail about the singularity...
+Warning  22:  Non invertible matrix.
+Singularity can sometimes be removed by changing Eldo
+parameters PIVTOL and/or PIVREL
+See ASCII output file for detail about the singularity...
+
+***>AC analysis completed
+
+***>CPU TIME 0s 020ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+SIMULATION INFORMATION 
+memory size allocated in bytes 127700992
+nb of components: 253
+nb of nodes: 215
+nb of MOS or BIP calls: 49072
+Number of steps computed: 0
+
+***>CPU TIME 0s 100ms <***
+
+***>MESSAGE SUMMARY: 8 warnings
+
+***>GLOBAL CPU TIME 0s 150ms <***
+
+
+***>GLOBAL ELAPSED TIME 1s <***
+
+

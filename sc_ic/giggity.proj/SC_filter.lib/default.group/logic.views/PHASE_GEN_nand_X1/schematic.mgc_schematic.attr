@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 529639c70410.03.7f.00.00.01.00.7f.2d 11 2 1 0
+V v 9 1 529636eb3e19.03.7f.00.00.01.00.7a.ea
+F o 0 ""
+V v 10 1 529639f8d9d9.03.7f.00.00.01.00.7a.ea
+F o 0 ""
+V v 11 1 52963bf1caa6.03.7f.00.00.01.00.71.6f
+F o 0 ""
+O 11
+R cspuv 0 "$SC_filter/default.group/logic.views/PHASE_GEN_nand_X1/schematic/sheet1" 10 mgc_sheet 52963bf1ca88.03.7f.00.00.01.00.71.6f 529639c70425.03.7f.00.00.01.00.7f.2d
+O 10
+R cspuv 0 "$SC_filter/default.group/logic.views/PHASE_GEN_nand_X1/schematic/sheet1" 9 mgc_sheet 529639f8d9b9.03.7f.00.00.01.00.7a.ea 529639c70425.03.7f.00.00.01.00.7f.2d
+O 9
+R cspuv 0 "$SC_filter/default.group/logic.views/PHASE_GEN_nand_X1/schematic/sheet1" 8 mgc_sheet 529636eb3e01.03.7f.00.00.01.00.7a.ea 529639c70425.03.7f.00.00.01.00.7f.2d

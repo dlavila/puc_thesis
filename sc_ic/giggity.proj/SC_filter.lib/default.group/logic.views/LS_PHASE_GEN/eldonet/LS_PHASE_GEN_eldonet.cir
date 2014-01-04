@@ -1,0 +1,13 @@
+* Component: $SC_filter/default.group/logic.views/LS_PHASE_GEN  Viewpoint: eldonet
+.INCLUDE $SC_filter/default.group/logic.views/LS_PHASE_GEN/eldonet/PHASE_GEN_eldonet.spi
+
+
+
+
+.OPTION NOASCII
+.OPTION MODWL
+.OPTION ENGNOT
+.OPTION AEX
+
+.TEMP 27 
+

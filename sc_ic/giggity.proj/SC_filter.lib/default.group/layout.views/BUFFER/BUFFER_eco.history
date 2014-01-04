@@ -1,0 +1,70 @@
+
+
+*****************************************************************
+
+* ICgraph ECO changes for cell: $SC_filter/default.group/layout.views/BUFFER/BUFFER
+* Generated:  Thu Dec 19 20:07:50 2013
+
+* Action for new source objects:  REPORT ONLY
+* Action for deleted source objects:  NO ACTION
+------------------------------------------------------------
+Created unplaced transistor instance /M11 in layout
+
+
+*****************************************************************
+
+* ICgraph ECO changes for cell: $SC_filter/default.group/layout.views/BUFFER/BUFFER
+* Generated:  Thu Dec 19 20:08:15 2013
+
+* Action for new source objects:  REPORT ONLY
+* Action for deleted source objects:  DELETE FROM LAYOUT & REPORT
+------------------------------------------------------------
+Created unplaced transistor instance /MIN1 in layout
+Created unplaced instance /R1 ($resistor) in layout
+Created unplaced instance /R2 ($resistor) in layout
+Created unplaced transistor instance /M10 in layout
+Created unplaced transistor instance /M12 in layout
+Created unplaced transistor instance /M13 in layout
+Created unplaced instance /C1 ($mimcap) in layout
+Created unplaced transistor instance /M14 in layout
+Created unplaced instance /C2 ($mimcap) in layout
+Created unplaced transistor instance /M15 in layout
+Created unplaced transistor instance /M16 in layout
+Created unplaced transistor instance /M17 in layout
+Created unplaced transistor instance /M19 in layout
+Created unplaced transistor instance /M21 in layout
+Created unplaced transistor instance /M22 in layout
+Created unplaced transistor instance /M23 in layout
+Created unplaced transistor instance /M24 in layout
+Created unplaced transistor instance /M25 in layout
+Created unplaced transistor instance /M26 in layout
+Created unplaced transistor instance /M27 in layout
+Created unplaced transistor instance /M28 in layout
+Created unplaced transistor instance /M29 in layout
+Created unplaced transistor instance /M1 in layout
+Created unplaced transistor instance /M30 in layout
+Created unplaced transistor instance /M31 in layout
+Created unplaced transistor instance /M2 in layout
+Created unplaced transistor instance /M3 in layout
+Created unplaced transistor instance /M32 in layout
+Created unplaced transistor instance /M4 in layout
+Created unplaced transistor instance /M33 in layout
+Created unplaced transistor instance /M34 in layout
+Created unplaced transistor instance /M5 in layout
+Created unplaced transistor instance /M6 in layout
+Created unplaced transistor instance /M35 in layout
+Created unplaced transistor instance /M36 in layout
+Created unplaced transistor instance /M7 in layout
+Created unplaced transistor instance /M37 in layout
+Created unplaced transistor instance /M8 in layout
+Created unplaced transistor instance /M38 in layout
+Created unplaced transistor instance /M9 in layout
+Created unplaced transistor instance /M39 in layout
+Created unplaced transistor instance /M40 in layout
+Created unplaced transistor instance /M42 in layout
+Created unplaced transistor instance /M43 in layout
+Created unplaced transistor instance /M45 in layout
+Created unplaced transistor instance /M48 in layout
+Created unplaced transistor instance /M50 in layout
+Created unplaced transistor instance /MOUTN in layout
+Created unplaced transistor instance /MOUTP in layout

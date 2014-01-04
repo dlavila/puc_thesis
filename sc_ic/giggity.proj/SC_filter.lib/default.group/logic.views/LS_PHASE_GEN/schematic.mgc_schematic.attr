@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 52b1e5eb1128.03.7f.00.00.01.00.15.55 34 2 1 0
+V v 32 1 52ab4b0ad683.03.7f.00.00.01.00.17.25
+F o 0 ""
+V v 33 1 52ab4b87d590.03.7f.00.00.01.00.17.25
+F o 0 ""
+V v 34 1 52ab4b884ed2.03.7f.00.00.01.00.17.25
+F o 0 ""
+O 34
+R cspuv 0 "$SC_filter/default.group/logic.views/LS_PHASE_GEN/schematic/sheet1" 33 mgc_sheet 52ab4b884ebc.03.7f.00.00.01.00.17.25 52b1e5eb115a.03.7f.00.00.01.00.15.55
+O 33
+R cspuv 0 "$SC_filter/default.group/logic.views/LS_PHASE_GEN/schematic/sheet1" 32 mgc_sheet 52ab4b87d56d.03.7f.00.00.01.00.17.25 52b1e5eb115a.03.7f.00.00.01.00.15.55
+O 32
+R cspuv 0 "$SC_filter/default.group/logic.views/LS_PHASE_GEN/schematic/sheet1" 31 mgc_sheet 52ab4b0ad660.03.7f.00.00.01.00.17.25 52b1e5eb115a.03.7f.00.00.01.00.15.55

@@ -1,0 +1,16 @@
+START report: Mon Dec 16 16:25:17 2013 
+Warning: (eldo - 406)  In file "/usr/local/mentor/UMC180PDK/models/ELDO/include_all" line 1:
++   COMMAND .LIB cannot find corner tt in library /usr/local/mentor/UMC180PDK/models/ELDO/018-rf-v2d4-control.eldo
+Warning: (eldo - 706)  In file "/usr/local/mentor/UMC180PDK/models/ELDO/MM180_MIMCAP_V101.mdl.eldo" line 9:
++   During the creation of X_FILTER1.XC6, the parameter W in subckt MIMCAPS_MM is ignored as it is already specified on the instance line.
+Warning: (eldo - 706)  In file "/usr/local/mentor/UMC180PDK/models/ELDO/MM180_MIMCAP_V101.mdl.eldo" line 9:
++   During the creation of X_FILTER1.XC6, the parameter L in subckt MIMCAPS_MM is ignored as it is already specified on the instance line.
+Warning: (eldo - 1615)  In file "./test_FILTER_eldonet.cir" line 20:
++   COMMAND ".TRAN": Tstep can not be <= 0.0.
++   It is set to Tmax/20.0 = 6.000e-08 s.
+Warning: (eldo - 1619) This netlist contains expressions using strongly non-linear functions such as ABS() MIN(), 
++   MAX() (found in device X_FILTER1.XC6.C1 for instance) 
++   If, and only if, convergence problems occur either in DC or transient analysis, 
++   the .option mmsmooth is a possible workaround worth testing. 
++   It is NOT recommended to activate it systematically, or if there are no particular convergence problems. 
++   Please refer to the documentation for further discussions about this option

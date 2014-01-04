@@ -1,0 +1,19 @@
+START report: Thu Oct 24 17:28:28 2013 
+Warning: (eldo - 406)  In file "/usr/local/mentor/UMC180PDK/models/ELDO/include_all" line 1:
++   COMMAND .LIB cannot find corner tt in library /usr/local/mentor/UMC180PDK/models/ELDO/018-rf-v2d4-control.eldo
+Warning: (eldo - 255)  In file "./OTA_SC1_eldonet.spi" line 33:
++   OBJECT "M16":  Size not consistent with LMIN/LMAX/WMIN/WMAX/TEMPMIN/TEMPMAX specification.
++    w (1.200000e+02u) is greater than wmax (1.000000e+02u)
+Warning: (eldo - 706)  In file "/usr/local/mentor/UMC180PDK/models/ELDO/MM180_MIMCAP_V101.mdl.eldo" line 9:
++   During the creation of XC2, the parameter W in subckt MIMCAPS_MM is ignored as it is already specified on the instance line.
+Warning: (eldo - 706)  In file "/usr/local/mentor/UMC180PDK/models/ELDO/MM180_MIMCAP_V101.mdl.eldo" line 9:
++   During the creation of XC2, the parameter L in subckt MIMCAPS_MM is ignored as it is already specified on the instance line.
+Warning: (eldo - 1615)  In file "./OTA_SC1_eldonet.cir" line 30:
++   COMMAND ".TRAN": Tstep can not be <= 0.0.
++   It is set to Tmax/20.0 = 1.000e-07 s.
+Warning: (eldo - 1619) This netlist contains expressions using strongly non-linear functions such as ABS() MIN(), 
++   MAX() (found in device XC2.C1 for instance) 
++   If, and only if, convergence problems occur either in DC or transient analysis, 
++   the .option mmsmooth is a possible workaround worth testing. 
++   It is NOT recommended to activate it systematically, or if there are no particular convergence problems. 
++   Please refer to the documentation for further discussions about this option

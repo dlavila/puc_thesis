@@ -1,0 +1,148 @@
+* ELDO netlist generated with ICnet by 'dlavila' on Tue Dec 17 2013 at 18:37:32
+
+*
+* Globals.
+*
+.global GROUND
+
+
+*
+* Component pathname : $MGC_DESIGN_KIT/symbols/RNHR1000_MM [ELDOSPICE]
+*
+*       .include /usr/local/mentor/UMC180PDK/symbols/RNHR1000_MM/rnhr1000_mm
+
+
+*
+* Component pathname : $MGC_DESIGN_KIT/symbols/MIMCAPS_MM [ELDOSPICE]
+*
+*       .include /usr/local/mentor/UMC180PDK/symbols/MIMCAPS_MM/mimcaps_mm
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/s2d
+*
+.subckt S2D  VD+ VD- VICM VID VSS
+
+        E3 N$2 VSS Vicm Vss 1
+        E2 VD- N$2 Vss Vid 0.5
+        E1 VD+ N$2 Vid Vss 0.5
+.ends S2D
+
+*
+* Component pathname : $RR_BUFFER/default.group/logic.views/buffer
+*
+.subckt BUFFER  VO IB VDD VI+ VI-
+
+        M40 VB1 VB2 N$277 VDD p_18_mm l=0.45u w=2.5u ad=0.675p as=1.225p
++  pd=3.04u ps=5.98u m=2
+        XR2 N$587 N$593 GROUND rnhr1000_mm lr=5u wr=2u m=1
+        M45 VB3 IB VDD VDD p_18_mm l=0.45u w=5u ad=1.35p as=1.9p pd=5.54u
++  ps=8.26u m=4
+        M21 VB3 VB3 N$148 GROUND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
++  pd=4.18u ps=4.18u m=1
+        M24 N$148 VB3 GROUND GROUND n_18_mm l=2.25u w=1.6u ad=0.784p as=0.784p
++  pd=4.18u ps=4.18u m=1
+        MIN1 N$90 VI- N$204 GROUND n_18_mm l=0.45u w=1.6u ad=0.432p as=0.52p
++  pd=2.14u ps=2.65u m=8
+        M12 N$589 VB2 N$205 VDD p_18_mm l=0.45u w=2.5u ad=0.675p as=0.812p
++  pd=3.04u ps=3.775u m=8
+        XC1 N$593 VO mimcaps_mm w=11u l=11u m=8
+        M43 VB4 IB VDD VDD p_18_mm l=0.45u w=5u ad=1.35p as=1.9p pd=5.54u
++  ps=8.26u m=4
+        M35 N$255 N$255 GROUND GROUND n_18_mm l=0.45u w=1.6u ad=0.432p as=0.784p
++  pd=2.14u ps=4.18u m=2
+        M50 N$427 N$427 N$204 GROUND n_18_mm l=0.45u w=1.6u ad=0.432p as=0.454p
++  pd=2.14u ps=2.267u m=32
+        M7 N$587 VB3 N$203 GROUND n_18_mm l=0.45u w=1.6u ad=0.432p as=0.608p
++  pd=2.14u ps=3.16u m=4
+        M29 N$250 VB4 GROUND GROUND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
++  pd=4.18u ps=4.18u m=1
+        M32 VNCAS VNCAS N$255 GROUND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
++  pd=4.18u ps=4.18u m=1
+        M19 N$427 N$427 N$209 VDD p_18_mm l=0.45u w=2.5u ad=0.675p as=0.709p
++  pd=3.04u ps=3.224u m=32
+        XC2 N$356 VO mimcaps_mm w=11u l=11u m=8
+        M33 VPCAS VPCAS N$131 VDD p_18_mm l=0.45u w=2.5u ad=0.675p as=1.225p
++  pd=3.04u ps=5.98u m=2
+        M42 N$427 N$427 N$209 VDD p_18_mm l=0.45u w=2.5u ad=0.675p as=0.709p
++  pd=3.04u ps=3.224u m=32
+        M8 N$103 VNCAS N$167 GROUND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
++  pd=4.18u ps=4.18u m=1
+        M2 N$165 VB4 GROUND GROUND n_18_mm l=0.45u w=1.6u ad=0.432p as=0.608p
++  pd=2.14u ps=3.16u m=4
+        M41 N$203 VI+ N$209 VDD p_18_mm l=0.45u w=2.5u ad=0.675p as=0.744p
++  pd=3.04u ps=3.408u m=16
+        M15 N$169 N$167 GROUND GROUND n_18_mm l=0.45u w=1.6u ad=0.432p as=0.784p
++  pd=2.14u ps=4.18u m=2
+        M39 VNCAS VB2 N$274 VDD p_18_mm l=0.45u w=2.5u ad=0.675p as=1.225p
++  pd=3.04u ps=5.98u m=2
+        M1 N$209 VB2 N$206 VDD p_18_mm l=0.45u w=2.5u ad=0.675p as=0.812p
++  pd=3.04u ps=3.775u m=8
+        M48 IB IB VDD VDD p_18_mm l=0.45u w=5u ad=2.45p as=2.45p pd=10.98u
++  ps=10.98u m=1
+        M31 N$253 VB4 GROUND GROUND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
++  pd=4.18u ps=4.18u m=1
+        M23 VB4 VB3 N$247 GROUND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
++  pd=4.18u ps=4.18u m=1
+        M5 N$90 N$103 VDD VDD p_18_mm l=0.45u w=2.5u ad=0.675p as=0.95p
++  pd=3.04u ps=4.51u m=4
+        M18 N$169 VI- N$209 VDD p_18_mm l=0.45u w=2.5u ad=0.675p as=0.744p
++  pd=3.04u ps=3.408u m=16
+        M11 N$589 VNCAS N$587 GROUND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
++  pd=4.18u ps=4.18u m=1
+        M4 N$204 VB3 N$165 GROUND n_18_mm l=0.45u w=1.6u ad=0.432p as=0.608p
++  pd=2.14u ps=3.16u m=4
+        M10 N$103 VB2 N$90 VDD p_18_mm l=0.45u w=2.5u ad=0.675p as=0.812p
++  pd=3.04u ps=3.775u m=8
+        M34 N$131 N$131 VDD VDD p_18_mm l=0.45u w=2.5u ad=0.675p as=0.95p
++  pd=3.04u ps=4.51u m=4
+        MOUTN VO N$587 GROUND GROUND n_18_mm l=0.45u w=1.6u ad=0.432p as=0.467p
++  pd=2.14u ps=2.344u m=20
+        M30 VB1 VB3 N$253 GROUND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
++  pd=4.18u ps=4.18u m=1
+        MOUTP VO N$589 VDD VDD p_18_mm l=0.45u w=2.5u ad=0.675p as=0.702p
++  pd=3.04u ps=3.187u m=40
+        M22 VB2 VB2 N$279 VDD p_18_mm l=0.45u w=2.5u ad=0.675p as=1.225p
++  pd=3.04u ps=5.98u m=2
+        M38 N$277 VB1 VDD VDD p_18_mm l=0.45u w=2.5u ad=0.675p as=1.225p
++  pd=3.04u ps=5.98u m=2
+        M37 N$274 VB1 VDD VDD p_18_mm l=0.45u w=2.5u ad=0.675p as=1.225p
++  pd=3.04u ps=5.98u m=2
+        M25 N$247 VB4 GROUND GROUND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
++  pd=4.18u ps=4.18u m=1
+        M14 N$587 VPCAS N$589 VDD p_18_mm l=0.45u w=2.5u ad=0.675p as=1.225p
++  pd=3.04u ps=5.98u m=2
+        M27 N$249 VB4 GROUND GROUND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
++  pd=4.18u ps=4.18u m=1
+        M26 VPCAS VB3 N$249 GROUND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
++  pd=4.18u ps=4.18u m=1
+        M28 VB2 VB3 N$250 GROUND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
++  pd=4.18u ps=4.18u m=1
+        M3 N$206 VB1 VDD VDD p_18_mm l=0.45u w=2.5u ad=0.675p as=0.812p
++  pd=3.04u ps=3.775u m=8
+        M17 N$205 VI+ N$204 GROUND n_18_mm l=0.45u w=1.6u ad=0.432p as=0.52p
++  pd=2.14u ps=2.65u m=8
+        M6 N$205 N$103 VDD VDD p_18_mm l=0.45u w=2.5u ad=0.675p as=0.95p
++  pd=3.04u ps=4.51u m=4
+        XR1 N$589 N$356 GROUND rnhr1000_mm lr=5u wr=2u m=1
+        M9 N$167 VB3 N$169 GROUND n_18_mm l=0.45u w=1.6u ad=0.432p as=0.608p
++  pd=2.14u ps=3.16u m=4
+        M16 N$203 N$167 GROUND GROUND n_18_mm l=0.45u w=1.6u ad=0.432p as=0.784p
++  pd=2.14u ps=4.18u m=2
+        M36 N$279 VB2 VDD VDD p_18_mm l=2.25u w=2.5u ad=0.675p as=1.225p
++  pd=3.04u ps=5.98u m=2
+        M13 N$167 VPCAS N$103 VDD p_18_mm l=0.45u w=2.5u ad=0.675p as=1.225p
++  pd=3.04u ps=5.98u m=2
+.ends BUFFER
+
+*
+* MAIN CELL: Component pathname : $RR_BUFFER/default.group/logic.views/testBuffer
+*
+        V3 N$31 GROUND DC 0V AC 1 0
+        X_S2D1 N$33 N$34 N$29 N$31 GROUND S2D
+        V2 N$29 GROUND DC 0.9V
+        C1 VO GROUND 4P
+        V1 N$5 GROUND DC 1.8V
+        I1 N$2 GROUND DC 3.75uA
+        X_BUFFER1 VO N$2 N$5 N$33 N$34 BUFFER
+*
+.end

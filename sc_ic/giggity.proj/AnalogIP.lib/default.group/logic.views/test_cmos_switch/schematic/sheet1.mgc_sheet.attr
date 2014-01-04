@@ -1,0 +1,43 @@
+A 5 u mgc_sheet 528e1098ac47.03.7f.00.00.01.00.45.fb 16 2 31 0
+V v 14 2 5294b9c4a859.03.7f.00.00.01.00.70.4f
+F f 14 "sheet1.ssht_14"
+F f 14 "sheet1.sgfx_14"
+V v 15 2 5294ba991dbd.03.7f.00.00.01.00.70.4f
+F f 15 "sheet1.ssht_15"
+F f 15 "sheet1.sgfx_15"
+V v 16 2 5294bb03e564.03.7f.00.00.01.00.70.4f
+F f 16 "sheet1.ssht_16"
+F f 16 "sheet1.sgfx_16"
+O 16
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$AnalogIP/default.group/logic.views/test_cmos_switch/schematic" 1 mgc_schematic 528e1098a789.03.7f.00.00.01.00.45.fb 528e1098a788.03.7f.00.00.01.00.45.fb
+R csduv 1 "$MGC_IC_GENERIC_LIB/ground/part" 1 Eddm_part 3db4867e4bc8.03.93.22.29.75.00.27.f6 3db4867e4bc7.03.93.22.29.75.00.27.f6
+R csduv 2 "$MGC_IC_GENERIC_LIB/ground/ground" 1 mgc_symbol 3db4867e5447.03.93.22.29.75.00.27.f6 3db4867e5446.03.93.22.29.75.00.27.f6
+R csduv 3 "$MGC_IC_SOURCES_LIB/dc_v_source/part" 1 Eddm_part 3890a89d50f5.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.01.34.72
+R csduv 4 "$MGC_IC_SOURCES_LIB/dc_v_source/dc_v_source" 1 mgc_symbol 3890a89d50ce.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.02.34.72
+R csduv 5 "$MGC_IC_GENERIC_LIB/vdd/part" 1 Eddm_part 3db48b399318.03.93.22.29.75.00.28.94 3db48b399317.03.93.22.29.75.00.28.94
+R csduv 6 "$MGC_IC_GENERIC_LIB/vdd/vdd" 1 mgc_symbol 3db48b399bae.03.93.22.29.75.00.28.94 3db48b399bac.03.93.22.29.75.00.28.94
+R csduv 29 "$SC_filter/default.group/logic.views/CMOS_switch_X16/part" 17 Eddm_part 5294b8971bee.03.7f.00.00.01.00.6d.d6 5294b895ac8a.03.7f.00.00.01.00.7f.2d
+R csduv 30 "$SC_filter/default.group/logic.views/CMOS_switch_X16/CMOS_switch_X16" 14 mgc_symbol 527ae7b448b9.03.7f.00.00.01.00.34.5d 5294b895ac91.03.7f.00.00.01.00.7f.2d
+O 15
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$AnalogIP/default.group/logic.views/test_cmos_switch/schematic" 1 mgc_schematic 528e1098a789.03.7f.00.00.01.00.45.fb 528e1098a788.03.7f.00.00.01.00.45.fb
+R csduv 1 "$MGC_IC_GENERIC_LIB/ground/part" 1 Eddm_part 3db4867e4bc8.03.93.22.29.75.00.27.f6 3db4867e4bc7.03.93.22.29.75.00.27.f6
+R csduv 2 "$MGC_IC_GENERIC_LIB/ground/ground" 1 mgc_symbol 3db4867e5447.03.93.22.29.75.00.27.f6 3db4867e5446.03.93.22.29.75.00.27.f6
+R csduv 3 "$MGC_IC_SOURCES_LIB/dc_v_source/part" 1 Eddm_part 3890a89d50f5.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.01.34.72
+R csduv 4 "$MGC_IC_SOURCES_LIB/dc_v_source/dc_v_source" 1 mgc_symbol 3890a89d50ce.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.02.34.72
+R csduv 5 "$MGC_IC_GENERIC_LIB/vdd/part" 1 Eddm_part 3db48b399318.03.93.22.29.75.00.28.94 3db48b399317.03.93.22.29.75.00.28.94
+R csduv 6 "$MGC_IC_GENERIC_LIB/vdd/vdd" 1 mgc_symbol 3db48b399bae.03.93.22.29.75.00.28.94 3db48b399bac.03.93.22.29.75.00.28.94
+R csduv 27 "$SC_filter/default.group/logic.views/CMOS_switch_X4/part" 16 Eddm_part 5294b7fc237d.03.7f.00.00.01.00.6d.7a 5294b7faac0c.03.7f.00.00.01.00.7f.2d
+R csduv 28 "$SC_filter/default.group/logic.views/CMOS_switch_X4/CMOS_switch_X4" 14 mgc_symbol 527ae7b448b9.03.7f.00.00.01.00.34.5d 5294b7faac04.03.7f.00.00.01.00.7f.2d
+O 14
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$AnalogIP/default.group/logic.views/test_cmos_switch/schematic" 1 mgc_schematic 528e1098a789.03.7f.00.00.01.00.45.fb 528e1098a788.03.7f.00.00.01.00.45.fb
+R csduv 1 "$MGC_IC_GENERIC_LIB/ground/part" 1 Eddm_part 3db4867e4bc8.03.93.22.29.75.00.27.f6 3db4867e4bc7.03.93.22.29.75.00.27.f6
+R csduv 2 "$MGC_IC_GENERIC_LIB/ground/ground" 1 mgc_symbol 3db4867e5447.03.93.22.29.75.00.27.f6 3db4867e5446.03.93.22.29.75.00.27.f6
+R csduv 3 "$MGC_IC_SOURCES_LIB/dc_v_source/part" 1 Eddm_part 3890a89d50f5.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.01.34.72
+R csduv 4 "$MGC_IC_SOURCES_LIB/dc_v_source/dc_v_source" 1 mgc_symbol 3890a89d50ce.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.02.34.72
+R csduv 5 "$MGC_IC_GENERIC_LIB/vdd/part" 1 Eddm_part 3db48b399318.03.93.22.29.75.00.28.94 3db48b399317.03.93.22.29.75.00.28.94
+R csduv 6 "$MGC_IC_GENERIC_LIB/vdd/vdd" 1 mgc_symbol 3db48b399bae.03.93.22.29.75.00.28.94 3db48b399bac.03.93.22.29.75.00.28.94
+R csduv 25 "$SC_filter/default.group/logic.views/CMOS_switch_X1/part" 17 Eddm_part 5294b9959bd7.03.7f.00.00.01.00.67.4f 5294b68f3190.03.7f.00.00.01.00.7f.2d
+R csduv 26 "$SC_filter/default.group/logic.views/CMOS_switch_X1/CMOS_switch_X1" 19 mgc_symbol 5294b9974b67.03.7f.00.00.01.00.67.4f 5294b68f3187.03.7f.00.00.01.00.7f.2d

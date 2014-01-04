@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 52af54f709fe.03.7f.00.00.01.00.15.55 74 2 1 0
+V v 72 1 52b33191a520.03.7f.00.00.01.00.17.ba
+F o 0 ""
+V v 73 1 52b331cc28d1.03.7f.00.00.01.00.17.ba
+F o 0 ""
+V v 74 1 52b33293902c.03.7f.00.00.01.00.17.ba
+F o 0 ""
+O 74
+R cspuv 0 "$SC_filter/default.group/logic.views/CHANNEL/schematic/sheet1" 73 mgc_sheet 52b33293900b.03.7f.00.00.01.00.17.ba 52af54f70a12.03.7f.00.00.01.00.15.55
+O 73
+R cspuv 0 "$SC_filter/default.group/logic.views/CHANNEL/schematic/sheet1" 72 mgc_sheet 52b331cc28a0.03.7f.00.00.01.00.17.ba 52af54f70a12.03.7f.00.00.01.00.15.55
+O 72
+R cspuv 0 "$SC_filter/default.group/logic.views/CHANNEL/schematic/sheet1" 71 mgc_sheet 52b33191a505.03.7f.00.00.01.00.17.ba 52af54f70a12.03.7f.00.00.01.00.15.55

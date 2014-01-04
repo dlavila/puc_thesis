@@ -1,0 +1,257 @@
+# This file provides name mapping information for all objects
+# on the schematic design.  It provides a mapping for each
+# object between its name on the schematic and its name in the netlist.
+version 1.0
+
+Globals
+   VDD VDD
+   LS_BUFFER_VDD LS_BUFFER_VDD
+   ground GROUND
+End Globals
+
+Cell DC_V_SOURCE
+   Pin POS POS
+   Pin NEG NEG
+End Cell
+
+Cell VCVS_2PIN
+   Pin POS POS
+   Pin NEG NEG
+End Cell
+
+Cell S2D
+   Pin Vd+ VD+
+   Pin Vd- VD-
+   Pin Vicm VICM
+   Pin Vid VID
+   Pin Vss VSS
+   Net N$2 N$2
+   Net Vd- VD-
+   Net Vd+ VD+
+   Net Vss VSS
+   Net Vicm VICM
+   Net Vid VID
+   Inst E3 E3 VCVS_2PIN
+   Inst E2 E2 VCVS_2PIN
+   Inst E1 E1 VCVS_2PIN
+End Cell
+
+Cell DC_I_SOURCE
+   Pin POS POS
+   Pin NEG NEG
+End Cell
+
+Cell P_18_MM
+   Pin D D
+   Pin G G
+   Pin S S
+   Pin B B
+End Cell
+
+Cell N_18_MM
+   Pin D D
+   Pin G G
+   Pin S S
+   Pin B B
+End Cell
+
+Cell LS_BUFFER_SWITCH_X4
+   Pin out OUT
+   Pin e E
+   Pin in IN
+   Net N$40 N$40
+   Net out OUT
+   Net e E
+   Net in IN
+   Global LS_BUFFER_VDD LS_BUFFER_VDD
+   Global ground GROUND
+   Inst M12 M12 P_18_MM
+   Inst M11 M11 N_18_MM
+   Inst M2 M2 P_18_MM
+   Inst M1 M1 N_18_MM
+End Cell
+
+Cell VCVS
+   Pin POS POS
+   Pin NEG NEG
+   Pin CP CP
+   Pin CN CN
+End Cell
+
+Cell LS_BUFFER_INV_X4
+   Pin O O
+   Pin I I
+   Net O O
+   Net I I
+   Global LS_BUFFER_VDD LS_BUFFER_VDD
+   Global ground GROUND
+   Inst M2 M2 P_18_MM
+   Inst M1 M1 N_18_MM
+End Cell
+
+Cell PHASE_GEN_NAND_X4
+   Pin O O
+   Pin A A
+   Pin B B
+   Net N$75 N$75
+   Net O O
+   Net B B
+   Net A A
+   Global LS_BUFFER_VDD LS_BUFFER_VDD
+   Global ground GROUND
+   Inst M1 M1 P_18_MM
+   Inst M4 M4 P_18_MM
+   Inst M3 M3 N_18_MM
+   Inst M2 M2 N_18_MM
+End Cell
+
+Cell LS_BUFFER_INV_X2
+   Pin O O
+   Pin I I
+   Net O O
+   Net I I
+   Global LS_BUFFER_VDD LS_BUFFER_VDD
+   Global ground GROUND
+   Inst M2 M2 P_18_MM
+   Inst M1 M1 N_18_MM
+End Cell
+
+Cell PHASE_GEN
+   Pin phi1 PHI1
+   Pin phi2 PHI2
+   Pin clk CLK
+   Net N$226 N$226
+   Net N$225 N$225
+   Net N$224 N$224
+   Net N$223 N$223
+   Net N$221 N$221
+   Net N$220 N$220
+   Net N$9 N$9
+   Net phi2 PHI2
+   Net phi1 PHI1
+   Net clk CLK
+   Inst LS_BUFFER_INV_X46 X_LS_BUFFER_INV_X46 LS_BUFFER_INV_X4
+   Inst LS_BUFFER_INV_X45 X_LS_BUFFER_INV_X45 LS_BUFFER_INV_X4
+   Inst LS_BUFFER_INV_X41 X_LS_BUFFER_INV_X41 LS_BUFFER_INV_X4
+   Inst LS_BUFFER_INV_X44 X_LS_BUFFER_INV_X44 LS_BUFFER_INV_X4
+   Inst LS_BUFFER_INV_X42 X_LS_BUFFER_INV_X42 LS_BUFFER_INV_X4
+   Inst LS_BUFFER_INV_X43 X_LS_BUFFER_INV_X43 LS_BUFFER_INV_X4
+   Inst PHASE_GEN_NAND_X42 X_PHASE_GEN_NAND_X42 PHASE_GEN_NAND_X4
+   Inst LS_BUFFER_INV_X21 X_LS_BUFFER_INV_X21 LS_BUFFER_INV_X2
+   Inst PHASE_GEN_NAND_X41 X_PHASE_GEN_NAND_X41 PHASE_GEN_NAND_X4
+End Cell
+
+Cell PULSE_V_SOURCE
+   Pin POS POS
+   Pin NEG NEG
+End Cell
+
+Cell IDEAL_CAPACITOR
+   Pin POS POS
+   Pin NEG NEG
+End Cell
+
+Cell SIN_V_SOURCE
+   Pin POS POS
+   Pin NEG NEG
+End Cell
+
+Cell LS_BUFFER_INV_X8
+   Pin O O
+   Pin I I
+   Net O O
+   Net I I
+   Global LS_BUFFER_VDD LS_BUFFER_VDD
+   Global ground GROUND
+   Inst M2 M2 P_18_MM
+   Inst M1 M1 N_18_MM
+End Cell
+
+Cell #top#
+   Net N$988 N$988
+   Net N$978 N$978
+   Net N$996 N$996
+   Net N$995 N$995
+   Net N$994 N$994
+   Net N$993 N$993
+   Net N$986 N$986
+   Net N$985 N$985
+   Net N$984 N$984
+   Net Vi_i VI_I
+   Net Vi- VI-
+   Net Vi+ VI+
+   Net phi1 PHI1
+   Net N$983 N$983
+   Net N$960 N$960
+   Net phi2 PHI2
+   Net N$959 N$959
+   Net Vi VI
+   Net N$951 N$951
+   Net N$952 N$952
+   Net N$940 N$940
+   Net N$936 N$936
+   Net N$942 N$942
+   Net N$938 N$938
+   Net N$924 N$924
+   Net N$921 N$921
+   Net Vo VO
+   Net Vo+ VO+
+   Net Vo- VO-
+   Net N$920 N$920
+   Net V- V-
+   Net V+ V+
+   Net N$878 N$878
+   Net N$242 N$242
+   Net N$207 N$207
+   Global VDD VDD
+   Global LS_BUFFER_VDD LS_BUFFER_VDD
+   Global ground GROUND
+   Inst V6 V6 DC_V_SOURCE
+   Inst S2D1 X_S2D1 S2D
+   Inst V9 V9 DC_V_SOURCE
+   Inst I2 I2 DC_I_SOURCE
+   Inst M17 M17 P_18_MM
+   Inst LS_BUFFER_SWITCH_X41 X_LS_BUFFER_SWITCH_X41 LS_BUFFER_SWITCH_X4
+   Inst M24 M24 N_18_MM
+   Inst M23 M23 P_18_MM
+   Inst M15 M15 N_18_MM
+   Inst M16 M16 N_18_MM
+   Inst E1 E1 VCVS
+   Inst PHASE_GEN1 X_PHASE_GEN1 PHASE_GEN
+   Inst LS_BUFFER_SWITCH_X46 X_LS_BUFFER_SWITCH_X46 LS_BUFFER_SWITCH_X4
+   Inst V5 V5 PULSE_V_SOURCE
+   Inst M18 M18 P_18_MM
+   Inst M14 M14 P_18_MM
+   Inst M29 M29 P_18_MM
+   Inst M28 M28 P_18_MM
+   Inst E4 E4 VCVS
+   Inst V3 V3 DC_V_SOURCE
+   Inst M13 M13 N_18_MM
+   Inst M12 M12 P_18_MM
+   Inst V8 V8 DC_V_SOURCE
+   Inst E2 E2 VCVS
+   Inst C1 C1 IDEAL_CAPACITOR
+   Inst V1 V1 DC_V_SOURCE
+   Inst E3 E3 VCVS
+   Inst V2 V2 SIN_V_SOURCE
+   Inst LS_BUFFER_SWITCH_X44 X_LS_BUFFER_SWITCH_X44 LS_BUFFER_SWITCH_X4
+   Inst C4 C4 IDEAL_CAPACITOR
+   Inst V7 V7 DC_V_SOURCE
+   Inst M27 M27 P_18_MM
+   Inst I3 I3 DC_I_SOURCE
+   Inst M26 M26 P_18_MM
+   Inst M25 M25 N_18_MM
+   Inst LS_BUFFER_INV_X84 X_LS_BUFFER_INV_X84 LS_BUFFER_INV_X8
+   Inst LS_BUFFER_INV_X83 X_LS_BUFFER_INV_X83 LS_BUFFER_INV_X8
+   Inst LS_BUFFER_INV_X82 X_LS_BUFFER_INV_X82 LS_BUFFER_INV_X8
+   Inst LS_BUFFER_INV_X81 X_LS_BUFFER_INV_X81 LS_BUFFER_INV_X8
+   Inst M22 M22 N_18_MM
+   Inst M21 M21 P_18_MM
+   Inst M20 M20 P_18_MM
+   Inst M19 M19 P_18_MM
+   Inst LS_BUFFER_SWITCH_X45 X_LS_BUFFER_SWITCH_X45 LS_BUFFER_SWITCH_X4
+   Inst LS_BUFFER_SWITCH_X43 X_LS_BUFFER_SWITCH_X43 LS_BUFFER_SWITCH_X4
+   Inst LS_BUFFER_SWITCH_X42 X_LS_BUFFER_SWITCH_X42 LS_BUFFER_SWITCH_X4
+   Inst V4 V4 DC_V_SOURCE
+End Cell
+

@@ -1,0 +1,108 @@
+A 5 u Eddm_design_viewpoint 529661bb9d21.03.7f.00.00.01.00.7f.2d 526 2 5448 0
+V v 524 4 52966b6ed861.03.7f.00.00.01.00.2f.5b
+F f 524 "eldonet.dvpt_524"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 525 4 5296749208db.03.7f.00.00.01.00.62.40
+F f 525 "eldonet.dvpt_525"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 526 4 529674972593.03.7f.00.00.01.00.62.40
+F f 526 "eldonet.dvpt_526"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+O 526
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$SC_filter/default.group/logic.views/FILTER/part" 8 Eddm_part 529661bd7a93.03.7f.00.00.01.00.2d.37 529661bb9d77.03.7f.00.00.01.00.7f.2d
+R cspuv 1 "$SC_filter/default.group/logic.views/FILTER/schematic" 241 mgc_schematic 5296748f450a.03.7f.00.00.01.00.62.40 529661bb9ce5.03.7f.00.00.01.00.7f.2d
+R cspuv 2 "$SC_filter/default.group/logic.views/FILTER/eldonet" 18 Eddm_ba_mgr 52966801a700.03.7f.00.00.01.00.2f.5b 529661bb9d6f.03.7f.00.00.01.00.7f.2d
+R cspuv 33 "$MGC_DESIGN_KIT/symbols/N_18_MM/part" 26 Eddm_part 462e23b780f6.03.7f.00.00.01.00.54.63 461b99901841.03.89.ca.19.1a.00.4f.21
+R cspuv 34 "$MGC_DESIGN_KIT/symbols/P_18_MM/part" 23 Eddm_part 462e23ba79d1.03.7f.00.00.01.00.54.63 461b99bfbe81.03.89.ca.19.1a.00.4f.21
+R cspuv 1384 "$MGC_DESIGN_KIT/symbols/MIMCAPS_MM/part" 22 Eddm_part 462e5a1f20e0.03.7f.00.00.01.00.3d.95 461b9a1cd72a.03.89.ca.19.1a.00.4f.21
+R cspuv 1577 "$SC_filter/default.group/logic.views/SCF_ota/part" 27 Eddm_part 5294cafc39a5.03.7f.00.00.01.00.7a.ea 5283e1dd94e4.03.7f.00.00.01.00.18.29
+R cspuv 1586 "$SC_filter/default.group/logic.views/SCF_ota/schematic" 200 mgc_schematic 5296648dba4e.03.7f.00.00.01.00.2f.5b 5283e1dd9485.03.7f.00.00.01.00.18.29
+R cspuv 4396 "$SC_filter/default.group/logic.views/SCF_switch_X1/part" 22 Eddm_part 5294bbe2812b.03.7f.00.00.01.00.78.65 5294bbe126b2.03.7f.00.00.01.00.7f.2d
+R cspuv 4397 "$SC_filter/default.group/logic.views/SCF_switch_X16/part" 21 Eddm_part 5294bbf53476.03.7f.00.00.01.00.78.ca 5294bbf3d514.03.7f.00.00.01.00.7f.2d
+R cspuv 4407 "$SC_filter/default.group/logic.views/SCF_switch_X16/schematic" 30 mgc_schematic 5294b96e3eb1.03.7f.00.00.01.00.67.4f 5294bbf3d4e3.03.7f.00.00.01.00.7f.2d
+R cspuv 4410 "$SC_filter/default.group/logic.views/SCF_switch_X1/schematic" 23 mgc_schematic 5294b7b9ebed.03.7f.00.00.01.00.67.4f 5294bbe12697.03.7f.00.00.01.00.7f.2d
+R cspuv 4446 "$SC_filter/default.group/logic.views/SCF_mux_X16/part" 12 Eddm_part 529601edbf0d.03.7f.00.00.01.00.7a.ea 529601c47b0e.03.7f.00.00.01.00.7f.2d
+R cspuv 4449 "$SC_filter/default.group/logic.views/SCF_mux_X16/schematic" 13 mgc_schematic 529602219cfd.03.7f.00.00.01.00.7a.ea 529601c47ae6.03.7f.00.00.01.00.7f.2d
+R cspuv 4759 "$SC_filter/default.group/logic.views/PHASE_GEN/part" 6 Eddm_part 52963b95abc2.03.7f.00.00.01.00.6f.5a 52963b941fee.03.7f.00.00.01.00.7f.2d
+R cspuv 4763 "$SC_filter/default.group/logic.views/PHASE_GEN/schematic" 27 mgc_schematic 5296463e335d.03.7f.00.00.01.00.78.23 52963b941f7c.03.7f.00.00.01.00.7f.2d
+R cspuv 4780 "$SC_filter/default.group/logic.views/PHASE_GEN_nand_X4/part" 12 Eddm_part 52963c205d2c.03.7f.00.00.01.00.73.a9 52963768bfc8.03.7f.00.00.01.00.7f.2d
+R cspuv 4781 "$SC_filter/default.group/logic.views/PHASE_GEN_inv_X2/part" 14 Eddm_part 52963c2b0a19.03.7f.00.00.01.00.73.a9 529637c8607d.03.7f.00.00.01.00.7f.2d
+R cspuv 4782 "$SC_filter/default.group/logic.views/PHASE_GEN_inv_X16/part" 15 Eddm_part 52963c2d69bf.03.7f.00.00.01.00.73.a9 529637dfaddc.03.7f.00.00.01.00.7f.2d
+R cspuv 4783 "$SC_filter/default.group/logic.views/PHASE_GEN_inv_X4/part" 15 Eddm_part 52963c26c1be.03.7f.00.00.01.00.73.a9 529637ce4acb.03.7f.00.00.01.00.7f.2d
+R cspuv 4784 "$SC_filter/default.group/logic.views/PHASE_GEN_inv_X4/schematic" 7 mgc_schematic 52963bfc7f58.03.7f.00.00.01.00.71.6f 529637ce4a97.03.7f.00.00.01.00.7f.2d
+R cspuv 4786 "$SC_filter/default.group/logic.views/PHASE_GEN_inv_X16/schematic" 11 mgc_schematic 52963be2031a.03.7f.00.00.01.00.71.6f 529637dfadbe.03.7f.00.00.01.00.7f.2d
+R cspuv 4788 "$SC_filter/default.group/logic.views/PHASE_GEN_inv_X2/schematic" 8 mgc_schematic 52963c0407ad.03.7f.00.00.01.00.71.6f 529637c86039.03.7f.00.00.01.00.7f.2d
+R cspuv 4790 "$SC_filter/default.group/logic.views/PHASE_GEN_nand_X4/schematic" 11 mgc_schematic 529639f04f87.03.7f.00.00.01.00.7a.ea 52963768bf9e.03.7f.00.00.01.00.7f.2d
+R cspuv 4935 "$SC_filter/default.group/logic.views/PHASE_GEN_inv_X8/part" 18 Eddm_part 52963c2390ff.03.7f.00.00.01.00.73.a9 529637d53ec0.03.7f.00.00.01.00.7f.2d
+R cspuv 4948 "$SC_filter/default.group/logic.views/PHASE_GEN_inv_X8/schematic" 8 mgc_schematic 52963bf46130.03.7f.00.00.01.00.71.6f 529637d53ea0.03.7f.00.00.01.00.7f.2d
+R cspuv 5187 "$SC_filter/default.group/logic.views/PHASE_GEN_nand_X1/part" 12 Eddm_part 52963c21f27d.03.7f.00.00.01.00.73.a9 529639c70438.03.7f.00.00.01.00.7f.2d
+R cspuv 5189 "$SC_filter/default.group/logic.views/PHASE_GEN_nand_X1/schematic" 11 mgc_schematic 52963bf1caa6.03.7f.00.00.01.00.71.6f 529639c70410.03.7f.00.00.01.00.7f.2d
+O 525
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$SC_filter/default.group/logic.views/FILTER/part" 8 Eddm_part 529661bd7a93.03.7f.00.00.01.00.2d.37 529661bb9d77.03.7f.00.00.01.00.7f.2d
+R cspuv 1 "$SC_filter/default.group/logic.views/FILTER/schematic" 241 mgc_schematic 5296748f450a.03.7f.00.00.01.00.62.40 529661bb9ce5.03.7f.00.00.01.00.7f.2d
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 2 "$SC_filter/default.group/logic.views/FILTER/eldonet" 18 Eddm_ba_mgr 52966801a700.03.7f.00.00.01.00.2f.5b 529661bb9d6f.03.7f.00.00.01.00.7f.2d
+R cspuv 33 "$MGC_DESIGN_KIT/symbols/N_18_MM/part" 26 Eddm_part 462e23b780f6.03.7f.00.00.01.00.54.63 461b99901841.03.89.ca.19.1a.00.4f.21
+R cspuv 34 "$MGC_DESIGN_KIT/symbols/P_18_MM/part" 23 Eddm_part 462e23ba79d1.03.7f.00.00.01.00.54.63 461b99bfbe81.03.89.ca.19.1a.00.4f.21
+R cspuv 1384 "$MGC_DESIGN_KIT/symbols/MIMCAPS_MM/part" 22 Eddm_part 462e5a1f20e0.03.7f.00.00.01.00.3d.95 461b9a1cd72a.03.89.ca.19.1a.00.4f.21
+R cspuv 1577 "$SC_filter/default.group/logic.views/SCF_ota/part" 27 Eddm_part 5294cafc39a5.03.7f.00.00.01.00.7a.ea 5283e1dd94e4.03.7f.00.00.01.00.18.29
+R cspuv 1586 "$SC_filter/default.group/logic.views/SCF_ota/schematic" 200 mgc_schematic 5296648dba4e.03.7f.00.00.01.00.2f.5b 5283e1dd9485.03.7f.00.00.01.00.18.29
+R cspuv 4396 "$SC_filter/default.group/logic.views/SCF_switch_X1/part" 22 Eddm_part 5294bbe2812b.03.7f.00.00.01.00.78.65 5294bbe126b2.03.7f.00.00.01.00.7f.2d
+R cspuv 4397 "$SC_filter/default.group/logic.views/SCF_switch_X16/part" 21 Eddm_part 5294bbf53476.03.7f.00.00.01.00.78.ca 5294bbf3d514.03.7f.00.00.01.00.7f.2d
+R cspuv 4407 "$SC_filter/default.group/logic.views/SCF_switch_X16/schematic" 30 mgc_schematic 5294b96e3eb1.03.7f.00.00.01.00.67.4f 5294bbf3d4e3.03.7f.00.00.01.00.7f.2d
+R cspuv 4410 "$SC_filter/default.group/logic.views/SCF_switch_X1/schematic" 23 mgc_schematic 5294b7b9ebed.03.7f.00.00.01.00.67.4f 5294bbe12697.03.7f.00.00.01.00.7f.2d
+R cspuv 4446 "$SC_filter/default.group/logic.views/SCF_mux_X16/part" 12 Eddm_part 529601edbf0d.03.7f.00.00.01.00.7a.ea 529601c47b0e.03.7f.00.00.01.00.7f.2d
+R cspuv 4449 "$SC_filter/default.group/logic.views/SCF_mux_X16/schematic" 13 mgc_schematic 529602219cfd.03.7f.00.00.01.00.7a.ea 529601c47ae6.03.7f.00.00.01.00.7f.2d
+R cspuv 4759 "$SC_filter/default.group/logic.views/PHASE_GEN/part" 6 Eddm_part 52963b95abc2.03.7f.00.00.01.00.6f.5a 52963b941fee.03.7f.00.00.01.00.7f.2d
+R cspuv 4763 "$SC_filter/default.group/logic.views/PHASE_GEN/schematic" 27 mgc_schematic 5296463e335d.03.7f.00.00.01.00.78.23 52963b941f7c.03.7f.00.00.01.00.7f.2d
+R cspuv 4780 "$SC_filter/default.group/logic.views/PHASE_GEN_nand_X4/part" 12 Eddm_part 52963c205d2c.03.7f.00.00.01.00.73.a9 52963768bfc8.03.7f.00.00.01.00.7f.2d
+R cspuv 4781 "$SC_filter/default.group/logic.views/PHASE_GEN_inv_X2/part" 14 Eddm_part 52963c2b0a19.03.7f.00.00.01.00.73.a9 529637c8607d.03.7f.00.00.01.00.7f.2d
+R cspuv 4782 "$SC_filter/default.group/logic.views/PHASE_GEN_inv_X16/part" 15 Eddm_part 52963c2d69bf.03.7f.00.00.01.00.73.a9 529637dfaddc.03.7f.00.00.01.00.7f.2d
+R cspuv 4783 "$SC_filter/default.group/logic.views/PHASE_GEN_inv_X4/part" 15 Eddm_part 52963c26c1be.03.7f.00.00.01.00.73.a9 529637ce4acb.03.7f.00.00.01.00.7f.2d
+R cspuv 4784 "$SC_filter/default.group/logic.views/PHASE_GEN_inv_X4/schematic" 7 mgc_schematic 52963bfc7f58.03.7f.00.00.01.00.71.6f 529637ce4a97.03.7f.00.00.01.00.7f.2d
+R cspuv 4786 "$SC_filter/default.group/logic.views/PHASE_GEN_inv_X16/schematic" 11 mgc_schematic 52963be2031a.03.7f.00.00.01.00.71.6f 529637dfadbe.03.7f.00.00.01.00.7f.2d
+R cspuv 4788 "$SC_filter/default.group/logic.views/PHASE_GEN_inv_X2/schematic" 8 mgc_schematic 52963c0407ad.03.7f.00.00.01.00.71.6f 529637c86039.03.7f.00.00.01.00.7f.2d
+R cspuv 4790 "$SC_filter/default.group/logic.views/PHASE_GEN_nand_X4/schematic" 11 mgc_schematic 529639f04f87.03.7f.00.00.01.00.7a.ea 52963768bf9e.03.7f.00.00.01.00.7f.2d
+R cspuv 4935 "$SC_filter/default.group/logic.views/PHASE_GEN_inv_X8/part" 18 Eddm_part 52963c2390ff.03.7f.00.00.01.00.73.a9 529637d53ec0.03.7f.00.00.01.00.7f.2d
+R cspuv 4948 "$SC_filter/default.group/logic.views/PHASE_GEN_inv_X8/schematic" 8 mgc_schematic 52963bf46130.03.7f.00.00.01.00.71.6f 529637d53ea0.03.7f.00.00.01.00.7f.2d
+R cspuv 5187 "$SC_filter/default.group/logic.views/PHASE_GEN_nand_X1/part" 12 Eddm_part 52963c21f27d.03.7f.00.00.01.00.73.a9 529639c70438.03.7f.00.00.01.00.7f.2d
+R cspuv 5189 "$SC_filter/default.group/logic.views/PHASE_GEN_nand_X1/schematic" 11 mgc_schematic 52963bf1caa6.03.7f.00.00.01.00.71.6f 529639c70410.03.7f.00.00.01.00.7f.2d
+R cspuv 5429 "$SC_filter/default.group/logic.views/FILTER/FILTER" 6 mgc_symbol 5296618b035c.03.7f.00.00.01.00.22.92 529661bb9cdd.03.7f.00.00.01.00.7f.2d
+O 524
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$SC_filter/default.group/logic.views/FILTER/part" 8 Eddm_part 529661bd7a93.03.7f.00.00.01.00.2d.37 529661bb9d77.03.7f.00.00.01.00.7f.2d
+R cspuv 1 "$SC_filter/default.group/logic.views/FILTER/schematic" 236 mgc_schematic 52966b356e89.03.7f.00.00.01.00.2f.5b 529661bb9ce5.03.7f.00.00.01.00.7f.2d
+R cspuv 2 "$SC_filter/default.group/logic.views/FILTER/eldonet" 18 Eddm_ba_mgr 52966801a700.03.7f.00.00.01.00.2f.5b 529661bb9d6f.03.7f.00.00.01.00.7f.2d
+R cspuv 33 "$MGC_DESIGN_KIT/symbols/N_18_MM/part" 26 Eddm_part 462e23b780f6.03.7f.00.00.01.00.54.63 461b99901841.03.89.ca.19.1a.00.4f.21
+R cspuv 34 "$MGC_DESIGN_KIT/symbols/P_18_MM/part" 23 Eddm_part 462e23ba79d1.03.7f.00.00.01.00.54.63 461b99bfbe81.03.89.ca.19.1a.00.4f.21
+R cspuv 1384 "$MGC_DESIGN_KIT/symbols/MIMCAPS_MM/part" 22 Eddm_part 462e5a1f20e0.03.7f.00.00.01.00.3d.95 461b9a1cd72a.03.89.ca.19.1a.00.4f.21
+R cspuv 1577 "$SC_filter/default.group/logic.views/SCF_ota/part" 27 Eddm_part 5294cafc39a5.03.7f.00.00.01.00.7a.ea 5283e1dd94e4.03.7f.00.00.01.00.18.29
+R cspuv 1586 "$SC_filter/default.group/logic.views/SCF_ota/schematic" 200 mgc_schematic 5296648dba4e.03.7f.00.00.01.00.2f.5b 5283e1dd9485.03.7f.00.00.01.00.18.29
+R cspuv 4396 "$SC_filter/default.group/logic.views/SCF_switch_X1/part" 22 Eddm_part 5294bbe2812b.03.7f.00.00.01.00.78.65 5294bbe126b2.03.7f.00.00.01.00.7f.2d
+R cspuv 4397 "$SC_filter/default.group/logic.views/SCF_switch_X16/part" 21 Eddm_part 5294bbf53476.03.7f.00.00.01.00.78.ca 5294bbf3d514.03.7f.00.00.01.00.7f.2d
+R cspuv 4407 "$SC_filter/default.group/logic.views/SCF_switch_X16/schematic" 30 mgc_schematic 5294b96e3eb1.03.7f.00.00.01.00.67.4f 5294bbf3d4e3.03.7f.00.00.01.00.7f.2d
+R cspuv 4410 "$SC_filter/default.group/logic.views/SCF_switch_X1/schematic" 23 mgc_schematic 5294b7b9ebed.03.7f.00.00.01.00.67.4f 5294bbe12697.03.7f.00.00.01.00.7f.2d
+R cspuv 4446 "$SC_filter/default.group/logic.views/SCF_mux_X16/part" 12 Eddm_part 529601edbf0d.03.7f.00.00.01.00.7a.ea 529601c47b0e.03.7f.00.00.01.00.7f.2d
+R cspuv 4449 "$SC_filter/default.group/logic.views/SCF_mux_X16/schematic" 13 mgc_schematic 529602219cfd.03.7f.00.00.01.00.7a.ea 529601c47ae6.03.7f.00.00.01.00.7f.2d
+R cspuv 4759 "$SC_filter/default.group/logic.views/PHASE_GEN/part" 6 Eddm_part 52963b95abc2.03.7f.00.00.01.00.6f.5a 52963b941fee.03.7f.00.00.01.00.7f.2d
+R cspuv 4763 "$SC_filter/default.group/logic.views/PHASE_GEN/schematic" 27 mgc_schematic 5296463e335d.03.7f.00.00.01.00.78.23 52963b941f7c.03.7f.00.00.01.00.7f.2d
+R cspuv 4780 "$SC_filter/default.group/logic.views/PHASE_GEN_nand_X4/part" 12 Eddm_part 52963c205d2c.03.7f.00.00.01.00.73.a9 52963768bfc8.03.7f.00.00.01.00.7f.2d
+R cspuv 4781 "$SC_filter/default.group/logic.views/PHASE_GEN_inv_X2/part" 14 Eddm_part 52963c2b0a19.03.7f.00.00.01.00.73.a9 529637c8607d.03.7f.00.00.01.00.7f.2d
+R cspuv 4782 "$SC_filter/default.group/logic.views/PHASE_GEN_inv_X16/part" 15 Eddm_part 52963c2d69bf.03.7f.00.00.01.00.73.a9 529637dfaddc.03.7f.00.00.01.00.7f.2d
+R cspuv 4783 "$SC_filter/default.group/logic.views/PHASE_GEN_inv_X4/part" 15 Eddm_part 52963c26c1be.03.7f.00.00.01.00.73.a9 529637ce4acb.03.7f.00.00.01.00.7f.2d
+R cspuv 4784 "$SC_filter/default.group/logic.views/PHASE_GEN_inv_X4/schematic" 7 mgc_schematic 52963bfc7f58.03.7f.00.00.01.00.71.6f 529637ce4a97.03.7f.00.00.01.00.7f.2d
+R cspuv 4786 "$SC_filter/default.group/logic.views/PHASE_GEN_inv_X16/schematic" 11 mgc_schematic 52963be2031a.03.7f.00.00.01.00.71.6f 529637dfadbe.03.7f.00.00.01.00.7f.2d
+R cspuv 4788 "$SC_filter/default.group/logic.views/PHASE_GEN_inv_X2/schematic" 8 mgc_schematic 52963c0407ad.03.7f.00.00.01.00.71.6f 529637c86039.03.7f.00.00.01.00.7f.2d
+R cspuv 4790 "$SC_filter/default.group/logic.views/PHASE_GEN_nand_X4/schematic" 11 mgc_schematic 529639f04f87.03.7f.00.00.01.00.7a.ea 52963768bf9e.03.7f.00.00.01.00.7f.2d
+R cspuv 4935 "$SC_filter/default.group/logic.views/PHASE_GEN_inv_X8/part" 18 Eddm_part 52963c2390ff.03.7f.00.00.01.00.73.a9 529637d53ec0.03.7f.00.00.01.00.7f.2d
+R cspuv 4948 "$SC_filter/default.group/logic.views/PHASE_GEN_inv_X8/schematic" 8 mgc_schematic 52963bf46130.03.7f.00.00.01.00.71.6f 529637d53ea0.03.7f.00.00.01.00.7f.2d
+R cspuv 5187 "$SC_filter/default.group/logic.views/PHASE_GEN_nand_X1/part" 12 Eddm_part 52963c21f27d.03.7f.00.00.01.00.73.a9 529639c70438.03.7f.00.00.01.00.7f.2d
+R cspuv 5189 "$SC_filter/default.group/logic.views/PHASE_GEN_nand_X1/schematic" 11 mgc_schematic 52963bf1caa6.03.7f.00.00.01.00.71.6f 529639c70410.03.7f.00.00.01.00.7f.2d

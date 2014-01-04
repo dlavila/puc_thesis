@@ -1,13 +1,13 @@
-A 5 u mgc_schematic 5242e3a5896b.03.7f.00.00.01.00.27.71 45 2 1 0
-V v 43 1 525849a81246.03.7f.00.00.01.00.1d.45
+A 5 u mgc_schematic 5242e3a5896b.03.7f.00.00.01.00.27.71 48 2 1 0
+V v 46 1 52863bda2efe.03.7f.00.00.01.00.51.7b
 F o 0 ""
-V v 44 1 52584b7d163e.03.7f.00.00.01.00.27.02
+V v 47 1 52863e1bd146.03.7f.00.00.01.00.51.7b
 F o 0 ""
-V v 45 1 52584bae2b87.03.7f.00.00.01.00.27.02
+V v 48 1 52864dd6c23d.03.7f.00.00.01.00.51.7b
 F o 0 ""
-O 45
-R cspuv 0 "$AnalogIP/default.group/logic.views/buffer/schematic/sheet1" 44 mgc_sheet 52584bae2b68.03.7f.00.00.01.00.27.02 5242e3a58a06.03.7f.00.00.01.00.27.71
-O 44
-R cspuv 0 "$AnalogIP/default.group/logic.views/buffer/schematic/sheet1" 43 mgc_sheet 52584b7d1606.03.7f.00.00.01.00.27.02 5242e3a58a06.03.7f.00.00.01.00.27.71
-O 43
-R cspuv 0 "$AnalogIP/default.group/logic.views/buffer/schematic/sheet1" 42 mgc_sheet 525849a8121b.03.7f.00.00.01.00.1d.45 5242e3a58a06.03.7f.00.00.01.00.27.71
+O 48
+R cspuv 0 "$AnalogIP/default.group/logic.views/buffer/schematic/sheet1" 47 mgc_sheet 52864dd6c226.03.7f.00.00.01.00.51.7b 5242e3a58a06.03.7f.00.00.01.00.27.71
+O 47
+R cspuv 0 "$AnalogIP/default.group/logic.views/buffer/schematic/sheet1" 46 mgc_sheet 52863e1bd12c.03.7f.00.00.01.00.51.7b 5242e3a58a06.03.7f.00.00.01.00.27.71
+O 46
+R cspuv 0 "$AnalogIP/default.group/logic.views/buffer/schematic/sheet1" 45 mgc_sheet 52863bda2ea0.03.7f.00.00.01.00.51.7b 5242e3a58a06.03.7f.00.00.01.00.27.71

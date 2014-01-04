@@ -1,0 +1,6 @@
+A 5 u Eddm_part 527902746b12.03.7f.00.00.01.00.6d.93 1 2 1 0
+V v 1 1 527902746b12.03.7f.00.00.01.01.6d.93
+F f 1 "part.part_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$AnalogIP/default.group/logic.views/RFC2/schematic" 1 mgc_schematic 527900a53424.03.7f.00.00.01.00.6d.93 527900a53423.03.7f.00.00.01.00.6d.93

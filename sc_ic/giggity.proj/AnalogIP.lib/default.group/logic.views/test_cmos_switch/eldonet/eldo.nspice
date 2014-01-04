@@ -1,0 +1,31 @@
+* ELDO netlist generated with ICnet by 'dlavila' on Tue Nov 26 2013 at 12:15:18
+
+*
+* Globals.
+*
+.global SCF_VDD GROUND
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/CMOS_switch_X16
+*
+.subckt CMOS_SWITCH_X16  OUT E IN
+
+        M12 OUT N$46 IN SCF_VDD p_18_mm l=0.18u w=3u ad=0.81p as=0.893p
++  pd=3.54u ps=3.97u m=16
+        M11 OUT E IN GROUND n_18_mm l=0.18u w=1u ad=0.27p as=0.298p pd=1.54u
++  ps=1.72u m=16
+        M2 N$46 E GROUND GROUND n_18_mm l=0.18u w=1u ad=0.27p as=0.38p pd=1.54u
++  ps=2.26u m=4
+        M1 N$46 E SCF_VDD SCF_VDD p_18_mm l=0.18u w=3u ad=0.81p as=1.14p
++  pd=3.54u ps=5.26u m=4
+.ends CMOS_SWITCH_X16
+
+*
+* MAIN CELL: Component pathname : $AnalogIP/default.group/logic.views/test_cmos_switch
+*
+        X_CMOS_SWITCH_X161 VO SCF_VDD VI CMOS_SWITCH_X16
+        V2 VI VO DC 0.1V
+        V3 SCF_VDD GROUND DC 1.8V
+        V1 VI GROUND DC 1V
+*
+.end

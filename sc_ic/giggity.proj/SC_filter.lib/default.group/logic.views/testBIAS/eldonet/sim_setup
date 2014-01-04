@@ -1,0 +1,461 @@
+// Simulation Setup File Version 1
+// viewpoint:$SC_filter/default.group/logic.views/testBIAS/eldonet
+// PLEASE NOTE: this file is auto-generated and should not be edited
+
+// Working Directories
+$$set_sim_value("sim_dms_file","$SC_filter/default.group/logic.views/testBIAS/eldonet/design.dms");
+$$set_sim_value("sim_simulation_depository","$SC_filter/default.group/logic.views/testBIAS/eldonet");
+$$set_sim_value("sim_working_directory","/home/dlavila/puc_thesis/sc_ic/giggity.proj");
+$$set_sim_value("vsim_working_directory","/home/dlavila/puc_thesis/sc_ic/giggity.proj");
+
+// Sweeps
+$$set_sim_value("mc_active_entry",@off);
+$$set_sim_value("mc_enabled_entry",@off);
+$$set_sim_value("mc_max_list_size_entry",100);
+$$set_sim_value("mc_node_entry","Envelope");
+$$set_sim_value("mc_num_variable_defs_entry",0);
+$$set_sim_value("mc_ordmcs_enable_entry",@disabled);
+$$set_sim_value("mc_outer_enable_entry",@disabled);
+$$set_sim_value("mc_ref_object_type_entry",@none);
+$$set_sim_value("mc_ref_object_units_entry","default");
+$$set_sim_value("mc_run_num_entry",10);
+$$set_sim_value("mc_temp_num_entry",1);
+$$set_sim_value("mc_variable_dev_dist_list_entry",[void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void]);
+$$set_sim_value("mc_variable_dev_list_entry",[void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void]);
+$$set_sim_value("mc_variable_devx_list_entry",[void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void]);
+$$set_sim_value("mc_variable_lot_dist_list_entry",[void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void]);
+$$set_sim_value("mc_variable_lot_list_entry",[void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void]);
+$$set_sim_value("mc_variable_mod_inst_list_entry",[void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void]);
+$$set_sim_value("mc_variable_mod_name_list_entry",[void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void]);
+$$set_sim_value("mc_variable_mod_value_list_entry",[void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void]);
+$$set_sim_value("mc_variable_param_list_entry",[void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void]);
+$$set_sim_value("mc_variable_param_value_list_entry",[void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void]);
+$$set_sim_value("mc_variable_status_list_entry",[void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void]);
+$$set_sim_value("mc_variable_temp_name_list_entry",[void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void]);
+$$set_sim_value("mc_variable_temp_value_list_entry",[void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void]);
+$$set_sim_value("mc_variable_type_list_entry",[void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void, void]);
+$$set_sim_value("mc_variance_entry",@both);
+$$set_sim_value("sim_multirun_mode",@corner);
+$$set_sim_value("sim_parameter_sweep_vector",[]);
+$$set_sim_value("sim_pvt_groups",[]);
+$$set_sim_value("sim_simulation_corner_analysis_enabled",@true);
+$$set_sim_value("sim_simulation_parameters",[[@true, "Temperature", "", "", "Single", "", "", "", "", "27", @false, @false, "", "", @false, "", "", "", @false]]);
+$$set_sim_value("sim_simulation_scenarios",[]);
+$$set_sim_value("sim_simulation_scenarios_loaded",@false);
+$$set_sim_value("sim_simulation_selected_scenario_type",@spice);
+
+// Measurements
+$$set_sim_value("meas_vector_sm",[]);
+
+// Waveforms
+$$set_sim_value("probes_pre_2008_2_imported",@true);
+$$set_sim_value("sim_forces",[]);
+$$set_sim_value("sim_plots_vector",[]);
+$$set_sim_value("sim_polezero",[]);
+$$set_sim_value("sim_probes",[[3, @true, "V", [], @void, [], "ALL", "Save Only", "", void, -2]]);
+$$set_sim_value("sim_probes_vector",[]);
+
+// Analysis
+$$set_sim_value("ac_enabled_entry",@off);
+$$set_sim_value("ac_ic_or_nodeset_entry",@ic);
+$$set_sim_value("ac_nbpt_entry","10");
+$$set_sim_value("ac_pz_entry",@none);
+$$set_sim_value("ac_pz_net_name1_entry","");
+$$set_sim_value("ac_pz_net_name1_entry_sm","");
+$$set_sim_value("ac_pz_net_name2_entry","");
+$$set_sim_value("ac_pz_net_name2_entry_sm","");
+$$set_sim_value("ac_pz_source_name_entry","");
+$$set_sim_value("ac_pz_source_name_entry_sm","");
+$$set_sim_value("ac_startf_entry","1");
+$$set_sim_value("ac_stopf_entry","10MEG");
+$$set_sim_value("ac_sweep_entry",@decade);
+$$set_sim_value("ac_uic_entry",@false);
+$$set_sim_value("ac_use_file_entry","");
+$$set_sim_value("dc_dcop_entry",@true);
+$$set_sim_value("dc_enabled_entry",@off);
+$$set_sim_value("dc_nodeset_file_entry","");
+$$set_sim_value("dc_start_entry","-1");
+$$set_sim_value("dc_step_entry","");
+$$set_sim_value("dc_stop_entry","1");
+$$set_sim_value("dc_sweep_entry",@none);
+$$set_sim_value("dc_variable_entry","");
+$$set_sim_value("dc_variable_entry_sm","");
+$$set_sim_value("dcop_enabled_entry",@on);
+$$set_sim_value("dcop_limit_display_entry",@nolimit);
+$$set_sim_value("dcop_save_file_entry","");
+$$set_sim_value("dcop_transient_time_entry","");
+$$set_sim_value("hspice_monte_ac_str","");
+$$set_sim_value("hspice_monte_dc_str","");
+$$set_sim_value("hspice_monte_tran_str","");
+$$set_sim_value("hspice_start_time","0");
+$$set_sim_value("hspice_step_time_vec",["10N"]);
+$$set_sim_value("hspice_stop_time_vec",["100N"]);
+$$set_sim_value("hspice_sweep_ac",@param);
+$$set_sim_value("hspice_sweep_dc",@param);
+$$set_sim_value("hspice_sweep_npoi_ac","");
+$$set_sim_value("hspice_sweep_npoi_dc","");
+$$set_sim_value("hspice_sweep_npoi_tran","");
+$$set_sim_value("hspice_sweep_param_ac","");
+$$set_sim_value("hspice_sweep_param_dc","");
+$$set_sim_value("hspice_sweep_param_tran","");
+$$set_sim_value("hspice_sweep_poi_ac","");
+$$set_sim_value("hspice_sweep_poi_dc","");
+$$set_sim_value("hspice_sweep_poi_tran","");
+$$set_sim_value("hspice_sweep_start_ac","0");
+$$set_sim_value("hspice_sweep_start_dc","0");
+$$set_sim_value("hspice_sweep_start_tran","0");
+$$set_sim_value("hspice_sweep_step_ac","1");
+$$set_sim_value("hspice_sweep_step_dc","1");
+$$set_sim_value("hspice_sweep_step_tran","1");
+$$set_sim_value("hspice_sweep_stop_ac","10");
+$$set_sim_value("hspice_sweep_stop_dc","10");
+$$set_sim_value("hspice_sweep_stop_tran","10");
+$$set_sim_value("hspice_sweep_str_ac","");
+$$set_sim_value("hspice_sweep_str_dc","");
+$$set_sim_value("hspice_sweep_str_tran","");
+$$set_sim_value("hspice_sweep_tran",@param);
+$$set_sim_value("hspice_sweep_type_ac",@incr);
+$$set_sim_value("hspice_sweep_type_dc",@incr);
+$$set_sim_value("hspice_sweep_type_tran",@incr);
+$$set_sim_value("modsst_fft_fund_freq_entry","");
+$$set_sim_value("modsst_fft_num_harm_entry","");
+$$set_sim_value("modsst_fft_output_start_entry","");
+$$set_sim_value("modsst_tprint_entry","");
+$$set_sim_value("modsst_tstop_entry","");
+$$set_sim_value("modsteadystate_enabled_entry",@off);
+$$set_sim_value("noise_db_input_entry",@false);
+$$set_sim_value("noise_db_output_entry",@true);
+$$set_sim_value("noise_enabled_entry",@off);
+$$set_sim_value("noise_linear_input_entry",@false);
+$$set_sim_value("noise_linear_output_entry",@false);
+$$set_sim_value("noise_net_name1_entry","");
+$$set_sim_value("noise_net_name2_entry","");
+$$set_sim_value("noise_nth_point_entry","0");
+$$set_sim_value("noise_source_name_entry","");
+$$set_sim_value("noisetran_amp_factor_entry","1");
+$$set_sim_value("noisetran_enabled_entry",@off);
+$$set_sim_value("noisetran_lower_freq_entry","0");
+$$set_sim_value("noisetran_mos_source_entry","0");
+$$set_sim_value("noisetran_multiple_run_entry",@false);
+$$set_sim_value("noisetran_no_nom_entry",@false);
+$$set_sim_value("noisetran_num_sim_entry","10");
+$$set_sim_value("noisetran_num_source_entry","50");
+$$set_sim_value("noisetran_seed_entry","0");
+$$set_sim_value("noisetran_upper_freq_entry","20MEG");
+$$set_sim_value("sim_mc_analysis",[@false, 10, @both, @lotdev, @false, @false, @voltage, "", "", @none, @false, @nominal, @false, @false, 0, @false, @false, @false]);
+$$set_sim_value("sim_mc_statistical",[4, @false, @true]);
+$$set_sim_value("sst_auto_vector","");
+$$set_sim_value("sstxf_enabled_entry",@off);
+$$set_sim_value("sstxf_output_entry",@voltage);
+$$set_sim_value("steadystate_decade_entry","10");
+$$set_sim_value("steadystate_enabled_entry",@off);
+$$set_sim_value("steadystate_freq1_entry","");
+$$set_sim_value("steadystate_freq2_entry","");
+$$set_sim_value("steadystate_freq3_entry","");
+$$set_sim_value("steadystate_freq_entry","");
+$$set_sim_value("steadystate_harm1_entry","");
+$$set_sim_value("steadystate_harm2_entry","");
+$$set_sim_value("steadystate_harm3_entry","");
+$$set_sim_value("steadystate_harm_entry","");
+$$set_sim_value("steadystate_linear_entry","10");
+$$set_sim_value("steadystate_octave_entry","10");
+$$set_sim_value("steadystate_restart_file_entry","");
+$$set_sim_value("steadystate_save_file_entry","");
+$$set_sim_value("steadystateac_enabled_entry",@off);
+$$set_sim_value("steadystateac_freq_entry","range");
+$$set_sim_value("steadystateac_freqpoints_entry","");
+$$set_sim_value("steadystateac_harm_entry","");
+$$set_sim_value("steadystateac_nbpt_entry","10");
+$$set_sim_value("steadystateac_restart_file_entry","");
+$$set_sim_value("steadystateac_save_file_entry","");
+$$set_sim_value("steadystateac_startf_entry","1");
+$$set_sim_value("steadystateac_stopf_entry","10MEG");
+$$set_sim_value("steadystateac_sweep_entry",@decade);
+$$set_sim_value("steadystateac_xaxis_entry","");
+$$set_sim_value("steadystatenoise_db_am_entry",@false);
+$$set_sim_value("steadystatenoise_db_output_entry",@false);
+$$set_sim_value("steadystatenoise_db_phase_entry",@false);
+$$set_sim_value("steadystatenoise_device_name1_entry","");
+$$set_sim_value("steadystatenoise_device_name2_entry","");
+$$set_sim_value("steadystatenoise_device_name3_entry","");
+$$set_sim_value("steadystatenoise_enabled_entry",@off);
+$$set_sim_value("steadystatenoise_freq_entry",@range);
+$$set_sim_value("steadystatenoise_freqpoints_entry","");
+$$set_sim_value("steadystatenoise_linear_am_entry",@false);
+$$set_sim_value("steadystatenoise_linear_output_entry",@false);
+$$set_sim_value("steadystatenoise_linear_phase_entry",@false);
+$$set_sim_value("steadystatenoise_nbpt_entry","10");
+$$set_sim_value("steadystatenoise_net_name1_entry","");
+$$set_sim_value("steadystatenoise_net_name2_entry","");
+$$set_sim_value("steadystatenoise_refharm_entry","");
+$$set_sim_value("steadystatenoise_startf_entry","1");
+$$set_sim_value("steadystatenoise_stopf_entry","10MEG");
+$$set_sim_value("steadystatenoise_sweep_entry",@decade);
+$$set_sim_value("steadystatenoise_use_net2",@false);
+$$set_sim_value("steadystateoscil_enabled_entry",@off);
+$$set_sim_value("steadystateoscil_freq1_entry","");
+$$set_sim_value("steadystateoscil_harm1_entry","5");
+$$set_sim_value("steadystateoscil_net_name1_entry","");
+$$set_sim_value("steadystateoscil_net_name2_entry","");
+$$set_sim_value("steadystateoscil_wave_entry","");
+$$set_sim_value("steadystateoscil_xlabel_entry","fosc");
+$$set_sim_value("tr_cou_file_entry","");
+$$set_sim_value("tr_ic_or_nodeset_entry","ic");
+$$set_sim_value("tr_mts_entry","");
+$$set_sim_value("tr_restart_file_entry","");
+$$set_sim_value("tr_save_dc_file_entry","");
+$$set_sim_value("tr_save_end_file_entry","");
+$$set_sim_value("tr_save_time_file_entry","");
+$$set_sim_value("tr_sim_time_entry","");
+$$set_sim_value("tr_st_entry","100N");
+$$set_sim_value("tr_tprint_entry","");
+$$set_sim_value("tr_tstart_entry","");
+$$set_sim_value("tr_uic_entry",@off);
+$$set_sim_value("tr_use_file_entry","");
+$$set_sim_value("transient_enabled_entry",@off);
+
+// Forces
+$$set_sim_value("sim_forces",[]);
+
+// Interface Elements
+$$set_sim_value("sim_default_converters_vector",[]);
+$$set_sim_value("sim_default_group_conv_list",[]);
+$$set_sim_value("sim_default_group_conv_name","");
+$$set_sim_value("sim_digital_stim_vector",[]);
+$$set_sim_value("sim_group_converters",[]);
+$$set_sim_value("sim_group_file_path","");
+$$set_sim_value("sim_group_names",[]);
+$$set_sim_value("sim_inserted_convs",[]);
+$$set_sim_value("sim_inst_group_conv_list",[]);
+$$set_sim_value("sim_pin_conv_list",[]);
+$$set_sim_value("sim_sdf_vector",[[], [], @off]);
+
+// Monitor Flags
+$$set_sim_value("dcop_monitors_visible",@true);
+$$set_sim_value("sim_dcop_dec_places",2);
+$$set_sim_value("sim_monitor_entries",[["/M13", ["MODEL=N_18_MM", "TYPE=N", "ID=3.63U", "IG=0.00", "IS=-3.63U", "IB=341.40F", "VGS=529.17M", "VDS=341.28M", "VBS=0.00", "VTH=486.54M", "VDSAT=96.25M", "GM=62.32U", "GDS=1.65U", "RON=606.42K", "GMB=11.26U", "Cdd=2.09F", "Cdg=-515.22A", "Cds=9.46A", "Cdb=-1.58F", "Cgd=-478.19A", "Cgg=3.27F", "Cgs=-2.44F", "Cgb=-356.31A", "Csd=-31.69A", "Csg=-2.27F", "Css=4.42F", "Csb=-2.12F", "Cbd=-1.58F", "Cbg=-484.21A", "Cbs=-1.99F", "Cbb=4.05F", "PHI=885.44M", "VBI=1.03", "Drain_Voltage=341.28M", "Gate_Voltage=529.17M", "Source_Voltage=0.00", "Bulk_Voltage=0.00", "Region=saturation"], @instance, @box, @dcop, [2.924, -1.7109], "stroke", @true, @true, "M13", 327], ["/V1/POS", ["DCI=-152.56U", "DCV=1.80"], @pin, @box, @dcop, [-1.4609, 0.0391], "stroke", @true, @true, "V1.POS", 329], ["/V1/NEG", ["DCI=-152.56U"], @pin, @box, @dcop, [-1.4609, -0.9609], "stroke", @true, @true, "V1.NEG", 331], ["/R2/NEG", ["DCI=26.84U", "DCV=1.77"], @pin, @box, @dcop, [5.6641, 0.9766], "stroke", @true, @true, "R2.NEG", 333], ["/R2/POS", ["DCI=26.84U", "DCV=1.80"], @pin, @box, @dcop, [5.5391, 2.2891], "stroke", @true, @true, "R2.POS", 335], ["/BIAS1/Vb4", ["DCI=-64.05A", "DCV=529.17M"], @pin, @box, @dcop, [1.2891, -0.7109], "stroke", @true, @true, "X_BIAS1.VB4", 337], ["/BIAS1/Vb3", ["DCI=117.43A", "DCV=900.72M"], @pin, @box, @dcop, [1.2891, -0.2109], "stroke", @true, @true, "X_BIAS1.VB3", 339], ["/BIAS1/AGnd", ["DCI=-122.10U"], @pin, @box, @dcop, [-0.2109, -0.7109], "stroke", @true, @true, "X_BIAS1.AGND", 341], ["/BIAS1/AVdd", ["DCI=122.10U", "DCV=1.80"], @pin, @box, @dcop, [-0.2109, -0.2109], "stroke", @true, @true, "X_BIAS1.AVDD", 343], ["/M2", ["MODEL=N_18_MM", "TYPE=N", "ID=26.84U", "IG=0.00", "IS=-26.84U", "IB=2.12P", "VGS=560.28M", "VDS=1.43", "VBS=-340.44M", "VTH=510.56M", "VDSAT=102.15M", "GM=452.98U", "GDS=8.69U", "RON=115.13K", "GMB=61.65U", "Cdd=9.89F", "Cdg=-3.11F", "Cds=3.77A", "Cdb=-6.79F", "Cgd=-2.91F", "Cgg=20.38F", "Cgs=-15.43F", "Cgb=-2.04F", "Csd=-211.89A", "Csg=-14.53F", "Css=25.45F", "Csb=-10.71F", "Cbd=-6.77F", "Cbg=-2.74F", "Cbs=-10.03F", "Cbb=19.54F", "PHI=885.44M", "VBI=1.03", "Drain_Voltage=1.77", "Gate_Voltage=900.72M", "Source_Voltage=340.44M", "Bulk_Voltage=0.00", "Region=saturation"], @instance, @box, @dcop, [5.424, -0.2109], "stroke", @true, @true, "M2", 345], ["/M1", ["MODEL=N_18_MM", "TYPE=N", "ID=26.84U", "IG=0.00", "IS=-26.84U", "IB=341.01F", "VGS=529.17M", "VDS=340.44M", "VBS=0.00", "VTH=475.27M", "VDSAT=102.19M", "GM=439.99U", "GDS=11.85U", "RON=84.40K", "GMB=80.07U", "Cdd=12.23F", "Cdg=-3.18F", "Cds=63.80A", "Cdb=-9.12F", "Cgd=-2.94F", "Cgg=20.77F", "Cgs=-15.79F", "Cgb=-2.05F", "Csd=-207.11A", "Csg=-14.67F", "Css=27.38F", "Csb=-12.50F", "Cbd=-9.09F", "Cbg=-2.92F", "Cbs=-11.66F", "Cbb=23.67F", "PHI=885.44M", "VBI=1.03", "Drain_Voltage=340.44M", "Gate_Voltage=529.17M", "Source_Voltage=0.00", "Bulk_Voltage=0.00", "Region=saturation"], @instance, @box, @dcop, [5.424, -1.7109], "stroke", @true, @true, "M1", 347], ["/R1/NEG", ["DCI=3.63U", "DCV=1.80"], @pin, @box, @dcop, [3.0391, 1.2891], "stroke", @true, @true, "R1.NEG", 349], ["/R1/POS", ["DCI=3.63U", "DCV=1.80"], @pin, @box, @dcop, [3.0391, 2.2891], "stroke", @true, @true, "R1.POS", 351], ["/M15", ["MODEL=N_18_MM", "TYPE=N", "ID=3.63U", "IG=0.00", "IS=-3.63U", "IB=2.14P", "VGS=559.44M", "VDS=1.46", "VBS=-341.28M", "VTH=520.67M", "VDSAT=96.31M", "GM=64.04U", "GDS=1.23U", "RON=810.42K", "GMB=8.61U", "Cdd=1.68F", "Cdg=-505.30A", "Cds=0.55A", "Cdb=-1.18F", "Cgd=-474.78A", "Cgg=3.20F", "Cgs=-2.37F", "Cgb=-351.96A", "Csd=-32.36A", "Csg=-2.24F", "Css=4.09F", "Csb=-1.82F", "Cbd=-1.17F", "Cbg=-452.61A", "Cbs=-1.72F", "Cbb=3.35F", "PHI=885.44M", "VBI=1.03", "Drain_Voltage=1.80", "Gate_Voltage=900.72M", "Source_Voltage=341.28M", "Bulk_Voltage=0.00", "Region=saturation"], @instance, @box, @dcop, [2.924, -0.2109], "stroke", @true, @true, "M15", 353], ["/M1/B", ["DCI=341.01F"], @pin, @box, @dcop, [5.5391, -0.9609], "stroke", @true, @true, "M1.B", 355], ["/M13/G", ["DCI=0.00", "DCV=529.17M"], @pin, @box, @dcop, [2.0391, -0.9609], "stroke", @true, @true, "M13.G", 357], ["/M15/G", ["DCI=0.00", "DCV=900.72M"], @pin, @box, @dcop, [2.0391, 0.5391], "stroke", @true, @true, "M15.G", 359], ["/M2/B", ["DCI=2.12P"], @pin, @box, @dcop, [5.5391, 0.5391], "stroke", @true, @true, "M2.B", 361], ["/M1/G", ["DCI=0.00", "DCV=529.17M"], @pin, @box, @dcop, [4.5391, -0.9609], "stroke", @true, @true, "M1.G", 363], ["/M2/D", ["DCI=26.84U", "DCV=1.77"], @pin, @box, @dcop, [6.2266, 0.9766], "stroke", @true, @true, "M2.D", 365], ["/M2/G", ["DCI=0.00", "DCV=900.72M"], @pin, @box, @dcop, [4.5391, 0.5391], "stroke", @true, @true, "M2.G", 367], ["/M2/S", ["DCI=-26.84U", "DCV=340.44M"], @pin, @box, @dcop, [5.5391, -0.2109], "stroke", @true, @true, "M2.S", 369], ["/M13/D", ["DCI=3.63U", "DCV=341.28M"], @pin, @box, @dcop, [3.0391, -0.2109], "stroke", @true, @true, "M13.D", 371], ["/M1/S", ["DCI=-26.84U"], @pin, @box, @dcop, [5.5391, -1.7109], "stroke", @true, @true, "M1.S", 373], ["/M15/S", ["DCI=-3.63U", "DCV=341.28M"], @pin, @box, @dcop, [3.0391, -0.2109], "stroke", @true, @true, "M15.S", 375], ["/M15/D", ["DCI=3.63U", "DCV=1.80"], @pin, @box, @dcop, [3.0391, 1.2891], "stroke", @true, @true, "M15.D", 377], ["/M13/S", ["DCI=-3.63U"], @pin, @box, @dcop, [3.0391, -1.7109], "stroke", @true, @true, "M13.S", 379], ["/M13/B", ["DCI=341.40F"], @pin, @box, @dcop, [3.0391, -0.9609], "stroke", @true, @true, "M13.B", 381], ["/M15/B", ["DCI=2.14P"], @pin, @box, @dcop, [3.0391, 0.5391], "stroke", @true, @true, "M15.B", 383], ["/M1/D", ["DCI=26.84U", "DCV=340.44M"], @pin, @box, @dcop, [5.5391, -0.2109], "stroke", @true, @true, "M1.D", 385]]);
+$$set_sim_value("sim_monitor_font","stroke");
+$$set_sim_value("sim_monitor_font_half_height",@true);
+$$set_sim_value("sim_ss_show_dialog",@true);
+
+// Safe Operating Area
+$$set_sim_value("sim_soa_result","");
+$$set_sim_value("sim_soa_setup",[@nochecksoa, @noautostop, @notran, ["", ""]]);
+$$set_sim_value("sim_soa_vector",[]);
+$$set_sim_value("sim_soa_vector_sm",[]);
+
+// Simulation Options
+$$set_sim_value("sim_option_compat",@false);
+$$set_sim_value("sim_options_vector",[["noascii"], ["modwl"], ["engnot"], ["aex"]]);
+$$set_sim_value("sim_out_options_vect_sm",[["aex"]]);
+$$set_sim_value("sim_pre_netlist_options",["compat", "subflagpar", "dscglob", "ymfact", "stver", "m53", "notrc"]);
+$$set_sim_value("sim_simulator",@eldo);
+
+// Parameters
+$$set_sim_value("sim_parameters_vector",[]);
+
+// Includes
+$$set_sim_value("sim_include_vector",["$MGC_DESIGN_KIT/models/ELDO/include_all"]);
+
+// Model Libraries
+$$set_sim_value("model_lib_scenarios_sm",[]);
+$$set_sim_value("modpi_scenarios_sm",[]);
+$$set_sim_value("sim_lib_search_paths",[]);
+$$set_sim_value("sim_model_vector",[]);
+$$set_sim_value("sim_use_modpi",@false);
+
+// Initial Conditions
+$$set_sim_value("sim_hspice_alter_vector",[]);
+$$set_sim_value("sim_hspice_guess_vector",[]);
+$$set_sim_value("sim_hspice_ic_vector",[]);
+$$set_sim_value("sim_hspice_nodeset_vector",[]);
+
+// Simulator/Viewer Execution Commands
+$$set_sim_value("fine_tune_vector_sm","");
+$$set_sim_value("sim_adit_command","$MGC_AMS_HOME/bin/adit");
+$$set_sim_value("sim_adit_command_default","$MGC_AMS_HOME/bin/adit");
+$$set_sim_value("sim_adit_command_options",[["<input_file>", ""], ["-outpath", "<simulation_depository>"]]);
+$$set_sim_value("sim_adms_command","$MGC_AMS_HOME/bin/vasim");
+$$set_sim_value("sim_adms_command_default","$MGC_AMS_HOME/bin/vasim");
+$$set_sim_value("sim_adms_command_options",[["-c"], ["-cmd", "<input_file>"], ["-do", "$MGC_HOME/shared/pkgs/daicsim/userware/En_na/do_top_eldo.do"], ["-wdb"]]);
+$$set_sim_value("sim_command","$MGC_AMS_HOME/bin/eldo");
+$$set_sim_value("sim_command_options",[["-i", "<input_file>"], ["-o", "<output_file>"], ["-gwl", "jwdb"], ["-nocou"], ["-wdb_folder"]]);
+$$set_sim_value("sim_dcop_file","$SC_filter/default.group/logic.views/testBIAS/eldonet/testBIAS_eldonet.op1");
+$$set_sim_value("sim_eldo_command","$MGC_AMS_HOME/bin/eldo");
+$$set_sim_value("sim_eldo_command_default","$MGC_AMS_HOME/bin/eldo");
+$$set_sim_value("sim_eldo_command_options",[["-i", "<input_file>"], ["-o", "<output_file>"], ["-gwl", "jwdb"], ["-nocou"], ["-wdb_folder"]]);
+$$set_sim_value("sim_ezwave_ht",700);
+$$set_sim_value("sim_ezwave_marching_wfms",@false);
+$$set_sim_value("sim_ezwave_viewer_command","$MGC_AMS_HOME/bin/ezwave");
+$$set_sim_value("sim_ezwave_viewer_command_default","$MGC_AMS_HOME/bin/ezwave");
+$$set_sim_value("sim_ezwave_wd",700);
+$$set_sim_value("sim_hspice_command","$MGC_HOME/bin/run_hspice");
+$$set_sim_value("sim_hspice_command_default","$MGC_HOME/bin/run_hspice");
+$$set_sim_value("sim_hspice_command_options",[["", "<input_file>"], ["", "<netlist_file>"], ["", "<output_file>"]]);
+$$set_sim_value("sim_input_netlist","testBIAS_eldonet.spi");
+$$set_sim_value("sim_mach_command","$MGC_AMS_HOME/bin/mta");
+$$set_sim_value("sim_mach_command_options",[["-b"], ["-eldo"], ["<input_file>"]]);
+$$set_sim_value("sim_model_editor",@text);
+$$set_sim_value("sim_model_editor_cmd","");
+$$set_sim_value("sim_modelsim_command","$MGC_AMS_HOME/modeltech/bin/vsim");
+$$set_sim_value("sim_modelsim_command_default","$MGC_AMS_HOME/modeltech/bin/vsim");
+$$set_sim_value("sim_modelsim_command_options",[]);
+$$set_sim_value("sim_modelsim_path","$MGC_AMS_HOME/modeltech");
+$$set_sim_value("sim_other_command","");
+$$set_sim_value("sim_other_command_default","");
+$$set_sim_value("sim_other_command_options",[]);
+$$set_sim_value("sim_output_file","testBIAS_eldonet.chi");
+$$set_sim_value("sim_run_viewer",@true);
+$$set_sim_value("sim_simulation_type",@mixed);
+$$set_sim_value("sim_smartspice_command","$MGC_HOME/bin/run_smsp");
+$$set_sim_value("sim_smartspice_command_default","$MGC_HOME/bin/run_smsp");
+$$set_sim_value("sim_smartspice_command_options",[["", "<input_file>"], ["", "<netlist_file>"], ["", "<output_file>"]]);
+$$set_sim_value("sim_user_adms_command_options",[]);
+$$set_sim_value("sim_user_eldo_command_options",[]);
+$$set_sim_value("sim_user_ezwave_command_options",[]);
+$$set_sim_value("sim_user_hspice_command_options",[]);
+$$set_sim_value("sim_user_modelsim_command_options",[]);
+$$set_sim_value("sim_user_other_command_options",[]);
+$$set_sim_value("sim_user_xelga_command_options",[]);
+$$set_sim_value("sim_velocity_home","");
+$$set_sim_value("sim_velocity_lib","");
+$$set_sim_value("sim_velocity_load",0);
+$$set_sim_value("sim_velocity_sdfoutfile","");
+$$set_sim_value("sim_velocity_slew_fall",0);
+$$set_sim_value("sim_velocity_slew_rise",0);
+$$set_sim_value("sim_velocity_spef","");
+$$set_sim_value("sim_viewer",@ezwave);
+$$set_sim_value("sim_vinclude_paths",[]);
+$$set_sim_value("sim_vlib_search_paths",[]);
+$$set_sim_value("sim_vlog_add_args","");
+$$set_sim_value("sim_vlog_option_hazard_checks",@off);
+$$set_sim_value("sim_vlog_option_no_debug_data",@off);
+$$set_sim_value("sim_vlog_option_no_message",@off);
+$$set_sim_value("sim_vlog_option_no_opt",@off);
+$$set_sim_value("sim_vlog_option_protect",@off);
+$$set_sim_value("sim_vlog_option_show_lines",@off);
+$$set_sim_value("sim_vlog_option_to_upper",@off);
+$$set_sim_value("sim_vlog_option_verilog95",@off);
+$$set_sim_value("sim_vsim_args","");
+$$set_sim_value("sim_vsim_wave_viewer",@ezwave);
+$$set_sim_value("sim_xelga_viewer_command","$MGC_AMS_HOME/bin/xelga");
+$$set_sim_value("sim_xelga_viewer_command_default","$MGC_AMS_HOME/bin/xelga");
+$$set_sim_value("sim_xelga_viewer_command_options",[["-ncp"], ["-sp"], ["-wt", "2"], ["-nconf"], ["<input_file>"]]);
+$$set_sim_value("vsim_auto_check",@false);
+$$set_sim_value("vsim_auto_close_wins",@false);
+$$set_sim_value("vsim_library","work");
+$$set_sim_value("vsim_netlist_run_viewer_flag",0);
+
+// Netlister Options
+$$set_sim_value("sim_eldonet_check",@false);
+$$set_sim_value("sim_eldonet_timestamp",1387316650);
+$$set_sim_value("sim_netlist_run_viewer_flag",1);
+$$set_sim_value("sim_netlist_uptodate_check_flag",@yes);
+$$set_sim_value("sim_netlister_additional_globals","");
+$$set_sim_value("sim_netlister_additional_switches","");
+$$set_sim_value("sim_netlister_bus_alpha",@false);
+$$set_sim_value("sim_netlister_case_var",@upper);
+$$set_sim_value("sim_netlister_cdl_output",@false);
+$$set_sim_value("sim_netlister_connect_name",@false);
+$$set_sim_value("sim_netlister_debug",@false);
+$$set_sim_value("sim_netlister_force",@false);
+$$set_sim_value("sim_netlister_format",@eldospice);
+$$set_sim_value("sim_netlister_inout_pin_types","");
+$$set_sim_value("sim_netlister_input_pin_types","");
+$$set_sim_value("sim_netlister_no_ba",@false);
+$$set_sim_value("sim_netlister_no_include",@false);
+$$set_sim_value("sim_netlister_omit_pin_types","");
+$$set_sim_value("sim_netlister_output_pin_types","");
+$$set_sim_value("sim_netlister_run_in_background",@true);
+$$set_sim_value("sim_netlister_silent",@false);
+$$set_sim_value("sim_netlister_top_down",@false);
+$$set_sim_value("sim_netlister_top_level_var",@spice_no_top_sub);
+$$set_sim_value("sim_netlister_use_dfi",@false);
+$$set_sim_value("sim_netlister_wrap_netlist",@false);
+$$set_sim_value("vsim_netlister_additional_switches","");
+$$set_sim_value("vsim_netlister_bus_alpha",@false);
+$$set_sim_value("vsim_netlister_case_var",@preserve_case);
+$$set_sim_value("vsim_netlister_default_nettype",@none);
+$$set_sim_value("vsim_netlister_footer_file","");
+$$set_sim_value("vsim_netlister_force",@false);
+$$set_sim_value("vsim_netlister_header_file","");
+$$set_sim_value("vsim_netlister_implicit_connect",@false);
+$$set_sim_value("vsim_netlister_inout_pin_types","");
+$$set_sim_value("vsim_netlister_input_pin_types","");
+$$set_sim_value("vsim_netlister_map_file","");
+$$set_sim_value("vsim_netlister_no_bus",@false);
+$$set_sim_value("vsim_netlister_omit_pin_types","");
+$$set_sim_value("vsim_netlister_output_pin_types","");
+$$set_sim_value("vsim_netlister_timescale","");
+$$set_sim_value("vsim_netlister_top_down",@false);
+
+// Additional Commands
+$$set_sim_value("sim_additional_commands_vector",[]);
+
+// Parasitics
+$$set_sim_value("run_rve_cell_name","");
+$$set_sim_value("run_rve_ezwave",@true);
+$$set_sim_value("run_rve_ic_station",@true);
+$$set_sim_value("run_rve_inst_name","");
+$$set_sim_value("run_rve_layout_path","");
+$$set_sim_value("run_rve_lvs_net","");
+$$set_sim_value("run_rve_svdb_path","");
+$$set_sim_value("sim_distributed_back_annotation",@false);
+$$set_sim_value("sim_dspf_ignore_nodes",[]);
+$$set_sim_value("sim_dspf_includes",[]);
+$$set_sim_value("sim_from_vector",[]);
+$$set_sim_value("sim_netlister_flatten",@false);
+$$set_sim_value("sim_parasitics_divider","/");
+$$set_sim_value("sim_parasitics_dspf_path","");
+$$set_sim_value("sim_parasitics_instance_path","");
+$$set_sim_value("sim_parasitics_parasitic_dir","");
+$$set_sim_value("sim_parasitics_parasitic_name","");
+$$set_sim_value("sim_parasitics_primitive_prefix",@no);
+$$set_sim_value("sim_parasitics_subcircuit_prefix",@no);
+$$set_sim_value("sim_parasitics_vector",[]);
+$$set_sim_value("sim_to_vector",[]);
+
+// Node Zero
+$$set_sim_value("node_0_entry","GROUND");
+$$set_sim_value("node_0_entry_sm","//ground");
+$$set_sim_value("sim_node_0_set",@true);
+
+// Temperature
+$$set_sim_value("temperature_type_entry",@celsius);
+
+// SS Parameter Filters
+$$set_sim_value("sim_ss_parameter_filters",[]);
+
+// Other
+$$set_sim_value("analoghighlightcolor","Red");
+$$set_sim_value("descendintohierarchy",@true);
+$$set_sim_value("digitalhighlightcolor","Blue");
+$$set_sim_value("ezwave_auto_reload",@drawnew);
+$$set_sim_value("mixedhighlightcolor","Yellow");
+$$set_sim_value("sim_auto_check",@false);
+$$set_sim_value("sim_auto_close_wins",@false);
+$$set_sim_value("sim_display_additional",@yes);
+$$set_sim_value("sim_display_analysis",@yes);
+$$set_sim_value("sim_display_includes",@yes);
+$$set_sim_value("sim_display_models",@yes);
+$$set_sim_value("sim_display_node0",@yes);
+$$set_sim_value("sim_display_options",@yes);
+$$set_sim_value("sim_display_parameters",@yes);
+$$set_sim_value("sim_display_plots",@yes);
+$$set_sim_value("sim_display_probes",@yes);
+$$set_sim_value("sim_display_sdfs",@yes);
+$$set_sim_value("sim_display_sweeps",@yes);
+$$set_sim_value("sim_display_temp",@yes);
+$$set_sim_value("sim_dms_database",@design);
+$$set_sim_value("sim_dms_enable",@true);
+$$set_sim_value("sim_ext",".cir");
+$$set_sim_value("sim_hide_sim_transcript",@false);
+$$set_sim_value("sim_info_block_loc_vect",[]);
+$$set_sim_value("sim_not_hide_wfviewer",@false);
+$$set_sim_value("sim_output_ext",".chi");
+$$set_sim_value("sim_remove_invalid_plots_probes",@true);
+$$set_sim_value("sim_simulation_status",0);
+$$set_sim_value("sim_simulation_succeed",@false);
+$$set_sim_value("sim_spi_ext",".spi");
+$$set_sim_value("sim_xelga_viewer_dext",".dou");
+$$set_sim_value("sim_xelga_viewer_ext",".cou");

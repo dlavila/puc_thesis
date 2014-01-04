@@ -1,0 +1,255 @@
+* ELDO netlist generated with ICnet by 'dlavila' on Tue Oct 29 2013 at 16:15:56
+
+*
+* Globals.
+*
+.global GROUND
+
+
+*
+* Component pathname : $MGC_DESIGN_KIT/symbols/MIMCAPS_MM [ELDOSPICE]
+*
+*       .include /usr/local/mentor/UMC180PDK/symbols/MIMCAPS_MM/mimcaps_mm
+
+*
+* Component pathname : $AnalogIP/default.group/logic.views/AUX_FCP_Bias
+*
+.subckt AUX_FCP_BIAS  VB1 VB2 VB3 VB4 IIN VDD VSS
+
+        M12 VB1 VB3 N$32 VSS n_18_mm l=0.45u w=0.24u ad=0.118p as=0.118p
++  pd=1.46u ps=1.46u m=1
+        M7 N$32 VB4 VSS VSS n_18_mm l=0.45u w=0.24u ad=0.118p as=0.118p
++  pd=1.46u ps=1.46u m=1
+        M4 N$31 VB4 VSS VSS n_18_mm l=0.45u w=0.24u ad=0.118p as=0.118p
++  pd=1.46u ps=1.46u m=1
+        M2 VB2 VB3 N$31 VSS n_18_mm l=0.45u w=0.24u ad=0.118p as=0.118p
++  pd=1.46u ps=1.46u m=1
+        M1 VB2 VB2 N$33 VDD p_18_mm l=0.45u w=1u ad=0.49p as=0.49p pd=2.98u
++  ps=2.98u m=1
+        M11 N$30 VB4 VSS VSS n_18_mm l=0.45u w=0.24u ad=0.118p as=0.118p
++  pd=1.46u ps=1.46u m=1
+        M8 VB4 VB3 N$30 VSS n_18_mm l=0.45u w=0.24u ad=0.118p as=0.118p
++  pd=1.46u ps=1.46u m=1
+        M5 N$29 VB3 VSS VSS n_18_mm l=2.5u w=0.24u ad=0.118p as=0.118p pd=1.46u
++  ps=1.46u m=1
+        M9 VB3 VB3 N$29 VSS n_18_mm l=0.45u w=0.24u ad=0.118p as=0.118p
++  pd=1.46u ps=1.46u m=1
+        M18 VB4 IIN N$25 VDD p_18_mm l=0.45u w=1.2u ad=0.588p as=0.588p
++  pd=3.38u ps=3.38u m=1
+        M16 N$25 N$22 VDD VDD p_18_mm l=0.45u w=1.2u ad=0.588p as=0.588p
++  pd=3.38u ps=3.38u m=1
+        M25 N$24 N$22 VDD VDD p_18_mm l=0.45u w=1.2u ad=0.588p as=0.588p
++  pd=3.38u ps=3.38u m=1
+        M24 VB3 IIN N$24 VDD p_18_mm l=0.45u w=1.2u ad=0.588p as=0.588p
++  pd=3.38u ps=3.38u m=1
+        M23 N$34 VB1 VDD VDD p_18_mm l=0.45u w=1u ad=0.49p as=0.49p pd=2.98u
++  ps=2.98u m=1
+        M29 N$22 N$22 VDD VDD p_18_mm l=0.45u w=1.2u ad=0.588p as=0.588p
++  pd=3.38u ps=3.38u m=1
+        M28 IIN IIN N$22 VDD p_18_mm l=0.45u w=1.2u ad=0.588p as=0.588p
++  pd=3.38u ps=3.38u m=1
+        M26 VB1 VB2 N$34 VDD p_18_mm l=0.45u w=1u ad=0.49p as=0.49p pd=2.98u
++  ps=2.98u m=1
+        M22 N$33 VB2 VDD VDD p_18_mm l=2.5u w=1u ad=0.49p as=0.49p pd=2.98u
++  ps=2.98u m=1
+.ends AUX_FCP_BIAS
+
+*
+* Component pathname : $AnalogIP/default.group/logic.views/AUX_FCN_Bias
+*
+.subckt AUX_FCN_BIAS  VB1 VB2 VB3 VB4 IIN VDD VSS
+
+        M7 N$15 VB1 VDD VDD p_18_mm l=0.45u w=0.24u ad=0.118p as=0.118p
++  pd=1.46u ps=1.46u m=1
+        M6 VB1 VB2 N$15 VDD p_18_mm l=0.45u w=0.24u ad=0.118p as=0.118p
++  pd=1.46u ps=1.46u m=1
+        M5 VB2 VB2 N$14 VDD p_18_mm l=0.45u w=0.24u ad=0.118p as=0.118p
++  pd=1.46u ps=1.46u m=1
+        M3 N$14 VB2 VDD VDD p_18_mm l=2.5u w=0.24u ad=0.118p as=0.118p pd=1.46u
++  ps=1.46u m=1
+        M22 N$16 VB4 VSS VSS n_18_mm l=0.45u w=0.75u ad=0.203p as=0.368p
++  pd=1.29u ps=2.48u m=2
+        M12 N$13 VB4 VSS VSS n_18_mm l=0.45u w=0.75u ad=0.368p as=0.368p
++  pd=2.48u ps=2.48u m=1
+        M11 VB4 VB3 N$13 VSS n_18_mm l=0.45u w=0.75u ad=0.368p as=0.368p
++  pd=2.48u ps=2.48u m=1
+        M9 N$12 VB3 VSS VSS n_18_mm l=2.5u w=0.75u ad=0.368p as=0.368p pd=2.48u
++  ps=2.48u m=1
+        M8 VB3 VB3 N$12 VSS n_18_mm l=0.45u w=0.75u ad=0.368p as=0.368p
++  pd=2.48u ps=2.48u m=1
+        M18 VB4 IIN N$11 VDD p_18_mm l=0.45u w=1.2u ad=0.588p as=0.588p
++  pd=3.38u ps=3.38u m=1
+        M16 N$11 N$8 VDD VDD p_18_mm l=0.45u w=1.2u ad=0.588p as=0.588p
++  pd=3.38u ps=3.38u m=1
+        M25 N$10 N$8 VDD VDD p_18_mm l=0.45u w=1.2u ad=0.588p as=0.588p
++  pd=3.38u ps=3.38u m=1
+        M24 VB3 IIN N$10 VDD p_18_mm l=0.45u w=1.2u ad=0.588p as=0.588p
++  pd=3.38u ps=3.38u m=1
+        M27 N$17 VB4 VSS VSS n_18_mm l=0.45u w=0.75u ad=0.203p as=0.368p
++  pd=1.29u ps=2.48u m=2
+        M29 N$8 N$8 VDD VDD p_18_mm l=0.45u w=1.2u ad=0.588p as=0.588p pd=3.38u
++  ps=3.38u m=1
+        M28 IIN IIN N$8 VDD p_18_mm l=0.45u w=1.2u ad=0.588p as=0.588p pd=3.38u
++  ps=3.38u m=1
+        M26 VB1 VB3 N$17 VSS n_18_mm l=0.45u w=0.75u ad=0.203p as=0.368p
++  pd=1.29u ps=2.48u m=2
+        M23 VB2 VB3 N$16 VSS n_18_mm l=0.45u w=0.75u ad=0.203p as=0.368p
++  pd=1.29u ps=2.48u m=2
+.ends AUX_FCN_BIAS
+
+*
+* Component pathname : $AnalogIP/default.group/logic.views/AUX_FCN
+*
+.subckt AUX_FCN  VO VB1 VB2 VB3 VB4 VDD VI+ VI- VSS
+
+        M19 N$681 VB1 VDD VDD p_18_mm l=0.45u w=0.4u ad=0.196p as=0.196p
++  pd=1.78u ps=1.78u m=1
+        M10 VO VB3 N$614 VSS n_18_mm l=0.45u w=1.5u ad=0.405p as=0.735p
++  pd=2.04u ps=3.98u m=2
+        M20 N$616 N$678 VSS VSS n_18_mm l=0.45u w=1.5u ad=0.405p as=0.735p
++  pd=2.04u ps=3.98u m=2
+        M21 N$678 VB3 N$616 VSS n_18_mm l=0.45u w=1.5u ad=0.405p as=0.735p
++  pd=2.04u ps=3.98u m=2
+        M2 N$677 VI+ N$619 VSS n_18_mm l=0.45u w=1.5u ad=0.405p as=0.735p
++  pd=2.04u ps=3.98u m=2
+        M15 VO VB2 N$681 VDD p_18_mm l=0.45u w=0.4u ad=0.196p as=0.196p
++  pd=1.78u ps=1.78u m=1
+        M17 N$614 N$678 VSS VSS n_18_mm l=0.45u w=1.5u ad=0.405p as=0.735p
++  pd=2.04u ps=3.98u m=2
+        M13 N$677 VB1 VDD VDD p_18_mm l=0.45u w=0.4u ad=0.196p as=0.196p
++  pd=1.78u ps=1.78u m=1
+        M4 N$619 VB4 VSS VSS n_18_mm l=0.45u w=1.5u ad=0.405p as=0.735p
++  pd=2.04u ps=3.98u m=2
+        M1 N$681 VI- N$619 VSS n_18_mm l=0.45u w=1.5u ad=0.405p as=0.735p
++  pd=2.04u ps=3.98u m=2
+        M14 N$678 VB2 N$677 VDD p_18_mm l=0.45u w=0.4u ad=0.196p as=0.196p
++  pd=1.78u ps=1.78u m=1
+.ends AUX_FCN
+
+*
+* Component pathname : $AnalogIP/default.group/logic.views/AUX_FCP
+*
+.subckt AUX_FCP  VO VB1 VB2 VB3 VB4 VDD VI+ VI- VSS
+
+        M6 N$252 VB1 VDD VDD p_18_mm l=0.45u w=1u ad=0.27p as=0.38p pd=1.54u
++  ps=2.26u m=4
+        M15 VO VB2 N$248 VDD p_18_mm l=0.45u w=1u ad=0.27p as=0.38p pd=1.54u
++  ps=2.26u m=4
+        M14 N$249 VB2 N$246 VDD p_18_mm l=0.45u w=1u ad=0.27p as=0.38p pd=1.54u
++  ps=2.26u m=4
+        M13 N$246 N$249 VDD VDD p_18_mm l=0.45u w=1u ad=0.27p as=0.38p pd=1.54u
++  ps=2.26u m=4
+        M19 N$248 N$249 VDD VDD p_18_mm l=0.45u w=1u ad=0.27p as=0.38p pd=1.54u
++  ps=2.26u m=4
+        M30 N$251 VI- N$252 VDD p_18_mm l=0.45u w=1u ad=0.27p as=0.38p pd=1.54u
++  ps=2.26u m=4
+        M20 VO VB3 N$251 VSS n_18_mm l=0.45u w=0.5u ad=0.135p as=0.245p
++  pd=1.04u ps=1.98u m=2
+        M21 N$251 VB4 VSS VSS n_18_mm l=0.45u w=0.5u ad=0.135p as=0.245p
++  pd=1.04u ps=1.98u m=2
+        M17 N$249 VB3 N$253 VSS n_18_mm l=0.45u w=0.5u ad=0.135p as=0.245p
++  pd=1.04u ps=1.98u m=2
+        M3 N$253 VI+ N$252 VDD p_18_mm l=0.45u w=1u ad=0.27p as=0.38p pd=1.54u
++  ps=2.26u m=4
+        M10 N$253 VB4 VSS VSS n_18_mm l=0.45u w=0.5u ad=0.135p as=0.245p
++  pd=1.04u ps=1.98u m=2
+.ends AUX_FCP
+
+*
+* Component pathname : $AnalogIP/default.group/logic.views/s2d
+*
+.subckt S2D  VD+ VD- VICM VID VSS
+
+        E3 N$2 VSS Vicm Vss 1
+        E2 VD- N$2 Vss Vid 0.5
+        E1 VD+ N$2 Vid Vss 0.5
+.ends S2D
+
+*
+* MAIN CELL: Component pathname : $AnalogIP/default.group/logic.views/FC_OTA
+*
+        C2 VI+ N$165 0.1P
+        C1 VI+ VI+ 0.1P
+        I3 IREFP GROUND DC 7uA
+        I2 IREFN GROUND DC 7uA
+        V4 VDD2 GROUND DC 1.8V
+        V3 VDD GROUND DC 1.8V
+        M16 VCASP VCASP N$134 VDD p_18_mm l=0.45u w=32.4u ad=15.876p as=15.876p
++  pd=65.78u ps=65.78u m=1
+        M15 N$134 N$134 VDD VDD p_18_mm l=0.45u w=32.4u ad=15.876p as=15.876p
++  pd=65.78u ps=65.78u m=1
+        M14 N$137 N$137 GROUND GROUND n_18_mm l=0.45u w=5.8u ad=2.842p as=2.842p
++  pd=12.58u ps=12.58u m=1
+        M13 VCASN VCASN N$137 GROUND n_18_mm l=0.45u w=5.8u ad=2.842p as=2.842p
++  pd=12.58u ps=12.58u m=1
+        I1 VB2 VB3 DC 32uA
+        M12 N$136 VB1 VDD VDD p_18_mm l=0.45u w=32.4u ad=15.876p as=15.876p
++  pd=65.78u ps=65.78u m=1
+        M11 VCASN VB2 N$136 VDD p_18_mm l=0.45u w=32.4u ad=15.876p as=15.876p
++  pd=65.78u ps=65.78u m=1
+        C4 N$160 N$164 2P
+        M8 VB1 VB1 VDD VDD p_18_mm l=0.45u w=32.4u ad=15.876p as=15.876p
++  pd=65.78u ps=65.78u m=1
+        M7 VB2 VB2 VB1 VDD p_18_mm l=0.45u w=32.4u ad=15.876p as=15.876p
++  pd=65.78u ps=65.78u m=1
+        M6 VB3 VB3 VB4 GROUND n_18_mm l=0.45u w=5.8u ad=2.842p as=2.842p
++  pd=12.58u ps=12.58u m=1
+        M5 VB4 VB4 GROUND GROUND n_18_mm l=0.45u w=5.8u ad=2.842p as=2.842p
++  pd=12.58u ps=12.58u m=1
+        M4 N$125 VO- VDD VDD p_18_mm l=0.45u w=32.4u ad=15.876p as=15.876p
++  pd=65.78u ps=65.78u m=1
+        M3 VO+ N$123 N$125 VDD p_18_mm l=0.45u w=32.4u ad=15.876p as=15.876p
++  pd=65.78u ps=65.78u m=1
+        M2 VO+ N$120 N$121 GROUND n_18_mm l=0.45u w=5.8u ad=2.842p as=2.842p
++  pd=12.58u ps=12.58u m=1
+        MLP1 N$115 VO- VDD VDD p_18_mm l=0.45u w=32.4u ad=15.876p as=15.876p
++  pd=65.78u ps=65.78u m=1
+        M1 N$121 CMFB GROUND GROUND n_18_mm l=0.45u w=5.8u ad=2.842p as=2.842p
++  pd=12.58u ps=12.58u m=1
+        MCN1 VO- N$95 N$116 GROUND n_18_mm l=0.45u w=5.8u ad=2.842p as=2.842p
++  pd=12.58u ps=12.58u m=1
+        MLN1 N$116 CMFB GROUND GROUND n_18_mm l=0.45u w=5.8u ad=2.842p as=2.842p
++  pd=12.58u ps=12.58u m=1
+        MCP1 VO- N$90 N$115 VDD p_18_mm l=0.45u w=32.4u ad=15.876p as=15.876p
++  pd=65.78u ps=65.78u m=1
+        V5 VOCM GROUND DC 0.9
+        MIP1 N$121 VI- N$73 VDD p_18_mm l=0.45u w=32.4u ad=15.876p as=15.876p
++  pd=65.78u ps=65.78u m=1
+        MTAILP1 N$73 VB2 N$66 VDD p_18_mm l=0.45u w=64.8u ad=31.752p as=31.752p
++  pd=0.131m ps=0.131m m=1
+        XC7 VDD N$123 mimcaps_mm w=10u l=10u m=1
+        XC10 N$95 GROUND mimcaps_mm w=10u l=10u m=1
+        XC8 VDD N$90 mimcaps_mm w=10u l=10u m=1
+        MTAILP2 N$66 VB1 VDD VDD p_18_mm l=0.45u w=64.8u ad=31.752p as=31.752p
++  pd=0.131m ps=0.131m m=1
+        X_AUX_FCP_BIAS1 N$13 N$14 N$15 N$16 IREFP VDD GROUND AUX_FCP_BIAS
+        X_AUX_FCN_BIAS1 N$20 N$21 N$22 N$23 IREFN VDD GROUND AUX_FCN_BIAS
+        X_AUX_FCN1 N$123 N$20 N$21 N$22 N$23 VDD VCASP N$125 GROUND AUX_FCN
+        X_AUX_FCN2 N$90 N$20 N$21 N$22 N$23 VDD VCASP N$115 GROUND AUX_FCN
+        X_AUX_FCP2 N$95 N$13 N$14 N$15 N$16 VDD VCASN N$116 GROUND AUX_FCP
+        MIP2 N$116 VI+ N$73 VDD p_18_mm l=0.45u w=32.4u ad=15.876p as=15.876p
++  pd=65.78u ps=65.78u m=1
+        X_AUX_FCP1 N$120 N$13 N$14 N$15 N$16 VDD VCASN N$121 GROUND AUX_FCP
+        XC9 N$120 GROUND mimcaps_mm w=10u l=10u m=1
+        V1 N$156 GROUND DC 0V AC 1 0
+        V2 N$164 GROUND DC 0.9
+        R4 VI+ VI+ 10gig
+        R3 VI- VI- 10gig
+        R2 VI- N$166 10gig
+        R1 VI+ N$165 10gig
+        C6 VI- VI- 0.1P
+        C5 VI- N$166 0.1P
+        C11 VO+ GROUND 2P
+        M10 N$133 VB4 GROUND GROUND n_18_mm l=0.45u w=5.8u ad=2.842p as=2.842p
++  pd=12.58u ps=12.58u m=1
+        M9 VCASP VB3 N$133 GROUND n_18_mm l=0.45u w=5.8u ad=2.842p as=2.842p
++  pd=12.58u ps=12.58u m=1
+        C3 N$164 N$161 2P
+        E4 VO GROUND N$161 N$160 1
+        V6 N$155 GROUND DC 0.9
+        X_S2D2 VI+ VI- N$155 N$156 GROUND S2D
+        E5 GROUND CMFB N$149 VOCM -10
+        E3 N$148 GROUND Vo- 0 0.5
+        E2 N$149 N$148 Vo+ 0 0.5
+*
+.end

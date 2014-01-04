@@ -1,0 +1,19 @@
+* Component: $AnalogIP/default.group/logic.views/Tel_OTA_ideal  Viewpoint: eldonet
+.INCLUDE $AnalogIP/default.group/logic.views/Tel_OTA_ideal/eldonet/Tel_OTA_ideal_eldonet.spi
+.INCLUDE $MGC_DESIGN_KIT/models/ELDO/include_all
+.PROBE VX
+
+
+
+
+.OPTION NOASCII
+.OPTION MODWL
+.OPTION ENGNOT
+.OPTION AEX
+
+.TEMP 27 
+.PARAM Wn=4u 
+.PARAM Wp=32u 
+
+.AC dec 10 1 10gig
+

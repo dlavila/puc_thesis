@@ -1,0 +1,28 @@
+//  ICnet  v2008.2_3.1 (2008.2b)  Tue May 5 19:07:13 PDT 2009
+//  Core Libraries  v2008.2_3.1 Tue May  5 19:22:21 PDT 2009
+//
+//             Copyright Mentor Graphics Corporation 1982
+//
+//                      All Rights Reserved.
+//
+//    THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR
+//           ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  Mentor Graphics software executing under x86_64 Linux.
+//
+
+
+//  Invocation args:  -dmsfile /home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib/default.group/logic.views/testMux/eldonet/design.dms -force /home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib/default.group/logic.views/testMux/eldonet
+
+// **** Reading <$SC_filter/default.group/logic.views/testMux/eldonet> for ELDO netlist ****
+
+
+// ICnet: Cannot get to root model
+//    Unable to load sheet $SC_filter/default.group/logic.views/testMux/schematic/sheet1 in schematic $SC_filter/default.group/logic.views/testMux/schematic
+Attempt to connect failed (for child of schematic named schematic)
+Attempt to connect child design object failed (child $SC_filter/default.group/logic.views/testMux/schematic/sheet1)
+Design object $SC_filter/default.group/logic.views/testMux/schematic contains a reference to $SC_filter/default.group/logic.views/testMux/schematic/sheet1
+Read operation failed
+No valid part interface for subsequent instances in model.
+

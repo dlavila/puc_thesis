@@ -1,0 +1,13 @@
+A 5 u mgc_symbol 52b1e78b5ba8.03.7f.00.00.01.00.15.55 38 2 1 0
+V v 36 1 52b1fd254cab.03.7f.00.00.01.00.08.a5
+F f 36 "BUFFER.smbl_36"
+V v 37 1 52b1fd25c809.03.7f.00.00.01.00.08.a5
+F f 37 "BUFFER.smbl_37"
+V v 38 1 52b1fd2648b8.03.7f.00.00.01.00.08.a5
+F f 38 "BUFFER.smbl_38"
+O 38
+R csduv 0 "$SC_filter/default.group/logic.views/BUFFER/part" 14 Eddm_part 52b1fd25c810.03.7f.00.00.01.00.08.a5 52b1e78b5c10.03.7f.00.00.01.00.15.55
+O 37
+R csduv 0 "$SC_filter/default.group/logic.views/BUFFER/part" 14 Eddm_part 52b1fd25c810.03.7f.00.00.01.00.08.a5 52b1e78b5c10.03.7f.00.00.01.00.15.55
+O 36
+R csduv 0 "$SC_filter/default.group/logic.views/BUFFER/part" 13 Eddm_part 52b1fd254cb1.03.7f.00.00.01.00.08.a5 52b1e78b5c10.03.7f.00.00.01.00.15.55

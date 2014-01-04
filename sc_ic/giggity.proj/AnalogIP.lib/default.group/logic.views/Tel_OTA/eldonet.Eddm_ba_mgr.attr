@@ -1,0 +1,21 @@
+A 5 u Eddm_ba_mgr 526fbc186bb0.03.7f.00.00.01.00.3b.f4 5 2 9 0
+V v 3 1 5271670b830d.03.7f.00.00.01.00.4b.dc
+F f 3 "eldonet.ba_3"
+V v 4 1 52716e07bc75.03.7f.00.00.01.00.4b.dc
+F f 4 "eldonet.ba_4"
+V v 5 1 52716ecf61f7.03.7f.00.00.01.00.4b.dc
+F f 5 "eldonet.ba_5"
+O 5
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 7 "$AnalogIP/default.group/logic.views/Tel_OTA/eldonet" 307 Eddm_design_viewpoint 52716ecf61bb.03.7f.00.00.01.00.4b.dc 526fbc1868b0.03.7f.00.00.01.00.3b.f4
+R cspuv 8 "$AnalogIP/default.group/logic.views/Tel_OTA/schematic" 169 mgc_schematic 52716e895930.03.7f.00.00.01.00.4b.dc 526ed8beb1c5.03.7f.00.00.01.00.2c.26
+P "eddm__refer_state" "eddm__refer_floating"
+O 4
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 5 "$AnalogIP/default.group/logic.views/Tel_OTA/eldonet" 302 Eddm_design_viewpoint 52716e07bb11.03.7f.00.00.01.00.4b.dc 526fbc1868b0.03.7f.00.00.01.00.3b.f4
+R cspuv 6 "$AnalogIP/default.group/logic.views/Tel_OTA/schematic" 167 mgc_schematic 52716dbde77b.03.7f.00.00.01.00.4b.dc 526ed8beb1c5.03.7f.00.00.01.00.2c.26
+O 3
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 3 "$AnalogIP/default.group/logic.views/Tel_OTA/eldonet" 269 Eddm_design_viewpoint 5271670b81df.03.7f.00.00.01.00.4b.dc 526fbc1868b0.03.7f.00.00.01.00.3b.f4
+R cspuv 4 "$AnalogIP/default.group/logic.views/Tel_OTA/schematic" 155 mgc_schematic 527167005d69.03.7f.00.00.01.00.4b.dc 526ed8beb1c5.03.7f.00.00.01.00.2c.26
+P "eddm__refer_state" "eddm__refer_floating"

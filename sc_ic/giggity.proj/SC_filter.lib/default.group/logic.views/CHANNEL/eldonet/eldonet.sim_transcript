@@ -1,0 +1,244 @@
+Obsolete option -64b ignored
+
+Running eldo on localhost.localdomain
+with Eldo libraries :
+/usr/local/mentor/ams/aol/lib/libeldoudm_64.so
+/usr/local/mentor/ams/aol/lib/libeldomos1_64.so
+/usr/local/mentor/ams/aol/lib/libeldoekv_64.so
+/usr/local/mentor/ams/aol/lib/libeldomosp9_64.so
+/usr/local/mentor/ams/aol/lib/libeldocsem_64.so
+/usr/local/mentor/ams/aol/lib/libeldomos2_64.so
+/usr/local/mentor/ams/aol/lib/libeldomos3_64.so
+/usr/local/mentor/ams/aol/lib/libeldobip_64.so
+/usr/local/mentor/ams/aol/lib/libeldodio_64.so
+/usr/local/mentor/ams/aol/lib/libeldojfet_64.so
+/usr/local/mentor/ams/aol/lib/libeldosoi_64.so
+/usr/local/mentor/ams/aol/lib/libeldomos4_64.so
+/usr/local/mentor/ams/aol/lib/libeldoasitft_64.so
+/usr/local/mentor/ams/aol/lib/libeldohisim_64.so
+/usr/local/mentor/ams/aol/lib/libeldospmod_64.so
+/usr/local/mentor/ams/aol/lib/libeldopsp_64.so
+/usr/local/mentor/ams/aol/lib/libeldomosvar_64.so
+/usr/local/mentor/ams/aol/lib/libeldomoto_64.so
+/usr/local/mentor/ams/aol/lib/libeldost_64.so
+/usr/local/mentor/ams/aol/lib/libeldobnr_64.so
+/usr/local/mentor/ams/aol/lib/libeldorockw_64.so
+/usr/local/mentor/ams/aol/lib/libeldopubhicum_64.so
+/usr/local/mentor/ams/aol/lib/libeldotftsh_64.so
+/usr/local/mentor/ams/aol/lib/libeldobta_64.so
+/usr/local/mentor/ams/aol/lib/libeldofas_64.so
+/usr/local/mentor/ams/aol/lib/libeldofascm_64.so
+/usr/local/mentor/ams/aol/lib/libeldosdsim_64.so
+/usr/local/mentor/ams/aol/lib/libeldowire_64.so
+/usr/local/mentor/ams/aol/lib/libogr_64.so loaded.
+
+
+
+              Software under License 
+       Copyright Mentor Graphics Corporation
+
+
+
+
+***** PRE-PROCESSING ...
+
+
+
+***** ANALYSIS ....
+
+Warning 406: In file "/usr/local/mentor/UMC180PDK/models/ELDO/include_all" line 1:
++   COMMAND .LIB cannot find corner tt in library /usr/local/mentor/UMC180PDK/models/ELDO/018-rf-v2d4-control.eldo
+
+***** 0  error(s). 
+***** 1  warning(s). 
+
+
+
+***** GENERATION ...
+
+Warning 706: In file "/usr/local/mentor/UMC180PDK/models/ELDO/MM180_MIMCAP_V101.mdl.eldo" line 9:
++   During the creation of X_BUFFER3.XC1, the parameter W in subckt MIMCAPS_MM is ignored as it is already specified on the instance line.
+Warning 706: In file "/usr/local/mentor/UMC180PDK/models/ELDO/MM180_MIMCAP_V101.mdl.eldo" line 9:
++   During the creation of X_BUFFER3.XC1, the parameter L in subckt MIMCAPS_MM is ignored as it is already specified on the instance line.
+Warning 252: In file "/usr/local/mentor/UMC180PDK/models/ELDO/MM180_RES_V133.mdl.eldo56" line 42:
++   OBJECT "X_BGR1.XR6.C1": Self-connected object not created.
+Warning 252: In file "/usr/local/mentor/UMC180PDK/models/ELDO/MM180_RES_V133.mdl.eldo56" line 42:
++   OBJECT "X_BGR1.XR5.C1": Self-connected object not created.
+Warning 252: In file "/usr/local/mentor/UMC180PDK/models/ELDO/MM180_RES_V133.mdl.eldo56" line 42:
++   OBJECT "X_BGR1.XR3.C1": Self-connected object not created.
+Warning  29: Such messages will not be displayed in future. Set .option MSGNODE = 0 to receive all such warnings.
+
+Warning 1615: In file "./CHANNEL_eldonet.cir" line 20:
++   COMMAND ".TRAN": Tstep can not be <= 0.0.
++   It is set to Tmax/20.0 = 6.000e-08 s.
+Warning 107:  NODE "VO": Less than two connections.
+Warning 107:  NODE "VO_BUFFERED": Less than two connections.
+/lib64/libc.so.6: file not recognized: File format not recognized
+collect2: ld returned 1 exit status
+
+***** 0  error(s). 
+***** 11  warning(s). 
+
+
+INFORMATION ABOUT COMPILATION...
+
+
+Memory space allocated (bytes): 123805696
+460 elements
+231 nodes
+15 input signals
+ Reset internal minimun time step.
+hmin value is 2.000000e-04Nanos
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE: 19-Dec-2013 14:57:28
+
+*** TITLE: * Component: $SC_filter/default.group/logic.views/CHANNEL  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+ Reset internal minimun time step.
+hmin value is 2.000000e-04Nanos
+Warning 1619:This netlist contains expressions using strongly non-linear functions such as ABS() MIN(), 
++   MAX() (found in device X_BUFFER3.XR1.R1 for instance) 
++   If, and only if, convergence problems occur either in DC or transient analysis, 
++   the .option mmsmooth is a possible workaround worth testing. 
++   It is NOT recommended to activate it systematically, or if there are no particular convergence problems. 
++   Please refer to the documentation for further discussions about this option
+Searching Operating Point between -1.800000e+00V and 
+                                  3.600000e+00V
+
+Performing DC analysis...
+Connecting to JWDB server, please wait...
+connected to wdb server : -jwdbhost localhost.localdomain -jwdbport 35227
+
+
+--> Partitioning circuit...
+This circuit contains access resistors which are very small.
+For instance, object X_BGR1.Q6 has an access resistor of 1.250000e-04 Ohms
+
+This can lead to convergence difficulties..
+You can use for instance .OPTION MINRACC = 1.000000e-02 
+in order to eliminate access resistors of less than 1.000000e-02 Ohms
+
+***>CPU TIME 0s 880ms <***
+
+
+
+--> Performing Simplified G ramping  ...
+---> Simplified G RAMPING  : 0.000000%
+---> Simplified G RAMPING  : 10.000000%
+---> Simplified G RAMPING  : 20.000000%
+---> Simplified G RAMPING  : 30.000000%
+---> Simplified G RAMPING  : 40.000000%
+---> Simplified G RAMPING  : 50.000000%
+---> Simplified G RAMPING  : 60.000000%
+---> Simplified G RAMPING  : 70.000000%
+---> Simplified G RAMPING  : 80.000000%
+---> Simplified G RAMPING  : 90.000000%
+---> Simplified G RAMPING  : 100.000000%
+
+***> DC CPU TIME 2s 550ms <***
+
+DC:1 iterations FOR DC analysis
+
+   TOTAL POWER DISSIPATION:  2.7707M     WATTS
+
+
+   POWER DISSIPATION THROUGH CONTROLLED SOURCES:  5.6944P     WATTS
+
+
+***>CPU TIME 1s 670ms <***
+
+
+DC convergence has achieved using:
+.OPTION GRAMP=9 
+
+
+***>Current simulation completed
+
+
+
+
+SIMULATION INFORMATION 
+memory size allocated in bytes 129118208
+nb of components: 1260
+nb of nodes: 1031
+nb of MOS or BIP calls: 1632057
+Number of steps computed: 0
+
+***>CPU TIME 2s 540ms <***
+
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 090ms <***
+
+DC:15 iterations FOR DC analysis
+
+   TOTAL POWER DISSIPATION:  2.7707M     WATTS
+
+
+   POWER DISSIPATION THROUGH CONTROLLED SOURCES:  5.6944P     WATTS
+
+
+Eldo NEWTON: VNTOL=1.000000e-06 RELTOL=6.111111e-04
+
+Compute from 0.000000 Nano to 1.200000E+03 Nano
+................................................
+Simulation progress           : 10% (t = 120.0259 N)
+Elapsed CPU time              :  0h  0mn  1s 450    ( 0h  0mn  1s 450)
+................................................
+Simulation progress           : 20% (t = 240.0259 N)
+Elapsed CPU time              :  0h  0mn  1s 480    ( 0h  0mn  2s 930)
+................................................
+Simulation progress           : 30% (t = 360.0258 N)
+Elapsed CPU time              :  0h  0mn  1s 460    ( 0h  0mn  4s 390)
+................................................
+Simulation progress           : 40% (t = 480.0264 N)
+Elapsed CPU time              :  0h  0mn  1s 490    ( 0h  0mn  5s 880)
+................................................
+Simulation progress           : 50% (t = 600.0263 N)
+Elapsed CPU time              :  0h  0mn  1s 460    ( 0h  0mn  7s 340)
+................................................
+Simulation progress           : 60% (t = 720.0857 N)
+Elapsed CPU time              :  0h  0mn  1s 550    ( 0h  0mn  8s 890)
+................................................
+Simulation progress           : 70% (t = 840.0841 N)
+Elapsed CPU time              :  0h  0mn  1s 260    ( 0h  0mn 10s 150)
+................................................
+Simulation progress           : 80% (t = 960.0261 N)
+Elapsed CPU time              :  0h  0mn  1s 390    ( 0h  0mn 11s 540)
+................................................
+Simulation progress           : 90% (t = 1.0801 U)
+Elapsed CPU time              :  0h  0mn  1s 670    ( 0h  0mn 13s 210)
+................................................
+Simulation progress           : 100% (t = 1.2000 U)
+Elapsed CPU time              :  0h  0mn  1s 650    ( 0h  0mn 14s 860)
+
+
+***>Current simulation completed
+
+
+
+
+SIMULATION INFORMATION 
+memory size allocated in bytes 130211840
+Latency: 0.000000%
+average number of newton iterations: 2.309258
+nb of components: 1260
+nb of nodes: 1031
+nb of MOS or BIP calls: 2468180
+Number of steps computed: 15106
+
+***>CPU TIME 14s 860ms <***
+
+***>MESSAGE SUMMARY: 12 warnings
+
+***>GLOBAL CPU TIME 17s 560ms <***
+
+
+***>GLOBAL ELAPSED TIME 21s <***
+
+

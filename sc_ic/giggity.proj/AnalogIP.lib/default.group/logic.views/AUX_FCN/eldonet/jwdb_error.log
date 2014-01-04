@@ -1,0 +1,14 @@
+DATE: Monday 28 October 2013 17:02:39.061
+THR: Thread-8(JetSocket.WorkerThread DATA)
+java.net.SocketException: Connection reset
+	at java.net.SocketOutputStream.socketWrite(Unknown Source)
+	at java.net.SocketOutputStream.write(Unknown Source)
+	at com.mentor.jeda.jwdb.JwdbOutputStream.writeTo(JwdbOutputStream.java:948)
+	at com.mentor.jeda.jwdb.JwdbOutputStream.flush(JwdbOutputStream.java:180)
+	at com.mentor.jeda.jwdb.JwdbNameTable.writeStrings(JwdbNameTable.java:475)
+	at com.mentor.jeda.jwdb.JwdbNameMgr.writeNames(JwdbNameMgr.java:3051)
+	at com.mentor.jeda.jwdb.JwdbDataChan.c(JwdbDataChan.java:1447)
+	at com.mentor.jeda.jwdb.JwdbDataChan.readDataChan(JwdbDataChan.java:319)
+	at com.mentor.jeda.jwdb.JwdbDataChan.process(JwdbDataChan.java:1990)
+	at com.mentor.jeda.comps.JetSocket$WorkerThread.run(JetSocket.java:358)
+

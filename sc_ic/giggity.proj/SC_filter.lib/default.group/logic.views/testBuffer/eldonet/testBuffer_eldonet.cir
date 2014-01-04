@@ -1,0 +1,17 @@
+* Component: $SC_filter/default.group/logic.views/testBuffer  Viewpoint: eldonet
+.INCLUDE $SC_filter/default.group/logic.views/testBuffer/eldonet/testBuffer_eldonet.spi
+.INCLUDE $MGC_DESIGN_KIT/models/ELDO/include_all
+.PROBE VX
+
+
+
+
+.OPTION NOASCII
+.OPTION MODWL
+.OPTION ENGNOT
+.OPTION AEX
+
+.TEMP 27 
+
+.AC dec 10 1 10gig
+

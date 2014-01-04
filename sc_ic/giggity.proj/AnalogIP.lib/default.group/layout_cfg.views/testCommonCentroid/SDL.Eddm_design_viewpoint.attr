@@ -1,0 +1,12 @@
+A 5 u Eddm_design_viewpoint 525dbe295c0e.03.7f.00.00.01.00.1f.33 1 2 4 0
+V v 1 4 525dbe295c0f.03.7f.00.00.01.00.1f.33
+F f 1 "SDL.dvpt_1"
+F o 0 
+F o 0 
+F o 0 
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$AnalogIP/default.group/logic.views/testCommonCentroid/part" 1 Eddm_part 525db3083e36.03.7f.00.00.01.01.18.75 525db3083e36.03.7f.00.00.01.00.18.75
+R cspuv 1 "$AnalogIP/default.group/logic.views/testCommonCentroid/schematic" 6 mgc_schematic 525db8bca21b.03.7f.00.00.01.00.1e.e4 525db2d49333.03.7f.00.00.01.00.18.75
+R cspuv 2 "$MGC_DESIGN_KIT/symbols/N_18_MM/part" 26 Eddm_part 462e23b780f6.03.7f.00.00.01.00.54.63 461b99901841.03.89.ca.19.1a.00.4f.21
+R cspuv 3 "$MGC_DESIGN_KIT/symbols/N_18_MM/N_18_MM" 9 mgc_symbol 462e23b780e7.03.7f.00.00.01.00.54.63 461b99935891.03.89.ca.19.1a.00.4f.21

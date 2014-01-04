@@ -1,0 +1,721 @@
+# This file provides name mapping information for all objects
+# on the schematic design.  It provides a mapping for each
+# object between its name on the schematic and its name in the netlist.
+version 1.0
+
+Globals
+   AVdd avdd
+   SCF_VDD scf_vdd
+   ground ground
+End Globals
+
+Cell p_18_mm
+   Pin D d
+   Pin G g
+   Pin S s
+   Pin B b
+End Cell
+
+Cell n_18_mm
+   Pin D d
+   Pin G g
+   Pin S s
+   Pin B b
+End Cell
+
+Cell phase_gen_inv_x4
+   Pin O o
+   Pin I i
+   Net O o
+   Net I i
+   Global SCF_VDD scf_vdd
+   Global ground ground
+   Inst M2 m2 p_18_mm
+   Inst M1 m1 n_18_mm
+End Cell
+
+Cell vcvs
+   Pin POS pos
+   Pin NEG neg
+   Pin CP cp
+   Pin CN cn
+End Cell
+
+Cell dc_v_source
+   Pin POS pos
+   Pin NEG neg
+End Cell
+
+Cell rnhr1000_mm
+   Pin PLUS plus
+   Pin MINUS minus
+   Pin B b
+End Cell
+
+Cell mimcaps_mm
+   Pin PLUS plus
+   Pin MINUS minus
+End Cell
+
+Cell buffer
+   Pin Vo vo
+   Pin AGnd agnd
+   Pin AVdd avdd
+   Pin Ib ib
+   Pin Vi+ vi+
+   Pin Vi- vi-
+   Net N$587 n$587
+   Net N$589 n$589
+   Net N$593 n$593
+   Net N$427 n$427
+   Net N$204 n$204
+   Net N$356 n$356
+   Net N$279 n$279
+   Net N$277 n$277
+   Net N$274 n$274
+   Net Vncas vncas
+   Net N$255 n$255
+   Net N$253 n$253
+   Net N$250 n$250
+   Net N$249 n$249
+   Net N$247 n$247
+   Net Vb1 vb1
+   Net N$209 n$209
+   Net N$206 n$206
+   Net N$205 n$205
+   Net N$90 n$90
+   Net Vpcas vpcas
+   Net N$203 n$203
+   Net N$169 n$169
+   Net N$167 n$167
+   Net Vb3 vb3
+   Net N$165 n$165
+   Net N$148 n$148
+   Net N$131 n$131
+   Net Vb4 vb4
+   Net Vb2 vb2
+   Net N$103 n$103
+   Net Ib ib
+   Net Vi- vi-
+   Net Vi+ vi+
+   Net Vo vo
+   Net AVdd_esc1 avdd_esc1
+   Net AGnd agnd
+   Inst M15 m15 n_18_mm
+   Inst M39 m39 p_18_mm
+   Inst M1 m1 p_18_mm
+   Inst M11 m11 n_18_mm
+   Inst M40 m40 p_18_mm
+   Inst M18 m18 p_18_mm
+   Inst M48 m48 p_18_mm
+   Inst M4 m4 n_18_mm
+   Inst M10 m10 p_18_mm
+   Inst M34 m34 p_18_mm
+   Inst M41 m41 p_18_mm
+   Inst M30 m30 n_18_mm
+   Inst MOUTP moutp p_18_mm
+   Inst M23 m23 n_18_mm
+   Inst M22 m22 p_18_mm
+   Inst M38 m38 p_18_mm
+   Inst M5 m5 p_18_mm
+   Inst M37 m37 p_18_mm
+   Inst M25 m25 n_18_mm
+   Inst M14 m14 p_18_mm
+   Inst M27 m27 n_18_mm
+   Inst M26 m26 n_18_mm
+   Inst M31 m31 n_18_mm
+   Inst M28 m28 n_18_mm
+   Inst M3 m3 p_18_mm
+   Inst M17 m17 n_18_mm
+   Inst M6 m6 p_18_mm
+   Inst R1 xr1 rnhr1000_mm
+   Inst MOUTN moutn n_18_mm
+   Inst M9 m9 n_18_mm
+   Inst M16 m16 n_18_mm
+   Inst M36 m36 p_18_mm
+   Inst M13 m13 p_18_mm
+   Inst MIN1 min1 n_18_mm
+   Inst M12 m12 p_18_mm
+   Inst R2 xr2 rnhr1000_mm
+   Inst C1 xc1 mimcaps_mm
+   Inst M43 m43 p_18_mm
+   Inst M35 m35 n_18_mm
+   Inst M50 m50 n_18_mm
+   Inst M45 m45 p_18_mm
+   Inst M21 m21 n_18_mm
+   Inst M24 m24 n_18_mm
+   Inst M7 m7 n_18_mm
+   Inst M29 m29 n_18_mm
+   Inst M32 m32 n_18_mm
+   Inst M19 m19 p_18_mm
+   Inst C2 xc2 mimcaps_mm
+   Inst M33 m33 p_18_mm
+   Inst M42 m42 p_18_mm
+   Inst M8 m8 n_18_mm
+   Inst M2 m2 n_18_mm
+End Cell
+
+Cell pwl_v_source
+   Pin POS pos
+   Pin NEG neg
+End Cell
+
+Cell phase_gen_inv_x8
+   Pin O o
+   Pin I i
+   Net O o
+   Net I i
+   Global SCF_VDD scf_vdd
+   Global ground ground
+   Inst M2 m2 p_18_mm
+   Inst M1 m1 n_18_mm
+End Cell
+
+Cell phase_gen_nand_x4
+   Pin O o
+   Pin A a
+   Pin B b
+   Net N$75 n$75
+   Net O o
+   Net B b
+   Net A a
+   Global SCF_VDD scf_vdd
+   Global ground ground
+   Inst M1 m1 p_18_mm
+   Inst M4 m4 p_18_mm
+   Inst M3 m3 n_18_mm
+   Inst M2 m2 n_18_mm
+End Cell
+
+Cell phase_gen_inv_x2
+   Pin O o
+   Pin I i
+   Net O o
+   Net I i
+   Global SCF_VDD scf_vdd
+   Global ground ground
+   Inst M2 m2 p_18_mm
+   Inst M1 m1 n_18_mm
+End Cell
+
+Cell phase_gen
+   Pin phi1 phi1
+   Pin phi1e phi1e
+   Pin phi2 phi2
+   Pin phi2e phi2e
+   Pin clk clk
+   Net N$181 n$181
+   Net N$180 n$180
+   Net N$178 n$178
+   Net N$162 n$162
+   Net N$159 n$159
+   Net N$166 n$166
+   Net N$165 n$165
+   Net N$161 n$161
+   Net N$158 n$158
+   Net N$157 n$157
+   Net N$156 n$156
+   Net N$155 n$155
+   Net N$154 n$154
+   Net N$153 n$153
+   Net N$102 n$102
+   Net N$61 n$61
+   Net N$9 n$9
+   Net phi2e phi2e
+   Net phi2 phi2
+   Net phi1 phi1
+   Net phi1e phi1e
+   Net clk clk
+   Inst PHASE_GEN_INV_X84 x_phase_gen_inv_x84 phase_gen_inv_x8
+   Inst PHASE_GEN_INV_X83 x_phase_gen_inv_x83 phase_gen_inv_x8
+   Inst PHASE_GEN_INV_X82 x_phase_gen_inv_x82 phase_gen_inv_x8
+   Inst PHASE_GEN_INV_X81 x_phase_gen_inv_x81 phase_gen_inv_x8
+   Inst PHASE_GEN_INV_X48 x_phase_gen_inv_x48 phase_gen_inv_x4
+   Inst PHASE_GEN_INV_X47 x_phase_gen_inv_x47 phase_gen_inv_x4
+   Inst PHASE_GEN_INV_X46 x_phase_gen_inv_x46 phase_gen_inv_x4
+   Inst PHASE_GEN_INV_X412 x_phase_gen_inv_x412 phase_gen_inv_x4
+   Inst PHASE_GEN_INV_X411 x_phase_gen_inv_x411 phase_gen_inv_x4
+   Inst PHASE_GEN_INV_X416 x_phase_gen_inv_x416 phase_gen_inv_x4
+   Inst PHASE_GEN_NAND_X43 x_phase_gen_nand_x43 phase_gen_nand_x4
+   Inst PHASE_GEN_NAND_X44 x_phase_gen_nand_x44 phase_gen_nand_x4
+   Inst PHASE_GEN_INV_X415 x_phase_gen_inv_x415 phase_gen_inv_x4
+   Inst PHASE_GEN_INV_X41 x_phase_gen_inv_x41 phase_gen_inv_x4
+   Inst PHASE_GEN_INV_X414 x_phase_gen_inv_x414 phase_gen_inv_x4
+   Inst PHASE_GEN_INV_X42 x_phase_gen_inv_x42 phase_gen_inv_x4
+   Inst PHASE_GEN_INV_X43 x_phase_gen_inv_x43 phase_gen_inv_x4
+   Inst PHASE_GEN_INV_X413 x_phase_gen_inv_x413 phase_gen_inv_x4
+   Inst PHASE_GEN_NAND_X42 x_phase_gen_nand_x42 phase_gen_nand_x4
+   Inst PHASE_GEN_INV_X21 x_phase_gen_inv_x21 phase_gen_inv_x2
+   Inst PHASE_GEN_NAND_X41 x_phase_gen_nand_x41 phase_gen_nand_x4
+End Cell
+
+Cell scf_switch_x1
+   Pin out out
+   Pin e e
+   Pin in in
+   Net N$25 n$25
+   Net out out
+   Net e e
+   Net in in
+   Global ground ground
+   Global SCF_VDD scf_vdd
+   Inst M12 m12 p_18_mm
+   Inst M11 m11 n_18_mm
+   Inst M2 m2 p_18_mm
+   Inst M1 m1 n_18_mm
+End Cell
+
+Cell vcvs_2pin
+   Pin POS pos
+   Pin NEG neg
+End Cell
+
+Cell s2d
+   Pin Vd+ vd+
+   Pin Vd- vd-
+   Pin Vicm vicm
+   Pin Vid vid
+   Pin Vss vss
+   Net N$2 n$2
+   Net Vd- vd-
+   Net Vd+ vd+
+   Net Vss vss
+   Net Vicm vicm
+   Net Vid vid
+   Inst E3 e3 vcvs_2pin
+   Inst E2 e2 vcvs_2pin
+   Inst E1 e1 vcvs_2pin
+End Cell
+
+Cell scf_switch_x16
+   Pin out out
+   Pin e e
+   Pin in in
+   Net N$46 n$46
+   Net out out
+   Net e e
+   Net in in
+   Global ground ground
+   Global SCF_VDD scf_vdd
+   Inst M12 m12 p_18_mm
+   Inst M11 m11 n_18_mm
+   Inst M2 m2 n_18_mm
+   Inst M1 m1 p_18_mm
+End Cell
+
+Cell cap_array
+   Pin Vout vout
+   Pin Cs_b0 cs_b0
+   Pin Cs_b1 cs_b1
+   Pin Cs_b2 cs_b2
+   Pin Cs_b3 cs_b3
+   Pin Cs_b4 cs_b4
+   Pin Vin vin
+   Net N$7 n$7
+   Net N$5 n$5
+   Net N$4 n$4
+   Net N$3 n$3
+   Net N$1 n$1
+   Net Vout vout
+   Net Vin vin
+   Net Cs_b4 cs_b4
+   Net Cs_b3 cs_b3
+   Net Cs_b2 cs_b2
+   Net Cs_b1 cs_b1
+   Net Cs_b0 cs_b0
+   Inst SCF_SWITCH_X1610 x_scf_switch_x1610 scf_switch_x16
+   Inst SCF_SWITCH_X169 x_scf_switch_x169 scf_switch_x16
+   Inst SCF_SWITCH_X168 x_scf_switch_x168 scf_switch_x16
+   Inst SCF_SWITCH_X167 x_scf_switch_x167 scf_switch_x16
+   Inst SCF_SWITCH_X166 x_scf_switch_x166 scf_switch_x16
+   Inst C13 xc13 mimcaps_mm
+   Inst C12 xc12 mimcaps_mm
+   Inst C11 xc11 mimcaps_mm
+   Inst C10 xc10 mimcaps_mm
+   Inst C9 xc9 mimcaps_mm
+End Cell
+
+Cell ideal_capacitor
+   Pin POS pos
+   Pin NEG neg
+End Cell
+
+Cell pulse_v_source
+   Pin POS pos
+   Pin NEG neg
+End Cell
+
+Cell scf_mux_x4
+   Pin O o
+   Pin A a
+   Pin B b
+   Pin e e
+   Pin s s
+   Net N$311 n$311
+   Net N$306 n$306
+   Net N$295 n$295
+   Net N$293 n$293
+   Net N$292 n$292
+   Net N$291 n$291
+   Net N$288 n$288
+   Net O o
+   Net A a
+   Net B b
+   Net s s
+   Net e e
+   Global ground ground
+   Global SCF_VDD scf_vdd
+   Inst M6 m6 p_18_mm
+   Inst M13 m13 p_18_mm
+   Inst M3 m3 p_18_mm
+   Inst M5 m5 p_18_mm
+   Inst M9 m9 n_18_mm
+   Inst M17 m17 n_18_mm
+   Inst M16 m16 p_18_mm
+   Inst M10 m10 n_18_mm
+   Inst M4 m4 n_18_mm
+   Inst M15 m15 n_18_mm
+   Inst M2 m2 p_18_mm
+   Inst M8 m8 n_18_mm
+   Inst M22 m22 p_18_mm
+   Inst M14 m14 p_18_mm
+   Inst M1 m1 n_18_mm
+   Inst M12 m12 p_18_mm
+   Inst M7 m7 n_18_mm
+   Inst M11 m11 n_18_mm
+End Cell
+
+Cell phase_gen_nand_x1
+   Pin O o
+   Pin A a
+   Pin B b
+   Net N$65 n$65
+   Net O o
+   Net B b
+   Net A a
+   Global SCF_VDD scf_vdd
+   Global ground ground
+   Inst M1 m1 p_18_mm
+   Inst M4 m4 p_18_mm
+   Inst M3 m3 n_18_mm
+   Inst M5 m5 n_18_mm
+End Cell
+
+Cell pnp_v50x50_mm
+   Pin C c
+   Pin B b
+   Pin e e
+End Cell
+
+Cell bgr
+   Pin Vref vref
+   Pin AGnd agnd
+   Pin AVdd avdd
+   Net N$10 n$10
+   Net N$8 n$8
+   Net N$7 n$7
+   Net N$6 n$6
+   Net N$5 n$5
+   Net N$3 n$3
+   Net N$2 n$2
+   Net Vref vref
+   Net AGnd agnd
+   Net AVdd_esc1 avdd_esc1
+   Inst M20 m20 p_18_mm
+   Inst R6 xr6 rnhr1000_mm
+   Inst R5 xr5 rnhr1000_mm
+   Inst R4 xr4 rnhr1000_mm
+   Inst R3 xr3 rnhr1000_mm
+   Inst M45 m45 p_18_mm
+   Inst Q6 q6 pnp_v50x50_mm
+   Inst M44 m44 p_18_mm
+   Inst Q5 q5 pnp_v50x50_mm
+   Inst M43 m43 n_18_mm
+   Inst M42 m42 p_18_mm
+   Inst M41 m41 p_18_mm
+   Inst M40 m40 p_18_mm
+   Inst M39 m39 n_18_mm
+   Inst M38 m38 n_18_mm
+   Inst M37 m37 n_18_mm
+   Inst M36 m36 p_18_mm
+   Inst M35 m35 p_18_mm
+End Cell
+
+Cell bias
+   Pin Vb3 vb3
+   Pin Vb4 vb4
+   Pin AGnd agnd
+   Pin AVdd avdd
+   Net N$20 n$20
+   Net N$6 n$6
+   Net Vbiasp vbiasp
+   Net N$114 n$114
+   Net N$109 n$109
+   Net N$64 n$64
+   Net N$10 n$10
+   Net Vb4 vb4
+   Net Vb3 vb3
+   Net AGnd agnd
+   Net AVdd_esc1 avdd_esc1
+   Inst M13 m13 n_18_mm
+   Inst M12 m12 p_18_mm
+   Inst M19 m19 p_18_mm
+   Inst M1 m1 n_18_mm
+   Inst M10 m10 n_18_mm
+   Inst M11 m11 p_18_mm
+   Inst M9 m9 n_18_mm
+   Inst M7 m7 n_18_mm
+   Inst M8 m8 p_18_mm
+   Inst R1 xr1 rnhr1000_mm
+   Inst M5 m5 n_18_mm
+   Inst M2 m2 p_18_mm
+   Inst M15 m15 n_18_mm
+   Inst M4 m4 n_18_mm
+   Inst M17 m17 p_18_mm
+   Inst M18 m18 n_18_mm
+   Inst M3 m3 p_18_mm
+   Inst M6 m6 p_18_mm
+End Cell
+
+Cell scf_mux_x16
+   Pin O o
+   Pin A a
+   Pin B b
+   Pin e e
+   Pin s s
+   Net N$295 n$295
+   Net N$293 n$293
+   Net N$292 n$292
+   Net N$291 n$291
+   Net N$288 n$288
+   Net N$287 n$287
+   Net N$286 n$286
+   Net O o
+   Net A a
+   Net B b
+   Net s s
+   Net e e
+   Global ground ground
+   Global SCF_VDD scf_vdd
+   Inst M11 m11 n_18_mm
+   Inst M14 m14 p_18_mm
+   Inst M13 m13 p_18_mm
+   Inst M3 m3 p_18_mm
+   Inst M5 m5 p_18_mm
+   Inst M9 m9 n_18_mm
+   Inst M17 m17 n_18_mm
+   Inst M16 m16 p_18_mm
+   Inst M10 m10 n_18_mm
+   Inst M4 m4 n_18_mm
+   Inst M15 m15 n_18_mm
+   Inst M2 m2 p_18_mm
+   Inst M12 m12 p_18_mm
+   Inst M22 m22 p_18_mm
+   Inst M8 m8 n_18_mm
+   Inst M1 m1 n_18_mm
+   Inst M6 m6 p_18_mm
+   Inst M7 m7 n_18_mm
+End Cell
+
+Cell scf_ota
+   Pin Vo+ vo+
+   Pin Vo- vo-
+   Pin AGnd agnd
+   Pin AVdd avdd
+   Pin Iref iref
+   Pin Vi+ vi+
+   Pin Vi- vi-
+   Pin Vocm vocm
+   Net Vb5 vb5
+   Net N$1023 n$1023
+   Net N$1029 n$1029
+   Net N$1017 n$1017
+   Net N$1000 n$1000
+   Net CMFB cmfb
+   Net N$965 n$965
+   Net N$348 n$348
+   Net N$542 n$542
+   Net N$559 n$559
+   Net N$503 n$503
+   Net N$435 n$435
+   Net Vb1 vb1
+   Net Vb4 vb4
+   Net Vb3 vb3
+   Net N$19 n$19
+   Net Vb2 vb2
+   Net N$64 n$64
+   Net Vocm vocm
+   Net Iref iref
+   Net Vo- vo-
+   Net Vo+ vo+
+   Net Vi- vi-
+   Net Vi+ vi+
+   Net AVdd_esc1 avdd_esc1
+   Net AGnd agnd
+   Inst M1A m1a p_18_mm
+   Inst M1 m1 p_18_mm
+   Inst M22 m22 p_18_mm
+   Inst M17 m17 p_18_mm
+   Inst M23 m23 p_18_mm
+   Inst M30 m30 n_18_mm
+   Inst M24 m24 n_18_mm
+   Inst M18 m18 n_18_mm
+   Inst M2 m2 p_18_mm
+   Inst M0 m0 p_18_mm
+   Inst M14 m14 n_18_mm
+   Inst M4 m4 n_18_mm
+   Inst M25 m25 p_18_mm
+   Inst M21 m21 n_18_mm
+   Inst M7 m7 p_18_mm
+   Inst M13 m13 n_18_mm
+   Inst M19 m19 n_18_mm
+   Inst M3B m3b n_18_mm
+   Inst M10 m10 p_18_mm
+   Inst M9 m9 p_18_mm
+   Inst M15 m15 p_18_mm
+   Inst M11 m11 n_18_mm
+   Inst M12 m12 n_18_mm
+   Inst M28 m28 n_18_mm
+   Inst M6 m6 p_18_mm
+   Inst M8 m8 p_18_mm
+   Inst M3 m3 n_18_mm
+   Inst M5 m5 n_18_mm
+   Inst M20 m20 p_18_mm
+   Inst M31 m31 n_18_mm
+   Inst M29 m29 n_18_mm
+   Inst M27 m27 n_18_mm
+   Inst M26 m26 n_18_mm
+   Inst M16 m16 p_18_mm
+End Cell
+
+Cell #top#
+   Pin clk clk
+   Pin Cs_b0 cs_b0
+   Pin Cs_b1 cs_b1
+   Pin Cs_b2 cs_b2
+   Pin Cs_b3 cs_b3
+   Pin Cs_b4 cs_b4
+   Pin hold hold
+   Pin rst rst
+   Pin sgn sgn
+   Pin Vi+ vi+
+   Pin Vi- vi-
+   Pin Vicm vicm
+   Pin Vocm vocm
+   Net N$505 n$505
+   Net Vin+ vin+
+   Net Vin- vin-
+   Net Vref vref
+   Net Vo+ vo+
+   Net Vo- vo-
+   Net N$504 n$504
+   Net N$378 n$378
+   Net out_s out_s
+   Net phi1e phi1e
+   Net phi2e phi2e
+   Net N$374 n$374
+   Net rst_f rst_f
+   Net N$351 n$351
+   Net hold_b hold_b
+   Net phi2 phi2
+   Net N$346 n$346
+   Net rst_b rst_b
+   Net phi1 phi1
+   Net phi2_hold phi2_hold
+   Net N$343 n$343
+   Net N$319 n$319
+   Net N$318 n$318
+   Net I2 i2
+   Net N$323 n$323
+   Net I1 i1
+   Net N$173 n$173
+   Net I3 i3
+   Net N$170 n$170
+   Net N$167 n$167
+   Net N$165 n$165
+   Net Vo-_buffered vo-_buffered
+   Net Vo+_buffered vo+_buffered
+   Net Vo_buffered vo_buffered
+   Net Vo vo
+   Net N$164 n$164
+   Net N$7 n$7
+   Net Vocm vocm
+   Net Vi- vi-
+   Net Vi+ vi+
+   Net Vicm vicm
+   Net sgn sgn
+   Net clk clk
+   Net hold hold
+   Net rst rst
+   Net Cs_b0 cs_b0
+   Net Cs_b1 cs_b1
+   Net Cs_b2 cs_b2
+   Net Cs_b3 cs_b3
+   Net Cs_b4 cs_b4
+   Global AVdd avdd
+   Global SCF_VDD scf_vdd
+   Global ground ground
+   Inst PHASE_GEN_INV_X43 x_phase_gen_inv_x43 phase_gen_inv_x4
+   Inst E2 e2 vcvs
+   Inst V2 v2 dc_v_source
+   Inst BUFFER3 x_buffer3 buffer
+   Inst V5 v5 pwl_v_source
+   Inst C6 xc6 mimcaps_mm
+   Inst C5 xc5 mimcaps_mm
+   Inst V10 v10 dc_v_source
+   Inst M15 m15 n_18_mm
+   Inst PHASE_GEN1 x_phase_gen1 phase_gen
+   Inst PHASE_GEN_INV_X82 x_phase_gen_inv_x82 phase_gen_inv_x8
+   Inst SCF_SWITCH_X12 x_scf_switch_x12 scf_switch_x1
+   Inst S2D1 x_s2d1 s2d
+   Inst CAP_ARRAY2 x_cap_array2 cap_array
+   Inst PHASE_GEN_NAND_X41 x_phase_gen_nand_x41 phase_gen_nand_x4
+   Inst SCF_SWITCH_X15 x_scf_switch_x15 scf_switch_x1
+   Inst SCF_SWITCH_X14 x_scf_switch_x14 scf_switch_x1
+   Inst PHASE_GEN_INV_X44 x_phase_gen_inv_x44 phase_gen_inv_x4
+   Inst V6 v6 dc_v_source
+   Inst V4 v4 dc_v_source
+   Inst C2 c2 ideal_capacitor
+   Inst SCF_SWITCH_X165 x_scf_switch_x165 scf_switch_x16
+   Inst SCF_SWITCH_X164 x_scf_switch_x164 scf_switch_x16
+   Inst M2 m2 n_18_mm
+   Inst SCF_SWITCH_X162 x_scf_switch_x162 scf_switch_x16
+   Inst SCF_SWITCH_X161 x_scf_switch_x161 scf_switch_x16
+   Inst V7 v7 pulse_v_source
+   Inst PHASE_GEN_NAND_X42 x_phase_gen_nand_x42 phase_gen_nand_x4
+   Inst V15 v15 dc_v_source
+   Inst V14 v14 dc_v_source
+   Inst SCF_SWITCH_X163 x_scf_switch_x163 scf_switch_x16
+   Inst M1 m1 n_18_mm
+   Inst V13 v13 dc_v_source
+   Inst V12 v12 dc_v_source
+   Inst V11 v11 dc_v_source
+   Inst C1 c1 ideal_capacitor
+   Inst M13 m13 n_18_mm
+   Inst SCF_MUX_X43 x_scf_mux_x43 scf_mux_x4
+   Inst V3 v3 pwl_v_source
+   Inst V1 v1 dc_v_source
+   Inst PHASE_GEN_NAND_X11 x_phase_gen_nand_x11 phase_gen_nand_x1
+   Inst SCF_SWITCH_X16 x_scf_switch_x16 scf_switch_x1
+   Inst M4 m4 n_18_mm
+   Inst M3 m3 n_18_mm
+   Inst BUFFER4 x_buffer4 buffer
+   Inst SCF_SWITCH_X11 x_scf_switch_x11 scf_switch_x1
+   Inst BGR1 x_bgr1 bgr
+   Inst PHASE_GEN_INV_X41 x_phase_gen_inv_x41 phase_gen_inv_x4
+   Inst PHASE_GEN_INV_X81 x_phase_gen_inv_x81 phase_gen_inv_x8
+   Inst CAP_ARRAY1 x_cap_array1 cap_array
+   Inst V8 v8 pwl_v_source
+   Inst SCF_SWITCH_X13 x_scf_switch_x13 scf_switch_x1
+   Inst SCF_MUX_X44 x_scf_mux_x44 scf_mux_x4
+   Inst V9 v9 dc_v_source
+   Inst SCF_SWITCH_X166 x_scf_switch_x166 scf_switch_x16
+   Inst BIAS1 x_bias1 bias
+   Inst E1 e1 vcvs
+   Inst C4 xc4 mimcaps_mm
+   Inst C3 xc3 mimcaps_mm
+   Inst SCF_MUX_X162 x_scf_mux_x162 scf_mux_x16
+   Inst SCF_MUX_X161 x_scf_mux_x161 scf_mux_x16
+   Inst SCF_OTA1 x_scf_ota1 scf_ota
+End Cell
+

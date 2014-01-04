@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 527827d74a47.03.7f.00.00.01.00.1d.85 16 2 1 0
+V v 14 1 52784c18de8e.03.7f.00.00.01.00.2a.3a
+F o 0 ""
+V v 15 1 52784c8a65bc.03.7f.00.00.01.00.2a.3a
+F o 0 ""
+V v 16 1 5278f2fa0df2.03.7f.00.00.01.00.2a.3a
+F o 0 ""
+O 16
+R cspuv 0 "$AnalogIP/default.group/logic.views/folded_180/schematic/sheet1" 16 mgc_sheet 5278f2fa0dbd.03.7f.00.00.01.00.2a.3a 527827d74ab3.03.7f.00.00.01.00.1d.85
+O 15
+R cspuv 0 "$AnalogIP/default.group/logic.views/folded_180/schematic/sheet1" 15 mgc_sheet 52784c8a659a.03.7f.00.00.01.00.2a.3a 527827d74ab3.03.7f.00.00.01.00.1d.85
+O 14
+R cspuv 0 "$AnalogIP/default.group/logic.views/folded_180/schematic/sheet1" 14 mgc_sheet 52784c18de56.03.7f.00.00.01.00.2a.3a 527827d74ab3.03.7f.00.00.01.00.1d.85

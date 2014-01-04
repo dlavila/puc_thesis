@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 5276e87adc5b.03.7f.00.00.01.00.20.13 90 2 1 0
+V v 88 1 5277d046ebc7.03.7f.00.00.01.00.1d.85
+F o 0 ""
+V v 89 1 5277d0cdd37f.03.7f.00.00.01.00.1d.85
+F o 0 ""
+V v 90 1 5277d1601dcb.03.7f.00.00.01.00.1d.85
+F o 0 ""
+O 90
+R cspuv 0 "$AnalogIP/default.group/logic.views/folded/schematic/sheet1" 89 mgc_sheet 5277d1601d73.03.7f.00.00.01.00.1d.85 5276e87add3a.03.7f.00.00.01.00.20.13
+O 89
+R cspuv 0 "$AnalogIP/default.group/logic.views/folded/schematic/sheet1" 88 mgc_sheet 5277d0cdd351.03.7f.00.00.01.00.1d.85 5276e87add3a.03.7f.00.00.01.00.20.13
+O 88
+R cspuv 0 "$AnalogIP/default.group/logic.views/folded/schematic/sheet1" 87 mgc_sheet 5277d046eb8c.03.7f.00.00.01.00.1d.85 5276e87add3a.03.7f.00.00.01.00.20.13

@@ -1,0 +1,6 @@
+A 5 u Eddm_ba_mgr 52b1e73a6ccb.03.7f.00.00.01.00.15.55 1 2 1 0
+V v 1 1 5283ec791a55.03.7f.00.00.01.01.48.cb
+F f 1 "eldonet.ba_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$OLD_STUFF/default.group/logic.views/PAR_BUFFER/eldonet" 1 Eddm_design_viewpoint 5283ec791963.03.7f.00.00.01.00.48.cb 52b1e73a6c7b.03.7f.00.00.01.00.15.55

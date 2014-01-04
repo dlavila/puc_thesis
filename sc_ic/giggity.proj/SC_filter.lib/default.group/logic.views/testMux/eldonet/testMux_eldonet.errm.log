@@ -1,0 +1,6 @@
+START report: Thu Nov  7 15:54:24 2013 
+Warning: (eldo - 406)  In file "/usr/local/mentor/UMC180PDK/models/ELDO/include_all" line 1:
++   COMMAND .LIB cannot find corner tt in library /usr/local/mentor/UMC180PDK/models/ELDO/018-rf-v2d4-control.eldo
+Warning: (eldo - 1615)  In file "./testMux_eldonet.cir" line 16:
++   COMMAND ".TRAN": Tstep can not be <= 0.0.
++   It is set to Tmax/20.0 = 5.000e-07 s.

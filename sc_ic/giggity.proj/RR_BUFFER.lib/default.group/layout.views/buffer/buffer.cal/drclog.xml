@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<drc_log>
+<comment>
+This file was automatically created. Please do not hand edit.
+</comment>
+ username="dlavila"
+ datestamp="Mon Nov 18 17:41:27 2013
+"
+<version version="2"/>
+<rve_log runset_name="/dev/null" timestamp="1384807287" drc_file="$RR_BUFFER/default.group/layout.views/buffer/buffer.cal/buffer.drc.results" ll_areax="0" ll_areay="0" ur_areax="0" ur_areay="0" check_area="off" drc_summary_file="drc.summary"/>
+</drc_log>

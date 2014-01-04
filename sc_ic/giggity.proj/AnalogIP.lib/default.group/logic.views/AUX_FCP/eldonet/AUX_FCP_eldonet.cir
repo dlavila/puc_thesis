@@ -1,0 +1,19 @@
+* Component: $AnalogIP/default.group/logic.views/AUX_FCP  Viewpoint: eldonet
+.INCLUDE $AnalogIP/default.group/logic.views/AUX_FCP/eldonet/AUX_FCP_eldonet.spi
+.INCLUDE $MGC_DESIGN_KIT/models/ELDO/include_all
+.PROBE VX
+
+
+
+
+.OPTION NOASCII
+.OPTION MODWL
+.OPTION ENGNOT
+.OPTION AEX
+
+.TEMP 27 
+.PARAM WN=2u 
+.PARAM Wp=2u 
+
+.AC dec 10 1 10gig
+

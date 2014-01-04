@@ -1,13 +1,13 @@
-A 5 u mgc_schematic 525325be08e9.03.7f.00.00.01.00.0d.e9 116 2 1 0
-V v 114 1 526989c1d5f0.03.7f.00.00.01.00.69.55
-F o 0 ""
+A 5 u mgc_schematic 525325be08e9.03.7f.00.00.01.00.0d.e9 117 2 1 0
 V v 115 1 52698d9f9a8e.03.7f.00.00.01.00.69.55
 F o 0 ""
 V v 116 1 526999d4ad58.03.7f.00.00.01.00.18.76
 F o 0 ""
+V v 117 1 527900749185.03.7f.00.00.01.00.5e.90
+F o 0 ""
+O 117
+R cspuv 0 "$AnalogIP/default.group/logic.views/RFC_bias/schematic/sheet1" 116 mgc_sheet 52790074909d.03.7f.00.00.01.00.5e.90 525325be0a12.03.7f.00.00.01.00.0d.e9
 O 116
 R cspuv 0 "$AnalogIP/default.group/logic.views/RFC_bias/schematic/sheet1" 115 mgc_sheet 526999d4ad22.03.7f.00.00.01.00.18.76 525325be0a12.03.7f.00.00.01.00.0d.e9
 O 115
 R cspuv 0 "$AnalogIP/default.group/logic.views/RFC_bias/schematic/sheet1" 114 mgc_sheet 52698d9f9a6f.03.7f.00.00.01.00.69.55 525325be0a12.03.7f.00.00.01.00.0d.e9
-O 114
-R cspuv 0 "$AnalogIP/default.group/logic.views/RFC_bias/schematic/sheet1" 113 mgc_sheet 526989c1d5d1.03.7f.00.00.01.00.69.55 525325be0a12.03.7f.00.00.01.00.0d.e9

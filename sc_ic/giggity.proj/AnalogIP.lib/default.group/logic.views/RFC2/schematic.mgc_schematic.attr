@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 527900a53423.03.7f.00.00.01.00.6d.93 13 2 1 0
+V v 11 1 527916ff229c.03.7f.00.00.01.00.77.c6
+F o 0 ""
+V v 12 1 5279175d3b96.03.7f.00.00.01.00.77.c6
+F o 0 ""
+V v 13 1 527917ae516b.03.7f.00.00.01.00.77.c6
+F o 0 ""
+O 13
+R cspuv 0 "$AnalogIP/default.group/logic.views/RFC2/schematic/sheet1" 12 mgc_sheet 527917ae5086.03.7f.00.00.01.00.77.c6 527900a53563.03.7f.00.00.01.00.6d.93
+O 12
+R cspuv 0 "$AnalogIP/default.group/logic.views/RFC2/schematic/sheet1" 11 mgc_sheet 5279175d3b7b.03.7f.00.00.01.00.77.c6 527900a53563.03.7f.00.00.01.00.6d.93
+O 11
+R cspuv 0 "$AnalogIP/default.group/logic.views/RFC2/schematic/sheet1" 10 mgc_sheet 527916ff226d.03.7f.00.00.01.00.77.c6 527900a53563.03.7f.00.00.01.00.6d.93

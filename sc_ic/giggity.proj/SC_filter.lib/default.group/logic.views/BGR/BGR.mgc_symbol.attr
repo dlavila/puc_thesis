@@ -1,0 +1,13 @@
+A 5 u mgc_symbol 52b0bb8b8060.03.7f.00.00.01.00.45.0b 5 2 1 0
+V v 3 1 52b0bb92e7d6.03.7f.00.00.01.00.45.0b
+F f 3 "BGR.smbl_3"
+V v 4 1 52b0bb931c59.03.7f.00.00.01.00.45.0b
+F f 4 "BGR.smbl_4"
+V v 5 1 52b0bb9377e2.03.7f.00.00.01.00.45.0b
+F f 5 "BGR.smbl_5"
+O 5
+R csduv 0 "$SC_filter/default.group/logic.views/BGR/part" 2 Eddm_part 52b0bb8b81af.03.7f.00.00.01.00.45.0b 52b0bb799194.03.7f.00.00.01.00.45.0b
+O 4
+R csduv 0 "$SC_filter/default.group/logic.views/BGR/part" 2 Eddm_part 52b0bb8b81af.03.7f.00.00.01.00.45.0b 52b0bb799194.03.7f.00.00.01.00.45.0b
+O 3
+R csduv 0 "$SC_filter/default.group/logic.views/BGR/part" 2 Eddm_part 52b0bb8b81af.03.7f.00.00.01.00.45.0b 52b0bb799194.03.7f.00.00.01.00.45.0b

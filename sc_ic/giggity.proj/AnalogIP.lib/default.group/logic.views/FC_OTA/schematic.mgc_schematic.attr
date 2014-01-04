@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 527006133233.03.7f.00.00.01.00.69.8a 9 2 1 0
+V v 7 1 5270091b1b2f.03.7f.00.00.01.00.69.8a
+F o 0 ""
+V v 8 1 5270093a108c.03.7f.00.00.01.00.69.8a
+F o 0 ""
+V v 9 1 52700968a4b1.03.7f.00.00.01.00.69.8a
+F o 0 ""
+O 9
+R cspuv 0 "$AnalogIP/default.group/logic.views/FC_OTA/schematic/sheet1" 8 mgc_sheet 52700968a49a.03.7f.00.00.01.00.69.8a 5270061332eb.03.7f.00.00.01.00.69.8a
+O 8
+R cspuv 0 "$AnalogIP/default.group/logic.views/FC_OTA/schematic/sheet1" 7 mgc_sheet 5270093a1078.03.7f.00.00.01.00.69.8a 5270061332eb.03.7f.00.00.01.00.69.8a
+O 7
+R cspuv 0 "$AnalogIP/default.group/logic.views/FC_OTA/schematic/sheet1" 6 mgc_sheet 5270091b1a78.03.7f.00.00.01.00.69.8a 5270061332eb.03.7f.00.00.01.00.69.8a

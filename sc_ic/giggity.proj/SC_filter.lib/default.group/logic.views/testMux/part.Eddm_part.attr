@@ -1,0 +1,6 @@
+A 5 u Eddm_part 527bde4220d9.03.7f.00.00.01.00.68.61 1 2 1 0
+V v 1 1 527bde4220d9.03.7f.00.00.01.01.68.61
+F f 1 "part.part_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/testMux/schematic" 1 mgc_schematic 527bdcda5b2e.03.7f.00.00.01.01.68.61 527bdcda5b2e.03.7f.00.00.01.00.68.61

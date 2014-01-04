@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 525db2d49333.03.7f.00.00.01.00.18.75 6 2 1 0
+V v 4 1 525db380c9fe.03.7f.00.00.01.00.1a.cf
+F o 0 ""
+V v 5 1 525db39160a5.03.7f.00.00.01.00.1a.cf
+F o 0 ""
+V v 6 1 525db8bca21b.03.7f.00.00.01.00.1e.e4
+F o 0 ""
+O 6
+R cspuv 0 "$AnalogIP/default.group/logic.views/testCommonCentroid/schematic/sheet1" 5 mgc_sheet 525db8bca1fd.03.7f.00.00.01.00.1e.e4 525db2d493ea.03.7f.00.00.01.00.18.75
+O 5
+R cspuv 0 "$AnalogIP/default.group/logic.views/testCommonCentroid/schematic/sheet1" 4 mgc_sheet 525db3916085.03.7f.00.00.01.00.1a.cf 525db2d493ea.03.7f.00.00.01.00.18.75
+O 4
+R cspuv 0 "$AnalogIP/default.group/logic.views/testCommonCentroid/schematic/sheet1" 3 mgc_sheet 525db380c9e9.03.7f.00.00.01.00.1a.cf 525db2d493ea.03.7f.00.00.01.00.18.75

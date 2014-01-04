@@ -1,0 +1,69 @@
+*
+* .CONNECT statements
+*
+.CONNECT GROUND 0
+
+
+* ELDO netlist generated with ICnet by 'dlavila' on Fri Nov 15 2013 at 11:51:33
+
+
+*
+* Component pathname : $MGC_DESIGN_KIT/symbols/MIMCAPS_MM [ELDOSPICE]
+*
+*       .include /usr/local/mentor/UMC180PDK/symbols/MIMCAPS_MM/mimcaps_mm
+
+*
+* MAIN CELL: Component pathname : $AnalogIP/default.group/logic.views/buffer
+*
+        M9 N$252 VPCAS N$253 VDD p_18_mm l=0.45u w=32.4u ad=15.876p as=15.876p
++  pd=65.78u ps=65.78u m=1
+        MLN1 N$239 N$252 VSS VSS n_18_mm l=0.45u w=5.8u ad=2.842p as=2.842p
++  pd=12.58u ps=12.58u m=1
+        MIN1 N$234 VI- N$145 VSS n_18_mm l=0.45u w=7.2u ad=3.528p as=3.528p
++  pd=15.38u ps=15.38u m=1
+        MOUTN VO N$258 VSS VSS n_18_mm l=0.45u w=17.3u ad=8.477p as=8.477p
++  pd=35.58u ps=35.58u m=1
+        MOUTP VO N$257 VDD VDD p_18_mm l=0.45u w=97.2u ad=47.628p as=47.628p
++  pd=0.195m ps=0.195m m=1
+        MTAILP2 N$200 VB1 VDD VDD p_18_mm l=0.45u w=64.8u ad=31.752p as=31.752p
++  pd=0.131m ps=0.131m m=1
+        MTAILN1 N$145 VB3 N$162 VSS n_18_mm l=0.45u w=11.6u ad=5.684p as=5.684p
++  pd=24.18u ps=24.18u m=1
+        MTAILN2 N$162 VB4 VSS VSS n_18_mm l=0.45u w=11.6u ad=5.684p as=5.684p
++  pd=24.18u ps=24.18u m=1
+        MCP1 N$253 VB2 N$234 VDD p_18_mm l=0.45u w=32.4u ad=15.876p as=15.876p
++  pd=65.78u ps=65.78u m=1
+        MLN2 N$242 N$252 VSS VSS n_18_mm l=0.45u w=5.8u ad=2.842p as=2.842p
++  pd=12.58u ps=12.58u m=1
+        M8 N$253 VNCAS N$252 VSS n_18_mm l=0.45u w=5.8u ad=2.842p as=2.842p
++  pd=12.58u ps=12.58u m=1
+        MIN2 N$232 VI+ N$145 VSS n_18_mm l=0.45u w=7.2u ad=3.528p as=3.528p
++  pd=15.38u ps=15.38u m=1
+        MCP2 N$257 VB2 N$232 VDD p_18_mm l=0.45u w=32.4u ad=15.876p as=15.876p
++  pd=65.78u ps=65.78u m=1
+        MCN2 N$258 VB3 N$242 VSS n_18_mm l=0.45u w=5.8u ad=2.842p as=2.842p
++  pd=12.58u ps=12.58u m=1
+        MCN1 N$252 VB3 N$239 VSS n_18_mm l=0.45u w=5.8u ad=2.842p as=2.842p
++  pd=12.58u ps=12.58u m=1
+        MIP2 N$242 VI+ N$214 VDD p_18_mm l=0.45u w=32.4u ad=15.876p as=15.876p
++  pd=65.78u ps=65.78u m=1
+        MLP1 N$234 N$253 VDD VDD p_18_mm l=0.45u w=32.4u ad=15.876p as=15.876p
++  pd=65.78u ps=65.78u m=1
+        MZN N$206 N$206 N$145 VSS n_18_mm l=0.45u w=21.6u ad=10.584p as=10.584p
++  pd=44.18u ps=44.18u m=1
+        M11 N$257 VNCAS N$258 VSS n_18_mm l=0.45u w=5.8u ad=2.842p as=2.842p
++  pd=12.58u ps=12.58u m=1
+        M10 N$258 VPCAS N$257 VDD p_18_mm l=0.45u w=32.4u ad=15.876p as=15.876p
++  pd=65.78u ps=65.78u m=1
+        MLP2 N$232 N$253 VDD VDD p_18_mm l=0.45u w=32.4u ad=15.876p as=15.876p
++  pd=65.78u ps=65.78u m=1
+        XC2 VO N$232 mimcaps_mm w=30u l=30u m=1
+        XC1 VO N$242 mimcaps_mm w=30u l=30u m=1
+        MZP N$206 N$206 N$214 VDD p_18_mm l=0.45u w=97.2u ad=47.628p as=47.628p
++  pd=0.195m ps=0.195m m=1
+        MTAILP1 N$214 VB2 N$200 VDD p_18_mm l=0.45u w=64.8u ad=31.752p as=31.752p
++  pd=0.131m ps=0.131m m=1
+        MIP1 N$239 VI- N$214 VDD p_18_mm l=0.45u w=32.4u ad=15.876p as=15.876p
++  pd=65.78u ps=65.78u m=1
+*
+.end

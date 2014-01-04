@@ -1,0 +1,19 @@
+A 5 u Eddm_ba_mgr 526ebcb12845.03.7f.00.00.01.00.43.85 6 2 11 0
+V v 4 1 526ecccfcb9b.03.7f.00.00.01.00.59.3a
+F f 4 "eldonet.ba_4"
+V v 5 1 526eccffe0bd.03.7f.00.00.01.00.59.3a
+F f 5 "eldonet.ba_5"
+V v 6 1 526ecd1bc333.03.7f.00.00.01.00.59.3a
+F f 6 "eldonet.ba_6"
+O 6
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 9 "$AnalogIP/default.group/logic.views/AUX_FCN/eldonet" 35 Eddm_design_viewpoint 526ecd1bc31c.03.7f.00.00.01.00.59.3a 526ebcb12553.03.7f.00.00.01.00.43.85
+R cspuv 10 "$AnalogIP/default.group/logic.views/AUX_FCN/schematic" 18 mgc_schematic 526ecc27c1aa.03.7f.00.00.01.00.59.3a 526eb7f9501a.03.7f.00.00.01.00.40.c8
+O 5
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 7 "$AnalogIP/default.group/logic.views/AUX_FCN/eldonet" 34 Eddm_design_viewpoint 526eccffe09d.03.7f.00.00.01.00.59.3a 526ebcb12553.03.7f.00.00.01.00.43.85
+R cspuv 8 "$AnalogIP/default.group/logic.views/AUX_FCN/schematic" 18 mgc_schematic 526ecc27c1aa.03.7f.00.00.01.00.59.3a 526eb7f9501a.03.7f.00.00.01.00.40.c8
+O 4
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 5 "$AnalogIP/default.group/logic.views/AUX_FCN/eldonet" 33 Eddm_design_viewpoint 526ecccfcb7e.03.7f.00.00.01.00.59.3a 526ebcb12553.03.7f.00.00.01.00.43.85
+R cspuv 6 "$AnalogIP/default.group/logic.views/AUX_FCN/schematic" 18 mgc_schematic 526ecc27c1aa.03.7f.00.00.01.00.59.3a 526eb7f9501a.03.7f.00.00.01.00.40.c8

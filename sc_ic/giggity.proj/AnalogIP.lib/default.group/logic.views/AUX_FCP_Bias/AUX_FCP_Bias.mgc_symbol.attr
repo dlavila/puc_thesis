@@ -1,0 +1,13 @@
+A 5 u mgc_symbol 526ed2d8a435.03.7f.00.00.01.00.7f.34 12 2 1 0
+V v 10 1 526ed72a6da2.03.7f.00.00.01.00.16.b0
+F f 10 "AUX_FCP_Bias.smbl_10"
+V v 11 1 526ed72ad4dc.03.7f.00.00.01.00.16.b0
+F f 11 "AUX_FCP_Bias.smbl_11"
+V v 12 1 526ed72b1da7.03.7f.00.00.01.00.16.b0
+F f 12 "AUX_FCP_Bias.smbl_12"
+O 12
+R csduv 0 "$AnalogIP/default.group/logic.views/AUX_FCP_Bias/part" 8 Eddm_part 526ed72ad4e6.03.7f.00.00.01.00.16.b0 526ed2d1dd2f.03.7f.00.00.01.00.7f.34
+O 11
+R csduv 0 "$AnalogIP/default.group/logic.views/AUX_FCP_Bias/part" 8 Eddm_part 526ed72ad4e6.03.7f.00.00.01.00.16.b0 526ed2d1dd2f.03.7f.00.00.01.00.7f.34
+O 10
+R csduv 0 "$AnalogIP/default.group/logic.views/AUX_FCP_Bias/part" 7 Eddm_part 526ed72a6db3.03.7f.00.00.01.00.16.b0 526ed2d1dd2f.03.7f.00.00.01.00.7f.34

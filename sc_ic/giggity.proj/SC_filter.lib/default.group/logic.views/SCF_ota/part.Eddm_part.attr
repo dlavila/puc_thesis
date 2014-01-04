@@ -1,0 +1,22 @@
+A 5 u Eddm_part 5283e1dd94e4.03.7f.00.00.01.00.18.29 27 2 2 0
+V v 25 1 5294cafb6e4e.03.7f.00.00.01.00.7a.ea
+F f 25 "part.part_25"
+V v 26 1 5294cafb977a.03.7f.00.00.01.00.7a.ea
+F f 26 "part.part_26"
+V v 27 1 5294cafc39a5.03.7f.00.00.01.00.7a.ea
+F f 27 "part.part_27"
+O 27
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/SCF_ota/schematic" 1 mgc_schematic 527a888a05d6.03.7f.00.00.01.01.79.7e 5283e1dd9485.03.7f.00.00.01.00.18.29
+P "eddm__refer_state" "eddm__refer_floating"
+R csduv 1 "$SC_filter/default.group/logic.views/SCF_ota/SCF_ota" 33 mgc_symbol 5294cafc3945.03.7f.00.00.01.00.7a.ea 5283e1dd94a1.03.7f.00.00.01.00.18.29
+O 26
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/SCF_ota/schematic" 1 mgc_schematic 527a888a05d6.03.7f.00.00.01.01.79.7e 5283e1dd9485.03.7f.00.00.01.00.18.29
+P "eddm__refer_state" "eddm__refer_floating"
+R csduv 1 "$SC_filter/default.group/logic.views/SCF_ota/SCF_ota" 32 mgc_symbol 5294cafb9771.03.7f.00.00.01.00.7a.ea 5283e1dd94a1.03.7f.00.00.01.00.18.29
+O 25
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/SCF_ota/schematic" 1 mgc_schematic 527a888a05d6.03.7f.00.00.01.01.79.7e 5283e1dd9485.03.7f.00.00.01.00.18.29
+P "eddm__refer_state" "eddm__refer_floating"
+R csduv 1 "$SC_filter/default.group/logic.views/SCF_ota/SCF_ota" 31 mgc_symbol 5294cafb6e44.03.7f.00.00.01.00.7a.ea 5283e1dd94a1.03.7f.00.00.01.00.18.29

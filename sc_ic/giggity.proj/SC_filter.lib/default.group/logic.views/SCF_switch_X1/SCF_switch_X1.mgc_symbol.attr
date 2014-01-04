@@ -1,0 +1,13 @@
+A 5 u mgc_symbol 5294bbe12690.03.7f.00.00.01.00.7f.2d 26 2 1 0
+V v 24 1 5294ba8aa188.03.7f.00.00.01.00.70.4f
+F f 24 "SCF_switch_X1.smbl_24"
+V v 25 1 5294ba8ad6ad.03.7f.00.00.01.00.70.4f
+F f 25 "SCF_switch_X1.smbl_25"
+V v 26 1 5294ba8b0f0f.03.7f.00.00.01.00.70.4f
+F f 26 "SCF_switch_X1.smbl_26"
+O 26
+R csduv 0 "$SC_filter/default.group/logic.views/SCF_switch_X1/part" 20 Eddm_part 5294ba4ceae8.03.7f.00.00.01.00.70.4f 5294bbe126b2.03.7f.00.00.01.00.7f.2d
+O 25
+R csduv 0 "$SC_filter/default.group/logic.views/SCF_switch_X1/part" 20 Eddm_part 5294ba4ceae8.03.7f.00.00.01.00.70.4f 5294bbe126b2.03.7f.00.00.01.00.7f.2d
+O 24
+R csduv 0 "$SC_filter/default.group/logic.views/SCF_switch_X1/part" 20 Eddm_part 5294ba4ceae8.03.7f.00.00.01.00.70.4f 5294bbe126b2.03.7f.00.00.01.00.7f.2d

@@ -1,0 +1,179 @@
+*
+* .CONNECT statements
+*
+.CONNECT GROUND 0
+
+
+* ELDO netlist generated with ICnet by 'dlavila' on Thu Nov 21 2013 at 17:39:50
+
+*
+* Globals.
+*
+.global SCF_VDD GROUND
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/s2d
+*
+.subckt S2D  VD+ VD- VICM VID VSS
+
+        E3 N$2 VSS Vicm Vss 1
+        E2 VD- N$2 Vss Vid 0.5
+        E1 VD+ N$2 Vid Vss 0.5
+.ends S2D
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/CLK_GEN_inv2
+*
+.subckt CLK_GEN_INV2  O I
+
+        M4 O I GROUND GROUND n_18_mm l=0.18u w=1u ad=0.27p as=0.38p pd=1.54u
++  ps=2.26u m=4
+        M2 O I SCF_VDD SCF_VDD p_18_mm l=0.18u w=3u ad=0.81p as=1.14p pd=3.54u
++  ps=5.26u m=4
+.ends CLK_GEN_INV2
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/CLK_GEN_inv1
+*
+.subckt CLK_GEN_INV1  O I
+
+        M4 O I GROUND GROUND n_18_mm l=0.18u w=1u ad=0.49p as=0.49p pd=2.98u
++  ps=2.98u m=1
+        M2 O I SCF_VDD SCF_VDD p_18_mm l=0.18u w=3u ad=1.47p as=1.47p pd=6.98u
++  ps=6.98u m=1
+.ends CLK_GEN_INV1
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/CLK_GEN_nand
+*
+.subckt CLK_GEN_NAND  O A B
+
+        M3 N$52 B GROUND GROUND n_18_mm l=0.18u w=1u ad=0.49p as=0.49p pd=2.98u
++  ps=2.98u m=1
+        M1 O A SCF_VDD SCF_VDD p_18_mm l=0.18u w=3u ad=1.47p as=1.47p pd=6.98u
++  ps=6.98u m=1
+        M2 O B SCF_VDD SCF_VDD p_18_mm l=0.18u w=3u ad=1.47p as=1.47p pd=6.98u
++  ps=6.98u m=1
+        M4 O A N$52 GROUND n_18_mm l=0.18u w=1u ad=0.49p as=0.49p pd=2.98u
++  ps=2.98u m=1
+.ends CLK_GEN_NAND
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/CLK_gen
+*
+.subckt CLK_GEN  PHI1 PHI1E PHI2 PHI2E CLK
+
+        X_CLK_GEN_INV24 PHI2E N$96 CLK_GEN_INV2
+        X_CLK_GEN_INV23 PHI2 N$107 CLK_GEN_INV2
+        X_CLK_GEN_INV22 PHI1 N$108 CLK_GEN_INV2
+        X_CLK_GEN_INV21 PHI1E N$97 CLK_GEN_INV2
+        X_CLK_GEN_INV19 N$106 N$105 CLK_GEN_INV1
+        X_CLK_GEN_INV18 N$105 N$104 CLK_GEN_INV1
+        X_CLK_GEN_INV17 N$104 N$100 CLK_GEN_INV1
+        X_CLK_GEN_INV16 N$103 N$98 CLK_GEN_INV1
+        X_CLK_GEN_INV15 N$102 CLK CLK_GEN_INV1
+        X_CLK_GEN_INV13 N$99 N$95 CLK_GEN_INV1
+        X_CLK_GEN_INV12 N$98 N$61 CLK_GEN_INV1
+        X_CLK_GEN_INV11 N$61 N$9 CLK_GEN_INV1
+        X_CLK_GEN_INV113 N$110 N$103 CLK_GEN_INV1
+        X_CLK_GEN_INV112 N$109 N$110 CLK_GEN_INV1
+        X_CLK_GEN_INV111 N$108 N$109 CLK_GEN_INV1
+        X_CLK_GEN_INV110 N$107 N$106 CLK_GEN_INV1
+        X_CLK_GEN_INV14 N$100 N$99 CLK_GEN_INV1
+        X_CLK_GEN_NAND2 N$95 N$102 N$98 CLK_GEN_NAND
+        X_CLK_GEN_NAND3 N$96 N$104 N$106 CLK_GEN_NAND
+        X_CLK_GEN_NAND1 N$9 CLK N$100 CLK_GEN_NAND
+        X_CLK_GEN_NAND4 N$97 N$103 N$109 CLK_GEN_NAND
+.ends CLK_GEN
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/SCF_ota
+*
+.subckt SCF_OTA  VO+ VO- IREF PHI1 PHI2 VI+ VI- VOCM
+
+        M10 N$249 CMFB SCF_VDD SCF_VDD p_18_mm l=1u w=4u ad=1.08p as=1.3p
++  pd=4.54u ps=5.65u m=8
+        M20 VB2 VB2 VB1 SCF_VDD p_18_mm l=0.3u w=2u ad=0.54p as=0.76p pd=2.54u
++  ps=3.76u m=4
+        M22 VB1 VB1 SCF_VDD SCF_VDD p_18_mm l=1u w=4u ad=1.08p as=1.52p
++  pd=4.54u ps=6.76u m=4
+        M11 N$559 VB3 N$19 GROUND n_18_mm l=0.18u w=1u ad=0.27p as=0.49p
++  pd=1.54u ps=2.98u m=2
+        M21 VB3 VB3 VB4 GROUND n_18_mm l=0.45u w=2u ad=0.54p as=0.98p pd=2.54u
++  ps=4.98u m=2
+        M15 IREF IREF SCF_VDD SCF_VDD p_18_mm l=0.5u w=8u ad=3.92p as=3.92p
++  pd=16.98u ps=16.98u m=1
+        M19 VB4 VB4 GROUND GROUND n_18_mm l=0.45u w=2u ad=0.98p as=0.98p
++  pd=4.98u ps=4.98u m=1
+        M0 N$434 IREF SCF_VDD SCF_VDD p_18_mm l=0.5u w=8u ad=2.16p as=2.6p
++  pd=8.54u ps=10.65u m=8
+        M3 VO- VB3 N$348 GROUND n_18_mm l=0.45u w=2u ad=0.54p as=0.76p pd=2.54u
++  ps=3.76u m=4
+        M9 N$334 CMFB SCF_VDD SCF_VDD p_18_mm l=1u w=4u ad=1.08p as=1.3p
++  pd=4.54u ps=5.65u m=8
+        M13 N$348 N$559 GROUND GROUND n_18_mm l=0.45u w=2u ad=0.54p as=0.76p
++  pd=2.54u ps=3.76u m=4
+        M12 N$64 N$542 GROUND GROUND n_18_mm l=0.45u w=2u ad=0.54p as=0.98p
++  pd=2.54u ps=4.98u m=2
+        M24 N$80 N$80 GROUND GROUND n_18_mm l=0.5u w=2u ad=0.54p as=0.76p
++  pd=2.54u ps=3.76u m=4
+        M2 N$559 VI- N$434 VDD p_18_mm l=0.36u w=6u ad=1.62p as=1.95p pd=6.54u
++  ps=8.15u m=8
+        M16 VB3 IREF SCF_VDD SCF_VDD p_18_mm l=0.5u w=4u ad=1.96p as=1.96p
++  pd=8.98u ps=8.98u m=1
+        M4 N$542 VB3 N$64 GROUND n_18_mm l=0.18u w=1u ad=0.27p as=0.49p
++  pd=1.54u ps=2.98u m=2
+        M6 N$503 VI- N$434 VDD p_18_mm l=0.36u w=6u ad=1.62p as=1.95p pd=6.54u
++  ps=8.15u m=8
+        M1A N$348 VI+ N$434 VDD p_18_mm l=0.36u w=6u ad=1.62p as=1.95p pd=6.54u
++  ps=8.15u m=8
+        M1 N$542 VI+ N$434 VDD p_18_mm l=0.36u w=6u ad=1.62p as=1.95p pd=6.54u
++  ps=8.15u m=8
+        M5 VO+ VB3 N$503 GROUND n_18_mm l=0.45u w=2u ad=0.54p as=0.76p pd=2.54u
++  ps=3.76u m=4
+        M18 VB2 N$80 GROUND GROUND n_18_mm l=0.5u w=2u ad=0.54p as=0.76p
++  pd=2.54u ps=3.76u m=4
+        M8 VO+ VB2 N$249 SCF_VDD p_18_mm l=0.3u w=2u ad=0.54p as=0.65p pd=2.54u
++  ps=3.15u m=8
+        M17 N$80 IREF SCF_VDD SCF_VDD p_18_mm l=0.5u w=4u ad=1.96p as=1.96p
++  pd=8.98u ps=8.98u m=1
+        M3B N$19 N$559 GROUND GROUND n_18_mm l=0.45u w=2u ad=0.54p as=0.98p
++  pd=2.54u ps=4.98u m=2
+        E7 SCF_VDD CMFB N$393 VOCM -30
+        E6 N$392 GROUND Vo- 0 0.5
+        M14 N$503 N$542 GROUND GROUND n_18_mm l=0.45u w=2u ad=0.54p as=0.76p
++  pd=2.54u ps=3.76u m=4
+        E5 N$393 N$392 Vo+ 0 0.5
+        M7 VO- VB2 N$334 SCF_VDD p_18_mm l=0.3u w=2u ad=0.54p as=0.65p pd=2.54u
++  ps=3.15u m=8
+.ends SCF_OTA
+
+*
+* MAIN CELL: Component pathname : $SC_filter/default.group/logic.views/testOTA
+*
+        I1 N$19 GROUND DC 25u
+        C2 N$53 N$96 1P
+        C5 N$91 N$53 1P
+        C8 N$111 N$112 1P
+        R7 N$71 N$88 100gig
+        R8 N$85 N$90 100gig
+        C9 N$85 N$90 0.25P
+        V4 N$53 GROUND DC 0.9
+        E1 VO GROUND N$96 N$91 1
+        V6 N$7 GROUND DC 0.9
+        X_S2D2 N$81 N$86 N$7 N$8 GROUND S2D
+        V3 SCF_VDD GROUND DC 1.8V
+        C1 N$109 N$110 1P
+        R2 N$111 N$112 100gig
+        R1 N$109 N$110 100gig
+        C10 N$71 N$88 0.25P
+        V7 N$103 GROUND PULSE ( 0V 1.8V 10nS 0.01nS 0.01nS 10nS 20nS )
+        X_CLK_GEN1 PHI2 PHI2E PHI1 PHI1E N$103 CLK_GEN
+        X_SCF_OTA1 N$96 N$91 N$19 PHI2 PHI1 N$86 N$81 N$53 SCF_OTA
+        V1 N$8 GROUND DC 0V AC 1 0
+        R6 N$90 N$86 200
+        R5 N$88 N$81 200
+        R4 N$86 N$85 200
+        R3 N$81 N$71 200
+*
+.end

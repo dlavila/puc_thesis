@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 526ed200703c.03.7f.00.00.01.00.7f.34 5 2 1 0
+V v 3 1 526ed2d1dee9.03.7f.00.00.01.00.7f.34
+F o 0 ""
+V v 4 1 526ed35765f5.03.7f.00.00.01.00.7f.34
+F o 0 ""
+V v 5 1 526ed35816ff.03.7f.00.00.01.00.7f.34
+F o 0 ""
+O 5
+R cspuv 0 "$AnalogIP/default.group/logic.views/AUX_FCP_Bias/schematic/sheet1" 4 mgc_sheet 526ed35816ea.03.7f.00.00.01.00.7f.34 526ed2007092.03.7f.00.00.01.00.7f.34
+O 4
+R cspuv 0 "$AnalogIP/default.group/logic.views/AUX_FCP_Bias/schematic/sheet1" 3 mgc_sheet 526ed35765de.03.7f.00.00.01.00.7f.34 526ed2007092.03.7f.00.00.01.00.7f.34
+O 3
+R cspuv 0 "$AnalogIP/default.group/logic.views/AUX_FCP_Bias/schematic/sheet1" 2 mgc_sheet 526ed2d1debd.03.7f.00.00.01.00.7f.34 526ed2007092.03.7f.00.00.01.00.7f.34

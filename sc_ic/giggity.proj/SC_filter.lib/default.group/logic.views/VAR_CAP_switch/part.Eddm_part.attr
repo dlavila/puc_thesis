@@ -1,0 +1,22 @@
+A 5 u Eddm_part 5283b4e13a11.03.7f.00.00.01.00.18.29 14 2 2 0
+V v 12 1 527ae7b3e011.03.7f.00.00.01.00.34.5d
+F f 12 "part.part_12"
+V v 13 1 527be49a8c35.03.7f.00.00.01.00.7f.a3
+F f 13 "part.part_13"
+V v 14 1 5283b4e2ab42.03.7f.00.00.01.00.32.2b
+F f 14 "part.part_14"
+O 14
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/VAR_CAP_switch/schematic" 1 mgc_schematic 527ade06aea4.03.7f.00.00.01.01.26.40 5283b4e139eb.03.7f.00.00.01.00.18.29
+P "eddm__refer_state" "eddm__refer_floating"
+R csduv 1 "$SC_filter/default.group/logic.views/VAR_CAP_switch/VAR_CAP_switch" 13 mgc_symbol 527ae7b3e008.03.7f.00.00.01.00.34.5d 5283b4e13a18.03.7f.00.00.01.00.18.29
+O 13
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/VAR_CAP_switch/schematic" 1 mgc_schematic 527ade06aea4.03.7f.00.00.01.01.26.40 5283b4e139eb.03.7f.00.00.01.00.18.29
+P "eddm__refer_state" "eddm__refer_floating"
+R csduv 1 "$SC_filter/default.group/logic.views/VAR_CAP_switch/VAR_CAP_switch" 13 mgc_symbol 527ae7b3e008.03.7f.00.00.01.00.34.5d 5283b4e13a18.03.7f.00.00.01.00.18.29
+O 12
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/VAR_CAP_switch/schematic" 1 mgc_schematic 527ade06aea4.03.7f.00.00.01.01.26.40 5283b4e139eb.03.7f.00.00.01.00.18.29
+P "eddm__refer_state" "eddm__refer_floating"
+R csduv 1 "$SC_filter/default.group/logic.views/VAR_CAP_switch/VAR_CAP_switch" 13 mgc_symbol 527ae7b3e008.03.7f.00.00.01.00.34.5d 5283b4e13a18.03.7f.00.00.01.00.18.29

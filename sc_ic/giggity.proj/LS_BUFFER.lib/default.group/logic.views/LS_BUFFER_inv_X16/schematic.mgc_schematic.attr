@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 52ab4a320d3c.03.7f.00.00.01.00.11.d3 11 2 1 0
+V v 9 1 52963be1634f.03.7f.00.00.01.00.71.6f
+F o 0 ""
+V v 10 1 52963be19254.03.7f.00.00.01.00.71.6f
+F o 0 ""
+V v 11 1 52963be2031a.03.7f.00.00.01.00.71.6f
+F o 0 ""
+O 11
+R cspuv 0 "$LS_BUFFER/default.group/logic.views/LS_BUFFER_inv_X16/schematic/sheet1" 10 mgc_sheet 52963be20307.03.7f.00.00.01.00.71.6f 52ab4a320d4e.03.7f.00.00.01.00.11.d3
+O 10
+R cspuv 0 "$LS_BUFFER/default.group/logic.views/LS_BUFFER_inv_X16/schematic/sheet1" 9 mgc_sheet 52963be1923b.03.7f.00.00.01.00.71.6f 52ab4a320d4e.03.7f.00.00.01.00.11.d3
+O 9
+R cspuv 0 "$LS_BUFFER/default.group/logic.views/LS_BUFFER_inv_X16/schematic/sheet1" 8 mgc_sheet 52963be16338.03.7f.00.00.01.00.71.6f 52ab4a320d4e.03.7f.00.00.01.00.11.d3

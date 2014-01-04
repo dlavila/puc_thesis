@@ -1,0 +1,7 @@
+START report: Fri Nov 15 11:51:34 2013 
+Warning: (eldo - 406)  In file "/usr/local/mentor/UMC180PDK/models/ELDO/include_all" line 1:
++   COMMAND .LIB cannot find corner tt in library /usr/local/mentor/UMC180PDK/models/ELDO/018-rf-v2d4-control.eldo
+Warning: (eldo - 706)  In file "/usr/local/mentor/UMC180PDK/models/ELDO/MM180_MIMCAP_V101.mdl.eldo" line 9:
++   During the creation of XC2, the parameter W in subckt MIMCAPS_MM is ignored as it is already specified on the instance line.
+Warning: (eldo - 706)  In file "/usr/local/mentor/UMC180PDK/models/ELDO/MM180_MIMCAP_V101.mdl.eldo" line 9:
++   During the creation of XC2, the parameter L in subckt MIMCAPS_MM is ignored as it is already specified on the instance line.

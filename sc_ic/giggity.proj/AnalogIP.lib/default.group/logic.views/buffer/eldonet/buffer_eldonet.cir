@@ -1,0 +1,14 @@
+* Component: $AnalogIP/default.group/logic.views/buffer  Viewpoint: eldonet
+.INCLUDE $AnalogIP/default.group/logic.views/buffer/eldonet/buffer_eldonet.spi
+.INCLUDE $MGC_DESIGN_KIT/models/ELDO/include_all
+
+
+
+
+.OPTION NOASCII
+.OPTION MODWL
+.OPTION ENGNOT
+.OPTION AEX
+
+.TEMP 27 
+

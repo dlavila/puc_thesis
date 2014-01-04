@@ -1,0 +1,83 @@
+# This file provides name mapping information for all objects
+# on the schematic design.  It provides a mapping for each
+# object between its name on the schematic and its name in the netlist.
+version 1.0
+
+Globals
+   ground GROUND
+   VDD VDD
+End Globals
+
+Cell DC_V_SOURCE
+   Pin POS POS
+   Pin NEG NEG
+End Cell
+
+Cell P_18_MM
+   Pin D D
+   Pin G G
+   Pin S S
+   Pin B B
+End Cell
+
+Cell RNHR1000_MM
+   Pin PLUS PLUS
+   Pin MINUS MINUS
+   Pin B B
+End Cell
+
+Cell PNP_V50X50_MM
+   Pin C C
+   Pin B B
+   Pin e E
+End Cell
+
+Cell N_18_MM
+   Pin D D
+   Pin G G
+   Pin S S
+   Pin B B
+End Cell
+
+Cell BGR
+   Pin Vref VREF
+   Pin AGnd AGND
+   Pin AVdd AVDD
+   Net N$10 N$10
+   Net N$8 N$8
+   Net N$7 N$7
+   Net N$6 N$6
+   Net N$5 N$5
+   Net N$3 N$3
+   Net N$2 N$2
+   Net Vref VREF
+   Net AGnd AGND
+   Net AVdd AVDD
+   Inst M20 M20 P_18_MM
+   Inst R6 XR6 RNHR1000_MM
+   Inst R5 XR5 RNHR1000_MM
+   Inst R4 XR4 RNHR1000_MM
+   Inst R3 XR3 RNHR1000_MM
+   Inst M45 M45 P_18_MM
+   Inst Q6 Q6 PNP_V50X50_MM
+   Inst M44 M44 P_18_MM
+   Inst Q5 Q5 PNP_V50X50_MM
+   Inst M43 M43 N_18_MM
+   Inst M42 M42 P_18_MM
+   Inst M41 M41 P_18_MM
+   Inst M40 M40 P_18_MM
+   Inst M39 M39 N_18_MM
+   Inst M38 M38 N_18_MM
+   Inst M37 M37 N_18_MM
+   Inst M36 M36 P_18_MM
+   Inst M35 M35 P_18_MM
+End Cell
+
+Cell #top#
+   Net Vref VREF
+   Global ground GROUND
+   Global VDD VDD
+   Inst V1 V1 DC_V_SOURCE
+   Inst BGR1 X_BGR1 BGR
+End Cell
+

@@ -1,0 +1,153 @@
+Obsolete option -64b ignored
+
+Running eldo on localhost.localdomain
+with Eldo libraries :
+/usr/local/mentor/ams/aol/lib/libeldoudm_64.so
+/usr/local/mentor/ams/aol/lib/libeldomos1_64.so
+/usr/local/mentor/ams/aol/lib/libeldoekv_64.so
+/usr/local/mentor/ams/aol/lib/libeldomosp9_64.so
+/usr/local/mentor/ams/aol/lib/libeldocsem_64.so
+/usr/local/mentor/ams/aol/lib/libeldomos2_64.so
+/usr/local/mentor/ams/aol/lib/libeldomos3_64.so
+/usr/local/mentor/ams/aol/lib/libeldobip_64.so
+/usr/local/mentor/ams/aol/lib/libeldodio_64.so
+/usr/local/mentor/ams/aol/lib/libeldojfet_64.so
+/usr/local/mentor/ams/aol/lib/libeldosoi_64.so
+/usr/local/mentor/ams/aol/lib/libeldomos4_64.so
+/usr/local/mentor/ams/aol/lib/libeldoasitft_64.so
+/usr/local/mentor/ams/aol/lib/libeldohisim_64.so
+/usr/local/mentor/ams/aol/lib/libeldospmod_64.so
+/usr/local/mentor/ams/aol/lib/libeldopsp_64.so
+/usr/local/mentor/ams/aol/lib/libeldomosvar_64.so
+/usr/local/mentor/ams/aol/lib/libeldomoto_64.so
+/usr/local/mentor/ams/aol/lib/libeldost_64.so
+/usr/local/mentor/ams/aol/lib/libeldobnr_64.so
+/usr/local/mentor/ams/aol/lib/libeldorockw_64.so
+/usr/local/mentor/ams/aol/lib/libeldopubhicum_64.so
+/usr/local/mentor/ams/aol/lib/libeldotftsh_64.so
+/usr/local/mentor/ams/aol/lib/libeldobta_64.so
+/usr/local/mentor/ams/aol/lib/libeldofas_64.so
+/usr/local/mentor/ams/aol/lib/libeldofascm_64.so
+/usr/local/mentor/ams/aol/lib/libeldosdsim_64.so
+/usr/local/mentor/ams/aol/lib/libeldowire_64.so
+/usr/local/mentor/ams/aol/lib/libogr_64.so loaded.
+
+
+
+              Software under License 
+       Copyright Mentor Graphics Corporation
+
+
+
+
+***** PRE-PROCESSING ...
+
+
+
+***** ANALYSIS ....
+
+Warning 406: In file "/usr/local/mentor/UMC180PDK/models/ELDO/include_all" line 1:
++   COMMAND .LIB cannot find corner tt in library /usr/local/mentor/UMC180PDK/models/ELDO/018-rf-v2d4-control.eldo
+
+***** 0  error(s). 
+***** 1  warning(s). 
+
+
+
+***** GENERATION ...
+
+
+***** 0  error(s). 
+***** 1  warning(s). 
+
+
+INFORMATION ABOUT COMPILATION...
+
+
+Memory space allocated (bytes): 123441152
+36 elements
+27 nodes
+3 input signals
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE: 28-Oct-2013 18:08:03
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/AUX_FCN  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+Searching Operating Point between -1.800000e+00V and 
+                                  3.600000e+00V
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 010ms <***
+
+DC:39 iterations FOR DC analysis
+N$118         1.0000     
+N$120         0.0000     
+N$614         212.7471M  
+N$616         212.7471M  
+N$619         407.5192M  
+N$677         1.2280     
+N$678         510.6345M  
+N$681         1.2280     
+N$691         146.0242M  
+N$693         1.0656     
+N$695         1.0731     
+N$696         1.0699     
+N$698         160.2391M  
+N$699         157.1688M  
+N$700         33.1875M   
+N$701         1.1633     
+N$704         1.4102     
+N$705         151.0638M  
+VB1           341.9550M  
+VB2           46.8108M   
+VB3           758.6500M  
+VB4           584.3667M  
+VDD           1.8000     
+VI+           1.0000     
+VI-           1.0000     
+VO            510.6345M  
+X_S2D1.N$2    1.0000     
+
+   TOTAL POWER DISSIPATION:  98.7897U    WATTS
+
+Connecting to JWDB server, please wait...
+connected to wdb server : -jwdbhost localhost.localdomain -jwdbport 51513
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+SIMULATION INFORMATION 
+memory size allocated in bytes 126566400
+nb of components: 94
+nb of nodes: 85
+nb of MOS or BIP calls: 7950
+Number of steps computed: 0
+
+***>CPU TIME 0s 020ms <***
+
+***>MESSAGE SUMMARY: 1 warning
+
+***>GLOBAL CPU TIME 0s 060ms <***
+
+
+***>GLOBAL ELAPSED TIME 1s <***
+
+

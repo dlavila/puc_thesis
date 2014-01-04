@@ -1,0 +1,13 @@
+A 5 u mgc_symbol 52963b941f74.03.7f.00.00.01.00.7f.2d 5 2 1 0
+V v 3 1 5283899645e3.03.7f.00.00.01.00.62.9a
+F f 3 "PHASE_GEN.smbl_3"
+V v 4 1 528389971119.03.7f.00.00.01.00.62.9a
+F f 4 "PHASE_GEN.smbl_4"
+V v 5 1 52963c3113a1.03.7f.00.00.01.00.73.a9
+F f 5 "PHASE_GEN.smbl_5"
+O 5
+R csduv 0 "$SC_filter/default.group/logic.views/PHASE_GEN/part" 6 Eddm_part 52963b95abc2.03.7f.00.00.01.00.6f.5a 52963b941fee.03.7f.00.00.01.00.7f.2d
+O 4
+R csduv 0 "$SC_filter/default.group/logic.views/PHASE_GEN/part" 5 Eddm_part 528389971122.03.7f.00.00.01.00.62.9a 52963b941fee.03.7f.00.00.01.00.7f.2d
+O 3
+R csduv 0 "$SC_filter/default.group/logic.views/PHASE_GEN/part" 4 Eddm_part 5283899645f4.03.7f.00.00.01.00.62.9a 52963b941fee.03.7f.00.00.01.00.7f.2d
