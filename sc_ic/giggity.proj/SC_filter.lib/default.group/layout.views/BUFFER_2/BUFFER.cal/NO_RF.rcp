@@ -1,0 +1,9 @@
+<user_recipes>
+  <recipe>
+    <name>NO_RF</name>
+    <operations>
+      <group_unselect>all</group_unselect>
+      <check_select>4.1F</check_select>
+    </operations>
+  </recipe>
+</user_recipes>

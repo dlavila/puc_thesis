@@ -1,16 +1,16 @@
 //
-//  Rule file generated on Fri Jan 03 18:04:45 CLST 2014
+//  Rule file generated on Mon Jan 06 15:29:34 CLST 2014
 //     by Calibre Interactive - DRC (v2013.2_18.13)
 //
 //      *** PLEASE DO NOT MODIFY THIS FILE ***
 //
 //
 
-LAYOUT PATH  "/home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib/default.group/layout.views/BUFFER/BUFFER.cal/.BUFFER.bin"
-LAYOUT PRIMARY "BUFFER"
+LAYOUT PATH  "/home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib/default.group/layout.views/BUFFER_2/BUFFER_2.cal/.BUFFER_2.bin"
+LAYOUT PRIMARY "BUFFER_2"
 LAYOUT SYSTEM GDSII
 
-DRC RESULTS DATABASE "/home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib/default.group/layout.views/BUFFER/BUFFER.cal/BUFFER.drc.results" ASCII 
+DRC RESULTS DATABASE "/home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib/default.group/layout.views/BUFFER_2/BUFFER_2.cal/BUFFER_2.drc.results" ASCII 
 DRC MAXIMUM RESULTS 1000
 DRC MAXIMUM VERTEX 4096
 

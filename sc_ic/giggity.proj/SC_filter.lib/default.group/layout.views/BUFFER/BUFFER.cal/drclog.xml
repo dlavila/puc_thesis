@@ -4,8 +4,8 @@
 This file was automatically created. Please do not hand edit.
 </comment>
  username="dlavila"
- datestamp="Fri Jan  3 18:04:46 2014
+ datestamp="Mon Jan  6 16:08:06 2014
 "
 <version version="2"/>
-<rve_log runset_name="$SC_filter/default.group/layout.views/BUFFER/IMEC.drc.runset" timestamp="1388783086" drc_file="$SC_filter/default.group/layout.views/BUFFER/BUFFER.cal/BUFFER.drc.results" ll_areax="0" ll_areay="0" ur_areax="0" ur_areay="0" check_area="off" drc_summary_file="/home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib/default.group/layout.views/BUFFER/BUFFER.cal/BUFFER.drc.summary"/>
+<rve_log runset_name="/dev/null" timestamp="1389035286" drc_file="$SC_filter/default.group/layout.views/BUFFER/BUFFER.cal/BUFFER.drc.results" ll_areax="0" ll_areay="0" ur_areax="0" ur_areay="0" check_area="off" drc_summary_file="drc.summary"/>
 </drc_log>
