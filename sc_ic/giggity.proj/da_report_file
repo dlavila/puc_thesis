@@ -20789,3 +20789,176 @@ Check Schematic Net -------------   0 errors   0 warnings
 Check Schematic Function Blocks -   0 errors   0 warnings
 
  "BUFFER/schematic/sheet1" failed check :  11 Errors, 18 Warnings
+
+
+Check Schematic  "BUFFER_2/schematic/sheet1"
+Check Sheet "BUFFER_2/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   2 warnings
+  Warning:  Unconnected pins on
+           Instance(s) at Pins(s):
+           I$474       P$36240    P$36245    P$36250
+           I$449       P$31434
+           I$450       P$31481
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$209       V$3366
+           N$421       V$18007
+           N$589       V$29700
+           N$587       V$29759
+           N$581       V$29695    V$29754
+           N$610       V$25445
+           N$618       V$25614
+           N$659       V$26727
+           N$660       V$26786
+           N$681       V$26673
+           N$683       V$25496
+           N$684       V$25565
+           N$687       V$26847
+           N$705       V$28432
+           N$708       V$28489
+           N$711       V$28546
+           N$715       V$28603
+           N$718       V$29690
+           N$723       V$29749
+           N$729       V$31501
+           N$731       V$31507
+           N$692       V$27311
+           N$676       V$27250
+           N$702       V$27197
+           N$674       V$27182
+           N$672       V$27135
+           N$673       V$27124
+           N$668       V$27020
+           N$701       V$26967
+           N$666       V$26950
+           N$665       V$26903
+           N$664       V$26890
+           N$650       V$26111
+           N$695       V$26061
+           N$642       V$25988
+           N$643       V$25977
+           N$696       V$25936
+           N$640       V$25939
+           N$688       V$25817
+           N$626       V$25740
+           N$625       V$25729
+           N$698       V$25685
+           N$624       V$25694
+           N$736       V$32646
+           N$737       V$32669
+           N$739       V$32681
+           N$741       V$32695
+           N$749       V$34577
+           N$752       V$34634
+           N$755       V$34691
+           N$758       V$34748
+           N$761       V$34805
+           N$764       V$34862
+           N$768       V$34921
+           N$771       V$34978
+           N$772       V$35013
+           N$774       V$35036
+           N$778       V$35103
+           N$780       V$35120
+           N$784       V$35258
+           N$786       V$35278
+           N$787       V$35318
+           N$789       V$35338
+           N$790       V$35343
+           N$792       V$35360
+           N$793       V$35364
+           N$795       V$35381
+           N$796       V$35498
+           N$798       V$35518
+           N$799       V$35558
+           N$801       V$35578
+
+Check INIT Properties ---  19 errors   0 warnings
+  Error:  Net N$425 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$674 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$673 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$666 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$664 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$643 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$640 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$625 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$624 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$736 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$739 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$772 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$778 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$784 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$787 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$790 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$793 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$796 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$799 has a forcing INIT property value (0SF) but has no global attached
+
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors  16 warnings  (MGC-required)
+  Warning:  Net name "Vb2" connects the following nets:
+             N$146       N$105      N$278
+  Warning:  Net name "Vb4" connects the following nets:
+             N$98        N$254
+  Warning:  Net name "ND8" connects the following nets:
+             N$103       N$693      N$644      N$760
+  Warning:  Net name "AVdd" connects the following nets:
+             N$113       N$96       N$92       N$106      N$118      N$107
+            N$197       N$198      N$200      N$193      N$208      N$421
+            N$574       N$616      N$619      N$661      N$662      N$706
+            N$707       N$710      N$713      N$718      N$729      N$731
+            N$678       N$677      N$669      N$651      N$648      N$630
+            N$750       N$751      N$756      N$757      N$762      N$763
+            N$766       N$769
+  Warning:  Net name "Vb3" connects the following nets:
+             N$164       N$168      N$724      N$726      N$251
+  Warning:  Net name "ND6" connects the following nets:
+             N$167       N$703      N$636      N$754      N$767      N$773
+            N$785       N$791      N$797
+  Warning:  Net name "ND3" connects the following nets:
+             N$169       N$613      N$686      N$704      N$712      N$700
+            N$620
+  Warning:  Net name "Vpcas" connects the following nets:
+             N$202       N$248
+  Warning:  Net name "ND4" connects the following nets:
+             N$203       N$663      N$685      N$709      N$714      N$667
+            N$699       N$738      N$740
+  Warning:  Net name "ND1" connects the following nets:
+             N$90        N$680      N$656      N$690      N$632      N$748
+            N$753
+  Warning:  Net name "ND2" connects the following nets:
+             N$205       N$611      N$682
+  Warning:  Net name "Vb1" connects the following nets:
+             N$207       N$276
+  Warning:  Net name "Vncas" connects the following nets:
+             N$260       N$101
+  Warning:  Net name "AGnd" connects the following nets:
+             N$355       N$420      N$422      N$424      N$425      N$592
+            N$605       N$608      N$612      N$658      N$657      N$723
+            N$674       N$673      N$666      N$664      N$643      N$640
+            N$625       N$624      N$736      N$739      N$772      N$778
+            N$784       N$787      N$790      N$793      N$796      N$799
+  Warning:  Net name "ND9" connects the following nets:
+             N$589       N$679      N$694      N$765
+  Warning:  Net name "ND7" connects the following nets:
+             N$587       N$675      N$697      N$759      N$770      N$779
+            N$788       N$794      N$800
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "BUFFER_2/schematic/sheet1" failed check :  19 Errors, 18 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "BUFFER_2/schematic/sheet1" failed check :  19 Errors, 18 Warnings
