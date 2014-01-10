@@ -1,14 +1,14 @@
-A 5 u mgc_sheet 52c8c51c3f83.03.7f.00.00.01.00.2a.7f 113 2 33 0
-V v 111 2 52cadd3574cb.03.7f.00.00.01.00.32.28
-F f 111 "sheet1.ssht_111"
-F f 111 "sheet1.sgfx_111"
-V v 112 2 52cc4b1b15af.03.7f.00.00.01.00.5f.49
-F f 112 "sheet1.ssht_112"
-F f 112 "sheet1.sgfx_112"
-V v 113 2 52cc4b48a55d.03.7f.00.00.01.00.5f.49
-F f 113 "sheet1.ssht_113"
-F f 113 "sheet1.sgfx_113"
-O 113
+A 5 u mgc_sheet 52c8c51c3f83.03.7f.00.00.01.00.2a.7f 135 2 33 0
+V v 133 2 52cef75a999e.03.7f.00.00.01.00.45.1b
+F f 133 "sheet1.ssht_133"
+F f 133 "sheet1.sgfx_133"
+V v 134 2 52cf0e8b6f99.03.7f.00.00.01.00.61.bf
+F f 134 "sheet1.ssht_134"
+F f 134 "sheet1.sgfx_134"
+V v 135 2 52cff76b90a6.03.7f.00.00.01.00.0a.6a
+F f 135 "sheet1.ssht_135"
+F f 135 "sheet1.sgfx_135"
+O 135
 P "eddm__stream_to_use" "eddm__propl_dstream"
 R csduv 0 "$SC_filter/default.group/logic.views/BUFFER_2/schematic" 1 mgc_schematic 528a25d5039e.03.7f.00.00.01.01.14.9d 52c8c51c3f6c.03.7f.00.00.01.00.2a.7f
 R csduv 1 "$MGC_DESIGN_KIT/symbols/N_18_MM/part" 26 Eddm_part 462e23b780f6.03.7f.00.00.01.00.54.63 461b99901841.03.89.ca.19.1a.00.4f.21
@@ -23,7 +23,7 @@ R csduv 25 "$MGC_DESIGN_KIT/symbols/MIMCAPS_MM/part" 22 Eddm_part 462e5a1f20e0.0
 R csduv 26 "$MGC_DESIGN_KIT/symbols/MIMCAPS_MM/MIMCAPS_MM" 5 mgc_symbol 462e5a1f20cc.03.7f.00.00.01.00.3d.95 461b9a2010e0.03.89.ca.19.1a.00.4f.21
 R csduv 27 "$MGC_DESIGN_KIT/symbols/RNHR1000_MM/part" 28 Eddm_part 48187ecf321a.03.7f.00.00.01.00.4d.3f 461b99e52043.03.89.ca.19.1a.00.4f.21
 R csduv 28 "$MGC_DESIGN_KIT/symbols/RNHR1000_MM/RNHR1000_MM" 12 mgc_symbol 48187ecf3212.03.7f.00.00.01.00.4d.3f 461b99e8467d.03.89.ca.19.1a.00.4f.21
-O 112
+O 134
 P "eddm__stream_to_use" "eddm__propl_dstream"
 R csduv 0 "$SC_filter/default.group/logic.views/BUFFER_2/schematic" 1 mgc_schematic 528a25d5039e.03.7f.00.00.01.01.14.9d 52c8c51c3f6c.03.7f.00.00.01.00.2a.7f
 R csduv 1 "$MGC_DESIGN_KIT/symbols/N_18_MM/part" 26 Eddm_part 462e23b780f6.03.7f.00.00.01.00.54.63 461b99901841.03.89.ca.19.1a.00.4f.21
@@ -38,9 +38,7 @@ R csduv 25 "$MGC_DESIGN_KIT/symbols/MIMCAPS_MM/part" 22 Eddm_part 462e5a1f20e0.0
 R csduv 26 "$MGC_DESIGN_KIT/symbols/MIMCAPS_MM/MIMCAPS_MM" 5 mgc_symbol 462e5a1f20cc.03.7f.00.00.01.00.3d.95 461b9a2010e0.03.89.ca.19.1a.00.4f.21
 R csduv 27 "$MGC_DESIGN_KIT/symbols/RNHR1000_MM/part" 28 Eddm_part 48187ecf321a.03.7f.00.00.01.00.4d.3f 461b99e52043.03.89.ca.19.1a.00.4f.21
 R csduv 28 "$MGC_DESIGN_KIT/symbols/RNHR1000_MM/RNHR1000_MM" 12 mgc_symbol 48187ecf3212.03.7f.00.00.01.00.4d.3f 461b99e8467d.03.89.ca.19.1a.00.4f.21
-R csduv 31 "$MGC_DESIGN_KIT/symbols/L_SLCR20K_RF/part" 35 Eddm_part 4651a9867faf.03.7f.00.00.01.00.4c.6d 461b9a1554da.03.89.ca.19.1a.00.4f.21
-R csduv 32 "$MGC_DESIGN_KIT/symbols/L_SLCR20K_RF/L_SLCR20K_RF" 20 mgc_symbol 4651a9867f9a.03.7f.00.00.01.00.4c.6d 461b9a1876e7.03.89.ca.19.1a.00.4f.21
-O 111
+O 133
 P "eddm__stream_to_use" "eddm__propl_dstream"
 R csduv 0 "$SC_filter/default.group/logic.views/BUFFER_2/schematic" 1 mgc_schematic 528a25d5039e.03.7f.00.00.01.01.14.9d 52c8c51c3f6c.03.7f.00.00.01.00.2a.7f
 R csduv 1 "$MGC_DESIGN_KIT/symbols/N_18_MM/part" 26 Eddm_part 462e23b780f6.03.7f.00.00.01.00.54.63 461b99901841.03.89.ca.19.1a.00.4f.21

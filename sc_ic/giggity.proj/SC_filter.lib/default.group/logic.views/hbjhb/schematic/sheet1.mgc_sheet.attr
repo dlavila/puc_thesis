@@ -1,0 +1,25 @@
+A 5 u mgc_sheet 52cf0b92c30c.03.7f.00.00.01.00.61.bf 4 2 3 0
+V v 2 2 52cf0babd153.03.7f.00.00.01.00.61.bf
+F f 2 "sheet1.ssht_2"
+F f 2 "sheet1.sgfx_2"
+V v 3 2 52cf0bac5627.03.7f.00.00.01.00.61.bf
+F f 3 "sheet1.ssht_3"
+F f 3 "sheet1.sgfx_3"
+V v 4 2 52cf0badb2db.03.7f.00.00.01.00.61.bf
+F f 4 "sheet1.ssht_4"
+F f 4 "sheet1.sgfx_4"
+O 4
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/hbjhb/schematic" 1 mgc_schematic 52cf0b92c252.03.7f.00.00.01.00.61.bf 52cf0b92c251.03.7f.00.00.01.00.61.bf
+R csduv 1 "$MGC_DESIGN_KIT/symbols/RNHR1000_MM/part" 28 Eddm_part 48187ecf321a.03.7f.00.00.01.00.4d.3f 461b99e52043.03.89.ca.19.1a.00.4f.21
+R csduv 2 "$MGC_DESIGN_KIT/symbols/RNHR1000_MM/RNHR1000_MM" 12 mgc_symbol 48187ecf3212.03.7f.00.00.01.00.4d.3f 461b99e8467d.03.89.ca.19.1a.00.4f.21
+O 3
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/hbjhb/schematic" 1 mgc_schematic 52cf0b92c252.03.7f.00.00.01.00.61.bf 52cf0b92c251.03.7f.00.00.01.00.61.bf
+R csduv 1 "$MGC_DESIGN_KIT/symbols/RNHR1000_MM/part" 28 Eddm_part 48187ecf321a.03.7f.00.00.01.00.4d.3f 461b99e52043.03.89.ca.19.1a.00.4f.21
+R csduv 2 "$MGC_DESIGN_KIT/symbols/RNHR1000_MM/RNHR1000_MM" 12 mgc_symbol 48187ecf3212.03.7f.00.00.01.00.4d.3f 461b99e8467d.03.89.ca.19.1a.00.4f.21
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/hbjhb/schematic" 1 mgc_schematic 52cf0b92c252.03.7f.00.00.01.00.61.bf 52cf0b92c251.03.7f.00.00.01.00.61.bf
+R csduv 1 "$MGC_DESIGN_KIT/symbols/RNHR1000_MM/part" 28 Eddm_part 48187ecf321a.03.7f.00.00.01.00.4d.3f 461b99e52043.03.89.ca.19.1a.00.4f.21
+R csduv 2 "$MGC_DESIGN_KIT/symbols/RNHR1000_MM/RNHR1000_MM" 12 mgc_symbol 48187ecf3212.03.7f.00.00.01.00.4d.3f 461b99e8467d.03.89.ca.19.1a.00.4f.21

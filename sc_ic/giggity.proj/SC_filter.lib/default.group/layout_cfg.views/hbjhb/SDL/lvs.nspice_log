@@ -1,0 +1,33 @@
+//  ICnet  v2008.2_3.1 (2008.2b)  Tue May 5 19:07:13 PDT 2009
+//  Core Libraries  v2008.2_3.1 Tue May  5 19:22:21 PDT 2009
+//
+//             Copyright Mentor Graphics Corporation 1982
+//
+//                      All Rights Reserved.
+//
+//    THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR
+//           ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  Mentor Graphics software executing under x86_64 Linux.
+//
+
+
+//  Invocation args:  -lvs -preserve_case -spice_top_sub -o /home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib/default.group/layout.views/hbjhb/hbjhb.cal/hbjhb.calibre.src.net /home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib/default.group/layout_cfg.views/hbjhb/SDL
+
+// **** Reading <$SC_filter/default.group/layout_cfg.views/hbjhb/SDL> for LVS netlist ****
+
+// Checking 1 sheet(s) for out of date references to symbols and interfaces...
+// Done.
+// NOTE: There is no part interface for the top level schematic.  The external nets in the schematic
+//       are being scanned to create the pin names for the top level subckt.
+// WARNING: Unable to determine pin names for top level schematic because there is no part interface for it and no external nets were found.
+Processing [$SC_filter/default.group/logic.views/hbjhb] [hbjhb/hbjhb] [schematic] (NCF entry line:17 file:$NCF_GLOBAL)
+Primitive [$MGC_DESIGN_KIT/symbols/RNHR1000_MM] [RNHR1000_MM/RNHR1000_MM] [SPICE=R] (NCF entry line:7 file:$MGC_DESIGN_KIT/symbols/RNHR1000_MM/@ncf.dir/RNHR1000_MM.ncf)
+
+**** Writing <$SC_filter/default.group/layout_cfg.views/hbjhb/SDL> netlist for LVS ****
+
+Number of cells: 2
+Number of primitive instances: 1
+
+Done...

@@ -56,7 +56,7 @@ $$set_sim_value("sim_probes",[[3, @true, "V", [], @void, [], "ALL", "Save Only",
 $$set_sim_value("sim_probes_vector",[]);
 
 // Analysis
-$$set_sim_value("ac_enabled_entry",@on);
+$$set_sim_value("ac_enabled_entry",@off);
 $$set_sim_value("ac_ic_or_nodeset_entry",@ic);
 $$set_sim_value("ac_nbpt_entry","10");
 $$set_sim_value("ac_pz_entry",@voltage);
@@ -200,19 +200,19 @@ $$set_sim_value("steadystateoscil_net_name2_entry","");
 $$set_sim_value("steadystateoscil_wave_entry","");
 $$set_sim_value("steadystateoscil_xlabel_entry","fosc");
 $$set_sim_value("tr_cou_file_entry","");
-$$set_sim_value("tr_ic_or_nodeset_entry","ic");
-$$set_sim_value("tr_mts_entry","");
+$$set_sim_value("tr_ic_or_nodeset_entry",@ic);
+$$set_sim_value("tr_mts_entry","1n");
 $$set_sim_value("tr_restart_file_entry","");
 $$set_sim_value("tr_save_dc_file_entry","");
 $$set_sim_value("tr_save_end_file_entry","");
 $$set_sim_value("tr_save_time_file_entry","");
 $$set_sim_value("tr_sim_time_entry","");
-$$set_sim_value("tr_st_entry","100N");
-$$set_sim_value("tr_tprint_entry","");
+$$set_sim_value("tr_st_entry","2u");
+$$set_sim_value("tr_tprint_entry","0");
 $$set_sim_value("tr_tstart_entry","");
 $$set_sim_value("tr_uic_entry",@off);
 $$set_sim_value("tr_use_file_entry","");
-$$set_sim_value("transient_enabled_entry",@off);
+$$set_sim_value("transient_enabled_entry",@on);
 
 // Forces
 $$set_sim_value("sim_forces",[]);
@@ -347,7 +347,7 @@ $$set_sim_value("vsim_netlist_run_viewer_flag",0);
 
 // Netlister Options
 $$set_sim_value("sim_eldonet_check",@false);
-$$set_sim_value("sim_eldonet_timestamp",1387660609);
+$$set_sim_value("sim_eldonet_timestamp",1389284841);
 $$set_sim_value("sim_netlist_run_viewer_flag",1);
 $$set_sim_value("sim_netlist_uptodate_check_flag",@yes);
 $$set_sim_value("sim_netlister_additional_globals","");

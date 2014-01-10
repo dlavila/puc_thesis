@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 52cf0b92c251.03.7f.00.00.01.00.61.bf 5 2 1 0
+V v 3 1 52cf0babd166.03.7f.00.00.01.00.61.bf
+F o 0 ""
+V v 4 1 52cf0bac563a.03.7f.00.00.01.00.61.bf
+F o 0 ""
+V v 5 1 52cf0badb2fb.03.7f.00.00.01.00.61.bf
+F o 0 ""
+O 5
+R cspuv 0 "$SC_filter/default.group/logic.views/hbjhb/schematic/sheet1" 4 mgc_sheet 52cf0badb2db.03.7f.00.00.01.00.61.bf 52cf0b92c30c.03.7f.00.00.01.00.61.bf
+O 4
+R cspuv 0 "$SC_filter/default.group/logic.views/hbjhb/schematic/sheet1" 3 mgc_sheet 52cf0bac5627.03.7f.00.00.01.00.61.bf 52cf0b92c30c.03.7f.00.00.01.00.61.bf
+O 3
+R cspuv 0 "$SC_filter/default.group/logic.views/hbjhb/schematic/sheet1" 2 mgc_sheet 52cf0babd153.03.7f.00.00.01.00.61.bf 52cf0b92c30c.03.7f.00.00.01.00.61.bf

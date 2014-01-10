@@ -13,5 +13,4 @@
 
 .TEMP 27 
 
-.AC dec 10 1 10gig
-
+.TRAN  0 2u 0 1n

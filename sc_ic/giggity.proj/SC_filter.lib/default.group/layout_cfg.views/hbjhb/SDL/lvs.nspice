@@ -1,0 +1,11 @@
+* LVS netlist generated with ICnet by 'dlavila' on Thu Jan  9 2014 at 17:51:32
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/hbjhb
+*
+.subckt hbjhb 
+
+        R1 N$3 N$2 N$1 1.987879k l=2u w=1.0u m=1 $sub=N$1 $[ rnhr1000_mm
++  ]
+.ends hbjhb
+

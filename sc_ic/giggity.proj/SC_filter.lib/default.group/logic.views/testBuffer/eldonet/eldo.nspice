@@ -1,9 +1,9 @@
-* ELDO netlist generated with ICnet by 'dlavila' on Fri Jan  3 2014 at 11:44:56
+* ELDO netlist generated with ICnet by 'dlavila' on Thu Jan  9 2014 at 13:27:18
 
 *
 * Globals.
 *
-.global vdd ground
+.global VDD GROUND
 
 
 *
@@ -20,193 +20,182 @@
 *
 * Component pathname : $SC_filter/default.group/logic.views/BUFFER
 *
-.subckt buffer  vo agnd avdd ib vi+ vi-
+.subckt BUFFER  VO AGND AVDD IB VI+ VI-
 
-        m49 nd4 n$626 nd4 agnd n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
-+  pd=4.18u ps=4.18u m=1
-        m47 nd3 n$698 nd3 agnd n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
-+  pd=4.18u ps=4.18u m=1
-        m57 nd1 n$681 nd1 agnd n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
-+  pd=4.18u ps=4.18u m=1
-        m46 nd4 n$618 nd4 avdd p_18_mm l=0.45u w=2.5u ad=1.225p as=1.225p
-+  pd=5.98u ps=5.98u m=1
-        m44 nd3 n$684 nd3 avdd p_18_mm l=0.45u w=2.5u ad=1.225p as=1.225p
-+  pd=5.98u ps=5.98u m=1
-        min1 nd1 vi- n$204 agnd n_18_mm l=0.45u w=1.6u ad=0.432p as=0.52p
-+  pd=2.14u ps=2.65u m=8
-        m2 n$165 vb4 agnd agnd n_18_mm l=0.45u w=1.6u ad=0.432p as=0.608p
-+  pd=2.14u ps=3.16u m=4
-        m8 nd8 vncas nd6 agnd n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
-+  pd=4.18u ps=4.18u m=1
-        m42 n$427 n$427 n$209 avdd p_18_mm l=0.45u w=8u ad=2.16p as=2.512p
-+  pd=8.54u ps=10.228u m=10
-        m33 vpcas vpcas n$131 avdd p_18_mm l=0.45u w=2.5u ad=0.675p as=1.225p
-+  pd=3.04u ps=5.98u m=2
-        xc2 n$356 vo mimcaps_mm w=11u l=11u m=8
-        m19 n$427 n$427 n$209 avdd p_18_mm l=0.45u w=8u ad=2.16p as=2.512p
-+  pd=8.54u ps=10.228u m=10
-        m15 nd3 nd6 agnd agnd n_18_mm l=0.45u w=1.6u ad=0.432p as=0.784p
-+  pd=2.14u ps=4.18u m=2
-        m29 n$250 vb4 agnd agnd n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
-+  pd=4.18u ps=4.18u m=1
-        m7 nd7 vb3 nd4 agnd n_18_mm l=0.45u w=1.6u ad=0.432p as=0.608p pd=2.14u
-+  ps=3.16u m=4
-        xc1 n$593 vo mimcaps_mm w=11u l=11u m=8
-        xr2 nd7 n$593 agnd rnhr1000_mm lr=10u wr=4u m=1
-        m12 nd9 vb2 nd2 avdd p_18_mm l=0.45u w=2.5u ad=0.675p as=0.812p
-+  pd=3.04u ps=3.775u m=8
-        m64 nd2 n$671 nd2 avdd p_18_mm l=0.45u w=2.5u ad=1.225p as=1.225p
-+  pd=5.98u ps=5.98u m=1
-        m63 nd1 n$668 nd1 avdd p_18_mm l=0.45u w=2.5u ad=1.225p as=1.225p
-+  pd=5.98u ps=5.98u m=1
-        m62 nd4 n$701 nd4 agnd n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
-+  pd=4.18u ps=4.18u m=1
-        m61 nd3 n$665 nd3 agnd n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
-+  pd=4.18u ps=4.18u m=1
-        m56 nd9 n$650 nd9 avdd p_18_mm l=0.45u w=2.5u ad=1.225p as=1.225p
-+  pd=5.98u ps=5.98u m=1
-        m55 nd8 n$695 nd8 avdd p_18_mm l=0.45u w=2.5u ad=1.225p as=1.225p
-+  pd=5.98u ps=5.98u m=1
-        m54 nd7 n$642 nd7 agnd n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
-+  pd=4.18u ps=4.18u m=1
-        m76 nd4 n$741 nd4 agnd n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
-+  pd=4.18u ps=4.18u m=1
-        m75 nd4 n$737 nd4 agnd n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
-+  pd=4.18u ps=4.18u m=1
-        m68 nd9 n$692 nd9 avdd p_18_mm l=0.45u w=2.5u ad=1.225p as=1.225p
-+  pd=5.98u ps=5.98u m=1
-        m67 nd8 n$676 nd8 avdd p_18_mm l=0.45u w=2.5u ad=1.225p as=1.225p
-+  pd=5.98u ps=5.98u m=1
-        m66 nd7 n$702 nd7 agnd n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
-+  pd=4.18u ps=4.18u m=1
-        m65 nd6 n$672 nd6 agnd n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
-+  pd=4.18u ps=4.18u m=1
-        m28 vb2 vb3 n$250 agnd n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
-+  pd=4.18u ps=4.18u m=1
-        m3 n$206 vb1 avdd avdd p_18_mm l=0.45u w=2.5u ad=0.675p as=0.812p
-+  pd=3.04u ps=3.775u m=8
-        m17 nd2 vi+ n$204 agnd n_18_mm l=0.45u w=1.6u ad=0.432p as=0.52p
-+  pd=2.14u ps=2.65u m=8
-        m6 nd2 nd8 avdd avdd p_18_mm l=0.45u w=2.5u ad=0.675p as=0.95p pd=3.04u
-+  ps=4.51u m=4
-        xr1 nd9 n$356 agnd rnhr1000_mm lr=10u wr=4u m=1
-        moutn vo nd7 agnd agnd n_18_mm l=0.45u w=1.6u ad=0.432p as=0.467p
-+  pd=2.14u ps=2.344u m=20
-        m53 nd6 n$696 nd6 agnd n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
-+  pd=4.18u ps=4.18u m=1
-        m52 nd2 n$689 nd2 avdd p_18_mm l=0.45u w=2.5u ad=1.225p as=1.225p
-+  pd=5.98u ps=5.98u m=1
-        m1 n$209 vb2 n$206 avdd p_18_mm l=0.45u w=2.5u ad=0.675p as=0.812p
-+  pd=3.04u ps=3.775u m=8
-        m11 nd9 vncas nd7 agnd n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
-+  pd=4.18u ps=4.18u m=1
-        m40 vb1 vb2 n$277 avdd p_18_mm l=0.45u w=2.5u ad=0.675p as=1.225p
-+  pd=3.04u ps=5.98u m=2
-        m18 nd3 vi- n$209 avdd p_18_mm l=0.45u w=2.5u ad=0.675p as=0.744p
-+  pd=3.04u ps=3.408u m=16
-        m39 vncas vb2 n$274 avdd p_18_mm l=0.45u w=2.5u ad=0.675p as=1.225p
-+  pd=3.04u ps=5.98u m=2
-        m74 vb3 n$734 vb3 avdd p_18_mm l=0.45u w=5u ad=2.45p as=2.45p pd=10.98u
-+  ps=10.98u m=1
-        m73 vb3 n$733 vb3 avdd p_18_mm l=0.45u w=5u ad=2.45p as=2.45p pd=10.98u
-+  ps=10.98u m=1
-        m20 nd2 n$683 nd2 agnd n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
-+  pd=4.18u ps=4.18u m=1
-        m_d1 nd1 n$610 nd1 agnd n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
-+  pd=4.18u ps=4.18u m=1
-        m35 n$255 n$255 agnd agnd n_18_mm l=0.45u w=1.6u ad=0.432p as=0.784p
-+  pd=2.14u ps=4.18u m=2
-        m50 n$427 n$427 n$204 agnd n_18_mm l=0.45u w=5.12u ad=1.382p as=1.608p
+        M50 N$427 N$427 N$204 AGND n_18_mm l=0.45u w=5.12u ad=1.382p as=1.608p
 +  pd=5.66u ps=6.772u m=10
-        m45 vb3 ib avdd avdd p_18_mm l=0.45u w=5u ad=1.35p as=1.9p pd=5.54u
+        M45 VB3 IB AVDD AVDD p_18_mm l=0.45u w=5u ad=1.35p as=1.9p pd=5.54u
 +  ps=8.26u m=4
-        m21 vb3 vb3 n$148 agnd n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
+        M21 VB3 VB3 N$148 AGND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
 +  pd=4.18u ps=4.18u m=1
-        m24 n$148 vb3 agnd agnd n_18_mm l=2.25u w=1.6u ad=0.784p as=0.784p
+        M24 N$148 VB3 AGND AGND n_18_mm l=2.25u w=1.6u ad=0.784p as=0.784p
 +  pd=4.18u ps=4.18u m=1
-        m43 vb4 ib avdd avdd p_18_mm l=0.45u w=5u ad=1.35p as=1.9p pd=5.54u
-+  ps=8.26u m=4
-        m48 ib ib avdd avdd p_18_mm l=0.45u w=5u ad=2.45p as=2.45p pd=10.98u
-+  ps=10.98u m=1
-        m4 n$204 vb3 n$165 agnd n_18_mm l=0.45u w=1.6u ad=0.432p as=0.608p
+        M49 ND4 N$626 ND4 AGND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
++  pd=4.18u ps=4.18u m=1
+        M47 ND3 N$698 ND3 AGND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
++  pd=4.18u ps=4.18u m=1
+        M57 ND1 N$681 ND1 AGND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
++  pd=4.18u ps=4.18u m=1
+        M46 ND4 N$618 ND4 AVDD p_18_mm l=0.45u w=2.5u ad=1.225p as=1.225p
++  pd=5.98u ps=5.98u m=1
+        M44 ND3 N$684 ND3 AVDD p_18_mm l=0.45u w=2.5u ad=1.225p as=1.225p
++  pd=5.98u ps=5.98u m=1
+        MIN1 ND1 VI- N$204 AGND n_18_mm l=0.45u w=1.6u ad=0.432p as=0.52p
++  pd=2.14u ps=2.65u m=8
+        M2 N$165 VB4 AGND AGND n_18_mm l=0.45u w=1.6u ad=0.432p as=0.608p
 +  pd=2.14u ps=3.16u m=4
-        m10 nd8 vb2 nd1 avdd p_18_mm l=0.45u w=2.5u ad=0.675p as=0.812p
-+  pd=3.04u ps=3.775u m=8
-        m34 n$131 n$131 avdd avdd p_18_mm l=0.45u w=2.5u ad=0.675p as=0.95p
-+  pd=3.04u ps=4.51u m=4
-        m51 nd1 n$688 nd1 avdd p_18_mm l=0.45u w=2.5u ad=1.225p as=1.225p
-+  pd=5.98u ps=5.98u m=1
-        m41 nd4 vi+ n$209 avdd p_18_mm l=0.45u w=2.5u ad=0.675p as=0.744p
-+  pd=3.04u ps=3.408u m=16
-        m30 vb1 vb3 n$253 agnd n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
+        M8 ND8 VNCAS ND6 AGND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
 +  pd=4.18u ps=4.18u m=1
-        moutp vo nd9 avdd avdd p_18_mm l=0.45u w=2.5u ad=0.675p as=0.702p
-+  pd=3.04u ps=3.187u m=40
-        m23 vb4 vb3 n$247 agnd n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
-+  pd=4.18u ps=4.18u m=1
-        m22 vb2 vb2 n$279 avdd p_18_mm l=0.45u w=2.5u ad=0.675p as=1.225p
+        M42 N$427 N$427 N$209 AVDD p_18_mm l=0.45u w=8u ad=2.16p as=2.512p
++  pd=8.54u ps=10.228u m=10
+        M33 VPCAS VPCAS N$131 AVDD p_18_mm l=0.45u w=2.5u ad=0.675p as=1.225p
 +  pd=3.04u ps=5.98u m=2
-        m38 n$277 vb1 avdd avdd p_18_mm l=0.45u w=2.5u ad=0.675p as=1.225p
-+  pd=3.04u ps=5.98u m=2
-        m72 nd4 n$715 nd4 avdd p_18_mm l=0.45u w=2.5u ad=1.225p as=1.225p
-+  pd=5.98u ps=5.98u m=1
-        m71 nd3 n$711 nd3 avdd p_18_mm l=0.45u w=2.5u ad=1.225p as=1.225p
-+  pd=5.98u ps=5.98u m=1
-        m9 nd6 vb3 nd3 agnd n_18_mm l=0.45u w=1.6u ad=0.432p as=0.608p pd=2.14u
-+  ps=3.16u m=4
-        m16 nd4 nd6 agnd agnd n_18_mm l=0.45u w=1.6u ad=0.432p as=0.784p
+        XC2 N$356 VO mimcaps_mm w=11u l=11u m=4
+        M19 N$427 N$427 N$209 AVDD p_18_mm l=0.45u w=8u ad=2.16p as=2.512p
++  pd=8.54u ps=10.228u m=10
+        M15 ND3 ND6 AGND AGND n_18_mm l=0.45u w=1.6u ad=0.432p as=0.784p
 +  pd=2.14u ps=4.18u m=2
-        m36 n$279 vb2 avdd avdd p_18_mm l=2.25u w=2.5u ad=0.675p as=1.225p
-+  pd=3.04u ps=5.98u m=2
-        m13 nd6 vpcas nd8 avdd p_18_mm l=0.45u w=2.5u ad=0.675p as=1.225p
-+  pd=3.04u ps=5.98u m=2
-        m60 nd4 n$687 nd4 avdd p_18_mm l=0.45u w=2.5u ad=1.225p as=1.225p
-+  pd=5.98u ps=5.98u m=1
-        m59 nd3 n$660 nd3 avdd p_18_mm l=0.45u w=2.5u ad=1.225p as=1.225p
-+  pd=5.98u ps=5.98u m=1
-        m58 nd2 n$659 nd2 agnd n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
+        M29 N$250 VB4 AGND AGND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
 +  pd=4.18u ps=4.18u m=1
-        m32 vncas vncas n$255 agnd n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
+        M7 ND7 VB3 ND4 AGND n_18_mm l=0.45u w=1.6u ad=0.432p as=0.608p pd=2.14u
++  ps=3.16u m=4
+        XC1 N$593 VO mimcaps_mm w=11u l=11u m=4
+        XR2 ND7 N$593 AGND rnhr1000_mm lr=10u wr=4u m=1
+        M12 ND9 VB2 ND2 AVDD p_18_mm l=0.45u w=2.5u ad=0.675p as=0.812p
++  pd=3.04u ps=3.775u m=8
+        M64 ND2 N$671 ND2 AVDD p_18_mm l=0.45u w=2.5u ad=1.225p as=1.225p
++  pd=5.98u ps=5.98u m=1
+        M63 ND1 N$668 ND1 AVDD p_18_mm l=0.45u w=2.5u ad=1.225p as=1.225p
++  pd=5.98u ps=5.98u m=1
+        M62 ND4 N$701 ND4 AGND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
 +  pd=4.18u ps=4.18u m=1
-        m70 nd4 n$708 nd4 avdd p_18_mm l=0.45u w=2.5u ad=1.225p as=1.225p
+        M61 ND3 N$665 ND3 AGND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
++  pd=4.18u ps=4.18u m=1
+        M56 ND9 N$650 ND9 AVDD p_18_mm l=0.45u w=2.5u ad=1.225p as=1.225p
 +  pd=5.98u ps=5.98u m=1
-        m69 nd3 n$705 nd3 avdd p_18_mm l=0.45u w=2.5u ad=1.225p as=1.225p
+        M55 ND8 N$695 ND8 AVDD p_18_mm l=0.45u w=2.5u ad=1.225p as=1.225p
 +  pd=5.98u ps=5.98u m=1
-        m5 nd1 nd8 avdd avdd p_18_mm l=0.45u w=2.5u ad=0.675p as=0.95p pd=3.04u
+        M54 ND7 N$642 ND7 AGND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
++  pd=4.18u ps=4.18u m=1
+        M25 N$247 VB4 AGND AGND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
++  pd=4.18u ps=4.18u m=1
+        M14 ND7 VPCAS ND9 AVDD p_18_mm l=0.45u w=2.5u ad=0.675p as=1.225p
++  pd=3.04u ps=5.98u m=2
+        M27 N$249 VB4 AGND AGND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
++  pd=4.18u ps=4.18u m=1
+        M26 VPCAS VB3 N$249 AGND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
++  pd=4.18u ps=4.18u m=1
+        M31 N$253 VB4 AGND AGND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
++  pd=4.18u ps=4.18u m=1
+        M76 ND4 N$741 ND4 AGND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
++  pd=4.18u ps=4.18u m=1
+        M75 ND4 N$737 ND4 AGND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
++  pd=4.18u ps=4.18u m=1
+        M68 ND9 N$692 ND9 AVDD p_18_mm l=0.45u w=2.5u ad=1.225p as=1.225p
++  pd=5.98u ps=5.98u m=1
+        M67 ND8 N$676 ND8 AVDD p_18_mm l=0.45u w=2.5u ad=1.225p as=1.225p
++  pd=5.98u ps=5.98u m=1
+        M66 ND7 N$702 ND7 AGND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
++  pd=4.18u ps=4.18u m=1
+        M65 ND6 N$672 ND6 AGND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
++  pd=4.18u ps=4.18u m=1
+        M28 VB2 VB3 N$250 AGND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
++  pd=4.18u ps=4.18u m=1
+        M3 N$206 VB1 AVDD AVDD p_18_mm l=0.45u w=2.5u ad=0.675p as=0.812p
++  pd=3.04u ps=3.775u m=8
+        M17 ND2 VI+ N$204 AGND n_18_mm l=0.45u w=1.6u ad=0.432p as=0.52p
++  pd=2.14u ps=2.65u m=8
+        M6 ND2 ND8 AVDD AVDD p_18_mm l=0.45u w=2.5u ad=0.675p as=0.95p pd=3.04u
 +  ps=4.51u m=4
-        m37 n$274 vb1 avdd avdd p_18_mm l=0.45u w=2.5u ad=0.675p as=1.225p
+        XR1 ND9 N$356 AGND rnhr1000_mm lr=10u wr=4u m=1
+        MOUTN VO ND7 AGND AGND n_18_mm l=0.45u w=1.6u ad=0.432p as=0.467p
++  pd=2.14u ps=2.344u m=20
+        M53 ND6 N$696 ND6 AGND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
++  pd=4.18u ps=4.18u m=1
+        M52 ND2 N$689 ND2 AVDD p_18_mm l=0.45u w=2.5u ad=1.225p as=1.225p
++  pd=5.98u ps=5.98u m=1
+        M1 N$209 VB2 N$206 AVDD p_18_mm l=0.45u w=2.5u ad=0.675p as=0.812p
++  pd=3.04u ps=3.775u m=8
+        M11 ND9 VNCAS ND7 AGND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
++  pd=4.18u ps=4.18u m=1
+        M40 VB1 VB2 N$277 AVDD p_18_mm l=0.45u w=2.5u ad=0.675p as=1.225p
 +  pd=3.04u ps=5.98u m=2
-        m25 n$247 vb4 agnd agnd n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
-+  pd=4.18u ps=4.18u m=1
-        m14 nd7 vpcas nd9 avdd p_18_mm l=0.45u w=2.5u ad=0.675p as=1.225p
+        M18 ND3 VI- N$209 AVDD p_18_mm l=0.45u w=2.5u ad=0.675p as=0.744p
++  pd=3.04u ps=3.408u m=16
+        M39 VNCAS VB2 N$274 AVDD p_18_mm l=0.45u w=2.5u ad=0.675p as=1.225p
 +  pd=3.04u ps=5.98u m=2
-        m27 n$249 vb4 agnd agnd n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
+        M74 VB3 N$734 VB3 AVDD p_18_mm l=0.45u w=5u ad=2.45p as=2.45p pd=10.98u
++  ps=10.98u m=1
+        M73 VB3 N$733 VB3 AVDD p_18_mm l=0.45u w=5u ad=2.45p as=2.45p pd=10.98u
++  ps=10.98u m=1
+        M20 ND2 N$683 ND2 AGND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
 +  pd=4.18u ps=4.18u m=1
-        m26 vpcas vb3 n$249 agnd n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
+        M_D1 ND1 N$610 ND1 AGND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
 +  pd=4.18u ps=4.18u m=1
-        m31 n$253 vb4 agnd agnd n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
+        M35 N$255 N$255 AGND AGND n_18_mm l=0.45u w=1.6u ad=0.432p as=0.784p
++  pd=2.14u ps=4.18u m=2
+        M43 VB4 IB AVDD AVDD p_18_mm l=0.45u w=5u ad=1.35p as=1.9p pd=5.54u
++  ps=8.26u m=4
+        M48 IB IB AVDD AVDD p_18_mm l=0.45u w=5u ad=2.45p as=2.45p pd=10.98u
++  ps=10.98u m=1
+        M4 N$204 VB3 N$165 AGND n_18_mm l=0.45u w=1.6u ad=0.432p as=0.608p
++  pd=2.14u ps=3.16u m=4
+        M10 ND8 VB2 ND1 AVDD p_18_mm l=0.45u w=2.5u ad=0.675p as=0.812p
++  pd=3.04u ps=3.775u m=8
+        M34 N$131 N$131 AVDD AVDD p_18_mm l=0.45u w=2.5u ad=0.675p as=0.95p
++  pd=3.04u ps=4.51u m=4
+        M51 ND1 N$688 ND1 AVDD p_18_mm l=0.45u w=2.5u ad=1.225p as=1.225p
++  pd=5.98u ps=5.98u m=1
+        M41 ND4 VI+ N$209 AVDD p_18_mm l=0.45u w=2.5u ad=0.675p as=0.744p
++  pd=3.04u ps=3.408u m=16
+        M30 VB1 VB3 N$253 AGND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
 +  pd=4.18u ps=4.18u m=1
-.ends buffer
-
-*
-* Component pathname : $UTILS/default.group/logic.views/s2d
-*
-.subckt s2d  vd+ vd- vicm vid vss
-
-        e3 n$2 vss Vicm Vss 1
-        e2 vd- n$2 Vss Vid 0.5
-        e1 vd+ n$2 Vid Vss 0.5
-.ends s2d
+        MOUTP VO ND9 AVDD AVDD p_18_mm l=0.45u w=2.5u ad=0.675p as=0.702p
++  pd=3.04u ps=3.187u m=40
+        M23 VB4 VB3 N$247 AGND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
++  pd=4.18u ps=4.18u m=1
+        M22 VB2 VB2 N$279 AVDD p_18_mm l=0.45u w=2.5u ad=0.675p as=1.225p
++  pd=3.04u ps=5.98u m=2
+        M38 N$277 VB1 AVDD AVDD p_18_mm l=0.45u w=2.5u ad=0.675p as=1.225p
++  pd=3.04u ps=5.98u m=2
+        M72 ND4 N$715 ND4 AVDD p_18_mm l=0.45u w=2.5u ad=1.225p as=1.225p
++  pd=5.98u ps=5.98u m=1
+        M71 ND3 N$711 ND3 AVDD p_18_mm l=0.45u w=2.5u ad=1.225p as=1.225p
++  pd=5.98u ps=5.98u m=1
+        M9 ND6 VB3 ND3 AGND n_18_mm l=0.45u w=1.6u ad=0.432p as=0.608p pd=2.14u
++  ps=3.16u m=4
+        M16 ND4 ND6 AGND AGND n_18_mm l=0.45u w=1.6u ad=0.432p as=0.784p
++  pd=2.14u ps=4.18u m=2
+        M36 N$279 VB2 AVDD AVDD p_18_mm l=2.25u w=2.5u ad=0.675p as=1.225p
++  pd=3.04u ps=5.98u m=2
+        M13 ND6 VPCAS ND8 AVDD p_18_mm l=0.45u w=2.5u ad=0.675p as=1.225p
++  pd=3.04u ps=5.98u m=2
+        M60 ND4 N$687 ND4 AVDD p_18_mm l=0.45u w=2.5u ad=1.225p as=1.225p
++  pd=5.98u ps=5.98u m=1
+        M59 ND3 N$660 ND3 AVDD p_18_mm l=0.45u w=2.5u ad=1.225p as=1.225p
++  pd=5.98u ps=5.98u m=1
+        M58 ND2 N$659 ND2 AGND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
++  pd=4.18u ps=4.18u m=1
+        M32 VNCAS VNCAS N$255 AGND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
++  pd=4.18u ps=4.18u m=1
+        M70 ND4 N$708 ND4 AVDD p_18_mm l=0.45u w=2.5u ad=1.225p as=1.225p
++  pd=5.98u ps=5.98u m=1
+        M69 ND3 N$705 ND3 AVDD p_18_mm l=0.45u w=2.5u ad=1.225p as=1.225p
++  pd=5.98u ps=5.98u m=1
+        M5 ND1 ND8 AVDD AVDD p_18_mm l=0.45u w=2.5u ad=0.675p as=0.95p pd=3.04u
++  ps=4.51u m=4
+        M37 N$274 VB1 AVDD AVDD p_18_mm l=0.45u w=2.5u ad=0.675p as=1.225p
++  pd=3.04u ps=5.98u m=2
+.ends BUFFER
 
 *
 * MAIN CELL: Component pathname : $SC_filter/default.group/logic.views/testBuffer
 *
-        x_buffer1 vo ground vdd n$2 n$33 n$34 buffer
-        x_s2d1 n$33 n$34 n$29 n$31 ground s2d
-        v2 n$29 ground DC 0.9V
-        c1 vo ground 4P
-        v1 vdd ground DC 1.8V
-        i1 n$2 ground DC 3.75uA
-        v3 n$31 ground DC 0V AC 1 0
+        V3 N$31 N$29 PULSE ( 0V 1V 10nS 1nS 1nS 200nS 400nS )
+        V2 N$29 GROUND DC 0.2V
+        C1 VO GROUND 4P
+        V1 VDD GROUND DC 1.8V
+        I1 N$2 GROUND DC 3.75uA
+        X_BUFFER1 VO GROUND VDD N$2 N$31 VO BUFFER
 *
 .end

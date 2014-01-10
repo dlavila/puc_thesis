@@ -1,0 +1,14 @@
+A 5 u mgc_schematic 52cee7d5e2d9.03.7f.00.00.01.00.39.f9 3 2 1 0
+V v 1 1 52cee7d5e2d9.03.7f.00.00.01.01.39.f9
+F o 0 ""
+V v 2 1 52cee7ee35f0.03.7f.00.00.01.00.39.f9
+F o 0 ""
+V v 3 1 52cee7eec959.03.7f.00.00.01.00.39.f9
+F o 0 ""
+O 3
+R cspuv 0 "$SC_filter/default.group/logic.views/BIAS_BUFFER/schematic/sheet1" 2 mgc_sheet 52cee7eec93c.03.7f.00.00.01.00.39.f9 52cee7d5e344.03.7f.00.00.01.00.39.f9
+O 2
+R cspuv 0 "$SC_filter/default.group/logic.views/BIAS_BUFFER/schematic/sheet1" 1 mgc_sheet 52cee7d5e344.03.7f.00.00.01.01.39.f9 52cee7d5e344.03.7f.00.00.01.00.39.f9
+O 1
+R cspuv 0 "$SC_filter/default.group/logic.views/BIAS_BUFFER/schematic/sheet1" 1 mgc_sheet 52cee7d5e344.03.7f.00.00.01.01.39.f9 52cee7d5e344.03.7f.00.00.01.00.39.f9
+P "eddm__refer_state" "eddm__refer_floating"

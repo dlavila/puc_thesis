@@ -6,7 +6,7 @@
 
 ***** PRE-PROCESSING ...
 
-1*******21-Dec-13 *******  ELDO 2009.2 (64 bits)  (v7.2_1.1)  *******18:16:48******
+1******* 9-Jan-14 *******  ELDO 2009.2 (64 bits)  (v7.2_1.1)  *******13:27:20******
 
 0* Component: $SC_filter/default.group/logic.views/testBuffer  Viewpoint: eldonet
 
@@ -20,7 +20,7 @@
     4  .CONNECT GROUND 0
     5  
     6  
-    7  * ELDO netlist generated with ICnet by 'dlavila' on Sat Dec 21 2013 at 18:16:46
+    7  * ELDO netlist generated with ICnet by 'dlavila' on Thu Jan  9 2014 at 13:27:18
     8  
     9  *
    10  * Globals.
@@ -29,133 +29,133 @@
    13  
    14  
    15  *
-   16  * Component pathname : $MGC_DESIGN_KIT/symbols/MIMCAPS_MM [ELDOSPICE]
+   16  * Component pathname : $MGC_DESIGN_KIT/symbols/RNHR1000_MM [ELDOSPICE]
    17  *
-   18  *       .include /usr/local/mentor/UMC180PDK/symbols/MIMCAPS_MM/mimcaps_mm
+   18  *       .include /usr/local/mentor/UMC180PDK/symbols/RNHR1000_MM/rnhr1000_mm
    19  
    20  
    21  *
-   22  * Component pathname : $MGC_DESIGN_KIT/symbols/RNHR1000_MM [ELDOSPICE]
+   22  * Component pathname : $MGC_DESIGN_KIT/symbols/MIMCAPS_MM [ELDOSPICE]
    23  *
-   24  *       .include /usr/local/mentor/UMC180PDK/symbols/RNHR1000_MM/rnhr1000_mm
+   24  *       .include /usr/local/mentor/UMC180PDK/symbols/MIMCAPS_MM/mimcaps_mm
    25  
    26  *
    27  * Component pathname : $SC_filter/default.group/logic.views/BUFFER
    28  *
    29  .SUBCKT BUFFER  VO AGND AVDD IB VI+ VI-
    30  
-   31          M68 ND9 N$692 ND9 AVDD P_18_MM L=0.45U W=2.5U AD=1.225P AS=1.225P
-   32  +  PD=5.98U PS=5.98U M=1
-   33          M67 ND8 N$676 ND8 AVDD P_18_MM L=0.45U W=2.5U AD=1.225P AS=1.225P
-   34  +  PD=5.98U PS=5.98U M=1
-   35          M66 ND7 N$702 ND7 AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
+   31          M50 N$427 N$427 N$204 AGND N_18_MM L=0.45U W=5.12U AD=1.382P AS=1.608P
+   32  +  PD=5.66U PS=6.772U M=10
+   33          M45 VB3 IB AVDD AVDD P_18_MM L=0.45U W=5U AD=1.35P AS=1.9P PD=5.54U
+   34  +  PS=8.26U M=4
+   35          M21 VB3 VB3 N$148 AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
    36  +  PD=4.18U PS=4.18U M=1
-   37          M65 ND6 N$672 ND6 AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
+   37          M24 N$148 VB3 AGND AGND N_18_MM L=2.25U W=1.6U AD=0.784P AS=0.784P
    38  +  PD=4.18U PS=4.18U M=1
-   39          M64 ND2 N$671 ND2 AVDD P_18_MM L=0.45U W=2.5U AD=1.225P AS=1.225P
-   40  +  PD=5.98U PS=5.98U M=1
-   41          M63 ND1 N$668 ND1 AVDD P_18_MM L=0.45U W=2.5U AD=1.225P AS=1.225P
-   42  +  PD=5.98U PS=5.98U M=1
-   43          M62 ND4 N$701 ND4 AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
+   39          M49 ND4 N$626 ND4 AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
+   40  +  PD=4.18U PS=4.18U M=1
+   41          M47 ND3 N$698 ND3 AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
+   42  +  PD=4.18U PS=4.18U M=1
+   43          M57 ND1 N$681 ND1 AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
    44  +  PD=4.18U PS=4.18U M=1
-   45          M61 ND3 N$665 ND3 AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
-   46  +  PD=4.18U PS=4.18U M=1
-   47          M56 ND9 N$650 ND9 AVDD P_18_MM L=0.45U W=2.5U AD=1.225P AS=1.225P
+   45          M46 ND4 N$618 ND4 AVDD P_18_MM L=0.45U W=2.5U AD=1.225P AS=1.225P
+   46  +  PD=5.98U PS=5.98U M=1
+   47          M44 ND3 N$684 ND3 AVDD P_18_MM L=0.45U W=2.5U AD=1.225P AS=1.225P
    48  +  PD=5.98U PS=5.98U M=1
-   49          M55 ND8 N$695 ND8 AVDD P_18_MM L=0.45U W=2.5U AD=1.225P AS=1.225P
-   50  +  PD=5.98U PS=5.98U M=1
-   51          M54 ND7 N$642 ND7 AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
-   52  +  PD=4.18U PS=4.18U M=1
-   53          M53 ND6 N$696 ND6 AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
+   49          MIN1 ND1 VI- N$204 AGND N_18_MM L=0.45U W=1.6U AD=0.432P AS=0.52P
+   50  +  PD=2.14U PS=2.65U M=8
+   51          M2 N$165 VB4 AGND AGND N_18_MM L=0.45U W=1.6U AD=0.432P AS=0.608P
+   52  +  PD=2.14U PS=3.16U M=4
+   53          M8 ND8 VNCAS ND6 AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
    54  +  PD=4.18U PS=4.18U M=1
-   55          M52 ND2 N$689 ND2 AVDD P_18_MM L=0.45U W=2.5U AD=1.225P AS=1.225P
-   56  +  PD=5.98U PS=5.98U M=1
-   57          M51 ND1 N$688 ND1 AVDD P_18_MM L=0.45U W=2.5U AD=1.225P AS=1.225P
-   58  +  PD=5.98U PS=5.98U M=1
-   59          M9 ND6 VB3 ND3 AGND N_18_MM L=0.45U W=1.6U AD=0.432P AS=0.608P PD=2.14U
-   60  +  PS=3.16U M=4
-   61          M16 ND4 ND6 AGND AGND N_18_MM L=0.45U W=1.6U AD=0.432P AS=0.784P
-   62  +  PD=2.14U PS=4.18U M=2
-   63          M36 N$279 VB2 AVDD AVDD P_18_MM L=2.25U W=2.5U AD=0.675P AS=1.225P
-   64  +  PD=3.04U PS=5.98U M=2
-   65          M13 ND6 VPCAS ND8 AVDD P_18_MM L=0.45U W=2.5U AD=0.675P AS=1.225P
-   66  +  PD=3.04U PS=5.98U M=2
-   67          M60 ND4 N$687 ND4 AVDD P_18_MM L=0.45U W=2.5U AD=1.225P AS=1.225P
-   68  +  PD=5.98U PS=5.98U M=1
-   69          M59 ND3 N$660 ND3 AVDD P_18_MM L=0.45U W=2.5U AD=1.225P AS=1.225P
-   70  +  PD=5.98U PS=5.98U M=1
-   71          M58 ND2 N$659 ND2 AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
-   72  +  PD=4.18U PS=4.18U M=1
-   73          M32 VNCAS VNCAS N$255 AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
-   74  +  PD=4.18U PS=4.18U M=1
-   75          M28 VB2 VB3 N$250 AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
-   76  +  PD=4.18U PS=4.18U M=1
-   77          M3 N$206 VB1 AVDD AVDD P_18_MM L=0.45U W=2.5U AD=0.675P AS=0.812P
-   78  +  PD=3.04U PS=3.775U M=8
-   79          M17 ND2 VI+ N$204 AGND N_18_MM L=0.45U W=1.6U AD=0.432P AS=0.52P
-   80  +  PD=2.14U PS=2.65U M=8
-   81          M6 ND2 ND8 AVDD AVDD P_18_MM L=0.45U W=2.5U AD=0.675P AS=0.95P PD=3.04U
-   82  +  PS=4.51U M=4
-   83          XR1 ND9 N$356 AGND RNHR1000_MM LR=5U WR=2U M=1
-   84          MOUTN VO ND7 AGND AGND N_18_MM L=0.45U W=1.6U AD=0.432P AS=0.467P
-   85  +  PD=2.14U PS=2.344U M=20
-   86          MIN1 ND1 VI- N$204 AGND N_18_MM L=0.45U W=1.6U AD=0.432P AS=0.52P
-   87  +  PD=2.14U PS=2.65U M=8
-   88          M12 ND9 VB2 ND2 AVDD P_18_MM L=0.45U W=2.5U AD=0.675P AS=0.812P
-   89  +  PD=3.04U PS=3.775U M=8
-   90          XR2 ND7 N$593 AGND RNHR1000_MM LR=5U WR=2U M=1
-   91          XC1 N$593 VO MIMCAPS_MM W=11U L=11U M=8
-   92          M7 ND7 VB3 ND4 AGND N_18_MM L=0.45U W=1.6U AD=0.432P AS=0.608P PD=2.14U
-   93  +  PS=3.16U M=4
-   94          M29 N$250 VB4 AGND AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
+   55          M42 N$427 N$427 N$209 AVDD P_18_MM L=0.45U W=8U AD=2.16P AS=2.512P
+   56  +  PD=8.54U PS=10.228U M=10
+   57          M33 VPCAS VPCAS N$131 AVDD P_18_MM L=0.45U W=2.5U AD=0.675P AS=1.225P
+   58  +  PD=3.04U PS=5.98U M=2
+   59          XC2 N$356 VO MIMCAPS_MM W=11U L=11U M=4
+   60          M19 N$427 N$427 N$209 AVDD P_18_MM L=0.45U W=8U AD=2.16P AS=2.512P
+   61  +  PD=8.54U PS=10.228U M=10
+   62          M15 ND3 ND6 AGND AGND N_18_MM L=0.45U W=1.6U AD=0.432P AS=0.784P
+   63  +  PD=2.14U PS=4.18U M=2
+   64          M29 N$250 VB4 AGND AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
+   65  +  PD=4.18U PS=4.18U M=1
+   66          M7 ND7 VB3 ND4 AGND N_18_MM L=0.45U W=1.6U AD=0.432P AS=0.608P PD=2.14U
+   67  +  PS=3.16U M=4
+   68          XC1 N$593 VO MIMCAPS_MM W=11U L=11U M=4
+   69          XR2 ND7 N$593 AGND RNHR1000_MM LR=10U WR=4U M=1
+   70          M12 ND9 VB2 ND2 AVDD P_18_MM L=0.45U W=2.5U AD=0.675P AS=0.812P
+   71  +  PD=3.04U PS=3.775U M=8
+   72          M64 ND2 N$671 ND2 AVDD P_18_MM L=0.45U W=2.5U AD=1.225P AS=1.225P
+   73  +  PD=5.98U PS=5.98U M=1
+   74          M63 ND1 N$668 ND1 AVDD P_18_MM L=0.45U W=2.5U AD=1.225P AS=1.225P
+   75  +  PD=5.98U PS=5.98U M=1
+   76          M62 ND4 N$701 ND4 AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
+   77  +  PD=4.18U PS=4.18U M=1
+   78          M61 ND3 N$665 ND3 AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
+   79  +  PD=4.18U PS=4.18U M=1
+   80          M56 ND9 N$650 ND9 AVDD P_18_MM L=0.45U W=2.5U AD=1.225P AS=1.225P
+   81  +  PD=5.98U PS=5.98U M=1
+   82          M55 ND8 N$695 ND8 AVDD P_18_MM L=0.45U W=2.5U AD=1.225P AS=1.225P
+   83  +  PD=5.98U PS=5.98U M=1
+   84          M54 ND7 N$642 ND7 AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
+   85  +  PD=4.18U PS=4.18U M=1
+   86          M25 N$247 VB4 AGND AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
+   87  +  PD=4.18U PS=4.18U M=1
+   88          M14 ND7 VPCAS ND9 AVDD P_18_MM L=0.45U W=2.5U AD=0.675P AS=1.225P
+   89  +  PD=3.04U PS=5.98U M=2
+   90          M27 N$249 VB4 AGND AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
+   91  +  PD=4.18U PS=4.18U M=1
+   92          M26 VPCAS VB3 N$249 AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
+   93  +  PD=4.18U PS=4.18U M=1
+   94          M31 N$253 VB4 AGND AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
    95  +  PD=4.18U PS=4.18U M=1
-   96          M15 ND3 ND6 AGND AGND N_18_MM L=0.45U W=1.6U AD=0.432P AS=0.784P
-   97  +  PD=2.14U PS=4.18U M=2
-   98          M39 VNCAS VB2 N$274 AVDD P_18_MM L=0.45U W=2.5U AD=0.675P AS=1.225P
-   99  +  PD=3.04U PS=5.98U M=2
-  100          M1 N$209 VB2 N$206 AVDD P_18_MM L=0.45U W=2.5U AD=0.675P AS=0.812P
-  101  +  PD=3.04U PS=3.775U M=8
-  102          M11 ND9 VNCAS ND7 AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
-  103  +  PD=4.18U PS=4.18U M=1
-  104          M40 VB1 VB2 N$277 AVDD P_18_MM L=0.45U W=2.5U AD=0.675P AS=1.225P
-  105  +  PD=3.04U PS=5.98U M=2
-  106          M18 ND3 VI- N$209 AVDD P_18_MM L=0.45U W=2.5U AD=0.675P AS=0.744P
-  107  +  PD=3.04U PS=3.408U M=16
-  108          M47 ND3 N$698 ND3 AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
+   96          M76 ND4 N$741 ND4 AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
+   97  +  PD=4.18U PS=4.18U M=1
+   98          M75 ND4 N$737 ND4 AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
+   99  +  PD=4.18U PS=4.18U M=1
+  100          M68 ND9 N$692 ND9 AVDD P_18_MM L=0.45U W=2.5U AD=1.225P AS=1.225P
+  101  +  PD=5.98U PS=5.98U M=1
+  102          M67 ND8 N$676 ND8 AVDD P_18_MM L=0.45U W=2.5U AD=1.225P AS=1.225P
+  103  +  PD=5.98U PS=5.98U M=1
+  104          M66 ND7 N$702 ND7 AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
+  105  +  PD=4.18U PS=4.18U M=1
+  106          M65 ND6 N$672 ND6 AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
+  107  +  PD=4.18U PS=4.18U M=1
+  108          M28 VB2 VB3 N$250 AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
   109  +  PD=4.18U PS=4.18U M=1
-  110          M19 N$427 N$427 N$209 AVDD P_18_MM L=0.45U W=8U AD=2.16P AS=2.512P
-  111  +  PD=8.54U PS=10.228U M=10
-  112          XC2 N$356 VO MIMCAPS_MM W=11U L=11U M=8
-  113          M33 VPCAS VPCAS N$131 AVDD P_18_MM L=0.45U W=2.5U AD=0.675P AS=1.225P
-  114  +  PD=3.04U PS=5.98U M=2
-  115          M42 N$427 N$427 N$209 AVDD P_18_MM L=0.45U W=8U AD=2.16P AS=2.512P
-  116  +  PD=8.54U PS=10.228U M=10
-  117          M8 ND8 VNCAS ND6 AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
-  118  +  PD=4.18U PS=4.18U M=1
-  119          M2 N$165 VB4 AGND AGND N_18_MM L=0.45U W=1.6U AD=0.432P AS=0.608P
-  120  +  PD=2.14U PS=3.16U M=4
-  121          M49 ND4 N$626 ND4 AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
-  122  +  PD=4.18U PS=4.18U M=1
-  123          M57 ND1 N$681 ND1 AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
-  124  +  PD=4.18U PS=4.18U M=1
-  125          M46 ND4 N$618 ND4 AVDD P_18_MM L=0.45U W=2.5U AD=1.225P AS=1.225P
-  126  +  PD=5.98U PS=5.98U M=1
-  127          M44 ND3 N$684 ND3 AVDD P_18_MM L=0.45U W=2.5U AD=1.225P AS=1.225P
-  128  +  PD=5.98U PS=5.98U M=1
-  129          M20 ND2 N$683 ND2 AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
-  130  +  PD=4.18U PS=4.18U M=1
-  131          M_D1 ND1 N$610 ND1 AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
-  132  +  PD=4.18U PS=4.18U M=1
-  133          M35 N$255 N$255 AGND AGND N_18_MM L=0.45U W=1.6U AD=0.432P AS=0.784P
-  134  +  PD=2.14U PS=4.18U M=2
-  135          M50 N$427 N$427 N$204 AGND N_18_MM L=0.45U W=5.12U AD=1.382P AS=1.608P
-  136  +  PD=5.66U PS=6.772U M=10
-  137          M45 VB3 IB AVDD AVDD P_18_MM L=0.45U W=5U AD=1.35P AS=1.9P PD=5.54U
-  138  +  PS=8.26U M=4
-  139          M21 VB3 VB3 N$148 AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
+  110          M3 N$206 VB1 AVDD AVDD P_18_MM L=0.45U W=2.5U AD=0.675P AS=0.812P
+  111  +  PD=3.04U PS=3.775U M=8
+  112          M17 ND2 VI+ N$204 AGND N_18_MM L=0.45U W=1.6U AD=0.432P AS=0.52P
+  113  +  PD=2.14U PS=2.65U M=8
+  114          M6 ND2 ND8 AVDD AVDD P_18_MM L=0.45U W=2.5U AD=0.675P AS=0.95P PD=3.04U
+  115  +  PS=4.51U M=4
+  116          XR1 ND9 N$356 AGND RNHR1000_MM LR=10U WR=4U M=1
+  117          MOUTN VO ND7 AGND AGND N_18_MM L=0.45U W=1.6U AD=0.432P AS=0.467P
+  118  +  PD=2.14U PS=2.344U M=20
+  119          M53 ND6 N$696 ND6 AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
+  120  +  PD=4.18U PS=4.18U M=1
+  121          M52 ND2 N$689 ND2 AVDD P_18_MM L=0.45U W=2.5U AD=1.225P AS=1.225P
+  122  +  PD=5.98U PS=5.98U M=1
+  123          M1 N$209 VB2 N$206 AVDD P_18_MM L=0.45U W=2.5U AD=0.675P AS=0.812P
+  124  +  PD=3.04U PS=3.775U M=8
+  125          M11 ND9 VNCAS ND7 AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
+  126  +  PD=4.18U PS=4.18U M=1
+  127          M40 VB1 VB2 N$277 AVDD P_18_MM L=0.45U W=2.5U AD=0.675P AS=1.225P
+  128  +  PD=3.04U PS=5.98U M=2
+  129          M18 ND3 VI- N$209 AVDD P_18_MM L=0.45U W=2.5U AD=0.675P AS=0.744P
+  130  +  PD=3.04U PS=3.408U M=16
+  131          M39 VNCAS VB2 N$274 AVDD P_18_MM L=0.45U W=2.5U AD=0.675P AS=1.225P
+  132  +  PD=3.04U PS=5.98U M=2
+  133          M74 VB3 N$734 VB3 AVDD P_18_MM L=0.45U W=5U AD=2.45P AS=2.45P PD=10.98U
+  134  +  PS=10.98U M=1
+  135          M73 VB3 N$733 VB3 AVDD P_18_MM L=0.45U W=5U AD=2.45P AS=2.45P PD=10.98U
+  136  +  PS=10.98U M=1
+  137          M20 ND2 N$683 ND2 AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
+  138  +  PD=4.18U PS=4.18U M=1
+  139          M_D1 ND1 N$610 ND1 AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
   140  +  PD=4.18U PS=4.18U M=1
-  141          M24 N$148 VB3 AGND AGND N_18_MM L=2.25U W=1.6U AD=0.784P AS=0.784P
-  142  +  PD=4.18U PS=4.18U M=1
+  141          M35 N$255 N$255 AGND AGND N_18_MM L=0.45U W=1.6U AD=0.432P AS=0.784P
+  142  +  PD=2.14U PS=4.18U M=2
   143          M43 VB4 IB AVDD AVDD P_18_MM L=0.45U W=5U AD=1.35P AS=1.9P PD=5.54U
   144  +  PS=8.26U M=4
   145          M48 IB IB AVDD AVDD P_18_MM L=0.45U W=5U AD=2.45P AS=2.45P PD=10.98U
@@ -166,64 +166,61 @@
   150  +  PD=3.04U PS=3.775U M=8
   151          M34 N$131 N$131 AVDD AVDD P_18_MM L=0.45U W=2.5U AD=0.675P AS=0.95P
   152  +  PD=3.04U PS=4.51U M=4
-  153          M41 ND4 VI+ N$209 AVDD P_18_MM L=0.45U W=2.5U AD=0.675P AS=0.744P
-  154  +  PD=3.04U PS=3.408U M=16
-  155          M30 VB1 VB3 N$253 AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
-  156  +  PD=4.18U PS=4.18U M=1
-  157          MOUTP VO ND9 AVDD AVDD P_18_MM L=0.45U W=2.5U AD=0.675P AS=0.702P
-  158  +  PD=3.04U PS=3.187U M=40
-  159          M23 VB4 VB3 N$247 AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
-  160  +  PD=4.18U PS=4.18U M=1
-  161          M22 VB2 VB2 N$279 AVDD P_18_MM L=0.45U W=2.5U AD=0.675P AS=1.225P
-  162  +  PD=3.04U PS=5.98U M=2
-  163          M38 N$277 VB1 AVDD AVDD P_18_MM L=0.45U W=2.5U AD=0.675P AS=1.225P
+  153          M51 ND1 N$688 ND1 AVDD P_18_MM L=0.45U W=2.5U AD=1.225P AS=1.225P
+  154  +  PD=5.98U PS=5.98U M=1
+  155          M41 ND4 VI+ N$209 AVDD P_18_MM L=0.45U W=2.5U AD=0.675P AS=0.744P
+  156  +  PD=3.04U PS=3.408U M=16
+  157          M30 VB1 VB3 N$253 AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
+  158  +  PD=4.18U PS=4.18U M=1
+  159          MOUTP VO ND9 AVDD AVDD P_18_MM L=0.45U W=2.5U AD=0.675P AS=0.702P
+  160  +  PD=3.04U PS=3.187U M=40
+  161          M23 VB4 VB3 N$247 AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
+  162  +  PD=4.18U PS=4.18U M=1
+  163          M22 VB2 VB2 N$279 AVDD P_18_MM L=0.45U W=2.5U AD=0.675P AS=1.225P
   164  +  PD=3.04U PS=5.98U M=2
-  165          M72 ND4 N$715 ND4 AVDD P_18_MM L=0.45U W=2.5U AD=1.225P AS=1.225P
-  166  +  PD=5.98U PS=5.98U M=1
-  167          M71 ND3 N$711 ND3 AVDD P_18_MM L=0.45U W=2.5U AD=1.225P AS=1.225P
+  165          M38 N$277 VB1 AVDD AVDD P_18_MM L=0.45U W=2.5U AD=0.675P AS=1.225P
+  166  +  PD=3.04U PS=5.98U M=2
+  167          M72 ND4 N$715 ND4 AVDD P_18_MM L=0.45U W=2.5U AD=1.225P AS=1.225P
   168  +  PD=5.98U PS=5.98U M=1
-  169          M70 ND4 N$708 ND4 AVDD P_18_MM L=0.45U W=2.5U AD=1.225P AS=1.225P
+  169          M71 ND3 N$711 ND3 AVDD P_18_MM L=0.45U W=2.5U AD=1.225P AS=1.225P
   170  +  PD=5.98U PS=5.98U M=1
-  171          M69 ND3 N$705 ND3 AVDD P_18_MM L=0.45U W=2.5U AD=1.225P AS=1.225P
-  172  +  PD=5.98U PS=5.98U M=1
-  173          M5 ND1 ND8 AVDD AVDD P_18_MM L=0.45U W=2.5U AD=0.675P AS=0.95P PD=3.04U
-  174  +  PS=4.51U M=4
-  175          M37 N$274 VB1 AVDD AVDD P_18_MM L=0.45U W=2.5U AD=0.675P AS=1.225P
+  171          M9 ND6 VB3 ND3 AGND N_18_MM L=0.45U W=1.6U AD=0.432P AS=0.608P PD=2.14U
+  172  +  PS=3.16U M=4
+  173          M16 ND4 ND6 AGND AGND N_18_MM L=0.45U W=1.6U AD=0.432P AS=0.784P
+  174  +  PD=2.14U PS=4.18U M=2
+  175          M36 N$279 VB2 AVDD AVDD P_18_MM L=2.25U W=2.5U AD=0.675P AS=1.225P
   176  +  PD=3.04U PS=5.98U M=2
-  177          M25 N$247 VB4 AGND AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
-  178  +  PD=4.18U PS=4.18U M=1
-  179          M14 ND7 VPCAS ND9 AVDD P_18_MM L=0.45U W=2.5U AD=0.675P AS=1.225P
-  180  +  PD=3.04U PS=5.98U M=2
-  181          M27 N$249 VB4 AGND AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
-  182  +  PD=4.18U PS=4.18U M=1
-  183          M26 VPCAS VB3 N$249 AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
+  177          M13 ND6 VPCAS ND8 AVDD P_18_MM L=0.45U W=2.5U AD=0.675P AS=1.225P
+  178  +  PD=3.04U PS=5.98U M=2
+  179          M60 ND4 N$687 ND4 AVDD P_18_MM L=0.45U W=2.5U AD=1.225P AS=1.225P
+  180  +  PD=5.98U PS=5.98U M=1
+  181          M59 ND3 N$660 ND3 AVDD P_18_MM L=0.45U W=2.5U AD=1.225P AS=1.225P
+  182  +  PD=5.98U PS=5.98U M=1
+  183          M58 ND2 N$659 ND2 AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
   184  +  PD=4.18U PS=4.18U M=1
-  185          M31 N$253 VB4 AGND AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
+  185          M32 VNCAS VNCAS N$255 AGND N_18_MM L=0.45U W=1.6U AD=0.784P AS=0.784P
   186  +  PD=4.18U PS=4.18U M=1
-  187  .ENDS BUFFER
-  188  
-  189  *
-  190  * Component pathname : $UTILS/default.group/logic.views/s2d
-  191  *
-  192  .SUBCKT S2D  VD+ VD- VICM VID VSS
-  193  
-  194          E3 N$2 VSS VICM VSS 1
-  195          E2 VD- N$2 VSS VID 0.5
-  196          E1 VD+ N$2 VID VSS 0.5
-  197  .ENDS S2D
-  198  
+  187          M70 ND4 N$708 ND4 AVDD P_18_MM L=0.45U W=2.5U AD=1.225P AS=1.225P
+  188  +  PD=5.98U PS=5.98U M=1
+  189          M69 ND3 N$705 ND3 AVDD P_18_MM L=0.45U W=2.5U AD=1.225P AS=1.225P
+  190  +  PD=5.98U PS=5.98U M=1
+  191          M5 ND1 ND8 AVDD AVDD P_18_MM L=0.45U W=2.5U AD=0.675P AS=0.95P PD=3.04U
+  192  +  PS=4.51U M=4
+  193          M37 N$274 VB1 AVDD AVDD P_18_MM L=0.45U W=2.5U AD=0.675P AS=1.225P
+  194  +  PD=3.04U PS=5.98U M=2
+  195  .ENDS BUFFER
+  196  
+  197  *
+  198  * MAIN CELL: Component pathname : $SC_filter/default.group/logic.views/testBuffer
   199  *
-  200  * MAIN CELL: Component pathname : $SC_filter/default.group/logic.views/testBuffer
-  201  *
-  202          X_BUFFER1 VO GROUND VDD N$2 N$33 N$34 BUFFER
-  203          X_S2D1 N$33 N$34 N$29 N$31 GROUND S2D
-  204          V2 N$29 GROUND DC 0.9V
-  205          C1 VO GROUND 4P
-  206          V1 VDD GROUND DC 1.8V
-  207          I1 N$2 GROUND DC 3.75uA
-  208          V3 N$31 GROUND DC 0V AC 1 0
-  209  *
-  210  *end
+  200          V3 N$31 N$29 PULSE ( 0V 1V 10nS 1nS 1nS 200nS 400nS )
+  201          V2 N$29 GROUND DC 0.2V
+  202          C1 VO GROUND 4P
+  203          V1 VDD GROUND DC 1.8V
+  204          I1 N$2 GROUND DC 3.75uA
+  205          X_BUFFER1 VO GROUND VDD N$2 N$31 VO BUFFER
+  206  *
+  207  *end
     2  
     3  ** including /usr/local/mentor/UMC180PDK/models/ELDO/include_all
     1  .LIB   ./018-rf-v2d4-control.eldo 	tt
@@ -3348,9 +3345,8 @@ Warning 406: In file "/usr/local/mentor/UMC180PDK/models/ELDO/include_all" line 
    13  
    14  .TEMP 27 
    15  
-   16  .AC dec 10 1 10gig
-   17  
-   18  .END
+   16  .TRAN  0 2u 0 1n
+   17  .END
 
 End of file 
 
@@ -3363,15 +3359,19 @@ End of file
 ***** GENERATION ...
 
 Warning 706: In file "/usr/local/mentor/UMC180PDK/models/ELDO/MM180_MIMCAP_V101.mdl.eldo" line 9:
-+   During the creation of X_BUFFER1.XC1, the parameter W in subckt MIMCAPS_MM is ignored as it is already specified on the instance line.
++   During the creation of X_BUFFER1.XC2, the parameter W in subckt MIMCAPS_MM is ignored as it is already specified on the instance line.
 Warning 706: In file "/usr/local/mentor/UMC180PDK/models/ELDO/MM180_MIMCAP_V101.mdl.eldo" line 9:
-+   During the creation of X_BUFFER1.XC1, the parameter L in subckt MIMCAPS_MM is ignored as it is already specified on the instance line.
-Warning 107:  NODE "X_BUFFER1.N$692": Less than two connections.
-Warning 107:  NODE "X_BUFFER1.N$676": Less than two connections.
-Warning 107:  NODE "X_BUFFER1.N$702": Less than two connections.
++   During the creation of X_BUFFER1.XC2, the parameter L in subckt MIMCAPS_MM is ignored as it is already specified on the instance line.
+Warning 1615: In file "./testBuffer_eldonet.cir" line 16:
++   COMMAND ".TRAN": Tstep can not be <= 0.0.
++   It is set to Tmax/20.0 = 1.000e-07 s.
+Warning 107:  NODE "X_BUFFER1.N$626": Less than two connections.
+Warning 107:  NODE "X_BUFFER1.N$698": Less than two connections.
+Warning 107:  NODE "X_BUFFER1.N$681": Less than two connections.
 Warning  29: Such messages will not be displayed in future. Set .option MSGNODE = 0 to receive all such warnings.
 
-Warning 107:  NODE "X_BUFFER1.N$672": Less than two connections.
+Warning 107:  NODE "X_BUFFER1.N$618": Less than two connections.
+Warning 107:  NODE "X_BUFFER1.N$684": Less than two connections.
 Warning 107:  NODE "X_BUFFER1.N$671": Less than two connections.
 Warning 107:  NODE "X_BUFFER1.N$668": Less than two connections.
 Warning 107:  NODE "X_BUFFER1.N$701": Less than two connections.
@@ -3379,37 +3379,40 @@ Warning 107:  NODE "X_BUFFER1.N$665": Less than two connections.
 Warning 107:  NODE "X_BUFFER1.N$650": Less than two connections.
 Warning 107:  NODE "X_BUFFER1.N$695": Less than two connections.
 Warning 107:  NODE "X_BUFFER1.N$642": Less than two connections.
+Warning 107:  NODE "X_BUFFER1.N$741": Less than two connections.
+Warning 107:  NODE "X_BUFFER1.N$737": Less than two connections.
+Warning 107:  NODE "X_BUFFER1.N$692": Less than two connections.
+Warning 107:  NODE "X_BUFFER1.N$676": Less than two connections.
+Warning 107:  NODE "X_BUFFER1.N$702": Less than two connections.
+Warning 107:  NODE "X_BUFFER1.N$672": Less than two connections.
 Warning 107:  NODE "X_BUFFER1.N$696": Less than two connections.
 Warning 107:  NODE "X_BUFFER1.N$689": Less than two connections.
+Warning 107:  NODE "X_BUFFER1.N$734": Less than two connections.
+Warning 107:  NODE "X_BUFFER1.N$733": Less than two connections.
+Warning 107:  NODE "X_BUFFER1.N$683": Less than two connections.
+Warning 107:  NODE "X_BUFFER1.N$610": Less than two connections.
 Warning 107:  NODE "X_BUFFER1.N$688": Less than two connections.
+Warning 107:  NODE "X_BUFFER1.N$715": Less than two connections.
+Warning 107:  NODE "X_BUFFER1.N$711": Less than two connections.
 Warning 107:  NODE "X_BUFFER1.N$687": Less than two connections.
 Warning 107:  NODE "X_BUFFER1.N$660": Less than two connections.
 Warning 107:  NODE "X_BUFFER1.N$659": Less than two connections.
-Warning 107:  NODE "X_BUFFER1.N$698": Less than two connections.
-Warning 107:  NODE "X_BUFFER1.N$626": Less than two connections.
-Warning 107:  NODE "X_BUFFER1.N$681": Less than two connections.
-Warning 107:  NODE "X_BUFFER1.N$618": Less than two connections.
-Warning 107:  NODE "X_BUFFER1.N$684": Less than two connections.
-Warning 107:  NODE "X_BUFFER1.N$683": Less than two connections.
-Warning 107:  NODE "X_BUFFER1.N$610": Less than two connections.
-Warning 107:  NODE "X_BUFFER1.N$715": Less than two connections.
-Warning 107:  NODE "X_BUFFER1.N$711": Less than two connections.
 Warning 107:  NODE "X_BUFFER1.N$708": Less than two connections.
 Warning 107:  NODE "X_BUFFER1.N$705": Less than two connections.
 
 ***** 0  error(s). 
-***** 32  warning(s). 
+***** 37  warning(s). 
 
 
 INFORMATION ABOUT COMPILATION 
 
 
-Memory space allocated (bytes): 123514880
-91 elements
-67 nodes 
+Memory space allocated (bytes): 123510784
+92 elements
+68 nodes 
 3 input signals
 Detail about objects and nodes found in the design...
-Number of nodes                     67
+Number of nodes                     68
 Number of intrinsic nodes           0
 Number of input signals             3
 Number of resistors                 2
@@ -3418,38 +3421,38 @@ Number of grounded capacitors       1
 Number of inductors                 0
 Number of voltage sources           3
 Number of current sources           1
-Number of dependent sources         3
+Number of dependent sources         0
 Number of diodes                    0
 Number of BJT                       0
 Number of JFET                      0
-Number of MOS                       76
+Number of MOS                       80
 Number of SWITCHES                  0
 Number of transmission lines        0
-Total number of elements            92
-Warning 108:  NODE "X_BUFFER1.N$692": This node is a floating gate.
+Total number of elements            93
+Warning 108:  NODE "X_BUFFER1.N$626": This node is a floating gate.
 +   List of MOS devices connected to that node follows:
-+   --> X_BUFFER1.M68
++   --> X_BUFFER1.M49
 
-Warning 108:  NODE "X_BUFFER1.N$676": This node is a floating gate.
+Warning 108:  NODE "X_BUFFER1.N$698": This node is a floating gate.
 +   List of MOS devices connected to that node follows:
-+   --> X_BUFFER1.M67
++   --> X_BUFFER1.M47
 
-Warning 108:  NODE "X_BUFFER1.N$702": This node is a floating gate.
+Warning 108:  NODE "X_BUFFER1.N$681": This node is a floating gate.
 +   List of MOS devices connected to that node follows:
-+   --> X_BUFFER1.M66
++   --> X_BUFFER1.M57
 
 Warning  29:  Such messages will not be displayed in future. Set .option MSGNODE = 0 to receive all such warnings.
 
 
 Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
 
-*** DATE: 21-Dec-2013 18:16:49
+*** DATE:  9-Jan-2014 13:27:20
 
 *** TITLE: * Component: $SC_filter/default.group/logic.views/testBuffer  Viewpoint: eldonet
 
 TEMPERATURE : 27.000000 degrees C
 
-1***************21-Dec-2013 ***********************  ELDO 2009.2 (64 bits)  (v7.2_1.1)  ***********************18:16:49*****************
+1*************** 9-Jan-2014 ***********************  ELDO 2009.2 (64 bits)  (v7.2_1.1)  ***********************13:27:20*****************
 
 0* Component: $SC_filter/default.group/lo
 0****                 MODELS PARAMETERS                                    TEMPERATURE =   27.000 DEG C
@@ -3748,7 +3751,7 @@ unit6 represents 1/degK^2
 
 
 Warning 1619:This netlist contains expressions using strongly non-linear functions such as ABS() MIN(), 
-+   MAX() (found in device X_BUFFER1.XR1.R1 for instance) 
++   MAX() (found in device X_BUFFER1.XC2.C1 for instance) 
 +   If, and only if, convergence problems occur either in DC or transient analysis, 
 +   the .option mmsmooth is a possible workaround worth testing. 
 +   It is NOT recommended to activate it systematically, or if there are no particular convergence problems. 
@@ -3758,7 +3761,7 @@ Searching Operating Point between -1.800000E+00V and
 
 
 
-1***************21-Dec-2013 ***********************  ELDO 2009.2 (64 bits)  (v7.2_1.1)  ***********************18:16:49*****************
+1*************** 9-Jan-2014 ***********************  ELDO 2009.2 (64 bits)  (v7.2_1.1)  ***********************13:27:20*****************
 
 0* Component: $SC_filter/default.group/logic.views/testBuffer  Viewpoint: eldonet
 0****                 OPTION SUMMARY                                        TEMPERATURE =   27.000 DEG C
@@ -3828,46 +3831,44 @@ ULOGIC         = 0
 
 
 
-***> DC CPU TIME 0s 160ms <***
+***> DC CPU TIME 0s 080ms <***
 
 DC:2 iterations FOR DC analysis
 
 
 
 
-1***************21-Dec-2013 ***********************  ELDO 2009.2 (64 bits)  (v7.2_1.1)  ***********************18:16:49*****************
+1*************** 9-Jan-2014 ***********************  ELDO 2009.2 (64 bits)  (v7.2_1.1)  ***********************13:27:20*****************
 
 0* Component: $SC_filter/default.group/logic.views/testBuffer  Viewpoint: eldonet
-0****                 SMALL SIGNAL BIAS SOLUTION                           TEMPERATURE =   27.000 DEG C
+0****                 INITIAL TRANSIENT SOLUTION                           TEMPERATURE =   27.000 DEG C
 
 0*************************************************************************************************************************
 
 
   NODE         VOLTAGE    
  N$2       1.2179     
- N$29       900.0000M  
- N$31       0.0000     
- N$33       900.0000M  
- N$34       900.0000M  
+ N$29       200.0000M  
+ N$31       200.0000M  
  VDD       1.8000     
- VO       746.1721M  
+ VO       199.9390M  
  X_BUFFER1.N$131       1.1550     
  X_BUFFER1.N$148       209.0769M  
- X_BUFFER1.N$165       194.2472M  
- X_BUFFER1.N$204       388.9392M  
- X_BUFFER1.N$206       1.5920     
- X_BUFFER1.N$209       1.5009     
- X_BUFFER1.N$247       203.0262M  
+ X_BUFFER1.N$165       6.8299M    
+ X_BUFFER1.N$204       9.6777M    
+ X_BUFFER1.N$206       1.5051     
+ X_BUFFER1.N$209       990.3790M  
+ X_BUFFER1.N$247       203.0263M  
  X_BUFFER1.N$249       169.6947M  
  X_BUFFER1.N$250       204.4171M  
- X_BUFFER1.N$253       210.3558M  
+ X_BUFFER1.N$253       210.3559M  
  X_BUFFER1.N$255       559.0590M  
  X_BUFFER1.N$274       1.5109     
  X_BUFFER1.N$277       1.5062     
  X_BUFFER1.N$279       1.5017     
- X_BUFFER1.N$356       1.0986     
- X_BUFFER1.N$427       901.8959M  
- X_BUFFER1.N$593       602.9969M  
+ X_BUFFER1.N$356       1.1101     
+ X_BUFFER1.N$427       368.9632M  
+ X_BUFFER1.N$593       611.8679M  
  X_BUFFER1.N$610       0.0000     
  X_BUFFER1.N$618       0.0000     
  X_BUFFER1.N$626       0.0000     
@@ -3896,521 +3897,77 @@ DC:2 iterations FOR DC analysis
  X_BUFFER1.N$708       0.0000     
  X_BUFFER1.N$711       0.0000     
  X_BUFFER1.N$715       0.0000     
- X_BUFFER1.ND1       1.4053     
- X_BUFFER1.ND2       1.4053     
- X_BUFFER1.ND3       291.1378M  
- X_BUFFER1.ND4       291.1378M  
- X_BUFFER1.ND6       602.9969M  
- X_BUFFER1.ND7       602.9969M  
- X_BUFFER1.ND8       1.0986     
- X_BUFFER1.ND9       1.0986     
+ X_BUFFER1.N$733       0.0000     
+ X_BUFFER1.N$734       0.0000     
+ X_BUFFER1.N$737       0.0000     
+ X_BUFFER1.N$741       0.0000     
+ X_BUFFER1.ND1       1.4064     
+ X_BUFFER1.ND2       1.4060     
+ X_BUFFER1.ND3       291.8746M  
+ X_BUFFER1.ND4       290.8016M  
+ X_BUFFER1.ND6       666.9089M  
+ X_BUFFER1.ND7       611.8679M  
+ X_BUFFER1.ND8       1.1472     
+ X_BUFFER1.ND9       1.1101     
  X_BUFFER1.VB1       1.0735     
  X_BUFFER1.VB2       701.2817M  
- X_BUFFER1.VB3       859.1999M  
+ X_BUFFER1.VB3       859.2000M  
  X_BUFFER1.VB4       630.9695M  
  X_BUFFER1.VNCAS       1.2602     
  X_BUFFER1.VPCAS       276.0358M  
- X_S2D1.N$2       900.0000M  
 
 
 
    VOLTAGE SOURCE CURRENT
 
 NAME      CURRENT      VOLTAGE      POWER        
-X_S2D1.E3   0.0000       900.0000M    0.0000      
-X_S2D1.E2   0.0000       0.0000       0.0000      
-X_S2D1.E1   0.0000       0.0000       0.0000      
-V2         0.0000       900.0000M    0.0000      
-V1        -493.4532U    1.8000      -888.2158U   
-I1         3.7500U      1.2179       4.5671U     
 V3         0.0000       0.0000       0.0000      
+V2         0.0000       200.0000M    0.0000      
+V1        -457.2616U    1.8000      -823.0709U   
+I1         3.7500U      1.2179       4.5671U     
 
-   TOTAL POWER DISSIPATION:  883.6487U   WATTS
-
-
-
-
-
-1***************21-Dec-2013 ***********************  ELDO 2009.2 (64 bits)  (v7.2_1.1)  ***********************18:16:49*****************
-
-0* Component: $SC_filter/default.group/lo
-0****                 OPERATING POINT INFORMATION                          TEMPERATURE =   27.000 DEG C
-
-0*************************************************************************************************************************
-
-
-               MOS 1        MOS 2        MOS 3        MOS 4        MOS 5        MOS 6        MOS 7        MOS 8        
-
-MODEL          P_18_MM      P_18_MM      P_18_MM      P_18_MM      P_18_MM      P_18_MM      P_18_MM      P_18_MM      
-ID             -701.6100F   -701.6100F   -394.8195F   -394.8195F   -701.6100F   -701.6100F   -394.8195F   -394.8195F   
-VGS            -1.0986      -1.0986      -1.4053      -1.4053      -1.0986      -1.0986      -1.4053      -1.4053      
-VDS             0.0000       0.0000       0.0000       0.0000       0.0000       0.0000       0.0000       0.0000      
-VBS             701.3660M    701.3660M    394.6822M    394.6822M    701.3660M    701.3660M    394.6822M    394.6822M   
-VTH            -690.3869M   -690.3869M   -621.5101M   -621.5101M   -690.3869M   -690.3869M   -621.5101M   -621.5101M   
-VDSAT          -405.1903M   -405.1903M   -709.0645M   -709.0645M   -405.1903M   -405.1903M   -709.0645M   -709.0645M   
-GM              0.0000       0.0000       0.0000       0.0000       0.0000       0.0000       0.0000       0.0000      
-GDS             114.3666U    114.3666U    208.3478U    208.3478U    114.3666U    114.3666U    208.3478U    208.3478U   
-RON             8.7438K      8.7438K      4.7997K      4.7997K      8.7438K      8.7438K      4.7997K      4.7997K     
-GMB             0.0000       0.0000       0.0000       0.0000       0.0000       0.0000       0.0000       0.0000      
-Cdd             12.0180F     12.0180F     12.7105F     12.7105F     12.0180F     12.0180F     12.7105F     12.7105F    
-Cdg            -4.6915F     -4.6915F     -4.6915F     -4.6915F     -4.6915F     -4.6915F     -4.6915F     -4.6915F     
-Cds            -3.7841F     -3.7841F     -4.1278F     -4.1278F     -3.7841F     -3.7841F     -4.1278F     -4.1278F     
-Cdb            -3.5424F     -3.5424F     -3.8911F     -3.8911F     -3.5424F     -3.5424F     -3.8911F     -3.8911F     
-Cgd            -4.4179F     -4.4179F     -4.5415F     -4.5415F     -4.4179F     -4.4179F     -4.5415F     -4.5415F     
-Cgg             9.3982F      9.3982F      9.3978F      9.3978F      9.3982F      9.3982F      9.3978F      9.3978F     
-Cgs            -4.8862F     -4.8862F     -4.7747F     -4.7747F     -4.8862F     -4.8862F     -4.7747F     -4.7747F     
-Cgb            -94.0612A    -94.0612A    -81.6248A    -81.6248A    -94.0612A    -94.0612A    -81.6248A    -81.6248A    
-Csd            -2.7944F     -2.7944F     -2.9425F     -2.9425F     -2.7944F     -2.7944F     -2.9425F     -2.9425F     
-Csg            -4.6915F     -4.6915F     -4.6915F     -4.6915F     -4.6915F     -4.6915F     -4.6915F     -4.6915F     
-Css             11.0283F     11.0283F     11.5251F     11.5251F     11.0283F     11.0283F     11.5251F     11.5251F    
-Csb            -3.5424F     -3.5424F     -3.8911F     -3.8911F     -3.5424F     -3.5424F     -3.8911F     -3.8911F     
-Cbd            -4.8057F     -4.8057F     -5.2265F     -5.2265F     -4.8057F     -4.8057F     -5.2265F     -5.2265F     
-Cbg            -15.1716A    -15.1716A    -14.8645A    -14.8645A    -15.1716A    -15.1716A    -14.8645A    -14.8645A    
-Cbs            -2.3580F     -2.3580F     -2.6226F     -2.6226F     -2.3580F     -2.3580F     -2.6226F     -2.6226F     
-Cbb             7.1788F      7.1788F      7.8639F      7.8639F      7.1788F      7.1788F      7.8639F      7.8639F     
-PHI             910.7709M    910.7709M    910.7709M    910.7709M    910.7709M    910.7709M    910.7709M    910.7709M   
-VBI             1.0417       1.0417       1.0417       1.0417       1.0417       1.0417       1.0417       1.0417      
-Region         linear       linear       linear       linear       linear       linear       linear       linear       
-VTH_D           408.2471M    408.2471M    783.8076M    783.8076M    408.2471M    408.2471M    783.8076M    783.8076M   
-
-MOS 1: X_BUFFER1.M68
-MOS 2: X_BUFFER1.M67
-MOS 3: X_BUFFER1.M64
-MOS 4: X_BUFFER1.M63
-MOS 5: X_BUFFER1.M56
-MOS 6: X_BUFFER1.M55
-MOS 7: X_BUFFER1.M52
-MOS 8: X_BUFFER1.M51
-
-
-               MOS 1        MOS 2        MOS 3        MOS 4        MOS 5        MOS 6        MOS 7        MOS 8        
-
-MODEL          N_18_MM      N_18_MM      N_18_MM      N_18_MM      N_18_MM      N_18_MM      N_18_MM      N_18_MM      
-ID              603.2430F    603.2430F    291.2566F    291.2566F    603.2430F    603.2430F    15.9787U     25.1786U    
-VGS            -602.9969M   -602.9969M   -291.1378M   -291.1378M   -602.9969M   -602.9969M    568.0621M    602.9969M   
-VDS             0.0000       0.0000       0.0000       0.0000       0.0000       0.0000       311.8591M    291.1378M   
-VBS            -602.9969M   -602.9969M   -291.1378M   -291.1378M   -602.9969M   -602.9969M   -291.1378M    0.0000      
-VTH             565.2446M    565.2446M    519.9578M    519.9578M    565.2446M    565.2446M    515.1206M    464.0805M   
-VDSAT           46.0002M     46.0002M     44.9523M     44.9523M     46.0002M     46.0002M     100.6942M    154.3108M   
-GM              0.0000       0.0000       0.0000       0.0000       0.0000       0.0000       268.5107U    274.6958U   
-GDS             1.0000P      1.0000P      1.0001P      1.0001P      1.0000P      1.0000P      6.5511U      10.0347U    
-RON             1.0000T      1.0000T      999.9253G    999.9253G    1.0000T      1.0000T      152.6453K    99.6544K    
-GMB             0.0000       0.0000       0.0000       0.0000       0.0000       0.0000       41.3006U     51.7666U    
-Cdd             2.4002F      2.4002F      2.5671F      2.5671F      2.4002F      2.4002F      7.5736F      4.0765F     
-Cdg            -621.2800A   -621.2800A   -621.2800A   -621.2800A   -621.2800A   -621.2800A   -2.5762F     -1.3527F     
-Cds            -0.0000A     -0.0000A     -0.0000A     -0.0000A     -0.0000A     -0.0000A      75.4152A     56.5414A    
-Cdb            -1.7789F     -1.7789F     -1.9458F     -1.9458F     -1.7789F     -1.7789F     -5.0728F     -2.7804F     
-Cgd            -621.2800A   -621.2800A   -621.2800A   -621.2800A   -621.2800A   -621.2800A   -2.3267F     -1.1844F     
-Cgg             2.5538F      2.5538F      2.5538F      2.5538F      2.5538F      2.5538F      19.8143F     10.7797F    
-Cgs            -621.3255A   -621.3255A   -621.3246A   -621.3246A   -621.3255A   -621.3255A   -15.5801F    -8.7825F     
-Cgb            -1.3112F     -1.3112F     -1.3112F     -1.3112F     -1.3112F     -1.3112F     -1.9075F     -812.8303A   
-Csd            -0.0000A     -0.0000A     -0.0000A     -0.0000A     -0.0000A     -0.0000A     -194.0668A   -122.0777A   
-Csg            -621.2800A   -621.2800A   -621.2800A   -621.2800A   -621.2800A   -621.2800A   -14.4258F    -8.0215F     
-Css             2.4002F      2.4002F      2.5671F      2.5671F      2.4002F      2.4002F      23.1644F     13.8240F    
-Csb            -1.7789F     -1.7789F     -1.9458F     -1.9458F     -1.7789F     -1.7789F     -8.5445F     -5.6804F     
-Cbd            -1.7789F     -1.7789F     -1.9458F     -1.9458F     -1.7789F     -1.7789F     -5.0529F     -2.7701F     
-Cbg            -1.3112F     -1.3112F     -1.3112F     -1.3112F     -1.3112F     -1.3112F     -2.8122F     -1.4055F     
-Cbs            -1.7789F     -1.7789F     -1.9458F     -1.9458F     -1.7789F     -1.7789F     -7.6597F     -5.0980F     
-Cbb             4.8691F      4.8691F      5.2029F      5.2029F      4.8691F      4.8691F      15.5248F     9.2736F     
-PHI             885.4366M    885.4366M    885.4366M    885.4366M    885.4366M    885.4366M    885.4366M    885.4366M   
-VBI             1.0290       1.0290       1.0290       1.0290       1.0290       1.0290       1.0290       1.0290      
-Region         subthreshold subthreshold subthreshold subthreshold subthreshold subthreshold saturation   saturation   
-VTH_D          -1.1682      -1.1682      -811.0956M   -811.0956M   -1.1682      -1.1682       52.9415M     138.9164M   
-
-MOS 1: X_BUFFER1.M66
-MOS 2: X_BUFFER1.M65
-MOS 3: X_BUFFER1.M62
-MOS 4: X_BUFFER1.M61
-MOS 5: X_BUFFER1.M54
-MOS 6: X_BUFFER1.M53
-MOS 7: X_BUFFER1.M9
-MOS 8: X_BUFFER1.M16
-
-
-               MOS 1        MOS 2        MOS 3        MOS 4        MOS 5        MOS 6        MOS 7        MOS 8        
-
-MODEL          N_18_MM      N_18_MM      N_18_MM      N_18_MM      N_18_MM      N_18_MM      N_18_MM      N_18_MM      
-ID              1.4059P      15.9486U     15.8884U     10.3745U     281.9835U    10.3745U     15.9787U     15.8884U    
-VGS            -1.4053       701.1079M    654.7829M    511.0608M    602.9969M    511.0608M    568.0621M    630.9695M   
-VDS             0.0000       701.1079M    496.8646M    1.0164       746.1721M    1.0164       311.8591M    204.4171M   
-VBS            -1.4053      -559.0590M   -204.4171M   -388.9392M    0.0000      -388.9392M   -291.1378M    0.0000      
-VTH             654.9088M    547.6705M    498.1689M    518.8967M    457.5896M    518.8967M    515.1206M    465.3186M   
-VDSAT           48.0986M     171.3911M    169.5472M    70.6570M     158.7991M    70.6570M     100.6942M    172.8825M   
-GM              0.0000       163.2694U    160.1842U    221.2878U    3.0188M      221.2878U    268.5107U    146.9516U   
-GDS             1.0000P      3.4489U      3.8242U      3.6167U      53.9083U     3.6167U      6.5511U      14.7589U    
-RON             1.0000T      289.9445K    261.4894K    276.4984K    18.5500K     276.4984K    152.6453K    67.7559K    
-GMB             0.0000       20.7624U     25.6256U     31.5638U     561.6566U    31.5638U     41.3006U     27.6973U    
-Cdd             2.1334F      2.1733F      2.3651F      13.6083F     36.9113F     13.6083F     7.5736F      2.8110F     
-Cdg            -621.2800A   -627.8166A   -636.6476A   -4.9769F     -12.5324F    -4.9769F     -2.5762F     -810.9699A   
-Cds            -0.0000A      5.0647A      10.3516A     7.3131A      92.6034A     7.3131A      75.4152A     39.5228A    
-Cdb            -1.5121F     -1.5505F     -1.7388F     -8.6387F     -24.4716F    -8.6387F     -5.0728F     -2.0396F     
-Cgd            -621.2800A   -568.6277A   -576.6151A   -4.8025F     -11.5578F    -4.8025F     -2.3267F     -651.5446A   
-Cgg             2.5538F      5.3121F      5.3544F      28.1192F     107.4894F    28.1192F     19.8143F     5.4556F     
-Cgs            -621.3281A   -4.3373F     -4.3709F     -17.7190F    -87.5869F    -17.7190F    -15.5801F    -4.4156F     
-Cgb            -1.3112F     -406.1684A   -406.8795A   -5.5978F     -8.3447F     -5.5978F     -1.9075F     -388.4717A   
-Csd            -0.0000A     -57.6988A    -54.2661A    -180.3123A   -984.9718A   -180.3123A   -194.0668A   -110.7445A   
-Csg            -621.2800A   -4.0377F     -4.0355F     -16.7300F    -80.6470F    -16.7300F    -14.4258F    -3.9801F     
-Css             2.1334F      6.3484F      6.6655F      30.4472F     126.9139F    30.4472F     23.1644F     6.9266F     
-Csb            -1.5121F     -2.2529F     -2.5757F     -13.5369F    -45.2819F    -13.5369F    -8.5445F     -2.8358F     
-Cbd            -1.5121F     -1.5469F     -1.7343F     -8.6255F     -24.3686F    -8.6255F     -5.0529F     -2.0487F     
-Cbg            -1.3113F     -646.5192A   -682.2489A   -6.4123F     -14.3100F    -6.4123F     -2.8122F     -664.5276A   
-Cbs            -1.5120F     -2.0162F     -2.3049F     -12.7355F    -39.4196F    -12.7355F    -7.6597F     -2.5506F     
-Cbb             4.3354F      4.2096F      4.7214F      27.7734F     78.0982F     27.7734F     15.5248F     5.2638F     
-PHI             885.4366M    885.4366M    885.4366M    885.4366M    885.4366M    885.4366M    885.4366M    885.4366M   
-VBI             1.0290       1.0290       1.0290       1.0290       1.0290       1.0290       1.0290       1.0290      
-Region         subthreshold saturation   saturation   subthreshold saturation   subthreshold saturation   saturation   
-VTH_D          -2.0602       153.4374M    156.6139M   -7.8359M      145.4073M   -7.8359M      52.9415M     165.6509M   
-
-MOS 1: X_BUFFER1.M58
-MOS 2: X_BUFFER1.M32
-MOS 3: X_BUFFER1.M28
-MOS 4: X_BUFFER1.M17
-MOS 5: X_BUFFER1.MOUTN
-MOS 6: X_BUFFER1.MIN1
-MOS 7: X_BUFFER1.M7
-MOS 8: X_BUFFER1.M29
-
-
-               MOS 1        MOS 2        MOS 3        MOS 4        MOS 5        MOS 6        MOS 7        MOS 8        
-
-MODEL          P_18_MM      P_18_MM      P_18_MM      P_18_MM      P_18_MM      P_18_MM      P_18_MM      P_18_MM      
-ID             -15.8884U    -7.5011U     -1.5094P     -1.5094P     -60.5596U    -26.3532U    -15.9787U    -15.9486U    
-VGS            -1.0987      -822.5981M   -291.1378M   -291.1378M   -726.5287M   -701.3660M   -704.0361M   -809.5894M   
-VDS            -298.3135M   -495.6371M    0.0000       0.0000      -208.0021M   -394.6822M   -306.6838M   -250.7041M   
-VBS             0.0000       701.3660M    1.5089       1.5089       0.0000       0.0000       394.6822M    289.1289M   
-VTH            -480.3851M   -690.3875M   -856.7665M   -856.7665M   -518.5457M   -518.5454M   -621.5105M   -595.7750M   
-VDSAT          -532.8467M   -168.2086M   -48.7746M    -48.7746M    -220.4628M   -199.7360M   -126.8655M   -231.1935M   
-GM              31.9910U     84.8272U     0.0000       0.0000       449.5338U    237.5536U    228.1545U    119.9837U   
-GDS             32.3691U     884.7821N    1.9995P      1.9995P      73.3658U     4.2731U      2.7223U      10.0804U    
-RON             30.8937K     1.1302MEG    500.1262G    500.1262G    13.6303K     234.0229K    367.3317K    99.2028K    
-GMB             12.1893U     18.7271U     0.0000       0.0000       135.0642U    70.3140U     55.8476U     31.5677U    
-Cdd             49.8941F     5.1368F      3.2303F      3.2303F      28.0764F     11.7708F     22.1250F     6.1651F     
-Cdg            -28.6280F    -1.8342F     -896.7501A   -896.7501A   -10.4072F    -3.7767F     -7.5347F     -2.2902F     
-Cds            -10.4938F     31.1546A    -0.0001A     -0.0001A      414.2856A    112.2057A    273.9721A    100.5842A   
-Cdb            -10.7724F    -3.3338F     -2.3335F     -2.3335F     -18.0835F    -8.1063F     -14.8643F    -3.9754F     
-Cgd            -21.0575F    -1.8012F     -896.7501A   -896.7501A   -8.6606F     -3.6395F     -7.2462F     -2.0051F     
-Cgg             84.4196F     15.4630F     3.0969F      3.0969F      64.3907F     31.5732F     59.9062F     15.8916F    
-Cgs            -61.6845F    -12.7823F    -896.7785A   -896.7785A   -52.0078F    -25.8872F    -48.3515F    -13.0211F    
-Cgb            -1.6776F     -879.5490A   -1.3033F     -1.3033F     -3.7222F     -2.0466F     -4.3085F     -865.4009A   
-Csd            -14.6475F    -5.9349A     -0.0000A     -0.0000A     -1.2368F     -43.5236A    -56.4955A    -171.9897A   
-Csg            -51.5664F    -11.7127F    -896.7501A   -896.7501A   -46.4446F    -23.6336F    -44.1803F    -11.7259F    
-Css             88.7326F     19.3000F     3.2303F      3.2303F      80.0782F     41.1334F     71.1533F     20.5665F    
-Csb            -22.5186F    -7.5813F     -2.3335F     -2.3335F     -32.3969F    -17.4563F    -26.9166F    -8.6686F     
-Cbd            -14.1891F    -3.3297F     -2.3335F     -2.3335F     -18.1790F    -8.0879F     -14.8223F    -3.9880F     
-Cbg            -4.2252F     -1.9161F     -1.3034F     -1.3034F     -7.5388F     -4.1629F     -8.1912F     -1.8754F     
-Cbs            -16.5543F    -6.5488F     -2.3335F     -2.3335F     -28.4847F    -15.3584F    -23.0758F    -7.6460F     
-Cbb             34.9686F     11.7947F     5.9704F      5.9704F      54.2026F     27.6092F     46.0893F     13.5094F    
-PHI             910.7709M    910.7709M    910.7709M    910.7709M    910.7709M    910.7709M    910.7709M    910.7709M   
-VBI             1.0417       1.0417       1.0417       1.0417       1.0417       1.0417       1.0417       1.0417      
-Region         linear       saturation   subthreshold subthreshold linear       saturation   saturation   saturation   
-VTH_D           618.3332M    132.2106M   -565.6287M   -565.6287M    207.9830M    182.8206M    82.5256M     213.8144M   
-
-MOS 1: X_BUFFER1.M36
-MOS 2: X_BUFFER1.M13
-MOS 3: X_BUFFER1.M60
-MOS 4: X_BUFFER1.M59
-MOS 5: X_BUFFER1.M3
-MOS 6: X_BUFFER1.M6
-MOS 7: X_BUFFER1.M12
-MOS 8: X_BUFFER1.M39
-
-
-               MOS 1        MOS 2        MOS 3        MOS 4        MOS 5        MOS 6        MOS 7        MOS 8        
-
-MODEL          N_18_MM      N_18_MM      N_18_MM      N_18_MM      N_18_MM      N_18_MM      N_18_MM      N_18_MM      
-ID              25.1786U     8.4776U      291.2566F    8.4776U      62.9089U     291.2566F    1.4059P      1.4059P     
-VGS             602.9969M    657.1700M   -291.1378M    657.1700M    630.9695M   -291.1378M   -1.4053      -1.4053      
-VDS             291.1378M    495.6371M    0.0000       495.6371M    194.2472M    0.0000       0.0000       0.0000      
-VBS             0.0000      -602.9969M   -291.1378M   -602.9969M    0.0000      -291.1378M   -1.4053      -1.4053      
-VTH             464.0805M    556.8944M    519.9578M    556.8944M    465.4636M    519.9578M    654.9088M    654.9088M   
-VDSAT           154.3108M    133.9623M    44.9523M     133.9623M    172.7819M    44.9523M     48.0986M     48.0986M    
-GM              274.6958U    113.1322U    0.0000       113.1322U    577.0433U    0.0000       0.0000       0.0000      
-GDS             10.0347U     2.5498U      1.0001P      2.5498U      68.1459U     1.0001P      1.0000P      1.0000P     
-RON             99.6544K     392.1909K    999.9253G    392.1909K    14.6744K     999.9253G    1.0000T      1.0000T     
-GMB             51.7666U     14.2582U     0.0000       14.2582U     108.8657U    0.0000       0.0000       0.0000      
-Cdd             4.0765F      2.2211F      2.5671F      2.2211F      9.0698F      2.5671F      2.1334F      2.1334F     
-Cdg            -1.3527F     -633.0268A   -621.2800A   -633.0268A   -3.3630F     -621.2800A   -621.2800A   -621.2800A   
-Cds             56.5414A     9.3328A     -0.0000A      9.3328A      156.2089A   -0.0000A     -0.0000A     -0.0000A     
-Cdb            -2.7804F     -1.5974F     -1.9458F     -1.5974F     -5.8630F     -1.9458F     -1.5121F     -1.5121F     
-Cgd            -1.1844F     -569.9172A   -621.2800A   -569.9172A   -2.6636F     -621.2800A   -621.2800A   -621.2800A   
-Cgg             10.7797F     5.2415F      2.5538F      5.2415F      21.8701F     2.5538F      2.5538F      2.5538F     
-Cgs            -8.7825F     -4.2567F     -621.3246A   -4.2567F     -17.6618F    -621.3246A   -621.3281A   -621.3281A   
-Cgb            -812.8303A   -414.9258A   -1.3112F     -414.9258A   -1.5446F     -1.3112F     -1.3112F     -1.3112F     
-Csd            -122.0777A   -57.4622A    -0.0000A     -57.4622A    -490.7269A   -0.0000A     -0.0000A     -0.0000A     
-Csg            -8.0215F     -3.9624F     -621.2800A   -3.9624F     -15.8806F    -621.2800A   -621.2800A   -621.2800A   
-Css             13.8240F     6.2349F      2.5671F      6.2349F      26.4334F     2.5671F      2.1334F      2.1334F     
-Csb            -5.6804F     -2.2150F     -1.9458F     -2.2150F     -10.0621F    -1.9458F     -1.5121F     -1.5121F     
-Cbd            -2.7701F     -1.5937F     -1.9458F     -1.5937F     -5.9154F     -1.9458F     -1.5121F     -1.5121F     
-Cbg            -1.4055F     -646.0574A   -1.3112F     -646.0574A   -2.6265F     -1.3112F     -1.3113F     -1.3113F     
-Cbs            -5.0980F     -1.9876F     -1.9458F     -1.9876F     -8.9278F     -1.9458F     -1.5120F     -1.5120F     
-Cbb             9.2736F      4.2273F      5.2029F      4.2273F      17.4697F     5.2029F      4.3354F      4.3354F     
-PHI             885.4366M    885.4366M    885.4366M    885.4366M    885.4366M    885.4366M    885.4366M    885.4366M   
-VBI             1.0290       1.0290       1.0290       1.0290       1.0290       1.0290       1.0290       1.0290      
-Region         saturation   saturation   subthreshold saturation   saturation   subthreshold subthreshold subthreshold 
-VTH_D           138.9164M    100.2757M   -811.0956M    100.2757M    165.5059M   -811.0956M   -2.0602      -2.0602      
-
-MOS 1: X_BUFFER1.M15
-MOS 2: X_BUFFER1.M11
-MOS 3: X_BUFFER1.M47
-MOS 4: X_BUFFER1.M8
-MOS 5: X_BUFFER1.M2
-MOS 6: X_BUFFER1.M49
-MOS 7: X_BUFFER1.M57
-MOS 8: X_BUFFER1.M20
-
-
-               MOS 1        MOS 2        MOS 3        MOS 4        MOS 5        MOS 6        MOS 7        MOS 8        
-
-MODEL          P_18_MM      P_18_MM      P_18_MM      P_18_MM      P_18_MM      P_18_MM      P_18_MM      P_18_MM      
-ID             -60.5596U    -15.9727U    -9.1999U     -21.0800U    -15.2178U    -21.0800U    -1.5094P     -1.5094P     
-VGS            -890.7162M   -804.8779M   -600.9194M   -599.0234M   -879.0106M   -599.0234M   -291.1378M   -291.1378M   
-VDS            -91.0785M    -432.6882M   -1.2098      -599.0234M   -879.0106M   -599.0234M    0.0000       0.0000      
-VBS             208.0021M    293.8404M    299.0806M    299.0806M    644.9535M    299.0806M    1.5089       1.5089      
-VTH            -575.1704M   -596.9489M   -598.2501M   -586.8611M   -678.3103M   -586.8611M   -856.7665M   -856.7665M   
-VDSAT          -315.4533M   -226.3097M   -78.4848M    -81.4375M    -225.3593M   -81.4375M    -48.7746M    -48.7746M    
-GM              206.1902U    128.5804U    178.5703U    403.2259U    126.4081U    403.2259U    0.0000       0.0000      
-GDS             550.0432U    2.3776U      826.1333N    2.4905U      1.2277U      2.4905U      1.9995P      1.9995P     
-RON             1.8180K      420.5849K    1.2105MEG    401.5284K    814.5631K    401.5284K    500.1262G    500.1262G   
-GMB             62.7887U     33.6011U     45.3509U     105.3915U    28.9277U     105.3915U    0.0000       0.0000      
-Cdd             70.6197F     5.5269F      39.5815F     83.6255F     4.9451F      83.6255F     3.2303F      3.2303F     
-Cdg            -32.2649F    -1.8807F     -14.3652F    -28.8577F    -1.8064F     -28.8577F    -896.7501A   -896.7501A   
-Cds            -15.5066F     46.8444A     20.2792A     177.9966A    10.6043A     177.9966A   -0.0001A     -0.0001A     
-Cdb            -22.8481F    -3.6930F     -25.2365F    -54.9457F    -3.1493F     -54.9457F    -2.3335F     -2.3335F     
-Cgd            -26.2603F    -1.8188F     -14.3531F    -28.7155F    -1.7956F     -28.7155F    -896.7501A   -896.7501A   
-Cgg             73.1223F     15.7194F     91.4039F     192.7839F    15.6077F     192.7839F    3.0969F      3.0969F     
-Cgs            -45.6535F    -12.9947F    -60.8896F    -135.0858F   -12.9645F    -135.0858F   -896.7785A   -896.7785A   
-Cgb            -1.2084F     -905.8769A   -16.1612F    -28.9827F    -847.5736A   -28.9827F    -1.3033F     -1.3033F     
-Csd            -15.6060F    -20.5176A     4.6872A      1.3590A     -1.6504A      1.3590A     -0.0000A     -0.0000A     
-Csg            -39.2831F    -11.8586F    -56.3747F    -123.6435F   -11.8839F    -123.6435F   -896.7501A   -896.7501A   
-Css             82.5539F     20.5643F     102.3157F    219.3358F    19.6242F     219.3358F    3.2303F      3.2303F     
-Csb            -27.6648F    -8.6851F     -45.9457F    -95.6937F    -7.7387F     -95.6937F    -2.3335F     -2.3335F     
-Cbd            -28.7534F    -3.6876F     -25.2331F    -54.9113F    -3.1478F     -54.9113F    -2.3335F     -2.3335F     
-Cbg            -1.5743F     -1.9800F     -20.6639F    -40.2827F    -1.9175F     -40.2827F    -1.3034F     -1.3034F     
-Cbs            -21.3938F    -7.6164F     -41.4464F    -84.4280F    -6.6703F     -84.4280F    -2.3335F     -2.3335F     
-Cbb             51.7214F     13.2840F     87.3434F     179.6221F    11.7356F     179.6221F    5.9704F      5.9704F     
-PHI             910.7709M    910.7709M    910.7709M    910.7709M    910.7709M    910.7709M    910.7709M    910.7709M   
-VBI             1.0417       1.0417       1.0417       1.0417       1.0417       1.0417       1.0417       1.0417      
-Region         linear       saturation   saturation   saturation   saturation   saturation   subthreshold subthreshold 
-VTH_D           315.5458M    207.9290M    2.6693M      12.1623M     200.7003M    12.1623M    -565.6287M   -565.6287M   
-
-MOS 1: X_BUFFER1.M1
-MOS 2: X_BUFFER1.M40
-MOS 3: X_BUFFER1.M18
-MOS 4: X_BUFFER1.M19
-MOS 5: X_BUFFER1.M33
-MOS 6: X_BUFFER1.M42
-MOS 7: X_BUFFER1.M46
-MOS 8: X_BUFFER1.M44
-
-
-               MOS 1        MOS 2        MOS 3        MOS 4        MOS 5        MOS 6        MOS 7        MOS 8        
-
-MODEL          P_18_MM      P_18_MM      P_18_MM      P_18_MM      P_18_MM      P_18_MM      P_18_MM      P_18_MM      
-ID             -15.5583U    -15.8677U    -3.7500U     -15.9787U    -15.2178U    -9.1999U     -281.9835U   -15.8884U    
-VGS            -582.1059M   -582.1059M   -582.1059M   -704.0361M   -644.9535M   -600.9194M   -701.3660M   -800.4049M   
-VDS            -940.8001M   -1.1690      -582.1059M   -306.6838M   -644.9535M   -1.2098      -1.0538      -800.4049M   
-VBS             0.0000       0.0000       0.0000       394.6822M    0.0000       299.0806M    0.0000       298.3135M   
-VTH            -509.3155M   -509.3155M   -509.3154M   -621.5105M   -518.5448M   -598.2501M   -518.5455M   -598.0611M   
-VDSAT          -114.1547M   -114.1652M   -114.1381M   -126.8655M   -154.6037M   -78.4848M    -199.7648M   -221.6850M   
-GM              233.6677U    237.7540U    56.4662U     228.1545U    178.0871U    178.5703U    2.5465M      131.3561U   
-GDS             1.4136U      1.3056U      437.7279N    2.7223U      1.6059U      826.1333N    20.8817U     1.3989U     
-RON             707.4151K    765.9130K    2.2845MEG    367.3317K    622.7066K    1.2105MEG    47.8888K     714.8723K   
-GMB             68.3354U     69.5568U     16.5008U     55.8476U     52.1527U     45.3509U     755.1511U    34.2636U    
-Cdd             20.8852F     20.2755F     7.3093F      22.1250F     11.0968F     39.5815F     104.2621F    5.1877F     
-Cdg            -7.2014F     -7.1914F     -1.8127F     -7.5347F     -3.6277F     -14.3652F    -36.0245F    -1.8096F     
-Cds             30.7024A     19.9792A     19.6900A     273.9721A    38.0412A     20.2792A     150.7652A    13.2138A    
-Cdb            -13.7144F    -13.1042F    -5.5162F     -14.8643F    -7.5072F     -25.2365F    -68.3883F    -3.3913F     
-Cgd            -7.1770F     -7.1761F     -1.7958F     -7.2462F     -3.5929F     -14.3531F    -35.8897F    -1.7963F     
-Cgg             59.2836F     59.2837F     14.8242F     59.9062F     31.1236F     91.4039F     315.0430F    15.6856F    
-Cgs            -46.8614F    -46.8624F    -11.7180F    -48.3515F    -25.3188F    -60.8896F    -258.5012F   -12.9754F    
-Cgb            -5.2453F     -5.2452F     -1.3104F     -4.3085F     -2.2119F     -16.1612F    -20.6521F    -913.8351A   
-Csd            -0.2758A      0.4856A     -1.3817A     -56.4955A    -4.4994A      4.6872A     -15.2144A    -2.2665A     
-Csg            -42.8700F    -42.8781F    -10.7115F    -44.1803F    -23.2148F    -56.3747F    -236.9275F   -11.8782F    
-Css             76.1711F     76.1807F     20.1390F     71.1533F     40.5669F     102.3157F    391.1099F    20.5557F    
-Csb            -33.3008F    -33.3032F    -9.4261F     -26.9166F    -17.3476F    -45.9457F    -154.1672F   -8.6753F     
-Cbd            -13.7079F    -13.0999F    -5.5121F     -14.8223F    -7.4995F     -25.2331F    -68.3572F    -3.3891F     
-Cbg            -9.2122F     -9.2142F     -2.3000F     -8.1912F     -4.2812F     -20.6639F    -42.0909F    -1.9978F     
-Cbs            -29.3404F    -29.3383F    -8.4407F     -23.0758F    -15.2861F    -41.4464F    -132.7595F   -7.5935F     
-Cbb             52.2605F     51.6525F     16.2528F     46.0893F     27.0668F     87.3434F     243.2076F    12.9804F    
-PHI             910.7709M    910.7709M    910.7709M    910.7709M    910.7709M    910.7709M    910.7709M    910.7709M   
-VBI             1.0417       1.0417       1.0417       1.0417       1.0417       1.0417       1.0417       1.0417      
-Region         saturation   saturation   saturation   saturation   saturation   saturation   saturation   saturation   
-VTH_D           72.7905M     72.7905M     72.7905M     82.5256M     126.4087M    2.6693M      182.8205M    202.3438M   
-
-MOS 1: X_BUFFER1.M45
-MOS 2: X_BUFFER1.M43
-MOS 3: X_BUFFER1.M48
-MOS 4: X_BUFFER1.M10
-MOS 5: X_BUFFER1.M34
-MOS 6: X_BUFFER1.M41
-MOS 7: X_BUFFER1.MOUTP
-MOS 8: X_BUFFER1.M22
-
-
-               MOS 1        MOS 2        MOS 3        MOS 4        MOS 5        MOS 6        MOS 7        MOS 8        
-
-MODEL          N_18_MM      N_18_MM      N_18_MM      N_18_MM      N_18_MM      N_18_MM      N_18_MM      N_18_MM      
-ID              1.4059P      15.9486U     42.1599U     15.5583U     15.5583U     62.9089U     15.9727U     15.8677U    
-VGS            -1.4053       559.0590M    512.9567M    650.1231M    859.1999M    664.9527M    648.8441M    656.1737M   
-VDS             0.0000       559.0590M    512.9567M    650.1231M    209.0769M    194.6920M    863.1155M    427.9433M   
-VBS            -1.4053       0.0000      -388.9392M   -209.0769M    0.0000      -194.2472M   -210.3558M   -203.0262M   
-VTH             654.9088M    460.2571M    519.3793M    496.6240M    354.3884M    501.0222M    493.6060M    498.9791M   
-VDSAT           48.0986M     126.9901M    71.1121M     167.4033M    407.6402M    174.5868M    168.6397M    169.9413M   
-GM              0.0000       215.1859U    894.9979U    159.6533U    41.0842U     579.1034U    162.8205U    159.1823U   
-GDS             1.0000P      4.0202U      16.2548U     3.2262U      48.3589U     69.6818U     2.9509U      4.2926U     
-RON             1.0000T      248.7438K    61.5202K     309.9621K    20.6787K     14.3509K     338.8769K    232.9583K   
-GMB             0.0000       40.5816U     129.8130U    25.3567U     8.2778U      94.3737U     25.6733U     25.5404U    
-Cdd             2.1334F      3.8051F      56.4604F     2.2994F      19.6446F     8.7255F      2.2261F      2.4003F     
-Cdg            -621.2800A   -1.2598F     -19.9869F    -629.0141A   -10.2332F    -3.3729F     -625.2289A   -644.0297A   
-Cds            -0.0000A      15.3888A     109.5133A    6.0320A     -5.8369F      148.6524A    3.4052A      13.8551A    
-Cdb            -1.5121F     -2.5607F     -36.5830F    -1.6764F     -3.5745F     -5.5013F     -1.6042F     -1.7701F     
-Cgd            -621.2800A   -1.1585F     -19.1955F    -574.6974A   -7.4933F     -2.6558F     -573.9474A   -578.7117A   
-Cgg             2.5538F      10.6155F     113.8231F    5.3497F      28.1536F     21.7691F     5.3489F      5.3578F     
-Cgs            -621.3281A   -8.5889F     -72.6249F    -4.3642F     -19.6565F    -17.5658F    -4.3602F     -4.3740F     
-Cgb            -1.3112F     -868.0095A   -22.0026F    -410.7836A   -1.0038F     -1.5475F     -414.6831A   -405.0214A   
-Csd            -0.0000A     -96.7739A    -744.5331A   -52.7924A    -5.7626F     -500.9296A   -52.2343A    -55.9430A    
-Csg            -621.2800A   -7.9080F     -68.3336F    -4.0368F     -16.5648F    -15.8769F    -4.0390F     -4.0333F     
-Css             2.1334F      13.6561F     121.0299F    6.6580F      28.1032F     25.5279F     6.6555F      6.6671F     
-Csb            -1.5121F     -5.6513F     -51.9518F    -2.5684F     -5.7758F     -9.1501F     -2.5643F     -2.5779F     
-Cbd            -1.5121F     -2.5498F     -36.5204F    -1.6719F     -6.3887F     -5.5687F     -1.5999F     -1.7657F     
-Cbg            -1.3113F     -1.4476F     -25.5026F    -683.8648A   -1.3556F     -2.5193F     -684.6418A   -680.4681A   
-Cbs            -1.5120F     -5.0826F     -48.5145F    -2.2999F     -2.6098F     -8.1108F     -2.2987F     -2.3069F     
-Cbb             4.3354F      9.0800F      110.5375F    4.6556F      10.3541F     16.1988F     4.5832F      4.7530F     
-PHI             885.4366M    885.4366M    885.4366M    885.4366M    885.4366M    885.4366M    885.4366M    885.4366M   
-VBI             1.0290       1.0290       1.0290       1.0290       1.0290       1.0290       1.0290       1.0290      
-Region         subthreshold saturation   subthreshold saturation   linear       saturation   saturation   saturation   
-VTH_D          -2.0602       98.8019M    -6.4226M      153.4991M    504.8115M    163.9305M    155.2381M    157.1946M   
-
-MOS 1: X_BUFFER1.M_D1
-MOS 2: X_BUFFER1.M35
-MOS 3: X_BUFFER1.M50
-MOS 4: X_BUFFER1.M21
-MOS 5: X_BUFFER1.M24
-MOS 6: X_BUFFER1.M4
-MOS 7: X_BUFFER1.M30
-MOS 8: X_BUFFER1.M23
-
-
-               MOS 1        MOS 2        MOS 3        MOS 4        
-
-MODEL          N_18_MM      N_18_MM      N_18_MM      N_18_MM      
-ID              15.8677U     15.2178U     15.2178U     15.9727U    
-VGS             630.9695M    630.9695M    689.5053M    630.9695M   
-VDS             203.0262M    169.6947M    106.3412M    210.3558M   
-VBS             0.0000       0.0000      -169.6947M    0.0000      
-VTH             465.3384M    465.8137M    498.1362M    465.2339M   
-VDSAT           172.8687M    172.5392M    193.5473M    172.9412M   
-GM              146.6104U    135.5442U    100.1969U    148.3224U   
-GDS             15.0398U     25.1682U     89.6754U     13.6564U    
-RON             66.4904K     39.7327K     11.1513K     73.2260K    
-GMB             27.6363U     25.6516U     16.9224U     27.9417U    
-Cdd             2.8164F      2.9999F      4.3555F      2.7892F     
-Cdg            -814.7182A   -941.6543A   -1.8354F     -795.9951A   
-Cds             39.5196A     30.9018A    -366.5297A    39.3637A    
-Cdb            -2.0412F     -2.0891F     -2.1536F     -2.0326F     
-Cgd            -653.3302A   -717.2074A   -1.3000F     -644.4798A   
-Cgg             5.4571F      5.5079F      5.8547F      5.4496F     
-Cgs            -4.4156F     -4.4122F     -4.2365F     -4.4155F     
-Cgb            -388.1791A   -378.4986A   -318.1298A   -389.6472A   
-Csd            -112.2285A   -165.3178A   -644.2860A   -104.8729A   
-Csg            -3.9789F     -3.9364F     -3.6442F     -3.9851F     
-Css             6.9266F      6.9298F      6.8459F      6.9266F     
-Csb            -2.8356F     -2.8281F     -2.5574F     -2.8366F     
-Cbd            -2.0509F     -2.1174F     -2.4112F     -2.0399F     
-Cbg            -663.5327A   -629.8325A   -375.1080A   -668.5024A   
-Cbs            -2.5506F     -2.5485F     -2.2429F     -2.5505F     
-Cbb             5.2650F      5.2957F      5.0292F      5.2588F     
-PHI             885.4366M    885.4366M    885.4366M    885.4366M   
-VBI             1.0290       1.0290       1.0290       1.0290      
-Region         saturation   linear       linear       saturation   
-VTH_D           165.6311M    165.1557M    191.3691M    165.7356M   
-
-MOS 1: X_BUFFER1.M25
-MOS 2: X_BUFFER1.M27
-MOS 3: X_BUFFER1.M26
-MOS 4: X_BUFFER1.M31
-
-
-               MOS 1        MOS 2        MOS 3        MOS 4        MOS 5        MOS 6        MOS 7        MOS 8        
-
-MODEL          P_18_MM      P_18_MM      P_18_MM      P_18_MM      P_18_MM      P_18_MM      P_18_MM      P_18_MM      
-ID             -15.9727U    -1.5094P     -1.5094P     -1.5094P     -1.5094P     -26.3532U    -15.9486U    -7.5011U     
-VGS            -726.5287M   -291.1378M   -291.1378M   -291.1378M   -291.1378M   -701.3660M   -726.5287M   -822.5981M   
-VDS            -293.8404M    0.0000       0.0000       0.0000       0.0000      -394.6822M   -289.1289M   -495.6371M   
-VBS             0.0000       1.5089       1.5089       1.5089       1.5089       0.0000       0.0000       701.3660M   
-VTH            -518.5458M   -856.7665M   -856.7665M   -856.7665M   -856.7665M   -518.5454M   -518.5458M   -690.3875M   
-VDSAT          -220.4659M   -48.7746M    -48.7746M    -48.7746M    -48.7746M    -199.7360M   -220.4657M   -168.2086M   
-GM              127.4539U    0.0000       0.0000       0.0000       0.0000       237.5536U    127.0829U    84.8272U    
-GDS             4.9851U      1.9995P      1.9995P      1.9995P      1.9995P      4.2731U      5.2361U      884.7821N   
-RON             200.5978K    500.1262G    500.1262G    500.1262G    500.1262G    234.0229K    190.9802K    1.1302MEG   
-GMB             37.9677U     0.0000       0.0000       0.0000       0.0000       70.3140U     37.8618U     18.7271U    
-Cdd             6.2118F      3.2303F      3.2303F      3.2303F      3.2303F      11.7708F     6.2347F      5.1368F     
-Cdg            -2.0663F     -896.7501A   -896.7501A   -896.7501A   -896.7501A   -3.7767F     -2.0805F     -1.8342F     
-Cds             94.7639A    -0.0001A     -0.0001A     -0.0001A     -0.0001A      112.2057A    96.8435A     31.1546A    
-Cdb            -4.2402F     -2.3335F     -2.3335F     -2.3335F     -2.3335F     -8.1063F     -4.2510F     -3.3338F     
-Cgd            -1.8952F     -896.7501A   -896.7501A   -896.7501A   -896.7501A   -3.6395F     -1.9016F     -1.8012F     
-Cgg             15.8832F     3.0969F      3.0969F      3.0969F      3.0969F      31.5732F     15.8889F     15.4630F    
-Cgs            -13.0001F    -896.7785A   -896.7785A   -896.7785A   -896.7785A   -25.8872F    -13.0009F    -12.7823F    
-Cgb            -987.9064A   -1.3033F     -1.3033F     -1.3033F     -1.3033F     -2.0466F     -986.3887A   -879.5490A   
-Csd            -84.5489A    -0.0000A     -0.0000A     -0.0000A     -0.0000A     -43.5236A    -89.8827A    -5.9349A     
-Csg            -11.7897F    -896.7501A   -896.7501A   -896.7501A   -896.7501A   -23.6336F    -11.7850F    -11.7127F    
-Css             21.7352F     3.2303F      3.2303F      3.2303F      3.2303F      41.1334F     21.7345F     19.3000F    
-Csb            -9.8610F     -2.3335F     -2.3335F     -2.3335F     -2.3335F     -17.4563F    -9.8597F     -7.5813F     
-Cbd            -4.2321F     -2.3335F     -2.3335F     -2.3335F     -2.3335F     -8.0879F     -4.2432F     -3.3297F     
-Cbg            -2.0272F     -1.3034F     -1.3034F     -1.3034F     -1.3034F     -4.1629F     -2.0234F     -1.9161F     
-Cbs            -8.8299F     -2.3335F     -2.3335F     -2.3335F     -2.3335F     -15.3584F    -8.8305F     -6.5488F     
-Cbb             15.0891F     5.9704F      5.9704F      5.9704F      5.9704F      27.6092F     15.0971F     11.7947F    
-PHI             910.7709M    910.7709M    910.7709M    910.7709M    910.7709M    910.7709M    910.7709M    910.7709M   
-VBI             1.0417       1.0417       1.0417       1.0417       1.0417       1.0417       1.0417       1.0417      
-Region         saturation   subthreshold subthreshold subthreshold subthreshold saturation   saturation   saturation   
-VTH_D           207.9829M   -565.6287M   -565.6287M   -565.6287M   -565.6287M    182.8206M    207.9829M    132.2106M   
-
-MOS 1: X_BUFFER1.M38
-MOS 2: X_BUFFER1.M72
-MOS 3: X_BUFFER1.M71
-MOS 4: X_BUFFER1.M70
-MOS 5: X_BUFFER1.M69
-MOS 6: X_BUFFER1.M5
-MOS 7: X_BUFFER1.M37
-MOS 8: X_BUFFER1.M14
-
-
-               DIP 1        DIP 2        
-M               1.0000       1.0000      
-V+              1.0986       602.9969M   
-V-              1.0986       602.9969M   
-ID              0.0000       0.0000      
-
-DIP 1: X_BUFFER1.XR1.R1
-DIP 2: X_BUFFER1.XR2.R1
-
-
-               DIP 1        DIP 2        DIP 3        DIP 4        DIP 5        DIP 6        
-M               8.0000       8.0000       1.0000       1.0000       1.0000       1.0000      
-V+              602.9969M    1.0986       1.0986       1.0986       602.9969M    602.9969M   
-V-              746.1721M    746.1721M    0.0000       0.0000       0.0000       0.0000      
-ID              0.0000       0.0000       0.0000       0.0000       0.0000       0.0000      
-
-DIP 1: X_BUFFER1.XC1.C1
-DIP 2: X_BUFFER1.XC2.C1
-DIP 3: X_BUFFER1.XR1.C1
-DIP 4: X_BUFFER1.XR1.C2
-DIP 5: X_BUFFER1.XR2.C1
-DIP 6: X_BUFFER1.XR2.C2
-
-
-               X_S2D1.E3    X_S2D1.E2    X_S2D1.E1    
-M               1.0000       1.0000       1.0000      
-V12             900.0000M    0.0000       0.0000      
-ID              0.0000       0.0000       0.0000      
-
-
-***>CPU TIME 0s 020ms <***
+   TOTAL POWER DISSIPATION:  818.5038U   WATTS
 
 
 
 
-1***************21-Dec-2013 ***********************  ELDO 2009.2 (64 bits)  (v7.2_1.1)  ***********************18:16:49*****************
+
+Eldo NEWTON: VNTOL=1.000000e-06 RELTOL=6.111111e-04
+
+................................................
+Simulation progress           : 10% (t = 200.0987 N)
+Elapsed CPU time              :  0h  0mn  0s  50    ( 0h  0mn  0s  50)
+................................................
+Simulation progress           : 20% (t = 400.3194 N)
+Elapsed CPU time              :  0h  0mn  0s  60    ( 0h  0mn  0s 110)
+................................................
+Simulation progress           : 30% (t = 600.0987 N)
+Elapsed CPU time              :  0h  0mn  0s  80    ( 0h  0mn  0s 190)
+................................................
+Simulation progress           : 40% (t = 800.3194 N)
+Elapsed CPU time              :  0h  0mn  0s  50    ( 0h  0mn  0s 240)
+................................................
+Simulation progress           : 50% (t = 1.0001 U)
+Elapsed CPU time              :  0h  0mn  0s  50    ( 0h  0mn  0s 290)
+................................................
+Simulation progress           : 60% (t = 1.2003 U)
+Elapsed CPU time              :  0h  0mn  0s  50    ( 0h  0mn  0s 340)
+................................................
+Simulation progress           : 70% (t = 1.4001 U)
+Elapsed CPU time              :  0h  0mn  0s  50    ( 0h  0mn  0s 390)
+................................................
+Simulation progress           : 80% (t = 1.6003 U)
+Elapsed CPU time              :  0h  0mn  0s  50    ( 0h  0mn  0s 440)
+................................................
+Simulation progress           : 90% (t = 1.8001 U)
+Elapsed CPU time              :  0h  0mn  0s  50    ( 0h  0mn  0s 490)
+................................................
+Simulation progress           : 100% (t = 2.0000 U)
+Elapsed CPU time              :  0h  0mn  0s  50    ( 0h  0mn  0s 540)
+
+
+
+1*************** 9-Jan-2014 ***********************  ELDO 2009.2 (64 bits)  (v7.2_1.1)  ***********************13:27:20*****************
 
 0* Component: $SC_filter/default.group/logic.views/testBuffer  Viewpoint: eldonet
 0****                 ACCOUNTING INFORMATION                                TEMPERATURE =   27.000 DEG C
@@ -4423,7 +3980,7 @@ ID              0.0000       0.0000       0.0000
 
     NUNODS NCNODS NUMNOD   NUMEL   DIODES    BJT  JFET  MOSFET
 
-       159     67    219      91        0      0     0      76
+       165     68    228      92        0      0     0      80
 
     NUMGC
 
@@ -4432,37 +3989,38 @@ ID              0.0000       0.0000       0.0000
 
     NSTOP    NTERM    PERSPA  
 
-      225     1370 9.729e+01
+      225     1201 9.763e+01
 
     NUMTTP  NUMRTP  LTERTP  LTERTPNW NWNOCON
 
-         0       0       0       0       0
+      2087       0       0       0       0
 
   DIGITAL  INWCALL    ITERNW   MEMSIZE
 
-        0        2 2.000e+00  127393792
+        0     3149 1.508e+00  126439424
 
     NDEVCALL       NKIRCH  NMAXCALL      ITERM     LATENCY
 
-      103212            0         0   0.00e+00   0.000e+00%
+      103057            0         5   9.86e-01   0.000e+00%
+
+
+  TRANSIENT JOB TIME                 0
 
 
 
 
+***>CPU TIME 0s 540ms <***
 
+***>MESSAGE SUMMARY: 42 warnings
 
-***>CPU TIME 0s 180ms <***
-
-***>MESSAGE SUMMARY: 37 warnings
-
-***>GLOBAL CPU TIME 0s 220ms <***
+***>GLOBAL CPU TIME 0s 660ms <***
 
 
 ***>GLOBAL ELAPSED TIME 1s <***
 
 
-  Job started at 21-Dec-2013 18:16:48
-  Job end at     21-Dec-2013 18:16:49
+  Job started at  9-Jan-2014 13:27:20
+  Job end at      9-Jan-2014 13:27:21
 
   Run on localhost.localdomain (Linux 2.6.18-348.el5)
 

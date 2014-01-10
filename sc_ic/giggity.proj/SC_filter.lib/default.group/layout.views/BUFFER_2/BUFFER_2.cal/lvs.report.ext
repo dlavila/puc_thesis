@@ -1,0 +1,32 @@
+
+
+       #############################################################
+       ##                                                         ##
+       ##               C A L I B R E    S Y S T E M              ##
+       ##                                                         ##
+       ##    C I R C U I T   E X T R A C T I O N   R E P O R T    ##
+       ##                                                         ##
+       #############################################################
+
+
+REPORT FILE NAME:         lvs.report.ext
+LAYOUT NAME:              BUFFER_2.calibre.gds ('BUFFER_2')
+CREATION TIME:            Fri Jan 10 11:07:55 2014
+CURRENT DIRECTORY:        /home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib/default.group/layout.views/BUFFER_2/BUFFER_2.cal
+USER NAME:                dlavila
+CALIBRE VERSION:          v2013.2_18.13    Thu May 16 13:39:43 PDT 2013
+
+
+
+
+WARNING: Invalid PATHCHK request "GROUND && ! POWER": no POWER nets present, operation aborted.
+
+
+WARNING: Invalid PATHCHK request "POWER && ! GROUND": no POWER nets present, operation aborted.
+
+
+WARNING: Invalid PATHCHK request "! LABELED": no LABELED nets present, operation aborted.
+
+
+WARNING: Invalid PATHCHK request "! POWER && ! GROUND": no POWER nets present, operation aborted.
+

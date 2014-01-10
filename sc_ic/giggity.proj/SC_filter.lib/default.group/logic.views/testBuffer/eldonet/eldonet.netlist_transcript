@@ -27,26 +27,24 @@
 
 // **** Reading <$SC_filter/default.group/logic.views/testBuffer/eldonet> for ELDO netlist ****
 
-// Checking 3 sheet(s) for out of date references to symbols and interfaces...
+// Checking 2 sheet(s) for out of date references to symbols and interfaces...
 // Done.
 // NOTE: There is no part interface for the top level schematic.  The external nets in the schematic
 //       are being scanned to create the pin names for the top level subckt.
 Processing [$SC_filter/default.group/logic.views/testBuffer] [testBuffer/testBuffer] [schematic] (NCF entry line:17 file:$NCF_GLOBAL)
-Processing [$UTILS/default.group/logic.views/s2d] [s2d/s2d] [schematic] (NCF entry line:17 file:$NCF_GLOBAL)
 Processing [$SC_filter/default.group/logic.views/BUFFER] [buffer/BUFFER] [schematic] (NCF entry line:17 file:$NCF_GLOBAL)
-Primitive [$MGC_DESIGN_KIT/symbols/P_18_MM] [P_18_MM/P_18_MM] [ELDOSPICE=M] (NCF entry line:19 file:$MGC_DESIGN_KIT/symbols/P_18_MM/@ncf.dir/P_18_MM.ncf)
 Primitive [$MGC_DESIGN_KIT/symbols/N_18_MM] [N_18_MM/N_18_MM] [ELDOSPICE=M] (NCF entry line:19 file:$MGC_DESIGN_KIT/symbols/N_18_MM/@ncf.dir/N_18_MM.ncf)
-Primitive [$MGC_DESIGN_KIT/symbols/RNHR1000_MM] [RNHR1000_MM/RNHR1000_MM] [ELDOSPICE=X] (NCF entry line:21 file:$MGC_DESIGN_KIT/symbols/RNHR1000_MM/@ncf.dir/RNHR1000_MM.ncf)
+Primitive [$MGC_DESIGN_KIT/symbols/P_18_MM] [P_18_MM/P_18_MM] [ELDOSPICE=M] (NCF entry line:19 file:$MGC_DESIGN_KIT/symbols/P_18_MM/@ncf.dir/P_18_MM.ncf)
 Primitive [$MGC_DESIGN_KIT/symbols/MIMCAPS_MM] [MIMCAPS_MM/MIMCAPS_MM] [ELDOSPICE=X] (NCF entry line:19 file:$MGC_DESIGN_KIT/symbols/MIMCAPS_MM/@ncf.dir/MIMCAPS_MM.ncf)
-Primitive [$MGC_IC_SOURCES_LIB/vcvs_2pin] [vcvs_2pin/vcvs_2pin] [SPICE=E] (NCF entry line:1027 file:$NCF_GLOBAL)
+Primitive [$MGC_DESIGN_KIT/symbols/RNHR1000_MM] [RNHR1000_MM/RNHR1000_MM] [ELDOSPICE=X] (NCF entry line:21 file:$MGC_DESIGN_KIT/symbols/RNHR1000_MM/@ncf.dir/RNHR1000_MM.ncf)
+Primitive [$MGC_IC_SOURCES_LIB/pulse_v_source] [pulse_v_source/pulse_v_source] [SPICE=V] (NCF entry line:722 file:$NCF_GLOBAL)
 Primitive [$MGC_IC_SOURCES_LIB/dc_v_source] [dc_v_source/dc_v_source] [SPICE=V] (NCF entry line:564 file:$NCF_GLOBAL)
 Primitive [$MGC_IC_DEVICE_LIB/ideal_capacitor] [ideal_capacitor/ideal_capacitor] [SPICE=C] (NCF entry line:72 file:$NCF_GLOBAL) (NCF entry line:126 file:$NCF_GLOBAL)
 Primitive [$MGC_IC_SOURCES_LIB/dc_i_source] [dc_i_source/dc_i_source] [SPICE=I] (NCF entry line:596 file:$NCF_GLOBAL)
-Primitive [$MGC_IC_SOURCES_LIB/ac_v_source] [ac_v_source/ac_v_source] [SPICE=V] (NCF entry line:579 file:$NCF_GLOBAL)
 
 **** Writing <$SC_filter/default.group/logic.views/testBuffer/eldonet> netlist for ELDO ****
 
-Number of cells: 12
-Number of primitive instances: 88
+Number of cells: 10
+Number of primitive instances: 89
 
 Done...
