@@ -56,57 +56,55 @@ Warning 406: In file "/usr/local/mentor/UMC180PDK/models/ELDO/include_all" line 
 
 ***** GENERATION ...
 
+Warning 87:Some X or device instances connected in parallel have been merged into a single instance.
++   This may cause some unexpected warning messages. See Eldo documentation for detail.
++   To prevent this merging, please use .option nocatmx .
 Warning 706: In file "/usr/local/mentor/UMC180PDK/models/ELDO/MM180_MIMCAP_V101.mdl.eldo" line 9:
-+   During the creation of X_BUFFER1.XC2, the parameter W in subckt MIMCAPS_MM is ignored as it is already specified on the instance line.
++   During the creation of X_BUFFER1.XC1, the parameter W in subckt MIMCAPS_MM is ignored as it is already specified on the instance line.
 Warning 706: In file "/usr/local/mentor/UMC180PDK/models/ELDO/MM180_MIMCAP_V101.mdl.eldo" line 9:
-+   During the creation of X_BUFFER1.XC2, the parameter L in subckt MIMCAPS_MM is ignored as it is already specified on the instance line.
-Warning 1615: In file "./testBuffer_eldonet.cir" line 16:
-+   COMMAND ".TRAN": Tstep can not be <= 0.0.
-+   It is set to Tmax/20.0 = 1.000e-07 s.
-Warning 107:  NODE "X_BUFFER1.N$626": Less than two connections.
-Warning 107:  NODE "X_BUFFER1.N$698": Less than two connections.
-Warning 107:  NODE "X_BUFFER1.N$681": Less than two connections.
++   During the creation of X_BUFFER1.XC1, the parameter L in subckt MIMCAPS_MM is ignored as it is already specified on the instance line.
+Warning 107:  NODE "X_BUFFER1.N$752": Less than two connections.
+Warning 107:  NODE "X_BUFFER1.N$749": Less than two connections.
+Warning 107:  NODE "X_BUFFER1.N$761": Less than two connections.
 Warning  29: Such messages will not be displayed in future. Set .option MSGNODE = 0 to receive all such warnings.
 
-/lib64/libc.so.6: file not recognized: File format not recognized
-collect2: ld returned 1 exit status
 
 ***** 0  error(s). 
-***** 37  warning(s). 
+***** 31  warning(s). 
 
 
 INFORMATION ABOUT COMPILATION...
 
 
-Memory space allocated (bytes): 123510784
+Memory space allocated (bytes): 123514880
 92 elements
-68 nodes
+65 nodes
 3 input signals
-Warning 108:  NODE "X_BUFFER1.N$626": This node is a floating gate.
+Warning 108:  NODE "X_BUFFER1.N$752": This node is a floating gate.
 +   List of MOS devices connected to that node follows:
-+   --> X_BUFFER1.M49
++   --> X_BUFFER1.M64
 
-Warning 108:  NODE "X_BUFFER1.N$698": This node is a floating gate.
+Warning 108:  NODE "X_BUFFER1.N$749": This node is a floating gate.
 +   List of MOS devices connected to that node follows:
-+   --> X_BUFFER1.M47
++   --> X_BUFFER1.M52
 
-Warning 108:  NODE "X_BUFFER1.N$681": This node is a floating gate.
+Warning 108:  NODE "X_BUFFER1.N$761": This node is a floating gate.
 +   List of MOS devices connected to that node follows:
-+   --> X_BUFFER1.M57
++   --> X_BUFFER1.M79
 
 Warning  29:  Such messages will not be displayed in future. Set .option MSGNODE = 0 to receive all such warnings.
 
 
 Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
 
-*** DATE:  9-Jan-2014 13:27:20
+*** DATE: 13-Jan-2014 17:18:32
 
 *** TITLE: * Component: $SC_filter/default.group/logic.views/testBuffer  Viewpoint: eldonet
 
 TEMPERATURE : 27.000000 degrees C
 
 Warning 1619:This netlist contains expressions using strongly non-linear functions such as ABS() MIN(), 
-+   MAX() (found in device X_BUFFER1.XC2.C1 for instance) 
++   MAX() (found in device X_BUFFER1.XR1.R1 for instance) 
 +   If, and only if, convergence problems occur either in DC or transient analysis, 
 +   the .option mmsmooth is a possible workaround worth testing. 
 +   It is NOT recommended to activate it systematically, or if there are no particular convergence problems. 
@@ -118,49 +116,22 @@ Performing DC analysis...
 
 --> Partitioning circuit...
 
-***> DC CPU TIME 0s 080ms <***
+***> DC CPU TIME 0s 110ms <***
 
 DC:2 iterations FOR DC analysis
 
-   TOTAL POWER DISSIPATION:  818.5038U   WATTS
-
-
-Eldo NEWTON: VNTOL=1.000000e-06 RELTOL=6.111111e-04
+   TOTAL POWER DISSIPATION:  883.6740U   WATTS
 
 Connecting to JWDB server, please wait...
-connected to wdb server : -jwdbhost localhost.localdomain -jwdbport 56726
+connected to wdb server : -jwdbhost localhost.localdomain -jwdbport 50225
 
-Compute from 0.000000 Nano to 2.000000E+03 Nano
-................................................
-Simulation progress           : 10% (t = 200.0987 N)
-Elapsed CPU time              :  0h  0mn  0s  50    ( 0h  0mn  0s  50)
-................................................
-Simulation progress           : 20% (t = 400.3194 N)
-Elapsed CPU time              :  0h  0mn  0s  60    ( 0h  0mn  0s 110)
-................................................
-Simulation progress           : 30% (t = 600.0987 N)
-Elapsed CPU time              :  0h  0mn  0s  80    ( 0h  0mn  0s 190)
-................................................
-Simulation progress           : 40% (t = 800.3194 N)
-Elapsed CPU time              :  0h  0mn  0s  50    ( 0h  0mn  0s 240)
-................................................
-Simulation progress           : 50% (t = 1.0001 U)
-Elapsed CPU time              :  0h  0mn  0s  50    ( 0h  0mn  0s 290)
-................................................
-Simulation progress           : 60% (t = 1.2003 U)
-Elapsed CPU time              :  0h  0mn  0s  50    ( 0h  0mn  0s 340)
-................................................
-Simulation progress           : 70% (t = 1.4001 U)
-Elapsed CPU time              :  0h  0mn  0s  50    ( 0h  0mn  0s 390)
-................................................
-Simulation progress           : 80% (t = 1.6003 U)
-Elapsed CPU time              :  0h  0mn  0s  50    ( 0h  0mn  0s 440)
-................................................
-Simulation progress           : 90% (t = 1.8001 U)
-Elapsed CPU time              :  0h  0mn  0s  50    ( 0h  0mn  0s 490)
-................................................
-Simulation progress           : 100% (t = 2.0000 U)
-Elapsed CPU time              :  0h  0mn  0s  50    ( 0h  0mn  0s 540)
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 020ms <***
+
 
 
 ***>Current simulation completed
@@ -169,19 +140,17 @@ Elapsed CPU time              :  0h  0mn  0s  50    ( 0h  0mn  0s 540)
 
 
 SIMULATION INFORMATION 
-memory size allocated in bytes 126439424
-Latency: 0.000000%
-average number of newton iterations: 1.507906
-nb of components: 252
-nb of nodes: 228
-nb of MOS or BIP calls: 103057
-Number of steps computed: 2087
+memory size allocated in bytes 127713280
+nb of components: 240
+nb of nodes: 213
+nb of MOS or BIP calls: 66900
+Number of steps computed: 0
 
-***>CPU TIME 0s 540ms <***
+***>CPU TIME 0s 130ms <***
 
-***>MESSAGE SUMMARY: 42 warnings
+***>MESSAGE SUMMARY: 36 warnings
 
-***>GLOBAL CPU TIME 0s 660ms <***
+***>GLOBAL CPU TIME 0s 180ms <***
 
 
 ***>GLOBAL ELAPSED TIME 1s <***

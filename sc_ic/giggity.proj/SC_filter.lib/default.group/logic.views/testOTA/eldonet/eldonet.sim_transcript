@@ -56,29 +56,49 @@ Warning 406: In file "/usr/local/mentor/UMC180PDK/models/ELDO/include_all" line 
 
 ***** GENERATION ...
 
-Warning 107:  NODE "VO": Less than two connections.
-Warning 117:  NODE "X_SCF_OTA1.VDD": Not connected to any power supply.
+Warning 107:  NODE "X_SCF1.X_SCF_OTA1.N$1117": Less than two connections.
+Warning 107:  NODE "X_SCF1.X_SCF_OTA1.N$1114": Less than two connections.
+Warning 107:  NODE "X_SCF1.X_SCF_OTA1.N$1108": Less than two connections.
+Warning  29: Such messages will not be displayed in future. Set .option MSGNODE = 0 to receive all such warnings.
+
+Warning 110:  NODE "N$111": Connected to capacitors only. 
+Warning 110:  NODE "N$140": Connected to capacitors only. 
+Warning 110:  NODE "N$109": Connected to capacitors only. 
+Warning 110:  NODE "N$110": Connected to capacitors only. 
 
 ***** 0  error(s). 
-***** 3  warning(s). 
+***** 27  warning(s). 
 
 
 INFORMATION ABOUT COMPILATION...
 
 
-Memory space allocated (bytes): 123494400
-101 elements
-63 nodes
-6 input signals
-Warning 109: NODE "X_SCF_OTA1.VDD": This bulk node is not biased. 
+Memory space allocated (bytes): 123531264
+126 elements
+83 nodes
+5 input signals
+Warning 108:  NODE "X_SCF1.X_SCF_OTA1.N$1117": This node is a floating gate.
++   List of MOS devices connected to that node follows:
++   --> X_SCF1.X_SCF_OTA1.M51
+
+Warning 108:  NODE "X_SCF1.X_SCF_OTA1.N$1114": This node is a floating gate.
++   List of MOS devices connected to that node follows:
++   --> X_SCF1.X_SCF_OTA1.M50
+
+Warning 108:  NODE "X_SCF1.X_SCF_OTA1.N$1108": This node is a floating gate.
++   List of MOS devices connected to that node follows:
++   --> X_SCF1.X_SCF_OTA1.M49
+
+Warning  29:  Such messages will not be displayed in future. Set .option MSGNODE = 0 to receive all such warnings.
+
 Warning 118:  NODE "N$111": No DC path to ground.
-Warning 118:  NODE "N$112": No DC path to ground.
+Warning 118:  NODE "N$140": No DC path to ground.
 Warning 118:  NODE "N$109": No DC path to ground.
 Warning 118:  NODE "N$110": No DC path to ground.
 
 Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
 
-*** DATE: 21-Nov-2013 17:39:51
+*** DATE:  8-Feb-2014 16:49:59
 
 *** TITLE: * Component: $SC_filter/default.group/logic.views/testOTA  Viewpoint: eldonet
 
@@ -91,14 +111,17 @@ Performing DC analysis...
 
 --> Partitioning circuit...
 
-***> DC CPU TIME 0s 080ms <***
+***> DC CPU TIME 0s 100ms <***
 
-DC:2 iterations FOR DC analysis
+DC:4 iterations FOR DC analysis
 
-   TOTAL POWER DISSIPATION:  600.5366U   WATTS
+   TOTAL POWER DISSIPATION:  941.7656U   WATTS
+
+
+   POWER DISSIPATION THROUGH CONTROLLED SOURCES: -16.4667F    WATTS
 
 Connecting to JWDB server, please wait...
-connected to wdb server : -jwdbhost localhost.localdomain -jwdbport 36794
+connected to wdb server : -jwdbhost localhost.localdomain -jwdbport 35459
 
 
 ***>AC analysis starts
@@ -123,19 +146,19 @@ See ASCII output file for detail about the singularity...
 
 
 SIMULATION INFORMATION 
-memory size allocated in bytes 127700992
-nb of components: 253
-nb of nodes: 215
-nb of MOS or BIP calls: 49072
+memory size allocated in bytes 127660032
+nb of components: 334
+nb of nodes: 291
+nb of MOS or BIP calls: 67064
 Number of steps computed: 0
 
-***>CPU TIME 0s 100ms <***
+***>CPU TIME 0s 120ms <***
 
-***>MESSAGE SUMMARY: 8 warnings
+***>MESSAGE SUMMARY: 35 warnings
 
-***>GLOBAL CPU TIME 0s 150ms <***
+***>GLOBAL CPU TIME 0s 160ms <***
 
 
-***>GLOBAL ELAPSED TIME 1s <***
+***>GLOBAL ELAPSED TIME 2s <***
 
 

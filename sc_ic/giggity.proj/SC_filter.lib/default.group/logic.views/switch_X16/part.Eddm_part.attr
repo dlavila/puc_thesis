@@ -1,0 +1,22 @@
+A 5 u Eddm_part 52d42e8c602a.03.7f.00.00.01.00.02.9f 25 2 2 0
+V v 23 1 52d43ba4137b.03.7f.00.00.01.00.52.be
+F f 23 "part.part_23"
+V v 24 1 52d43ba44e02.03.7f.00.00.01.00.52.be
+F f 24 "part.part_24"
+V v 25 1 52d43ba49f3a.03.7f.00.00.01.00.52.be
+F f 25 "part.part_25"
+O 25
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/switch_X16/schematic" 1 mgc_schematic 527ade06aea4.03.7f.00.00.01.01.26.40 52d42e8c6000.03.7f.00.00.01.00.02.9f
+P "eddm__refer_state" "eddm__refer_floating"
+R csduv 1 "$SC_filter/default.group/logic.views/switch_X16/switch_X16" 20 mgc_symbol 52d43ba49ebf.03.7f.00.00.01.00.52.be 52d42e8c5ff7.03.7f.00.00.01.00.02.9f
+O 24
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/switch_X16/schematic" 1 mgc_schematic 527ade06aea4.03.7f.00.00.01.01.26.40 52d42e8c6000.03.7f.00.00.01.00.02.9f
+P "eddm__refer_state" "eddm__refer_floating"
+R csduv 1 "$SC_filter/default.group/logic.views/switch_X16/switch_X16" 19 mgc_symbol 52d43ba44dfd.03.7f.00.00.01.00.52.be 52d42e8c5ff7.03.7f.00.00.01.00.02.9f
+O 23
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/switch_X16/schematic" 1 mgc_schematic 527ade06aea4.03.7f.00.00.01.01.26.40 52d42e8c6000.03.7f.00.00.01.00.02.9f
+P "eddm__refer_state" "eddm__refer_floating"
+R csduv 1 "$SC_filter/default.group/logic.views/switch_X16/switch_X16" 18 mgc_symbol 52d43ba41376.03.7f.00.00.01.00.52.be 52d42e8c5ff7.03.7f.00.00.01.00.02.9f

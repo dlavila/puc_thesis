@@ -1,0 +1,43 @@
+A 5 u mgc_sheet 52f6aaa316fb.03.7f.00.00.01.00.44.b9 48 2 23 0
+V v 46 2 52f6bc76b3d7.03.7f.00.00.01.00.4e.75
+F f 46 "sheet1.ssht_46"
+F f 46 "sheet1.sgfx_46"
+V v 47 2 52f6bc7703dc.03.7f.00.00.01.00.4e.75
+F f 47 "sheet1.ssht_47"
+F f 47 "sheet1.sgfx_47"
+V v 48 2 52f6bd7fb3e7.03.7f.00.00.01.00.4e.75
+F f 48 "sheet1.ssht_48"
+F f 48 "sheet1.sgfx_48"
+O 48
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/SCF_dcmfb/schematic" 1 mgc_schematic 52f3f2c3eda5.03.7f.00.00.01.01.68.c6 52f6aaa316ec.03.7f.00.00.01.00.44.b9
+R csduv 5 "$MGC_IC_GENERIC_LIB/portin/part" 1 Eddm_part 35773eaadc18.03.86.56.31.87.00.0e.9f 3890e8888efb.03.86.56.31.70.00.3a.eb
+R csduv 6 "$MGC_IC_GENERIC_LIB/portin/portin" 1 mgc_symbol 35773d18855d.03.86.56.31.87.00.0e.9f 3890e8888efa.03.86.56.31.70.04.3a.eb
+R csduv 13 "$MGC_IC_GENERIC_LIB/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 3890e8888efa.03.86.56.31.70.03.3a.eb
+R csduv 14 "$MGC_IC_GENERIC_LIB/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 3890e8888efa.03.86.56.31.70.02.3a.eb
+R csduv 15 "$MGC_DESIGN_KIT/symbols/MIMCAPS_MM/part" 22 Eddm_part 462e5a1f20e0.03.7f.00.00.01.00.3d.95 461b9a1cd72a.03.89.ca.19.1a.00.4f.21
+R csduv 16 "$MGC_DESIGN_KIT/symbols/MIMCAPS_MM/MIMCAPS_MM" 5 mgc_symbol 462e5a1f20cc.03.7f.00.00.01.00.3d.95 461b9a2010e0.03.89.ca.19.1a.00.4f.21
+R csduv 21 "$SC_filter/default.group/logic.views/switch_X4/part" 22 Eddm_part 52d43c00a71c.03.7f.00.00.01.00.54.ef 52d42e970d7e.03.7f.00.00.01.00.02.9f
+R csduv 22 "$SC_filter/default.group/logic.views/switch_X4/switch_X4" 19 mgc_symbol 52d43c03146c.03.7f.00.00.01.00.54.ef 52d42e970d8b.03.7f.00.00.01.00.02.9f
+O 47
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/SCF_dcmfb/schematic" 1 mgc_schematic 52f3f2c3eda5.03.7f.00.00.01.01.68.c6 52f6aaa316ec.03.7f.00.00.01.00.44.b9
+R csduv 5 "$MGC_IC_GENERIC_LIB/portin/part" 1 Eddm_part 35773eaadc18.03.86.56.31.87.00.0e.9f 3890e8888efb.03.86.56.31.70.00.3a.eb
+R csduv 6 "$MGC_IC_GENERIC_LIB/portin/portin" 1 mgc_symbol 35773d18855d.03.86.56.31.87.00.0e.9f 3890e8888efa.03.86.56.31.70.04.3a.eb
+R csduv 13 "$MGC_IC_GENERIC_LIB/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 3890e8888efa.03.86.56.31.70.03.3a.eb
+R csduv 14 "$MGC_IC_GENERIC_LIB/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 3890e8888efa.03.86.56.31.70.02.3a.eb
+R csduv 15 "$MGC_DESIGN_KIT/symbols/MIMCAPS_MM/part" 22 Eddm_part 462e5a1f20e0.03.7f.00.00.01.00.3d.95 461b9a1cd72a.03.89.ca.19.1a.00.4f.21
+R csduv 16 "$MGC_DESIGN_KIT/symbols/MIMCAPS_MM/MIMCAPS_MM" 5 mgc_symbol 462e5a1f20cc.03.7f.00.00.01.00.3d.95 461b9a2010e0.03.89.ca.19.1a.00.4f.21
+R csduv 19 "$SC_filter/default.group/logic.views/switch_X1/part" 25 Eddm_part 52d43b486372.03.7f.00.00.01.00.50.86 52d42e83b5ec.03.7f.00.00.01.00.02.9f
+R csduv 20 "$SC_filter/default.group/logic.views/switch_X1/switch_X1" 30 mgc_symbol 52d43b4b4d50.03.7f.00.00.01.00.50.86 52d42e83b5e4.03.7f.00.00.01.00.02.9f
+O 46
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/SCF_dcmfb/schematic" 1 mgc_schematic 52f3f2c3eda5.03.7f.00.00.01.01.68.c6 52f6aaa316ec.03.7f.00.00.01.00.44.b9
+R csduv 5 "$MGC_IC_GENERIC_LIB/portin/part" 1 Eddm_part 35773eaadc18.03.86.56.31.87.00.0e.9f 3890e8888efb.03.86.56.31.70.00.3a.eb
+R csduv 6 "$MGC_IC_GENERIC_LIB/portin/portin" 1 mgc_symbol 35773d18855d.03.86.56.31.87.00.0e.9f 3890e8888efa.03.86.56.31.70.04.3a.eb
+R csduv 13 "$MGC_IC_GENERIC_LIB/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 3890e8888efa.03.86.56.31.70.03.3a.eb
+R csduv 14 "$MGC_IC_GENERIC_LIB/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 3890e8888efa.03.86.56.31.70.02.3a.eb
+R csduv 15 "$MGC_DESIGN_KIT/symbols/MIMCAPS_MM/part" 22 Eddm_part 462e5a1f20e0.03.7f.00.00.01.00.3d.95 461b9a1cd72a.03.89.ca.19.1a.00.4f.21
+R csduv 16 "$MGC_DESIGN_KIT/symbols/MIMCAPS_MM/MIMCAPS_MM" 5 mgc_symbol 462e5a1f20cc.03.7f.00.00.01.00.3d.95 461b9a2010e0.03.89.ca.19.1a.00.4f.21
+R csduv 19 "$SC_filter/default.group/logic.views/switch_X1/part" 25 Eddm_part 52d43b486372.03.7f.00.00.01.00.50.86 52d42e83b5ec.03.7f.00.00.01.00.02.9f
+R csduv 20 "$SC_filter/default.group/logic.views/switch_X1/switch_X1" 30 mgc_symbol 52d43b4b4d50.03.7f.00.00.01.00.50.86 52d42e83b5e4.03.7f.00.00.01.00.02.9f

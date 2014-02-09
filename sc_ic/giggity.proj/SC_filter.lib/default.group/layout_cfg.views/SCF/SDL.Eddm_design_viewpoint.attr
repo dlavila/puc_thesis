@@ -1,0 +1,23 @@
+A 5 u Eddm_design_viewpoint 52f6db536614.03.7f.00.00.01.00.1e.3a 1 2 12 0
+V v 1 4 52f6db536614.03.7f.00.00.01.01.1e.3a
+F f 1 "SDL.dvpt_1"
+F o 0 
+F o 0 
+F o 0 
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$SC_filter/default.group/logic.views/SCF/part" 13 Eddm_part 52f69c06e19c.03.7f.00.00.01.00.0b.58 52f3faa41424.03.7f.00.00.01.00.70.13
+R cspuv 1 "$SC_filter/default.group/logic.views/SCF/schematic" 36 mgc_schematic 52f6b9020f33.03.7f.00.00.01.00.4e.75 52f3f90e26da.03.7f.00.00.01.00.70.13
+R cspuv 2 "$SC_filter/default.group/logic.views/SCF/SCF" 15 mgc_symbol 52f69c06e187.03.7f.00.00.01.00.0b.58 52f3fb04848f.03.7f.00.00.01.00.70.13
+R cspuv 3 "$SC_filter/default.group/logic.views/SCF_bias/part" 20 Eddm_part 52f69b700510.03.7f.00.00.01.00.0b.58 52f3f2b9a5d5.03.7f.00.00.01.00.66.ab
+R cspuv 4 "$SC_filter/default.group/logic.views/SCF_ota/part" 30 Eddm_part 52f3f8c06592.03.7f.00.00.01.00.68.c6 5283e1dd94e4.03.7f.00.00.01.00.18.29
+R cspuv 5 "$SC_filter/default.group/logic.views/SCF_dcmfb/part" 19 Eddm_part 52f6aac540d0.03.7f.00.00.01.00.43.99 52f6aaa31705.03.7f.00.00.01.00.44.b9
+R cspuv 6 "$SC_filter/default.group/logic.views/SCF_ota/schematic" 1 mgc_schematic 527a888a05d6.03.7f.00.00.01.01.79.7e 5283e1dd9485.03.7f.00.00.01.00.18.29
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 7 "$SC_filter/default.group/logic.views/SCF_ota/SCF_ota" 36 mgc_symbol 52f3f8c0657e.03.7f.00.00.01.00.68.c6 5283e1dd94a1.03.7f.00.00.01.00.18.29
+R cspuv 8 "$SC_filter/default.group/logic.views/SCF_bias/schematic" 1 mgc_schematic 52f3f2b83948.03.7f.00.00.01.01.66.ab 52f3f2b83948.03.7f.00.00.01.00.66.ab
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 9 "$SC_filter/default.group/logic.views/SCF_bias/SCF_bias" 26 mgc_symbol 52f69b7004ed.03.7f.00.00.01.00.0b.58 52f3f3f19e8a.03.7f.00.00.01.00.68.c6
+R cspuv 10 "$SC_filter/default.group/logic.views/SCF_dcmfb/schematic" 1 mgc_schematic 52f3f2c3eda5.03.7f.00.00.01.01.68.c6 52f6aaa316ec.03.7f.00.00.01.00.44.b9
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 11 "$SC_filter/default.group/logic.views/SCF_dcmfb/SCF_dcmfb" 22 mgc_symbol 52f6aac540b0.03.7f.00.00.01.00.43.99 52f6aaa316e5.03.7f.00.00.01.00.44.b9

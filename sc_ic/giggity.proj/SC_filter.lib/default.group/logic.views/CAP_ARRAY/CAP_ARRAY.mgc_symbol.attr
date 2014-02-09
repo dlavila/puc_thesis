@@ -1,13 +1,13 @@
-A 5 u mgc_symbol 52b2f0084223.03.7f.00.00.01.00.37.f3 10 2 1 0
-V v 8 1 52b2f0b860b9.03.7f.00.00.01.00.37.f3
-F f 8 "CAP_ARRAY.smbl_8"
-V v 9 1 52b2f0beddbd.03.7f.00.00.01.00.37.f3
-F f 9 "CAP_ARRAY.smbl_9"
-V v 10 1 52b2f0bf6a8a.03.7f.00.00.01.00.37.f3
-F f 10 "CAP_ARRAY.smbl_10"
-O 10
-R csduv 0 "$SC_filter/default.group/logic.views/CAP_ARRAY/part" 8 Eddm_part 52b2f0b7f1bc.03.7f.00.00.01.00.37.f3 52b2f002afa6.03.7f.00.00.01.00.37.f3
-O 9
-R csduv 0 "$SC_filter/default.group/logic.views/CAP_ARRAY/part" 8 Eddm_part 52b2f0b7f1bc.03.7f.00.00.01.00.37.f3 52b2f002afa6.03.7f.00.00.01.00.37.f3
-O 8
-R csduv 0 "$SC_filter/default.group/logic.views/CAP_ARRAY/part" 8 Eddm_part 52b2f0b7f1bc.03.7f.00.00.01.00.37.f3 52b2f002afa6.03.7f.00.00.01.00.37.f3
+A 5 u mgc_symbol 52b2f0084223.03.7f.00.00.01.00.37.f3 15 2 1 0
+V v 13 1 52d4467463e3.03.7f.00.00.01.00.66.e6
+F f 13 "CAP_ARRAY.smbl_13"
+V v 14 1 52d446765785.03.7f.00.00.01.00.66.e6
+F f 14 "CAP_ARRAY.smbl_14"
+V v 15 1 52d44677b55e.03.7f.00.00.01.00.66.e6
+F f 15 "CAP_ARRAY.smbl_15"
+O 15
+R csduv 0 "$SC_filter/default.group/logic.views/CAP_ARRAY/part" 11 Eddm_part 52d446746406.03.7f.00.00.01.00.66.e6 52b2f002afa6.03.7f.00.00.01.00.37.f3
+O 14
+R csduv 0 "$SC_filter/default.group/logic.views/CAP_ARRAY/part" 11 Eddm_part 52d446746406.03.7f.00.00.01.00.66.e6 52b2f002afa6.03.7f.00.00.01.00.37.f3
+O 13
+R csduv 0 "$SC_filter/default.group/logic.views/CAP_ARRAY/part" 11 Eddm_part 52d446746406.03.7f.00.00.01.00.66.e6 52b2f002afa6.03.7f.00.00.01.00.37.f3

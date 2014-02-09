@@ -1,0 +1,35 @@
+
+
+       #############################################################
+       ##                                                         ##
+       ##               C A L I B R E    S Y S T E M              ##
+       ##                                                         ##
+       ##    C I R C U I T   E X T R A C T I O N   R E P O R T    ##
+       ##                                                         ##
+       #############################################################
+
+
+REPORT FILE NAME:         lvs.report.ext
+LAYOUT NAME:              SCF_cmfb.calibre.gds ('SCF_cmfb')
+CREATION TIME:            Sat Feb  8 16:35:35 2014
+CURRENT DIRECTORY:        /home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib/default.group/layout.views/SCF_cmfb/SCF_cmfb.cal
+USER NAME:                dlavila
+CALIBRE VERSION:          v2013.2_18.13    Thu May 16 13:39:43 PDT 2013
+
+
+
+Extraction Errors and Warnings for cell "SCF_cmfb"
+--------------------------------------------------
+
+WARNING:  Stamping conflict in SCONNECT - Multiple source nets stamp one target net.
+          Use LVS REPORT OPTION S or LVS SOFTCHK statement to obtain detailed information.
+
+
+
+WARNING: BAD DEVICE on layer VARMIS_RF18 at location (-33.35,-9.66) in cell SCF_cmfb
+         (No matching DEVICE operation).
+         Found 3 interaction(s):
+         Pin on layer WEL, net 3 at location (-33.35,2.83)
+         Pin on layer PSUB, net "AGnd" at location (-33.35,2.83)
+         Auxiliary shape on layer VARGATE at location (-30.87,-6.29)
+         Possible Element Names: C(VARMIS_18_RF)

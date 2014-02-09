@@ -1,0 +1,13 @@
+A 5 u mgc_symbol 52d42e9ed718.03.7f.00.00.01.00.02.9f 22 2 1 0
+V v 20 1 52d4357195d7.03.7f.00.00.01.00.42.07
+F f 20 "mux_X16.smbl_20"
+V v 21 1 52d43571f136.03.7f.00.00.01.00.42.07
+F f 21 "mux_X16.smbl_21"
+V v 22 1 52d435723097.03.7f.00.00.01.00.42.07
+F f 22 "mux_X16.smbl_22"
+O 22
+R csduv 0 "$SC_filter/default.group/logic.views/mux_X16/part" 19 Eddm_part 52d4352cb764.03.7f.00.00.01.00.3f.b8 52d42e9ed873.03.7f.00.00.01.00.02.9f
+O 21
+R csduv 0 "$SC_filter/default.group/logic.views/mux_X16/part" 19 Eddm_part 52d4352cb764.03.7f.00.00.01.00.3f.b8 52d42e9ed873.03.7f.00.00.01.00.02.9f
+O 20
+R csduv 0 "$SC_filter/default.group/logic.views/mux_X16/part" 19 Eddm_part 52d4352cb764.03.7f.00.00.01.00.3f.b8 52d42e9ed873.03.7f.00.00.01.00.02.9f

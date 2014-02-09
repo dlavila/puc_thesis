@@ -1,5 +1,5 @@
 * Component: $SC_filter/default.group/logic.views/testFilter  Viewpoint: eldonet
-.INCLUDE $SC_filter/default.group/logic.views/testFilter/eldonet/test_FILTER_eldonet.spi
+.INCLUDE $SC_filter/default.group/logic.views/testFilter/eldonet/testFilter_eldonet.spi
 .INCLUDE $MGC_DESIGN_KIT/models/ELDO/include_all
 .PROBE VX
 .PROBE VX

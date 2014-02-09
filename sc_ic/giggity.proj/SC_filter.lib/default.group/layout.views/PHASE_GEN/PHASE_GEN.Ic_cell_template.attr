@@ -1,0 +1,61 @@
+A 5 u Ic_cell_template 52dde5ba0fdb.03.7f.00.00.01.00.1c.8c 17 4 11 0
+V v 13 1 52ddf4ef3f19.03.7f.00.00.01.00.2d.c9
+F f 13 "PHASE_GEN.iccel_13"
+V v 14 1 52ddf4f9c591.03.7f.00.00.01.00.2d.c9
+F f 14 "PHASE_GEN.iccel_14"
+V v 15 1 52ddf51215a8.03.7f.00.00.01.00.2d.c9
+F f 15 "PHASE_GEN.iccel_15"
+V v 16 1 52ddf52edebf.03.7f.00.00.01.00.2d.c9
+F f 16 "PHASE_GEN.iccel_16"
+V v 17 1 52de034eb293.03.7f.00.00.01.00.49.b1
+F f 17 "PHASE_GEN.iccel_17"
+O 17
+R csduv 1 "$MGC_DESIGN_KIT/process/umc18ummrf" 25 Ic_persist_process 4b49fbac2b9a.03.89.ca.1c.10.00.03.ca 462ccb24bc64.03.7f.00.00.02.00.14.78
+R csduv 2 "$SC_filter/default.group/layout_cfg.views/PHASE_GEN/SDL" 1 Eddm_design_viewpoint 52dde5ba0c05.03.7f.00.00.01.01.1c.8c 52dde5ba0c05.03.7f.00.00.01.00.1c.8c
+R csduv 3 "$SC_filter/default.group/layout.views/inv_X2/inv_X2" 6 Ic_cell_template 52ddeb15a92e.03.7f.00.00.01.00.2d.94 52dde0b44d7a.03.7f.00.00.01.00.0a.0d
+R csduv 4 "$SC_filter/default.group/layout.views/nand_X4/nand_X4" 1 Ic_cell_template 52dda699d835.03.7f.00.00.01.00.54.b5 52dda17d976a.03.7f.00.00.01.00.54.b5
+R csdni 5 "$MGC_DESIGN_KIT/process/umc18mmrf_sdl_rules" 1 Mgc_file
+R csduv 7 "$SC_filter/default.group/layout.views/inv_X4/inv_X4" 2 Ic_cell_template 52dde091e7f2.03.7f.00.00.01.00.06.06 52dddeaa8709.03.7f.00.00.01.00.06.06
+R csduv 8 "$SC_filter/default.group/layout.views/inv_X8/inv_X8" 2 Ic_cell_template 52ddde74f17f.03.7f.00.00.01.00.7e.8a 52dddc16ba09.03.7f.00.00.01.00.7e.8a
+R csduv 9 "$MGC_DESIGN_KIT/process/vias/M2M3" 5 Ic_cell_template 42db94100a6f.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.01.12.b4
+R csduv 10 "$MGC_DESIGN_KIT/process/vias/M3M4" 6 Ic_cell_template 42db946f107d.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.02.12.b4
+O 16
+R csduv 1 "$MGC_DESIGN_KIT/process/umc18ummrf" 25 Ic_persist_process 4b49fbac2b9a.03.89.ca.1c.10.00.03.ca 462ccb24bc64.03.7f.00.00.02.00.14.78
+R csduv 2 "$SC_filter/default.group/layout_cfg.views/PHASE_GEN/SDL" 1 Eddm_design_viewpoint 52dde5ba0c05.03.7f.00.00.01.01.1c.8c 52dde5ba0c05.03.7f.00.00.01.00.1c.8c
+R csduv 3 "$SC_filter/default.group/layout.views/inv_X2/inv_X2" 6 Ic_cell_template 52ddeb15a92e.03.7f.00.00.01.00.2d.94 52dde0b44d7a.03.7f.00.00.01.00.0a.0d
+R csduv 4 "$SC_filter/default.group/layout.views/nand_X4/nand_X4" 1 Ic_cell_template 52dda699d835.03.7f.00.00.01.00.54.b5 52dda17d976a.03.7f.00.00.01.00.54.b5
+R csdni 5 "$MGC_DESIGN_KIT/process/umc18mmrf_sdl_rules" 1 Mgc_file
+R csduv 7 "$SC_filter/default.group/layout.views/inv_X4/inv_X4" 2 Ic_cell_template 52dde091e7f2.03.7f.00.00.01.00.06.06 52dddeaa8709.03.7f.00.00.01.00.06.06
+R csduv 8 "$SC_filter/default.group/layout.views/inv_X8/inv_X8" 2 Ic_cell_template 52ddde74f17f.03.7f.00.00.01.00.7e.8a 52dddc16ba09.03.7f.00.00.01.00.7e.8a
+R csduv 9 "$MGC_DESIGN_KIT/process/vias/M2M3" 5 Ic_cell_template 42db94100a6f.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.01.12.b4
+R csduv 10 "$MGC_DESIGN_KIT/process/vias/M3M4" 6 Ic_cell_template 42db946f107d.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.02.12.b4
+O 15
+R csduv 1 "$MGC_DESIGN_KIT/process/umc18ummrf" 25 Ic_persist_process 4b49fbac2b9a.03.89.ca.1c.10.00.03.ca 462ccb24bc64.03.7f.00.00.02.00.14.78
+R csduv 2 "$SC_filter/default.group/layout_cfg.views/PHASE_GEN/SDL" 1 Eddm_design_viewpoint 52dde5ba0c05.03.7f.00.00.01.01.1c.8c 52dde5ba0c05.03.7f.00.00.01.00.1c.8c
+R csduv 3 "$SC_filter/default.group/layout.views/inv_X2/inv_X2" 6 Ic_cell_template 52ddeb15a92e.03.7f.00.00.01.00.2d.94 52dde0b44d7a.03.7f.00.00.01.00.0a.0d
+R csduv 4 "$SC_filter/default.group/layout.views/nand_X4/nand_X4" 1 Ic_cell_template 52dda699d835.03.7f.00.00.01.00.54.b5 52dda17d976a.03.7f.00.00.01.00.54.b5
+R csdni 5 "$MGC_DESIGN_KIT/process/umc18mmrf_sdl_rules" 1 Mgc_file
+R csduv 7 "$SC_filter/default.group/layout.views/inv_X4/inv_X4" 2 Ic_cell_template 52dde091e7f2.03.7f.00.00.01.00.06.06 52dddeaa8709.03.7f.00.00.01.00.06.06
+R csduv 8 "$SC_filter/default.group/layout.views/inv_X8/inv_X8" 2 Ic_cell_template 52ddde74f17f.03.7f.00.00.01.00.7e.8a 52dddc16ba09.03.7f.00.00.01.00.7e.8a
+R csduv 9 "$MGC_DESIGN_KIT/process/vias/M2M3" 5 Ic_cell_template 42db94100a6f.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.01.12.b4
+R csduv 10 "$MGC_DESIGN_KIT/process/vias/M3M4" 6 Ic_cell_template 42db946f107d.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.02.12.b4
+O 14
+R csduv 1 "$MGC_DESIGN_KIT/process/umc18ummrf" 25 Ic_persist_process 4b49fbac2b9a.03.89.ca.1c.10.00.03.ca 462ccb24bc64.03.7f.00.00.02.00.14.78
+R csduv 2 "$SC_filter/default.group/layout_cfg.views/PHASE_GEN/SDL" 1 Eddm_design_viewpoint 52dde5ba0c05.03.7f.00.00.01.01.1c.8c 52dde5ba0c05.03.7f.00.00.01.00.1c.8c
+R csduv 3 "$SC_filter/default.group/layout.views/inv_X2/inv_X2" 6 Ic_cell_template 52ddeb15a92e.03.7f.00.00.01.00.2d.94 52dde0b44d7a.03.7f.00.00.01.00.0a.0d
+R csduv 4 "$SC_filter/default.group/layout.views/nand_X4/nand_X4" 1 Ic_cell_template 52dda699d835.03.7f.00.00.01.00.54.b5 52dda17d976a.03.7f.00.00.01.00.54.b5
+R csdni 5 "$MGC_DESIGN_KIT/process/umc18mmrf_sdl_rules" 1 Mgc_file
+R csduv 7 "$SC_filter/default.group/layout.views/inv_X4/inv_X4" 2 Ic_cell_template 52dde091e7f2.03.7f.00.00.01.00.06.06 52dddeaa8709.03.7f.00.00.01.00.06.06
+R csduv 8 "$SC_filter/default.group/layout.views/inv_X8/inv_X8" 2 Ic_cell_template 52ddde74f17f.03.7f.00.00.01.00.7e.8a 52dddc16ba09.03.7f.00.00.01.00.7e.8a
+R csduv 9 "$MGC_DESIGN_KIT/process/vias/M2M3" 5 Ic_cell_template 42db94100a6f.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.01.12.b4
+R csduv 10 "$MGC_DESIGN_KIT/process/vias/M3M4" 6 Ic_cell_template 42db946f107d.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.02.12.b4
+O 13
+R csduv 1 "$MGC_DESIGN_KIT/process/umc18ummrf" 25 Ic_persist_process 4b49fbac2b9a.03.89.ca.1c.10.00.03.ca 462ccb24bc64.03.7f.00.00.02.00.14.78
+R csduv 2 "$SC_filter/default.group/layout_cfg.views/PHASE_GEN/SDL" 1 Eddm_design_viewpoint 52dde5ba0c05.03.7f.00.00.01.01.1c.8c 52dde5ba0c05.03.7f.00.00.01.00.1c.8c
+R csduv 3 "$SC_filter/default.group/layout.views/inv_X2/inv_X2" 6 Ic_cell_template 52ddeb15a92e.03.7f.00.00.01.00.2d.94 52dde0b44d7a.03.7f.00.00.01.00.0a.0d
+R csduv 4 "$SC_filter/default.group/layout.views/nand_X4/nand_X4" 1 Ic_cell_template 52dda699d835.03.7f.00.00.01.00.54.b5 52dda17d976a.03.7f.00.00.01.00.54.b5
+R csdni 5 "$MGC_DESIGN_KIT/process/umc18mmrf_sdl_rules" 1 Mgc_file
+R csduv 7 "$SC_filter/default.group/layout.views/inv_X4/inv_X4" 2 Ic_cell_template 52dde091e7f2.03.7f.00.00.01.00.06.06 52dddeaa8709.03.7f.00.00.01.00.06.06
+R csduv 8 "$SC_filter/default.group/layout.views/inv_X8/inv_X8" 2 Ic_cell_template 52ddde74f17f.03.7f.00.00.01.00.7e.8a 52dddc16ba09.03.7f.00.00.01.00.7e.8a
+R csduv 9 "$MGC_DESIGN_KIT/process/vias/M2M3" 5 Ic_cell_template 42db94100a6f.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.01.12.b4
+R csduv 10 "$MGC_DESIGN_KIT/process/vias/M3M4" 6 Ic_cell_template 42db946f107d.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.02.12.b4

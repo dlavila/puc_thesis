@@ -1,0 +1,700 @@
+START report: Mon Jan 13 15:31:54 2014 
+Warning: (eldo - 406)  In file "/usr/local/mentor/UMC180PDK/models/ELDO/include_all" line 1:
++   COMMAND .LIB cannot find corner tt in library /usr/local/mentor/UMC180PDK/models/ELDO/018-rf-v2d4-control.eldo
+Warning: (eldo - 706)  In file "/usr/local/mentor/UMC180PDK/models/ELDO/MM180_MIMCAP_V101.mdl.eldo" line 9:
++   During the creation of X1.XC1__6, the parameter W in subckt MIMCAPS_MM is ignored as it is already specified on the instance line.
+Warning: (eldo - 706)  In file "/usr/local/mentor/UMC180PDK/models/ELDO/MM180_MIMCAP_V101.mdl.eldo" line 9:
++   During the creation of X1.XC1__6, the parameter L in subckt MIMCAPS_MM is ignored as it is already specified on the instance line.
+Warning: (eldo - 87) Some X or device instances connected in parallel have been merged into a single instance.
++   This may cause some unexpected warning messages. See Eldo documentation for detail.
++   To prevent this merging, please use .option nocatmx .
+Warning: (eldo - 240)  OBJECT "X1.MOUTP": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@40": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@39": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@39": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@38": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@38": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@37": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@37": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@36": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@36": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@35": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@35": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@34": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@34": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@33": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@33": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@32": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@32": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@31": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@31": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@30": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@30": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@29": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@29": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@28": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@28": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M80": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@27": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@27": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@26": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@26": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M14": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M14": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@25": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@25": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@24": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@24": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M78": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@23": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@22": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M79": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M13": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M13": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M77": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M63": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M10@8": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M12@8": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M41": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M18": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M18@16": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M41@16": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M5": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M5": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M10@7": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M12@7": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M18@15": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M18@15": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M41@15": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M41@15": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M41@14": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M41@14": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M18@14": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M18@14": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M6": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M6": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M18@13": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M18@13": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M41@13": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M41@13": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M41@12": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M41@12": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M18@12": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M18@12": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M6@4": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M6@4": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M41@11": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M18@11": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M18@10": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M41@10": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M5@4": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M5@4": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M51": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M42": PD = 5.400000e-01 < Weff = 8.301910e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M19": PD = 5.400000e-01 < Weff = 8.301910e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M3": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M1": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M19@2": PD = 5.400000e-01 < Weff = 8.301910e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M19@2": PS = 5.400000e-01 < Weff = 8.301910e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M19@3": PD = 5.400000e-01 < Weff = 8.301910e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M19@3": PS = 5.400000e-01 < Weff = 8.301910e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M3@8": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M3@8": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M1@8": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M1@8": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M19@4": PD = 5.400000e-01 < Weff = 8.301910e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M19@4": PS = 5.400000e-01 < Weff = 8.301910e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M19@5": PD = 5.400000e-01 < Weff = 8.301910e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M19@5": PS = 5.400000e-01 < Weff = 8.301910e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M3@7": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M3@7": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M1@7": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M1@7": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M19@6": PD = 5.400000e-01 < Weff = 8.301910e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M19@6": PS = 5.400000e-01 < Weff = 8.301910e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M19@7": PD = 5.400000e-01 < Weff = 8.301910e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M19@7": PS = 5.400000e-01 < Weff = 8.301910e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M3@6": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M3@6": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M1@6": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M1@6": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M19@8": PD = 5.400000e-01 < Weff = 8.301910e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M19@8": PS = 5.400000e-01 < Weff = 8.301910e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M19@9": PD = 5.400000e-01 < Weff = 8.301910e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M19@9": PS = 5.400000e-01 < Weff = 8.301910e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M3@5": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M3@5": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M1@5": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M1@5": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M19@10": PD = 5.400000e-01 < Weff = 8.301910e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M19@10": PS = 5.400000e-01 < Weff = 8.301910e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M42@2": PD = 5.400000e-01 < Weff = 8.301910e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M42@2": PS = 5.400000e-01 < Weff = 8.301910e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M3@4": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M3@4": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M1@4": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M1@4": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M42@3": PD = 5.400000e-01 < Weff = 8.301910e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M42@3": PS = 5.400000e-01 < Weff = 8.301910e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M42@4": PD = 5.400000e-01 < Weff = 8.301910e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M42@4": PS = 5.400000e-01 < Weff = 8.301910e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M3@3": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M3@3": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M1@3": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M1@3": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M42@5": PD = 5.400000e-01 < Weff = 8.301910e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M42@5": PS = 5.400000e-01 < Weff = 8.301910e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M42@6": PD = 5.400000e-01 < Weff = 8.301910e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M42@6": PS = 5.400000e-01 < Weff = 8.301910e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M3@2": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M1@2": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M42@7": PD = 5.400000e-01 < Weff = 8.301910e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M42@7": PS = 5.400000e-01 < Weff = 8.301910e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M42@8": PD = 5.400000e-01 < Weff = 8.301910e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M42@8": PS = 5.400000e-01 < Weff = 8.301910e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M42@9": PD = 5.400000e-01 < Weff = 8.301910e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M42@10": PD = 5.400000e-01 < Weff = 8.301910e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M64": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M5@3": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M5@3": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M41@9": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M18@9": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M18@8": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M41@8": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M6@3": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M6@3": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M18@7": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M18@7": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M41@7": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M41@7": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M41@6": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M41@6": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M18@6": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M18@6": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M6@2": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M6@2": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M18@5": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M18@5": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M41@5": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M41@5": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M41@4": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M41@4": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M18@4": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M18@4": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M10@4": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M12@4": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M5@2": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M5@2": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M41@3": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M18@3": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M18@2": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M41@2": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M10@3": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M12@3": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M52": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M81": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M13@2": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M13@2": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M55": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@21": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@20": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M82": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@19": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@19": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@18": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@18": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M14@2": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M14@2": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@17": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@17": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@16": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@16": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M56": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@15": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@15": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@14": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@14": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@13": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@13": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@12": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@12": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@11": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@11": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@10": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@10": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@9": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@9": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@8": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@8": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@7": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@7": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@6": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@6": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@5": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@5": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@4": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@4": PS = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@3": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTP@2": PD = 5.400000e-01 < Weff = 2.795112e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTN": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTN@20": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTN@19": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTN@19": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTN@18": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTN@18": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTN@17": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTN@17": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTN@16": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTN@16": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTN@15": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTN@15": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTN@14": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTN@14": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTN@13": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTN@12": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M17": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MIN1": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MIN1@8": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MIN1@8": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M17@8": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M17@8": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M83": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M90": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MIN1@7": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MIN1@7": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M17@7": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M17@7": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M9": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M7": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M17@6": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MIN1@6": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M7@4": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M9@4": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M67": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M15": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M50": PD = 5.400000e-01 < Weff = 5.099276e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M88": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M84": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M8": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M8": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M16": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M50@10": PD = 5.400000e-01 < Weff = 5.099276e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M50@10": PS = 5.400000e-01 < Weff = 5.099276e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M87": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M50@9": PD = 5.400000e-01 < Weff = 5.099276e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M50@9": PS = 5.400000e-01 < Weff = 5.099276e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M2": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M4": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M50@8": PD = 5.400000e-01 < Weff = 5.099276e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M50@8": PS = 5.400000e-01 < Weff = 5.099276e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M2@4": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M2@4": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M4@4": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M4@4": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M50@7": PD = 5.400000e-01 < Weff = 5.099276e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M50@7": PS = 5.400000e-01 < Weff = 5.099276e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M2@3": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M2@3": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M4@3": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M4@3": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M50@6": PD = 5.400000e-01 < Weff = 5.099276e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M50@6": PS = 5.400000e-01 < Weff = 5.099276e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M2@2": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M4@2": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M50@5": PD = 5.400000e-01 < Weff = 5.099276e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M50@5": PS = 5.400000e-01 < Weff = 5.099276e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M50@4": PD = 5.400000e-01 < Weff = 5.099276e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M50@4": PS = 5.400000e-01 < Weff = 5.099276e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M86": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M50@3": PD = 5.400000e-01 < Weff = 5.099276e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M50@3": PS = 5.400000e-01 < Weff = 5.099276e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M16@2": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M11": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M11": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M85": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M89": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M50@2": PD = 5.400000e-01 < Weff = 5.099276e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M15@2": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M68": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M7@3": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M9@3": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M17@5": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MIN1@5": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M9@2": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M7@2": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MIN1@4": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MIN1@4": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M17@4": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M17@4": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M65": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M66": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MIN1@3": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MIN1@3": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M17@3": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M17@3": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.M17@2": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MIN1@2": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTN@11": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTN@10": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTN@9": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTN@9": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTN@8": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTN@8": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTN@7": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTN@7": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTN@6": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTN@6": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTN@5": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTN@5": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTN@4": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTN@4": PS = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTN@3": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 240)  OBJECT "X1.MOUTN@2": PD = 5.400000e-01 < Weff = 1.578652e+00.
+
+Warning: (eldo - 1619) This netlist contains expressions using strongly non-linear functions such as ABS() MIN(), 
++   MAX() (found in device X1.XC1__6.C1 for instance) 
++   If, and only if, convergence problems occur either in DC or transient analysis, 
++   the .option mmsmooth is a possible workaround worth testing. 
++   It is NOT recommended to activate it systematically, or if there are no particular convergence problems. 
++   Please refer to the documentation for further discussions about this option

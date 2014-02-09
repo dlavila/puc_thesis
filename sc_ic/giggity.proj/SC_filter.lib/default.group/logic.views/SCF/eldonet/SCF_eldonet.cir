@@ -1,0 +1,13 @@
+* Component: $SC_filter/default.group/logic.views/SCF  Viewpoint: eldonet
+.INCLUDE $SC_filter/default.group/logic.views/SCF/eldonet/SCF_eldonet.spi
+
+
+
+
+.OPTION NOASCII
+.OPTION MODWL
+.OPTION ENGNOT
+.OPTION AEX
+
+.TEMP 27 
+

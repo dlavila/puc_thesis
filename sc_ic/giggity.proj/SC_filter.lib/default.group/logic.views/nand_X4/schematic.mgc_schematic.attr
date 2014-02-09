@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 52d42e77af7f.03.7f.00.00.01.00.02.9f 16 2 1 0
+V v 14 1 52d43f295e35.03.7f.00.00.01.00.59.dd
+F o 0 ""
+V v 15 1 52d43f2998a2.03.7f.00.00.01.00.59.dd
+F o 0 ""
+V v 16 1 52dda16f8f9b.03.7f.00.00.01.00.54.85
+F o 0 ""
+O 16
+R cspuv 0 "$SC_filter/default.group/logic.views/nand_X4/schematic/sheet1" 15 mgc_sheet 52dda16f8f68.03.7f.00.00.01.00.54.85 52d42e77af90.03.7f.00.00.01.00.02.9f
+O 15
+R cspuv 0 "$SC_filter/default.group/logic.views/nand_X4/schematic/sheet1" 14 mgc_sheet 52d43f299877.03.7f.00.00.01.00.59.dd 52d42e77af90.03.7f.00.00.01.00.02.9f
+O 14
+R cspuv 0 "$SC_filter/default.group/logic.views/nand_X4/schematic/sheet1" 13 mgc_sheet 52d43f295e09.03.7f.00.00.01.00.59.dd 52d42e77af90.03.7f.00.00.01.00.02.9f

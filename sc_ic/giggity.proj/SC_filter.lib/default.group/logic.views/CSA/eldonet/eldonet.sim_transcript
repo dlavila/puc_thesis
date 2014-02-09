@@ -1,0 +1,668 @@
+Obsolete option -64b ignored
+
+Running eldo on localhost.localdomain
+with Eldo libraries :
+/usr/local/mentor/ams/aol/lib/libeldoudm_64.so
+/usr/local/mentor/ams/aol/lib/libeldomos1_64.so
+/usr/local/mentor/ams/aol/lib/libeldoekv_64.so
+/usr/local/mentor/ams/aol/lib/libeldomosp9_64.so
+/usr/local/mentor/ams/aol/lib/libeldocsem_64.so
+/usr/local/mentor/ams/aol/lib/libeldomos2_64.so
+/usr/local/mentor/ams/aol/lib/libeldomos3_64.so
+/usr/local/mentor/ams/aol/lib/libeldobip_64.so
+/usr/local/mentor/ams/aol/lib/libeldodio_64.so
+/usr/local/mentor/ams/aol/lib/libeldojfet_64.so
+/usr/local/mentor/ams/aol/lib/libeldosoi_64.so
+/usr/local/mentor/ams/aol/lib/libeldomos4_64.so
+/usr/local/mentor/ams/aol/lib/libeldoasitft_64.so
+/usr/local/mentor/ams/aol/lib/libeldohisim_64.so
+/usr/local/mentor/ams/aol/lib/libeldospmod_64.so
+/usr/local/mentor/ams/aol/lib/libeldopsp_64.so
+/usr/local/mentor/ams/aol/lib/libeldomosvar_64.so
+/usr/local/mentor/ams/aol/lib/libeldomoto_64.so
+/usr/local/mentor/ams/aol/lib/libeldost_64.so
+/usr/local/mentor/ams/aol/lib/libeldobnr_64.so
+/usr/local/mentor/ams/aol/lib/libeldorockw_64.so
+/usr/local/mentor/ams/aol/lib/libeldopubhicum_64.so
+/usr/local/mentor/ams/aol/lib/libeldotftsh_64.so
+/usr/local/mentor/ams/aol/lib/libeldobta_64.so
+/usr/local/mentor/ams/aol/lib/libeldofas_64.so
+/usr/local/mentor/ams/aol/lib/libeldofascm_64.so
+/usr/local/mentor/ams/aol/lib/libeldosdsim_64.so
+/usr/local/mentor/ams/aol/lib/libeldowire_64.so
+/usr/local/mentor/ams/aol/lib/libogr_64.so loaded.
+
+
+
+              Software under License 
+       Copyright Mentor Graphics Corporation
+
+
+
+
+***** PRE-PROCESSING ...
+
+
+
+***** ANALYSIS ....
+
+Warning 406: In file "/usr/local/mentor/UMC180PDK/models/ELDO/include_all" line 1:
++   COMMAND .LIB cannot find corner tt in library /usr/local/mentor/UMC180PDK/models/ELDO/018-rf-v2d4-control.eldo
+
+***** 0  error(s). 
+***** 1  warning(s). 
+
+
+
+***** GENERATION ...
+
+Warning 255: In file "./CSA_eldonet.spi" line 24:
++   OBJECT "M1":  Size not consistent with LMIN/LMAX/WMIN/WMAX/TEMPMIN/TEMPMAX specification.
++    w (6.000000e+02u) is greater than wmax (1.000000e+02u)
+Warning 255: In file "./CSA_eldonet.spi" line 50:
++   OBJECT "M5":  Size not consistent with LMIN/LMAX/WMIN/WMAX/TEMPMIN/TEMPMAX specification.
++    w (1.500000e+03u) is greater than wmax (1.000000e+02u)
+Warning 255: In file "./CSA_eldonet.spi" line 55:
++   OBJECT "M4":  Size not consistent with LMIN/LMAX/WMIN/WMAX/TEMPMIN/TEMPMAX specification.
++    w (2.500000e+02u) is greater than wmax (1.000000e+02u)
+Warning 255: In file "./CSA_eldonet.spi" line 86:
++   OBJECT "M6":  Size not consistent with LMIN/LMAX/WMIN/WMAX/TEMPMIN/TEMPMAX specification.
++    w (1.500000e+02u) is greater than wmax (1.000000e+02u)
+Warning 255: In file "./CSA_eldonet.spi" line 91:
++   OBJECT "M9":  Size not consistent with LMIN/LMAX/WMIN/WMAX/TEMPMIN/TEMPMAX specification.
++    w (1.500000e+02u) is greater than wmax (1.000000e+02u)
+Warning 255: In file "./CSA_eldonet.spi" line 96:
++   OBJECT "M10":  Size not consistent with LMIN/LMAX/WMIN/WMAX/TEMPMIN/TEMPMAX specification.
++    w (1.500000e+02u) is greater than wmax (1.000000e+02u)
+Warning 1615: In file "./CSA_eldonet.cir" line 39:
++   COMMAND ".TRAN": Tstep can not be <= 0.0.
++   It is set to Tmax/20.0 = 4.000e-08 s.
+
+***** 0  error(s). 
+***** 8  warning(s). 
+
+
+INFORMATION ABOUT COMPILATION...
+
+
+Memory space allocated (bytes): 124387328
+27 elements
+16 nodes
+2 input signals
+
+
+run number 1 out of 5
+   value of parameter REC2 is 8.000000
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  7-Feb-2014 14:53:46
+
+*** TITLE: * Component: $SC_filter/default.group/logic.views/CSA  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+Searching Operating Point between -1.800000e+00V and 
+                                  3.600000e+00V
+Connecting to JWDB server, please wait...
+connected to wdb server : -jwdbhost localhost.localdomain -jwdbport 52875
+
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 020ms <***
+
+DC:59 iterations FOR DC analysis
+N$119         174.5556M  
+N$125         168.9412M  
+N$127         176.2504M  
+N$128         696.8983M  
+N$130         1.6481     
+N$140         0.0000     
+N$149         1.6416     
+N$23          1.0351     
+N$51          1.4911     
+VB1           1.2303     
+VB2           887.9868M  
+VB3           801.5142M  
+VB4           492.7327M  
+VDD           1.8000     
+VIN           490.4810M  
+VOUT          490.4810M  
+
+   TOTAL POWER DISSIPATION:  3.5294M     WATTS
+
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:1 iterations FOR DC analysis
+N$119         174.5556M  
+N$125         168.9412M  
+N$127         176.2504M  
+N$128         696.8983M  
+N$130         1.6481     
+N$140         0.0000     
+N$149         1.6416     
+N$23          1.0351     
+N$51          1.4911     
+VB1           1.2303     
+VB2           887.9868M  
+VB3           801.5142M  
+VB4           492.7327M  
+VDD           1.8000     
+VIN           490.4811M  
+VOUT          490.4811M  
+
+   TOTAL POWER DISSIPATION:  3.5294M     WATTS
+
+
+Eldo NEWTON: VNTOL=1.000000e-06 RELTOL=6.111111e-04
+
+Compute from 0.000000 Nano to 800.000000 Nano
+................................................
+Simulation progress           : 10% (t = 80.5000 N)
+Elapsed CPU time              :  0h  0mn  0s  10    ( 0h  0mn  0s  10)
+................................................
+Simulation progress           : 20% (t = 160.5000 N)
+Elapsed CPU time              :  0h  0mn  0s  10    ( 0h  0mn  0s  20)
+................................................
+Simulation progress           : 30% (t = 240.6000 N)
+Elapsed CPU time              :  0h  0mn  0s   0    ( 0h  0mn  0s  20)
+................................................
+Simulation progress           : 40% (t = 320.6000 N)
+Elapsed CPU time              :  0h  0mn  0s  10    ( 0h  0mn  0s  30)
+................................................
+Simulation progress           : 50% (t = 400.6000 N)
+Elapsed CPU time              :  0h  0mn  0s  10    ( 0h  0mn  0s  40)
+................................................
+Simulation progress           : 60% (t = 480.5000 N)
+Elapsed CPU time              :  0h  0mn  0s  10    ( 0h  0mn  0s  50)
+................................................
+Simulation progress           : 70% (t = 560.5000 N)
+Elapsed CPU time              :  0h  0mn  0s  10    ( 0h  0mn  0s  60)
+................................................
+Simulation progress           : 80% (t = 640.6000 N)
+Elapsed CPU time              :  0h  0mn  0s   0    ( 0h  0mn  0s  60)
+................................................
+Simulation progress           : 90% (t = 720.6000 N)
+Elapsed CPU time              :  0h  0mn  0s  10    ( 0h  0mn  0s  70)
+................................................
+Simulation progress           : 100% (t = 800.0000 N)
+Elapsed CPU time              :  0h  0mn  0s  10    ( 0h  0mn  0s  80)
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 080ms <***
+
+
+
+run number 2 out of 5
+   value of parameter REC2 is 9.000000
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  7-Feb-2014 14:53:47
+
+*** TITLE: * Component: $SC_filter/default.group/logic.views/CSA  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:3 iterations FOR DC analysis
+N$119         164.7698M  
+N$125         159.1053M  
+N$127         165.9403M  
+N$128         676.3570M  
+N$130         1.6556     
+N$140         0.0000     
+N$149         1.6497     
+N$23          1.0524     
+N$51          1.5050     
+VB1           1.2373     
+VB2           911.7246M  
+VB3           780.4088M  
+VB4           484.3819M  
+VDD           1.8000     
+VIN           482.2198M  
+VOUT          482.2198M  
+
+   TOTAL POWER DISSIPATION:  3.1308M     WATTS
+
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 010ms <***
+
+DC:1 iterations FOR DC analysis
+N$119         164.7698M  
+N$125         159.1053M  
+N$127         165.9403M  
+N$128         676.3570M  
+N$130         1.6556     
+N$140         0.0000     
+N$149         1.6497     
+N$23          1.0524     
+N$51          1.5050     
+VB1           1.2373     
+VB2           911.7246M  
+VB3           780.4088M  
+VB4           484.3819M  
+VDD           1.8000     
+VIN           482.2198M  
+VOUT          482.2198M  
+
+   TOTAL POWER DISSIPATION:  3.1308M     WATTS
+
+
+Eldo NEWTON: VNTOL=1.000000e-06 RELTOL=6.111111e-04
+
+Compute from 0.000000 Nano to 800.000000 Nano
+................................................
+Simulation progress           : 10% (t = 80.5000 N)
+Elapsed CPU time              :  0h  0mn  0s   0    ( 0h  0mn  0s   0)
+................................................
+Simulation progress           : 20% (t = 160.5000 N)
+Elapsed CPU time              :  0h  0mn  0s  10    ( 0h  0mn  0s  10)
+................................................
+Simulation progress           : 30% (t = 240.6000 N)
+Elapsed CPU time              :  0h  0mn  0s  10    ( 0h  0mn  0s  20)
+................................................
+Simulation progress           : 40% (t = 320.6000 N)
+Elapsed CPU time              :  0h  0mn  0s   0    ( 0h  0mn  0s  20)
+................................................
+Simulation progress           : 50% (t = 400.6000 N)
+Elapsed CPU time              :  0h  0mn  0s  10    ( 0h  0mn  0s  30)
+................................................
+Simulation progress           : 60% (t = 480.5000 N)
+Elapsed CPU time              :  0h  0mn  0s  10    ( 0h  0mn  0s  40)
+................................................
+Simulation progress           : 70% (t = 560.5000 N)
+Elapsed CPU time              :  0h  0mn  0s   0    ( 0h  0mn  0s  40)
+................................................
+Simulation progress           : 80% (t = 640.6000 N)
+Elapsed CPU time              :  0h  0mn  0s  10    ( 0h  0mn  0s  50)
+................................................
+Simulation progress           : 90% (t = 720.6000 N)
+Elapsed CPU time              :  0h  0mn  0s   0    ( 0h  0mn  0s  50)
+................................................
+Simulation progress           : 100% (t = 800.0000 N)
+Elapsed CPU time              :  0h  0mn  0s  10    ( 0h  0mn  0s  60)
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 060ms <***
+
+
+
+run number 3 out of 5
+   value of parameter REC2 is 10.000000
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  7-Feb-2014 14:53:48
+
+*** TITLE: * Component: $SC_filter/default.group/logic.views/CSA  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:3 iterations FOR DC analysis
+N$119         156.5288M  
+N$125         150.8280M  
+N$127         157.2835M  
+N$128         658.9245M  
+N$130         1.6617     
+N$140         0.0000     
+N$149         1.6564     
+N$23          1.0670     
+N$51          1.5164     
+VB1           1.2434     
+VB2           931.6274M  
+VB3           762.5219M  
+VB4           477.2099M  
+VDD           1.8000     
+VIN           475.1173M  
+VOUT          475.1173M  
+
+   TOTAL POWER DISSIPATION:  2.8133M     WATTS
+
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:1 iterations FOR DC analysis
+N$119         156.5288M  
+N$125         150.8280M  
+N$127         157.2835M  
+N$128         658.9245M  
+N$130         1.6617     
+N$140         0.0000     
+N$149         1.6564     
+N$23          1.0670     
+N$51          1.5164     
+VB1           1.2434     
+VB2           931.6274M  
+VB3           762.5219M  
+VB4           477.2099M  
+VDD           1.8000     
+VIN           475.1173M  
+VOUT          475.1173M  
+
+   TOTAL POWER DISSIPATION:  2.8133M     WATTS
+
+
+Eldo NEWTON: VNTOL=1.000000e-06 RELTOL=6.111111e-04
+
+Compute from 0.000000 Nano to 800.000000 Nano
+................................................
+Simulation progress           : 10% (t = 80.5000 N)
+Elapsed CPU time              :  0h  0mn  0s  10    ( 0h  0mn  0s  10)
+................................................
+Simulation progress           : 20% (t = 160.5000 N)
+Elapsed CPU time              :  0h  0mn  0s  10    ( 0h  0mn  0s  20)
+................................................
+Simulation progress           : 30% (t = 240.6000 N)
+Elapsed CPU time              :  0h  0mn  0s  10    ( 0h  0mn  0s  30)
+................................................
+Simulation progress           : 40% (t = 320.6000 N)
+Elapsed CPU time              :  0h  0mn  0s   0    ( 0h  0mn  0s  30)
+................................................
+Simulation progress           : 50% (t = 400.6000 N)
+Elapsed CPU time              :  0h  0mn  0s  10    ( 0h  0mn  0s  40)
+................................................
+Simulation progress           : 60% (t = 480.5000 N)
+Elapsed CPU time              :  0h  0mn  0s  10    ( 0h  0mn  0s  50)
+................................................
+Simulation progress           : 70% (t = 560.5000 N)
+Elapsed CPU time              :  0h  0mn  0s   0    ( 0h  0mn  0s  50)
+................................................
+Simulation progress           : 80% (t = 640.6000 N)
+Elapsed CPU time              :  0h  0mn  0s  10    ( 0h  0mn  0s  60)
+................................................
+Simulation progress           : 90% (t = 720.6000 N)
+Elapsed CPU time              :  0h  0mn  0s   0    ( 0h  0mn  0s  60)
+................................................
+Simulation progress           : 100% (t = 800.0000 N)
+Elapsed CPU time              :  0h  0mn  0s  10    ( 0h  0mn  0s  70)
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 070ms <***
+
+
+
+run number 4 out of 5
+   value of parameter REC2 is 11.000000
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  7-Feb-2014 14:53:48
+
+*** TITLE: * Component: $SC_filter/default.group/logic.views/CSA  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:3 iterations FOR DC analysis
+N$119         149.4722M  
+N$125         143.7451M  
+N$127         149.8888M  
+N$128         643.8775M  
+N$130         1.6670     
+N$140         0.0000     
+N$149         1.6621     
+N$23          1.0796     
+N$51          1.5260     
+VB1           1.2488     
+VB2           948.6276M  
+VB3           747.0993M  
+VB4           470.9472M  
+VDD           1.8000     
+VIN           468.9072M  
+VOUT          468.9072M  
+
+   TOTAL POWER DISSIPATION:  2.5544M     WATTS
+
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 010ms <***
+
+DC:1 iterations FOR DC analysis
+N$119         149.4722M  
+N$125         143.7451M  
+N$127         149.8888M  
+N$128         643.8775M  
+N$130         1.6670     
+N$140         0.0000     
+N$149         1.6621     
+N$23          1.0796     
+N$51          1.5260     
+VB1           1.2488     
+VB2           948.6276M  
+VB3           747.0993M  
+VB4           470.9472M  
+VDD           1.8000     
+VIN           468.9072M  
+VOUT          468.9072M  
+
+   TOTAL POWER DISSIPATION:  2.5544M     WATTS
+
+
+Eldo NEWTON: VNTOL=1.000000e-06 RELTOL=6.111111e-04
+
+Compute from 0.000000 Nano to 800.000000 Nano
+................................................
+Simulation progress           : 10% (t = 80.5000 N)
+Elapsed CPU time              :  0h  0mn  0s  10    ( 0h  0mn  0s  10)
+................................................
+Simulation progress           : 20% (t = 160.5000 N)
+Elapsed CPU time              :  0h  0mn  0s  10    ( 0h  0mn  0s  20)
+................................................
+Simulation progress           : 30% (t = 240.6000 N)
+Elapsed CPU time              :  0h  0mn  0s  10    ( 0h  0mn  0s  30)
+................................................
+Simulation progress           : 40% (t = 320.6000 N)
+Elapsed CPU time              :  0h  0mn  0s   0    ( 0h  0mn  0s  30)
+................................................
+Simulation progress           : 50% (t = 400.6000 N)
+Elapsed CPU time              :  0h  0mn  0s   0    ( 0h  0mn  0s  40)
+................................................
+Simulation progress           : 60% (t = 480.5000 N)
+Elapsed CPU time              :  0h  0mn  0s  10    ( 0h  0mn  0s  50)
+................................................
+Simulation progress           : 70% (t = 560.5000 N)
+Elapsed CPU time              :  0h  0mn  0s  10    ( 0h  0mn  0s  60)
+................................................
+Simulation progress           : 80% (t = 640.6000 N)
+Elapsed CPU time              :  0h  0mn  0s  10    ( 0h  0mn  0s  70)
+................................................
+Simulation progress           : 90% (t = 720.6000 N)
+Elapsed CPU time              :  0h  0mn  0s  10    ( 0h  0mn  0s  80)
+................................................
+Simulation progress           : 100% (t = 800.0000 N)
+Elapsed CPU time              :  0h  0mn  0s   0    ( 0h  0mn  0s  80)
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 080ms <***
+
+
+
+run number 5 out of 5
+   value of parameter REC2 is 12.000000
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  7-Feb-2014 14:53:48
+
+*** TITLE: * Component: $SC_filter/default.group/logic.views/CSA  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 010ms <***
+
+DC:3 iterations FOR DC analysis
+N$119         143.3466M  
+N$125         137.6005M  
+N$127         143.4830M  
+N$128         630.7086M  
+N$130         1.6715     
+N$140         0.0000     
+N$149         1.6669     
+N$23          1.0906     
+N$51          1.5342     
+VB1           1.2536     
+VB2           963.3701M  
+VB3           733.6136M  
+VB4           465.4043M  
+VDD           1.8000     
+VIN           463.4028M  
+VOUT          463.4028M  
+
+   TOTAL POWER DISSIPATION:  2.3393M     WATTS
+
+
+
+***>Current simulation completed
+
+
+
+
+SIMULATION INFORMATION 
+memory size allocated in bytes 127320064
+nb of components: 57
+nb of nodes: 46
+nb of MOS or BIP calls: 449
+Number of steps computed: 0
+
+***>CPU TIME 0s 000ms <***
+
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:1 iterations FOR DC analysis
+N$119         143.3466M  
+N$125         137.6005M  
+N$127         143.4830M  
+N$128         630.7086M  
+N$130         1.6715     
+N$140         0.0000     
+N$149         1.6669     
+N$23          1.0906     
+N$51          1.5342     
+VB1           1.2536     
+VB2           963.3701M  
+VB3           733.6136M  
+VB4           465.4043M  
+VDD           1.8000     
+VIN           463.4028M  
+VOUT          463.4028M  
+
+   TOTAL POWER DISSIPATION:  2.3393M     WATTS
+
+
+Eldo NEWTON: VNTOL=1.000000e-06 RELTOL=6.111111e-04
+
+Compute from 0.000000 Nano to 800.000000 Nano
+................................................
+Simulation progress           : 10% (t = 80.5000 N)
+Elapsed CPU time              :  0h  0mn  0s  10    ( 0h  0mn  0s  10)
+................................................
+Simulation progress           : 20% (t = 160.5000 N)
+Elapsed CPU time              :  0h  0mn  0s  10    ( 0h  0mn  0s  20)
+................................................
+Simulation progress           : 30% (t = 240.6000 N)
+Elapsed CPU time              :  0h  0mn  0s  10    ( 0h  0mn  0s  30)
+................................................
+Simulation progress           : 40% (t = 320.6000 N)
+Elapsed CPU time              :  0h  0mn  0s  10    ( 0h  0mn  0s  40)
+................................................
+Simulation progress           : 50% (t = 400.6000 N)
+Elapsed CPU time              :  0h  0mn  0s   0    ( 0h  0mn  0s  40)
+................................................
+Simulation progress           : 60% (t = 480.5000 N)
+Elapsed CPU time              :  0h  0mn  0s  10    ( 0h  0mn  0s  50)
+................................................
+Simulation progress           : 70% (t = 560.5000 N)
+Elapsed CPU time              :  0h  0mn  0s   0    ( 0h  0mn  0s  50)
+................................................
+Simulation progress           : 80% (t = 640.6000 N)
+Elapsed CPU time              :  0h  0mn  0s  10    ( 0h  0mn  0s  60)
+................................................
+Simulation progress           : 90% (t = 720.6000 N)
+Elapsed CPU time              :  0h  0mn  0s  10    ( 0h  0mn  0s  70)
+................................................
+Simulation progress           : 100% (t = 800.0000 N)
+Elapsed CPU time              :  0h  0mn  0s  10    ( 0h  0mn  0s  80)
+
+
+***>Current simulation completed
+
+
+
+
+SIMULATION INFORMATION 
+memory size allocated in bytes 127320064
+Latency: 0.000000%
+average number of newton iterations: 1.034188
+nb of components: 57
+nb of nodes: 46
+nb of MOS or BIP calls: 1052
+Number of steps computed: 819
+
+***>CPU TIME 0s 080ms <***
+
+***>MESSAGE SUMMARY: 8 warnings
+
+***>GLOBAL CPU TIME 0s 480ms <***
+
+
+***>GLOBAL ELAPSED TIME 3s <***
+
+

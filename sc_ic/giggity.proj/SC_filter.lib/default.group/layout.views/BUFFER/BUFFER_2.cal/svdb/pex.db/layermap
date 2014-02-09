@@ -1,0 +1,66 @@
+OK
+VERSION          2
+TIME_NUMBER 2455305815
+LAYER_COUNT         50
+VIACOR_COUNT          9
+FIELD_NAMES drc_layer_nb layer_name
+         4 ALLGATES
+        11 TOP_VIA_MMC
+        16 CMMC_MM
+        17 MMC_DUMMY
+        30 ME6_C
+        31 TOP_M_C
+        44 ME6_I
+        45 TOP_M_I
+        50 ME5_C
+        51 SEC_LAST_MET_C
+        54 ME5_I
+        55 SEC_LAST_MET_I
+        57 TOP_VIA_SLM
+        58 MMC_C
+        59 MMC_I
+        65 TWEL
+        70 PSUB
+       107 PSD_C
+       110 PSD_I
+       119 NSD_I
+       120 NSD_C
+       155 PLY_I
+       159 WEL
+       160 WELL
+       167 ME1_C
+       174 ME2_C
+       181 ME3_C
+       188 ME4_C
+       189 ME1_I
+       190 ME2_I
+       191 ME3_I
+       194 ME4_I
+       313 PTAP
+       314 NTAP
+       315 TTAP
+       339 PNVAR
+       362 PNP_E_50
+       366 PNP_E_100
+       369 PNP_E_50_MM
+       372 PNP_E_100_MM
+       450 PLYCONT
+       452 DIFCONT
+       453 NNBDIF
+       454 PPBDIF
+       455 NPBDIF
+       457 PLY_C
+      1628 VI1
+      1634 VI2
+      1640 VI3
+      1646 VI4
+VIACOR_FIELD_NAMES VIA_drc_layer_nb LAYER1_drc_layer_nb LAYER2_drc_layer_nb
+1628  167  174
+1634  174  181
+1640  181  188
+1646  51  188
+57  31  51
+11  31  58
+450  167  457
+452  107  167
+452  120  167

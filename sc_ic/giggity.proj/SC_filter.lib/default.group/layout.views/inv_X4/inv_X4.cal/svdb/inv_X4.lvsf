@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib/default.group/layout.views/inv_X4/inv_X4.cal
+lvs_LvsfVersion 2
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {3 0 0 0}
+lvs_LvsOutFile LVS_REPORT lvs.report
+lvs_LvsOutFile SOURCE_NETLIST /home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib/default.group/layout.views/inv_X4/inv_X4.cal/inv_X4.calibre.src.net
+lvs_LvsOutFile RULES_FILE /home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib/default.group/layout.views/inv_X4/inv_X4.cal/_G-DF-MIXED_MODE_RFCMOS18-1.8V_3.3V-1P6M-MMC_CALIBRE-LVS-2.1-P4.txt_
+lvs_LvsRunTimes 1390272667 1390272667

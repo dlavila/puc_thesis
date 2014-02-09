@@ -1,0 +1,79 @@
+# This file provides name mapping information for all objects
+# on the schematic design.  It provides a mapping for each
+# object between its name on the schematic and its name in the netlist.
+version 1.0
+
+Cell P_18_MM
+   Pin D D
+   Pin G G
+   Pin S S
+   Pin B B
+End Cell
+
+Cell N_18_MM
+   Pin D D
+   Pin G G
+   Pin S S
+   Pin B B
+End Cell
+
+Cell switch_X4
+   Pin out out
+   Pin e e
+   Pin in in
+   Pin Vdd Vdd
+   Pin Vss Vss
+   Net N$40 N$40
+   Net out out
+   Net e e
+   Net in in
+   Net Vdd Vdd
+   Net Vss Vss
+   Inst M2 M2 P_18_MM
+   Inst M1 M1 N_18_MM
+   Inst M11 M11 N_18_MM
+   Inst M12 M12 P_18_MM
+End Cell
+
+Cell MIMCAPS_MM
+   Pin PLUS PLUS
+   Pin MINUS MINUS
+End Cell
+
+Cell #top#
+   Pin CMFB CMFB
+   Pin AGnd AGnd
+   Pin AVdd AVdd
+   Pin phi1 phi1
+   Pin phi2 phi2
+   Pin Vb1 Vb1
+   Pin Vo+ Vo+
+   Pin Vo- Vo-
+   Pin Vocm Vocm
+   Net N$12 N$12
+   Net N$13 N$13
+   Net N$7 N$7
+   Net N$5 N$5
+   Net phi1 phi1
+   Net phi2 phi2
+   Net Vb1 Vb1
+   Net Vocm Vocm
+   Net AGnd AGnd
+   Net AVdd AVdd
+   Net CMFB CMFB
+   Net Vo+ Vo+
+   Net Vo- Vo-
+   Inst SWITCH_X48 X_SWITCH_X48 switch_X4
+   Inst SWITCH_X47 X_SWITCH_X47 switch_X4
+   Inst SWITCH_X46 X_SWITCH_X46 switch_X4
+   Inst SWITCH_X45 X_SWITCH_X45 switch_X4
+   Inst SWITCH_X44 X_SWITCH_X44 switch_X4
+   Inst SWITCH_X43 X_SWITCH_X43 switch_X4
+   Inst SWITCH_X42 X_SWITCH_X42 switch_X4
+   Inst SWITCH_X41 X_SWITCH_X41 switch_X4
+   Inst C4 C4 MIMCAPS_MM
+   Inst C3 C3 MIMCAPS_MM
+   Inst C2 C2 MIMCAPS_MM
+   Inst C1 C1 MIMCAPS_MM
+End Cell
+

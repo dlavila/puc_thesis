@@ -56,7 +56,7 @@ $$set_sim_value("sim_probes",[[3, @true, "V", [], @void, [], "ALL", "Save Only",
 $$set_sim_value("sim_probes_vector",[]);
 
 // Analysis
-$$set_sim_value("ac_enabled_entry",@off);
+$$set_sim_value("ac_enabled_entry",@on);
 $$set_sim_value("ac_ic_or_nodeset_entry",@ic);
 $$set_sim_value("ac_nbpt_entry","10");
 $$set_sim_value("ac_pz_entry",@voltage);
@@ -80,7 +80,7 @@ $$set_sim_value("dc_stop_entry","1");
 $$set_sim_value("dc_sweep_entry",@none);
 $$set_sim_value("dc_variable_entry","");
 $$set_sim_value("dc_variable_entry_sm","");
-$$set_sim_value("dcop_enabled_entry",@off);
+$$set_sim_value("dcop_enabled_entry",@on);
 $$set_sim_value("dcop_limit_display_entry",@nolimit);
 $$set_sim_value("dcop_save_file_entry","");
 $$set_sim_value("dcop_transient_time_entry","");
@@ -212,7 +212,7 @@ $$set_sim_value("tr_tprint_entry","0");
 $$set_sim_value("tr_tstart_entry","");
 $$set_sim_value("tr_uic_entry",@off);
 $$set_sim_value("tr_use_file_entry","");
-$$set_sim_value("transient_enabled_entry",@on);
+$$set_sim_value("transient_enabled_entry",@off);
 
 // Forces
 $$set_sim_value("sim_forces",[]);
@@ -233,7 +233,7 @@ $$set_sim_value("sim_sdf_vector",[[], [], @off]);
 // Monitor Flags
 $$set_sim_value("dcop_monitors_visible",@true);
 $$set_sim_value("sim_dcop_dec_places",2);
-$$set_sim_value("sim_monitor_entries",[]);
+$$set_sim_value("sim_monitor_entries",[["/V2/POS", ["DCI=0.00", "DCV=900.00M"], @pin, @box, @dcop, [-3.2109, 0.0391], "stroke", @true, @true, "V2.POS", 1359], ["/V2/NEG", ["DCI=0.00"], @pin, @box, @dcop, [-3.2109, -0.9609], "stroke", @true, @true, "V2.NEG", 1361], ["/C1/POS", ["DCV=747.00M"], @pin, @box, @dcop, [3.0391, 0.2891], "stroke", @true, @true, "C1.POS", 1363], ["/C1/NEG", [""], @pin, @box, @dcop, [3.0391, -0.7109], "stroke", @true, @true, "C1.NEG", 1365], ["/V1/POS", ["DCI=-493.47U", "DCV=1.80"], @pin, @box, @dcop, [-0.2109, 2.7891], "stroke", @true, @true, "V1.POS", 1367], ["/V1/NEG", ["DCI=-493.47U"], @pin, @box, @dcop, [-0.2109, 1.7891], "stroke", @true, @true, "V1.NEG", 1369], ["/S2D1/Vd-", ["DCI=0.00", "DCV=900.00M"], @pin, @box, @dcop, [-0.9609, 0.0391], "stroke", @true, @true, "X_S2D1.VD-", 1371], ["/S2D1/Vd+", ["DCI=0.00", "DCV=900.00M"], @pin, @box, @dcop, [-0.9609, 0.5391], "stroke", @true, @true, "X_S2D1.VD+", 1373], ["/S2D1/Vss", ["DCI=0.00"], @pin, @box, @dcop, [-1.7109, -0.4609], "stroke", @true, @true, "X_S2D1.VSS", 1375], ["/S2D1/Vicm", ["DCI=0.00", "DCV=900.00M"], @pin, @box, @dcop, [-2.4609, 0.0391], "stroke", @true, @true, "X_S2D1.VICM", 1377], ["/S2D1/Vid", ["DCI=0.00", "DCV=0.00"], @pin, @box, @dcop, [-2.4609, 0.5391], "stroke", @true, @true, "X_S2D1.VID", 1379], ["/I1/POS", ["DCV=1.22"], @pin, @box, @dcop, [3.7891, 2.0391], "stroke", @true, @true, "I1.POS", 1381], ["/I1/NEG", [""], @pin, @box, @dcop, [3.7891, 1.0391], "stroke", @true, @true, "I1.NEG", 1383], ["/BUFFER1/Vi-", ["DCI=0.00", "DCV=900.00M"], @pin, @box, @dcop, [0.5391, 0.0391], "stroke", @true, @true, "X_BUFFER1.VI-", 1385], ["/BUFFER1/Vi+", ["DCI=0.00", "DCV=900.00M"], @pin, @box, @dcop, [0.5391, 0.5391], "stroke", @true, @true, "X_BUFFER1.VI+", 1387], ["/BUFFER1/Vo", ["DCI=-854.04A", "DCV=747.00M"], @pin, @box, @dcop, [2.2891, 0.2891], "stroke", @true, @true, "X_BUFFER1.VO", 1389], ["/BUFFER1/AVdd", ["DCI=395.26U", "DCV=1.80"], @pin, @box, @dcop, [1.2891, 1.5391], "stroke", @true, @true, "X_BUFFER1.AVDD", 1391], ["/BUFFER1/AGnd", ["DCI=-395.26U"], @pin, @box, @dcop, [1.5391, 1.5391], "stroke", @true, @true, "X_BUFFER1.AGND", 1393], ["/BUFFER1/Vb1", ["DCI=0.00", "DCV=1.07"], @pin, @box, @dcop, [1.7891, 1.5391], "stroke", @true, @true, "X_BUFFER1.VB1", 1395], ["/BUFFER1/Vb2", ["DCI=0.00", "DCV=701.28M"], @pin, @box, @dcop, [2.0391, 1.5391], "stroke", @true, @true, "X_BUFFER1.VB2", 1397], ["/BUFFER1/Vb3", ["DCI=0.00", "DCV=859.20M"], @pin, @box, @dcop, [2.2891, 1.5391], "stroke", @true, @true, "X_BUFFER1.VB3", 1399], ["/BUFFER1/Vb4", ["DCI=0.00", "DCV=630.97M"], @pin, @box, @dcop, [2.5391, 1.5391], "stroke", @true, @true, "X_BUFFER1.VB4", 1401], ["/BUFFER1/Vpcas", ["DCI=0.00", "DCV=276.04M"], @pin, @box, @dcop, [2.7891, 1.5391], "stroke", @true, @true, "X_BUFFER1.VPCAS", 1403], ["/BUFFER1/Vncas", ["DCI=0.00", "DCV=1.26"], @pin, @box, @dcop, [3.0391, 1.5391], "stroke", @true, @true, "X_BUFFER1.VNCAS", 1405], ["/BIAS_BUFFER1/Vpcas", ["DCI=5.34A", "DCV=276.04M"], @pin, @box, @dcop, [2.7891, 2.0391], "stroke", @true, @true, "X_BIAS_BUFFER1.VPCAS", 1407], ["/BIAS_BUFFER1/Vb4", ["DCI=256.20A", "DCV=630.97M"], @pin, @box, @dcop, [2.5391, 2.0391], "stroke", @true, @true, "X_BIAS_BUFFER1.VB4", 1409], ["/BIAS_BUFFER1/Vncas", ["DCI=-85.40A", "DCV=1.26"], @pin, @box, @dcop, [3.0391, 2.0391], "stroke", @true, @true, "X_BIAS_BUFFER1.VNCAS", 1411], ["/BIAS_BUFFER1/Vb3", ["DCI=170.80A", "DCV=859.20M"], @pin, @box, @dcop, [2.2891, 2.0391], "stroke", @true, @true, "X_BIAS_BUFFER1.VB3", 1413], ["/BIAS_BUFFER1/Vb2", ["DCI=-53.38A", "DCV=701.28M"], @pin, @box, @dcop, [2.0391, 2.0391], "stroke", @true, @true, "X_BIAS_BUFFER1.VB2", 1415], ["/BIAS_BUFFER1/Vb1", ["DCI=-405.66A", "DCV=1.07"], @pin, @box, @dcop, [1.7891, 2.0391], "stroke", @true, @true, "X_BIAS_BUFFER1.VB1", 1417], ["/BIAS_BUFFER1/AGnd", ["DCI=-94.45U"], @pin, @box, @dcop, [1.5391, 2.0391], "stroke", @true, @true, "X_BIAS_BUFFER1.AGND", 1419], ["/BIAS_BUFFER1/AVdd", ["DCI=98.20U", "DCV=1.80"], @pin, @box, @dcop, [1.2891, 2.0391], "stroke", @true, @true, "X_BIAS_BUFFER1.AVDD", 1421], ["/BIAS_BUFFER1/Ib", ["DCI=-3.75U", "DCV=1.22"], @pin, @box, @dcop, [3.7891, 2.0391], "stroke", @true, @true, "X_BIAS_BUFFER1.IB", 1423], ["/V3/POS", ["DCI=0.00", "DCV=0.00"], @pin, @box, @dcop, [-6.9609, 0.2891], "stroke", @true, @true, "V3.POS", 1425], ["/V3/NEG", ["DCI=0.00"], @pin, @box, @dcop, [-6.9609, -0.7109], "stroke", @true, @true, "V3.NEG", 1427]]);
 $$set_sim_value("sim_monitor_font","stroke");
 $$set_sim_value("sim_monitor_font_half_height",@true);
 $$set_sim_value("sim_ss_show_dialog",@true);
@@ -280,6 +280,7 @@ $$set_sim_value("sim_adms_command_default","$MGC_AMS_HOME/bin/vasim");
 $$set_sim_value("sim_adms_command_options",[["-c"], ["-cmd", "<input_file>"], ["-do", "$MGC_HOME/shared/pkgs/daicsim/userware/En_na/do_top_eldo.do"], ["-wdb"]]);
 $$set_sim_value("sim_command","$MGC_AMS_HOME/bin/eldo");
 $$set_sim_value("sim_command_options",[["-i", "<input_file>"], ["-o", "<output_file>"], ["-gwl", "jwdb"], ["-nocou"], ["-wdb_folder"]]);
+$$set_sim_value("sim_dcop_file","$SC_filter/default.group/logic.views/testBuffer/eldonet/testBuffer_eldonet.op1");
 $$set_sim_value("sim_eldo_command","$MGC_AMS_HOME/bin/eldo");
 $$set_sim_value("sim_eldo_command_default","$MGC_AMS_HOME/bin/eldo");
 $$set_sim_value("sim_eldo_command_options",[["-i", "<input_file>"], ["-o", "<output_file>"], ["-gwl", "jwdb"], ["-nocou"], ["-wdb_folder"]]);
@@ -347,7 +348,7 @@ $$set_sim_value("vsim_netlist_run_viewer_flag",0);
 
 // Netlister Options
 $$set_sim_value("sim_eldonet_check",@false);
-$$set_sim_value("sim_eldonet_timestamp",1389284841);
+$$set_sim_value("sim_eldonet_timestamp",1389644312);
 $$set_sim_value("sim_netlist_run_viewer_flag",1);
 $$set_sim_value("sim_netlist_uptodate_check_flag",@yes);
 $$set_sim_value("sim_netlister_additional_globals","");

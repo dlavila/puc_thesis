@@ -1,4 +1,3 @@
-START report: Thu Nov 21 17:39:51 2013 
+START report: Sat Feb  8 16:49:59 2014 
 Warning: (eldo - 406)  In file "/usr/local/mentor/UMC180PDK/models/ELDO/include_all" line 1:
 +   COMMAND .LIB cannot find corner tt in library /usr/local/mentor/UMC180PDK/models/ELDO/018-rf-v2d4-control.eldo
-Warning: (eldo - 109)  NODE "X_SCF_OTA1.VDD": This bulk node is not biased. 

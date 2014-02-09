@@ -1,0 +1,13 @@
+A 5 u mgc_symbol 52d42e77af70.03.7f.00.00.01.00.02.9f 14 2 1 0
+V v 12 1 52d43f244f60.03.7f.00.00.01.00.59.dd
+F f 12 "nand_X4.smbl_12"
+V v 13 1 52d43f2491b2.03.7f.00.00.01.00.59.dd
+F f 13 "nand_X4.smbl_13"
+V v 14 1 52d43f252b1c.03.7f.00.00.01.00.59.dd
+F f 14 "nand_X4.smbl_14"
+O 14
+R csduv 0 "$SC_filter/default.group/logic.views/nand_X4/part" 18 Eddm_part 52d43f252b21.03.7f.00.00.01.00.59.dd 52d42e77af9b.03.7f.00.00.01.00.02.9f
+O 13
+R csduv 0 "$SC_filter/default.group/logic.views/nand_X4/part" 17 Eddm_part 52d43f2491b7.03.7f.00.00.01.00.59.dd 52d42e77af9b.03.7f.00.00.01.00.02.9f
+O 12
+R csduv 0 "$SC_filter/default.group/logic.views/nand_X4/part" 16 Eddm_part 52d43f244f6b.03.7f.00.00.01.00.59.dd 52d42e77af9b.03.7f.00.00.01.00.02.9f

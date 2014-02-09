@@ -21185,3 +21185,4264 @@ Check Schematic Net -------------   0 errors   0 warnings
 Check Schematic Function Blocks -   0 errors   0 warnings
 
  "hbjhb/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+
+Check Schematic  "BUFFER_2/schematic/sheet1"
+Check Sheet "BUFFER_2/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   2 errors   1 warnings
+  Error:  I$520 overlaps I$519
+  Error:  I$521 overlaps I$522
+  Warning:  The following class-instances may overlap with
+            other class or non-class instances:
+            PORT:      I$527
+            other:     I$84
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$209       V$3366
+           N$421       V$18007
+           N$587       V$29759
+           N$718       V$29690
+           N$668       V$27020
+           N$650       V$26111
+           N$695       V$26061
+           N$688       V$25817
+           N$749       V$34577
+           N$752       V$34634
+           N$755       V$34691
+           N$758       V$34748
+           N$761       V$34805
+           N$764       V$34862
+           N$768       V$34921
+           N$771       V$34978
+           N$772       V$35013
+           N$774       V$35036
+           N$778       V$35103
+           N$780       V$35120
+           N$784       V$35258
+           N$786       V$35278
+           N$787       V$35318
+           N$789       V$35338
+           N$790       V$35343
+           N$792       V$35360
+           N$793       V$35364
+           N$795       V$35381
+           N$796       V$35498
+           N$798       V$35518
+           N$799       V$35558
+           N$801       V$35578
+           N$702       V$27197
+           N$674       V$27182
+           N$672       V$27135
+           N$673       V$27124
+           N$811       V$37047
+           N$812       V$37068
+           N$814       V$37105
+           N$816       V$37126
+           N$852       V$29700
+           N$858       V$29695    V$29754
+           N$928       V$29749
+
+Check INIT Properties ---  13 errors   0 warnings
+  Error:  Net N$425 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$772 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$778 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$784 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$787 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$790 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$793 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$796 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$799 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$674 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$673 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$811 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$814 has a forcing INIT property value (0SF) but has no global attached
+
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   9 warnings  (MGC-required)
+  Warning:  Net name "Vb2" connects the following nets:
+             N$146       N$105
+  Warning:  Net name "ND8" connects the following nets:
+             N$103       N$644      N$760      N$813
+  Warning:  Net name "AVdd" connects the following nets:
+             N$113       N$96       N$92       N$106      N$118      N$107
+            N$197       N$198      N$200      N$193      N$208      N$421
+            N$718       N$669      N$651      N$648      N$630      N$750
+            N$751       N$756      N$757      N$762      N$763      N$766
+            N$769       N$940      N$942
+  Warning:  Net name "Vb3" connects the following nets:
+             N$164       N$168
+  Warning:  Net name "ND6" connects the following nets:
+             N$167       N$754      N$767      N$773      N$785      N$791
+            N$797       N$703
+  Warning:  Net name "ND1" connects the following nets:
+             N$90        N$690      N$632      N$748      N$753
+  Warning:  Net name "AGnd" connects the following nets:
+             N$420       N$422      N$424      N$425      N$605      N$772
+            N$778       N$784      N$787      N$790      N$793      N$796
+            N$799       N$674      N$673      N$811      N$814      N$928
+  Warning:  Net name "ND7" connects the following nets:
+             N$587       N$759      N$770      N$779      N$788      N$794
+            N$800       N$675
+  Warning:  Net name "ND9" connects the following nets:
+             N$694       N$765      N$815      N$852
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "BUFFER_2/schematic/sheet1" failed check :  15 Errors, 11 Warnings
+
+Check Schematic Interface -------   7 errors   0 warnings
+  Error:  No interface pin found for external net "Vb2" (N$146) on sheet "sheet1".
+  Error:  No interface pin found for external net "Vb4" (N$98) on sheet "sheet1".
+  Error:  No interface pin found for external net "Vb3" (N$164) on sheet "sheet1".
+  Error:  No interface pin found for external net "Vpcas" (N$202) on sheet "sheet1".
+  Error:  No interface pin found for external net "Vb1" (N$207) on sheet "sheet1".
+  Error:  No interface pin found for external net "Vncas" (N$101) on sheet "sheet1".
+  Error:  No net found for interface pin "Ib".
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "BUFFER_2/schematic/sheet1" failed check :  22 Errors, 11 Warnings
+
+
+Check Schematic  "BUFFER_2/schematic/sheet1"
+Check Sheet "BUFFER_2/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   2 errors   1 warnings
+  Error:  I$519 overlaps I$520
+  Error:  I$521 overlaps I$522
+  Warning:  The following class-instances may overlap with
+            other class or non-class instances:
+            PORT:      I$527
+            other:     I$84
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$209       V$3366
+           N$421       V$18007
+           N$587       V$29759
+           N$718       V$29690
+           N$668       V$27020
+           N$650       V$26111
+           N$695       V$26061
+           N$688       V$25817
+           N$749       V$34577
+           N$752       V$34634
+           N$755       V$34691
+           N$758       V$34748
+           N$761       V$34805
+           N$764       V$34862
+           N$768       V$34921
+           N$771       V$34978
+           N$772       V$35013
+           N$774       V$35036
+           N$778       V$35103
+           N$780       V$35120
+           N$784       V$35258
+           N$786       V$35278
+           N$787       V$35318
+           N$789       V$35338
+           N$790       V$35343
+           N$792       V$35360
+           N$793       V$35364
+           N$795       V$35381
+           N$796       V$35498
+           N$798       V$35518
+           N$799       V$35558
+           N$801       V$35578
+           N$702       V$27197
+           N$674       V$27182
+           N$672       V$27135
+           N$673       V$27124
+           N$811       V$37047
+           N$812       V$37068
+           N$814       V$37105
+           N$816       V$37126
+           N$852       V$29700
+           N$858       V$29695    V$29754
+           N$928       V$29749
+
+Check INIT Properties ---  13 errors   0 warnings
+  Error:  Net N$425 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$772 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$778 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$784 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$787 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$790 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$793 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$796 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$799 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$674 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$673 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$811 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$814 has a forcing INIT property value (0SF) but has no global attached
+
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   9 warnings  (MGC-required)
+  Warning:  Net name "Vb2" connects the following nets:
+             N$146       N$105
+  Warning:  Net name "ND8" connects the following nets:
+             N$103       N$644      N$760      N$813
+  Warning:  Net name "AVdd" connects the following nets:
+             N$113       N$96       N$92       N$106      N$118      N$107
+            N$197       N$198      N$200      N$193      N$208      N$421
+            N$718       N$669      N$651      N$648      N$630      N$750
+            N$751       N$756      N$757      N$762      N$763      N$766
+            N$769       N$940      N$942
+  Warning:  Net name "Vb3" connects the following nets:
+             N$164       N$168
+  Warning:  Net name "ND6" connects the following nets:
+             N$167       N$754      N$767      N$773      N$785      N$791
+            N$797       N$703
+  Warning:  Net name "ND1" connects the following nets:
+             N$90        N$690      N$632      N$748      N$753
+  Warning:  Net name "AGnd" connects the following nets:
+             N$420       N$422      N$424      N$425      N$605      N$772
+            N$778       N$784      N$787      N$790      N$793      N$796
+            N$799       N$674      N$673      N$811      N$814      N$928
+  Warning:  Net name "ND7" connects the following nets:
+             N$587       N$759      N$770      N$779      N$788      N$794
+            N$800       N$675
+  Warning:  Net name "ND9" connects the following nets:
+             N$694       N$765      N$815      N$852
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "BUFFER_2/schematic/sheet1" failed check :  15 Errors, 11 Warnings
+
+Check Schematic Interface -------   7 errors   0 warnings
+  Error:  No interface pin found for external net "Vb2" (N$146) on sheet "sheet1".
+  Error:  No interface pin found for external net "Vb4" (N$98) on sheet "sheet1".
+  Error:  No interface pin found for external net "Vb3" (N$164) on sheet "sheet1".
+  Error:  No interface pin found for external net "Vpcas" (N$202) on sheet "sheet1".
+  Error:  No interface pin found for external net "Vb1" (N$207) on sheet "sheet1".
+  Error:  No interface pin found for external net "Vncas" (N$101) on sheet "sheet1".
+  Error:  No net found for interface pin "Ib".
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "BUFFER_2/schematic/sheet1" failed check :  22 Errors, 11 Warnings
+
+
+Check Symbol "BUFFER_2/BUFFER_2"
+Check Body -------   0 errors   0 warnings  (MGC-required)
+Check Interface --   0 errors   7 warnings
+  Warning:  The following pins on the interface are not on the symbol: Ib
+  Warning:  The following pins on the symbol are not on the interface: Vncas
+  Warning:  The following pins on the symbol are not on the interface: Vpcas
+  Warning:  The following pins on the symbol are not on the interface: Vb4
+  Warning:  The following pins on the symbol are not on the interface: Vb3
+  Warning:  The following pins on the symbol are not on the interface: Vb2
+  Warning:  The following pins on the symbol are not on the interface: Vb1
+
+Check Pin --------   0 errors   0 warnings  (MGC-required)
+Check Special ----   0 errors   0 warnings  (MGC-required)
+
+ "BUFFER_2/BUFFER_2" passed check :  0 Errors, 7 Warnings
+
+
+Check Schematic  "BIAS_BUFFER/schematic/sheet1"
+Check Sheet "BIAS_BUFFER/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   2 warnings
+  Warning:  Unconnected pins on
+           Instance(s) at Pins(s):
+           I$24        P$1267
+           I$25        P$1322
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$66        V$1250
+           N$67        V$1305
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   2 warnings  (MGC-required)
+  Warning:  Net name "AVdd" connects the following nets:
+             N$44        N$66       N$67
+  Warning:  Net name "Vb3" connects the following nets:
+             N$47        N$62       N$64
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "BIAS_BUFFER/schematic/sheet1" passed check :  0 Errors, 4 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "BIAS_BUFFER/schematic/sheet1" passed check :  0 Errors, 4 Warnings
+
+
+Check Schematic  "BUFFER_2/schematic/sheet1"
+Check Sheet "BUFFER_2/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   2 errors   1 warnings
+  Error:  I$520 overlaps I$519
+  Error:  I$521 overlaps I$522
+  Warning:  The following class-instances may overlap with
+            other class or non-class instances:
+            PORT:      I$527
+            other:     I$84
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$209       V$3366
+           N$421       V$18007
+           N$587       V$29759
+           N$718       V$29690
+           N$668       V$27020
+           N$650       V$26111
+           N$695       V$26061
+           N$688       V$25817
+           N$749       V$34577
+           N$752       V$34634
+           N$755       V$34691
+           N$758       V$34748
+           N$761       V$34805
+           N$764       V$34862
+           N$768       V$34921
+           N$771       V$34978
+           N$772       V$35013
+           N$774       V$35036
+           N$778       V$35103
+           N$780       V$35120
+           N$784       V$35258
+           N$786       V$35278
+           N$787       V$35318
+           N$789       V$35338
+           N$790       V$35343
+           N$792       V$35360
+           N$793       V$35364
+           N$795       V$35381
+           N$796       V$35498
+           N$798       V$35518
+           N$799       V$35558
+           N$801       V$35578
+           N$702       V$27197
+           N$674       V$27182
+           N$672       V$27135
+           N$673       V$27124
+           N$811       V$37047
+           N$812       V$37068
+           N$814       V$37105
+           N$816       V$37126
+           N$852       V$29700
+           N$858       V$29695    V$29754
+           N$928       V$29749
+
+Check INIT Properties ---  13 errors   0 warnings
+  Error:  Net N$425 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$772 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$778 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$784 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$787 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$790 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$793 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$796 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$799 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$674 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$673 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$811 has a forcing INIT property value (0SF) but has no global attached
+  Error:  Net N$814 has a forcing INIT property value (0SF) but has no global attached
+
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   9 warnings  (MGC-required)
+  Warning:  Net name "Vb2" connects the following nets:
+             N$146       N$105
+  Warning:  Net name "ND8" connects the following nets:
+             N$103       N$644      N$760      N$813
+  Warning:  Net name "AVdd" connects the following nets:
+             N$113       N$96       N$92       N$106      N$118      N$107
+            N$197       N$198      N$200      N$193      N$208      N$421
+            N$718       N$669      N$651      N$648      N$630      N$750
+            N$751       N$756      N$757      N$762      N$763      N$766
+            N$769       N$940      N$942
+  Warning:  Net name "Vb3" connects the following nets:
+             N$164       N$168
+  Warning:  Net name "ND6" connects the following nets:
+             N$167       N$754      N$767      N$773      N$785      N$791
+            N$797       N$703
+  Warning:  Net name "ND1" connects the following nets:
+             N$90        N$690      N$632      N$748      N$753
+  Warning:  Net name "AGnd" connects the following nets:
+             N$420       N$422      N$424      N$425      N$605      N$772
+            N$778       N$784      N$787      N$790      N$793      N$796
+            N$799       N$674      N$673      N$811      N$814      N$928
+  Warning:  Net name "ND7" connects the following nets:
+             N$587       N$759      N$770      N$779      N$788      N$794
+            N$800       N$675
+  Warning:  Net name "ND9" connects the following nets:
+             N$694       N$765      N$815      N$852
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "BUFFER_2/schematic/sheet1" failed check :  15 Errors, 11 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "BUFFER_2/schematic/sheet1" failed check :  15 Errors, 11 Warnings
+
+
+Check Schematic  "testBuffer/schematic/sheet1"
+Check Sheet "testBuffer/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   1 errors   0 warnings
+  Error:  I$8 overlaps I$26
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   2 warnings
+  Warning:  Unconnected pins on
+           Instance(s) at Pins(s):
+           I$4         P$84
+           I$19        P$590
+           I$24        P$918
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$60        V$1386
+           N$61        V$1381
+           N$62        V$1376
+           N$63        V$1371
+           N$64        V$1366
+           N$65        V$1361
+           N$66        V$1351
+           N$67        V$1346
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "testBuffer/schematic/sheet1" failed check :  1 Errors, 2 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "testBuffer" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "testBuffer/schematic/sheet1" failed check :  1 Errors, 3 Warnings
+
+
+Check Schematic  "testBufferPLS/schematic/sheet1"
+Check Sheet "testBufferPLS/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   1 errors   1 warnings
+  Error:  I$1 overlaps I$6
+  Warning:  The following class-instances may overlap with
+            other class or non-class instances:
+            GLOBAL:    I$10       I$12
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$4         V$149
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "testBufferPLS/schematic/sheet1" failed check :  1 Errors, 2 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "testBufferPLS" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "testBufferPLS/schematic/sheet1" failed check :  1 Errors, 3 Warnings
+
+
+Check Symbol "BUFFER_2_PLS/BUFFER_2_PLS"
+Check Body -------   0 errors   0 warnings  (MGC-required)
+Check Interface --   0 errors   1 warnings
+  Warning:  Property <asim_model,String: BUFFER_2> on the interface has changed to <String: BUFFER_1> on the symbol
+
+Check Pin --------   0 errors   0 warnings  (MGC-required)
+Check Special ----   0 errors   0 warnings  (MGC-required)
+
+ "BUFFER_2_PLS/BUFFER_2_PLS" passed check :  0 Errors, 1 Warnings
+
+
+Check Schematic  "testBufferPLS/schematic/sheet1"
+Check Sheet "testBufferPLS/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   1 errors   1 warnings
+  Error:  I$6 overlaps I$18
+  Warning:  The following class-instances may overlap with
+            other class or non-class instances:
+            GLOBAL:    I$10       I$12
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$4         V$149
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "testBufferPLS/schematic/sheet1" failed check :  1 Errors, 2 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "testBufferPLS" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "testBufferPLS/schematic/sheet1" failed check :  1 Errors, 3 Warnings
+
+
+Check Schematic  "hbjhb/schematic/sheet1"
+Check Sheet "hbjhb/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Unconnected pins on
+           Instance(s) at Pins(s):
+           I$1         P$65
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "hbjhb/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "hbjhb" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "hbjhb/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+
+Check Symbol "BUFFER_PLS/BUFFER_PLS"
+Check Body -------   0 errors   0 warnings  (MGC-required)
+Check Interface --   0 errors   1 warnings
+  Warning:  Property <asim_model,String: BUFFER_1> on the interface has changed to <String: BUFFER> on the symbol
+
+Check Pin --------   0 errors   0 warnings  (MGC-required)
+Check Special ----   0 errors   0 warnings  (MGC-required)
+
+ "BUFFER_PLS/BUFFER_PLS" passed check :  0 Errors, 1 Warnings
+
+
+Check Schematic  "testOTA/schematic/sheet1"
+Check Sheet "testOTA/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   1 warnings
+  Warning:  The following class-instances may overlap with
+            other class or non-class instances:
+            GLOBAL:    I$39
+            other:     I$38
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   5 errors   0 warnings  (MGC-required)
+  Error:  Out of date reference;  Version 23 of symbol "SCF_ota"
+         is not the most current (33) for instance:  I$53
+  Error:  Could not determine current version of CLK_gen/part for instance I$54
+  Error:  Could not determine current version of s2d/part for instance I$3
+  Error:  Could not determine current version of CLK_gen/part for instance I$54
+  Error:  Could not determine current version of s2d/part for instance I$3
+
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   2 warnings  (MGC-required)
+  Warning:  Net name "phi2" connects the following nets:
+             N$99        N$97
+  Warning:  Net name "phi1" connects the following nets:
+             N$101       N$98
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "testOTA/schematic/sheet1" failed check :  5 Errors, 3 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "testOTA" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "testOTA/schematic/sheet1" failed check :  5 Errors, 4 Warnings
+
+
+Check Schematic  "inv_X1/schematic/sheet1"
+Check Sheet "inv_X1/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$38        V$558
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "inv_X1/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "inv_X1/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+
+Check Symbol "inv_X1/inv_X1"
+Check Body -------   0 errors   0 warnings  (MGC-required)
+Check Interface --   0 errors   2 warnings
+  Warning:  The following pins on the symbol are not on the interface: Vss
+  Warning:  The following pins on the symbol are not on the interface: Vdd
+
+Check Pin --------   0 errors   0 warnings  (MGC-required)
+Check Special ----   0 errors   0 warnings  (MGC-required)
+
+ "inv_X1/inv_X1" passed check :  0 Errors, 2 Warnings
+
+
+Check Symbol "inv_X2/inv_X2"
+Check Body -------   0 errors   0 warnings  (MGC-required)
+Check Interface --   0 errors   2 warnings
+  Warning:  The following pins on the symbol are not on the interface: Vss
+  Warning:  The following pins on the symbol are not on the interface: Vd
+
+Check Pin --------   0 errors   0 warnings  (MGC-required)
+Check Special ----   0 errors   0 warnings  (MGC-required)
+
+ "inv_X2/inv_X2" passed check :  0 Errors, 2 Warnings
+
+
+Check Schematic  "inv_X2/schematic/sheet1"
+Check Sheet "inv_X2/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "inv_X2/schematic/sheet1" passed check :  0 Errors, 0 Warnings
+
+Check Schematic Interface -------   2 errors   0 warnings
+  Error:  No interface pin found for external net "Vdd" (N$40) on sheet "sheet1".
+  Error:  No net found for interface pin "Vd".
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "inv_X2/schematic/sheet1" failed check :  2 Errors, 0 Warnings
+
+
+Check Symbol "inv_X2/inv_X2"
+Check Body -------   0 errors   0 warnings  (MGC-required)
+Check Interface --   0 errors   2 warnings
+  Warning:  The following pins on the interface are not on the symbol: Vd
+  Warning:  The following pins on the symbol are not on the interface: Vdd
+
+Check Pin --------   0 errors   0 warnings  (MGC-required)
+Check Special ----   0 errors   0 warnings  (MGC-required)
+
+ "inv_X2/inv_X2" passed check :  0 Errors, 2 Warnings
+
+
+Check Schematic  "inv_X16/schematic/sheet1"
+Check Sheet "inv_X16/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "inv_X16/schematic/sheet1" passed check :  0 Errors, 0 Warnings
+
+Check Schematic Interface -------   2 errors   0 warnings
+  Error:  No interface pin found for external net "Vss" (N$38) on sheet "sheet1".
+  Error:  No interface pin found for external net "Vdd" (N$40) on sheet "sheet1".
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "inv_X16/schematic/sheet1" failed check :  2 Errors, 0 Warnings
+
+
+Check Schematic  "inv_X16/schematic/sheet1"
+Check Sheet "inv_X16/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "inv_X16/schematic/sheet1" passed check :  0 Errors, 0 Warnings
+
+Check Schematic Interface -------   2 errors   0 warnings
+  Error:  No interface pin found for external net "Vss" (N$38) on sheet "sheet1".
+  Error:  No interface pin found for external net "Vdd" (N$40) on sheet "sheet1".
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "inv_X16/schematic/sheet1" failed check :  2 Errors, 0 Warnings
+
+
+Check Symbol "inv_X16/inv_X16"
+Check Body -------   0 errors   0 warnings  (MGC-required)
+Check Interface --   0 errors   2 warnings
+  Warning:  The following pins on the symbol are not on the interface: Vss
+  Warning:  The following pins on the symbol are not on the interface: Vdd
+
+Check Pin --------   0 errors   0 warnings  (MGC-required)
+Check Special ----   0 errors   0 warnings  (MGC-required)
+
+ "inv_X16/inv_X16" passed check :  0 Errors, 2 Warnings
+
+
+Check Schematic  "inv_X32/schematic/sheet1"
+Check Sheet "inv_X32/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "inv_X32/schematic/sheet1" passed check :  0 Errors, 0 Warnings
+
+Check Schematic Interface -------   2 errors   0 warnings
+  Error:  No interface pin found for external net "Vss" (N$38) on sheet "sheet1".
+  Error:  No interface pin found for external net "Vdd" (N$40) on sheet "sheet1".
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "inv_X32/schematic/sheet1" failed check :  2 Errors, 0 Warnings
+
+
+Check Symbol "inv_X32/inv_X32"
+Check Body -------   0 errors   0 warnings  (MGC-required)
+Check Interface --   0 errors   2 warnings
+  Warning:  The following pins on the symbol are not on the interface: Vss
+  Warning:  The following pins on the symbol are not on the interface: Vdd
+
+Check Pin --------   0 errors   0 warnings  (MGC-required)
+Check Special ----   0 errors   0 warnings  (MGC-required)
+
+ "inv_X32/inv_X32" passed check :  0 Errors, 2 Warnings
+
+
+Check Schematic  "inv_X4/schematic/sheet1"
+Check Sheet "inv_X4/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "inv_X4/schematic/sheet1" passed check :  0 Errors, 0 Warnings
+
+Check Schematic Interface -------   2 errors   0 warnings
+  Error:  No interface pin found for external net "Vss" (N$38) on sheet "sheet1".
+  Error:  No interface pin found for external net "Vdd" (N$40) on sheet "sheet1".
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "inv_X4/schematic/sheet1" failed check :  2 Errors, 0 Warnings
+
+
+Check Symbol "inv_X4/inv_X4"
+Check Body -------   0 errors   0 warnings  (MGC-required)
+Check Interface --   0 errors   2 warnings
+  Warning:  The following pins on the symbol are not on the interface: Vss
+  Warning:  The following pins on the symbol are not on the interface: Vdd
+
+Check Pin --------   0 errors   0 warnings  (MGC-required)
+Check Special ----   0 errors   0 warnings  (MGC-required)
+
+ "inv_X4/inv_X4" passed check :  0 Errors, 2 Warnings
+
+
+Check Schematic  "inv_X64/schematic/sheet1"
+Check Sheet "inv_X64/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "inv_X64/schematic/sheet1" passed check :  0 Errors, 0 Warnings
+
+Check Schematic Interface -------   2 errors   0 warnings
+  Error:  No interface pin found for external net "Vss" (N$38) on sheet "sheet1".
+  Error:  No interface pin found for external net "Vdd" (N$40) on sheet "sheet1".
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "inv_X64/schematic/sheet1" failed check :  2 Errors, 0 Warnings
+
+
+Check Symbol "inv_X64/inv_X64"
+Check Body -------   0 errors   0 warnings  (MGC-required)
+Check Interface --   0 errors   2 warnings
+  Warning:  The following pins on the symbol are not on the interface: Vss
+  Warning:  The following pins on the symbol are not on the interface: Vdd
+
+Check Pin --------   0 errors   0 warnings  (MGC-required)
+Check Special ----   0 errors   0 warnings  (MGC-required)
+
+ "inv_X64/inv_X64" passed check :  0 Errors, 2 Warnings
+
+
+Check Schematic  "inv_X8/schematic/sheet1"
+Check Sheet "inv_X8/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "inv_X8/schematic/sheet1" passed check :  0 Errors, 0 Warnings
+
+Check Schematic Interface -------   2 errors   0 warnings
+  Error:  No interface pin found for external net "Vss" (N$38) on sheet "sheet1".
+  Error:  No interface pin found for external net "Vdd" (N$40) on sheet "sheet1".
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "inv_X8/schematic/sheet1" failed check :  2 Errors, 0 Warnings
+
+
+Check Symbol "inv_X8/inv_X8"
+Check Body -------   0 errors   0 warnings  (MGC-required)
+Check Interface --   0 errors   2 warnings
+  Warning:  The following pins on the symbol are not on the interface: Vss
+  Warning:  The following pins on the symbol are not on the interface: Vdd
+
+Check Pin --------   0 errors   0 warnings  (MGC-required)
+Check Special ----   0 errors   0 warnings  (MGC-required)
+
+ "inv_X8/inv_X8" passed check :  0 Errors, 2 Warnings
+
+
+Check Symbol "mux_X16/mux_X16"
+Check Body -------   0 errors   0 warnings  (MGC-required)
+Check Interface --   0 errors   2 warnings
+  Warning:  The following pins on the symbol are not on the interface: Vss
+  Warning:  The following pins on the symbol are not on the interface: Vdd
+
+Check Pin --------   0 errors   0 warnings  (MGC-required)
+Check Special ----   0 errors   0 warnings  (MGC-required)
+
+ "mux_X16/mux_X16" passed check :  0 Errors, 2 Warnings
+
+
+Check Schematic  "mux_X16/schematic/sheet1"
+Check Sheet "mux_X16/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$281       V$5027
+           N$283       V$5022
+           N$290       V$5041
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   2 warnings  (MGC-required)
+  Warning:  Net name "Vdd" connects the following nets:
+             N$278       N$279      N$289      N$297
+  Warning:  Net name "Vss" connects the following nets:
+             N$281       N$283
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "mux_X16/schematic/sheet1" passed check :  0 Errors, 3 Warnings
+
+Check Schematic Interface -------   0 errors   2 warnings
+  Warning:  Net N$281 named "Vss" on sheet "sheet1" maps to an interface pin
+            but is not connected to a port.
+  Warning:  Net N$278 named "Vdd" on sheet "sheet1" maps to an interface pin
+            but is not connected to a port.
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "mux_X16/schematic/sheet1" passed check :  0 Errors, 5 Warnings
+
+
+Check Schematic  "mux_X16/schematic/sheet1"
+Check Sheet "mux_X16/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$281       V$5027
+           N$283       V$5022
+           N$290       V$5041
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   2 warnings  (MGC-required)
+  Warning:  Net name "Vdd" connects the following nets:
+             N$278       N$279      N$289      N$297
+  Warning:  Net name "Vss" connects the following nets:
+             N$281       N$283
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "mux_X16/schematic/sheet1" passed check :  0 Errors, 3 Warnings
+
+Check Schematic Interface -------   0 errors   2 warnings
+  Warning:  Net N$281 named "Vss" on sheet "sheet1" maps to an interface pin
+            but is not connected to a port.
+  Warning:  Net N$278 named "Vdd" on sheet "sheet1" maps to an interface pin
+            but is not connected to a port.
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "mux_X16/schematic/sheet1" passed check :  0 Errors, 5 Warnings
+
+
+Check Schematic  "mux_X16/schematic/sheet1"
+Check Sheet "mux_X16/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$281       V$5027
+           N$283       V$5022
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   2 warnings  (MGC-required)
+  Warning:  Net name "Vdd" connects the following nets:
+             N$278       N$279      N$289      N$297
+  Warning:  Net name "Vss" connects the following nets:
+             N$281       N$283      N$290      N$294
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "mux_X16/schematic/sheet1" passed check :  0 Errors, 3 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "mux_X16/schematic/sheet1" passed check :  0 Errors, 3 Warnings
+
+
+Check Schematic  "mux_X16/schematic/sheet1"
+Check Sheet "mux_X16/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$281       V$5027
+           N$283       V$5022
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   2 warnings  (MGC-required)
+  Warning:  Net name "Vdd" connects the following nets:
+             N$278       N$279      N$289      N$297
+  Warning:  Net name "Vss" connects the following nets:
+             N$281       N$283      N$290      N$294
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "mux_X16/schematic/sheet1" passed check :  0 Errors, 3 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "mux_X16/schematic/sheet1" passed check :  0 Errors, 3 Warnings
+
+
+Check Schematic  "mux_X16/schematic/sheet1"
+Check Sheet "mux_X16/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$281       V$5027
+           N$283       V$5022
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   2 warnings  (MGC-required)
+  Warning:  Net name "Vdd" connects the following nets:
+             N$278       N$279      N$289      N$297
+  Warning:  Net name "Vss" connects the following nets:
+             N$281       N$283      N$290      N$294
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "mux_X16/schematic/sheet1" passed check :  0 Errors, 3 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "mux_X16/schematic/sheet1" passed check :  0 Errors, 3 Warnings
+
+
+Check Symbol "mux_X4/mux_X4"
+Check Body -------   0 errors   0 warnings  (MGC-required)
+Check Interface --   0 errors   2 warnings
+  Warning:  The following pins on the symbol are not on the interface: Vss
+  Warning:  The following pins on the symbol are not on the interface: Vdd
+
+Check Pin --------   0 errors   0 warnings  (MGC-required)
+Check Special ----   0 errors   0 warnings  (MGC-required)
+
+ "mux_X4/mux_X4" passed check :  0 Errors, 2 Warnings
+
+
+Check Schematic  "mux_X4/schematic/sheet1"
+Check Sheet "mux_X4/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$305       V$5229
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   2 warnings  (MGC-required)
+  Warning:  Net name "Vdd" connects the following nets:
+             N$289       N$297      N$307      N$313
+  Warning:  Net name "Vss" connects the following nets:
+             N$290       N$294      N$305      N$309
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "mux_X4/schematic/sheet1" passed check :  0 Errors, 3 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "mux_X4/schematic/sheet1" passed check :  0 Errors, 3 Warnings
+
+
+Check Symbol "nand_X1/nand_X1"
+Check Body -------   0 errors   0 warnings  (MGC-required)
+Check Interface --   0 errors   2 warnings
+  Warning:  The following pins on the symbol are not on the interface: Vss
+  Warning:  The following pins on the symbol are not on the interface: Vdd
+
+Check Pin --------   0 errors   0 warnings  (MGC-required)
+Check Special ----   0 errors   0 warnings  (MGC-required)
+
+ "nand_X1/nand_X1" passed check :  0 Errors, 2 Warnings
+
+
+Check Schematic  "nand_X1/schematic/sheet1"
+Check Sheet "nand_X1/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   1 errors   0 warnings
+  Error:  Net N$65 has a forcing INIT property value (0SF) but has no global attached
+
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "nand_X1/schematic/sheet1" failed check :  1 Errors, 0 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "nand_X1/schematic/sheet1" failed check :  1 Errors, 0 Warnings
+
+
+Check Schematic  "nand_X1/schematic/sheet1"
+Check Sheet "nand_X1/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   1 errors   0 warnings
+  Error:  Net N$65 has a forcing INIT property value (0SF) but has no global attached
+
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "nand_X1/schematic/sheet1" failed check :  1 Errors, 0 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "nand_X1/schematic/sheet1" failed check :  1 Errors, 0 Warnings
+
+
+Check Schematic  "nand_X1/schematic/sheet1"
+Check Sheet "nand_X1/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   1 errors   0 warnings
+  Error:  Net N$65 has a forcing INIT property value (0SF) but has no global attached
+
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "nand_X1/schematic/sheet1" failed check :  1 Errors, 0 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "nand_X1/schematic/sheet1" failed check :  1 Errors, 0 Warnings
+
+
+Check Schematic  "nand_X1/schematic/sheet1"
+Check Sheet "nand_X1/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   1 errors   0 warnings
+  Error:  Net N$65 has a forcing INIT property value (0SF) but has no global attached
+
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "nand_X1/schematic/sheet1" failed check :  1 Errors, 0 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "nand_X1/schematic/sheet1" failed check :  1 Errors, 0 Warnings
+
+
+Check Schematic  "nand_X1/schematic/sheet1"
+Check Sheet "nand_X1/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   1 errors   0 warnings
+  Error:  Net N$65 has a forcing INIT property value (0SF) but has no global attached
+
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "nand_X1/schematic/sheet1" failed check :  1 Errors, 0 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "nand_X1/schematic/sheet1" failed check :  1 Errors, 0 Warnings
+
+
+Check Schematic  "nand_X1/schematic/sheet1"
+Check Sheet "nand_X1/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   1 errors   0 warnings
+  Error:  Net N$65 has a forcing INIT property value (0SF) but has no global attached
+
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "nand_X1/schematic/sheet1" failed check :  1 Errors, 0 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "nand_X1/schematic/sheet1" failed check :  1 Errors, 0 Warnings
+
+
+Check Schematic  "nand_X1/schematic/sheet1"
+Check Sheet "nand_X1/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   1 errors   0 warnings
+  Error:  Net N$65 has a forcing INIT property value (0SF) but has no global attached
+
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "nand_X1/schematic/sheet1" failed check :  1 Errors, 0 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "nand_X1/schematic/sheet1" failed check :  1 Errors, 0 Warnings
+
+
+Check Schematic  "nand_X1/schematic/sheet1"
+Check Sheet "nand_X1/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   1 errors   0 warnings
+  Error:  Net N$65 has a forcing INIT property value (0SF) but has no global attached
+
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "nand_X1/schematic/sheet1" failed check :  1 Errors, 0 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "nand_X1/schematic/sheet1" failed check :  1 Errors, 0 Warnings
+
+
+Check Schematic  "nand_X1/schematic/sheet1"
+Check Sheet "nand_X1/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$64        V$137
+
+Check INIT Properties ---   1 errors   0 warnings
+  Error:  Net N$65 has a forcing INIT property value (0SF) but has no global attached
+
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "nand_X1/schematic/sheet1" failed check :  1 Errors, 1 Warnings
+
+Check Schematic Interface -------   2 errors   0 warnings
+  Error:  No net found for interface pin "Vss".
+  Error:  No net found for interface pin "Vss".
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "nand_X1/schematic/sheet1" failed check :  3 Errors, 1 Warnings
+
+
+Check Schematic  "nand_X1/schematic/sheet1"
+Check Sheet "nand_X1/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   1 errors   0 warnings
+  Error:  Net N$65 has a forcing INIT property value (0SF) but has no global attached
+
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "nand_X1/schematic/sheet1" failed check :  1 Errors, 0 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "nand_X1/schematic/sheet1" failed check :  1 Errors, 0 Warnings
+
+
+Check Schematic  "nand_X1/schematic/sheet1"
+Check Sheet "nand_X1/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   1 errors   0 warnings
+  Error:  Net N$65 has a forcing INIT property value (0SF) but has no global attached
+
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "nand_X1/schematic/sheet1" failed check :  1 Errors, 0 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "nand_X1/schematic/sheet1" failed check :  1 Errors, 0 Warnings
+
+
+Check Schematic  "nand_X1/schematic/sheet1"
+Check Sheet "nand_X1/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   1 errors   0 warnings
+  Error:  Net N$65 has a forcing INIT property value (0SF) but has no global attached
+
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "nand_X1/schematic/sheet1" failed check :  1 Errors, 0 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "nand_X1/schematic/sheet1" failed check :  1 Errors, 0 Warnings
+
+
+Check Schematic  "nand_X1/schematic/sheet1"
+Check Sheet "nand_X1/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   1 errors   0 warnings
+  Error:  Net N$65 has a forcing INIT property value (0SF) but has no global attached
+
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "nand_X1/schematic/sheet1" failed check :  1 Errors, 0 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "nand_X1/schematic/sheet1" failed check :  1 Errors, 0 Warnings
+
+
+Check Schematic  "nand_X1/schematic/sheet1"
+Check Sheet "nand_X1/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   1 errors   0 warnings
+  Error:  Net N$65 has a forcing INIT property value (0SF) but has no global attached
+
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "nand_X1/schematic/sheet1" failed check :  1 Errors, 0 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "nand_X1/schematic/sheet1" failed check :  1 Errors, 0 Warnings
+
+
+Check Symbol "nand_X4/nand_X4"
+Check Body -------   0 errors   0 warnings  (MGC-required)
+Check Interface --   0 errors   2 warnings
+  Warning:  The following pins on the symbol are not on the interface: Vss
+  Warning:  The following pins on the symbol are not on the interface: Vdd
+
+Check Pin --------   0 errors   0 warnings  (MGC-required)
+Check Special ----   0 errors   0 warnings  (MGC-required)
+
+ "nand_X4/nand_X4" passed check :  0 Errors, 2 Warnings
+
+
+Check Schematic  "nand_X4/schematic/sheet1"
+Check Sheet "nand_X4/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   1 errors   0 warnings
+  Error:  Net N$75 has a forcing INIT property value (0SF) but has no global attached
+
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "nand_X4/schematic/sheet1" failed check :  1 Errors, 0 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "nand_X4/schematic/sheet1" failed check :  1 Errors, 0 Warnings
+
+
+Check Symbol "switch_X1/switch_X1"
+Check Body -------   0 errors   0 warnings  (MGC-required)
+Check Interface --   0 errors   2 warnings
+  Warning:  The following pins on the symbol are not on the interface: Vss
+  Warning:  The following pins on the symbol are not on the interface: Vdd
+
+Check Pin --------   0 errors   0 warnings  (MGC-required)
+Check Special ----   0 errors   0 warnings  (MGC-required)
+
+ "switch_X1/switch_X1" passed check :  0 Errors, 2 Warnings
+
+
+Check Schematic  "switch_X1/schematic/sheet1"
+Check Sheet "switch_X1/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   2 warnings  (MGC-required)
+  Warning:  Net name "Vdd" connects the following nets:
+             N$23        N$21
+  Warning:  Net name "Vss" connects the following nets:
+             N$24        N$20
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "switch_X1/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "switch_X1/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+
+Check Symbol "switch_X16/switch_X16"
+Check Body -------   0 errors   0 warnings  (MGC-required)
+Check Interface --   0 errors   2 warnings
+  Warning:  The following pins on the symbol are not on the interface: Vss
+  Warning:  The following pins on the symbol are not on the interface: Vdd
+
+Check Pin --------   0 errors   0 warnings  (MGC-required)
+Check Special ----   0 errors   0 warnings  (MGC-required)
+
+ "switch_X16/switch_X16" passed check :  0 Errors, 2 Warnings
+
+
+Check Schematic  "switch_X16/schematic/sheet1"
+Check Sheet "switch_X16/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   1 errors   0 warnings
+  Error:  Net N$45 has a forcing INIT property value (0SF) but has no global attached
+
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   2 warnings  (MGC-required)
+  Warning:  Net name "Vdd" connects the following nets:
+             N$50        N$21
+  Warning:  Net name "Vss" connects the following nets:
+             N$45        N$20
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "switch_X16/schematic/sheet1" failed check :  1 Errors, 2 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "switch_X16/schematic/sheet1" failed check :  1 Errors, 2 Warnings
+
+
+Check Symbol "switch_X4/switch_X4"
+Check Body -------   0 errors   0 warnings  (MGC-required)
+Check Interface --   0 errors   2 warnings
+  Warning:  The following pins on the symbol are not on the interface: Vss
+  Warning:  The following pins on the symbol are not on the interface: Vdd
+
+Check Pin --------   0 errors   0 warnings  (MGC-required)
+Check Special ----   0 errors   0 warnings  (MGC-required)
+
+ "switch_X4/switch_X4" passed check :  0 Errors, 2 Warnings
+
+
+Check Schematic  "switch_X4/schematic/sheet1"
+Check Sheet "switch_X4/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   2 warnings  (MGC-required)
+  Warning:  Net name "Vss" connects the following nets:
+             N$20        N$39
+  Warning:  Net name "Vdd" connects the following nets:
+             N$21        N$42
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "switch_X4/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "switch_X4/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+
+Check Symbol "PHASE_GEN/PHASE_GEN"
+Check Body -------   0 errors   0 warnings  (MGC-required)
+Check Interface --   0 errors   2 warnings
+  Warning:  The following pins on the symbol are not on the interface: Vss
+  Warning:  The following pins on the symbol are not on the interface: Vdd
+
+Check Pin --------   0 errors   0 warnings  (MGC-required)
+Check Special ----   0 errors   0 warnings  (MGC-required)
+
+ "PHASE_GEN/PHASE_GEN" passed check :  0 Errors, 2 Warnings
+
+
+Check Schematic  "PHASE_GEN/schematic/sheet1"
+Check Sheet "PHASE_GEN/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$250       V$2601
+           N$279       V$2672
+           N$281       V$2680
+           N$283       V$2682
+           N$285       V$2690
+           N$291       V$2702
+           N$293       V$2710
+           N$295       V$2712
+           N$305       V$2740
+           N$307       V$2742
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   2 warnings  (MGC-required)
+  Warning:  Net name "Vss" connects the following nets:
+             N$272       N$193      N$273      N$275      N$277      N$279
+            N$281       N$283      N$285      N$287      N$289      N$291
+            N$293       N$295      N$297      N$299      N$301      N$303
+            N$305       N$307
+  Warning:  Net name "Vdd" connects the following nets:
+             N$229       N$230      N$232      N$234      N$236      N$240
+            N$242       N$244      N$246      N$248      N$250      N$252
+            N$254       N$256      N$258      N$260      N$262      N$264
+            N$266       N$268      N$270
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "PHASE_GEN/schematic/sheet1" passed check :  0 Errors, 3 Warnings
+
+Check Schematic Interface -------   0 errors   2 warnings
+  Warning:  Net N$272 named "Vss" on sheet "sheet1" maps to an interface pin
+            but is not connected to a port.
+  Warning:  Net N$229 named "Vdd" on sheet "sheet1" maps to an interface pin
+            but is not connected to a port.
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "PHASE_GEN/schematic/sheet1" passed check :  0 Errors, 5 Warnings
+
+
+Check Schematic  "PHASE_GEN/schematic/sheet1"
+Check Sheet "PHASE_GEN/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$250       V$2601
+           N$279       V$2672
+           N$281       V$2680
+           N$283       V$2682
+           N$285       V$2690
+           N$291       V$2702
+           N$293       V$2710
+           N$295       V$2712
+           N$305       V$2740
+           N$307       V$2742
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   2 warnings  (MGC-required)
+  Warning:  Net name "Vss" connects the following nets:
+             N$272       N$193      N$273      N$275      N$277      N$279
+            N$281       N$283      N$285      N$287      N$289      N$291
+            N$293       N$295      N$297      N$299      N$301      N$303
+            N$305       N$307
+  Warning:  Net name "Vdd" connects the following nets:
+             N$229       N$230      N$232      N$234      N$236      N$240
+            N$242       N$244      N$246      N$248      N$250      N$252
+            N$254       N$256      N$258      N$260      N$262      N$264
+            N$266       N$268      N$270
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "PHASE_GEN/schematic/sheet1" passed check :  0 Errors, 3 Warnings
+
+Check Schematic Interface -------   0 errors   2 warnings
+  Warning:  Net N$272 named "Vss" on sheet "sheet1" maps to an interface pin
+            but is not connected to a port.
+  Warning:  Net N$229 named "Vdd" on sheet "sheet1" maps to an interface pin
+            but is not connected to a port.
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "PHASE_GEN/schematic/sheet1" passed check :  0 Errors, 5 Warnings
+
+
+Check Schematic  "PHASE_GEN/schematic/sheet1"
+Check Sheet "PHASE_GEN/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$250       V$2601
+           N$279       V$2672
+           N$281       V$2680
+           N$283       V$2682
+           N$285       V$2690
+           N$291       V$2702
+           N$293       V$2710
+           N$295       V$2712
+           N$305       V$2740
+           N$307       V$2742
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   2 warnings  (MGC-required)
+  Warning:  Net name "Vss" connects the following nets:
+             N$272       N$193      N$273      N$275      N$277      N$279
+            N$281       N$283      N$285      N$287      N$289      N$291
+            N$293       N$295      N$297      N$299      N$301      N$303
+            N$305       N$307
+  Warning:  Net name "Vdd" connects the following nets:
+             N$229       N$230      N$232      N$234      N$236      N$240
+            N$242       N$244      N$246      N$248      N$250      N$252
+            N$254       N$256      N$258      N$260      N$262      N$264
+            N$266       N$268      N$270
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "PHASE_GEN/schematic/sheet1" passed check :  0 Errors, 3 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "PHASE_GEN/schematic/sheet1" passed check :  0 Errors, 3 Warnings
+
+
+Check Schematic  "PHASE_GEN/schematic/sheet1"
+Check Sheet "PHASE_GEN/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$250       V$2601
+           N$279       V$2672
+           N$281       V$2680
+           N$283       V$2682
+           N$285       V$2690
+           N$291       V$2702
+           N$293       V$2710
+           N$295       V$2712
+           N$305       V$2740
+           N$307       V$2742
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   2 warnings  (MGC-required)
+  Warning:  Net name "Vss" connects the following nets:
+             N$272       N$193      N$273      N$275      N$277      N$279
+            N$281       N$283      N$285      N$287      N$289      N$291
+            N$293       N$295      N$297      N$299      N$301      N$303
+            N$305       N$307
+  Warning:  Net name "Vdd" connects the following nets:
+             N$229       N$230      N$232      N$234      N$236      N$240
+            N$242       N$244      N$246      N$248      N$250      N$252
+            N$254       N$256      N$258      N$260      N$262      N$264
+            N$266       N$268      N$270
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "PHASE_GEN/schematic/sheet1" passed check :  0 Errors, 3 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "PHASE_GEN/schematic/sheet1" passed check :  0 Errors, 3 Warnings
+
+
+Check Schematic  "FILTER/schematic/sheet1"
+Check Sheet "FILTER/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   2 warnings
+  Warning:  Unconnected pins on
+           Instance(s) at Pins(s):
+           I$238       P$43495    P$43500
+           I$239       P$43536    P$43541
+           I$236       P$43439    P$43444
+           I$233       P$43352    P$43357
+           I$228       P$43205    P$43210
+           I$229       P$43242    P$43247
+           I$243       P$43622    P$43627
+           I$224       P$43080
+           I$232       P$43311    P$43316
+           I$231       P$43284    P$43289
+           I$230       P$43257    P$43262
+           I$237       P$43466    P$43471
+           I$244       P$43649    P$43654
+           I$235       P$43411    P$43416
+           I$226       P$43128    P$43133
+           I$227       P$43177    P$43182
+           I$241       P$43587    P$43592
+           I$240       P$43558    P$43563
+           I$225       P$43105    P$43110
+           I$234       P$43390    P$43395
+           I$242       P$43609    P$43614
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$540       V$36776
+           N$542       V$36784
+           N$543       V$36788
+           N$544       V$36792
+           N$541       V$36780
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   2 errors   0 warnings  (MGC-required)
+  Error:  Could not determine current version of PHASE_GEN_nand_X4/part for instance I$172
+  Error:  Could not determine current version of PHASE_GEN_nand_X4/part for instance I$172
+
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   8 warnings  (MGC-required)
+  Warning:  Net name "phi1e" connects the following nets:
+             N$469       N$678
+  Warning:  Net name "phi1" connects the following nets:
+             N$212       N$478
+  Warning:  Net name "phi2" connects the following nets:
+             N$338       N$485
+  Warning:  Net name "hold_b" connects the following nets:
+             N$486       N$615      N$708
+  Warning:  Net name "rst_b" connects the following nets:
+             N$611       N$627
+  Warning:  Net name "rst" connects the following nets:
+             N$529       N$707      N$717      N$720
+  Warning:  Net name "phi2_hold" connects the following nets:
+             N$669       N$687
+  Warning:  Net name "rst_f" connects the following nets:
+             N$691       N$694      N$712
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "FILTER/schematic/sheet1" failed check :  2 Errors, 10 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "FILTER/schematic/sheet1" failed check :  2 Errors, 10 Warnings
+
+
+Check Schematic  "nand_X4/schematic/sheet1"
+Check Sheet "nand_X4/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   1 errors   0 warnings
+  Error:  Net N$75 has a forcing INIT property value (0SF) but has no global attached
+
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "nand_X4/schematic/sheet1" failed check :  1 Errors, 0 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "nand_X4/schematic/sheet1" failed check :  1 Errors, 0 Warnings
+
+
+Check Schematic  "PHASE_GEN/schematic/sheet1"
+Check Sheet "PHASE_GEN/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$250       V$2601
+           N$279       V$2672
+           N$281       V$2680
+           N$283       V$2682
+           N$285       V$2690
+           N$291       V$2702
+           N$293       V$2710
+           N$295       V$2712
+           N$305       V$2740
+           N$307       V$2742
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   4 errors   0 warnings  (MGC-required)
+  Error:  Out of date reference;  Version 11 of symbol "nand_X4"
+         is not the most current (14) for instance:  I$102
+  Error:  Out of date reference;  Version 11 of symbol "nand_X4"
+         is not the most current (14) for instance:  I$103
+  Error:  Out of date reference;  Version 11 of symbol "nand_X4"
+         is not the most current (14) for instance:  I$118
+  Error:  Out of date reference;  Version 11 of symbol "nand_X4"
+         is not the most current (14) for instance:  I$117
+
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   2 warnings  (MGC-required)
+  Warning:  Net name "Vss" connects the following nets:
+             N$272       N$193      N$273      N$275      N$277      N$279
+            N$281       N$283      N$285      N$287      N$289      N$291
+            N$293       N$295      N$297      N$299      N$301      N$303
+            N$305       N$307
+  Warning:  Net name "Vdd" connects the following nets:
+             N$229       N$230      N$232      N$234      N$236      N$240
+            N$242       N$244      N$246      N$248      N$250      N$252
+            N$254       N$256      N$258      N$260      N$262      N$264
+            N$266       N$268      N$270
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "PHASE_GEN/schematic/sheet1" failed check :  4 Errors, 3 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "PHASE_GEN/schematic/sheet1" failed check :  4 Errors, 3 Warnings
+
+
+Check Schematic  "PHASE_GEN/schematic/sheet1"
+Check Sheet "PHASE_GEN/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$250       V$2601
+           N$279       V$2672
+           N$281       V$2680
+           N$283       V$2682
+           N$285       V$2690
+           N$291       V$2702
+           N$293       V$2710
+           N$295       V$2712
+           N$307       V$2742
+           N$347       V$2740
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   2 warnings  (MGC-required)
+  Warning:  Net name "Vss" connects the following nets:
+             N$272       N$273      N$275      N$277      N$279      N$281
+            N$283       N$285      N$287      N$289      N$291      N$293
+            N$295       N$297      N$299      N$303      N$307      N$340
+            N$343       N$347
+  Warning:  Net name "Vdd" connects the following nets:
+             N$230       N$232      N$234      N$236      N$240      N$242
+            N$244       N$246      N$250      N$254      N$256      N$258
+            N$260       N$262      N$264      N$266      N$268      N$336
+            N$339       N$342      N$346
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "PHASE_GEN/schematic/sheet1" passed check :  0 Errors, 3 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "PHASE_GEN/schematic/sheet1" passed check :  0 Errors, 3 Warnings
+
+
+Check Schematic  "FILTER/schematic/sheet1"
+Check Sheet "FILTER/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   2 warnings
+  Warning:  Unconnected pins on
+           Instance(s) at Pins(s):
+           I$245       P$43684    P$43689
+           I$238       P$43495    P$43500
+           I$236       P$43439    P$43444
+           I$233       P$43352    P$43357
+           I$228       P$43205    P$43210
+           I$229       P$43242    P$43247
+           I$243       P$43622    P$43627
+           I$224       P$43080
+           I$232       P$43311    P$43316
+           I$231       P$43284    P$43289
+           I$230       P$43257    P$43262
+           I$237       P$43466    P$43471
+           I$244       P$43649    P$43654
+           I$246       P$43712    P$43717
+           I$235       P$43411    P$43416
+           I$226       P$43128    P$43133
+           I$227       P$43177    P$43182
+           I$241       P$43587    P$43592
+           I$240       P$43558    P$43563
+           I$225       P$43105    P$43110
+           I$234       P$43390    P$43395
+           I$242       P$43609    P$43614
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$540       V$36776
+           N$542       V$36784
+           N$543       V$36788
+           N$544       V$36792
+           N$541       V$36780
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   8 warnings  (MGC-required)
+  Warning:  Net name "phi1e" connects the following nets:
+             N$469       N$678
+  Warning:  Net name "phi1" connects the following nets:
+             N$212       N$478
+  Warning:  Net name "phi2" connects the following nets:
+             N$338       N$725
+  Warning:  Net name "rst_b" connects the following nets:
+             N$611       N$627
+  Warning:  Net name "hold_b" connects the following nets:
+             N$615       N$708      N$726
+  Warning:  Net name "rst" connects the following nets:
+             N$529       N$707      N$717      N$720
+  Warning:  Net name "phi2_hold" connects the following nets:
+             N$669       N$687
+  Warning:  Net name "rst_f" connects the following nets:
+             N$691       N$694      N$712
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "FILTER/schematic/sheet1" passed check :  0 Errors, 10 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "FILTER/schematic/sheet1" passed check :  0 Errors, 10 Warnings
+
+
+Check Schematic  "FILTER/schematic/sheet1"
+Check Sheet "FILTER/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   2 warnings
+  Warning:  Unconnected pins on
+           Instance(s) at Pins(s):
+           I$224       P$43080
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$540       V$36776
+           N$542       V$36784
+           N$543       V$36788
+           N$544       V$36792
+           N$541       V$36780
+           N$730       V$43728
+           N$731       V$43730
+           N$732       V$43738
+           N$733       V$43740
+           N$736       V$43771
+           N$737       V$43773
+           N$738       V$43781
+           N$739       V$43783
+           N$740       V$43791
+           N$741       V$43793
+           N$742       V$43801
+           N$743       V$43803
+           N$744       V$43811
+           N$745       V$43819
+           N$750       V$43841
+           N$752       V$43851
+           N$753       V$43859
+           N$754       V$43861
+           N$755       V$43869
+           N$757       V$43879
+           N$758       V$43881
+           N$764       V$43914
+           N$765       V$43919
+           N$766       V$43921
+           N$767       V$43929
+           N$768       V$43931
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors  10 warnings  (MGC-required)
+  Warning:  Net name "phi1e" connects the following nets:
+             N$469       N$678
+  Warning:  Net name "phi1" connects the following nets:
+             N$212       N$478
+  Warning:  Net name "phi2" connects the following nets:
+             N$338       N$725
+  Warning:  Net name "rst_b" connects the following nets:
+             N$611       N$627
+  Warning:  Net name "hold_b" connects the following nets:
+             N$615       N$708      N$726
+  Warning:  Net name "rst" connects the following nets:
+             N$529       N$707      N$717      N$720
+  Warning:  Net name "DVdd" connects the following nets:
+             N$624       N$723      N$745      N$746      N$747      N$748
+            N$749       N$750      N$751      N$752      N$753      N$754
+            N$755       N$756      N$757      N$758      N$759      N$760
+            N$764       N$766      N$769      N$770
+  Warning:  Net name "DGnd" connects the following nets:
+             N$623       N$665      N$730      N$731      N$732      N$733
+            N$734       N$736      N$737      N$738      N$739      N$740
+            N$741       N$742      N$743      N$744      N$761      N$762
+            N$763       N$765      N$767      N$768
+  Warning:  Net name "phi2_hold" connects the following nets:
+             N$669       N$687
+  Warning:  Net name "rst_f" connects the following nets:
+             N$691       N$694      N$712
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "FILTER/schematic/sheet1" passed check :  0 Errors, 12 Warnings
+
+Check Schematic Interface -------   2 errors   0 warnings
+  Error:  No interface pin found for external net "DVdd" (N$624) on sheet "sheet1".
+  Error:  No interface pin found for external net "DGnd" (N$623) on sheet "sheet1".
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "FILTER/schematic/sheet1" failed check :  2 Errors, 12 Warnings
+
+
+Check Symbol "FILTER/FILTER"
+Check Body -------   0 errors   0 warnings  (MGC-required)
+Check Interface --   0 errors   2 warnings
+  Warning:  The following pins on the symbol are not on the interface: DGnd
+  Warning:  The following pins on the symbol are not on the interface: DVdd
+
+Check Pin --------   0 errors   0 warnings  (MGC-required)
+Check Special ----   0 errors   0 warnings  (MGC-required)
+
+ "FILTER/FILTER" passed check :  0 Errors, 2 Warnings
+
+
+Check Schematic  "FILTER/schematic/sheet1"
+Check Sheet "FILTER/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   2 warnings
+  Warning:  Unconnected pins on
+           Instance(s) at Pins(s):
+           I$224       P$43080
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$540       V$36776
+           N$542       V$36784
+           N$543       V$36788
+           N$544       V$36792
+           N$541       V$36780
+           N$730       V$43728
+           N$731       V$43730
+           N$732       V$43738
+           N$733       V$43740
+           N$736       V$43771
+           N$737       V$43773
+           N$738       V$43781
+           N$739       V$43783
+           N$740       V$43791
+           N$741       V$43793
+           N$742       V$43801
+           N$743       V$43803
+           N$744       V$43811
+           N$745       V$43819
+           N$750       V$43841
+           N$752       V$43851
+           N$753       V$43859
+           N$754       V$43861
+           N$755       V$43869
+           N$757       V$43879
+           N$758       V$43881
+           N$764       V$43914
+           N$765       V$43919
+           N$766       V$43921
+           N$767       V$43929
+           N$768       V$43931
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors  10 warnings  (MGC-required)
+  Warning:  Net name "phi1e" connects the following nets:
+             N$469       N$678
+  Warning:  Net name "phi1" connects the following nets:
+             N$212       N$478
+  Warning:  Net name "phi2" connects the following nets:
+             N$338       N$725
+  Warning:  Net name "rst_b" connects the following nets:
+             N$611       N$627
+  Warning:  Net name "hold_b" connects the following nets:
+             N$615       N$708      N$726
+  Warning:  Net name "rst" connects the following nets:
+             N$529       N$707      N$717      N$720
+  Warning:  Net name "DVdd" connects the following nets:
+             N$624       N$723      N$745      N$746      N$747      N$748
+            N$749       N$750      N$751      N$752      N$753      N$754
+            N$755       N$756      N$757      N$758      N$759      N$760
+            N$764       N$766      N$769      N$770
+  Warning:  Net name "DGnd" connects the following nets:
+             N$623       N$665      N$730      N$731      N$732      N$733
+            N$734       N$736      N$737      N$738      N$739      N$740
+            N$741       N$742      N$743      N$744      N$761      N$762
+            N$763       N$765      N$767      N$768
+  Warning:  Net name "phi2_hold" connects the following nets:
+             N$669       N$687
+  Warning:  Net name "rst_f" connects the following nets:
+             N$691       N$694      N$712
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "FILTER/schematic/sheet1" passed check :  0 Errors, 12 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "FILTER/schematic/sheet1" passed check :  0 Errors, 12 Warnings
+
+
+Check Schematic  "testFilter/schematic/sheet1"
+Check Sheet "testFilter/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   1 errors   1 warnings
+  Error:  I$38 overlaps I$15
+  Warning:  The following class-instances may overlap with
+            other class or non-class instances:
+            GLOBAL:    I$1        I$16       I$21       I$28       I$39
+                       I$40
+            other:     I$2        I$38
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   2 warnings
+  Warning:  Unconnected pins on
+           Instance(s) at Pins(s):
+           I$38        P$2317     P$2322     P$2327     P$2332     P$2337
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$10        V$849
+           N$48        V$1869
+
+Check INIT Properties ---   1 errors   0 warnings
+  Error:  Net N$48 has a forcing INIT property value (0SF) but has no global attached
+
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   4 errors   0 warnings  (MGC-required)
+  Error:  Could not determine current version of SCF_mux_X4/part for instance I$26
+  Error:  Could not determine current version of SCF_mux_X4/part for instance I$29
+  Error:  Could not determine current version of SCF_mux_X4/part for instance I$26
+  Error:  Could not determine current version of SCF_mux_X4/part for instance I$29
+
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   9 warnings  (MGC-required)
+  Warning:  Named net "" (N$1) is shorted to Global "SCF_VDD" at I$1
+  Warning:  Named net "" (N$109) is shorted to Global "SCF_VDD" at I$39
+  Warning:  Named net "" (N$1) is shorted to Global "SCF_VDD" at I$1
+  Warning:  Named net "" (N$109) is shorted to Global "SCF_VDD" at I$39
+  Warning:  Net name "Vicm" connects the following nets:
+             N$6         N$32
+  Warning:  Net name "sgn" connects the following nets:
+             N$13        N$26
+  Warning:  Net name "hold" connects the following nets:
+             N$18        N$24
+  Warning:  Net name "rst" connects the following nets:
+             N$17        N$25
+  Warning:  Net name "Vocm" connects the following nets:
+             N$30        N$10
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "testFilter/schematic/sheet1" failed check :  6 Errors, 12 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "testFilter" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "testFilter/schematic/sheet1" failed check :  6 Errors, 13 Warnings
+
+
+Check Schematic  "testFilter/schematic/sheet1"
+Check Sheet "testFilter/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   1 errors   1 warnings
+  Error:  I$38 overlaps I$15
+  Warning:  The following class-instances may overlap with
+            other class or non-class instances:
+            GLOBAL:    I$1        I$16       I$21       I$28       I$39
+                       I$40       I$44       I$46       I$45       I$47
+            other:     I$2        I$38
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   2 warnings
+  Warning:  Unconnected pins on
+           Instance(s) at Pins(s):
+           I$38        P$2317     P$2322     P$2327     P$2332     P$2337
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$10        V$849
+           N$48        V$1869
+
+Check INIT Properties ---   1 errors   0 warnings
+  Error:  Net N$48 has a forcing INIT property value (0SF) but has no global attached
+
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors  13 warnings  (MGC-required)
+  Warning:  Named net "" (N$1) is shorted to Global "SCF_VDD" at I$1
+  Warning:  Named net "" (N$109) is shorted to Global "SCF_VDD" at I$39
+  Warning:  Named net "" (N$125) is shorted to Global "SCF_VDD" at I$44
+  Warning:  Named net "" (N$126) is shorted to Global "SCF_VDD" at I$45
+  Warning:  Named net "" (N$1) is shorted to Global "SCF_VDD" at I$1
+  Warning:  Named net "" (N$109) is shorted to Global "SCF_VDD" at I$39
+  Warning:  Named net "" (N$125) is shorted to Global "SCF_VDD" at I$44
+  Warning:  Named net "" (N$126) is shorted to Global "SCF_VDD" at I$45
+  Warning:  Net name "Vicm" connects the following nets:
+             N$6         N$32
+  Warning:  Net name "sgn" connects the following nets:
+             N$13        N$26
+  Warning:  Net name "hold" connects the following nets:
+             N$18        N$24
+  Warning:  Net name "rst" connects the following nets:
+             N$17        N$25
+  Warning:  Net name "Vocm" connects the following nets:
+             N$30        N$10
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "testFilter/schematic/sheet1" failed check :  2 Errors, 16 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "testFilter" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "testFilter/schematic/sheet1" failed check :  2 Errors, 17 Warnings
+
+
+Check Schematic  "CHANNEL/schematic/sheet1"
+Check Sheet "CHANNEL/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   5 errors   1 warnings
+  Error:  I$231 overlaps I$230
+  Error:  I$228 overlaps I$229
+  Error:  I$228 overlaps I$227
+  Error:  I$229 overlaps I$230
+  Error:  I$296 overlaps I$291
+  Warning:  The following class-instances may overlap with
+            other class or non-class instances:
+            GLOBAL:    I$299      I$301      I$300      I$302
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$159       V$5022
+           N$162       V$5028
+           N$616       V$17847
+           N$615       V$17876
+           N$593       V$17886
+           N$581       V$17927
+           N$613       V$17987
+           N$585       V$18014
+           N$584       V$18048
+           N$598       V$18076
+           N$582       V$18126
+           N$590       V$18150
+           N$603       V$18174
+           N$589       V$18182
+           N$612       V$18206
+           N$588       V$18214
+           N$602       V$18244
+           N$587       V$18252
+           N$614       V$18279
+           N$579       V$18287
+           N$600       V$18318
+           N$601       V$18342
+           N$586       V$18350
+           N$605       V$19039
+           N$591       V$18368
+           N$606       V$18392
+           N$592       V$18400
+           N$580       V$18451
+           N$668       V$18996
+           N$670       V$19004
+           N$730       V$19298
+           N$729       V$19296
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors  35 warnings  (MGC-required)
+  Warning:  Net name "Vicm" connects the following nets:
+             N$6         N$541
+  Warning:  Net name "sgn" connects the following nets:
+             N$13        N$565
+  Warning:  Net name "hold" connects the following nets:
+             N$18        N$557
+  Warning:  Net name "rst" connects the following nets:
+             N$17        N$562      N$561      N$569      N$570
+  Warning:  Net name "Vocm" connects the following nets:
+             N$10        N$536
+  Warning:  Net name "Vo+_buffered" connects the following nets:
+             N$159       N$652
+  Warning:  Net name "Vo-_buffered" connects the following nets:
+             N$162       N$654
+  Warning:  Net name "I2" connects the following nets:
+             N$174       N$723
+  Warning:  Net name "clk" connects the following nets:
+             N$309       N$564
+  Warning:  Net name "Vi-" connects the following nets:
+             N$311       N$537      N$642
+  Warning:  Net name "Vi+" connects the following nets:
+             N$310       N$538      N$647
+  Warning:  Net name "Vo-" connects the following nets:
+             N$419       N$724
+  Warning:  Net name "Vo+" connects the following nets:
+             N$418       N$697
+  Warning:  Net name "out_s" connects the following nets:
+             N$424       N$695
+  Warning:  Net name "Cs_b1" connects the following nets:
+             N$485       N$621      N$630
+  Warning:  Net name "Cs_b2" connects the following nets:
+             N$486       N$622      N$631
+  Warning:  Net name "Cs_b3" connects the following nets:
+             N$487       N$623      N$632
+  Warning:  Net name "Cs_b4" connects the following nets:
+             N$488       N$624      N$633
+  Warning:  Net name "DVdd" connects the following nets:
+             N$566       N$618      N$617      N$593      N$594      N$608
+            N$595       N$596      N$597      N$598      N$599      N$604
+            N$603       N$612      N$602      N$614      N$600      N$601
+            N$605       N$606      N$577      N$607      N$670      N$672
+  Warning:  Net name "DGnd" connects the following nets:
+             N$567       N$616      N$615      N$573      N$581      N$610
+            N$613       N$585      N$584      N$583      N$582      N$590
+            N$589       N$588      N$587      N$579      N$611      N$586
+            N$591       N$592      N$580      N$609      N$666      N$668
+  Warning:  Net name "phi2" connects the following nets:
+             N$544       N$556
+  Warning:  Net name "phi1" connects the following nets:
+             N$545       N$553
+  Warning:  Net name "phi1e" connects the following nets:
+             N$552       N$542
+  Warning:  Net name "hold_b" connects the following nets:
+             N$558       N$560      N$559
+  Warning:  Net name "rst_b" connects the following nets:
+             N$563       N$554
+  Warning:  Net name "phi2_hold" connects the following nets:
+             N$548       N$555
+  Warning:  Net name "rst_f" connects the following nets:
+             N$571       N$572      N$551
+  Warning:  Net name "Cs_b0" connects the following nets:
+             N$620       N$629      N$484
+  Warning:  Net name "Vpcas" connects the following nets:
+             N$714       N$735
+  Warning:  Net name "Vncas" connects the following nets:
+             N$713       N$736
+  Warning:  Net name "Vb4" connects the following nets:
+             N$711       N$734
+  Warning:  Net name "Vb3" connects the following nets:
+             N$710       N$733
+  Warning:  Net name "Vb2" connects the following nets:
+             N$709       N$732
+  Warning:  Net name "Vb1" connects the following nets:
+             N$708       N$731
+  Warning:  The following non-global nets are shorted to Global "AVdd":
+           N$550 AVdd
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "CHANNEL/schematic/sheet1" failed check :  5 Errors, 37 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "CHANNEL" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "CHANNEL/schematic/sheet1" failed check :  5 Errors, 38 Warnings
+
+
+Check Symbol "CAP_ARRAY/CAP_ARRAY"
+Check Body -------   0 errors   0 warnings  (MGC-required)
+Check Interface --   0 errors   2 warnings
+  Warning:  The following pins on the symbol are not on the interface: Vss
+  Warning:  The following pins on the symbol are not on the interface: Vdd
+
+Check Pin --------   0 errors   0 warnings  (MGC-required)
+Check Special ----   0 errors   0 warnings  (MGC-required)
+
+ "CAP_ARRAY/CAP_ARRAY" passed check :  0 Errors, 2 Warnings
+
+
+Check Schematic  "CAP_ARRAY/schematic/sheet1"
+Check Sheet "CAP_ARRAY/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   1 warnings
+  Warning:  The following class-instances may overlap with
+            other class or non-class instances:
+            PORT:      I$18       I$16       I$17       I$19       I$20
+            other:     I$26       I$24       I$25       I$27       I$28
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   2 warnings  (MGC-required)
+  Warning:  Net name "Vdd" connects the following nets:
+             N$47        N$56       N$57       N$58       N$59
+  Warning:  Net name "Vss" connects the following nets:
+             N$46        N$48       N$50       N$52       N$54
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "CAP_ARRAY/schematic/sheet1" passed check :  0 Errors, 3 Warnings
+
+Check Schematic Interface -------   0 errors   2 warnings
+  Warning:  Net N$46 named "Vss" on sheet "sheet1" maps to an interface pin
+            but is not connected to a port.
+  Warning:  Net N$47 named "Vdd" on sheet "sheet1" maps to an interface pin
+            but is not connected to a port.
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "CAP_ARRAY/schematic/sheet1" passed check :  0 Errors, 5 Warnings
+
+
+Check Schematic  "testBuffer/schematic/sheet1"
+Check Sheet "testBuffer/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   1 errors   1 warnings
+  Error:  I$8 overlaps I$33
+  Warning:  The following class-instances may overlap with
+            other class or non-class instances:
+            GLOBAL:    I$19       I$24
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$68        V$1504
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "testBuffer/schematic/sheet1" failed check :  1 Errors, 2 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "testBuffer" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "testBuffer/schematic/sheet1" failed check :  1 Errors, 3 Warnings
+
+
+Check Schematic  "mux_X4/schematic/sheet1"
+Check Sheet "mux_X4/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$305       V$5229
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   2 warnings  (MGC-required)
+  Warning:  Net name "Vss" connects the following nets:
+             N$305       N$309      N$345      N$348
+  Warning:  Net name "Vdd" connects the following nets:
+             N$307       N$313      N$344      N$351
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "mux_X4/schematic/sheet1" passed check :  0 Errors, 3 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "mux_X4/schematic/sheet1" passed check :  0 Errors, 3 Warnings
+
+
+Check Schematic  "mux_X16/schematic/sheet1"
+Check Sheet "mux_X16/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$281       V$5027
+           N$283       V$5022
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   2 warnings  (MGC-required)
+  Warning:  Net name "Vdd" connects the following nets:
+             N$278       N$279      N$289      N$297
+  Warning:  Net name "Vss" connects the following nets:
+             N$281       N$283      N$290      N$294
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "mux_X16/schematic/sheet1" passed check :  0 Errors, 3 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "mux_X16/schematic/sheet1" passed check :  0 Errors, 3 Warnings
+
+
+Check Schematic  "CSA/schematic/sheet1"
+Check Sheet "CSA/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   1 warnings
+  Warning:  The following class-instances may overlap with
+            other class or non-class instances:
+            GLOBAL:    I$23       I$24       I$9        I$87       I$22
+            other:     I$21       I$19       I$8        I$86       I$16
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$39        V$1156
+           N$64        V$4954
+           N$53        V$4960
+           N$324       V$4951
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "CSA/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "CSA" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "CSA/schematic/sheet1" passed check :  0 Errors, 3 Warnings
+
+
+Check Schematic  "CSA/schematic/sheet1"
+Check Sheet "CSA/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   1 warnings
+  Warning:  The following class-instances may overlap with
+            other class or non-class instances:
+            GLOBAL:    I$23       I$24       I$9        I$87       I$22
+            other:     I$21       I$19       I$8        I$86       I$16
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$39        V$1156
+           N$64        V$4954
+           N$53        V$4960
+           N$350       V$4980
+           N$324       V$4984
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "CSA/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "CSA" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "CSA/schematic/sheet1" passed check :  0 Errors, 3 Warnings
+
+
+Check Schematic  "CSA/schematic/sheet1"
+Check Sheet "CSA/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   1 warnings
+  Warning:  The following class-instances may overlap with
+            other class or non-class instances:
+            GLOBAL:    I$23       I$24       I$9        I$87       I$22
+            other:     I$21       I$19       I$8        I$86       I$16
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$39        V$1156
+           N$64        V$4954
+           N$53        V$4960
+           N$350       V$4980
+           N$324       V$4984
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "CSA/schematic/sheet1" passed check :  0 Errors, 2 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "CSA" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "CSA/schematic/sheet1" passed check :  0 Errors, 3 Warnings
+
+
+Check Schematic  "CSA/schematic/sheet1"
+Check Sheet "CSA/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   1 errors   1 warnings
+  Error:  I$165 overlaps I$166
+  Warning:  The following class-instances may overlap with
+            other class or non-class instances:
+            GLOBAL:    I$23       I$104      I$87       I$24       I$9
+            other:     I$21       I$103      I$86       I$19       I$8
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   8 warnings  (MGC-required)
+  Warning:  Named net "rst" (N$64) is shorted to Global "ground" at I$168
+  Warning:  Named net "op_mode" (N$53) is shorted to Global "ground" at I$169
+  Warning:  Named net "rst" (N$64) is shorted to Global "ground" at I$168
+  Warning:  Named net "op_mode" (N$53) is shorted to Global "ground" at I$169
+  Warning:  Net name "Vb3" connects the following nets:
+             N$321       N$786
+  Warning:  Net name "Vb1" connects the following nets:
+             N$775       N$785
+  Warning:  Net name "Vb2" connects the following nets:
+             N$777       N$780
+  Warning:  Net name "Vb4" connects the following nets:
+             N$779       N$788
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "CSA/schematic/sheet1" failed check :  1 Errors, 9 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "CSA" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "CSA/schematic/sheet1" failed check :  1 Errors, 10 Warnings
+
+
+Check Schematic  "SCF_cmfb/schematic/sheet1"
+Check Sheet "SCF_cmfb/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "SCF_cmfb/schematic/sheet1" passed check :  0 Errors, 0 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "SCF_cmfb" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "SCF_cmfb/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+
+Check Schematic  "SCF_bias/schematic/sheet1"
+Check Sheet "SCF_bias/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "SCF_bias/schematic/sheet1" passed check :  0 Errors, 0 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "SCF_bias" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "SCF_bias/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+
+Check Schematic  "SCF_ota/schematic/sheet1"
+Check Sheet "SCF_ota/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   1 warnings
+  Warning:  The following class-instances may overlap with
+            other class or non-class instances:
+            PORT:      I$25       I$26
+            other:     I$36       I$5
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Unconnected pins on
+           Instance(s) at Pins(s):
+           I$469       P$53619
+           I$468       P$53572
+           I$472       P$53795
+           I$475       P$54301
+           I$471       P$53742
+           I$470       P$53685
+           I$457       P$52921
+           I$458       P$52992
+           I$459       P$53049
+           I$460       P$53102
+           I$461       P$53151
+           I$462       P$53203
+           I$463       P$53250
+           I$464       P$53297
+           I$465       P$53391
+           I$466       P$53459
+           I$467       P$53504
+           I$474       P$54246
+           I$476       P$54358
+           I$477       P$54411
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   7 warnings  (MGC-required)
+  Warning:  Net name "ND2" connects the following nets:
+             N$19        N$1075     N$1080     N$1082     N$1087
+  Warning:  Net name "ND4" connects the following nets:
+             N$503       N$1089     N$1094     N$1097     N$1100
+  Warning:  Net name "Vo-" connects the following nets:
+             N$486       N$1044     N$1049     N$1052     N$1055     N$1107
+            N$1110      N$1113     N$1116
+  Warning:  Net name "Vb3" connects the following nets:
+             N$512       N$524
+  Warning:  Net name "AGnd" connects the following nets:
+             N$1041      N$1077     N$1079     N$1084     N$1086     N$1091
+            N$1093      N$1096     N$1099     N$1106     N$1109     N$1112
+            N$1115
+  Warning:  Net name "AVdd" connects the following nets:
+             N$1046      N$1048     N$1051     N$1054     N$1069     N$1122
+  Warning:  Net name "ND1" connects the following nets:
+             N$1064      N$1073
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "SCF_ota/schematic/sheet1" passed check :  0 Errors, 9 Warnings
+
+Check Schematic Interface -------   2 errors   1 warnings
+  Error:  No net found for interface pin "Vocm".
+  Error:  No net found for interface pin "Vocm".
+  Warning:  Net N$75 named "Iref" on sheet "sheet1" maps to an interface pin
+            but is not connected to a port.
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "SCF_ota/schematic/sheet1" failed check :  2 Errors, 10 Warnings
+
+
+Check Schematic  "SCF_ota/schematic/sheet1"
+Check Sheet "SCF_ota/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   1 warnings
+  Warning:  The following class-instances may overlap with
+            other class or non-class instances:
+            PORT:      I$25       I$26
+            other:     I$36       I$5
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Unconnected pins on
+           Instance(s) at Pins(s):
+           I$469       P$53619
+           I$468       P$53572
+           I$472       P$53795
+           I$475       P$54301
+           I$471       P$53742
+           I$470       P$53685
+           I$457       P$52921
+           I$458       P$52992
+           I$459       P$53049
+           I$460       P$53102
+           I$461       P$53151
+           I$462       P$53203
+           I$463       P$53250
+           I$464       P$53297
+           I$465       P$53391
+           I$466       P$53459
+           I$467       P$53504
+           I$474       P$54246
+           I$476       P$54358
+           I$477       P$54411
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   7 warnings  (MGC-required)
+  Warning:  Net name "ND2" connects the following nets:
+             N$19        N$1075     N$1080     N$1082     N$1087
+  Warning:  Net name "ND4" connects the following nets:
+             N$503       N$1089     N$1094     N$1097     N$1100
+  Warning:  Net name "Vo-" connects the following nets:
+             N$486       N$1044     N$1049     N$1052     N$1055     N$1107
+            N$1110      N$1113     N$1116
+  Warning:  Net name "Vb3" connects the following nets:
+             N$512       N$524
+  Warning:  Net name "AGnd" connects the following nets:
+             N$1041      N$1077     N$1079     N$1084     N$1086     N$1091
+            N$1093      N$1096     N$1099     N$1106     N$1109     N$1112
+            N$1115
+  Warning:  Net name "AVdd" connects the following nets:
+             N$1046      N$1048     N$1051     N$1054     N$1069     N$1122
+  Warning:  Net name "ND1" connects the following nets:
+             N$1064      N$1073
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "SCF_ota/schematic/sheet1" passed check :  0 Errors, 9 Warnings
+
+Check Schematic Interface -------   4 errors   0 warnings
+  Error:  No interface pin found for external net "Vb2" (N$13) on sheet "sheet1".
+  Error:  No interface pin found for external net "Vb3" (N$512) on sheet "sheet1".
+  Error:  No interface pin found for external net "CMFB" (N$981) on sheet "sheet1".
+  Error:  No net found for interface pin "Vocm".
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "SCF_ota/schematic/sheet1" failed check :  4 Errors, 9 Warnings
+
+
+Check Symbol "SCF_ota/SCF_ota"
+Check Body -------   0 errors   0 warnings  (MGC-required)
+Check Interface --   0 errors   4 warnings
+  Warning:  The following pins on the interface are not on the symbol: Vocm
+  Warning:  The following pins on the symbol are not on the interface: Vb3
+  Warning:  The following pins on the symbol are not on the interface: Vb2
+  Warning:  The following pins on the symbol are not on the interface: CMFB
+
+Check Pin --------   0 errors   0 warnings  (MGC-required)
+Check Special ----   0 errors   0 warnings  (MGC-required)
+
+ "SCF_ota/SCF_ota" passed check :  0 Errors, 4 Warnings
+
+
+Check Schematic  "SCF_ota/schematic/sheet1"
+Check Sheet "SCF_ota/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   1 warnings
+  Warning:  The following class-instances may overlap with
+            other class or non-class instances:
+            PORT:      I$25       I$26
+            other:     I$36       I$5
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Unconnected pins on
+           Instance(s) at Pins(s):
+           I$469       P$53619
+           I$468       P$53572
+           I$472       P$53795
+           I$475       P$54301
+           I$471       P$53742
+           I$470       P$53685
+           I$457       P$52921
+           I$458       P$52992
+           I$459       P$53049
+           I$460       P$53102
+           I$461       P$53151
+           I$462       P$53203
+           I$463       P$53250
+           I$464       P$53297
+           I$465       P$53391
+           I$466       P$53459
+           I$467       P$53504
+           I$474       P$54246
+           I$476       P$54358
+           I$477       P$54411
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   7 warnings  (MGC-required)
+  Warning:  Net name "ND2" connects the following nets:
+             N$19        N$1075     N$1080     N$1082     N$1087
+  Warning:  Net name "ND4" connects the following nets:
+             N$503       N$1089     N$1094     N$1097     N$1100
+  Warning:  Net name "Vo-" connects the following nets:
+             N$486       N$1044     N$1049     N$1052     N$1055     N$1107
+            N$1110      N$1113     N$1116
+  Warning:  Net name "Vb3" connects the following nets:
+             N$512       N$524
+  Warning:  Net name "AGnd" connects the following nets:
+             N$1041      N$1077     N$1079     N$1084     N$1086     N$1091
+            N$1093      N$1096     N$1099     N$1106     N$1109     N$1112
+            N$1115
+  Warning:  Net name "AVdd" connects the following nets:
+             N$1046      N$1048     N$1051     N$1054     N$1069     N$1122
+  Warning:  Net name "ND1" connects the following nets:
+             N$1064      N$1073
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "SCF_ota/schematic/sheet1" passed check :  0 Errors, 9 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "SCF_ota/schematic/sheet1" passed check :  0 Errors, 9 Warnings
+
+
+Check Symbol "SCF_bias/SCF_bias"
+Check Body -------   0 errors   0 warnings  (MGC-required)
+Check Interface --   0 errors   1 warnings
+  Warning:  The following pins on the interface are not on the symbol: Vb1
+
+Check Pin --------   0 errors   0 warnings  (MGC-required)
+Check Special ----   0 errors   0 warnings  (MGC-required)
+
+ "SCF_bias/SCF_bias" passed check :  0 Errors, 1 Warnings
+
+
+Check Schematic  "SCF/schematic/sheet1"
+Check Sheet "SCF/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   1 warnings
+  Warning:  The following class-instances may overlap with
+            other class or non-class instances:
+            PORT:      I$15
+            other:     I$9
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   0 warnings
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "SCF/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "SCF/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+
+Check Schematic  "CHANNEL/schematic/sheet1"
+Check Sheet "CHANNEL/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   6 errors   1 warnings
+  Error:  I$238 overlaps I$332
+  Error:  I$231 overlaps I$230
+  Error:  I$291 overlaps I$296
+  Error:  I$227 overlaps I$228
+  Error:  I$228 overlaps I$229
+  Error:  I$229 overlaps I$230
+  Warning:  The following class-instances may overlap with
+            other class or non-class instances:
+            GLOBAL:    I$299      I$301      I$300      I$302      I$305
+                       I$306
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$159       V$5022
+           N$162       V$5028
+           N$616       V$17847
+           N$615       V$17876
+           N$593       V$17886
+           N$581       V$17927
+           N$613       V$17987
+           N$585       V$18014
+           N$584       V$18048
+           N$598       V$18076
+           N$582       V$18126
+           N$590       V$18150
+           N$603       V$18174
+           N$589       V$18182
+           N$612       V$18206
+           N$588       V$18214
+           N$602       V$18244
+           N$587       V$18252
+           N$614       V$18279
+           N$579       V$18287
+           N$600       V$18318
+           N$601       V$18342
+           N$586       V$18350
+           N$605       V$19039
+           N$591       V$18368
+           N$606       V$18392
+           N$592       V$18400
+           N$580       V$18451
+           N$668       V$18996
+           N$670       V$19004
+           N$730       V$19298
+           N$729       V$19296
+           N$764       V$20256
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors  39 warnings  (MGC-required)
+  Warning:  Named net "DGnd" (N$764) is shorted to Global "ground" at I$311
+  Warning:  Named net "DGnd" (N$766) is shorted to Global "ground" at I$313
+  Warning:  Named net "DGnd" (N$764) is shorted to Global "ground" at I$311
+  Warning:  Named net "DGnd" (N$766) is shorted to Global "ground" at I$313
+  Warning:  Net name "Vicm" connects the following nets:
+             N$6         N$541
+  Warning:  Net name "sgn" connects the following nets:
+             N$13        N$565
+  Warning:  Net name "hold" connects the following nets:
+             N$18        N$557
+  Warning:  Net name "rst" connects the following nets:
+             N$17        N$562      N$561      N$569      N$570
+  Warning:  Net name "Vocm" connects the following nets:
+             N$10        N$536
+  Warning:  Net name "Vo+_buffered" connects the following nets:
+             N$159       N$652
+  Warning:  Net name "Vo-_buffered" connects the following nets:
+             N$162       N$654
+  Warning:  Net name "I2" connects the following nets:
+             N$174       N$723
+  Warning:  Net name "clk" connects the following nets:
+             N$309       N$564
+  Warning:  Net name "Vi-" connects the following nets:
+             N$311       N$537      N$642
+  Warning:  Net name "Vi+" connects the following nets:
+             N$310       N$538      N$647
+  Warning:  Net name "Vo-" connects the following nets:
+             N$419       N$724
+  Warning:  Net name "Vo+" connects the following nets:
+             N$418       N$697
+  Warning:  Net name "out_s" connects the following nets:
+             N$424       N$695
+  Warning:  Net name "Cs_b1" connects the following nets:
+             N$485       N$621      N$751
+  Warning:  Net name "Cs_b2" connects the following nets:
+             N$486       N$622      N$752
+  Warning:  Net name "Cs_b3" connects the following nets:
+             N$487       N$623      N$753
+  Warning:  Net name "Cs_b4" connects the following nets:
+             N$488       N$624      N$754
+  Warning:  Net name "DVdd" connects the following nets:
+             N$566       N$618      N$617      N$593      N$594      N$608
+            N$595       N$596      N$597      N$598      N$599      N$604
+            N$603       N$612      N$602      N$614      N$600      N$601
+            N$605       N$606      N$577      N$607      N$670      N$672
+            N$765
+  Warning:  Net name "phi2" connects the following nets:
+             N$544       N$556
+  Warning:  Net name "phi1" connects the following nets:
+             N$545       N$553
+  Warning:  Net name "phi1e" connects the following nets:
+             N$552       N$542
+  Warning:  Net name "hold_b" connects the following nets:
+             N$558       N$560      N$559
+  Warning:  Net name "rst_b" connects the following nets:
+             N$563       N$554
+  Warning:  Net name "phi2_hold" connects the following nets:
+             N$548       N$555
+  Warning:  Net name "rst_f" connects the following nets:
+             N$571       N$572      N$551
+  Warning:  Net name "Cs_b0" connects the following nets:
+             N$620       N$484      N$750
+  Warning:  Net name "Vpcas" connects the following nets:
+             N$714       N$735
+  Warning:  Net name "Vncas" connects the following nets:
+             N$713       N$736
+  Warning:  Net name "Vb4" connects the following nets:
+             N$711       N$734
+  Warning:  Net name "Vb3" connects the following nets:
+             N$710       N$733
+  Warning:  Net name "Vb2" connects the following nets:
+             N$709       N$732
+  Warning:  Net name "Vb1" connects the following nets:
+             N$708       N$731
+  Warning:  Net name "I1" connects the following nets:
+             N$769       N$543
+  Warning:  The following non-global nets are shorted to Global "ground":
+           N$567 DGnd             N$616 DGnd            N$615 DGnd
+           N$573 DGnd             N$581 DGnd            N$610 DGnd
+           N$613 DGnd             N$585 DGnd            N$584 DGnd
+           N$583 DGnd             N$582 DGnd            N$590 DGnd
+           N$589 DGnd             N$588 DGnd            N$587 DGnd
+           N$579 DGnd             N$611 DGnd            N$586 DGnd
+           N$591 DGnd             N$592 DGnd            N$580 DGnd
+           N$609 DGnd             N$666 DGnd            N$668 DGnd
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "CHANNEL/schematic/sheet1" failed check :  6 Errors, 41 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "CHANNEL" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "CHANNEL/schematic/sheet1" failed check :  6 Errors, 42 Warnings
+
+
+Check Symbol "SCF_bias/SCF_bias"
+Check Body -------   0 errors   0 warnings  (MGC-required)
+Check Interface --   0 errors   1 warnings
+  Warning:  The following pins on the symbol are not on the interface: Vb1
+
+Check Pin --------   0 errors   0 warnings  (MGC-required)
+Check Special ----   0 errors   0 warnings  (MGC-required)
+
+ "SCF_bias/SCF_bias" passed check :  0 Errors, 1 Warnings
+
+
+Check Symbol "SCF/SCF"
+Check Body -------   0 errors   0 warnings  (MGC-required)
+Check Interface --   0 errors   2 warnings
+  Warning:  The following pins on the symbol are not on the interface: phi2
+  Warning:  The following pins on the symbol are not on the interface: phi1
+
+Check Pin --------   0 errors   0 warnings  (MGC-required)
+Check Special ----   0 errors   0 warnings  (MGC-required)
+
+ "SCF/SCF" passed check :  0 Errors, 2 Warnings
+
+
+Check Schematic  "SCF_cmfb2/schematic/sheet1"
+Check Sheet "SCF_cmfb2/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$29        V$871
+           N$30        V$877
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "SCF_cmfb2/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+Check Schematic Interface -------   2 errors   0 warnings
+  Error:  No interface pin found for external net "phi2" (N$29) on sheet "sheet1".
+  Error:  No interface pin found for external net "phi1" (N$30) on sheet "sheet1".
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "SCF_cmfb2/schematic/sheet1" failed check :  2 Errors, 1 Warnings
+
+
+Check Schematic  "SCF_cmfb2/schematic/sheet1"
+Check Sheet "SCF_cmfb2/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$29        V$871
+           N$30        V$877
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "SCF_cmfb2/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+Check Schematic Interface -------   2 errors   0 warnings
+  Error:  No interface pin found for external net "phi2" (N$29) on sheet "sheet1".
+  Error:  No interface pin found for external net "phi1" (N$30) on sheet "sheet1".
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "SCF_cmfb2/schematic/sheet1" failed check :  2 Errors, 1 Warnings
+
+
+Check Symbol "SCF_cmfb2/SCF_cmfb2"
+Check Body -------   0 errors   0 warnings  (MGC-required)
+Check Interface --   0 errors   2 warnings
+  Warning:  The following pins on the symbol are not on the interface: phi1
+  Warning:  The following pins on the symbol are not on the interface: phi2
+
+Check Pin --------   0 errors   0 warnings  (MGC-required)
+Check Special ----   0 errors   0 warnings  (MGC-required)
+
+ "SCF_cmfb2/SCF_cmfb2" passed check :  0 Errors, 2 Warnings
+
+
+Check Schematic  "SCF_cmfb2/schematic/sheet1"
+Check Sheet "SCF_cmfb2/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$29        V$871
+           N$30        V$877
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "SCF_cmfb2/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "SCF_cmfb2/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+
+Check Symbol "SCF_cmfb2/SCF_cmfb2"
+Check Body -------   0 errors   0 warnings  (MGC-required)
+Check Interface --   0 errors   1 warnings
+  Warning:  The following pins on the symbol are not on the interface: Vb1
+
+Check Pin --------   0 errors   0 warnings  (MGC-required)
+Check Special ----   0 errors   0 warnings  (MGC-required)
+
+ "SCF_cmfb2/SCF_cmfb2" passed check :  0 Errors, 1 Warnings
+
+
+Check Schematic  "SCF_cmfb2/schematic/sheet1"
+Check Sheet "SCF_cmfb2/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$29        V$871
+           N$30        V$877
+           N$32        V$890
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   0 warnings  (MGC-required)
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "SCF_cmfb2/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "SCF_cmfb2/schematic/sheet1" passed check :  0 Errors, 1 Warnings
+
+
+Check Schematic  "SCF_cmfb2/schematic/sheet1"
+Check Sheet "SCF_cmfb2/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$29        V$871
+           N$30        V$877
+           N$32        V$890
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   6 warnings  (MGC-required)
+  Warning:  Net name "phi2" connects the following nets:
+             N$29        N$62       N$84
+  Warning:  Net name "phi1" connects the following nets:
+             N$30        N$58       N$80
+  Warning:  Net name "Vb1" connects the following nets:
+             N$32        N$97       N$98
+  Warning:  Net name "AVdd" connects the following nets:
+             N$60        N$82       N$64       N$86
+  Warning:  Net name "AGnd" connects the following nets:
+             N$92        N$88
+  Warning:  Net name "Vocm" connects the following nets:
+             N$95        N$96
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "SCF_cmfb2/schematic/sheet1" passed check :  0 Errors, 7 Warnings
+
+Check Schematic Interface -------   2 errors   0 warnings
+  Error:  No net found for interface pin "Vb4".
+  Error:  No net found for interface pin "Vb4".
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "SCF_cmfb2/schematic/sheet1" failed check :  2 Errors, 7 Warnings
+
+
+Check Schematic  "SCF_cmfb2/schematic/sheet1"
+Check Sheet "SCF_cmfb2/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$29        V$871
+           N$30        V$877
+           N$32        V$890
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   6 warnings  (MGC-required)
+  Warning:  Net name "phi2" connects the following nets:
+             N$29        N$62       N$84
+  Warning:  Net name "phi1" connects the following nets:
+             N$30        N$58       N$80
+  Warning:  Net name "Vb1" connects the following nets:
+             N$32        N$97       N$98
+  Warning:  Net name "AVdd" connects the following nets:
+             N$60        N$82       N$64       N$86
+  Warning:  Net name "AGnd" connects the following nets:
+             N$92        N$88
+  Warning:  Net name "Vocm" connects the following nets:
+             N$95        N$96
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "SCF_cmfb2/schematic/sheet1" passed check :  0 Errors, 7 Warnings
+
+Check Schematic Interface -------   2 errors   0 warnings
+  Error:  No net found for interface pin "Vb4".
+  Error:  No net found for interface pin "Vb4".
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "SCF_cmfb2/schematic/sheet1" failed check :  2 Errors, 7 Warnings
+
+
+Check Schematic  "SCF_cmfb2/schematic/sheet1"
+Check Sheet "SCF_cmfb2/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$29        V$871
+           N$30        V$877
+           N$32        V$890
+           N$103       V$1442
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   6 warnings  (MGC-required)
+  Warning:  Net name "phi2" connects the following nets:
+             N$29        N$62       N$84
+  Warning:  Net name "phi1" connects the following nets:
+             N$30        N$58       N$80
+  Warning:  Net name "Vb1" connects the following nets:
+             N$32        N$97       N$98
+  Warning:  Net name "AVdd" connects the following nets:
+             N$60        N$82       N$64       N$86
+  Warning:  Net name "AGnd" connects the following nets:
+             N$92        N$88
+  Warning:  Net name "Vocm" connects the following nets:
+             N$95        N$96
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "SCF_cmfb2/schematic/sheet1" passed check :  0 Errors, 7 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "SCF_cmfb2/schematic/sheet1" passed check :  0 Errors, 7 Warnings
+
+
+Check Schematic  "SCF_cmfb2/schematic/sheet1"
+Check Sheet "SCF_cmfb2/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$29        V$871
+           N$30        V$877
+           N$32        V$890
+           N$103       V$1442
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   6 warnings  (MGC-required)
+  Warning:  Net name "phi2" connects the following nets:
+             N$29        N$62       N$84
+  Warning:  Net name "phi1" connects the following nets:
+             N$30        N$58       N$80
+  Warning:  Net name "Vb1" connects the following nets:
+             N$32        N$97       N$98
+  Warning:  Net name "AVdd" connects the following nets:
+             N$60        N$82       N$64       N$86
+  Warning:  Net name "AGnd" connects the following nets:
+             N$92        N$88
+  Warning:  Net name "Vocm" connects the following nets:
+             N$95        N$96
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "SCF_cmfb2/schematic/sheet1" passed check :  0 Errors, 7 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "SCF_cmfb2/schematic/sheet1" passed check :  0 Errors, 7 Warnings
+
+
+Check Schematic  "SCF_cmfb2/schematic/sheet1"
+Check Sheet "SCF_cmfb2/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   4 errors   0 warnings
+  Error:  I$31 overlaps I$46
+  Error:  I$32 overlaps I$47
+  Error:  I$36 overlaps I$48
+  Error:  I$45 overlaps I$47
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$29        V$871
+           N$30        V$877
+           N$32        V$890
+           N$103       V$1442
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   6 warnings  (MGC-required)
+  Warning:  Net name "phi2" connects the following nets:
+             N$29        N$62       N$84
+  Warning:  Net name "phi1" connects the following nets:
+             N$30        N$58       N$80
+  Warning:  Net name "Vb1" connects the following nets:
+             N$32        N$97       N$98
+  Warning:  Net name "AVdd" connects the following nets:
+             N$60        N$82       N$64       N$86
+  Warning:  Net name "AGnd" connects the following nets:
+             N$92        N$88
+  Warning:  Net name "Vocm" connects the following nets:
+             N$95        N$96
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "SCF_cmfb2/schematic/sheet1" failed check :  4 Errors, 7 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "SCF_cmfb2/schematic/sheet1" failed check :  4 Errors, 7 Warnings
+
+
+Check Schematic  "SCF_dcmfb/schematic/sheet1"
+Check Sheet "SCF_dcmfb/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   4 errors   0 warnings
+  Error:  I$48 overlaps I$36
+  Error:  I$31 overlaps I$46
+  Error:  I$32 overlaps I$47
+  Error:  I$45 overlaps I$47
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$29        V$871
+           N$30        V$877
+           N$32        V$890
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   6 warnings  (MGC-required)
+  Warning:  Net name "phi2" connects the following nets:
+             N$29        N$62       N$84
+  Warning:  Net name "phi1" connects the following nets:
+             N$30        N$58       N$80
+  Warning:  Net name "Vb1" connects the following nets:
+             N$32        N$97       N$98
+  Warning:  Net name "AVdd" connects the following nets:
+             N$60        N$82       N$64       N$86
+  Warning:  Net name "AGnd" connects the following nets:
+             N$92        N$88
+  Warning:  Net name "Vocm" connects the following nets:
+             N$95        N$96
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "SCF_dcmfb/schematic/sheet1" failed check :  4 Errors, 7 Warnings
+
+Check Schematic Interface -------   2 errors   0 warnings
+  Error:  No net found for interface pin "Vb4".
+  Error:  No net found for interface pin "Vb4".
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "SCF_dcmfb/schematic/sheet1" failed check :  6 Errors, 7 Warnings
+
+
+Check Schematic  "SCF_dcmfb/schematic/sheet1"
+Check Sheet "SCF_dcmfb/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   4 errors   0 warnings
+  Error:  I$48 overlaps I$36
+  Error:  I$31 overlaps I$46
+  Error:  I$32 overlaps I$47
+  Error:  I$45 overlaps I$47
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$29        V$871
+           N$30        V$877
+           N$32        V$890
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   6 warnings  (MGC-required)
+  Warning:  Net name "phi2" connects the following nets:
+             N$29        N$62       N$84
+  Warning:  Net name "phi1" connects the following nets:
+             N$30        N$58       N$80
+  Warning:  Net name "Vb1" connects the following nets:
+             N$32        N$97       N$98
+  Warning:  Net name "AVdd" connects the following nets:
+             N$60        N$82       N$64       N$86
+  Warning:  Net name "AGnd" connects the following nets:
+             N$92        N$88
+  Warning:  Net name "Vocm" connects the following nets:
+             N$95        N$96
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "SCF_dcmfb/schematic/sheet1" failed check :  4 Errors, 7 Warnings
+
+Check Schematic Interface -------   2 errors   0 warnings
+  Error:  No net found for interface pin "Vb4".
+  Error:  No net found for interface pin "Vb4".
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "SCF_dcmfb/schematic/sheet1" failed check :  6 Errors, 7 Warnings
+
+
+Check Symbol "SCF_dcmfb/SCF_dcmfb"
+Check Body -------   0 errors   0 warnings  (MGC-required)
+Check Interface --   0 errors   1 warnings
+  Warning:  The following pins on the interface are not on the symbol: Vb4
+
+Check Pin --------   0 errors   0 warnings  (MGC-required)
+Check Special ----   0 errors   0 warnings  (MGC-required)
+
+ "SCF_dcmfb/SCF_dcmfb" passed check :  0 Errors, 1 Warnings
+
+
+Check Schematic  "CSA_CF/schematic/sheet1"
+Check Sheet "CSA_CF/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   4 errors   0 warnings
+  Error:  I$1 overlaps I$3
+  Error:  I$2 overlaps I$8
+  Error:  I$3 overlaps I$9
+  Error:  I$4 overlaps I$10
+
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$2         V$13
+           N$1         V$22
+           N$3         V$31
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   6 warnings  (MGC-required)
+  Warning:  Net name "phi1" connects the following nets:
+             N$2         N$20       N$22
+  Warning:  Net name "phi2" connects the following nets:
+             N$1         N$18       N$24
+  Warning:  Net name "Vb1" connects the following nets:
+             N$3         N$10       N$16
+  Warning:  Net name "Vocm" connects the following nets:
+             N$11        N$15
+  Warning:  Net name "AGnd" connects the following nets:
+             N$6         N$4
+  Warning:  Net name "AVdd" connects the following nets:
+             N$17        N$19       N$21       N$23
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "CSA_CF/schematic/sheet1" failed check :  4 Errors, 7 Warnings
+
+Check Schematic Interface -------   0 errors   1 warnings
+  Warning:  Interface "CSA_CF" has no pins
+
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "CSA_CF/schematic/sheet1" failed check :  4 Errors, 8 Warnings
+
+
+Check Symbol "SCF_bias/SCF_bias"
+Check Body -------   0 errors   0 warnings  (MGC-required)
+Check Interface --   0 errors   1 warnings
+  Warning:  The following pins on the interface are not on the symbol: Vb4
+
+Check Pin --------   0 errors   0 warnings  (MGC-required)
+Check Special ----   0 errors   0 warnings  (MGC-required)
+
+ "SCF_bias/SCF_bias" passed check :  0 Errors, 1 Warnings
+
+
+Check Schematic  "SCF/schematic/sheet1"
+Check Sheet "SCF/schematic/sheet1"
+Check SymbolPins --------   0 errors   0 warnings  (MGC-required)
+Check Overlap -----------   0 errors   0 warnings
+Check NotDots -----------   0 errors   0 warnings
+Check Closedots ---------   0 errors   0 warnings
+Check Dangle ------------   0 errors   1 warnings
+  Warning:  Dangling (unnamed) vertices on
+           Net(s)      at Vertex(s):
+           N$64        V$796
+           N$63        V$792
+
+Check INIT Properties ---   0 errors   0 warnings
+Check Function Blocks ---   0 errors   0 warnings
+Check Owner -------------   0 errors   0 warnings
+Check Instance ----------   0 errors   0 warnings  (MGC-required)
+Check Special -----------   0 errors   0 warnings  (MGC-required)
+Check Net ---------------   0 errors   3 warnings  (MGC-required)
+  Warning:  Net name "Vb1" connects the following nets:
+             N$62        N$72
+  Warning:  Net name "phi2" connects the following nets:
+             N$64        N$74
+  Warning:  Net name "phi1" connects the following nets:
+             N$71        N$63
+
+Check Frame -------------   0 errors   0 warnings  (MGC-required)
+
+ "SCF/schematic/sheet1" passed check :  0 Errors, 4 Warnings
+
+Check Schematic Interface -------   0 errors   0 warnings
+Check Schematic Instance --------   0 errors   0 warnings
+Check Schematic Special ---------   0 errors   0 warnings
+Check Schematic Net -------------   0 errors   0 warnings
+Check Schematic Function Blocks -   0 errors   0 warnings
+
+ "SCF/schematic/sheet1" passed check :  0 Errors, 4 Warnings

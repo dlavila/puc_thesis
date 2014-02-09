@@ -1,0 +1,12 @@
+A 5 u Eddm_design_viewpoint 52eaa0e84bf6.03.7f.00.00.01.00.6c.a2 1 2 4 0
+V v 1 4 52eaa0e84bf6.03.7f.00.00.01.01.6c.a2
+F f 1 "SDL.dvpt_1"
+F o 0 
+F o 0 
+F o 0 
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$SC_filter/default.group/logic.views/PAD/part" 1 Eddm_part 52eaa0dd1135.03.7f.00.00.01.00.1d.99 52eaa0dd1134.03.7f.00.00.01.00.1d.99
+R cspuv 1 "$SC_filter/default.group/logic.views/PAD/schematic" 3 mgc_schematic 52eaa0dd9497.03.7f.00.00.01.00.1d.99 52eaa0cfc466.03.7f.00.00.01.00.1d.99
+R cspuv 2 "$MGC_DESIGN_KIT/symbols/PAD_RF/part" 22 Eddm_part 462e1fa45895.03.7f.00.00.01.00.54.63 461b99b06973.03.89.ca.19.1a.00.4f.21
+R cspuv 3 "$MGC_DESIGN_KIT/symbols/PAD_RF/PAD_RF" 5 mgc_symbol 462e1fa4588a.03.7f.00.00.01.00.54.63 461b99b39362.03.89.ca.19.1a.00.4f.21

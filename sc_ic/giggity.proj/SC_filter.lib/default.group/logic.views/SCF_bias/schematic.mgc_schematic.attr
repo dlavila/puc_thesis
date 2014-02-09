@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 52f3f2b83948.03.7f.00.00.01.00.66.ab 22 2 1 0
+V v 20 1 52f701c8c41f.03.7f.00.00.01.00.28.61
+F o 0 ""
+V v 21 1 52f701c95856.03.7f.00.00.01.00.28.61
+F o 0 ""
+V v 22 1 52f701c9c266.03.7f.00.00.01.00.28.61
+F o 0 ""
+O 22
+R cspuv 0 "$SC_filter/default.group/logic.views/SCF_bias/schematic/sheet1" 21 mgc_sheet 52f701c9c245.03.7f.00.00.01.00.28.61 52f3f2b83add.03.7f.00.00.01.00.66.ab
+O 21
+R cspuv 0 "$SC_filter/default.group/logic.views/SCF_bias/schematic/sheet1" 20 mgc_sheet 52f701c95841.03.7f.00.00.01.00.28.61 52f3f2b83add.03.7f.00.00.01.00.66.ab
+O 20
+R cspuv 0 "$SC_filter/default.group/logic.views/SCF_bias/schematic/sheet1" 19 mgc_sheet 52f701c8c36b.03.7f.00.00.01.00.28.61 52f3f2b83add.03.7f.00.00.01.00.66.ab

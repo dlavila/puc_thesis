@@ -1,0 +1,20 @@
+A 5 u Eddm_ba_mgr 52d035ae0716.03.7f.00.00.01.00.14.df 3 2 5 0
+V v 1 1 52d035ae0716.03.7f.00.00.01.01.14.df
+F f 1 "eldonet.ba_1"
+V v 2 1 52d041a538b9.03.7f.00.00.01.00.14.df
+F f 2 "eldonet.ba_2"
+V v 3 1 52d048f720a7.03.7f.00.00.01.00.14.df
+F f 3 "eldonet.ba_3"
+O 3
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 3 "$SC_filter/default.group/logic.views/testBufferPLS/eldonet" 22 Eddm_design_viewpoint 52d048f7206b.03.7f.00.00.01.00.14.df 52d035ae0587.03.7f.00.00.01.00.14.df
+R cspuv 4 "$SC_filter/default.group/logic.views/testBufferPLS/schematic" 21 mgc_schematic 52d048eec496.03.7f.00.00.01.00.14.df 52d03546950b.03.7f.00.00.01.00.11.aa
+P "eddm__refer_state" "eddm__refer_floating"
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 1 "$SC_filter/default.group/logic.views/testBufferPLS/eldonet" 9 Eddm_design_viewpoint 52d041a53893.03.7f.00.00.01.00.14.df 52d035ae0587.03.7f.00.00.01.00.14.df
+R cspuv 2 "$SC_filter/default.group/logic.views/testBufferPLS/schematic" 7 mgc_schematic 52d0416601cb.03.7f.00.00.01.00.14.df 52d03546950b.03.7f.00.00.01.00.11.aa
+P "eddm__refer_state" "eddm__refer_floating"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$SC_filter/default.group/logic.views/testBufferPLS/eldonet" 1 Eddm_design_viewpoint 52d035ae0587.03.7f.00.00.01.01.14.df 52d035ae0587.03.7f.00.00.01.00.14.df

@@ -1,0 +1,503 @@
+
+
+
+                  ##################################################
+                  ##                                              ##
+                  ##         C A L I B R E    S Y S T E M         ##
+                  ##                                              ##
+                  ##             L V S   R E P O R T              ##
+                  ##                                              ##
+                  ##################################################
+
+
+
+REPORT FILE NAME:         lvs.report
+LAYOUT NAME:              /home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib/default.group/layout.views/CSA_CF/CSA_CF.cal/lay.net ('CSA_CF')
+SOURCE NAME:              /home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib/default.group/layout.views/CSA_CF/CSA_CF.cal/CSA_CF.calibre.src.net ('CSA_CF')
+RULE FILE:                /home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib/default.group/layout.views/CSA_CF/CSA_CF.cal/_G-DF-MIXED_MODE_RFCMOS18-1.8V_3.3V-1P6M-MMC_CALIBRE-LVS-2.1-P4.txt_
+RULE FILE TITLE:          LVS of UMC 0.18um 1.8V/3.3V 1P6M MMC Mixed Mode/RFCMOS Process
+CREATION TIME:            Sat Feb  8 22:12:29 2014
+CURRENT DIRECTORY:        /home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib/default.group/layout.views/CSA_CF/CSA_CF.cal
+USER NAME:                dlavila
+CALIBRE VERSION:          v2013.2_18.13    Thu May 16 13:39:43 PDT 2013
+
+
+
+                               OVERALL COMPARISON RESULTS
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Connectivity errors.
+
+
+**************************************************************************************************************
+                                      CELL  SUMMARY
+**************************************************************************************************************
+
+  Result         Layout                        Source
+  -----------    -----------                   --------------
+  INCORRECT      CSA_CF                        CSA_CF
+
+
+
+**************************************************************************************************************
+                                      LVS PARAMETERS
+**************************************************************************************************************
+
+
+o LVS Setup:
+
+   // LVS COMPONENT TYPE PROPERTY
+   // LVS COMPONENT SUBTYPE PROPERTY
+   // LVS PIN NAME PROPERTY
+   LVS POWER NAME                         "?VDD?" "?VCC?"
+   LVS GROUND NAME                        "?VSS?" "?GND?"
+   LVS CELL SUPPLY                        NO
+   LVS RECOGNIZE GATES                    ALL
+   LVS IGNORE PORTS                       NO
+   LVS CHECK PORT NAMES                   YES
+   LVS IGNORE TRIVIAL NAMED PORTS         NO
+   LVS BUILTIN DEVICE PIN SWAP            YES
+   LVS ALL CAPACITOR PINS SWAPPABLE       NO
+   LVS DISCARD PINS BY DEVICE             NO
+   LVS SOFT SUBSTRATE PINS                NO
+   LVS INJECT LOGIC                       YES
+   LVS EXPAND UNBALANCED CELLS            YES
+   LVS FLATTEN INSIDE CELL                NO
+   LVS EXPAND SEED PROMOTIONS             YES
+   LVS PRESERVE PARAMETERIZED CELLS       NO
+   LVS GLOBALS ARE PORTS                  YES
+   LVS REVERSE WL                         NO
+   LVS SPICE PREFER PINS                  NO
+   LVS SPICE SLASH IS SPACE               YES
+   LVS SPICE ALLOW FLOATING PINS          YES
+   // LVS SPICE ALLOW INLINE PARAMETERS     
+   LVS SPICE ALLOW UNQUOTED STRINGS       NO
+   LVS SPICE CONDITIONAL LDD              NO
+   LVS SPICE CULL PRIMITIVE SUBCIRCUITS   NO
+   LVS SPICE IMPLIED MOS AREA             NO
+   // LVS SPICE MULTIPLIER NAME
+   LVS SPICE OVERRIDE GLOBALS             NO
+   LVS SPICE REDEFINE PARAM               NO
+   LVS SPICE REPLICATE DEVICES            YES
+   LVS SPICE SCALE X PARAMETERS           NO
+   LVS SPICE STRICT WL                    NO
+   // LVS SPICE OPTION
+   LVS STRICT SUBTYPES                    NO
+   LVS EXACT SUBTYPES                     NO
+   LAYOUT CASE                            NO
+   SOURCE CASE                            NO
+   LVS COMPARE CASE                       NO
+   LVS DOWNCASE DEVICE                    NO
+   LVS REPORT MAXIMUM                     50
+   LVS PROPERTY RESOLUTION MAXIMUM        32
+   // LVS SIGNATURE MAXIMUM
+   // LVS FILTER UNUSED OPTION
+   // LVS REPORT OPTION
+   LVS REPORT UNITS                       YES
+   // LVS NON USER NAME PORT
+   // LVS NON USER NAME NET
+   // LVS NON USER NAME INSTANCE
+
+   // Reduction
+
+   LVS REDUCE SERIES MOS                  NO
+   LVS REDUCE PARALLEL MOS                YES
+   LVS REDUCE SEMI SERIES MOS             NO
+   LVS REDUCE SPLIT GATES                 YES
+   LVS REDUCE PARALLEL BIPOLAR            YES
+   LVS REDUCE SERIES CAPACITORS           YES
+   LVS REDUCE PARALLEL CAPACITORS         YES
+   LVS REDUCE SERIES RESISTORS            YES
+   LVS REDUCE PARALLEL RESISTORS          NO
+   LVS REDUCE PARALLEL DIODES             YES
+
+   LVS REDUCE  C(MIMCAPM_RF)  PARALLEL NO
+   LVS REDUCTION PRIORITY                 PARALLEL
+   
+   LVS SHORT EQUIVALENT NODES             NO
+
+   // Trace Property
+
+   TRACE PROPERTY  mn(n_18_g2)  l l 3
+   TRACE PROPERTY  mn(n_18_g2)  w w 3
+   TRACE PROPERTY  mp(p_18_g2)  l l 3
+   TRACE PROPERTY  mp(p_18_g2)  w w 3
+   TRACE PROPERTY  mn(n_18_mm)  l l 3
+   TRACE PROPERTY  mn(n_18_mm)  w w 3
+   TRACE PROPERTY  mp(p_18_mm)  l l 3
+   TRACE PROPERTY  mp(p_18_mm)  w w 3
+   TRACE PROPERTY  mn(n_lv_18_mm)  l l 3
+   TRACE PROPERTY  mn(n_lv_18_mm)  w w 3
+   TRACE PROPERTY  mp(p_lv_18_mm)  l l 3
+   TRACE PROPERTY  mp(p_lv_18_mm)  w w 3
+   TRACE PROPERTY  mn(n_33_g2)  l l 3
+   TRACE PROPERTY  mn(n_33_g2)  w w 3
+   TRACE PROPERTY  mp(p_33_g2)  l l 3
+   TRACE PROPERTY  mp(p_33_g2)  w w 3
+   TRACE PROPERTY  mn(n_33_mm)  l l 3
+   TRACE PROPERTY  mn(n_33_mm)  w w 3
+   TRACE PROPERTY  mp(p_33_mm)  l l 3
+   TRACE PROPERTY  mp(p_33_mm)  w w 3
+   TRACE PROPERTY  mn(n_lv_33_mm)  l l 3
+   TRACE PROPERTY  mn(n_lv_33_mm)  w w 3
+   TRACE PROPERTY  mp(p_lv_33_mm)  l l 3
+   TRACE PROPERTY  mp(p_lv_33_mm)  w w 3
+   TRACE PROPERTY  mn(n_zero_18_mm)  l l 3
+   TRACE PROPERTY  mn(n_zero_18_mm)  w w 3
+   TRACE PROPERTY  mn(n_zero_33_mm)  l l 3
+   TRACE PROPERTY  mn(n_zero_33_mm)  w w 3
+   TRACE PROPERTY  mn(n_bpw_18_mm)  l l 3
+   TRACE PROPERTY  mn(n_bpw_18_mm)  w w 3
+   TRACE PROPERTY  mn(n_bpw_33_mm)  l l 3
+   TRACE PROPERTY  mn(n_bpw_33_mm)  w w 3
+   TRACE PROPERTY  mn(n_pg400_g2)  l l 3
+   TRACE PROPERTY  mn(n_pg400_g2)  w w 3
+   TRACE PROPERTY  mn(n_pd400_g2)  l l 3
+   TRACE PROPERTY  mn(n_pd400_g2)  w w 3
+   TRACE PROPERTY  mp(p_l400_g2)  l l 3
+   TRACE PROPERTY  mp(p_l400_g2)  w w 3
+   TRACE PROPERTY  mn(n_pg1020_g2)  l l 3
+   TRACE PROPERTY  mn(n_pg1020_g2)  w w 3
+   TRACE PROPERTY  mn(n_pd1020_g2)  l l 3
+   TRACE PROPERTY  mn(n_pd1020_g2)  w w 3
+   TRACE PROPERTY  mp(p_l1020_g2)  l l 3
+   TRACE PROPERTY  mp(p_l1020_g2)  w w 3
+   TRACE PROPERTY  r(rsnwell)  r r 3
+   TRACE PROPERTY  r(rsnd)  r r 3
+   TRACE PROPERTY  r(rspd)  r r 3
+   TRACE PROPERTY  r(rsnpo)  r r 3
+   TRACE PROPERTY  r(rsppo)  r r 3
+   TRACE PROPERTY  r(rnnd)  r r 3
+   TRACE PROPERTY  r(rnpd)  r r 3
+   TRACE PROPERTY  r(rnnpo)  r r 3
+   TRACE PROPERTY  r(rnppo)  r r 3
+   TRACE PROPERTY  r(rm1_mm)  r r 3
+   TRACE PROPERTY  r(rm2_mm)  r r 3
+   TRACE PROPERTY  r(rm3_mm)  r r 3
+   TRACE PROPERTY  r(rm4_mm)  r r 3
+   TRACE PROPERTY  r(rm5_mm)  r r 3
+   TRACE PROPERTY  r(rm6_mm)  r r 3
+   TRACE PROPERTY  d(dion_g2)  p p 3
+   TRACE PROPERTY  d(dion_g2)  a a 3
+   TRACE PROPERTY  d(diop_g2)  a a 3
+   TRACE PROPERTY  d(diop_g2)  p p 3
+   TRACE PROPERTY  d(dionw_g2)  a a 3
+   TRACE PROPERTY  d(dionw_g2)  p p 3
+   TRACE PROPERTY  d(dion_mm)  a a 3
+   TRACE PROPERTY  d(dion_mm)  p p 3
+   TRACE PROPERTY  d(diop_mm)  a a 3
+   TRACE PROPERTY  d(diop_mm)  p p 3
+   TRACE PROPERTY  d(dionw_mm)  a a 3
+   TRACE PROPERTY  d(dionw_mm)  p p 3
+
+
+
+                   CELL COMPARISON RESULTS ( TOP LEVEL )
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Connectivity errors.
+
+LAYOUT CELL NAME:         CSA_CF
+SOURCE CELL NAME:         CSA_CF
+
+--------------------------------------------------------------------------------------------------------------
+
+INITIAL NUMBERS OF OBJECTS
+--------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              9         9
+
+ Nets:              21        21
+
+ Instances:         40        40         MN (4 pins)
+                    40        40         MP (4 pins)
+                     8         8         C (2 pins)
+                ------    ------
+ Total Inst:        88        88
+
+
+NUMBERS OF OBJECTS AFTER TRANSFORMATION
+---------------------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              9         9
+
+ Nets:              21        21
+
+ Instances:          8         8         MN (4 pins)
+                     8         8         MP (4 pins)
+                     4         4         C (2 pins)
+                     8         8         _invv (4 pins)
+                ------    ------
+ Total Inst:        28        28
+
+
+
+**************************************************************************************************************
+                                 INCORRECT OBJECTS
+**************************************************************************************************************
+
+
+LEGEND:
+-------
+
+  ne  = Naming Error (same layout name found in source
+        circuit, but object was matched otherwise).
+
+
+**************************************************************************************************************
+                                   INCORRECT NETS
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+  1    Net AGND                                                  AGND
+       --------------------------                                --------------------------
+       
+       ** missing connection **                                  X_SWITCH_X41/M11:b
+       ** missing connection **                                  X_SWITCH_X42/M11:b
+       ** missing connection **                                  X_SWITCH_X43/M11:b
+       ** missing connection **                                  X_SWITCH_X44/M11:b
+       ** missing connection **                                  X_SWITCH_X45/M11:b
+       ** missing connection **                                  X_SWITCH_X46/M11:b
+       ** missing connection **                                  X_SWITCH_X47/M11:b
+       ** missing connection **                                  X_SWITCH_X48/M11:b
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  2    Net AVDD                                                  AVDD
+       --------------------------                                --------------------------
+       
+       X15/M6(15.690,25.600):b                                   ** missing connection **
+       X14/M6(15.690,23.880):b                                   ** missing connection **
+       X13/M6(15.690,2.430):b                                    ** missing connection **
+       X12/M6(15.690,0.710):b                                    ** missing connection **
+       X11/M6(-2.400,25.600):b                                   ** missing connection **
+       X10/M6(-2.400,23.880):b                                   ** missing connection **
+       X9/M6(-2.400,2.430):b                                     ** missing connection **
+       X8/M6(-2.400,0.710):b                                     ** missing connection **
+       
+
+
+**************************************************************************************************************
+                                 INCORRECT INSTANCES
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+  3    X14/M5(13.670,23.880)  MN(N_18_MM)                        X_SWITCH_X42/M1  MN(N_18_MM)
+         g: PHI1                                                   g: PHI1
+         s: X14/6                                                  s: X_SWITCH_X42/N$40
+         d: AGND                                                   d: AGND
+         b: AVDD                                                   ** AVDD **
+         ** AGND **                                                b: AGND
+
+--------------------------------------------------------------------------------------------------------------
+
+  4    X13/M5(13.670,2.430)  MN(N_18_MM)                         X_SWITCH_X48/M1  MN(N_18_MM)
+         g: PHI1                                                   g: PHI1
+         s: X13/6                                                  s: X_SWITCH_X48/N$40
+         d: AGND                                                   d: AGND
+         b: AVDD                                                   ** AVDD **
+         ** AGND **                                                b: AGND
+
+--------------------------------------------------------------------------------------------------------------
+
+  5    X12/M5(13.670,0.710)  MN(N_18_MM)                         X_SWITCH_X45/M1  MN(N_18_MM)
+         g: PHI1                                                   g: PHI1
+         s: X12/6                                                  s: X_SWITCH_X45/N$40
+         d: AGND                                                   d: AGND
+         b: AVDD                                                   ** AVDD **
+         ** AGND **                                                b: AGND
+
+--------------------------------------------------------------------------------------------------------------
+
+  6    X11/M5(-4.420,25.600)  MN(N_18_MM)                        X_SWITCH_X43/M1  MN(N_18_MM)
+         g: PHI2                                                   g: PHI2
+         s: X11/6                                                  s: X_SWITCH_X43/N$40
+         d: AGND                                                   d: AGND
+         b: AVDD                                                   ** AVDD **
+         ** AGND **                                                b: AGND
+
+--------------------------------------------------------------------------------------------------------------
+
+  7    X10/M5(-4.420,23.880)  MN(N_18_MM)                        X_SWITCH_X41/M1  MN(N_18_MM)
+         g: PHI2                                                   g: PHI2
+         s: X10/6                                                  s: X_SWITCH_X41/N$40
+         d: AGND                                                   d: AGND
+         b: AVDD                                                   ** AVDD **
+         ** AGND **                                                b: AGND
+
+--------------------------------------------------------------------------------------------------------------
+
+  8    X9/M5(-4.420,2.430)  MN(N_18_MM)                          X_SWITCH_X47/M1  MN(N_18_MM)
+         g: PHI2                                                   g: PHI2
+         s: X9/6                                                   s: X_SWITCH_X47/N$40
+         d: AGND                                                   d: AGND
+         b: AVDD                                                   ** AVDD **
+         ** AGND **                                                b: AGND
+
+--------------------------------------------------------------------------------------------------------------
+
+  9    X8/M5(-4.420,0.710)  MN(N_18_MM)                          X_SWITCH_X46/M1  MN(N_18_MM)
+         g: PHI2                                                   g: PHI2
+         s: X8/6                                                   s: X_SWITCH_X46/N$40
+         d: AGND                                                   d: AGND
+         b: AVDD                                                   ** AVDD **
+         ** AGND **                                                b: AGND
+
+--------------------------------------------------------------------------------------------------------------
+
+ 10    X15/M5(13.670,25.600)  MN(N_18_MM)                        X_SWITCH_X44/M1  MN(N_18_MM)
+         g: PHI1                                                   g: PHI1
+         s: X15/6                                                  s: X_SWITCH_X44/N$40
+         d: AGND                                                   d: AGND
+         b: AVDD                                                   ** AVDD **
+         ** AGND **                                                b: AGND
+
+
+
+**************************************************************************************************************
+                               INFORMATION AND WARNINGS
+**************************************************************************************************************
+
+
+                  Matched    Matched    Unmatched    Unmatched    Component
+                   Layout     Source       Layout       Source    Type
+                  -------    -------    ---------    ---------    ---------
+   Ports:               9          9            0            0
+
+   Nets:               21         21            0            0
+
+   Instances:           8          8            0            0    MN(N_18_MM)
+                        8          8            0            0    MP(P_18_MM)
+                        4          4            0            0    C(MIMCAPS_MM)
+                        8          8            0            0    _invv
+                  -------    -------    ---------    ---------
+   Total Inst:         28         28            0            0
+
+
+o Statistics:
+
+   64 layout mos transistors were reduced to 16.
+     48 mos transistors were deleted by parallel reduction.
+   64 source mos transistors were reduced to 16.
+     48 mos transistors were deleted by parallel reduction.
+
+   8 parallel layout capacitors were reduced to 4.
+   8 parallel source capacitors were reduced to 4.
+
+
+o Initial Correspondence Points:
+
+   Ports:        AVDD AGND VO- VO+ PHI2 VOCM VB1 PHI1 CMFB
+
+
+**************************************************************************************************************
+                             DETAILED INSTANCE CONNECTIONS
+
+       LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+          (This section contains detailed information about connections of
+           matched instances that are involved in net discrepancies).
+
+--------------------------------------------------------------------------------------------------------------
+
+       X8/M6(-2.400,0.710)  MN(N_18_MM)                          X_SWITCH_X46/M11  MN(N_18_MM)
+         g: PHI2                                                   g: PHI2
+         s: VOCM                                                   s: VOCM
+         d: 3                                                      d: N$12
+         b: AVDD                                                   ** AVDD **
+         ** AGND **                                                b: AGND
+
+--------------------------------------------------------------------------------------------------------------
+
+       X9/M6(-2.400,2.430)  MN(N_18_MM)                          X_SWITCH_X47/M11  MN(N_18_MM)
+         g: PHI2                                                   g: PHI2
+         s: VB1                                                    s: VB1
+         d: 10                                                     d: N$13
+         b: AVDD                                                   ** AVDD **
+         ** AGND **                                                b: AGND
+
+--------------------------------------------------------------------------------------------------------------
+
+       X10/M6(-2.400,23.880)  MN(N_18_MM)                        X_SWITCH_X41/M11  MN(N_18_MM)
+         g: PHI2                                                   g: PHI2
+         s: VB1                                                    s: VB1
+         d: 11                                                     d: N$5
+         b: AVDD                                                   ** AVDD **
+         ** AGND **                                                b: AGND
+
+--------------------------------------------------------------------------------------------------------------
+
+       X11/M6(-2.400,25.600)  MN(N_18_MM)                        X_SWITCH_X43/M11  MN(N_18_MM)
+         g: PHI2                                                   g: PHI2
+         s: VOCM                                                   s: VOCM
+         d: 4                                                      d: N$7
+         b: AVDD                                                   ** AVDD **
+         ** AGND **                                                b: AGND
+
+--------------------------------------------------------------------------------------------------------------
+
+       X12/M6(15.690,0.710)  MN(N_18_MM)                         X_SWITCH_X45/M11  MN(N_18_MM)
+         g: PHI1                                                   g: PHI1
+         s: 3                                                      s: N$12
+         d: VO-                                                    d: VO-
+         b: AVDD                                                   ** AVDD **
+         ** AGND **                                                b: AGND
+
+--------------------------------------------------------------------------------------------------------------
+
+       X13/M6(15.690,2.430)  MN(N_18_MM)                         X_SWITCH_X48/M11  MN(N_18_MM)
+         g: PHI1                                                   g: PHI1
+         s: 10                                                     s: N$13
+         d: CMFB                                                   d: CMFB
+         b: AVDD                                                   ** AVDD **
+         ** AGND **                                                b: AGND
+
+--------------------------------------------------------------------------------------------------------------
+
+       X14/M6(15.690,23.880)  MN(N_18_MM)                        X_SWITCH_X42/M11  MN(N_18_MM)
+         g: PHI1                                                   g: PHI1
+         s: 11                                                     s: N$5
+         d: CMFB                                                   d: CMFB
+         b: AVDD                                                   ** AVDD **
+         ** AGND **                                                b: AGND
+
+--------------------------------------------------------------------------------------------------------------
+
+       X15/M6(15.690,25.600)  MN(N_18_MM)                        X_SWITCH_X44/M11  MN(N_18_MM)
+         g: PHI1                                                   g: PHI1
+         s: 4                                                      s: N$7
+         d: VO+                                                    d: VO+
+         b: AVDD                                                   ** AVDD **
+         ** AGND **                                                b: AGND
+
+
+**************************************************************************************************************
+                                         SUMMARY
+**************************************************************************************************************
+
+Total CPU Time:      0 sec
+Total Elapsed Time:  0 sec

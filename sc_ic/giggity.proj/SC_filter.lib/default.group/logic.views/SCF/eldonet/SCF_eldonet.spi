@@ -1,0 +1,139 @@
+* ELDO netlist generated with ICnet by 'dlavila' on Sat Feb  8 2014 at 17:52:34
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/SCF_cmfb
+*
+.subckt SCF_CMFB  CMFB AGND AVDD VB4 VO+ VO- VOCM
+
+        M25 CMFB CMFB AVDD AVDD p_18_mm l=1u w=4u ad=1.08p as=1.3p pd=4.54u
++  ps=5.65u m=8
+        M31 N$6 VB4 AGND AGND n_18_mm l=0.45u w=2.5u ad=0.675p as=0.95p
++  pd=3.04u ps=4.51u m=4
+        M30 N$2 VB4 AGND AGND n_18_mm l=0.45u w=2.5u ad=0.675p as=0.95p
++  pd=3.04u ps=4.51u m=4
+        M29 N$4 VO- N$6 AGND n_18_mm l=2u w=2.5u ad=0.675p as=0.744p pd=3.04u
++  ps=3.408u m=16
+        M27 CMFB VOCM N$6 AGND n_18_mm l=2u w=2.5u ad=0.675p as=0.744p pd=3.04u
++  ps=3.408u m=16
+        M26 CMFB VOCM N$2 AGND n_18_mm l=2u w=2.5u ad=0.675p as=0.744p pd=3.04u
++  ps=3.408u m=16
+        M23 N$4 N$4 AVDD AVDD p_18_mm l=1u w=4u ad=1.08p as=1.3p pd=4.54u
++  ps=5.65u m=8
+        M28 N$4 VO+ N$2 AGND n_18_mm l=2u w=2.5u ad=0.675p as=0.744p pd=3.04u
++  ps=3.408u m=16
+.ends SCF_CMFB
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/SCF_bias
+*
+.subckt SCF_BIAS  VB2 VB3 VB4 AGND AVDD IREF
+
+        M24 VB2 VB5 AGND AGND n_18_mm l=0.45u w=2u ad=0.98p as=0.98p pd=4.98u
++  ps=4.98u m=1
+        M18 VB5 VB5 AGND AGND n_18_mm l=0.45u w=2u ad=0.98p as=0.98p pd=4.98u
++  ps=4.98u m=1
+        M22 N$41 N$41 AVDD AVDD p_18_mm l=1u w=4u ad=1.08p as=1.52p pd=4.54u
++  ps=6.76u m=4
+        M20 VB2 VB2 N$41 AVDD p_18_mm l=0.3u w=2u ad=0.54p as=0.76p pd=2.54u
++  ps=3.76u m=4
+        M21 VB3 VB3 VB4 AGND n_18_mm l=0.45u w=2u ad=0.54p as=0.98p pd=2.54u
++  ps=4.98u m=2
+        M19 VB4 VB4 AGND AGND n_18_mm l=0.45u w=2u ad=0.98p as=0.98p pd=4.98u
++  ps=4.98u m=1
+        M17 VB5 IREF AVDD AVDD p_18_mm l=0.45u w=1u ad=0.27p as=0.38p pd=1.54u
++  ps=2.26u m=4
+        M16 VB3 IREF AVDD AVDD p_18_mm l=0.45u w=1u ad=0.27p as=0.38p pd=1.54u
++  ps=2.26u m=4
+        M15 IREF IREF AVDD AVDD p_18_mm l=0.45u w=1u ad=0.27p as=0.325p
++  pd=1.54u ps=1.9u m=8
+.ends SCF_BIAS
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/SCF_ota
+*
+.subckt SCF_OTA  VO+ VO- AGND AVDD CMFB IREF VB2 VB3 VI+ VI-
+
+        M14 ND4 N$542 AGND AGND n_18_mm l=0.45u w=2u ad=0.54p as=0.76p pd=2.54u
++  ps=3.76u m=4
+        M4 N$542 VB3 N$64 AGND n_18_mm l=0.18u w=1u ad=0.27p as=0.49p pd=1.54u
++  ps=2.98u m=2
+        M51 VO- N$1117 VO- AGND n_18_mm l=0.45u w=2u ad=0.98p as=0.98p pd=4.98u
++  ps=4.98u m=1
+        M50 VO- N$1114 VO- AGND n_18_mm l=0.45u w=2u ad=0.98p as=0.98p pd=4.98u
++  ps=4.98u m=1
+        M7 VO- VB2 ND1 AVDD p_18_mm l=0.3u w=2u ad=0.54p as=0.65p pd=2.54u
++  ps=3.15u m=8
+        M13 ND3 N$559 AGND AGND n_18_mm l=0.45u w=2u ad=0.54p as=0.76p pd=2.54u
++  ps=3.76u m=4
+        M0 N$435 IREF AVDD AVDD p_18_mm l=0.45u w=8u ad=2.16p as=2.6p pd=8.54u
++  ps=10.65u m=8
+        M3B ND2 N$559 AGND AGND n_18_mm l=0.45u w=2u ad=0.54p as=0.98p pd=2.54u
++  ps=4.98u m=2
+        M10 N$1000 CMFB AVDD AVDD p_18_mm l=1u w=4u ad=1.08p as=1.3p pd=4.54u
++  ps=5.65u m=8
+        M9 ND1 CMFB AVDD AVDD p_18_mm l=1u w=4u ad=1.08p as=1.3p pd=4.54u
++  ps=5.65u m=8
+        M11 N$559 VB3 ND2 AGND n_18_mm l=0.18u w=1u ad=0.27p as=0.49p pd=1.54u
++  ps=2.98u m=2
+        M12 N$64 N$542 AGND AGND n_18_mm l=0.45u w=2u ad=0.54p as=0.98p
++  pd=2.54u ps=4.98u m=2
+        M49 VO- N$1108 VO- AGND n_18_mm l=0.45u w=2u ad=0.98p as=0.98p pd=4.98u
++  ps=4.98u m=1
+        M6 ND4 VI- N$435 N$435 p_18_mm l=0.36u w=6u ad=1.62p as=1.95p pd=6.54u
++  ps=8.15u m=8
+        M8 VO+ VB2 N$1000 AVDD p_18_mm l=0.3u w=2u ad=0.54p as=0.65p pd=2.54u
++  ps=3.15u m=8
+        M3 VO- VB3 ND3 AGND n_18_mm l=0.45u w=2u ad=0.54p as=0.76p pd=2.54u
++  ps=3.76u m=4
+        M5 VO+ VB3 ND4 AGND n_18_mm l=0.45u w=2u ad=0.54p as=0.76p pd=2.54u
++  ps=3.76u m=4
+        M2 N$559 VI- N$435 N$435 p_18_mm l=0.36u w=6u ad=1.62p as=1.95p
++  pd=6.54u ps=8.15u m=8
+        M42 ND2 N$1085 ND2 AGND n_18_mm l=0.45u w=2u ad=0.98p as=0.98p pd=4.98u
++  ps=4.98u m=1
+        M41 ND2 N$1081 ND2 AGND n_18_mm l=0.18u w=1u ad=0.49p as=0.49p pd=2.98u
++  ps=2.98u m=1
+        M40 ND2 N$1078 ND2 AGND n_18_mm l=0.18u w=1u ad=0.49p as=0.49p pd=2.98u
++  ps=2.98u m=1
+        M39 ND1 N$1072 ND1 AVDD p_18_mm l=1u w=4u ad=1.96p as=1.96p pd=8.98u
++  ps=8.98u m=1
+        M38 ND1 N$1071 ND1 AVDD p_18_mm l=1u w=4u ad=1.96p as=1.96p pd=8.98u
++  ps=8.98u m=1
+        M37 ND1 N$1070 ND1 AVDD p_18_mm l=1u w=4u ad=1.96p as=1.96p pd=8.98u
++  ps=8.98u m=1
+        M36 ND1 N$1118 ND1 AVDD p_18_mm l=1u w=4u ad=1.96p as=1.96p pd=8.98u
++  ps=8.98u m=1
+        M35 VO- N$1056 VO- AVDD p_18_mm l=0.3u w=2u ad=0.98p as=0.98p pd=4.98u
++  ps=4.98u m=1
+        M34 VO- N$1053 VO- AVDD p_18_mm l=0.3u w=2u ad=0.98p as=0.98p pd=4.98u
++  ps=4.98u m=1
+        M33 VO- N$1050 VO- AVDD p_18_mm l=0.3u w=2u ad=0.98p as=0.98p pd=4.98u
++  ps=4.98u m=1
+        M32 VO- N$1047 VO- AVDD p_18_mm l=0.3u w=2u ad=0.98p as=0.98p pd=4.98u
++  ps=4.98u m=1
+        M1A ND3 VI+ N$435 N$435 p_18_mm l=0.36u w=6u ad=1.62p as=1.95p pd=6.54u
++  ps=8.15u m=8
+        M1 N$542 VI+ N$435 N$435 p_18_mm l=0.36u w=6u ad=1.62p as=1.95p
++  pd=6.54u ps=8.15u m=8
+        M45 ND4 N$1095 ND4 AGND n_18_mm l=0.45u w=2u ad=0.98p as=0.98p pd=4.98u
++  ps=4.98u m=1
+        M46 ND4 N$1098 ND4 AGND n_18_mm l=0.45u w=2u ad=0.98p as=0.98p pd=4.98u
++  ps=4.98u m=1
+        M48 VO- N$1111 VO- AGND n_18_mm l=0.45u w=2u ad=0.98p as=0.98p pd=4.98u
++  ps=4.98u m=1
+        M47 ND4 N$1101 ND4 AGND n_18_mm l=0.45u w=2u ad=0.98p as=0.98p pd=4.98u
++  ps=4.98u m=1
+        M43 ND2 N$1088 ND2 AGND n_18_mm l=0.45u w=2u ad=0.98p as=0.98p pd=4.98u
++  ps=4.98u m=1
+        M44 ND4 N$1092 ND4 AGND n_18_mm l=0.45u w=2u ad=0.98p as=0.98p pd=4.98u
++  ps=4.98u m=1
+.ends SCF_OTA
+
+*
+* MAIN CELL: Component pathname : $SC_filter/default.group/logic.views/SCF
+*
+        X_SCF_CMFB1 CMFB AGND AVDD VB4 VO+ VO- VOCM SCF_CMFB
+        X_SCF_BIAS1 VB2 VB3 VB4 AGND AVDD IREF SCF_BIAS
+        X_SCF_OTA1 VO+ VO- AGND AVDD CMFB IREF VB2 VB3 VI+ VI- SCF_OTA
+*
+.end

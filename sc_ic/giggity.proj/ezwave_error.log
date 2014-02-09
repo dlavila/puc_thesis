@@ -1,4 +1,4 @@
-DATE: Tuesday 17 December 2013 18:12:09.873
+DATE: Saturday 08 February 2014 18:40:56.375
 THR: AWT-EventQueue-0
 java.io.IOException: Error from WDB server: null
 	at com.mentor.jeda.jwdb.JwdbDataChan.getRemoteData(JwdbDataChan.java:655)

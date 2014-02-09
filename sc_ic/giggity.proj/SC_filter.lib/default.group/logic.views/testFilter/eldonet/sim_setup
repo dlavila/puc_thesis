@@ -52,7 +52,7 @@ $$set_sim_value("probes_pre_2008_2_imported",@true);
 $$set_sim_value("sim_forces",[]);
 $$set_sim_value("sim_plots_vector",[]);
 $$set_sim_value("sim_polezero",[]);
-$$set_sim_value("sim_probes",[[3, @true, "V", [], void, [], "ALL", "Save Only", "", void, -2], [3, @true, "VX", [], void, [], "All", "Save Only", "", void, -2]]);
+$$set_sim_value("sim_probes",[[3, @true, "V", [], @void, [], "ALL", "Save Only", "", void, -2], [3, @true, "VX", [], @void, [], "All", "Save Only", "", void, -2]]);
 $$set_sim_value("sim_probes_vector",[]);
 
 // Analysis
@@ -280,7 +280,7 @@ $$set_sim_value("sim_adms_command_default","$MGC_AMS_HOME/bin/vasim");
 $$set_sim_value("sim_adms_command_options",[["-c"], ["-cmd", "<input_file>"], ["-do", "$MGC_HOME/shared/pkgs/daicsim/userware/En_na/do_top_eldo.do"], ["-wdb"]]);
 $$set_sim_value("sim_command","$MGC_AMS_HOME/bin/eldo");
 $$set_sim_value("sim_command_options",[["-i", "<input_file>"], ["-o", "<output_file>"], ["-gwl", "jwdb"], ["-nocou"], ["-wdb_folder"]]);
-$$set_sim_value("sim_dcop_file","$SC_filter/default.group/logic.views/testFilter/eldonet/test_FILTER_eldonet.op1");
+$$set_sim_value("sim_dcop_file","$SC_filter/default.group/logic.views/testFilter/eldonet/testFilter_eldonet.op1");
 $$set_sim_value("sim_eldo_command","$MGC_AMS_HOME/bin/eldo");
 $$set_sim_value("sim_eldo_command_default","$MGC_AMS_HOME/bin/eldo");
 $$set_sim_value("sim_eldo_command_options",[["-i", "<input_file>"], ["-o", "<output_file>"], ["-gwl", "jwdb"], ["-nocou"], ["-wdb_folder"]]);
@@ -348,7 +348,7 @@ $$set_sim_value("vsim_netlist_run_viewer_flag",0);
 
 // Netlister Options
 $$set_sim_value("sim_eldonet_check",@false);
-$$set_sim_value("sim_eldonet_timestamp",1387221932);
+$$set_sim_value("sim_eldonet_timestamp",1389642370);
 $$set_sim_value("sim_netlist_run_viewer_flag",1);
 $$set_sim_value("sim_netlist_uptodate_check_flag",@yes);
 $$set_sim_value("sim_netlister_additional_globals","");

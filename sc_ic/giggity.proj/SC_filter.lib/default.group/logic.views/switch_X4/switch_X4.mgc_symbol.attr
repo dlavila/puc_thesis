@@ -1,0 +1,13 @@
+A 5 u mgc_symbol 52d42e970d8b.03.7f.00.00.01.00.02.9f 19 2 1 0
+V v 17 1 5294bad74d66.03.7f.00.00.01.00.70.4f
+F f 17 "switch_X4.smbl_17"
+V v 18 1 52d43c00a708.03.7f.00.00.01.00.54.ef
+F f 18 "switch_X4.smbl_18"
+V v 19 1 52d43c03146c.03.7f.00.00.01.00.54.ef
+F f 19 "switch_X4.smbl_19"
+O 19
+R csduv 0 "$SC_filter/default.group/logic.views/switch_X4/part" 22 Eddm_part 52d43c00a71c.03.7f.00.00.01.00.54.ef 52d42e970d7e.03.7f.00.00.01.00.02.9f
+O 18
+R csduv 0 "$SC_filter/default.group/logic.views/switch_X4/part" 22 Eddm_part 52d43c00a71c.03.7f.00.00.01.00.54.ef 52d42e970d7e.03.7f.00.00.01.00.02.9f
+O 17
+R csduv 0 "$SC_filter/default.group/logic.views/switch_X4/part" 19 Eddm_part 5294bad74d6a.03.7f.00.00.01.00.70.4f 52d42e970d7e.03.7f.00.00.01.00.02.9f

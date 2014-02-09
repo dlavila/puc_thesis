@@ -1,0 +1,67 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/SCF_cmfb.dv
+dv_start unmatched
+dv_cell {SCF_cmfb} {SCF_cmfb} unmatched
+dv_obj_count -transformed_nets {10 10} -transformed_inst {4 8} -transformed_port {7 7}
+dv_discrep 1 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {AVDD} {                                                  } -snet {AVDD} {}
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  } -sdev {M23} {:}  {b} {}
+dv_discrep_line {** missing connection **                                  } -sdev {M25} {:}  {b} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 2 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {3} {                                                     } -snet {N$4} {}
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {M1} {} -lloc {(-20.680,9.550)} {:}  {b} {                                       ** missing connection **}
+dv_discrep_line {} -ldev {M0} {} -lloc {(-22.220,9.550)} {:}  {b} {                                       ** missing connection **}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  } -sdev {M28} {:}  {d} {}
+dv_discrep_line {** missing connection **                                  } -sdev {M29} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 3 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {9} {                                                     ** no similar net **}
+dv_discrep_line {}
+dv_discrep 4 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {8} {                                                     ** no similar net **}
+dv_discrep_line {}
+dv_discrep 5 {Incorrect Nets}
+dv_discrep_line {** no similar net **                                      } -snet {N$6} {}
+dv_discrep_line {}
+dv_discrep 6 {Incorrect Nets}
+dv_discrep_line {** no similar net **                                      } -snet {N$2} {}
+dv_discrep_line {}
+dv_discrep 7 {Incorrect Instances}
+dv_discrep_line {** missing instance **                                    } -sdev {M29} {  MN(N_18_MM)}
+dv_discrep_line {}
+dv_discrep 8 {Incorrect Instances}
+dv_discrep_line {** missing instance **                                    } -sdev {M27} {  MN(N_18_MM)}
+dv_discrep_line {}
+dv_discrep 9 {Incorrect Instances}
+dv_discrep_line {** missing instance **                                    } -sdev {M26} {  MN(N_18_MM)}
+dv_discrep_line {}
+dv_discrep 10 {Incorrect Instances}
+dv_discrep_line {** missing instance **                                    } -sdev {M28} {  MN(N_18_MM)}
+dv_discrep_line {}
+dv_discrep -1 {Detailed Instance Connections}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {M0} {} -lloc {(-22.220,9.550)} {  MP(P_18_MM)                            } -sdev {M23} {  MP(P_18_MM)}
+dv_discrep_line {  } -lport {g} {: } -lnet {3} {                                                      } -sport {g} {: } -snet {N$4} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {3} {                                                      } -sport {d} {: } -snet {N$4} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {AVDD} {                                                   } -sport {s} {: } -snet {AVDD} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {3} {                                                      ** } -snet {N$4} { **}
+dv_discrep_line {  ** } -lnet {AVDD} { **                                                } -sport {b} {: } -snet {AVDD} {}
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {M1} {} -lloc {(-20.680,9.550)} {  MP(P_18_MM)                            } -sdev {M25} {  MP(P_18_MM)}
+dv_discrep_line {  } -lport {g} {: } -lnet {CMFB} {                                                   } -sport {g} {: } -snet {CMFB} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {AVDD} {                                                   } -sport {s} {: } -snet {AVDD} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {CMFB} {                                                   } -sport {d} {: } -snet {CMFB} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {3} {                                                      ** } -snet {N$4} { **}
+dv_discrep_line {  ** } -lnet {AVDD} { **                                                } -sport {b} {: } -snet {AVDD} {}
+dv_discrep_line {}
+dv_end

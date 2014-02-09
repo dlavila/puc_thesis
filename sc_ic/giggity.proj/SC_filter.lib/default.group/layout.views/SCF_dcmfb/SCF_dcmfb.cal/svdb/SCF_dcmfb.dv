@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/SCF_dcmfb.dv
+dv_start matched
+dv_cell {SCF_dcmfb} {SCF_dcmfb} matched
+dv_obj_count -transformed_nets {21 21} -transformed_inst {28 28} -transformed_port {9 9}
+dv_end

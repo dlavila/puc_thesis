@@ -1,0 +1,49 @@
+CSA_CF 1000
+SOFTCHK WELL CONTACT.
+0 0 0 Feb  8 22:12:29 2014                                                      
+SOFTCHK WEL CONTACT.
+0 0 0 Feb  8 22:12:29 2014                                                      
+SOFTCHK PSUB CONTACT.
+5 5 2 Feb  8 22:12:29 2014                                                      
+Net AVdd is selected for stamping.
+Rejected nets: AGnd
+p 1 10
+DN AGnd
+-9460 -12200
+33370 -12200
+33370 38510
+31930 38510
+31930 -10760
+-8020 -10760
+-8020 37070
+31930 37070
+31930 38510
+-9460 38510
+p 2 4
+DN AGnd
+-5320 1030
+840 1030
+840 2110
+-5320 2110
+p 3 4
+DN AGnd
+-5320 24200
+840 24200
+840 25280
+-5320 25280
+p 4 4
+DN AGnd
+12770 1030
+18930 1030
+18930 2110
+12770 2110
+p 5 4
+DN AGnd
+12770 24200
+18930 24200
+18930 25280
+12770 25280
+SOFTCHK TWEL CONTACT.
+0 0 0 Feb  8 22:12:29 2014                                                      
+SOFTCHK NPBDIF CONTACT.
+0 0 0 Feb  8 22:12:29 2014                                                      

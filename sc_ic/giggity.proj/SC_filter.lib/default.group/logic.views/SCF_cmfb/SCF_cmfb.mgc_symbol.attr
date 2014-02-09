@@ -1,0 +1,13 @@
+A 5 u mgc_symbol 52f3f3f8e1e5.03.7f.00.00.01.00.68.c6 8 2 1 0
+V v 6 1 52f3f93364d4.03.7f.00.00.01.00.70.13
+F f 6 "SCF_cmfb.smbl_6"
+V v 7 1 52f3f9340115.03.7f.00.00.01.00.70.13
+F f 7 "SCF_cmfb.smbl_7"
+V v 8 1 52f3f934c18a.03.7f.00.00.01.00.70.13
+F f 8 "SCF_cmfb.smbl_8"
+O 8
+R csduv 0 "$SC_filter/default.group/logic.views/SCF_cmfb/part" 6 Eddm_part 52f3f9340123.03.7f.00.00.01.00.70.13 52f3f2c50d08.03.7f.00.00.01.00.68.c6
+O 7
+R csduv 0 "$SC_filter/default.group/logic.views/SCF_cmfb/part" 6 Eddm_part 52f3f9340123.03.7f.00.00.01.00.70.13 52f3f2c50d08.03.7f.00.00.01.00.68.c6
+O 6
+R csduv 0 "$SC_filter/default.group/logic.views/SCF_cmfb/part" 5 Eddm_part 52f3f93364da.03.7f.00.00.01.00.70.13 52f3f2c50d08.03.7f.00.00.01.00.68.c6

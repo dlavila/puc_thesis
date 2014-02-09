@@ -1,0 +1,68 @@
+* LVS netlist generated with ICnet by 'dlavila' on Mon Jan 13 2014 at 15:30:46
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/BUFFER
+*
+.subckt BUFFER  Vo AGnd AVdd Vb1 Vb2 Vb3 Vb4 Vi+ Vi- Vncas Vpcas
+
+        R1 ND9 N$941 AVdd 5.219k l=10u w=2u m=1 $sub=AVdd $[ rnhr1000_mm
++  ]
+        M64 ND1 N$752 ND1 AVdd p_18_mm w=2.5u l=0.45u m=1
+        M14 ND7 Vpcas ND9 AVdd p_18_mm w=2.5u l=0.45u m=2
+        M18 ND3 Vi- N$209 AVdd p_18_mm w=2.5u l=0.45u m=16
+        M5 ND1 ND8 AVdd AVdd p_18_mm w=2.5u l=0.45u m=4
+        M8 ND8 Vncas ND6 AGnd n_18_mm w=1.6u l=0.45u m=1
+        M2 N$165 Vb4 AGnd AGnd n_18_mm w=1.6u l=0.45u m=4
+        M41 ND4 Vi+ N$209 AVdd p_18_mm w=2.5u l=0.45u m=16
+        M42 N$427 N$427 N$209 AVdd p_18_mm w=8u l=0.45u m=10
+        MOUTP Vo ND9 AVdd AVdd p_18_mm w=2.5u l=0.45u m=40
+        M52 ND1 N$749 ND1 AVdd p_18_mm w=2.5u l=0.45u m=1
+        MIN1 ND1 Vi- N$204 AGnd n_18_mm w=1.6u l=0.45u m=8
+        M1 N$209 Vb2 N$206 AVdd p_18_mm w=2.5u l=0.45u m=8
+        M11 ND9 Vncas ND7 AGnd n_18_mm w=1.6u l=0.45u m=1
+        M9 ND6 Vb3 ND3 AGnd n_18_mm w=1.6u l=0.45u m=4
+        M16 ND4 ND6 AGnd AGnd n_18_mm w=1.6u l=0.45u m=2
+        MOUTN Vo ND7 AGnd AGnd n_18_mm w=1.6u l=0.45u m=20
+        M79 ND8 N$761 ND8 AVdd p_18_mm w=2.5u l=0.45u m=1
+        M81 ND6 N$768 ND6 AVdd p_18_mm w=2.5u l=0.45u m=1
+        M78 ND7 N$758 ND7 AVdd p_18_mm w=2.5u l=0.45u m=1
+        M77 ND6 N$755 ND6 AVdd p_18_mm w=2.5u l=0.45u m=1
+        M4 N$204 Vb3 N$165 AGnd n_18_mm w=1.6u l=0.45u m=4
+        M10 ND8 Vb2 ND1 AVdd p_18_mm w=2.5u l=0.45u m=8
+        M80 ND9 N$764 ND9 AVdd p_18_mm w=2.5u l=0.45u m=1
+        M90 ND7 N$801 ND7 AGnd n_18_mm w=1.6u l=0.45u m=1
+        C1 N$943 Vo 87.425f m=6 w=13u l=6.5u $[ mimcaps_mm ]
+        M51 ND1 N$688 ND1 AVdd p_18_mm w=2.5u l=0.45u m=1
+        R4 ND7 N$943 AVdd 5.219k l=10u w=2u m=1 $sub=AVdd $[ rnhr1000_mm
++  ]
+        R3 ND7 N$943 AVdd 5.219k l=10u w=2u m=1 $sub=AVdd $[ rnhr1000_mm
++  ]
+        R2 ND9 N$941 AVdd 5.219k l=10u w=2u m=1 $sub=AVdd $[ rnhr1000_mm
++  ]
+        M15 ND3 ND6 AGnd AGnd n_18_mm w=1.6u l=0.45u m=2
+        M13 ND6 Vpcas ND8 AVdd p_18_mm w=2.5u l=0.45u m=2
+        M7 ND7 Vb3 ND4 AGnd n_18_mm w=1.6u l=0.45u m=4
+        M67 ND8 N$812 ND8 AGnd n_18_mm w=1.6u l=0.45u m=1
+        M68 ND9 N$816 ND9 AGnd n_18_mm w=1.6u l=0.45u m=1
+        M12 ND9 Vb2 ND2 AVdd p_18_mm w=2.5u l=0.45u m=8
+        M50 N$427 N$427 N$204 AGnd n_18_mm w=5.12u l=0.45u m=10
+        M89 ND6 N$798 ND6 AGnd n_18_mm w=1.6u l=0.45u m=1
+        M88 ND7 N$795 ND7 AGnd n_18_mm w=1.6u l=0.45u m=1
+        M87 ND6 N$792 ND6 AGnd n_18_mm w=1.6u l=0.45u m=1
+        M86 ND7 N$789 ND7 AGnd n_18_mm w=1.6u l=0.45u m=1
+        M84 ND6 N$786 ND6 AGnd n_18_mm w=1.6u l=0.45u m=1
+        M85 ND7 N$780 ND7 AGnd n_18_mm w=1.6u l=0.45u m=1
+        M83 ND6 N$774 ND6 AGnd n_18_mm w=1.6u l=0.45u m=1
+        M19 N$427 N$427 N$209 AVdd p_18_mm w=8u l=0.45u m=10
+        C2 N$941 Vo 87.425f m=6 w=13u l=6.5u $[ mimcaps_mm ]
+        M66 ND7 N$702 ND7 AGnd n_18_mm w=1.6u l=0.45u m=1
+        M65 ND6 N$672 ND6 AGnd n_18_mm w=1.6u l=0.45u m=1
+        M63 ND1 N$668 ND1 AVdd p_18_mm w=2.5u l=0.45u m=1
+        M3 N$206 Vb1 AVdd AVdd p_18_mm w=2.5u l=0.45u m=8
+        M17 ND2 Vi+ N$204 AGnd n_18_mm w=1.6u l=0.45u m=8
+        M6 ND2 ND8 AVdd AVdd p_18_mm w=2.5u l=0.45u m=4
+        M55 ND8 N$695 ND8 AVdd p_18_mm w=2.5u l=0.45u m=1
+        M56 ND9 N$650 ND9 AVdd p_18_mm w=2.5u l=0.45u m=1
+        M82 ND7 N$771 ND7 AVdd p_18_mm w=2.5u l=0.45u m=1
+.ends BUFFER
+

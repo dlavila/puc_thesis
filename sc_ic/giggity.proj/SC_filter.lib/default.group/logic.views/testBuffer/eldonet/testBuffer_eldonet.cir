@@ -13,4 +13,8 @@
 
 .TEMP 27 
 
-.TRAN  0 2u 0 1n
+.OPTION PROBOP2
+.OPTION PROBOPX
+.OP
+.AC dec 10 1 10gig
+

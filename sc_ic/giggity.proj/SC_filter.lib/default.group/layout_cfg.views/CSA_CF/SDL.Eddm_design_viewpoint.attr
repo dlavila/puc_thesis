@@ -1,0 +1,16 @@
+A 5 u Eddm_design_viewpoint 52f6d52a2f83.03.7f.00.00.01.00.5d.6a 1 2 7 0
+V v 1 4 52f6d52a2f83.03.7f.00.00.01.01.5d.6a
+F f 1 "SDL.dvpt_1"
+F o 0 
+F o 0 
+F o 0 
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$SC_filter/default.group/logic.views/CSA_CF/part" 1 Eddm_part 52f6d50f648b.03.7f.00.00.01.01.0d.2d 52f6d50f648b.03.7f.00.00.01.00.0d.2d
+R cspuv 1 "$SC_filter/default.group/logic.views/CSA_CF/schematic" 4 mgc_schematic 52f6d51f2498.03.7f.00.00.01.00.0d.2d 52f6d4fb753c.03.7f.00.00.01.00.0d.2d
+R cspuv 2 "$MGC_DESIGN_KIT/symbols/MIMCAPS_MM/part" 22 Eddm_part 462e5a1f20e0.03.7f.00.00.01.00.3d.95 461b9a1cd72a.03.89.ca.19.1a.00.4f.21
+R cspuv 3 "$SC_filter/default.group/logic.views/switch_X4/part" 22 Eddm_part 52d43c00a71c.03.7f.00.00.01.00.54.ef 52d42e970d7e.03.7f.00.00.01.00.02.9f
+R cspuv 4 "$SC_filter/default.group/logic.views/switch_X4/schematic" 1 mgc_schematic 527ade06aea4.03.7f.00.00.01.01.26.40 52d42e970d46.03.7f.00.00.01.00.02.9f
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 5 "$SC_filter/default.group/logic.views/switch_X4/switch_X4" 18 mgc_symbol 52d43c00a708.03.7f.00.00.01.00.54.ef 52d42e970d8b.03.7f.00.00.01.00.02.9f
+R cspuv 6 "$MGC_DESIGN_KIT/symbols/MIMCAPS_MM/MIMCAPS_MM" 5 mgc_symbol 462e5a1f20cc.03.7f.00.00.01.00.3d.95 461b9a2010e0.03.89.ca.19.1a.00.4f.21

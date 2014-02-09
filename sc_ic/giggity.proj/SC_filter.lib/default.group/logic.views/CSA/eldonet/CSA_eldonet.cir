@@ -1,0 +1,38 @@
+* Component: $SC_filter/default.group/logic.views/CSA  Viewpoint: eldonet
+.INCLUDE $SC_filter/default.group/logic.views/CSA/eldonet/CSA_eldonet.spi
+.INCLUDE $MGC_DESIGN_KIT/models/ELDO/include_all
+.PROBE I
+.PROBE ISUB
+.PROBE VX
+
+
+
+
+.OPTION NOASCII
+.OPTION MODWL
+.OPTION ENGNOT
+.OPTION AEX
+
+.TEMP 27 
+.PARAM Win=600u 
+.PARAM Lin=0.72u 
+.PARAM Wf=1500u 
+.PARAM Lf=0.27u 
+.PARAM Wcf=250u 
+.PARAM Lcf=0.27u 
+.PARAM Wcl=15u 
+.PARAM Lcl=0.36u 
+.PARAM Wl=65u 
+.PARAM Ll=1.08u 
+.PARAM If=1.3m 
+.PARAM Il=100u 
+.PARAM Cs=40p 
+.PARAM Cf=0.45p 
+.PARAM Cl=50f 
+.PARAM rec=10 
+.PARAM rec2=10 
+
+.OPTION PROBOP2
+.OPTION PROBOPX
+.OP
+.TRAN  0 800n 0 1n

@@ -1,62 +1,77 @@
-A 5 u Eddm_design_viewpoint 52b1fa3a01e8.03.7f.00.00.01.00.78.e0 31 2 216 0
-V v 29 4 52ceca06e8b6.03.7f.00.00.01.00.22.31
-F f 29 "eldonet.dvpt_29"
+A 5 u Eddm_design_viewpoint 52b1fa3a01e8.03.7f.00.00.01.00.78.e0 38 2 272 0
+V v 36 4 52d449be4023.03.7f.00.00.01.00.66.e6
+F f 36 "eldonet.dvpt_36"
 F o 0 ""
 F o 0 ""
 F o 0 ""
-V v 30 4 52ceca32b59f.03.7f.00.00.01.00.22.31
-F f 30 "eldonet.dvpt_30"
+V v 37 4 52d449dedd34.03.7f.00.00.01.00.66.e6
+F f 37 "eldonet.dvpt_37"
 F o 0 ""
 F o 0 ""
 F o 0 ""
-V v 31 4 52cece058570.03.7f.00.00.01.00.22.31
-F f 31 "eldonet.dvpt_31"
+V v 38 4 52d44a5fe852.03.7f.00.00.01.00.66.e6
+F f 38 "eldonet.dvpt_38"
 F o 0 ""
 F o 0 ""
 F o 0 ""
-O 31
+O 38
 P "eddm__stream_to_use" "eddm__propl_dstream"
 R cspuv 0 "$SC_filter/default.group/logic.views/testBuffer/part" 1 Eddm_part 528a476c5953.03.7f.00.00.01.01.62.54 52b1e5d3b4a5.03.7f.00.00.01.00.15.55
-R cspuv 1 "$SC_filter/default.group/logic.views/testBuffer/schematic" 21 mgc_schematic 52ceca329e2c.03.7f.00.00.01.00.22.31 52b1e5d3b422.03.7f.00.00.01.00.15.55
+R cspuv 1 "$SC_filter/default.group/logic.views/testBuffer/schematic" 24 mgc_schematic 52d449dec506.03.7f.00.00.01.00.66.e6 52b1e5d3b422.03.7f.00.00.01.00.15.55
 R cspuv 2 "$SC_filter/default.group/logic.views/testBuffer/eldonet" 1 Eddm_ba_mgr 52b1fa3a02a9.03.7f.00.00.01.00.78.e0 52b1fa3a02a8.03.7f.00.00.01.00.78.e0
 R cspuv 4 "$MGC_IC_SOURCES_LIB/dc_i_source/part" 1 Eddm_part 3890a870199d.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.00.34.72
 R cspuv 5 "$MGC_IC_SOURCES_LIB/dc_v_source/part" 1 Eddm_part 3890a89d50f5.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.01.34.72
 R cspuv 6 "$MGC_IC_DEVICE_LIB/ideal_capacitor/part" 2 Eddm_part 3fa692696ca3.03.93.22.28.48.00.08.df 3900e8d5884e.03.93.22.22.60.00.56.1b
-R cspuv 7 "$SC_filter/default.group/logic.views/BUFFER/part" 14 Eddm_part 52b1fd25c810.03.7f.00.00.01.00.08.a5 52b1e78b5c10.03.7f.00.00.01.00.15.55
-R cspuv 11 "$SC_filter/default.group/logic.views/BUFFER/schematic" 108 mgc_schematic 52cec869dbdd.03.7f.00.00.01.00.18.a4 52b1e78b5baf.03.7f.00.00.01.00.15.55
 R cspuv 21 "$MGC_DESIGN_KIT/symbols/P_18_MM/part" 23 Eddm_part 462e23ba79d1.03.7f.00.00.01.00.54.63 461b99bfbe81.03.89.ca.19.1a.00.4f.21
 R cspuv 22 "$MGC_DESIGN_KIT/symbols/N_18_MM/part" 26 Eddm_part 462e23b780f6.03.7f.00.00.01.00.54.63 461b99901841.03.89.ca.19.1a.00.4f.21
 R cspuv 23 "$MGC_DESIGN_KIT/symbols/MIMCAPS_MM/part" 22 Eddm_part 462e5a1f20e0.03.7f.00.00.01.00.3d.95 461b9a1cd72a.03.89.ca.19.1a.00.4f.21
 R cspuv 24 "$MGC_DESIGN_KIT/symbols/RNHR1000_MM/part" 28 Eddm_part 48187ecf321a.03.7f.00.00.01.00.4d.3f 461b99e52043.03.89.ca.19.1a.00.4f.21
-R cspuv 202 "$MGC_IC_SOURCES_LIB/pulse_v_source/part" 2 Eddm_part 48349c3e2130.03.93.22.29.54.00.75.8d 3890b26cc0aa.03.86.56.31.70.03.34.72
-O 30
+R cspuv 217 "$SC_filter/default.group/logic.views/BIAS_BUFFER/part" 7 Eddm_part 52d025c26742.03.7f.00.00.01.00.72.f0 52cee7ee3479.03.7f.00.00.01.00.39.f9
+R cspuv 222 "$SC_filter/default.group/logic.views/BIAS_BUFFER/schematic" 7 mgc_schematic 52d024bc52ec.03.7f.00.00.01.00.72.f0 52cee7d5e2d9.03.7f.00.00.01.00.39.f9
+R cspuv 234 "$UTILS/default.group/logic.views/s2d/part" 4 Eddm_part 5253162a4992.03.7f.00.00.01.00.57.72 52b1e791c6b6.03.7f.00.00.01.00.15.55
+R cspuv 235 "$MGC_IC_SOURCES_LIB/ac_v_source/part" 3 Eddm_part 3af197522955.03.93.22.22.60.00.4a.bf 3890a9620320.03.86.56.31.70.00.34.72
+R cspuv 242 "$UTILS/default.group/logic.views/s2d/schematic" 2 mgc_schematic 524f240048f8.03.7f.00.00.01.00.7f.2c 52b1e791c699.03.7f.00.00.01.00.15.55
+R cspuv 248 "$MGC_IC_SOURCES_LIB/vcvs_2pin/part" 1 Eddm_part 359ac661711d.03.86.56.31.87.00.43.29 3890ce7e2bcb.03.86.56.31.70.01.34.72
+R cspuv 254 "$SC_filter/default.group/logic.views/BUFFER/part" 22 Eddm_part 52d04a744cb3.03.7f.00.00.01.00.50.27 52d04a711092.03.7f.00.00.01.00.07.5c
+R cspuv 258 "$SC_filter/default.group/logic.views/BUFFER/schematic" 144 mgc_schematic 52d024c9ee77.03.7f.00.00.01.00.72.f0 52d04a711077.03.7f.00.00.01.00.07.5c
+O 37
 P "eddm__stream_to_use" "eddm__propl_dstream"
 R cspuv 0 "$SC_filter/default.group/logic.views/testBuffer/part" 1 Eddm_part 528a476c5953.03.7f.00.00.01.01.62.54 52b1e5d3b4a5.03.7f.00.00.01.00.15.55
-R cspuv 1 "$SC_filter/default.group/logic.views/testBuffer/schematic" 21 mgc_schematic 52ceca329e2c.03.7f.00.00.01.00.22.31 52b1e5d3b422.03.7f.00.00.01.00.15.55
+R cspuv 1 "$SC_filter/default.group/logic.views/testBuffer/schematic" 24 mgc_schematic 52d449dec506.03.7f.00.00.01.00.66.e6 52b1e5d3b422.03.7f.00.00.01.00.15.55
 P "eddm__refer_state" "eddm__refer_floating"
 R cspuv 2 "$SC_filter/default.group/logic.views/testBuffer/eldonet" 1 Eddm_ba_mgr 52b1fa3a02a9.03.7f.00.00.01.00.78.e0 52b1fa3a02a8.03.7f.00.00.01.00.78.e0
-R cspuv 3 "$MGC_IC_SOURCES_LIB/ac_v_source/part" 3 Eddm_part 3af197522955.03.93.22.22.60.00.4a.bf 3890a9620320.03.86.56.31.70.00.34.72
 R cspuv 4 "$MGC_IC_SOURCES_LIB/dc_i_source/part" 1 Eddm_part 3890a870199d.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.00.34.72
 R cspuv 5 "$MGC_IC_SOURCES_LIB/dc_v_source/part" 1 Eddm_part 3890a89d50f5.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.01.34.72
 R cspuv 6 "$MGC_IC_DEVICE_LIB/ideal_capacitor/part" 2 Eddm_part 3fa692696ca3.03.93.22.28.48.00.08.df 3900e8d5884e.03.93.22.22.60.00.56.1b
-R cspuv 7 "$SC_filter/default.group/logic.views/BUFFER/part" 14 Eddm_part 52b1fd25c810.03.7f.00.00.01.00.08.a5 52b1e78b5c10.03.7f.00.00.01.00.15.55
-R cspuv 11 "$SC_filter/default.group/logic.views/BUFFER/schematic" 108 mgc_schematic 52cec869dbdd.03.7f.00.00.01.00.18.a4 52b1e78b5baf.03.7f.00.00.01.00.15.55
 R cspuv 21 "$MGC_DESIGN_KIT/symbols/P_18_MM/part" 23 Eddm_part 462e23ba79d1.03.7f.00.00.01.00.54.63 461b99bfbe81.03.89.ca.19.1a.00.4f.21
 R cspuv 22 "$MGC_DESIGN_KIT/symbols/N_18_MM/part" 26 Eddm_part 462e23b780f6.03.7f.00.00.01.00.54.63 461b99901841.03.89.ca.19.1a.00.4f.21
 R cspuv 23 "$MGC_DESIGN_KIT/symbols/MIMCAPS_MM/part" 22 Eddm_part 462e5a1f20e0.03.7f.00.00.01.00.3d.95 461b9a1cd72a.03.89.ca.19.1a.00.4f.21
 R cspuv 24 "$MGC_DESIGN_KIT/symbols/RNHR1000_MM/part" 28 Eddm_part 48187ecf321a.03.7f.00.00.01.00.4d.3f 461b99e52043.03.89.ca.19.1a.00.4f.21
-O 29
+R cspuv 216 "$SC_filter/default.group/logic.views/BUFFER_2/part" 21 Eddm_part 52d024c6dc3d.03.7f.00.00.01.00.72.f0 52c8c51c3f95.03.7f.00.00.01.00.2a.7f
+R cspuv 217 "$SC_filter/default.group/logic.views/BIAS_BUFFER/part" 7 Eddm_part 52d025c26742.03.7f.00.00.01.00.72.f0 52cee7ee3479.03.7f.00.00.01.00.39.f9
+R cspuv 222 "$SC_filter/default.group/logic.views/BIAS_BUFFER/schematic" 7 mgc_schematic 52d024bc52ec.03.7f.00.00.01.00.72.f0 52cee7d5e2d9.03.7f.00.00.01.00.39.f9
+R cspuv 224 "$SC_filter/default.group/logic.views/BUFFER_2/schematic" 144 mgc_schematic 52d024c9ee77.03.7f.00.00.01.00.72.f0 52c8c51c3f6c.03.7f.00.00.01.00.2a.7f
+R cspuv 234 "$UTILS/default.group/logic.views/s2d/part" 4 Eddm_part 5253162a4992.03.7f.00.00.01.00.57.72 52b1e791c6b6.03.7f.00.00.01.00.15.55
+R cspuv 235 "$MGC_IC_SOURCES_LIB/ac_v_source/part" 3 Eddm_part 3af197522955.03.93.22.22.60.00.4a.bf 3890a9620320.03.86.56.31.70.00.34.72
+R cspuv 242 "$UTILS/default.group/logic.views/s2d/schematic" 2 mgc_schematic 524f240048f8.03.7f.00.00.01.00.7f.2c 52b1e791c699.03.7f.00.00.01.00.15.55
+R cspuv 248 "$MGC_IC_SOURCES_LIB/vcvs_2pin/part" 1 Eddm_part 359ac661711d.03.86.56.31.87.00.43.29 3890ce7e2bcb.03.86.56.31.70.01.34.72
+O 36
 P "eddm__stream_to_use" "eddm__propl_dstream"
 R cspuv 0 "$SC_filter/default.group/logic.views/testBuffer/part" 1 Eddm_part 528a476c5953.03.7f.00.00.01.01.62.54 52b1e5d3b4a5.03.7f.00.00.01.00.15.55
-R cspuv 1 "$SC_filter/default.group/logic.views/testBuffer/schematic" 20 mgc_schematic 52cec9ccc5a3.03.7f.00.00.01.00.22.31 52b1e5d3b422.03.7f.00.00.01.00.15.55
+R cspuv 1 "$SC_filter/default.group/logic.views/testBuffer/schematic" 23 mgc_schematic 52d0265d6c93.03.7f.00.00.01.00.72.f0 52b1e5d3b422.03.7f.00.00.01.00.15.55
 R cspuv 2 "$SC_filter/default.group/logic.views/testBuffer/eldonet" 1 Eddm_ba_mgr 52b1fa3a02a9.03.7f.00.00.01.00.78.e0 52b1fa3a02a8.03.7f.00.00.01.00.78.e0
-R cspuv 3 "$MGC_IC_SOURCES_LIB/ac_v_source/part" 3 Eddm_part 3af197522955.03.93.22.22.60.00.4a.bf 3890a9620320.03.86.56.31.70.00.34.72
 R cspuv 4 "$MGC_IC_SOURCES_LIB/dc_i_source/part" 1 Eddm_part 3890a870199d.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.00.34.72
 R cspuv 5 "$MGC_IC_SOURCES_LIB/dc_v_source/part" 1 Eddm_part 3890a89d50f5.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.01.34.72
 R cspuv 6 "$MGC_IC_DEVICE_LIB/ideal_capacitor/part" 2 Eddm_part 3fa692696ca3.03.93.22.28.48.00.08.df 3900e8d5884e.03.93.22.22.60.00.56.1b
-R cspuv 7 "$SC_filter/default.group/logic.views/BUFFER/part" 14 Eddm_part 52b1fd25c810.03.7f.00.00.01.00.08.a5 52b1e78b5c10.03.7f.00.00.01.00.15.55
-R cspuv 11 "$SC_filter/default.group/logic.views/BUFFER/schematic" 108 mgc_schematic 52cec869dbdd.03.7f.00.00.01.00.18.a4 52b1e78b5baf.03.7f.00.00.01.00.15.55
 R cspuv 21 "$MGC_DESIGN_KIT/symbols/P_18_MM/part" 23 Eddm_part 462e23ba79d1.03.7f.00.00.01.00.54.63 461b99bfbe81.03.89.ca.19.1a.00.4f.21
 R cspuv 22 "$MGC_DESIGN_KIT/symbols/N_18_MM/part" 26 Eddm_part 462e23b780f6.03.7f.00.00.01.00.54.63 461b99901841.03.89.ca.19.1a.00.4f.21
 R cspuv 23 "$MGC_DESIGN_KIT/symbols/MIMCAPS_MM/part" 22 Eddm_part 462e5a1f20e0.03.7f.00.00.01.00.3d.95 461b9a1cd72a.03.89.ca.19.1a.00.4f.21
 R cspuv 24 "$MGC_DESIGN_KIT/symbols/RNHR1000_MM/part" 28 Eddm_part 48187ecf321a.03.7f.00.00.01.00.4d.3f 461b99e52043.03.89.ca.19.1a.00.4f.21
+R cspuv 216 "$SC_filter/default.group/logic.views/BUFFER_2/part" 21 Eddm_part 52d024c6dc3d.03.7f.00.00.01.00.72.f0 52c8c51c3f95.03.7f.00.00.01.00.2a.7f
+R cspuv 217 "$SC_filter/default.group/logic.views/BIAS_BUFFER/part" 7 Eddm_part 52d025c26742.03.7f.00.00.01.00.72.f0 52cee7ee3479.03.7f.00.00.01.00.39.f9
+R cspuv 222 "$SC_filter/default.group/logic.views/BIAS_BUFFER/schematic" 7 mgc_schematic 52d024bc52ec.03.7f.00.00.01.00.72.f0 52cee7d5e2d9.03.7f.00.00.01.00.39.f9
+R cspuv 224 "$SC_filter/default.group/logic.views/BUFFER_2/schematic" 144 mgc_schematic 52d024c9ee77.03.7f.00.00.01.00.72.f0 52c8c51c3f6c.03.7f.00.00.01.00.2a.7f
+R cspuv 234 "$UTILS/default.group/logic.views/s2d/part" 4 Eddm_part 5253162a4992.03.7f.00.00.01.00.57.72 52b1e791c6b6.03.7f.00.00.01.00.15.55
+R cspuv 235 "$MGC_IC_SOURCES_LIB/ac_v_source/part" 3 Eddm_part 3af197522955.03.93.22.22.60.00.4a.bf 3890a9620320.03.86.56.31.70.00.34.72
+R cspuv 242 "$UTILS/default.group/logic.views/s2d/schematic" 2 mgc_schematic 524f240048f8.03.7f.00.00.01.00.7f.2c 52b1e791c699.03.7f.00.00.01.00.15.55
+R cspuv 248 "$MGC_IC_SOURCES_LIB/vcvs_2pin/part" 1 Eddm_part 359ac661711d.03.86.56.31.87.00.43.29 3890ce7e2bcb.03.86.56.31.70.01.34.72

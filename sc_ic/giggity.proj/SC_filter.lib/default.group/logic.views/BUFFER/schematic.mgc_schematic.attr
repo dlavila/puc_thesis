@@ -1,13 +1,13 @@
-A 5 u mgc_schematic 52b1e78b5baf.03.7f.00.00.01.00.15.55 108 2 1 0
-V v 106 1 52c6ec4975ca.03.7f.00.00.01.00.48.8d
+A 5 u mgc_schematic 52d04a711077.03.7f.00.00.01.00.07.5c 144 2 1 0
+V v 142 1 52d01c85ea02.03.7f.00.00.01.00.6a.e6
 F o 0 ""
-V v 107 1 52c766079521.03.7f.00.00.01.00.48.8d
+V v 143 1 52d01c863817.03.7f.00.00.01.00.6a.e6
 F o 0 ""
-V v 108 1 52cec869dbdd.03.7f.00.00.01.00.18.a4
+V v 144 1 52d024c9ee77.03.7f.00.00.01.00.72.f0
 F o 0 ""
-O 108
-R cspuv 0 "$SC_filter/default.group/logic.views/BUFFER/schematic/sheet1" 107 mgc_sheet 52cec869dbbe.03.7f.00.00.01.00.18.a4 52b1e78b5bc2.03.7f.00.00.01.00.15.55
-O 107
-R cspuv 0 "$SC_filter/default.group/logic.views/BUFFER/schematic/sheet1" 106 mgc_sheet 52c7660794f1.03.7f.00.00.01.00.48.8d 52b1e78b5bc2.03.7f.00.00.01.00.15.55
-O 106
-R cspuv 0 "$SC_filter/default.group/logic.views/BUFFER/schematic/sheet1" 105 mgc_sheet 52c6ec4975af.03.7f.00.00.01.00.48.8d 52b1e78b5bc2.03.7f.00.00.01.00.15.55
+O 144
+R cspuv 0 "$SC_filter/default.group/logic.views/BUFFER/schematic/sheet1" 143 mgc_sheet 52d024c9ee5e.03.7f.00.00.01.00.72.f0 52d04a711087.03.7f.00.00.01.00.07.5c
+O 143
+R cspuv 0 "$SC_filter/default.group/logic.views/BUFFER/schematic/sheet1" 142 mgc_sheet 52d01c863804.03.7f.00.00.01.00.6a.e6 52d04a711087.03.7f.00.00.01.00.07.5c
+O 142
+R cspuv 0 "$SC_filter/default.group/logic.views/BUFFER/schematic/sheet1" 141 mgc_sheet 52d01c85e9ea.03.7f.00.00.01.00.6a.e6 52d04a711087.03.7f.00.00.01.00.07.5c

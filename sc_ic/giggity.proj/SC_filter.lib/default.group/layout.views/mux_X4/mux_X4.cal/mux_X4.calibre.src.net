@@ -1,0 +1,27 @@
+* LVS netlist generated with ICnet by 'dlavila' on Mon Jan 20 2014 at 15:16:59
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/mux_X4
+*
+.subckt mux_X4  O A B e s Vdd Vss
+
+        M18 N$352 s Vdd Vdd p_18_mm w=3u l=0.18u m=1
+        M14 N$349 e Vdd Vdd p_18_mm w=3u l=0.18u m=1
+        M13 N$349 N$352 Vdd Vdd p_18_mm w=3u l=0.18u m=1
+        M6 O N$349 A Vdd p_18_mm w=3u l=0.18u m=4
+        M3 N$306 N$343 Vdd Vdd p_18_mm w=3u l=0.18u m=1
+        M15 N$349 e N$347 Vss n_18_mm w=1u l=0.18u m=1
+        M7 N$346 s Vss Vss n_18_mm w=1u l=0.18u m=1
+        M16 N$311 N$349 Vdd Vdd p_18_mm w=3u l=0.18u m=1
+        M5 N$343 e Vdd Vdd p_18_mm w=3u l=0.18u m=1
+        M4 N$343 e N$346 Vss n_18_mm w=1u l=0.18u m=1
+        M8 O N$306 B Vss n_18_mm w=1u l=0.18u m=4
+        M10 N$347 N$352 Vss Vss n_18_mm w=1u l=0.18u m=1
+        M9 N$311 N$349 Vss Vss n_18_mm w=1u l=0.18u m=1
+        M17 N$352 s Vss Vss n_18_mm w=1u l=0.18u m=1
+        M1 N$306 N$343 Vss Vss n_18_mm w=1u l=0.18u m=1
+        M12 O N$343 B Vdd p_18_mm w=3u l=0.18u m=4
+        M2 N$343 s Vdd Vdd p_18_mm w=3u l=0.18u m=1
+        M11 O N$311 A Vss n_18_mm w=1u l=0.18u m=4
+.ends mux_X4
+

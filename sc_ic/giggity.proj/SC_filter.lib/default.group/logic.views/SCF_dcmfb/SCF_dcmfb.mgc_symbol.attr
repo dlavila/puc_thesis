@@ -1,0 +1,13 @@
+A 5 u mgc_symbol 52f6aaa316e5.03.7f.00.00.01.00.44.b9 24 2 1 0
+V v 22 1 52f6aac540b0.03.7f.00.00.01.00.43.99
+F f 22 "SCF_dcmfb.smbl_22"
+V v 23 1 52f6aac7a72a.03.7f.00.00.01.00.43.99
+F f 23 "SCF_dcmfb.smbl_23"
+V v 24 1 52f6aac80cd3.03.7f.00.00.01.00.43.99
+F f 24 "SCF_dcmfb.smbl_24"
+O 24
+R csduv 0 "$SC_filter/default.group/logic.views/SCF_dcmfb/part" 19 Eddm_part 52f6aac540d0.03.7f.00.00.01.00.43.99 52f6aaa31705.03.7f.00.00.01.00.44.b9
+O 23
+R csduv 0 "$SC_filter/default.group/logic.views/SCF_dcmfb/part" 19 Eddm_part 52f6aac540d0.03.7f.00.00.01.00.43.99 52f6aaa31705.03.7f.00.00.01.00.44.b9
+O 22
+R csduv 0 "$SC_filter/default.group/logic.views/SCF_dcmfb/part" 19 Eddm_part 52f6aac540d0.03.7f.00.00.01.00.43.99 52f6aaa31705.03.7f.00.00.01.00.44.b9

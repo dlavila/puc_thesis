@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 52f3f2c3eda5.03.7f.00.00.01.00.68.c6 7 2 1 0
+V v 5 1 52f3f3538f0e.03.7f.00.00.01.00.68.c6
+F o 0 ""
+V v 6 1 52f3f3542edf.03.7f.00.00.01.00.68.c6
+F o 0 ""
+V v 7 1 52f3f3e8b2d9.03.7f.00.00.01.00.68.c6
+F o 0 ""
+O 7
+R cspuv 0 "$SC_filter/default.group/logic.views/SCF_cmfb/schematic/sheet1" 6 mgc_sheet 52f3f3e8b2bd.03.7f.00.00.01.00.68.c6 52f3f2c3ee4c.03.7f.00.00.01.00.68.c6
+O 6
+R cspuv 0 "$SC_filter/default.group/logic.views/SCF_cmfb/schematic/sheet1" 5 mgc_sheet 52f3f3542ecf.03.7f.00.00.01.00.68.c6 52f3f2c3ee4c.03.7f.00.00.01.00.68.c6
+O 5
+R cspuv 0 "$SC_filter/default.group/logic.views/SCF_cmfb/schematic/sheet1" 4 mgc_sheet 52f3f3538efb.03.7f.00.00.01.00.68.c6 52f3f2c3ee4c.03.7f.00.00.01.00.68.c6

@@ -1,0 +1,12 @@
+* SPICE NETLIST
+***************************************
+
+.SUBCKT L POS NEG SUB
+.ENDS
+***************************************
+.SUBCKT inv_X4 I VDD VSS O
+** N=4 EP=4 IP=0 FDC=2
+M0 O I VDD VDD P_18_MM L=1.8e-07 W=3e-06 AD=1.47e-12 AS=1.47e-12 PD=3.98e-06 PS=3.98e-06 $X=580 $Y=730 $D=3
+M1 O I VSS VSS N_18_MM L=1.8e-07 W=1e-06 AD=4.9e-13 AS=4.9e-13 PD=1.98e-06 PS=1.98e-06 $X=580 $Y=-1780 $D=2
+.ENDS
+***************************************

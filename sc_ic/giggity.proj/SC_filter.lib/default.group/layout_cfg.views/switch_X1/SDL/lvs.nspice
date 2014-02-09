@@ -1,0 +1,13 @@
+* LVS netlist generated with ICnet by 'dlavila' on Mon Jan 20 2014 at 19:16:32
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/switch_X1
+*
+.subckt switch_X1  out e in Vdd Vss
+
+        M2 N$25 e Vdd Vdd p_18_mm w=0.75u l=0.18u m=1
+        M1 N$25 e Vss Vss n_18_mm w=0.25u l=0.18u m=1
+        M11 out e in Vss n_18_mm w=1u l=0.18u m=1
+        M12 out N$25 in Vdd p_18_mm w=3u l=0.18u m=1
+.ends switch_X1
+

@@ -1,0 +1,31 @@
+//  ICnet  v2008.2_3.1 (2008.2b)  Tue May 5 19:07:13 PDT 2009
+//  Core Libraries  v2008.2_3.1 Tue May  5 19:22:21 PDT 2009
+//
+//             Copyright Mentor Graphics Corporation 1982
+//
+//                      All Rights Reserved.
+//
+//    THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR
+//           ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  Mentor Graphics software executing under x86_64 Linux.
+//
+
+
+//  Invocation args:  -lvs -preserve_case -spice_top_sub -o /home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib/default.group/layout.views/switch_X4/switch_X4.cal/switch_X4.calibre.src.net /home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib/default.group/layout_cfg.views/switch_X4/SDL
+
+// **** Reading <$SC_filter/default.group/layout_cfg.views/switch_X4/SDL> for LVS netlist ****
+
+// Checking 1 sheet(s) for out of date references to symbols and interfaces...
+// Done.
+Processing [$SC_filter/default.group/logic.views/switch_X4] [switch_X4/switch_X4] [schematic] (NCF entry line:17 file:$NCF_GLOBAL)
+Primitive [$MGC_DESIGN_KIT/symbols/P_18_MM] [P_18_MM/P_18_MM] [SPICE=M] (NCF entry line:7 file:$MGC_DESIGN_KIT/symbols/P_18_MM/@ncf.dir/P_18_MM.ncf)
+Primitive [$MGC_DESIGN_KIT/symbols/N_18_MM] [N_18_MM/N_18_MM] [SPICE=M] (NCF entry line:7 file:$MGC_DESIGN_KIT/symbols/N_18_MM/@ncf.dir/N_18_MM.ncf)
+
+**** Writing <$SC_filter/default.group/layout_cfg.views/switch_X4/SDL> netlist for LVS ****
+
+Number of cells: 3
+Number of primitive instances: 4
+
+Done...

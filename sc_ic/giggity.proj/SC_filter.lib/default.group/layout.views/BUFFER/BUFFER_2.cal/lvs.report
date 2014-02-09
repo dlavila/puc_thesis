@@ -1,0 +1,377 @@
+
+
+
+                  ##################################################
+                  ##                                              ##
+                  ##         C A L I B R E    S Y S T E M         ##
+                  ##                                              ##
+                  ##             L V S   R E P O R T              ##
+                  ##                                              ##
+                  ##################################################
+
+
+
+REPORT FILE NAME:         lvs.report
+LAYOUT NAME:              /home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib/default.group/layout.views/BUFFER_2/BUFFER_2.cal/lay.net ('BUFFER_2')
+SOURCE NAME:              /home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib/default.group/layout.views/BUFFER_2/BUFFER_2.cal/BUFFER_2.calibre.src.net ('BUFFER_2')
+RULE FILE:                /home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib/default.group/layout.views/BUFFER_2/BUFFER_2.cal/_G-DF-MIXED_MODE_RFCMOS18-1.8V_3.3V-1P6M-MMC_CALIBRE-LVS-2.1-P4.txt_
+RULE FILE TITLE:          LVS of UMC 0.18um 1.8V/3.3V 1P6M MMC Mixed Mode/RFCMOS Process
+CREATION TIME:            Fri Jan 10 13:15:37 2014
+CURRENT DIRECTORY:        /home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib/default.group/layout.views/BUFFER_2/BUFFER_2.cal
+USER NAME:                dlavila
+CALIBRE VERSION:          v2013.2_18.13    Thu May 16 13:39:43 PDT 2013
+
+
+
+                               OVERALL COMPARISON RESULTS
+
+
+
+                         #       ###################       _   _   
+                        #        #                 #       *   *   
+                   #   #         #     CORRECT     #         |     
+                    # #          #                 #       \___/  
+                     #           ###################               
+
+
+  Warning:  Ambiguity points were found and resolved arbitrarily.
+
+
+**************************************************************************************************************
+                                      CELL  SUMMARY
+**************************************************************************************************************
+
+  Result         Layout                        Source
+  -----------    -----------                   --------------
+  CORRECT        BUFFER_2                      BUFFER_2
+
+
+
+**************************************************************************************************************
+                                      LVS PARAMETERS
+**************************************************************************************************************
+
+
+o LVS Setup:
+
+   // LVS COMPONENT TYPE PROPERTY
+   // LVS COMPONENT SUBTYPE PROPERTY
+   // LVS PIN NAME PROPERTY
+   LVS POWER NAME                         "?VDD?" "?VCC?"
+   LVS GROUND NAME                        "?VSS?" "?GND?"
+   LVS CELL SUPPLY                        NO
+   LVS RECOGNIZE GATES                    ALL
+   LVS IGNORE PORTS                       NO
+   LVS CHECK PORT NAMES                   YES
+   LVS IGNORE TRIVIAL NAMED PORTS         NO
+   LVS BUILTIN DEVICE PIN SWAP            YES
+   LVS ALL CAPACITOR PINS SWAPPABLE       NO
+   LVS DISCARD PINS BY DEVICE             NO
+   LVS SOFT SUBSTRATE PINS                NO
+   LVS INJECT LOGIC                       YES
+   LVS EXPAND UNBALANCED CELLS            YES
+   LVS FLATTEN INSIDE CELL                NO
+   LVS EXPAND SEED PROMOTIONS             YES
+   LVS PRESERVE PARAMETERIZED CELLS       NO
+   LVS GLOBALS ARE PORTS                  YES
+   LVS REVERSE WL                         NO
+   LVS SPICE PREFER PINS                  NO
+   LVS SPICE SLASH IS SPACE               YES
+   LVS SPICE ALLOW FLOATING PINS          YES
+   // LVS SPICE ALLOW INLINE PARAMETERS     
+   LVS SPICE ALLOW UNQUOTED STRINGS       NO
+   LVS SPICE CONDITIONAL LDD              NO
+   LVS SPICE CULL PRIMITIVE SUBCIRCUITS   NO
+   LVS SPICE IMPLIED MOS AREA             NO
+   // LVS SPICE MULTIPLIER NAME
+   LVS SPICE OVERRIDE GLOBALS             NO
+   LVS SPICE REDEFINE PARAM               NO
+   LVS SPICE REPLICATE DEVICES            YES
+   LVS SPICE SCALE X PARAMETERS           NO
+   LVS SPICE STRICT WL                    NO
+   // LVS SPICE OPTION
+   LVS STRICT SUBTYPES                    NO
+   LVS EXACT SUBTYPES                     NO
+   LAYOUT CASE                            NO
+   SOURCE CASE                            NO
+   LVS COMPARE CASE                       NO
+   LVS DOWNCASE DEVICE                    NO
+   LVS REPORT MAXIMUM                     50
+   LVS PROPERTY RESOLUTION MAXIMUM        32
+   // LVS SIGNATURE MAXIMUM
+   // LVS FILTER UNUSED OPTION
+   // LVS REPORT OPTION
+   LVS REPORT UNITS                       YES
+   // LVS NON USER NAME PORT
+   // LVS NON USER NAME NET
+   // LVS NON USER NAME INSTANCE
+
+   // Reduction
+
+   LVS REDUCE SERIES MOS                  NO
+   LVS REDUCE PARALLEL MOS                YES
+   LVS REDUCE SEMI SERIES MOS             NO
+   LVS REDUCE SPLIT GATES                 YES
+   LVS REDUCE PARALLEL BIPOLAR            YES
+   LVS REDUCE SERIES CAPACITORS           YES
+   LVS REDUCE PARALLEL CAPACITORS         YES
+   LVS REDUCE SERIES RESISTORS            YES
+   LVS REDUCE PARALLEL RESISTORS          NO
+   LVS REDUCE PARALLEL DIODES             YES
+
+   LVS REDUCE  C(MIMCAPM_RF)  PARALLEL NO
+   LVS REDUCTION PRIORITY                 PARALLEL
+   
+   LVS SHORT EQUIVALENT NODES             NO
+
+   // Trace Property
+
+   TRACE PROPERTY  mn(n_18_g2)  l l 3
+   TRACE PROPERTY  mn(n_18_g2)  w w 3
+   TRACE PROPERTY  mp(p_18_g2)  l l 3
+   TRACE PROPERTY  mp(p_18_g2)  w w 3
+   TRACE PROPERTY  mn(n_18_mm)  l l 3
+   TRACE PROPERTY  mn(n_18_mm)  w w 3
+   TRACE PROPERTY  mp(p_18_mm)  l l 3
+   TRACE PROPERTY  mp(p_18_mm)  w w 3
+   TRACE PROPERTY  mn(n_lv_18_mm)  l l 3
+   TRACE PROPERTY  mn(n_lv_18_mm)  w w 3
+   TRACE PROPERTY  mp(p_lv_18_mm)  l l 3
+   TRACE PROPERTY  mp(p_lv_18_mm)  w w 3
+   TRACE PROPERTY  mn(n_33_g2)  l l 3
+   TRACE PROPERTY  mn(n_33_g2)  w w 3
+   TRACE PROPERTY  mp(p_33_g2)  l l 3
+   TRACE PROPERTY  mp(p_33_g2)  w w 3
+   TRACE PROPERTY  mn(n_33_mm)  l l 3
+   TRACE PROPERTY  mn(n_33_mm)  w w 3
+   TRACE PROPERTY  mp(p_33_mm)  l l 3
+   TRACE PROPERTY  mp(p_33_mm)  w w 3
+   TRACE PROPERTY  mn(n_lv_33_mm)  l l 3
+   TRACE PROPERTY  mn(n_lv_33_mm)  w w 3
+   TRACE PROPERTY  mp(p_lv_33_mm)  l l 3
+   TRACE PROPERTY  mp(p_lv_33_mm)  w w 3
+   TRACE PROPERTY  mn(n_zero_18_mm)  l l 3
+   TRACE PROPERTY  mn(n_zero_18_mm)  w w 3
+   TRACE PROPERTY  mn(n_zero_33_mm)  l l 3
+   TRACE PROPERTY  mn(n_zero_33_mm)  w w 3
+   TRACE PROPERTY  mn(n_bpw_18_mm)  l l 3
+   TRACE PROPERTY  mn(n_bpw_18_mm)  w w 3
+   TRACE PROPERTY  mn(n_bpw_33_mm)  l l 3
+   TRACE PROPERTY  mn(n_bpw_33_mm)  w w 3
+   TRACE PROPERTY  mn(n_po7w500_18_rf)  l l 3
+   TRACE PROPERTY  mn(n_po7w500_18_rf)  w w 3
+   TRACE PROPERTY  mp(p_po7w500_18_rf)  l l 3
+   TRACE PROPERTY  mp(p_po7w500_18_rf)  w w 3
+   TRACE PROPERTY  mn(n_po7w500_33_rf)  l l 3
+   TRACE PROPERTY  mn(n_po7w500_33_rf)  w w 3
+   TRACE PROPERTY  mp(p_po7w500_33_rf)  l l 3
+   TRACE PROPERTY  mp(p_po7w500_33_rf)  w w 3
+   TRACE PROPERTY  mn(n_l18w500_18_rf)  l l 3
+   TRACE PROPERTY  mn(n_l18w500_18_rf)  w w 3
+   TRACE PROPERTY  mp(p_l18w500_18_rf)  l l 3
+   TRACE PROPERTY  mp(p_l18w500_18_rf)  w w 3
+   TRACE PROPERTY  mn(n_l34w500_33_rf)  l l 3
+   TRACE PROPERTY  mn(n_l34w500_33_rf)  w w 3
+   TRACE PROPERTY  mp(p_l34w500_33_rf)  l l 3
+   TRACE PROPERTY  mp(p_l34w500_33_rf)  w w 3
+   TRACE PROPERTY  mn(n_pg400_g2)  l l 3
+   TRACE PROPERTY  mn(n_pg400_g2)  w w 3
+   TRACE PROPERTY  mn(n_pd400_g2)  l l 3
+   TRACE PROPERTY  mn(n_pd400_g2)  w w 3
+   TRACE PROPERTY  mp(p_l400_g2)  l l 3
+   TRACE PROPERTY  mp(p_l400_g2)  w w 3
+   TRACE PROPERTY  mn(n_pg1020_g2)  l l 3
+   TRACE PROPERTY  mn(n_pg1020_g2)  w w 3
+   TRACE PROPERTY  mn(n_pd1020_g2)  l l 3
+   TRACE PROPERTY  mn(n_pd1020_g2)  w w 3
+   TRACE PROPERTY  mp(p_l1020_g2)  l l 3
+   TRACE PROPERTY  mp(p_l1020_g2)  w w 3
+   TRACE PROPERTY  c(varmis_18_rf)  nf nf 3
+   TRACE PROPERTY  c(vardiop_rf)  nf nf 3
+   TRACE PROPERTY  r(rsnwell)  r r 3
+   TRACE PROPERTY  r(rsnd)  r r 3
+   TRACE PROPERTY  r(rspd)  r r 3
+   TRACE PROPERTY  r(rsnpo)  r r 3
+   TRACE PROPERTY  r(rsppo)  r r 3
+   TRACE PROPERTY  r(rnnd)  r r 3
+   TRACE PROPERTY  r(rnpd)  r r 3
+   TRACE PROPERTY  r(rnnpo)  r r 3
+   TRACE PROPERTY  r(rnnpo_mm)  r r 3
+   TRACE PROPERTY  r(rnnpo_rf)  r r 3
+   TRACE PROPERTY  r(rnppo)  r r 3
+   TRACE PROPERTY  r(rnppo_mm)  r r 3
+   TRACE PROPERTY  r(rnppo_rf)  r r 3
+   TRACE PROPERTY  r(rnhr1000_mm)  r r 3
+   TRACE PROPERTY  r(rnhr_rf)  r r 3
+   TRACE PROPERTY  r(rm1_mm)  r r 3
+   TRACE PROPERTY  r(rm2_mm)  r r 3
+   TRACE PROPERTY  r(rm3_mm)  r r 3
+   TRACE PROPERTY  r(rm4_mm)  r r 3
+   TRACE PROPERTY  r(rm5_mm)  r r 3
+   TRACE PROPERTY  r(rm6_mm)  r r 3
+   TRACE PROPERTY  c(pad_rf)  index index 3
+   TRACE PROPERTY  d(dion_g2)  p p 3
+   TRACE PROPERTY  d(dion_g2)  a a 3
+   TRACE PROPERTY  d(diop_g2)  a a 3
+   TRACE PROPERTY  d(diop_g2)  p p 3
+   TRACE PROPERTY  d(dionw_g2)  a a 3
+   TRACE PROPERTY  d(dionw_g2)  p p 3
+   TRACE PROPERTY  d(dion_mm)  a a 3
+   TRACE PROPERTY  d(dion_mm)  p p 3
+   TRACE PROPERTY  d(diop_mm)  a a 3
+   TRACE PROPERTY  d(diop_mm)  p p 3
+   TRACE PROPERTY  d(dionw_mm)  a a 3
+   TRACE PROPERTY  d(dionw_mm)  p p 3
+   TRACE PROPERTY  q(pnp_v50x50_g2)  a a 3
+   TRACE PROPERTY  q(pnp_v100x100_g2)  a a 3
+   TRACE PROPERTY  q(pnp_v50x50_mm)  a a 3
+   TRACE PROPERTY  q(pnp_v100x100_mm)  a a 3
+   TRACE PROPERTY  c(mimcaps_mm)  c c 3
+   TRACE PROPERTY  c(mimcapm_rf)  l l 3
+   TRACE PROPERTY  c(mimcapm_rf)  w w 3
+   TRACE PROPERTY  c(mimcapm_rf)  nx nx 3
+   TRACE PROPERTY  c(mimcapm_rf)  ny ny 3
+   TRACE PROPERTY  l(l_slcr20k_rf)  d d 3
+   TRACE PROPERTY  l(l_slcr20k_rf)  n n 3
+   TRACE PROPERTY  l(l_slcr20k_rf)  w w 3
+
+
+
+                   CELL COMPARISON RESULTS ( TOP LEVEL )
+
+
+
+                         #       ###################       _   _   
+                        #        #                 #       *   *   
+                   #   #         #     CORRECT     #         |     
+                    # #          #                 #       \___/  
+                     #           ###################               
+
+
+  Warning:  Ambiguity points were found and resolved arbitrarily.
+
+LAYOUT CELL NAME:         BUFFER_2
+SOURCE CELL NAME:         BUFFER_2
+
+--------------------------------------------------------------------------------------------------------------
+
+INITIAL NUMBERS OF OBJECTS
+--------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:             11        11
+
+ Nets:              50        50
+
+ Instances:         80        80         MN (4 pins)
+                   148       148         MP (4 pins)
+                    12        12         C (2 pins)
+                     4         4         R (3 pins)
+                ------    ------
+ Total Inst:       244       244
+
+
+NUMBERS OF OBJECTS AFTER TRANSFORMATION
+---------------------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:             11        11
+
+ Nets:              48        48
+
+ Instances:         22        22         MN (4 pins)
+                    22        22         MP (4 pins)
+                     2         2         C (2 pins)
+                     4         4         R (3 pins)
+                     1         1         SMN2 (4 pins)
+                     1         1         SMP2 (4 pins)
+                ------    ------
+ Total Inst:        52        52
+
+
+
+**************************************************************************************************************
+                               INFORMATION AND WARNINGS
+**************************************************************************************************************
+
+
+                  Matched    Matched    Unmatched    Unmatched    Component
+                   Layout     Source       Layout       Source    Type
+                  -------    -------    ---------    ---------    ---------
+   Ports:              11         11            0            0
+
+   Nets:               48         48            0            0
+
+   Instances:          22         22            0            0    MN(N_18_MM)
+                       22         22            0            0    MP(P_18_MM)
+                        2          2            0            0    C(MIMCAPS_MM)
+                        4          4            0            0    R(RNHR1000_MM)
+                        1          1            0            0    SMN2
+                        1          1            0            0    SMP2
+                  -------    -------    ---------    ---------
+   Total Inst:         52         52            0            0
+
+
+o Statistics:
+
+   202 layout mos transistors were reduced to 22.
+     180 mos transistors were deleted by parallel reduction.
+   202 source mos transistors were reduced to 22.
+     180 mos transistors were deleted by parallel reduction.
+
+   12 parallel layout capacitors were reduced to 2.
+   12 parallel source capacitors were reduced to 2.
+
+   15 nets and 2 instances were matched arbitrarily.
+
+
+o Initial Correspondence Points:
+
+   Ports:        AVDD AGND VPCAS VI- VI+ VB2 VB3 VB1 VNCAS VB4 VO
+
+
+o Ambiguity Resolution Points:
+
+      (Each one of the following objects belongs to a group of indistinguishable objects.
+       The listed objects were matched arbitrarily by the Ambiguity Resolution feature of LVS.
+       Arbitrary matching may be prevented by assigning names to these objects or to adjacent nets).
+
+       Layout                                                    Source
+       ------                                                    ------
+
+                                     Nets
+                                     ----
+
+       37                                                        N$761
+       38                                                        N$758
+       36                                                        N$755
+       39                                                        N$764
+       17                                                        N$688
+       32                                                        N$668
+       10                                                        N$749
+       28                                                        N$801
+       15                                                        N$789
+       34                                                        N$702
+       20                                                        N$795
+       33                                                        N$672
+       29                                                        N$774
+       25                                                        N$786
+       21                                                        N$792
+
+
+                                   Instances
+                                   ---------
+
+       R0(33.090,24.010)  R(RNHR1000_MM)                         R2  R(RNHR1000_MM)
+       R1(33.090,39.690)  R(RNHR1000_MM)                         R4  R(RNHR1000_MM)
+
+
+
+**************************************************************************************************************
+                                         SUMMARY
+**************************************************************************************************************
+
+Total CPU Time:      0 sec
+Total Elapsed Time:  0 sec

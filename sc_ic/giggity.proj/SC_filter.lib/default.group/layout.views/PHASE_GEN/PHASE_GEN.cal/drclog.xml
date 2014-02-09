@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<drc_log>
+<comment>
+This file was automatically created. Please do not hand edit.
+</comment>
+ username="dlavila"
+ datestamp="Tue Jan 21 01:14:47 2014
+"
+<version version="2"/>
+<rve_log runset_name="/dev/null" timestamp="1390277687" drc_file="$SC_filter/default.group/layout.views/PHASE_GEN/PHASE_GEN.cal/PHASE_GEN.drc.results" ll_areax="0" ll_areay="0" ur_areax="0" ur_areay="0" check_area="off" drc_summary_file="drc.summary"/>
+</drc_log>

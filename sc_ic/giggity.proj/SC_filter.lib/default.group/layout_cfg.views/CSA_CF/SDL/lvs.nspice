@@ -1,0 +1,32 @@
+* LVS netlist generated with ICnet by 'dlavila' on Sat Feb  8 2014 at 22:12:27
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/switch_X4
+*
+.subckt switch_X4  out e in Vdd Vss
+
+        M2 N$40 e Vdd Vdd p_18_mm w=3u l=0.18u m=1
+        M1 N$40 e Vss Vss n_18_mm w=1u l=0.18u m=1
+        M11 out e in Vss n_18_mm w=1u l=0.18u m=4
+        M12 out N$40 in Vdd p_18_mm w=3u l=0.18u m=4
+.ends switch_X4
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/CSA_CF
+*
+.subckt CSA_CF  CMFB AGnd AVdd phi1 phi2 Vb1 Vo+ Vo- Vocm
+
+        X_SWITCH_X48 CMFB phi1 N$13 AVdd AGnd switch_X4
+        X_SWITCH_X47 N$13 phi2 Vb1 AVdd AGnd switch_X4
+        X_SWITCH_X46 N$12 phi2 Vocm AVdd AGnd switch_X4
+        X_SWITCH_X45 Vo- phi1 N$12 AVdd AGnd switch_X4
+        X_SWITCH_X44 Vo+ phi1 N$7 AVdd AGnd switch_X4
+        X_SWITCH_X43 N$7 phi2 Vocm AVdd AGnd switch_X4
+        X_SWITCH_X42 CMFB phi1 N$5 AVdd AGnd switch_X4
+        X_SWITCH_X41 N$5 phi2 Vb1 AVdd AGnd switch_X4
+        C4 N$12 N$13 0.103p m=2 w=10u l=10u $[ mimcaps_mm ]
+        C3 Vo- CMFB 0.103p m=2 w=10u l=10u $[ mimcaps_mm ]
+        C2 N$7 N$5 0.103p m=2 w=10u l=10u $[ mimcaps_mm ]
+        C1 Vo+ CMFB 0.103p m=2 w=10u l=10u $[ mimcaps_mm ]
+.ends CSA_CF
+

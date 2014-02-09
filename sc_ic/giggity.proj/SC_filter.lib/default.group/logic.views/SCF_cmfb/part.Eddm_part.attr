@@ -1,0 +1,22 @@
+A 5 u Eddm_part 52f3f2c50d08.03.7f.00.00.01.00.68.c6 6 2 2 0
+V v 4 1 52f3f932e1eb.03.7f.00.00.01.00.70.13
+F f 4 "part.part_4"
+V v 5 1 52f3f93364da.03.7f.00.00.01.00.70.13
+F f 5 "part.part_5"
+V v 6 1 52f3f9340123.03.7f.00.00.01.00.70.13
+F f 6 "part.part_6"
+O 6
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/SCF_cmfb/schematic" 1 mgc_schematic 52f3f2c3eda5.03.7f.00.00.01.01.68.c6 52f3f2c3eda5.03.7f.00.00.01.00.68.c6
+P "eddm__refer_state" "eddm__refer_floating"
+R csduv 1 "$SC_filter/default.group/logic.views/SCF_cmfb/SCF_cmfb" 7 mgc_symbol 52f3f9340115.03.7f.00.00.01.00.70.13 52f3f3f8e1e5.03.7f.00.00.01.00.68.c6
+O 5
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/SCF_cmfb/schematic" 1 mgc_schematic 52f3f2c3eda5.03.7f.00.00.01.01.68.c6 52f3f2c3eda5.03.7f.00.00.01.00.68.c6
+P "eddm__refer_state" "eddm__refer_floating"
+R csduv 1 "$SC_filter/default.group/logic.views/SCF_cmfb/SCF_cmfb" 6 mgc_symbol 52f3f93364d4.03.7f.00.00.01.00.70.13 52f3f3f8e1e5.03.7f.00.00.01.00.68.c6
+O 4
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/SCF_cmfb/schematic" 1 mgc_schematic 52f3f2c3eda5.03.7f.00.00.01.01.68.c6 52f3f2c3eda5.03.7f.00.00.01.00.68.c6
+P "eddm__refer_state" "eddm__refer_floating"
+R csduv 1 "$SC_filter/default.group/logic.views/SCF_cmfb/SCF_cmfb" 5 mgc_symbol 52f3f932e1e3.03.7f.00.00.01.00.70.13 52f3f3f8e1e5.03.7f.00.00.01.00.68.c6

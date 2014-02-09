@@ -1,0 +1,37 @@
+# This file provides name mapping information for all objects
+# on the schematic design.  It provides a mapping for each
+# object between its name on the schematic and its name in the netlist.
+version 1.0
+
+Cell P_18_MM
+   Pin D D
+   Pin G G
+   Pin S S
+   Pin B B
+End Cell
+
+Cell N_18_MM
+   Pin D D
+   Pin G G
+   Pin S S
+   Pin B B
+End Cell
+
+Cell #top#
+   Pin out out
+   Pin e e
+   Pin in in
+   Pin Vdd Vdd
+   Pin Vss Vss
+   Net N$40 N$40
+   Net out out
+   Net e e
+   Net in in
+   Net Vdd Vdd
+   Net Vss Vss
+   Inst M2 M2 P_18_MM
+   Inst M1 M1 N_18_MM
+   Inst M11 M11 N_18_MM
+   Inst M12 M12 P_18_MM
+End Cell
+

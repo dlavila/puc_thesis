@@ -1,0 +1,46 @@
+* LVS netlist generated with ICnet by 'dlavila' on Sat Feb  8 2014 at 23:32:52
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/SCF_ota
+*
+.subckt SCF_ota  Vo+ Vo- AGnd AVdd CMFB Iref Vb2 Vb3 Vi+ Vi-
+
+        M14 ND4 N$542 AGnd AGnd n_18_mm w=2u l=0.45u m=4
+        M4 N$542 Vb3 N$64 AGnd n_18_mm w=1u l=0.18u m=2
+        M51 Vo- N$1117 Vo- AGnd n_18_mm w=2u l=0.45u m=1
+        M50 Vo- N$1114 Vo- AGnd n_18_mm w=2u l=0.45u m=1
+        M7 Vo- Vb2 ND1 AVdd p_18_mm w=2u l=0.3u m=8
+        M13 ND3 N$559 AGnd AGnd n_18_mm w=2u l=0.45u m=4
+        M0 N$435 Iref AVdd AVdd p_18_mm w=8u l=0.45u m=8
+        M3B ND2 N$559 AGnd AGnd n_18_mm w=2u l=0.45u m=2
+        M10 N$1000 CMFB AVdd AVdd p_18_mm w=4u l=1u m=8
+        M9 ND1 CMFB AVdd AVdd p_18_mm w=4u l=1u m=8
+        M11 N$559 Vb3 ND2 AGnd n_18_mm w=1u l=0.18u m=2
+        M12 N$64 N$542 AGnd AGnd n_18_mm w=2u l=0.45u m=2
+        M49 Vo- N$1108 Vo- AGnd n_18_mm w=2u l=0.45u m=1
+        M6 ND4 Vi- N$435 N$435 p_18_mm w=6u l=0.36u m=8
+        M8 Vo+ Vb2 N$1000 AVdd p_18_mm w=2u l=0.3u m=8
+        M3 Vo- Vb3 ND3 AGnd n_18_mm w=2u l=0.45u m=4
+        M5 Vo+ Vb3 ND4 AGnd n_18_mm w=2u l=0.45u m=4
+        M2 N$559 Vi- N$435 N$435 p_18_mm w=6u l=0.36u m=8
+        M42 ND2 N$1085 ND2 AGnd n_18_mm w=2u l=0.45u m=1
+        M41 ND2 N$1081 ND2 AGnd n_18_mm w=1u l=0.18u m=1
+        M40 ND2 N$1078 ND2 AGnd n_18_mm w=1u l=0.18u m=1
+        M39 ND1 N$1072 ND1 AVdd p_18_mm w=4u l=1u m=1
+        M38 ND1 N$1071 ND1 AVdd p_18_mm w=4u l=1u m=1
+        M37 ND1 N$1070 ND1 AVdd p_18_mm w=4u l=1u m=1
+        M36 ND1 N$1118 ND1 AVdd p_18_mm w=4u l=1u m=1
+        M35 Vo- N$1056 Vo- AVdd p_18_mm w=2u l=0.3u m=1
+        M34 Vo- N$1053 Vo- AVdd p_18_mm w=2u l=0.3u m=1
+        M33 Vo- N$1050 Vo- AVdd p_18_mm w=2u l=0.3u m=1
+        M32 Vo- N$1047 Vo- AVdd p_18_mm w=2u l=0.3u m=1
+        M1A ND3 Vi+ N$435 N$435 p_18_mm w=6u l=0.36u m=8
+        M1 N$542 Vi+ N$435 N$435 p_18_mm w=6u l=0.36u m=8
+        M45 ND4 N$1095 ND4 AGnd n_18_mm w=2u l=0.45u m=1
+        M46 ND4 N$1098 ND4 AGnd n_18_mm w=2u l=0.45u m=1
+        M48 Vo- N$1111 Vo- AGnd n_18_mm w=2u l=0.45u m=1
+        M47 ND4 N$1101 ND4 AGnd n_18_mm w=2u l=0.45u m=1
+        M43 ND2 N$1088 ND2 AGnd n_18_mm w=2u l=0.45u m=1
+        M44 ND4 N$1092 ND4 AGnd n_18_mm w=2u l=0.45u m=1
+.ends SCF_ota
+

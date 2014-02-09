@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/inv_X64.dv
+dv_start matched
+dv_cell {inv_X64} {inv_X64} matched
+dv_obj_count -transformed_nets {4 4} -transformed_inst {1 1} -transformed_port {4 4}
+dv_end

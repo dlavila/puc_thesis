@@ -1,0 +1,61 @@
+A 5 u Ic_cell_template 52f6db536b5b.03.7f.00.00.01.00.1e.3a 23 4 18 0
+V v 19 1 52f700beb9e4.03.7f.00.00.01.00.1e.3a
+F f 19 "SCF.iccel_19"
+V v 20 1 52f7015c0d03.03.7f.00.00.01.00.1e.3a
+F f 20 "SCF.iccel_20"
+V v 21 1 52f7017410cb.03.7f.00.00.01.00.1e.3a
+F f 21 "SCF.iccel_21"
+V v 22 1 52f702c2332c.03.7f.00.00.01.00.5a.e0
+F f 22 "SCF.iccel_22"
+V v 23 1 52f7036ee380.03.7f.00.00.01.00.5a.e0
+F f 23 "SCF.iccel_23"
+O 23
+R csduv 1 "$MGC_DESIGN_KIT/process/umc18ummrf" 25 Ic_persist_process 4b49fbac2b9a.03.89.ca.1c.10.00.03.ca 462ccb24bc64.03.7f.00.00.02.00.14.78
+R csduv 2 "$SC_filter/default.group/layout_cfg.views/SCF/SDL" 1 Eddm_design_viewpoint 52f6db536614.03.7f.00.00.01.01.1e.3a 52f6db536614.03.7f.00.00.01.00.1e.3a
+R csdni 4 "$MGC_DESIGN_KIT/process/umc18mmrf_sdl_rules" 1 Mgc_file
+R csduv 6 "$SC_filter/default.group/layout.views/SCF_dcmfb/SCF_dcmfb" 39 Ic_cell_template 52f6f3ebbc56.03.7f.00.00.01.00.1e.3a 52f6b766ac44.03.7f.00.00.01.00.49.d0
+R csduv 7 "$SC_filter/default.group/layout.views/SCF_ota/SCF_ota" 140 Ic_cell_template 52f6e98cbf77.03.7f.00.00.01.00.1e.3a 52de81d739cd.03.7f.00.00.01.00.5a.47
+R csduv 11 "$MGC_DESIGN_KIT/process/vias/M3M4" 6 Ic_cell_template 42db946f107d.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.02.12.b4
+R cmduv 13 "49052f642000.0d.00.01.a5.b0.00.00.00" 1 Ic_device_template 49fba4394000.0d.00.01.a5.b0.00.00.00 49052f642000.0d.00.01.a5.b0.00.00.00
+R csduv 14 "$MGC_DESIGN_KIT/process/vias/M4M5" 6 Ic_cell_template 42db94b97dbf.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.03.12.b4
+R csduv 15 "$SC_filter/default.group/layout.views/SCF_bias/SCF_bias" 8 Ic_cell_template 52f6e7781551.03.7f.00.00.01.00.1e.3a 52f3f4209c0a.03.7f.00.00.01.00.69.6a
+O 22
+R csduv 1 "$MGC_DESIGN_KIT/process/umc18ummrf" 25 Ic_persist_process 4b49fbac2b9a.03.89.ca.1c.10.00.03.ca 462ccb24bc64.03.7f.00.00.02.00.14.78
+R csduv 2 "$SC_filter/default.group/layout_cfg.views/SCF/SDL" 1 Eddm_design_viewpoint 52f6db536614.03.7f.00.00.01.01.1e.3a 52f6db536614.03.7f.00.00.01.00.1e.3a
+R csdni 4 "$MGC_DESIGN_KIT/process/umc18mmrf_sdl_rules" 1 Mgc_file
+R csduv 6 "$SC_filter/default.group/layout.views/SCF_dcmfb/SCF_dcmfb" 39 Ic_cell_template 52f6f3ebbc56.03.7f.00.00.01.00.1e.3a 52f6b766ac44.03.7f.00.00.01.00.49.d0
+R csduv 7 "$SC_filter/default.group/layout.views/SCF_ota/SCF_ota" 140 Ic_cell_template 52f6e98cbf77.03.7f.00.00.01.00.1e.3a 52de81d739cd.03.7f.00.00.01.00.5a.47
+R csduv 11 "$MGC_DESIGN_KIT/process/vias/M3M4" 6 Ic_cell_template 42db946f107d.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.02.12.b4
+R cmduv 13 "49052f642000.0d.00.01.a5.b0.00.00.00" 1 Ic_device_template 49fba4394000.0d.00.01.a5.b0.00.00.00 49052f642000.0d.00.01.a5.b0.00.00.00
+R csduv 14 "$MGC_DESIGN_KIT/process/vias/M4M5" 6 Ic_cell_template 42db94b97dbf.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.03.12.b4
+R csduv 15 "$SC_filter/default.group/layout.views/SCF_bias/SCF_bias" 8 Ic_cell_template 52f6e7781551.03.7f.00.00.01.00.1e.3a 52f3f4209c0a.03.7f.00.00.01.00.69.6a
+O 21
+R csduv 1 "$MGC_DESIGN_KIT/process/umc18ummrf" 25 Ic_persist_process 4b49fbac2b9a.03.89.ca.1c.10.00.03.ca 462ccb24bc64.03.7f.00.00.02.00.14.78
+R csduv 2 "$SC_filter/default.group/layout_cfg.views/SCF/SDL" 1 Eddm_design_viewpoint 52f6db536614.03.7f.00.00.01.01.1e.3a 52f6db536614.03.7f.00.00.01.00.1e.3a
+R csdni 4 "$MGC_DESIGN_KIT/process/umc18mmrf_sdl_rules" 1 Mgc_file
+R csduv 6 "$SC_filter/default.group/layout.views/SCF_dcmfb/SCF_dcmfb" 40 Ic_cell_template 52f6f3ebc140.03.7f.00.00.01.00.1e.3a 52f6b766ac44.03.7f.00.00.01.00.49.d0
+R csduv 7 "$SC_filter/default.group/layout.views/SCF_ota/SCF_ota" 141 Ic_cell_template 52f6e98cc4ad.03.7f.00.00.01.00.1e.3a 52de81d739cd.03.7f.00.00.01.00.5a.47
+R csduv 10 "$SC_filter/default.group/layout.views/SCF_bias/SCF_bias" 9 Ic_cell_template 52f6e778185a.03.7f.00.00.01.00.1e.3a 52f3f4209c0a.03.7f.00.00.01.00.69.6a
+R csduv 11 "$MGC_DESIGN_KIT/process/vias/M3M4" 6 Ic_cell_template 42db946f107d.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.02.12.b4
+R cmduv 13 "49052f642000.0d.00.01.a5.b0.00.00.00" 1 Ic_device_template 49fba4394000.0d.00.01.a5.b0.00.00.00 49052f642000.0d.00.01.a5.b0.00.00.00
+R csduv 14 "$MGC_DESIGN_KIT/process/vias/M4M5" 6 Ic_cell_template 42db94b97dbf.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.03.12.b4
+O 20
+R csduv 1 "$MGC_DESIGN_KIT/process/umc18ummrf" 25 Ic_persist_process 4b49fbac2b9a.03.89.ca.1c.10.00.03.ca 462ccb24bc64.03.7f.00.00.02.00.14.78
+R csduv 2 "$SC_filter/default.group/layout_cfg.views/SCF/SDL" 1 Eddm_design_viewpoint 52f6db536614.03.7f.00.00.01.01.1e.3a 52f6db536614.03.7f.00.00.01.00.1e.3a
+R csdni 4 "$MGC_DESIGN_KIT/process/umc18mmrf_sdl_rules" 1 Mgc_file
+R csduv 6 "$SC_filter/default.group/layout.views/SCF_dcmfb/SCF_dcmfb" 40 Ic_cell_template 52f6f3ebc140.03.7f.00.00.01.00.1e.3a 52f6b766ac44.03.7f.00.00.01.00.49.d0
+R csduv 7 "$SC_filter/default.group/layout.views/SCF_ota/SCF_ota" 141 Ic_cell_template 52f6e98cc4ad.03.7f.00.00.01.00.1e.3a 52de81d739cd.03.7f.00.00.01.00.5a.47
+R csduv 10 "$SC_filter/default.group/layout.views/SCF_bias/SCF_bias" 9 Ic_cell_template 52f6e778185a.03.7f.00.00.01.00.1e.3a 52f3f4209c0a.03.7f.00.00.01.00.69.6a
+R csduv 11 "$MGC_DESIGN_KIT/process/vias/M3M4" 6 Ic_cell_template 42db946f107d.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.02.12.b4
+R cmduv 13 "49052f642000.0d.00.01.a5.b0.00.00.00" 1 Ic_device_template 49fba4394000.0d.00.01.a5.b0.00.00.00 49052f642000.0d.00.01.a5.b0.00.00.00
+R csduv 14 "$MGC_DESIGN_KIT/process/vias/M4M5" 6 Ic_cell_template 42db94b97dbf.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.03.12.b4
+O 19
+R csduv 1 "$MGC_DESIGN_KIT/process/umc18ummrf" 25 Ic_persist_process 4b49fbac2b9a.03.89.ca.1c.10.00.03.ca 462ccb24bc64.03.7f.00.00.02.00.14.78
+R csduv 2 "$SC_filter/default.group/layout_cfg.views/SCF/SDL" 1 Eddm_design_viewpoint 52f6db536614.03.7f.00.00.01.01.1e.3a 52f6db536614.03.7f.00.00.01.00.1e.3a
+R csdni 4 "$MGC_DESIGN_KIT/process/umc18mmrf_sdl_rules" 1 Mgc_file
+R csduv 6 "$SC_filter/default.group/layout.views/SCF_dcmfb/SCF_dcmfb" 40 Ic_cell_template 52f6f3ebc140.03.7f.00.00.01.00.1e.3a 52f6b766ac44.03.7f.00.00.01.00.49.d0
+R csduv 7 "$SC_filter/default.group/layout.views/SCF_ota/SCF_ota" 141 Ic_cell_template 52f6e98cc4ad.03.7f.00.00.01.00.1e.3a 52de81d739cd.03.7f.00.00.01.00.5a.47
+R csduv 10 "$SC_filter/default.group/layout.views/SCF_bias/SCF_bias" 9 Ic_cell_template 52f6e778185a.03.7f.00.00.01.00.1e.3a 52f3f4209c0a.03.7f.00.00.01.00.69.6a
+R csduv 11 "$MGC_DESIGN_KIT/process/vias/M3M4" 6 Ic_cell_template 42db946f107d.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.02.12.b4
+R cmduv 13 "49052f642000.0d.00.01.a5.b0.00.00.00" 1 Ic_device_template 49fba4394000.0d.00.01.a5.b0.00.00.00 49052f642000.0d.00.01.a5.b0.00.00.00
+R csduv 14 "$MGC_DESIGN_KIT/process/vias/M4M5" 6 Ic_cell_template 42db94b97dbf.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.03.12.b4

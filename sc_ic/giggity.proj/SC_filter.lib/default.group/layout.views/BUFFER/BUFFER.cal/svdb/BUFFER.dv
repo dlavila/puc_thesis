@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/BUFFER.dv
+dv_start matched
+dv_cell {BUFFER} {BUFFER} matched
+dv_obj_count -transformed_nets {48 48} -transformed_inst {52 52} -transformed_port {11 11}
+dv_end

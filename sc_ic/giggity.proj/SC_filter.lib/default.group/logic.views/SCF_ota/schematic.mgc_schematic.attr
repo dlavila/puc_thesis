@@ -1,13 +1,13 @@
-A 5 u mgc_schematic 5283e1dd9485.03.7f.00.00.01.00.18.29 201 2 1 0
-V v 199 1 5296425c8537.03.7f.00.00.01.00.78.23
+A 5 u mgc_schematic 5283e1dd9485.03.7f.00.00.01.00.18.29 236 2 1 0
+V v 234 1 52f3f81282c7.03.7f.00.00.01.00.68.c6
 F o 0 ""
-V v 200 1 5296648dba4e.03.7f.00.00.01.00.2f.5b
+V v 235 1 52f3f8c948a8.03.7f.00.00.01.00.68.c6
 F o 0 ""
-V v 201 1 52af5387177b.03.7f.00.00.01.00.16.a3
+V v 236 1 52f3f8c9d32f.03.7f.00.00.01.00.68.c6
 F o 0 ""
-O 201
-R cspuv 0 "$SC_filter/default.group/logic.views/SCF_ota/schematic/sheet1" 200 mgc_sheet 52af53871766.03.7f.00.00.01.00.16.a3 5283e1dd9496.03.7f.00.00.01.00.18.29
-O 200
-R cspuv 0 "$SC_filter/default.group/logic.views/SCF_ota/schematic/sheet1" 199 mgc_sheet 5296648dba1d.03.7f.00.00.01.00.2f.5b 5283e1dd9496.03.7f.00.00.01.00.18.29
-O 199
-R cspuv 0 "$SC_filter/default.group/logic.views/SCF_ota/schematic/sheet1" 198 mgc_sheet 5296425c8522.03.7f.00.00.01.00.78.23 5283e1dd9496.03.7f.00.00.01.00.18.29
+O 236
+R cspuv 0 "$SC_filter/default.group/logic.views/SCF_ota/schematic/sheet1" 235 mgc_sheet 52f3f8c9d31b.03.7f.00.00.01.00.68.c6 5283e1dd9496.03.7f.00.00.01.00.18.29
+O 235
+R cspuv 0 "$SC_filter/default.group/logic.views/SCF_ota/schematic/sheet1" 234 mgc_sheet 52f3f8c9488f.03.7f.00.00.01.00.68.c6 5283e1dd9496.03.7f.00.00.01.00.18.29
+O 234
+R cspuv 0 "$SC_filter/default.group/logic.views/SCF_ota/schematic/sheet1" 233 mgc_sheet 52f3f81282ae.03.7f.00.00.01.00.68.c6 5283e1dd9496.03.7f.00.00.01.00.18.29

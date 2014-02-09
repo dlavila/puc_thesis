@@ -1,0 +1,11 @@
+*lvsRulesFile: /usr/local/mentor/UMC180PDK/rule_deck/LVS/G-DF-MIXED_MODE_RFCMOS18-1.8V_3.3V-1P6M-MMC_CALIBRE-LVS-2.1-P4.txt
+*lvsRunDir: /home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib/default.group/layout.views/CSA_CF/CSA_CF.cal
+*lvsLayoutPaths: CSA_CF.calibre.gds
+*lvsLayoutPrimary: CSA_CF
+*lvsLayoutGetFromViewer: 1
+*lvsResultsFile: CSA_CF.lvs.results
+*lvsSummaryFile: CSA_CF.lvs.summary
+*cmnApplyTemplates: 0
+*lvsSourceGetFromViewer: 1
+*lvsSourcePath: CSA_CF.calibre.src.net
+*lvsSourcePrimary: CSA_CF

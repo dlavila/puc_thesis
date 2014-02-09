@@ -1,21 +1,24 @@
-START report: Thu Dec 19 14:57:28 2013 
+START report: Sat Feb  8 20:28:16 2014 
 Warning: (eldo - 406)  In file "/usr/local/mentor/UMC180PDK/models/ELDO/include_all" line 1:
 +   COMMAND .LIB cannot find corner tt in library /usr/local/mentor/UMC180PDK/models/ELDO/018-rf-v2d4-control.eldo
-Warning: (eldo - 706)  In file "/usr/local/mentor/UMC180PDK/models/ELDO/MM180_MIMCAP_V101.mdl.eldo" line 9:
-+   During the creation of X_BUFFER3.XC1, the parameter W in subckt MIMCAPS_MM is ignored as it is already specified on the instance line.
-Warning: (eldo - 706)  In file "/usr/local/mentor/UMC180PDK/models/ELDO/MM180_MIMCAP_V101.mdl.eldo" line 9:
-+   During the creation of X_BUFFER3.XC1, the parameter L in subckt MIMCAPS_MM is ignored as it is already specified on the instance line.
+Warning: (eldo - 87) Some X or device instances connected in parallel have been merged into a single instance.
++   This may cause some unexpected warning messages. See Eldo documentation for detail.
++   To prevent this merging, please use .option nocatmx .
 Warning: (eldo - 252)  In file "/usr/local/mentor/UMC180PDK/models/ELDO/MM180_RES_V133.mdl.eldo56" line 42:
 +   OBJECT "X_BGR1.XR6.C1": Self-connected object not created.
 Warning: (eldo - 252)  In file "/usr/local/mentor/UMC180PDK/models/ELDO/MM180_RES_V133.mdl.eldo56" line 42:
 +   OBJECT "X_BGR1.XR5.C1": Self-connected object not created.
 Warning: (eldo - 252)  In file "/usr/local/mentor/UMC180PDK/models/ELDO/MM180_RES_V133.mdl.eldo56" line 42:
 +   OBJECT "X_BGR1.XR3.C1": Self-connected object not created.
+Warning: (eldo - 706)  In file "/usr/local/mentor/UMC180PDK/models/ELDO/MM180_MIMCAP_V101.mdl.eldo" line 9:
++   During the creation of XC10, the parameter W in subckt MIMCAPS_MM is ignored as it is already specified on the instance line.
+Warning: (eldo - 706)  In file "/usr/local/mentor/UMC180PDK/models/ELDO/MM180_MIMCAP_V101.mdl.eldo" line 9:
++   During the creation of XC10, the parameter L in subckt MIMCAPS_MM is ignored as it is already specified on the instance line.
 Warning: (eldo - 1615)  In file "./CHANNEL_eldonet.cir" line 20:
 +   COMMAND ".TRAN": Tstep can not be <= 0.0.
 +   It is set to Tmax/20.0 = 6.000e-08 s.
 Warning: (eldo - 1619) This netlist contains expressions using strongly non-linear functions such as ABS() MIN(), 
-+   MAX() (found in device X_BUFFER3.XR1.R1 for instance) 
++   MAX() (found in device X_BGR1.XR6.R1 for instance) 
 +   If, and only if, convergence problems occur either in DC or transient analysis, 
 +   the .option mmsmooth is a possible workaround worth testing. 
 +   It is NOT recommended to activate it systematically, or if there are no particular convergence problems. 

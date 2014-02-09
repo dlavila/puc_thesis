@@ -1,0 +1,13 @@
+A 5 u mgc_symbol 52f3f3f19e8a.03.7f.00.00.01.00.68.c6 39 2 1 0
+V v 37 1 52f701cfde39.03.7f.00.00.01.00.28.61
+F f 37 "SCF_bias.smbl_37"
+V v 38 1 52f701d0573a.03.7f.00.00.01.00.28.61
+F f 38 "SCF_bias.smbl_38"
+V v 39 1 52f701d0b90e.03.7f.00.00.01.00.28.61
+F f 39 "SCF_bias.smbl_39"
+O 39
+R csduv 0 "$SC_filter/default.group/logic.views/SCF_bias/part" 23 Eddm_part 52f6e66ed1c0.03.7f.00.00.01.00.28.61 52f3f2b9a5d5.03.7f.00.00.01.00.66.ab
+O 38
+R csduv 0 "$SC_filter/default.group/logic.views/SCF_bias/part" 23 Eddm_part 52f6e66ed1c0.03.7f.00.00.01.00.28.61 52f3f2b9a5d5.03.7f.00.00.01.00.66.ab
+O 37
+R csduv 0 "$SC_filter/default.group/logic.views/SCF_bias/part" 23 Eddm_part 52f6e66ed1c0.03.7f.00.00.01.00.28.61 52f3f2b9a5d5.03.7f.00.00.01.00.66.ab

@@ -1,0 +1,19 @@
+*drcRulesFile: /usr/local/mentor/UMC180PDK/rule_deck/DRC/IMEC_G-DF-Mixed_Mode_RFCMOS18-1.8v_3.3v-1P6M-MMC-Calibre-DRC-2.10_p3
+*drcRunDir: /home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib/default.group/layout.views/BUFFER/BUFFER.cal
+*drcLayoutPaths: BUFFER_2.calibre.db
+*drcLayoutPrimary: BUFFER_2
+*drcLayoutGetFromViewer: 1
+*drcResultsFile: BUFFER_2.drc.results
+*drcSummaryFile: BUFFER_2.drc.summary
+*drcActiveRecipe: Checks selected in the rules file
+*drcUserRecipes: {IMEC_NORF {{group_unselect[1]} all {check_select[1]} 4.29K {check_select[2]} 4.29L {check_select[3]} 6Ba.ME1 {check_select[4]} 6Bb.ME1 {check_select[5]} 6Ba.ME2 {check_select[6]} 6Bb.ME2 {check_select[7]} 6Ba.ME3 {check_select[8]} 6Bb.ME3 {check_select[9]} 6Ba.ME4 {check_select[10]} 6Bb.ME4 {check_select[11]} 6Ba.ME5 {check_select[12]} 6Bb.ME5 {check_select[13]} 6Ba.ME6 {check_select[14]} 4.29NOTICE {check_select[15]} 4.20C {check_select[16]} 6Bb.ME6 {check_select[17]} 6Aa.ME1 {check_select[18]} 4.22C {check_select[19]} 6Ab.ME1 {check_select[20]} 6Aa.ME2 {check_select[21]} 6Ab.ME2 {check_select[22]} 6Aa.ME3 {check_select[23]} 4.24C {check_select[24]} 6Ab.ME3 {check_select[25]} 6Aa.ME4 {check_select[26]} 4.29G {check_select[27]} 6Ab.ME4 {check_select[28]} 6Aa.ME5 {check_select[29]} 4.26C {check_select[30]} 4.29H {check_select[31]} 4.29I.a {check_select[32]} 6Ab.ME5 {check_select[33]} 6Aa.ME6 {check_select[34]} 4.29I.b {check_select[35]} 6Ab.ME6 {check_select[36]} 4.28C {check_select[37]} 4.29I.c {check_select[38]} 4.29J}}
+*drcIncrDRCSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*drcIncrDRCLSFSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*drcIncrDRCGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnWarnLayoutOverwrite: 0
+*cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*cmnLSFSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnFDILayoutLibrary: %L
+*cmnFDILayoutView: %V
+*cmnFDIDEFLayoutPath: BUFFER_2.def

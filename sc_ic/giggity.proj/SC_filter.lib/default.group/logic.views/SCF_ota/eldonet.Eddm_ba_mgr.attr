@@ -1,6 +1,0 @@
-A 5 u Eddm_ba_mgr 5283e1dd94dc.03.7f.00.00.01.00.18.29 1 2 1 0
-V v 1 1 527bfb19d64b.03.7f.00.00.01.01.3d.cb
-F f 1 "eldonet.ba_1"
-O 1
-P "eddm__stream_to_use" "eddm__propl_dstream"
-R cspuv 0 "$SC_filter/default.group/logic.views/SCF_ota/eldonet" 1 Eddm_design_viewpoint 527bfb19d4f3.03.7f.00.00.01.01.3d.cb 5283e1dd94ac.03.7f.00.00.01.00.18.29

@@ -1,0 +1,14 @@
+* SPICE NETLIST
+***************************************
+
+.SUBCKT L POS NEG SUB
+.ENDS
+***************************************
+.SUBCKT switch_X1 e VDD VSS in out
+** N=6 EP=5 IP=0 FDC=4
+M0 2 e VDD VDD P_18_MM L=1.8e-07 W=7.5e-07 AD=3.675e-13 AS=3.675e-13 PD=1.73e-06 PS=1.73e-06 $X=1270 $Y=1420 $D=3
+M1 out 2 in VDD P_18_MM L=1.8e-07 W=3e-06 AD=1.47e-12 AS=1.47e-12 PD=3.98e-06 PS=3.98e-06 $X=3290 $Y=-830 $D=3
+M2 2 e VSS VSS N_18_MM L=1.8e-07 W=2.5e-07 AD=2.236e-13 AS=2.236e-13 PD=1.75e-06 PS=1.75e-06 $X=1080 $Y=-3340 $D=2
+M3 out e in VSS N_18_MM L=1.8e-07 W=1e-06 AD=4.9e-13 AS=4.9e-13 PD=1.98e-06 PS=1.98e-06 $X=3290 $Y=-3340 $D=2
+.ENDS
+***************************************
