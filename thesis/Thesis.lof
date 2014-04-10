@@ -1,0 +1,21 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Model for noise analysis in a typical \unhbox \voidb@x \hbox {front-end} circuit.\relax }}{6}{figure.caption.4}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Noise contribution of the pulses generated within $P_i$ and measured at an arbitrary sample $k$ (i.e., $t=kT_s$), using an arbitrary filtered noise core function $\mathaccentV {hat}05E{y}(t)$. The independent contribution of each pulse is pointed out with black dots.\relax }}{8}{figure.caption.5}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Evolution of the total integrated noise at the filter input, where the noise of each sample was split according to \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {eq:noise_evo}\unskip \@@italiccorr )}}.\relax }}{10}{figure.caption.6}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces $\sigma ^2(t)$ for thermal, shot and flicker noise with normalized time $t/\tau $ and an arbitrary amplitude.\relax }}{10}{figure.caption.7}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Front-end circuit used for noise analysis.\relax }}{11}{figure.caption.8}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces $\mathaccentV {hat}05E{\sigma }_\text {th}^2(N)$ and $N \frac {\overline {v_n^2}}{2\mathaccentV {hat}05E{\tau }}\frac {C_{tot}^2}{C_F^2}$ as a function of $\mathaccentV {hat}05E{\tau }$, using $\overline {v_n^2} = 1$, \unhbox \voidb@x \hbox {$C_{tot}^2/C_F^2 = 1$} and $N = 20$.\relax }}{13}{figure.caption.9}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Minimum $\mathit {ENC}^2$ as a function of $\mathaccentV {hat}05E{\tau }$ for a fixed $N$.\relax }}{17}{figure.caption.10}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Optimum WF for different values of $\mathaccentV {hat}05E{\tau }$ for $N=20$.\relax }}{17}{figure.caption.11}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Optimum $\mathit {ENC}^2$ as a function of $N$ for $\mathaccentV {hat}05E{\tau } = 0.03\tmspace +\thinmuskip {.1667em}\mu \text {s}$.\relax }}{18}{figure.caption.12}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

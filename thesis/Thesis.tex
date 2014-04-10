@@ -1,0 +1,224 @@
+\documentclass[pucformat]{XPucThesis}
+\usepackage{fixltx2e}
+\usepackage[utf8]{inputenc}
+\usepackage{times}
+\usepackage{setspace}
+\usepackage{ifthen}
+\usepackage{lscape}
+\usepackage{amsmath,amssymb,amsbsy,amsfonts}
+\usepackage{mathrsfs}
+\usepackage{fancyhdr}
+\usepackage{float}
+\usepackage{subfig}
+\usepackage{rotating}
+\usepackage{pdfpages}
+\usepackage{color}
+\usepackage{ifpdf}             
+\usepackage{array}
+\usepackage{sistyle}            
+
+% Graphics packages for dual use of LaTeX and pdfTeX and other graphics handling definitions.
+\ifpdf
+ \usepackage[pdftex]{graphicx}
+ \usepackage{epstopdf}
+ \DeclareGraphicsExtensions{.eps,.jpg,.png,.pdf}
+ \graphicspath{{\figpath}}
+\else
+ \usepackage[dvips]{graphicx}
+ \DeclareGraphicsExtensions{.eps}
+ \graphicspath{{\figpath}}
+\fi
+
+\usepackage[bookmarks=true,pdftex]{hyperref}
+\hypersetup{%
+    colorlinks=true,
+    linkcolor=black,
+    citecolor=black,
+    urlcolor=black,
+    filecolor=black,
+    plainpages=false,
+    pdftitle={},
+    pdfauthor={Nombre},
+    pdfsubject={T\'itulo},
+    pdfkeywords={Palabras clave},
+    pdfproducer=PDFLaTeX,
+    pdfstartview=FitH,
+    pdfpagemode=UseOutlines,
+    bookmarksopen=true,
+    bookmarksopenlevel=0,
+    verbose=true
+}
+%\usepackage[natbibapa]{apacite}
+\usepackage[]{apacite}
+
+% List used files in logfile
+\listfiles
+
+% New Theorem-based environments names
+\newtheorem{definition}{\bf Definition}[chapter]
+\newtheorem{property}{Property}[chapter]
+\newtheorem{claim}{Claim}[chapter]
+\newtheorem{lemma}{\bf Lemma}[chapter]
+\newtheorem{proposition}{Proposition}[chapter]
+\newtheorem{theorem}{\noindent \bf Theorem}[chapter]
+\newtheorem{corollary}{\bf Corollary}[chapter]
+\newtheorem{pf}{Proof}[chapter]
+\newtheorem{example}{\bf Example}[chapter]
+\newtheorem{remark}{Remark}[chapter]
+
+% Filepath definitions
+\newcommand{\latexroot}{.}
+\newcommand{\defpath}{\latexroot/def}
+\newcommand{\bibpath}{.}
+\newcommand{\figpath}{./figs}	
+\newcommand{\textpath}{./text}
+\newcommand{\paperloc}{papers}
+
+% Define references names
+\newcommand*{\figref}[1]{\figurename~\ref{#1}}
+\newcommand*{\tableref}[1]{\tablename~\ref{#1}}
+\newcommand*{\chapref}[1]{Cap\'itulo~\ref{#1}}
+\newcommand*{\secref}[1]{Secci\'on~\ref{#1}}
+\newcommand*{\eqnref}[1]{Ecuaci\'on~(\ref{#1})}
+
+% Redefine styles
+\renewcommand{\thesubfigure}{\textsc{\alph{subfigure}}} 
+
+
+% Figure shortcuts
+\newcommand{\fig}[4]{
+  \begin{figure}[ht]	
+    \centering
+    \fbox{\resizebox{#3}{!}{\includegraphics{\figpath/#2}}}
+    \caption{#4}
+    \label{#1}
+  \end{figure}
+\normalsize
+}
+\newcommand{\sfig}[8]{
+  \begin{figure}[ht]	
+    \centering%
+    \subfloat[][]{\label{#3}%
+    		\fbox{\resizebox{#4}{!}{\includegraphics{\figpath/#2}}}}\qquad%
+    \subfloat[][]{\label{#6}%
+    		\fbox{\resizebox{#7}{!}{\includegraphics{\figpath/#5}}}}%
+    \caption{#8}%
+    \label{#1}%
+  \end{figure}
+\normalsize
+}
+
+\begin{document}
+
+\mdate{December XX, 2013}
+\version{\today}
+
+\title[TITLE]{\textbf{Discrete-time noise filtering for Pulse-Processing in Particle Physics Experiments}}
+\author[AUTOR]{Diego Ávila Gárate}
+\address{Escuela de Ingenier\'ia\\
+         Pontificia Universidad Cat\'olica de Chile\\ 
+         Vicu\~na Mackenna 4860\\
+         Santiago, Chile\\
+         {\it Tel.\/} : 56 (2) 354-2000}
+\email{dlavila@uc.cl}
+
+\facultyto    {the School of Engineering}
+\faculty      {Faculty of Engineering}
+\degree       {Master of Science in Engineering} 
+\advisorA{Ángel Abusleme Hoffman} 
+\advisorB{} % de existir, segundo supervisor
+
+% Committee
+\committeememberA{Marcelo Guarini Hermann}
+\guestmemberA{PROFESOR INVITADO}
+\ogrsmember{REPRESENTANTE DE POSTGRADO}
+
+% Subject
+\subject{Engineering}
+
+% Date
+\date{April 2014} %FECHA
+
+% Copyright
+\copyrightname{Diego Ávila Gárate} %AUTOR
+\copyrightyear{MMXIII} %AÃO
+
+% Dedication
+\dedication{
+    \flushright {\itshape Giggity giggity ...} \\
+    \flushright {\scshape{Glen Quagmire}\\}}%\hspace{1cm} $\;$ \\}
+
+% Preliminaries: cover page and dedication
+\NoChapterPageNumber    % no header - footer on first page of chapter
+\pagenumbering{roman}
+
+% Make title
+\maketitle
+
+\cleardoublepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Acknowledgements
+
+\chapter*{ACKNOWLEDGEMENTS}
+
+ESCRIBIR AGRADECIMIENTOS
+
+\cleardoublepage
+
+
+\tableofcontents
+\listoffigures
+\listoftables
+
+\cleardoublepage
+
+\MScAbstract{ESCRIBIR ABSTRACT
+}{KEYWORDS}
+
+\cleardoublepage
+
+\MScResumen{
+ESCRIBIR RESUMEN
+}{PALABRAS CLAVE}
+
+\cleardoublepage
+\pagenumbering{arabic}
+\setlength{\labelsep}{1em}
+
+\include{./text/introduction}
+\include{./text/problem}
+\include{./text/theoretical}
+\include{./text/filter}
+\include{./text/results}
+\include{./text/conclusion}
+\include{./text/appendixA}
+
+% References
+
+\cleardoublepage
+\bibliographystyle{apacite}
+\bibliography{\bibpath/library}
+\cleardoublepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Begin Appendix
+
+\cleardoublepage
+\thispagestyle{empty}
+\begin{center}
+\vspace*{3.5in}
+\large{\bfseries{APPENDIX}}
+\addcontentsline{toc}{chapter}{APPENDIX}
+\end{center}
+
+\appendix
+\cleardoublepage
+
+
+\include{./text/appendixA}
+
+
+\end{document}
+
+

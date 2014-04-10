@@ -1,0 +1,45 @@
+\BOOKMARK [0][-]{chapter*.1}{ACKNOWLEDGEMENTS}{}% 1
+\BOOKMARK [0][-]{chapter*.2}{TABLE OF CONTENTS}{}% 2
+\BOOKMARK [0][-]{chapter*.3}{LIST OF FIGURES}{}% 3
+\BOOKMARK [0][-]{chapter*.4}{LIST OF TABLES}{}% 4
+\BOOKMARK [0][-]{chapter*.5}{ABSTRACT}{}% 5
+\BOOKMARK [0][-]{chapter*.6}{RESUMEN}{}% 6
+\BOOKMARK [0][-]{chapter.1}{1. INTRODUCTION}{}% 7
+\BOOKMARK [1][-]{section.1.1}{1.1. Particle physics experiments}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.2}{1.2. Electronics for particle physics experiments}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.3}{1.3. Noise minimization in circuits for particle physics instrumentation}{chapter.1}% 10
+\BOOKMARK [1][-]{section.1.4}{1.4. Thesis content}{chapter.1}% 11
+\BOOKMARK [0][-]{chapter.2}{2. PROBLEM DEFINITION}{}% 12
+\BOOKMARK [1][-]{section.2.1}{2.1. The International Linear Collider}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.2}{2.2. The Bean}{chapter.2}% 14
+\BOOKMARK [1][-]{section.2.3}{2.3. Noise analysis in discrete-time filters}{chapter.2}% 15
+\BOOKMARK [1][-]{section.2.4}{2.4. Arbitrary weighting function synthesis}{chapter.2}% 16
+\BOOKMARK [0][-]{chapter.3}{3. NOISE ANALYSIS IN PULSE-PROCESSING DISCRETE-TIME FILTERS}{}% 17
+\BOOKMARK [1][-]{section.3.1}{3.1. Introduction}{chapter.3}% 18
+\BOOKMARK [1][-]{section.3.2}{3.2. Discrete-Time Analysis}{chapter.3}% 19
+\BOOKMARK [1][-]{section.3.3}{3.3. Example}{chapter.3}% 20
+\BOOKMARK [1][-]{section.3.4}{3.4. ENC Minimization}{chapter.3}% 21
+\BOOKMARK [1][-]{section.3.5}{3.5. Conclusion}{chapter.3}% 22
+\BOOKMARK [0][-]{chapter.4}{4. A SC FILTER FOR ARBITRARY WEIGHTING FUNCTION SYNTHESIS}{}% 23
+\BOOKMARK [1][-]{section.4.1}{4.1. Introduction}{chapter.4}% 24
+\BOOKMARK [2][-]{subsection.4.1.1}{4.1.1. Filter Specifications}{section.4.1}% 25
+\BOOKMARK [1][-]{section.4.2}{4.2. System-Level Design}{chapter.4}% 26
+\BOOKMARK [1][-]{section.4.3}{4.3. Circuit Design}{chapter.4}% 27
+\BOOKMARK [2][-]{subsection.4.3.1}{4.3.1. Operational Transconductance Amplifier}{section.4.3}% 28
+\BOOKMARK [2][-]{subsection.4.3.2}{4.3.2. Capacitor Array}{section.4.3}% 29
+\BOOKMARK [2][-]{subsection.4.3.3}{4.3.3. Rail-to-Rail buffer}{section.4.3}% 30
+\BOOKMARK [2][-]{subsection.4.3.4}{4.3.4. Bias networks}{section.4.3}% 31
+\BOOKMARK [0][-]{chapter.5}{5. RESULTS}{}% 32
+\BOOKMARK [1][-]{section.5.1}{5.1. Filter simulation results}{chapter.5}% 33
+\BOOKMARK [2][-]{subsection.5.1.1}{5.1.1. OTA simulations results}{section.5.1}% 34
+\BOOKMARK [2][-]{subsection.5.1.2}{5.1.2. Rail-to-rail buffer simulations results}{section.5.1}% 35
+\BOOKMARK [2][-]{subsection.5.1.3}{5.1.3. Arbitrary weighting function synthesis}{section.5.1}% 36
+\BOOKMARK [1][-]{section.5.2}{5.2. The Bean V2 Prototype}{chapter.5}% 37
+\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1. Floorplan}{section.5.2}% 38
+\BOOKMARK [0][-]{chapter.6}{6. CONCLUSION}{}% 39
+\BOOKMARK [1][-]{section.6.1}{6.1. Summary}{chapter.6}% 40
+\BOOKMARK [1][-]{section.6.2}{6.2. Future work}{chapter.6}% 41
+\BOOKMARK [0][-]{chapter.7}{7. The Bean V2 pinout}{}% 42
+\BOOKMARK [0][-]{chapter*.7}{References}{}% 43
+\BOOKMARK [0][-]{chapter*.7}{APPENDIX}{}% 44
+\BOOKMARK [0][-]{appendix.A}{A. The Bean V2 pinout}{}% 45
