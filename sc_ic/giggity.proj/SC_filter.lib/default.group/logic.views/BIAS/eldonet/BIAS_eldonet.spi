@@ -1,0 +1,97 @@
+*
+* .CONNECT statements
+*
+.CONNECT GROUND 0
+
+
+* ELDO netlist generated with ICnet by 'dlavila' on Tue Dec 17 2013 at 17:50:31
+
+*
+* Globals.
+*
+.global GROUND VDD
+
+
+*
+* Component pathname : $MGC_DESIGN_KIT/symbols/RNHR1000_MM [ELDOSPICE]
+*
+*       .include /usr/local/mentor/UMC180PDK/symbols/RNHR1000_MM/rnhr1000_mm
+
+*
+* MAIN CELL: Component pathname : $SC_filter/default.group/logic.views/BIAS
+*
+        M39 N$205 N$208 GROUND GROUND n_18_mm l=1.8u w=1.2u ad=0.588p as=0.588p
++  pd=3.38u ps=3.38u m=1
+        M18 N$104 N$104 GROUND GROUND n_18_mm l=1.8u w=0.24u ad=0.118p as=0.118p
++  pd=1.46u ps=1.46u m=1
+        M44 N$290 N$228 VDD VDD p_18_mm l=0.36u w=2.4u ad=1.176p as=1.176p
++  pd=5.78u ps=5.78u m=1
+        M6 N$20 VBIASP VDD VDD p_18_mm l=0.36u w=2.4u ad=1.176p as=1.176p
++  pd=5.78u ps=5.78u m=1
+        M5 N$20 N$20 N$6 GROUND n_18_mm l=0.36u w=4.8u ad=2.352p as=2.352p
++  pd=10.58u ps=10.58u m=1
+        M4 N$10 N$20 GROUND GROUND n_18_mm l=0.36u w=1.2u ad=0.588p as=0.588p
++  pd=3.38u ps=3.38u m=1
+        M3 N$10 N$10 VDD VDD p_18_mm l=0.36u w=2.4u ad=1.176p as=1.176p
++  pd=5.78u ps=5.78u m=1
+        M2 VBIASP N$10 VDD VDD p_18_mm l=0.36u w=2.4u ad=1.176p as=1.176p
++  pd=5.78u ps=5.78u m=1
+        R1 N$6 GROUND 5.5K
+        M15 N$94 N$104 N$109 GROUND n_18_mm l=0.36u w=1.2u ad=0.588p as=0.588p
++  pd=3.38u ps=3.38u m=1
+        M16 N$96 N$104 N$97 GROUND n_18_mm l=0.36u w=1.5u ad=0.735p as=0.735p
++  pd=3.98u ps=3.98u m=1
+        M17 N$104 VBIASP VDD VDD p_18_mm l=0.36u w=2.4u ad=1.176p as=1.176p
++  pd=5.78u ps=5.78u m=1
+        M36 N$208 N$208 VDD VDD p_18_mm l=0.36u w=2.4u ad=1.176p as=1.176p
++  pd=5.78u ps=5.78u m=1
+        C1 VDD GROUND 1u
+        R7 N$63 VDD 50
+        M37 N$208 N$290 N$205 GROUND n_18_mm l=0.36u w=1.2u ad=0.588p as=0.588p
++  pd=3.38u ps=3.38u m=1
+        M12 N$94 VBIASP VDD VDD p_18_mm l=0.36u w=2.4u ad=1.176p as=1.176p
++  pd=5.78u ps=5.78u m=1
+        V1 N$63 GROUND PWL ( 0 0 100n 0 100.1n 1.8 )
+        M40 N$289 N$228 VDD VDD p_18_mm l=0.36u w=2.4u ad=1.176p as=1.176p
++  pd=5.78u ps=5.78u m=1
+        M41 N$289 N$238 N$228 VDD p_18_mm l=0.18u w=1.2u ad=0.588p as=0.588p
++  pd=3.38u ps=3.38u m=1
+        M43 N$238 N$238 GROUND GROUND n_18_mm l=10u w=1.2u ad=0.588p as=0.588p
++  pd=3.38u ps=3.38u m=1
+        Q5 GROUND GROUND N$289 pnp_v50x50_mm m=1
+        M35 N$228 N$208 VDD VDD p_18_mm l=0.36u w=2.4u ad=1.176p as=1.176p
++  pd=5.78u ps=5.78u m=1
+        M19 VDD VBIASP VDD VDD p_18_mm l=12u w=12u ad=5.88p as=5.88p pd=24.98u
++  ps=24.98u m=1
+        M1 VBIASP N$114 GROUND GROUND n_18_mm l=0.36u w=1.2u ad=0.588p as=0.588p
++  pd=3.38u ps=3.38u m=1
+        XR4 N$290 N$270 GROUND rnhr1000_mm lr=11u wr=0.25u m=1
+        M42 N$238 N$228 VDD VDD p_18_mm l=0.36u w=2.4u ad=1.176p as=1.176p
++  pd=5.78u ps=5.78u m=1
+        XR3 N$289 GROUND GROUND rnhr1000_mm lr=0.1m wr=0.25u m=1
+        Q6 GROUND GROUND N$270 pnp_v50x50_mm m=8
+        M45 VREF N$228 VDD VDD p_18_mm l=0.36u w=2.4u ad=1.176p as=1.176p
++  pd=5.78u ps=5.78u m=1
+        XR5 N$290 GROUND GROUND rnhr1000_mm lr=0.1m wr=0.25u m=1
+        M38 N$228 N$289 N$205 GROUND n_18_mm l=0.36u w=1.2u ad=0.588p as=0.588p
++  pd=3.38u ps=3.38u m=1
+        XR6 VREF GROUND GROUND rnhr1000_mm lr=40u wr=0.25u m=1
+        R2 VDD N$96 5.5K
+        M14 N$97 N$94 GROUND GROUND n_18_mm l=0.36u w=1.5u ad=0.735p as=0.735p
++  pd=3.98u ps=3.98u m=1
+        M20 VDD N$228 VDD VDD p_18_mm l=20u w=20u ad=9.8p as=9.8p pd=40.98u
++  ps=40.98u m=1
+        M13 N$109 N$94 GROUND GROUND n_18_mm l=0.36u w=1.2u ad=0.588p as=0.588p
++  pd=3.38u ps=3.38u m=1
+        M10 VBIASP N$64 N$114 GROUND n_18_mm l=0.18u w=0.24u ad=0.118p as=0.118p
++  pd=1.46u ps=1.46u m=1
+        M11 N$64 N$64 VDD VDD p_18_mm l=4u w=0.24u ad=0.118p as=0.118p pd=1.46u
++  ps=1.46u m=1
+        M9 N$64 N$114 GROUND GROUND n_18_mm l=0.36u w=1.2u ad=0.588p as=0.588p
++  pd=3.38u ps=3.38u m=1
+        M7 N$114 N$114 GROUND GROUND n_18_mm l=0.36u w=1.2u ad=0.588p as=0.588p
++  pd=3.38u ps=3.38u m=1
+        M8 N$114 VBIASP VDD VDD p_18_mm l=0.36u w=2.4u ad=1.176p as=1.176p
++  pd=5.78u ps=5.78u m=1
+*
+.end

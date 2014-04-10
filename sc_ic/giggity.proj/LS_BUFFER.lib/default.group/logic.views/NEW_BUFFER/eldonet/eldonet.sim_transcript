@@ -1,0 +1,222 @@
+Obsolete option -64b ignored
+
+Running eldo on localhost.localdomain
+with Eldo libraries :
+/usr/local/mentor/ams/aol/lib/libeldoudm_64.so
+/usr/local/mentor/ams/aol/lib/libeldomos1_64.so
+/usr/local/mentor/ams/aol/lib/libeldoekv_64.so
+/usr/local/mentor/ams/aol/lib/libeldomosp9_64.so
+/usr/local/mentor/ams/aol/lib/libeldocsem_64.so
+/usr/local/mentor/ams/aol/lib/libeldomos2_64.so
+/usr/local/mentor/ams/aol/lib/libeldomos3_64.so
+/usr/local/mentor/ams/aol/lib/libeldobip_64.so
+/usr/local/mentor/ams/aol/lib/libeldodio_64.so
+/usr/local/mentor/ams/aol/lib/libeldojfet_64.so
+/usr/local/mentor/ams/aol/lib/libeldosoi_64.so
+/usr/local/mentor/ams/aol/lib/libeldomos4_64.so
+/usr/local/mentor/ams/aol/lib/libeldoasitft_64.so
+/usr/local/mentor/ams/aol/lib/libeldohisim_64.so
+/usr/local/mentor/ams/aol/lib/libeldospmod_64.so
+/usr/local/mentor/ams/aol/lib/libeldopsp_64.so
+/usr/local/mentor/ams/aol/lib/libeldomosvar_64.so
+/usr/local/mentor/ams/aol/lib/libeldomoto_64.so
+/usr/local/mentor/ams/aol/lib/libeldost_64.so
+/usr/local/mentor/ams/aol/lib/libeldobnr_64.so
+/usr/local/mentor/ams/aol/lib/libeldorockw_64.so
+/usr/local/mentor/ams/aol/lib/libeldopubhicum_64.so
+/usr/local/mentor/ams/aol/lib/libeldotftsh_64.so
+/usr/local/mentor/ams/aol/lib/libeldobta_64.so
+/usr/local/mentor/ams/aol/lib/libeldofas_64.so
+/usr/local/mentor/ams/aol/lib/libeldofascm_64.so
+/usr/local/mentor/ams/aol/lib/libeldosdsim_64.so
+/usr/local/mentor/ams/aol/lib/libeldowire_64.so
+/usr/local/mentor/ams/aol/lib/libogr_64.so loaded.
+
+
+
+              Software under License 
+       Copyright Mentor Graphics Corporation
+
+
+
+
+***** PRE-PROCESSING ...
+
+
+
+***** ANALYSIS ....
+
+Warning 406: In file "/usr/local/mentor/UMC180PDK/models/ELDO/include_all" line 1:
++   COMMAND .LIB cannot find corner tt in library /usr/local/mentor/UMC180PDK/models/ELDO/018-rf-v2d4-control.eldo
+
+***** 0  error(s). 
+***** 1  warning(s). 
+
+
+
+***** GENERATION ...
+
+Warning 1615: In file "./NEW_BUFFER_eldonet.cir" line 24:
++   COMMAND ".TRAN": Tstep can not be <= 0.0.
++   It is set to Tmax/20.0 = 5.000e-09 s.
+Warning 107:  NODE "VO": Less than two connections.
+
+***** 0  error(s). 
+***** 3  warning(s). 
+
+
+INFORMATION ABOUT COMPILATION...
+
+
+Memory space allocated (bytes): 123449344
+29 elements
+19 nodes
+3 input signals
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE: 16-Dec-2013 14:58:10
+
+*** TITLE: * Component: $LS_BUFFER/default.group/logic.views/NEW_BUFFER  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+Searching Operating Point between -3.000000e+00V and 
+                                  4.200000e+00V
+
+Performing DC analysis...
+Connecting to JWDB server, please wait...
+connected to wdb server : -jwdbhost localhost.localdomain -jwdbport 37046
+
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:10 iterations FOR DC analysis
+N$453         56.7320M   
+N$488         575.3023M  
+N$489         1.2557     
+N$491         467.9237M  
+N$492         1.2534     
+N$494         491.0005M  
+N$499         1.2557     
+N$500         467.9237M  
+N$501         575.3023M  
+N$502         1.2534     
+N$72         -600.0000M  
+N$74          1.0000     
+VDD           1.8000     
+VI+           700.0000M  
+VI-           1.3000     
+VO           -557.0828M  
+VO+           1.2210     
+VO-           1.7781     
+X_S2D1.N$2    1.0000     
+
+   TOTAL POWER DISSIPATION:  398.9126U   WATTS
+
+
+
+***>Current simulation completed
+
+
+
+
+SIMULATION INFORMATION 
+memory size allocated in bytes 126377984
+nb of components: 65
+nb of nodes: 55
+nb of MOS or BIP calls: 900
+Number of steps computed: 0
+
+***>CPU TIME 0s 010ms <***
+
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:1 iterations FOR DC analysis
+N$453         56.7320M   
+N$488         575.3023M  
+N$489         1.2557     
+N$491         467.9237M  
+N$492         1.2534     
+N$494         491.0005M  
+N$499         1.2557     
+N$500         467.9237M  
+N$501         575.3023M  
+N$502         1.2534     
+N$72         -600.0000M  
+N$74          1.0000     
+VDD           1.8000     
+VI+           700.0000M  
+VI-           1.3000     
+VO           -557.0828M  
+VO+           1.2210     
+VO-           1.7781     
+X_S2D1.N$2    1.0000     
+
+   TOTAL POWER DISSIPATION:  398.9126U   WATTS
+
+
+Eldo NEWTON: VNTOL=1.000000e-06 RELTOL=6.111111e-04
+
+Compute from 0.000000 Nano to 100.000000 Nano
+................................................
+Simulation progress           : 10% (t = 10.0019 N)
+Elapsed CPU time              :  0h  0mn  0s  40    ( 0h  0mn  0s  40)
+................................................
+Simulation progress           : 20% (t = 20.0031 N)
+Elapsed CPU time              :  0h  0mn  0s  70    ( 0h  0mn  0s 110)
+................................................
+Simulation progress           : 30% (t = 30.0031 N)
+Elapsed CPU time              :  0h  0mn  0s  50    ( 0h  0mn  0s 160)
+................................................
+Simulation progress           : 40% (t = 40.0031 N)
+Elapsed CPU time              :  0h  0mn  0s  60    ( 0h  0mn  0s 220)
+................................................
+Simulation progress           : 50% (t = 50.0019 N)
+Elapsed CPU time              :  0h  0mn  0s  30    ( 0h  0mn  0s 250)
+................................................
+Simulation progress           : 60% (t = 60.0031 N)
+Elapsed CPU time              :  0h  0mn  0s  60    ( 0h  0mn  0s 310)
+................................................
+Simulation progress           : 70% (t = 70.0031 N)
+Elapsed CPU time              :  0h  0mn  0s  50    ( 0h  0mn  0s 360)
+................................................
+Simulation progress           : 80% (t = 80.0031 N)
+Elapsed CPU time              :  0h  0mn  0s  70    ( 0h  0mn  0s 430)
+................................................
+Simulation progress           : 90% (t = 90.0019 N)
+Elapsed CPU time              :  0h  0mn  0s  50    ( 0h  0mn  0s 480)
+................................................
+Simulation progress           : 100% (t = 100.0000 N)
+Elapsed CPU time              :  0h  0mn  0s  60    ( 0h  0mn  0s 540)
+
+
+***>Current simulation completed
+
+
+
+
+SIMULATION INFORMATION 
+memory size allocated in bytes 126382080
+Latency: 0.000000%
+average number of newton iterations: 1.904197
+nb of components: 65
+nb of nodes: 55
+nb of MOS or BIP calls: 12748
+Number of steps computed: 10031
+
+***>CPU TIME 0s 540ms <***
+
+***>MESSAGE SUMMARY: 3 warnings
+
+***>GLOBAL CPU TIME 0s 600ms <***
+
+
+***>GLOBAL ELAPSED TIME 2s <***
+
+

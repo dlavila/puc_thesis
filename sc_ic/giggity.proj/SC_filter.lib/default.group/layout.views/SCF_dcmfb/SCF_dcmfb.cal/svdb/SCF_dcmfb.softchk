@@ -1,0 +1,49 @@
+SCF_dcmfb 1000
+SOFTCHK WELL CONTACT.
+0 0 0 Feb  8 22:14:32 2014                                                      
+SOFTCHK WEL CONTACT.
+0 0 0 Feb  8 22:14:32 2014                                                      
+SOFTCHK PSUB CONTACT.
+5 5 2 Feb  8 22:14:32 2014                                                      
+Net AVdd is selected for stamping.
+Rejected nets: AGnd
+p 1 10
+DN AGnd
+21000 -48920
+63830 -48920
+63830 1790
+62390 1790
+62390 -47480
+22440 -47480
+22440 350
+62390 350
+62390 1790
+21000 1790
+p 2 4
+DN AGnd
+25140 -35690
+31300 -35690
+31300 -34610
+25140 -34610
+p 3 4
+DN AGnd
+25140 -12520
+31300 -12520
+31300 -11440
+25140 -11440
+p 4 4
+DN AGnd
+43230 -35690
+49390 -35690
+49390 -34610
+43230 -34610
+p 5 4
+DN AGnd
+43230 -12520
+49390 -12520
+49390 -11440
+43230 -11440
+SOFTCHK TWEL CONTACT.
+0 0 0 Feb  8 22:14:32 2014                                                      
+SOFTCHK NPBDIF CONTACT.
+0 0 0 Feb  8 22:14:32 2014                                                      

@@ -1,0 +1,6 @@
+A 5 u Ic_cell_template 52cd9b581c90.03.7f.00.00.01.00.78.ec 1 4 3 0
+V v 1 1 52cda5726a7f.03.7f.00.00.01.00.78.ec
+F f 1 "circular_diff_pair.iccel_1"
+O 1
+R csduv 1 "$MGC_DESIGN_KIT/process/umc18ummrf" 25 Ic_persist_process 4b49fbac2b9a.03.89.ca.1c.10.00.03.ca 462ccb24bc64.03.7f.00.00.02.00.14.78
+R csdni 2 "$MGC_DESIGN_KIT/process/umc18mmrf_sdl_rules" 1 Mgc_file

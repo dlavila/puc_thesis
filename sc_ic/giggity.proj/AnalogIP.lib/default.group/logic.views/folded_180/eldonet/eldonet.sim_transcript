@@ -1,0 +1,5768 @@
+Obsolete option -64b ignored
+
+Running eldo on localhost.localdomain
+with Eldo libraries :
+/usr/local/mentor/ams/aol/lib/libeldoudm_64.so
+/usr/local/mentor/ams/aol/lib/libeldomos1_64.so
+/usr/local/mentor/ams/aol/lib/libeldoekv_64.so
+/usr/local/mentor/ams/aol/lib/libeldomosp9_64.so
+/usr/local/mentor/ams/aol/lib/libeldocsem_64.so
+/usr/local/mentor/ams/aol/lib/libeldomos2_64.so
+/usr/local/mentor/ams/aol/lib/libeldomos3_64.so
+/usr/local/mentor/ams/aol/lib/libeldobip_64.so
+/usr/local/mentor/ams/aol/lib/libeldodio_64.so
+/usr/local/mentor/ams/aol/lib/libeldojfet_64.so
+/usr/local/mentor/ams/aol/lib/libeldosoi_64.so
+/usr/local/mentor/ams/aol/lib/libeldomos4_64.so
+/usr/local/mentor/ams/aol/lib/libeldoasitft_64.so
+/usr/local/mentor/ams/aol/lib/libeldohisim_64.so
+/usr/local/mentor/ams/aol/lib/libeldospmod_64.so
+/usr/local/mentor/ams/aol/lib/libeldopsp_64.so
+/usr/local/mentor/ams/aol/lib/libeldomosvar_64.so
+/usr/local/mentor/ams/aol/lib/libeldomoto_64.so
+/usr/local/mentor/ams/aol/lib/libeldost_64.so
+/usr/local/mentor/ams/aol/lib/libeldobnr_64.so
+/usr/local/mentor/ams/aol/lib/libeldorockw_64.so
+/usr/local/mentor/ams/aol/lib/libeldopubhicum_64.so
+/usr/local/mentor/ams/aol/lib/libeldotftsh_64.so
+/usr/local/mentor/ams/aol/lib/libeldobta_64.so
+/usr/local/mentor/ams/aol/lib/libeldofas_64.so
+/usr/local/mentor/ams/aol/lib/libeldofascm_64.so
+/usr/local/mentor/ams/aol/lib/libeldosdsim_64.so
+/usr/local/mentor/ams/aol/lib/libeldowire_64.so
+/usr/local/mentor/ams/aol/lib/libogr_64.so loaded.
+
+
+
+              Software under License 
+       Copyright Mentor Graphics Corporation
+
+
+
+
+***** PRE-PROCESSING ...
+
+
+
+***** ANALYSIS ....
+
+Warning 406: In file "/usr/local/mentor/UMC180PDK/models/ELDO/include_all" line 1:
++   COMMAND .LIB cannot find corner tt in library /usr/local/mentor/UMC180PDK/models/ELDO/018-rf-v2d4-control.eldo
+
+***** 0  error(s). 
+***** 1  warning(s). 
+
+
+
+***** GENERATION ...
+
+Warning 252: In file "./folded_180_eldonet.spi" line 62:
++   OBJECT "R4": Self-connected object not created.
+Warning 252: In file "./folded_180_eldonet.spi" line 63:
++   OBJECT "R3": Self-connected object not created.
+Warning 252: In file "./folded_180_eldonet.spi" line 66:
++   OBJECT "C7": Self-connected object not created.
+Warning  29: Such messages will not be displayed in future. Set .option MSGNODE = 0 to receive all such warnings.
+
+Warning 107:  NODE "VO": Less than two connections.
+
+***** 0  error(s). 
+***** 7  warning(s). 
+
+
+INFORMATION ABOUT COMPILATION...
+
+
+Memory space allocated (bytes): 124420096
+35 elements
+25 nodes
+5 input signals
+
+
+run number 1 out of 81
+   value of parameter WF is 2.000000E-05
+   value of parameter WCF is 2.000000E-05
+   value of parameter WCL is 2.000000E-05
+   value of parameter WL is 2.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:36
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+Searching Operating Point between -1.800000e+00V and 
+                                  3.600000e+00V
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 010ms <***
+
+DC:26 iterations FOR DC analysis
+CMFB          1.1586     
+N$124         1.5231     
+N$128         1.1690     
+N$130         1.1690     
+N$131         518.8373M  
+N$137         518.8373M  
+N$141         1.1620     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          417.9287M  
+N$39          835.8573M  
+VB1T          1.1673     
+VB2           354.6864M  
+VB3           1.0906     
+VB4           525.1318M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO           -61.9346P   
+VO+           835.8573M  
+VO-           835.8573M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  351.7302U   WATTS
+
+Connecting to JWDB server, please wait...
+connected to wdb server : -jwdbhost localhost.localdomain -jwdbport 44065
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 000ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 2 out of 81
+   value of parameter WF is 2.000000E-05
+   value of parameter WCF is 2.000000E-05
+   value of parameter WCL is 2.000000E-05
+   value of parameter WL is 4.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:36
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 010ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2130     
+N$124         1.5231     
+N$128         1.2219     
+N$130         1.2219     
+N$131         518.9454M  
+N$137         518.9454M  
+N$141         1.2156     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          420.6488M  
+N$39          841.2976M  
+VB1T          1.1673     
+VB2           421.3364M  
+VB3           1.0906     
+VB4           525.1318M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO           -17.8278F   
+VO+           841.2976M  
+VO-           841.2976M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  349.4051U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 000ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 3 out of 81
+   value of parameter WF is 2.000000E-05
+   value of parameter WCF is 2.000000E-05
+   value of parameter WCL is 2.000000E-05
+   value of parameter WL is 6.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:36
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2394     
+N$124         1.5231     
+N$128         1.2477     
+N$130         1.2477     
+N$131         518.9974M  
+N$137         518.9974M  
+N$141         1.2417     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          421.9685M  
+N$39          843.9369M  
+VB1T          1.1673     
+VB2           453.8409M  
+VB3           1.0906     
+VB4           525.1318M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO           -100.9887F  
+VO+           843.9369M  
+VO-           843.9369M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  348.2712U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 4 out of 81
+   value of parameter WF is 2.000000E-05
+   value of parameter WCF is 2.000000E-05
+   value of parameter WCL is 4.000000E-05
+   value of parameter WL is 2.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:37
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 010ms <***
+
+DC:40 iterations FOR DC analysis
+CMFB          1.1586     
+N$124         1.5231     
+N$128         1.1670     
+N$130         1.1670     
+N$131         518.8375M  
+N$137         518.8375M  
+N$141         1.1620     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          417.9296M  
+N$39          835.8593M  
+VB1T          1.1673     
+VB2           409.3487M  
+VB3           1.0906     
+VB4           525.1318M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO            1.4248P    
+VO+           835.8593M  
+VO-           835.8593M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  349.8170U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 020ms <***
+
+
+
+run number 5 out of 81
+   value of parameter WF is 2.000000E-05
+   value of parameter WCF is 2.000000E-05
+   value of parameter WCL is 4.000000E-05
+   value of parameter WL is 4.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:37
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2130     
+N$124         1.5231     
+N$128         1.2201     
+N$130         1.2201     
+N$131         518.9454M  
+N$137         518.9454M  
+N$141         1.2156     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          420.6495M  
+N$39          841.2991M  
+VB1T          1.1673     
+VB2           475.9048M  
+VB3           1.0906     
+VB4           525.1318M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO            10.9627F   
+VO+           841.2991M  
+VO-           841.2991M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  347.4952U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 000ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 000ms <***
+
+
+
+run number 6 out of 81
+   value of parameter WF is 2.000000E-05
+   value of parameter WCF is 2.000000E-05
+   value of parameter WCL is 4.000000E-05
+   value of parameter WL is 6.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:37
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2394     
+N$124         1.5231     
+N$128         1.2460     
+N$130         1.2460     
+N$131         518.9974M  
+N$137         518.9974M  
+N$141         1.2417     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          421.9691M  
+N$39          843.9382M  
+VB1T          1.1673     
+VB2           508.3641M  
+VB3           1.0906     
+VB4           525.1318M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO           -38.6080F   
+VO+           843.9382M  
+VO-           843.9382M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  346.3629U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 000ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 000ms <***
+
+
+
+run number 7 out of 81
+   value of parameter WF is 2.000000E-05
+   value of parameter WCF is 2.000000E-05
+   value of parameter WCL is 6.000000E-05
+   value of parameter WL is 2.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:37
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 010ms <***
+
+DC:29 iterations FOR DC analysis
+CMFB          1.1586     
+N$124         1.5231     
+N$128         1.1663     
+N$130         1.1663     
+N$131         518.8375M  
+N$137         518.8375M  
+N$141         1.1620     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          417.9300M  
+N$39          835.8600M  
+VB1T          1.1673     
+VB2           435.7501M  
+VB3           1.0906     
+VB4           525.1318M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO            6.3789P    
+VO+           835.8600M  
+VO-           835.8600M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  348.8929U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 020ms <***
+
+
+
+run number 8 out of 81
+   value of parameter WF is 2.000000E-05
+   value of parameter WCF is 2.000000E-05
+   value of parameter WCL is 6.000000E-05
+   value of parameter WL is 4.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:37
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2130     
+N$124         1.5231     
+N$128         1.2195     
+N$130         1.2195     
+N$131         518.9454M  
+N$137         518.9454M  
+N$141         1.2156     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          420.6498M  
+N$39          841.2996M  
+VB1T          1.1673     
+VB2           502.2770M  
+VB3           1.0906     
+VB4           525.1318M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO           -77.2714F   
+VO+           841.2996M  
+VO-           841.2996M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  346.5722U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 9 out of 81
+   value of parameter WF is 2.000000E-05
+   value of parameter WCF is 2.000000E-05
+   value of parameter WCL is 6.000000E-05
+   value of parameter WL is 6.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:37
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2394     
+N$124         1.5231     
+N$128         1.2454     
+N$130         1.2454     
+N$131         518.9974M  
+N$137         518.9974M  
+N$141         1.2417     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          421.9693M  
+N$39          843.9387M  
+VB1T          1.1673     
+VB2           534.7223M  
+VB3           1.0906     
+VB4           525.1318M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO           -51.9427F   
+VO+           843.9387M  
+VO-           843.9387M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  345.4403U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 10 out of 81
+   value of parameter WF is 2.000000E-05
+   value of parameter WCF is 4.000000E-05
+   value of parameter WCL is 2.000000E-05
+   value of parameter WL is 2.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:37
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 010ms <***
+
+DC:36 iterations FOR DC analysis
+CMFB          1.1585     
+N$124         1.5231     
+N$128         1.1690     
+N$130         1.1690     
+N$131         519.7868M  
+N$137         519.7868M  
+N$141         1.1620     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          417.9263M  
+N$39          835.8526M  
+VB1T          1.1673     
+VB2           354.6864M  
+VB3           1.0558     
+VB4           525.1318M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO           -5.6369P    
+VO+           835.8526M  
+VO-           835.8526M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  350.5799U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 000ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 11 out of 81
+   value of parameter WF is 2.000000E-05
+   value of parameter WCF is 4.000000E-05
+   value of parameter WCL is 2.000000E-05
+   value of parameter WL is 4.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:37
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2129     
+N$124         1.5231     
+N$128         1.2219     
+N$130         1.2219     
+N$131         519.8879M  
+N$137         519.8879M  
+N$141         1.2156     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          420.6470M  
+N$39          841.2940M  
+VB1T          1.1673     
+VB2           421.3364M  
+VB3           1.0558     
+VB4           525.1318M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO            8.2502F    
+VO+           841.2940M  
+VO-           841.2940M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  348.2543U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 000ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 000ms <***
+
+
+
+run number 12 out of 81
+   value of parameter WF is 2.000000E-05
+   value of parameter WCF is 4.000000E-05
+   value of parameter WCL is 2.000000E-05
+   value of parameter WL is 6.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:37
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2393     
+N$124         1.5231     
+N$128         1.2477     
+N$130         1.2477     
+N$131         519.9367M  
+N$137         519.9367M  
+N$141         1.2417     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          421.9669M  
+N$39          843.9337M  
+VB1T          1.1673     
+VB2           453.8409M  
+VB3           1.0558     
+VB4           525.1318M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO            31.8741F   
+VO+           843.9337M  
+VO-           843.9337M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  347.1202U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 13 out of 81
+   value of parameter WF is 2.000000E-05
+   value of parameter WCF is 4.000000E-05
+   value of parameter WCL is 4.000000E-05
+   value of parameter WL is 2.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:37
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 010ms <***
+
+DC:32 iterations FOR DC analysis
+CMFB          1.1585     
+N$124         1.5231     
+N$128         1.1670     
+N$130         1.1670     
+N$131         519.7868M  
+N$137         519.7868M  
+N$141         1.1620     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          417.9273M  
+N$39          835.8546M  
+VB1T          1.1673     
+VB2           409.3487M  
+VB3           1.0558     
+VB4           525.1318M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO           -1.7896P    
+VO+           835.8546M  
+VO-           835.8546M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  348.6667U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 000ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 14 out of 81
+   value of parameter WF is 2.000000E-05
+   value of parameter WCF is 4.000000E-05
+   value of parameter WCL is 4.000000E-05
+   value of parameter WL is 4.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:37
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2130     
+N$124         1.5231     
+N$128         1.2202     
+N$130         1.2202     
+N$131         519.8879M  
+N$137         519.8879M  
+N$141         1.2156     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          420.6477M  
+N$39          841.2955M  
+VB1T          1.1673     
+VB2           475.9048M  
+VB3           1.0558     
+VB4           525.1318M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO           -1.5614F    
+VO+           841.2955M  
+VO-           841.2955M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  346.3444U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 15 out of 81
+   value of parameter WF is 2.000000E-05
+   value of parameter WCF is 4.000000E-05
+   value of parameter WCL is 4.000000E-05
+   value of parameter WL is 6.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:37
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2393     
+N$124         1.5231     
+N$128         1.2460     
+N$130         1.2460     
+N$131         519.9367M  
+N$137         519.9367M  
+N$141         1.2417     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          421.9675M  
+N$39          843.9350M  
+VB1T          1.1673     
+VB2           508.3641M  
+VB3           1.0558     
+VB4           525.1318M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO            203.5914F  
+VO+           843.9350M  
+VO-           843.9350M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  345.2119U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 000ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 000ms <***
+
+
+
+run number 16 out of 81
+   value of parameter WF is 2.000000E-05
+   value of parameter WCF is 4.000000E-05
+   value of parameter WCL is 6.000000E-05
+   value of parameter WL is 2.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:37
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:29 iterations FOR DC analysis
+CMFB          1.1586     
+N$124         1.5231     
+N$128         1.1663     
+N$130         1.1663     
+N$131         519.7869M  
+N$137         519.7869M  
+N$141         1.1620     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          417.9276M  
+N$39          835.8553M  
+VB1T          1.1673     
+VB2           435.7501M  
+VB3           1.0558     
+VB4           525.1318M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO            1.7657P    
+VO+           835.8553M  
+VO-           835.8553M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  347.7426U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 17 out of 81
+   value of parameter WF is 2.000000E-05
+   value of parameter WCF is 4.000000E-05
+   value of parameter WCL is 6.000000E-05
+   value of parameter WL is 4.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:37
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2130     
+N$124         1.5231     
+N$128         1.2195     
+N$130         1.2195     
+N$131         519.8879M  
+N$137         519.8879M  
+N$141         1.2156     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          420.6480M  
+N$39          841.2960M  
+VB1T          1.1673     
+VB2           502.2770M  
+VB3           1.0558     
+VB4           525.1318M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO           -134.8733F  
+VO+           841.2960M  
+VO-           841.2960M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  345.4214U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 18 out of 81
+   value of parameter WF is 2.000000E-05
+   value of parameter WCF is 4.000000E-05
+   value of parameter WCL is 6.000000E-05
+   value of parameter WL is 6.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:37
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2394     
+N$124         1.5231     
+N$128         1.2454     
+N$130         1.2454     
+N$131         519.9367M  
+N$137         519.9367M  
+N$141         1.2417     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          421.9677M  
+N$39          843.9355M  
+VB1T          1.1673     
+VB2           534.7223M  
+VB3           1.0558     
+VB4           525.1318M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO            23.6533F   
+VO+           843.9355M  
+VO-           843.9355M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  344.2893U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 000ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 000ms <***
+
+
+
+run number 19 out of 81
+   value of parameter WF is 2.000000E-05
+   value of parameter WCF is 6.000000E-05
+   value of parameter WCL is 2.000000E-05
+   value of parameter WL is 2.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:37
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:17 iterations FOR DC analysis
+CMFB          1.1585     
+N$124         1.5232     
+N$128         1.1690     
+N$130         1.1690     
+N$131         520.2271M  
+N$137         520.2271M  
+N$141         1.1620     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          417.9252M  
+N$39          835.8504M  
+VB1T          1.1673     
+VB2           354.6864M  
+VB3           1.0373     
+VB4           525.1318M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO           -494.3921P  
+VO+           835.8504M  
+VO-           835.8504M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  349.9618U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 20 out of 81
+   value of parameter WF is 2.000000E-05
+   value of parameter WCF is 6.000000E-05
+   value of parameter WCL is 2.000000E-05
+   value of parameter WL is 4.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:37
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2129     
+N$124         1.5232     
+N$128         1.2220     
+N$130         1.2220     
+N$131         520.3257M  
+N$137         520.3257M  
+N$141         1.2156     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          420.6462M  
+N$39          841.2923M  
+VB1T          1.1673     
+VB2           421.3364M  
+VB3           1.0373     
+VB4           525.1318M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO           -60.7156F   
+VO+           841.2923M  
+VO-           841.2923M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  347.6361U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 000ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 000ms <***
+
+
+
+run number 21 out of 81
+   value of parameter WF is 2.000000E-05
+   value of parameter WCF is 6.000000E-05
+   value of parameter WCL is 2.000000E-05
+   value of parameter WL is 6.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:37
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 010ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2393     
+N$124         1.5232     
+N$128         1.2477     
+N$130         1.2477     
+N$131         520.3732M  
+N$137         520.3732M  
+N$141         1.2417     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          421.9661M  
+N$39          843.9322M  
+VB1T          1.1673     
+VB2           453.8409M  
+VB3           1.0373     
+VB4           525.1318M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO           -48.0977F   
+VO+           843.9322M  
+VO-           843.9322M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  346.5018U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 000ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 22 out of 81
+   value of parameter WF is 2.000000E-05
+   value of parameter WCF is 6.000000E-05
+   value of parameter WCL is 4.000000E-05
+   value of parameter WL is 2.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:37
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 010ms <***
+
+DC:27 iterations FOR DC analysis
+CMFB          1.1585     
+N$124         1.5232     
+N$128         1.1671     
+N$130         1.1671     
+N$131         520.2272M  
+N$137         520.2272M  
+N$141         1.1620     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          417.9262M  
+N$39          835.8524M  
+VB1T          1.1673     
+VB2           409.3487M  
+VB3           1.0373     
+VB4           525.1318M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO            1.7082P    
+VO+           835.8524M  
+VO-           835.8524M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  348.0486U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 000ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 23 out of 81
+   value of parameter WF is 2.000000E-05
+   value of parameter WCF is 6.000000E-05
+   value of parameter WCL is 4.000000E-05
+   value of parameter WL is 4.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:37
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2129     
+N$124         1.5232     
+N$128         1.2202     
+N$130         1.2202     
+N$131         520.3257M  
+N$137         520.3257M  
+N$141         1.2156     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          420.6469M  
+N$39          841.2938M  
+VB1T          1.1673     
+VB2           475.9048M  
+VB3           1.0373     
+VB4           525.1318M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO            106.4813F  
+VO+           841.2938M  
+VO-           841.2938M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  345.7262U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 24 out of 81
+   value of parameter WF is 2.000000E-05
+   value of parameter WCF is 6.000000E-05
+   value of parameter WCL is 4.000000E-05
+   value of parameter WL is 6.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:37
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2393     
+N$124         1.5232     
+N$128         1.2461     
+N$130         1.2461     
+N$131         520.3733M  
+N$137         520.3733M  
+N$141         1.2417     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          421.9668M  
+N$39          843.9335M  
+VB1T          1.1673     
+VB2           508.3641M  
+VB3           1.0373     
+VB4           525.1318M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO           -5.8284F    
+VO+           843.9335M  
+VO-           843.9335M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  344.5935U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 25 out of 81
+   value of parameter WF is 2.000000E-05
+   value of parameter WCF is 6.000000E-05
+   value of parameter WCL is 6.000000E-05
+   value of parameter WL is 2.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:37
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:34 iterations FOR DC analysis
+CMFB          1.1585     
+N$124         1.5232     
+N$128         1.1663     
+N$130         1.1663     
+N$131         520.2272M  
+N$137         520.2272M  
+N$141         1.1620     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          417.9265M  
+N$39          835.8531M  
+VB1T          1.1673     
+VB2           435.7501M  
+VB3           1.0373     
+VB4           525.1318M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO           -77.0274F   
+VO+           835.8531M  
+VO-           835.8531M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  347.1246U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 000ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 26 out of 81
+   value of parameter WF is 2.000000E-05
+   value of parameter WCF is 6.000000E-05
+   value of parameter WCL is 6.000000E-05
+   value of parameter WL is 4.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:37
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2129     
+N$124         1.5232     
+N$128         1.2195     
+N$130         1.2195     
+N$131         520.3257M  
+N$137         520.3257M  
+N$141         1.2156     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          420.6472M  
+N$39          841.2943M  
+VB1T          1.1673     
+VB2           502.2770M  
+VB3           1.0373     
+VB4           525.1318M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO           -110.7507F  
+VO+           841.2943M  
+VO-           841.2943M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  344.8031U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 27 out of 81
+   value of parameter WF is 2.000000E-05
+   value of parameter WCF is 6.000000E-05
+   value of parameter WCL is 6.000000E-05
+   value of parameter WL is 6.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:37
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2393     
+N$124         1.5232     
+N$128         1.2454     
+N$130         1.2454     
+N$131         520.3733M  
+N$137         520.3733M  
+N$141         1.2417     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          421.9670M  
+N$39          843.9340M  
+VB1T          1.1673     
+VB2           534.7223M  
+VB3           1.0373     
+VB4           525.1318M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO            56.3515F   
+VO+           843.9340M  
+VO-           843.9340M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  343.6710U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 28 out of 81
+   value of parameter WF is 4.000000E-05
+   value of parameter WCF is 2.000000E-05
+   value of parameter WCL is 2.000000E-05
+   value of parameter WL is 2.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:37
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:37 iterations FOR DC analysis
+CMFB          1.1597     
+N$124         1.5230     
+N$128         1.1680     
+N$130         1.1680     
+N$131         478.6976M  
+N$137         478.6976M  
+N$141         1.1620     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          417.9873M  
+N$39          835.9746M  
+VB1T          1.1673     
+VB2           354.6864M  
+VB3           1.0434     
+VB4           483.4238M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO            4.4572P    
+VO+           835.9746M  
+VO-           835.9746M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  348.3933U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 020ms <***
+
+
+
+run number 29 out of 81
+   value of parameter WF is 4.000000E-05
+   value of parameter WCF is 2.000000E-05
+   value of parameter WCL is 2.000000E-05
+   value of parameter WL is 4.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:38
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2139     
+N$124         1.5230     
+N$128         1.2209     
+N$130         1.2209     
+N$131         478.7972M  
+N$137         478.7972M  
+N$141         1.2156     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          420.6942M  
+N$39          841.3885M  
+VB1T          1.1673     
+VB2           421.3364M  
+VB3           1.0434     
+VB4           483.4238M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO            3.8922F    
+VO+           841.3885M  
+VO-           841.3885M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  346.0689U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 30 out of 81
+   value of parameter WF is 4.000000E-05
+   value of parameter WCF is 2.000000E-05
+   value of parameter WCL is 2.000000E-05
+   value of parameter WL is 6.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:38
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2402     
+N$124         1.5230     
+N$128         1.2467     
+N$130         1.2467     
+N$131         478.8453M  
+N$137         478.8453M  
+N$141         1.2417     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          422.0089M  
+N$39          844.0179M  
+VB1T          1.1673     
+VB2           453.8409M  
+VB3           1.0434     
+VB4           483.4238M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO            10.8666F   
+VO+           844.0179M  
+VO-           844.0179M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  344.9352U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 31 out of 81
+   value of parameter WF is 4.000000E-05
+   value of parameter WCF is 2.000000E-05
+   value of parameter WCL is 4.000000E-05
+   value of parameter WL is 2.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:38
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 010ms <***
+
+DC:33 iterations FOR DC analysis
+CMFB          1.1598     
+N$124         1.5230     
+N$128         1.1663     
+N$130         1.1663     
+N$131         478.6976M  
+N$137         478.6976M  
+N$141         1.1620     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          417.9881M  
+N$39          835.9763M  
+VB1T          1.1673     
+VB2           409.3487M  
+VB3           1.0434     
+VB4           483.4238M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO           -10.7336F   
+VO+           835.9763M  
+VO-           835.9763M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  346.4802U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 020ms <***
+
+
+
+run number 32 out of 81
+   value of parameter WF is 4.000000E-05
+   value of parameter WCF is 2.000000E-05
+   value of parameter WCL is 4.000000E-05
+   value of parameter WL is 4.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:38
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2139     
+N$124         1.5230     
+N$128         1.2194     
+N$130         1.2194     
+N$131         478.7972M  
+N$137         478.7972M  
+N$141         1.2156     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          420.6949M  
+N$39          841.3898M  
+VB1T          1.1673     
+VB2           475.9048M  
+VB3           1.0434     
+VB4           483.4238M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO           -37.9648F   
+VO+           841.3898M  
+VO-           841.3898M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  344.1590U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 020ms <***
+
+
+
+run number 33 out of 81
+   value of parameter WF is 4.000000E-05
+   value of parameter WCF is 2.000000E-05
+   value of parameter WCL is 4.000000E-05
+   value of parameter WL is 6.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:38
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2402     
+N$124         1.5230     
+N$128         1.2453     
+N$130         1.2453     
+N$131         478.8454M  
+N$137         478.8454M  
+N$141         1.2417     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          422.0095M  
+N$39          844.0190M  
+VB1T          1.1673     
+VB2           508.3641M  
+VB3           1.0434     
+VB4           483.4238M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO            59.6699F   
+VO+           844.0190M  
+VO-           844.0190M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  343.0269U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 000ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 000ms <***
+
+
+
+run number 34 out of 81
+   value of parameter WF is 4.000000E-05
+   value of parameter WCF is 2.000000E-05
+   value of parameter WCL is 6.000000E-05
+   value of parameter WL is 2.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:38
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 010ms <***
+
+DC:34 iterations FOR DC analysis
+CMFB          1.1598     
+N$124         1.5230     
+N$128         1.1657     
+N$130         1.1657     
+N$131         478.6976M  
+N$137         478.6976M  
+N$141         1.1620     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          417.9885M  
+N$39          835.9769M  
+VB1T          1.1673     
+VB2           435.7501M  
+VB3           1.0434     
+VB4           483.4238M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO            2.1021P    
+VO+           835.9769M  
+VO-           835.9769M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  345.5561U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 020ms <***
+
+
+
+run number 35 out of 81
+   value of parameter WF is 4.000000E-05
+   value of parameter WCF is 2.000000E-05
+   value of parameter WCL is 6.000000E-05
+   value of parameter WL is 4.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:38
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2139     
+N$124         1.5230     
+N$128         1.2189     
+N$130         1.2189     
+N$131         478.7972M  
+N$137         478.7972M  
+N$141         1.2156     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          420.6951M  
+N$39          841.3902M  
+VB1T          1.1673     
+VB2           502.2770M  
+VB3           1.0434     
+VB4           483.4238M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO           -46.0063F   
+VO+           841.3902M  
+VO-           841.3902M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  343.2359U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 000ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 000ms <***
+
+
+
+run number 36 out of 81
+   value of parameter WF is 4.000000E-05
+   value of parameter WCF is 2.000000E-05
+   value of parameter WCL is 6.000000E-05
+   value of parameter WL is 6.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:38
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 010ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2402     
+N$124         1.5230     
+N$128         1.2448     
+N$130         1.2448     
+N$131         478.8454M  
+N$137         478.8454M  
+N$141         1.2417     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          422.0097M  
+N$39          844.0194M  
+VB1T          1.1673     
+VB2           534.7223M  
+VB3           1.0434     
+VB4           483.4238M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO           -45.8427F   
+VO+           844.0194M  
+VO-           844.0194M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  342.1044U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 000ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 37 out of 81
+   value of parameter WF is 4.000000E-05
+   value of parameter WCF is 4.000000E-05
+   value of parameter WCL is 2.000000E-05
+   value of parameter WL is 2.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:38
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 010ms <***
+
+DC:34 iterations FOR DC analysis
+CMFB          1.1597     
+N$124         1.5230     
+N$128         1.1680     
+N$130         1.1680     
+N$131         479.5126M  
+N$137         479.5126M  
+N$141         1.1620     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          417.9849M  
+N$39          835.9698M  
+VB1T          1.1673     
+VB2           354.6864M  
+VB3           1.0086     
+VB4           483.4238M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO            36.6506F   
+VO+           835.9698M  
+VO-           835.9698M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  347.2420U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 020ms <***
+
+
+
+run number 38 out of 81
+   value of parameter WF is 4.000000E-05
+   value of parameter WCF is 4.000000E-05
+   value of parameter WCL is 2.000000E-05
+   value of parameter WL is 4.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:38
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2138     
+N$124         1.5230     
+N$128         1.2210     
+N$130         1.2210     
+N$131         479.6070M  
+N$137         479.6070M  
+N$141         1.2156     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          420.6924M  
+N$39          841.3849M  
+VB1T          1.1673     
+VB2           421.3364M  
+VB3           1.0086     
+VB4           483.4238M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO           -10.9050F   
+VO+           841.3849M  
+VO-           841.3849M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  344.9171U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 000ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 000ms <***
+
+
+
+run number 39 out of 81
+   value of parameter WF is 4.000000E-05
+   value of parameter WCF is 4.000000E-05
+   value of parameter WCL is 2.000000E-05
+   value of parameter WL is 6.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:38
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 010ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2401     
+N$124         1.5230     
+N$128         1.2468     
+N$130         1.2468     
+N$131         479.6526M  
+N$137         479.6526M  
+N$141         1.2417     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          422.0073M  
+N$39          844.0146M  
+VB1T          1.1673     
+VB2           453.8409M  
+VB3           1.0086     
+VB4           483.4238M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO           -95.8383F   
+VO+           844.0146M  
+VO-           844.0146M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  343.7832U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 000ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 40 out of 81
+   value of parameter WF is 4.000000E-05
+   value of parameter WCF is 4.000000E-05
+   value of parameter WCL is 4.000000E-05
+   value of parameter WL is 2.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:38
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 010ms <***
+
+DC:39 iterations FOR DC analysis
+CMFB          1.1597     
+N$124         1.5230     
+N$128         1.1663     
+N$130         1.1663     
+N$131         479.5127M  
+N$137         479.5127M  
+N$141         1.1620     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          417.9858M  
+N$39          835.9716M  
+VB1T          1.1673     
+VB2           409.3487M  
+VB3           1.0086     
+VB4           483.4238M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO            1.0279P    
+VO+           835.9716M  
+VO-           835.9716M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  345.3288U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 020ms <***
+
+
+
+run number 41 out of 81
+   value of parameter WF is 4.000000E-05
+   value of parameter WCF is 4.000000E-05
+   value of parameter WCL is 4.000000E-05
+   value of parameter WL is 4.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:38
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2139     
+N$124         1.5230     
+N$128         1.2194     
+N$130         1.2194     
+N$131         479.6070M  
+N$137         479.6070M  
+N$141         1.2156     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          420.6931M  
+N$39          841.3861M  
+VB1T          1.1673     
+VB2           475.9048M  
+VB3           1.0086     
+VB4           483.4238M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO           -40.0461F   
+VO+           841.3861M  
+VO-           841.3861M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  343.0072U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 000ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 000ms <***
+
+
+
+run number 42 out of 81
+   value of parameter WF is 4.000000E-05
+   value of parameter WCF is 4.000000E-05
+   value of parameter WCL is 4.000000E-05
+   value of parameter WL is 6.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:38
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 010ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2402     
+N$124         1.5230     
+N$128         1.2453     
+N$130         1.2453     
+N$131         479.6527M  
+N$137         479.6527M  
+N$141         1.2417     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          422.0079M  
+N$39          844.0158M  
+VB1T          1.1673     
+VB2           508.3641M  
+VB3           1.0086     
+VB4           483.4238M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO           -97.2609F   
+VO+           844.0158M  
+VO-           844.0158M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  341.8749U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 000ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 43 out of 81
+   value of parameter WF is 4.000000E-05
+   value of parameter WCF is 4.000000E-05
+   value of parameter WCL is 6.000000E-05
+   value of parameter WL is 2.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:38
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 010ms <***
+
+DC:31 iterations FOR DC analysis
+CMFB          1.1597     
+N$124         1.5230     
+N$128         1.1657     
+N$130         1.1657     
+N$131         479.5127M  
+N$137         479.5127M  
+N$141         1.1620     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          417.9861M  
+N$39          835.9722M  
+VB1T          1.1673     
+VB2           435.7501M  
+VB3           1.0086     
+VB4           483.4238M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO           -9.4678P    
+VO+           835.9722M  
+VO-           835.9722M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  344.4047U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 020ms <***
+
+
+
+run number 44 out of 81
+   value of parameter WF is 4.000000E-05
+   value of parameter WCF is 4.000000E-05
+   value of parameter WCL is 6.000000E-05
+   value of parameter WL is 4.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:38
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2139     
+N$124         1.5230     
+N$128         1.2189     
+N$130         1.2189     
+N$131         479.6070M  
+N$137         479.6070M  
+N$141         1.2156     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          420.6933M  
+N$39          841.3866M  
+VB1T          1.1673     
+VB2           502.2770M  
+VB3           1.0086     
+VB4           483.4238M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO            23.9123F   
+VO+           841.3866M  
+VO-           841.3866M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  342.0841U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 000ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 000ms <***
+
+
+
+run number 45 out of 81
+   value of parameter WF is 4.000000E-05
+   value of parameter WCF is 4.000000E-05
+   value of parameter WCL is 6.000000E-05
+   value of parameter WL is 6.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:38
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 010ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2402     
+N$124         1.5230     
+N$128         1.2448     
+N$130         1.2448     
+N$131         479.6527M  
+N$137         479.6527M  
+N$141         1.2417     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          422.0081M  
+N$39          844.0162M  
+VB1T          1.1673     
+VB2           534.7223M  
+VB3           1.0086     
+VB4           483.4238M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO            111.7369F  
+VO+           844.0162M  
+VO-           844.0162M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  340.9524U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 000ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 46 out of 81
+   value of parameter WF is 4.000000E-05
+   value of parameter WCF is 6.000000E-05
+   value of parameter WCL is 2.000000E-05
+   value of parameter WL is 2.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:38
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 010ms <***
+
+DC:30 iterations FOR DC analysis
+CMFB          1.1597     
+N$124         1.5230     
+N$128         1.1681     
+N$130         1.1681     
+N$131         479.9005M  
+N$137         479.9005M  
+N$141         1.1620     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          417.9838M  
+N$39          835.9676M  
+VB1T          1.1673     
+VB2           354.6864M  
+VB3           989.9884M  
+VB4           483.4238M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO           -7.9188P    
+VO+           835.9676M  
+VO-           835.9676M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  346.6242U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 020ms <***
+
+
+
+run number 47 out of 81
+   value of parameter WF is 4.000000E-05
+   value of parameter WCF is 6.000000E-05
+   value of parameter WCL is 2.000000E-05
+   value of parameter WL is 4.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:38
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2138     
+N$124         1.5230     
+N$128         1.2210     
+N$130         1.2210     
+N$131         479.9929M  
+N$137         479.9929M  
+N$141         1.2156     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          420.6916M  
+N$39          841.3831M  
+VB1T          1.1673     
+VB2           421.3364M  
+VB3           989.9884M  
+VB4           483.4238M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO            42.0636F   
+VO+           841.3831M  
+VO-           841.3831M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  344.2992U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 48 out of 81
+   value of parameter WF is 4.000000E-05
+   value of parameter WCF is 6.000000E-05
+   value of parameter WCL is 2.000000E-05
+   value of parameter WL is 6.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:38
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2401     
+N$124         1.5230     
+N$128         1.2468     
+N$130         1.2468     
+N$131         480.0376M  
+N$137         480.0376M  
+N$141         1.2417     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          422.0065M  
+N$39          844.0131M  
+VB1T          1.1673     
+VB2           453.8409M  
+VB3           989.9884M  
+VB4           483.4238M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO            30.8329F   
+VO+           844.0131M  
+VO-           844.0131M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  343.1652U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 49 out of 81
+   value of parameter WF is 4.000000E-05
+   value of parameter WCF is 6.000000E-05
+   value of parameter WCL is 4.000000E-05
+   value of parameter WL is 2.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:38
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:39 iterations FOR DC analysis
+CMFB          1.1597     
+N$124         1.5230     
+N$128         1.1663     
+N$130         1.1663     
+N$131         479.9005M  
+N$137         479.9005M  
+N$141         1.1620     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          417.9847M  
+N$39          835.9693M  
+VB1T          1.1673     
+VB2           409.3487M  
+VB3           989.9884M  
+VB4           483.4238M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO           -818.0350F  
+VO+           835.9693M  
+VO-           835.9693M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  344.7111U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 50 out of 81
+   value of parameter WF is 4.000000E-05
+   value of parameter WCF is 6.000000E-05
+   value of parameter WCL is 4.000000E-05
+   value of parameter WL is 4.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:38
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2138     
+N$124         1.5230     
+N$128         1.2195     
+N$130         1.2195     
+N$131         479.9929M  
+N$137         479.9929M  
+N$141         1.2156     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          420.6922M  
+N$39          841.3844M  
+VB1T          1.1673     
+VB2           475.9048M  
+VB3           989.9884M  
+VB4           483.4238M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO           -106.3770F  
+VO+           841.3844M  
+VO-           841.3844M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  342.3893U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 51 out of 81
+   value of parameter WF is 4.000000E-05
+   value of parameter WCF is 6.000000E-05
+   value of parameter WCL is 4.000000E-05
+   value of parameter WL is 6.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:38
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2401     
+N$124         1.5230     
+N$128         1.2453     
+N$130         1.2453     
+N$131         480.0376M  
+N$137         480.0376M  
+N$141         1.2417     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          422.0071M  
+N$39          844.0142M  
+VB1T          1.1673     
+VB2           508.3641M  
+VB3           989.9884M  
+VB4           483.4238M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO            88.4906F   
+VO+           844.0142M  
+VO-           844.0142M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  341.2569U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 52 out of 81
+   value of parameter WF is 4.000000E-05
+   value of parameter WCF is 6.000000E-05
+   value of parameter WCL is 6.000000E-05
+   value of parameter WL is 2.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:38
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 010ms <***
+
+DC:39 iterations FOR DC analysis
+CMFB          1.1597     
+N$124         1.5230     
+N$128         1.1657     
+N$130         1.1657     
+N$131         479.9005M  
+N$137         479.9005M  
+N$141         1.1620     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          417.9850M  
+N$39          835.9699M  
+VB1T          1.1673     
+VB2           435.7501M  
+VB3           989.9884M  
+VB4           483.4238M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO           -40.3724P   
+VO+           835.9699M  
+VO-           835.9699M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  343.7870U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 000ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 53 out of 81
+   value of parameter WF is 4.000000E-05
+   value of parameter WCF is 6.000000E-05
+   value of parameter WCL is 6.000000E-05
+   value of parameter WL is 4.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:38
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2138     
+N$124         1.5230     
+N$128         1.2189     
+N$130         1.2189     
+N$131         479.9929M  
+N$137         479.9929M  
+N$141         1.2156     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          420.6924M  
+N$39          841.3849M  
+VB1T          1.1673     
+VB2           502.2770M  
+VB3           989.9884M  
+VB4           483.4238M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO           -23.5338F   
+VO+           841.3849M  
+VO-           841.3849M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  341.4663U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 54 out of 81
+   value of parameter WF is 4.000000E-05
+   value of parameter WCF is 6.000000E-05
+   value of parameter WCL is 6.000000E-05
+   value of parameter WL is 6.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:38
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2401     
+N$124         1.5230     
+N$128         1.2448     
+N$130         1.2448     
+N$131         480.0376M  
+N$137         480.0376M  
+N$141         1.2417     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          422.0073M  
+N$39          844.0146M  
+VB1T          1.1673     
+VB2           534.7223M  
+VB3           989.9884M  
+VB4           483.4238M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO           -88.9568F   
+VO+           844.0146M  
+VO-           844.0146M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  340.3344U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 55 out of 81
+   value of parameter WF is 6.000000E-05
+   value of parameter WCF is 2.000000E-05
+   value of parameter WCL is 2.000000E-05
+   value of parameter WL is 2.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:38
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:29 iterations FOR DC analysis
+CMFB          1.1603     
+N$124         1.5229     
+N$128         1.1675     
+N$130         1.1675     
+N$131         458.2421M  
+N$137         458.2421M  
+N$141         1.1620     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          418.0155M  
+N$39          836.0310M  
+VB1T          1.1673     
+VB2           354.6864M  
+VB3           1.0193     
+VB4           462.2113M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO           -62.9847F   
+VO+           836.0310M  
+VO-           836.0310M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  346.7448U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 56 out of 81
+   value of parameter WF is 6.000000E-05
+   value of parameter WCF is 2.000000E-05
+   value of parameter WCL is 2.000000E-05
+   value of parameter WL is 4.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:38
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2143     
+N$124         1.5229     
+N$128         1.2205     
+N$130         1.2205     
+N$131         458.3383M  
+N$137         458.3383M  
+N$141         1.2156     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          420.7161M  
+N$39          841.4323M  
+VB1T          1.1673     
+VB2           421.3364M  
+VB3           1.0193     
+VB4           462.2113M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO            584.0754A  
+VO+           841.4323M  
+VO-           841.4323M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  344.4206U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 57 out of 81
+   value of parameter WF is 6.000000E-05
+   value of parameter WCF is 2.000000E-05
+   value of parameter WCL is 2.000000E-05
+   value of parameter WL is 6.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:39
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2406     
+N$124         1.5229     
+N$128         1.2463     
+N$130         1.2463     
+N$131         458.3848M  
+N$137         458.3848M  
+N$141         1.2417     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          422.0285M  
+N$39          844.0569M  
+VB1T          1.1673     
+VB2           453.8409M  
+VB3           1.0193     
+VB4           462.2113M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO            51.3920F   
+VO+           844.0569M  
+VO-           844.0569M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  343.2871U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 58 out of 81
+   value of parameter WF is 6.000000E-05
+   value of parameter WCF is 2.000000E-05
+   value of parameter WCL is 4.000000E-05
+   value of parameter WL is 2.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:39
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 010ms <***
+
+DC:39 iterations FOR DC analysis
+CMFB          1.1603     
+N$124         1.5229     
+N$128         1.1659     
+N$130         1.1659     
+N$131         458.2421M  
+N$137         458.2421M  
+N$141         1.1620     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          418.0163M  
+N$39          836.0326M  
+VB1T          1.1673     
+VB2           409.3487M  
+VB3           1.0193     
+VB4           462.2113M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO           -314.3104P  
+VO+           836.0326M  
+VO-           836.0326M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  344.8317U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 020ms <***
+
+
+
+run number 59 out of 81
+   value of parameter WF is 6.000000E-05
+   value of parameter WCF is 2.000000E-05
+   value of parameter WCL is 4.000000E-05
+   value of parameter WL is 4.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:39
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2143     
+N$124         1.5229     
+N$128         1.2191     
+N$130         1.2191     
+N$131         458.3383M  
+N$137         458.3383M  
+N$141         1.2156     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          420.7167M  
+N$39          841.4335M  
+VB1T          1.1673     
+VB2           475.9048M  
+VB3           1.0193     
+VB4           462.2113M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO            86.3919F   
+VO+           841.4335M  
+VO-           841.4335M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  342.5108U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 60 out of 81
+   value of parameter WF is 6.000000E-05
+   value of parameter WCF is 2.000000E-05
+   value of parameter WCL is 4.000000E-05
+   value of parameter WL is 6.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:39
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2406     
+N$124         1.5229     
+N$128         1.2449     
+N$130         1.2449     
+N$131         458.3848M  
+N$137         458.3848M  
+N$141         1.2417     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          422.0290M  
+N$39          844.0579M  
+VB1T          1.1673     
+VB2           508.3641M  
+VB3           1.0193     
+VB4           462.2113M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO            72.8650F   
+VO+           844.0579M  
+VO-           844.0579M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  341.3788U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 000ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 000ms <***
+
+
+
+run number 61 out of 81
+   value of parameter WF is 6.000000E-05
+   value of parameter WCF is 2.000000E-05
+   value of parameter WCL is 6.000000E-05
+   value of parameter WL is 2.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:39
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 010ms <***
+
+DC:38 iterations FOR DC analysis
+CMFB          1.1603     
+N$124         1.5229     
+N$128         1.1653     
+N$130         1.1653     
+N$131         458.2421M  
+N$137         458.2421M  
+N$141         1.1620     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          418.0166M  
+N$39          836.0332M  
+VB1T          1.1673     
+VB2           435.7501M  
+VB3           1.0193     
+VB4           462.2113M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO            999.0326F  
+VO+           836.0332M  
+VO-           836.0332M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  343.9076U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 020ms <***
+
+
+
+run number 62 out of 81
+   value of parameter WF is 6.000000E-05
+   value of parameter WCF is 2.000000E-05
+   value of parameter WCL is 6.000000E-05
+   value of parameter WL is 4.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:39
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2143     
+N$124         1.5229     
+N$128         1.2185     
+N$130         1.2185     
+N$131         458.3383M  
+N$137         458.3383M  
+N$141         1.2156     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          420.7169M  
+N$39          841.4339M  
+VB1T          1.1673     
+VB2           502.2770M  
+VB3           1.0193     
+VB4           462.2113M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO           -20.3178F   
+VO+           841.4339M  
+VO-           841.4339M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  341.5877U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 000ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 000ms <***
+
+
+
+run number 63 out of 81
+   value of parameter WF is 6.000000E-05
+   value of parameter WCF is 2.000000E-05
+   value of parameter WCL is 6.000000E-05
+   value of parameter WL is 6.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:39
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2406     
+N$124         1.5229     
+N$128         1.2444     
+N$130         1.2444     
+N$131         458.3848M  
+N$137         458.3848M  
+N$141         1.2417     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          422.0291M  
+N$39          844.0583M  
+VB1T          1.1673     
+VB2           534.7223M  
+VB3           1.0193     
+VB4           462.2113M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO           -11.3468F   
+VO+           844.0583M  
+VO-           844.0583M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  340.4563U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 64 out of 81
+   value of parameter WF is 6.000000E-05
+   value of parameter WCF is 4.000000E-05
+   value of parameter WCL is 2.000000E-05
+   value of parameter WL is 2.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:39
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:30 iterations FOR DC analysis
+CMFB          1.1603     
+N$124         1.5229     
+N$128         1.1676     
+N$130         1.1676     
+N$131         458.9957M  
+N$137         458.9957M  
+N$141         1.1620     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          418.0132M  
+N$39          836.0263M  
+VB1T          1.1673     
+VB2           354.6864M  
+VB3           984.4689M  
+VB4           462.2113M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO           -27.2703P   
+VO+           836.0263M  
+VO-           836.0263M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  345.5922U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 65 out of 81
+   value of parameter WF is 6.000000E-05
+   value of parameter WCF is 4.000000E-05
+   value of parameter WCL is 2.000000E-05
+   value of parameter WL is 4.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:39
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2143     
+N$124         1.5229     
+N$128         1.2205     
+N$130         1.2205     
+N$131         459.0872M  
+N$137         459.0872M  
+N$141         1.2156     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          420.7143M  
+N$39          841.4287M  
+VB1T          1.1673     
+VB2           421.3364M  
+VB3           984.4689M  
+VB4           462.2113M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO            24.1234F   
+VO+           841.4287M  
+VO-           841.4287M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  343.2676U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 66 out of 81
+   value of parameter WF is 6.000000E-05
+   value of parameter WCF is 4.000000E-05
+   value of parameter WCL is 2.000000E-05
+   value of parameter WL is 6.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:39
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2405     
+N$124         1.5229     
+N$128         1.2463     
+N$130         1.2463     
+N$131         459.1315M  
+N$137         459.1315M  
+N$141         1.2417     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          422.0268M  
+N$39          844.0537M  
+VB1T          1.1673     
+VB2           453.8409M  
+VB3           984.4689M  
+VB4           462.2113M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO            194.3599F  
+VO+           844.0537M  
+VO-           844.0537M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  342.1339U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 000ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 67 out of 81
+   value of parameter WF is 6.000000E-05
+   value of parameter WCF is 4.000000E-05
+   value of parameter WCL is 4.000000E-05
+   value of parameter WL is 2.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:39
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 010ms <***
+
+DC:29 iterations FOR DC analysis
+CMFB          1.1603     
+N$124         1.5229     
+N$128         1.1659     
+N$130         1.1659     
+N$131         458.9957M  
+N$137         458.9957M  
+N$141         1.1620     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          418.0140M  
+N$39          836.0279M  
+VB1T          1.1673     
+VB2           409.3487M  
+VB3           984.4689M  
+VB4           462.2113M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO           -6.5583P    
+VO+           836.0279M  
+VO-           836.0279M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  343.6791U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 020ms <***
+
+
+
+run number 68 out of 81
+   value of parameter WF is 6.000000E-05
+   value of parameter WCF is 4.000000E-05
+   value of parameter WCL is 4.000000E-05
+   value of parameter WL is 4.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:39
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2143     
+N$124         1.5229     
+N$128         1.2191     
+N$130         1.2191     
+N$131         459.0872M  
+N$137         459.0872M  
+N$141         1.2156     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          420.7149M  
+N$39          841.4298M  
+VB1T          1.1673     
+VB2           475.9048M  
+VB3           984.4689M  
+VB4           462.2113M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO            19.4412F   
+VO+           841.4298M  
+VO-           841.4298M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  341.3577U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 69 out of 81
+   value of parameter WF is 6.000000E-05
+   value of parameter WCF is 4.000000E-05
+   value of parameter WCL is 4.000000E-05
+   value of parameter WL is 6.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:39
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2405     
+N$124         1.5229     
+N$128         1.2450     
+N$130         1.2450     
+N$131         459.1315M  
+N$137         459.1315M  
+N$141         1.2417     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          422.0274M  
+N$39          844.0547M  
+VB1T          1.1673     
+VB2           508.3641M  
+VB3           984.4689M  
+VB4           462.2113M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO           -83.8906F   
+VO+           844.0547M  
+VO-           844.0547M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  340.2256U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 70 out of 81
+   value of parameter WF is 6.000000E-05
+   value of parameter WCF is 4.000000E-05
+   value of parameter WCL is 6.000000E-05
+   value of parameter WL is 2.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:39
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:30 iterations FOR DC analysis
+CMFB          1.1603     
+N$124         1.5229     
+N$128         1.1654     
+N$130         1.1654     
+N$131         458.9957M  
+N$137         458.9957M  
+N$141         1.1620     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          418.0143M  
+N$39          836.0285M  
+VB1T          1.1673     
+VB2           435.7501M  
+VB3           984.4689M  
+VB4           462.2113M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO            2.4202P    
+VO+           836.0285M  
+VO-           836.0285M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  342.7550U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 71 out of 81
+   value of parameter WF is 6.000000E-05
+   value of parameter WCF is 4.000000E-05
+   value of parameter WCL is 6.000000E-05
+   value of parameter WL is 4.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:39
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2143     
+N$124         1.5229     
+N$128         1.2186     
+N$130         1.2186     
+N$131         459.0872M  
+N$137         459.0872M  
+N$141         1.2156     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          420.7151M  
+N$39          841.4303M  
+VB1T          1.1673     
+VB2           502.2770M  
+VB3           984.4689M  
+VB4           462.2113M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO            643.0249A  
+VO+           841.4303M  
+VO-           841.4303M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  340.4347U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 000ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 000ms <***
+
+
+
+run number 72 out of 81
+   value of parameter WF is 6.000000E-05
+   value of parameter WCF is 4.000000E-05
+   value of parameter WCL is 6.000000E-05
+   value of parameter WL is 6.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:39
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2406     
+N$124         1.5229     
+N$128         1.2445     
+N$130         1.2445     
+N$131         459.1315M  
+N$137         459.1315M  
+N$141         1.2417     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          422.0275M  
+N$39          844.0551M  
+VB1T          1.1673     
+VB2           534.7223M  
+VB3           984.4689M  
+VB4           462.2113M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO            64.9560F   
+VO+           844.0551M  
+VO-           844.0551M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  339.3031U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 73 out of 81
+   value of parameter WF is 6.000000E-05
+   value of parameter WCF is 6.000000E-05
+   value of parameter WCL is 2.000000E-05
+   value of parameter WL is 2.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:39
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 010ms <***
+
+DC:31 iterations FOR DC analysis
+CMFB          1.1602     
+N$124         1.5229     
+N$128         1.1676     
+N$130         1.1676     
+N$131         459.3593M  
+N$137         459.3593M  
+N$141         1.1620     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          418.0120M  
+N$39          836.0241M  
+VB1T          1.1673     
+VB2           354.6864M  
+VB3           965.8929M  
+VB4           462.2113M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO            397.2648F  
+VO+           836.0241M  
+VO-           836.0241M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  344.9744U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 000ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 74 out of 81
+   value of parameter WF is 6.000000E-05
+   value of parameter WCF is 6.000000E-05
+   value of parameter WCL is 2.000000E-05
+   value of parameter WL is 4.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:39
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2143     
+N$124         1.5229     
+N$128         1.2205     
+N$130         1.2205     
+N$131         459.4491M  
+N$137         459.4491M  
+N$141         1.2156     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          420.7135M  
+N$39          841.4269M  
+VB1T          1.1673     
+VB2           421.3364M  
+VB3           965.8929M  
+VB4           462.2113M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO           -38.8855F   
+VO+           841.4269M  
+VO-           841.4269M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  342.6496U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 75 out of 81
+   value of parameter WF is 6.000000E-05
+   value of parameter WCF is 6.000000E-05
+   value of parameter WCL is 2.000000E-05
+   value of parameter WL is 6.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:39
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 010ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2405     
+N$124         1.5229     
+N$128         1.2463     
+N$130         1.2463     
+N$131         459.4925M  
+N$137         459.4925M  
+N$141         1.2417     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          422.0261M  
+N$39          844.0521M  
+VB1T          1.1673     
+VB2           453.8409M  
+VB3           965.8929M  
+VB4           462.2113M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO            141.3239F  
+VO+           844.0521M  
+VO-           844.0521M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  341.5158U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 000ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 76 out of 81
+   value of parameter WF is 6.000000E-05
+   value of parameter WCF is 6.000000E-05
+   value of parameter WCL is 4.000000E-05
+   value of parameter WL is 2.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:39
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:17 iterations FOR DC analysis
+CMFB          1.1603     
+N$124         1.5229     
+N$128         1.1660     
+N$130         1.1660     
+N$131         459.3593M  
+N$137         459.3593M  
+N$141         1.1620     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          418.0128M  
+N$39          836.0257M  
+VB1T          1.1673     
+VB2           409.3487M  
+VB3           965.8929M  
+VB4           462.2113M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO           -45.4800F   
+VO+           836.0257M  
+VO-           836.0257M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  343.0612U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 000ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 77 out of 81
+   value of parameter WF is 6.000000E-05
+   value of parameter WCF is 6.000000E-05
+   value of parameter WCL is 4.000000E-05
+   value of parameter WL is 4.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:39
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2143     
+N$124         1.5229     
+N$128         1.2191     
+N$130         1.2191     
+N$131         459.4491M  
+N$137         459.4491M  
+N$141         1.2156     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          420.7140M  
+N$39          841.4281M  
+VB1T          1.1673     
+VB2           475.9048M  
+VB3           965.8929M  
+VB4           462.2113M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO           -109.7066F  
+VO+           841.4281M  
+VO-           841.4281M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  340.7397U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 78 out of 81
+   value of parameter WF is 6.000000E-05
+   value of parameter WCF is 6.000000E-05
+   value of parameter WCL is 4.000000E-05
+   value of parameter WL is 6.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:39
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2405     
+N$124         1.5229     
+N$128         1.2450     
+N$130         1.2450     
+N$131         459.4925M  
+N$137         459.4925M  
+N$141         1.2417     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          422.0266M  
+N$39          844.0532M  
+VB1T          1.1673     
+VB2           508.3641M  
+VB3           965.8929M  
+VB4           462.2113M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO           -52.7837F   
+VO+           844.0532M  
+VO-           844.0532M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  339.6075U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 79 out of 81
+   value of parameter WF is 6.000000E-05
+   value of parameter WCF is 6.000000E-05
+   value of parameter WCL is 6.000000E-05
+   value of parameter WL is 2.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:39
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 010ms <***
+
+DC:32 iterations FOR DC analysis
+CMFB          1.1603     
+N$124         1.5229     
+N$128         1.1654     
+N$130         1.1654     
+N$131         459.3593M  
+N$137         459.3593M  
+N$141         1.1620     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          418.0131M  
+N$39          836.0262M  
+VB1T          1.1673     
+VB2           435.7501M  
+VB3           965.8929M  
+VB4           462.2113M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO            16.8609P   
+VO+           836.0262M  
+VO-           836.0262M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  342.1372U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 000ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 010ms <***
+
+
+
+run number 80 out of 81
+   value of parameter WF is 6.000000E-05
+   value of parameter WCF is 6.000000E-05
+   value of parameter WCL is 6.000000E-05
+   value of parameter WL is 4.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:39
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 010ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2143     
+N$124         1.5229     
+N$128         1.2186     
+N$130         1.2186     
+N$131         459.4491M  
+N$137         459.4491M  
+N$141         1.2156     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          420.7143M  
+N$39          841.4285M  
+VB1T          1.1673     
+VB2           502.2770M  
+VB3           965.8929M  
+VB4           462.2113M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO           -29.8781F   
+VO+           841.4285M  
+VO-           841.4285M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  339.8167U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 010ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 0s 020ms <***
+
+
+
+run number 81 out of 81
+   value of parameter WF is 6.000000E-05
+   value of parameter WCF is 6.000000E-05
+   value of parameter WCL is 6.000000E-05
+   value of parameter WL is 6.000000E-05
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE:  5-Nov-2013 10:30:40
+
+*** TITLE: * Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:5 iterations FOR DC analysis
+CMFB          1.2405     
+N$124         1.5229     
+N$128         1.2445     
+N$130         1.2445     
+N$131         459.4925M  
+N$137         459.4925M  
+N$141         1.2417     
+N$142         900.0000M  
+N$153         900.0000M  
+N$27          900.0000M  
+N$28          0.0000     
+N$38          422.0268M  
+N$39          844.0535M  
+VB1T          1.1673     
+VB2           534.7223M  
+VB3           965.8929M  
+VB4           462.2113M  
+VDD           1.8000     
+VI+           900.0000M  
+VI-           900.0000M  
+VO           -40.7841F   
+VO+           844.0535M  
+VO-           844.0535M  
+VOCM          900.0000M  
+X_S2D2.N$2    900.0000M  
+
+   TOTAL POWER DISSIPATION:  338.6850U   WATTS
+
+
+***>AC analysis starts
+
+***>AC analysis completed
+
+***>CPU TIME 0s 000ms <***
+
+
+
+***>Current simulation completed
+
+
+
+
+SIMULATION INFORMATION 
+memory size allocated in bytes 127549440
+nb of components: 67
+nb of nodes: 57
+nb of MOS or BIP calls: 336
+Number of steps computed: 0
+
+***>CPU TIME 0s 000ms <***
+
+***>MESSAGE SUMMARY: 7 warnings
+
+***>GLOBAL CPU TIME 0s 930ms <***
+
+
+***>GLOBAL ELAPSED TIME 5s <***
+
+

@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 52b0b9cc85ab.03.7f.00.00.01.00.45.0b 4 2 1 0
+V v 2 1 52b0bb79935b.03.7f.00.00.01.00.45.0b
+F o 0 ""
+V v 3 1 52b0bb868a3b.03.7f.00.00.01.00.45.0b
+F o 0 ""
+V v 4 1 52b0bb86e34a.03.7f.00.00.01.00.45.0b
+F o 0 ""
+O 4
+R cspuv 0 "$SC_filter/default.group/logic.views/BGR/schematic/sheet1" 3 mgc_sheet 52b0bb86e333.03.7f.00.00.01.00.45.0b 52b0b9cc85fb.03.7f.00.00.01.00.45.0b
+O 3
+R cspuv 0 "$SC_filter/default.group/logic.views/BGR/schematic/sheet1" 2 mgc_sheet 52b0bb868a25.03.7f.00.00.01.00.45.0b 52b0b9cc85fb.03.7f.00.00.01.00.45.0b
+O 2
+R cspuv 0 "$SC_filter/default.group/logic.views/BGR/schematic/sheet1" 1 mgc_sheet 52b0b9cc85fb.03.7f.00.00.01.01.45.0b 52b0b9cc85fb.03.7f.00.00.01.00.45.0b

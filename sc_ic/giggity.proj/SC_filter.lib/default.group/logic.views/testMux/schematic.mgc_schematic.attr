@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 527bdcda5b2e.03.7f.00.00.01.00.68.61 10 2 1 0
+V v 8 1 527be14ee4ce.03.7f.00.00.01.00.6f.d9
+F o 0 ""
+V v 9 1 527be19a24fe.03.7f.00.00.01.00.6f.d9
+F o 0 ""
+V v 10 1 527be4780735.03.7f.00.00.01.00.6f.d9
+F o 0 ""
+O 10
+R cspuv 0 "$SC_filter/default.group/logic.views/testMux/schematic/sheet1" 9 mgc_sheet 527be4780719.03.7f.00.00.01.00.6f.d9 527bdcda5c1f.03.7f.00.00.01.00.68.61
+O 9
+R cspuv 0 "$SC_filter/default.group/logic.views/testMux/schematic/sheet1" 8 mgc_sheet 527be19a24e8.03.7f.00.00.01.00.6f.d9 527bdcda5c1f.03.7f.00.00.01.00.68.61
+O 8
+R cspuv 0 "$SC_filter/default.group/logic.views/testMux/schematic/sheet1" 7 mgc_sheet 527be14ee4ba.03.7f.00.00.01.00.6f.d9 527bdcda5c1f.03.7f.00.00.01.00.68.61

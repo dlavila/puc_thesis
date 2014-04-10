@@ -1,0 +1,7 @@
+A 5 u Eddm_part 52d035906174.03.7f.00.00.01.00.11.aa 1 2 1 0
+V v 1 1 52d035906174.03.7f.00.00.01.01.11.aa
+F f 1 "part.part_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/testBufferPLS/schematic" 1 mgc_schematic 52d03546950c.03.7f.00.00.01.00.11.aa 52d03546950b.03.7f.00.00.01.00.11.aa
+P "eddm__refer_state" "eddm__refer_floating"

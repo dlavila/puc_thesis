@@ -1,0 +1,262 @@
+# This file provides name mapping information for all objects
+# on the schematic design.  It provides a mapping for each
+# object between its name on the schematic and its name in the netlist.
+version 1.0
+
+Globals
+   ground GROUND
+End Globals
+
+Cell IDEAL_CAPACITOR
+   Pin POS POS
+   Pin NEG NEG
+End Cell
+
+Cell DC_I_SOURCE
+   Pin POS POS
+   Pin NEG NEG
+End Cell
+
+Cell AC_V_SOURCE
+   Pin POS POS
+   Pin NEG NEG
+End Cell
+
+Cell DC_V_SOURCE
+   Pin POS POS
+   Pin NEG NEG
+End Cell
+
+Cell P_18_MM
+   Pin D D
+   Pin G G
+   Pin S S
+   Pin B B
+End Cell
+
+Cell N_18_MM
+   Pin D D
+   Pin G G
+   Pin S S
+   Pin B B
+End Cell
+
+Cell AUX_FCP
+   Pin Vo VO
+   Pin Vb1 VB1
+   Pin Vb2 VB2
+   Pin Vb3 VB3
+   Pin Vb4 VB4
+   Pin Vdd VDD
+   Pin Vi+ VI+
+   Pin Vi- VI-
+   Pin Vss VSS
+   Net N$253 N$253
+   Net N$252 N$252
+   Net N$251 N$251
+   Net N$249 N$249
+   Net N$248 N$248
+   Net N$246 N$246
+   Net Vo VO
+   Net Vdd VDD
+   Net Vss VSS
+   Net Vb4 VB4
+   Net Vb3 VB3
+   Net Vb2 VB2
+   Net Vb1 VB1
+   Net Vi- VI-
+   Net Vi+ VI+
+   Inst M6 M6 P_18_MM
+   Inst M15 M15 P_18_MM
+   Inst M14 M14 P_18_MM
+   Inst M13 M13 P_18_MM
+   Inst M19 M19 P_18_MM
+   Inst M30 M30 P_18_MM
+   Inst M20 M20 N_18_MM
+   Inst M21 M21 N_18_MM
+   Inst M17 M17 N_18_MM
+   Inst M3 M3 P_18_MM
+   Inst M10 M10 N_18_MM
+End Cell
+
+Cell VCVS_2PIN
+   Pin POS POS
+   Pin NEG NEG
+End Cell
+
+Cell S2D
+   Pin Vd+ VD+
+   Pin Vd- VD-
+   Pin Vicm VICM
+   Pin Vid VID
+   Pin Vss VSS
+   Net N$2 N$2
+   Net Vd- VD-
+   Net Vd+ VD+
+   Net Vss VSS
+   Net Vicm VICM
+   Net Vid VID
+   Inst E3 E3 VCVS_2PIN
+   Inst E2 E2 VCVS_2PIN
+   Inst E1 E1 VCVS_2PIN
+End Cell
+
+Cell AUX_FCP_BIAS
+   Pin Vb1 VB1
+   Pin Vb2 VB2
+   Pin Vb3 VB3
+   Pin Vb4 VB4
+   Pin Iin IIN
+   Pin Vdd VDD
+   Pin Vss VSS
+   Net N$34 N$34
+   Net N$32 N$32
+   Net N$31 N$31
+   Net N$33 N$33
+   Net N$30 N$30
+   Net N$29 N$29
+   Net N$25 N$25
+   Net N$24 N$24
+   Net N$22 N$22
+   Net Vb4 VB4
+   Net Vb3 VB3
+   Net Vb2 VB2
+   Net Vb1 VB1
+   Net Vdd VDD
+   Net Vss VSS
+   Net Iin IIN
+   Inst M12 M12 N_18_MM
+   Inst M7 M7 N_18_MM
+   Inst M4 M4 N_18_MM
+   Inst M2 M2 N_18_MM
+   Inst M1 M1 P_18_MM
+   Inst M11 M11 N_18_MM
+   Inst M8 M8 N_18_MM
+   Inst M5 M5 N_18_MM
+   Inst M9 M9 N_18_MM
+   Inst M18 M18 P_18_MM
+   Inst M16 M16 P_18_MM
+   Inst M25 M25 P_18_MM
+   Inst M24 M24 P_18_MM
+   Inst M23 M23 P_18_MM
+   Inst M29 M29 P_18_MM
+   Inst M28 M28 P_18_MM
+   Inst M26 M26 P_18_MM
+   Inst M22 M22 P_18_MM
+End Cell
+
+Cell AUX_FCN_BIAS
+   Pin Vb1 VB1
+   Pin Vb2 VB2
+   Pin Vb3 VB3
+   Pin Vb4 VB4
+   Pin Iin IIN
+   Pin Vdd VDD
+   Pin Vss VSS
+   Net N$17 N$17
+   Net N$15 N$15
+   Net N$14 N$14
+   Net N$16 N$16
+   Net N$13 N$13
+   Net N$12 N$12
+   Net N$11 N$11
+   Net N$10 N$10
+   Net N$8 N$8
+   Net Vb4 VB4
+   Net Vb3 VB3
+   Net Vb2 VB2
+   Net Vb1 VB1
+   Net Vss VSS
+   Net Vdd VDD
+   Net Iin IIN
+   Inst M7 M7 P_18_MM
+   Inst M6 M6 P_18_MM
+   Inst M5 M5 P_18_MM
+   Inst M3 M3 P_18_MM
+   Inst M22 M22 N_18_MM
+   Inst M12 M12 N_18_MM
+   Inst M11 M11 N_18_MM
+   Inst M9 M9 N_18_MM
+   Inst M8 M8 N_18_MM
+   Inst M18 M18 P_18_MM
+   Inst M16 M16 P_18_MM
+   Inst M25 M25 P_18_MM
+   Inst M24 M24 P_18_MM
+   Inst M27 M27 N_18_MM
+   Inst M29 M29 P_18_MM
+   Inst M28 M28 P_18_MM
+   Inst M26 M26 N_18_MM
+   Inst M23 M23 N_18_MM
+End Cell
+
+Cell AUX_FCN
+   Pin Vo VO
+   Pin Vb1 VB1
+   Pin Vb2 VB2
+   Pin Vb3 VB3
+   Pin Vb4 VB4
+   Pin Vdd VDD
+   Pin Vi+ VI+
+   Pin Vi- VI-
+   Pin Vss VSS
+   Net N$681 N$681
+   Net N$678 N$678
+   Net N$677 N$677
+   Net N$619 N$619
+   Net N$616 N$616
+   Net N$614 N$614
+   Net Vdd VDD
+   Net Vss VSS
+   Net Vo VO
+   Net Vb3 VB3
+   Net Vb2 VB2
+   Net Vb1 VB1
+   Net Vb4 VB4
+   Net Vi- VI-
+   Net Vi+ VI+
+   Inst M19 M19 P_18_MM
+   Inst M10 M10 N_18_MM
+   Inst M20 M20 N_18_MM
+   Inst M21 M21 N_18_MM
+   Inst M2 M2 N_18_MM
+   Inst M15 M15 P_18_MM
+   Inst M17 M17 N_18_MM
+   Inst M13 M13 P_18_MM
+   Inst M4 M4 N_18_MM
+   Inst M1 M1 N_18_MM
+   Inst M14 M14 P_18_MM
+End Cell
+
+Cell #top#
+   Net N$51 N$51
+   Net Iref2 IREF2
+   Net Vo2 VO2
+   Net N$40 N$40
+   Net N$37 N$37
+   Net N$36 N$36
+   Net N$35 N$35
+   Net N$34 N$34
+   Net N$25 N$25
+   Net Iref IREF
+   Net Vo VO
+   Net Vdd VDD
+   Net N$27 N$27
+   Net N$2 N$2
+   Net N$4 N$4
+   Net N$6 N$6
+   Net N$8 N$8
+   Global ground GROUND
+   Inst C2 C2 IDEAL_CAPACITOR
+   Inst C1 C1 IDEAL_CAPACITOR
+   Inst I2 I2 DC_I_SOURCE
+   Inst V1 V1 AC_V_SOURCE
+   Inst V2 V2 DC_V_SOURCE
+   Inst AUX_FCP1 X_AUX_FCP1 AUX_FCP
+   Inst S2D1 X_S2D1 S2D
+   Inst I1 I1 DC_I_SOURCE
+   Inst V3 V3 DC_V_SOURCE
+   Inst AUX_FCP_BIAS1 X_AUX_FCP_BIAS1 AUX_FCP_BIAS
+   Inst AUX_FCN_BIAS1 X_AUX_FCN_BIAS1 AUX_FCN_BIAS
+   Inst AUX_FCN1 X_AUX_FCN1 AUX_FCN
+End Cell
+

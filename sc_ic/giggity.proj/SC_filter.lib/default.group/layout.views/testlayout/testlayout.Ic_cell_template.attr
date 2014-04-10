@@ -1,0 +1,13 @@
+A 5 u Ic_cell_template 52d0056034b6.03.7f.00.00.01.00.0a.92 2 4 5 0
+V v 1 1 52d009519286.03.7f.00.00.01.00.0a.92
+F f 1 "testlayout.iccel_1"
+V v 2 1 52d00bd43de2.03.7f.00.00.01.00.0a.92
+F f 2 "testlayout.iccel_2"
+O 2
+R csduv 1 "$MGC_DESIGN_KIT/process/umc18ummrf" 25 Ic_persist_process 4b49fbac2b9a.03.89.ca.1c.10.00.03.ca 462ccb24bc64.03.7f.00.00.02.00.14.78
+R csdni 3 "$MGC_DESIGN_KIT/process/umc18mmrf_sdl_rules" 1 Mgc_file
+R csduv 4 "$SC_filter/default.group/layout.views/BUFFER_2/BUFFER_2" 275 Ic_cell_template 52d00bca9b5d.03.7f.00.00.01.00.0a.92 52c8c51c58d7.03.7f.00.00.01.00.2a.7f
+O 1
+R csduv 1 "$MGC_DESIGN_KIT/process/umc18ummrf" 25 Ic_persist_process 4b49fbac2b9a.03.89.ca.1c.10.00.03.ca 462ccb24bc64.03.7f.00.00.02.00.14.78
+R csdni 3 "$MGC_DESIGN_KIT/process/umc18mmrf_sdl_rules" 1 Mgc_file
+R csduv 4 "$SC_filter/default.group/layout.views/BUFFER_2/BUFFER_2" 273 Ic_cell_template 52d00948223b.03.7f.00.00.01.00.0a.92 52c8c51c58d7.03.7f.00.00.01.00.2a.7f

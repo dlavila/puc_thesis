@@ -1,14 +1,14 @@
-A 5 u mgc_sheet 5242e3a58a06.03.7f.00.00.01.00.27.71 30 2 13 0
-V v 28 2 52444ca7235e.03.7f.00.00.01.00.6f.45
-F f 28 "sheet1.ssht_28"
-F f 28 "sheet1.sgfx_28"
-V v 29 2 5244990f23ab.03.7f.00.00.01.00.0d.a7
-F f 29 "sheet1.ssht_29"
-F f 29 "sheet1.sgfx_29"
-V v 30 2 52449a5b8305.03.7f.00.00.01.00.13.eb
-F f 30 "sheet1.ssht_30"
-F f 30 "sheet1.sgfx_30"
-O 30
+A 5 u mgc_sheet 5242e3a58a06.03.7f.00.00.01.00.27.71 47 2 15 0
+V v 45 2 52863bda2ea0.03.7f.00.00.01.00.51.7b
+F f 45 "sheet1.ssht_45"
+F f 45 "sheet1.sgfx_45"
+V v 46 2 52863e1bd12c.03.7f.00.00.01.00.51.7b
+F f 46 "sheet1.ssht_46"
+F f 46 "sheet1.sgfx_46"
+V v 47 2 52864dd6c226.03.7f.00.00.01.00.51.7b
+F f 47 "sheet1.ssht_47"
+F f 47 "sheet1.sgfx_47"
+O 47
 P "eddm__stream_to_use" "eddm__propl_dstream"
 R csduv 0 "$AnalogIP/default.group/logic.views/buffer/schematic" 1 mgc_schematic 5242e3a5896b.03.7f.00.00.01.01.27.71 5242e3a5896b.03.7f.00.00.01.00.27.71
 R csduv 1 "$MGC_DESIGN_KIT/symbols/P_18_MM/part" 23 Eddm_part 462e23ba79d1.03.7f.00.00.01.00.54.63 461b99bfbe81.03.89.ca.19.1a.00.4f.21
@@ -21,7 +21,7 @@ R csduv 9 "$MGC_DESIGN_KIT/symbols/MIMCAPS_MM/part" 22 Eddm_part 462e5a1f20e0.03
 R csduv 10 "$MGC_DESIGN_KIT/symbols/MIMCAPS_MM/MIMCAPS_MM" 5 mgc_symbol 462e5a1f20cc.03.7f.00.00.01.00.3d.95 461b9a2010e0.03.89.ca.19.1a.00.4f.21
 R csduv 11 "$MGC_IC_GENERIC_LIB/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 3890e8888efa.03.86.56.31.70.03.3a.eb
 R csduv 12 "$MGC_IC_GENERIC_LIB/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 3890e8888efa.03.86.56.31.70.02.3a.eb
-O 29
+O 46
 P "eddm__stream_to_use" "eddm__propl_dstream"
 R csduv 0 "$AnalogIP/default.group/logic.views/buffer/schematic" 1 mgc_schematic 5242e3a5896b.03.7f.00.00.01.01.27.71 5242e3a5896b.03.7f.00.00.01.00.27.71
 R csduv 1 "$MGC_DESIGN_KIT/symbols/P_18_MM/part" 23 Eddm_part 462e23ba79d1.03.7f.00.00.01.00.54.63 461b99bfbe81.03.89.ca.19.1a.00.4f.21
@@ -34,7 +34,9 @@ R csduv 9 "$MGC_DESIGN_KIT/symbols/MIMCAPS_MM/part" 22 Eddm_part 462e5a1f20e0.03
 R csduv 10 "$MGC_DESIGN_KIT/symbols/MIMCAPS_MM/MIMCAPS_MM" 5 mgc_symbol 462e5a1f20cc.03.7f.00.00.01.00.3d.95 461b9a2010e0.03.89.ca.19.1a.00.4f.21
 R csduv 11 "$MGC_IC_GENERIC_LIB/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 3890e8888efa.03.86.56.31.70.03.3a.eb
 R csduv 12 "$MGC_IC_GENERIC_LIB/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 3890e8888efa.03.86.56.31.70.02.3a.eb
-O 28
+R csduv 13 "$MGC_IC_SOURCES_LIB/dc_i_source/part" 1 Eddm_part 3890a870199d.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.00.34.72
+R csduv 14 "$MGC_IC_SOURCES_LIB/dc_i_source/dc_i_source" 1 mgc_symbol 3890a8701970.03.86.56.31.70.00.34.2e 3890a962031e.03.86.56.31.70.00.34.72
+O 45
 P "eddm__stream_to_use" "eddm__propl_dstream"
 R csduv 0 "$AnalogIP/default.group/logic.views/buffer/schematic" 1 mgc_schematic 5242e3a5896b.03.7f.00.00.01.01.27.71 5242e3a5896b.03.7f.00.00.01.00.27.71
 R csduv 1 "$MGC_DESIGN_KIT/symbols/P_18_MM/part" 23 Eddm_part 462e23ba79d1.03.7f.00.00.01.00.54.63 461b99bfbe81.03.89.ca.19.1a.00.4f.21

@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 5258442cae01.03.7f.00.00.01.00.17.64 21 2 1 0
+V v 19 1 52863583a117.03.7f.00.00.01.00.48.95
+F o 0 ""
+V v 20 1 52863bdc031d.03.7f.00.00.01.00.51.7b
+F o 0 ""
+V v 21 1 52863c095d07.03.7f.00.00.01.00.51.7b
+F o 0 ""
+O 21
+R cspuv 0 "$AnalogIP/default.group/logic.views/testBuffer/schematic/sheet1" 20 mgc_sheet 52863c095cf0.03.7f.00.00.01.00.51.7b 5258442caf45.03.7f.00.00.01.00.17.64
+O 20
+R cspuv 0 "$AnalogIP/default.group/logic.views/testBuffer/schematic/sheet1" 19 mgc_sheet 52863bdc0303.03.7f.00.00.01.00.51.7b 5258442caf45.03.7f.00.00.01.00.17.64
+O 19
+R cspuv 0 "$AnalogIP/default.group/logic.views/testBuffer/schematic/sheet1" 18 mgc_sheet 52863583a0eb.03.7f.00.00.01.00.48.95 5258442caf45.03.7f.00.00.01.00.17.64

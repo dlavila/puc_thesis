@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 527966698f19.03.7f.00.00.01.00.18.71 8 2 1 0
+V v 6 1 52796a0790a6.03.7f.00.00.01.00.18.71
+F o 0 ""
+V v 7 1 52796a9baa1b.03.7f.00.00.01.00.18.71
+F o 0 ""
+V v 8 1 52796ad89bf8.03.7f.00.00.01.00.18.71
+F o 0 ""
+O 8
+R cspuv 0 "$AnalogIP/default.group/logic.views/noise_test/schematic/sheet1" 7 mgc_sheet 52796ad89bd7.03.7f.00.00.01.00.18.71 527966698fde.03.7f.00.00.01.00.18.71
+O 7
+R cspuv 0 "$AnalogIP/default.group/logic.views/noise_test/schematic/sheet1" 6 mgc_sheet 52796a9ba9fc.03.7f.00.00.01.00.18.71 527966698fde.03.7f.00.00.01.00.18.71
+O 6
+R cspuv 0 "$AnalogIP/default.group/logic.views/noise_test/schematic/sheet1" 5 mgc_sheet 52796a079083.03.7f.00.00.01.00.18.71 527966698fde.03.7f.00.00.01.00.18.71

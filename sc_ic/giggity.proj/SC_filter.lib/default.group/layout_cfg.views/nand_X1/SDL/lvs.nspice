@@ -1,0 +1,13 @@
+* LVS netlist generated with ICnet by 'dlavila' on Mon Jan 20 2014 at 20:04:00
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/nand_X1
+*
+.subckt nand_X1  O A B Vdd Vss
+
+        M3 N$65 B Vss Vss n_18_mm w=0.25u l=0.18u m=1
+        M5 O A N$65 Vss n_18_mm w=0.25u l=0.18u m=1
+        M1 O B Vdd Vdd p_18_mm w=0.75u l=0.18u m=1
+        M4 O A Vdd Vdd p_18_mm w=0.75u l=0.18u m=1
+.ends nand_X1
+

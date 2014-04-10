@@ -1,0 +1,19 @@
+A 5 u Eddm_ba_mgr 529661bb9d6f.03.7f.00.00.01.00.7f.2d 18 2 33 0
+V v 16 1 528f8e909f29.03.7f.00.00.01.00.35.f2
+F f 16 "eldonet.ba_16"
+V v 17 1 5296232a9114.03.7f.00.00.01.00.7a.ea
+F f 17 "eldonet.ba_17"
+V v 18 1 52966801a700.03.7f.00.00.01.00.2f.5b
+F f 18 "eldonet.ba_18"
+O 18
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 32 "$SC_filter/default.group/logic.views/FILTER/eldonet" 512 Eddm_design_viewpoint 52966801a6df.03.7f.00.00.01.00.2f.5b 529661bb9d21.03.7f.00.00.01.00.7f.2d
+O 17
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 30 "$SC_filter/default.group/logic.views/FILTER/eldonet" 453 Eddm_design_viewpoint 5296232a90ee.03.7f.00.00.01.00.7a.ea 529661bb9d21.03.7f.00.00.01.00.7f.2d
+R cspuv 31 "$SC_filter/default.group/logic.views/FILTER/schematic" 166 mgc_schematic 529622f4e011.03.7f.00.00.01.00.7a.ea 529661bb9ce5.03.7f.00.00.01.00.7f.2d
+P "eddm__refer_state" "eddm__refer_floating"
+O 16
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 28 "$SC_filter/default.group/logic.views/FILTER/eldonet" 349 Eddm_design_viewpoint 528f8e909eed.03.7f.00.00.01.00.35.f2 529661bb9d21.03.7f.00.00.01.00.7f.2d
+R cspuv 29 "$SC_filter/default.group/logic.views/FILTER/schematic" 143 mgc_schematic 528f8db4eae6.03.7f.00.00.01.00.35.f2 529661bb9ce5.03.7f.00.00.01.00.7f.2d

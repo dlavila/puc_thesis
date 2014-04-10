@@ -1,0 +1,188 @@
+# This file provides name mapping information for all objects
+# on the schematic design.  It provides a mapping for each
+# object between its name on the schematic and its name in the netlist.
+version 1.0
+
+Cell P_18_MM
+   Pin D D
+   Pin G G
+   Pin S S
+   Pin B B
+End Cell
+
+Cell N_18_MM
+   Pin D D
+   Pin G G
+   Pin S S
+   Pin B B
+End Cell
+
+Cell SCF_CMFB
+   Pin CMFB CMFB
+   Pin AGnd AGND
+   Pin AVdd AVDD
+   Pin Vb4 VB4
+   Pin Vo+ VO+
+   Pin Vo- VO-
+   Pin Vocm VOCM
+   Net N$6 N$6
+   Net N$2 N$2
+   Net N$4 N$4
+   Net Vo+ VO+
+   Net Vo- VO-
+   Net Vb4 VB4
+   Net CMFB CMFB
+   Net Vocm VOCM
+   Net AGnd AGND
+   Net AVdd AVDD
+   Inst M25 M25 P_18_MM
+   Inst M31 M31 N_18_MM
+   Inst M30 M30 N_18_MM
+   Inst M29 M29 N_18_MM
+   Inst M27 M27 N_18_MM
+   Inst M26 M26 N_18_MM
+   Inst M23 M23 P_18_MM
+   Inst M28 M28 N_18_MM
+End Cell
+
+Cell SCF_BIAS
+   Pin Vb2 VB2
+   Pin Vb3 VB3
+   Pin Vb4 VB4
+   Pin AGnd AGND
+   Pin AVdd AVDD
+   Pin Iref IREF
+   Net Vb5 VB5
+   Net N$41 N$41
+   Net AGnd AGND
+   Net AVdd AVDD
+   Net Vb3 VB3
+   Net Vb4 VB4
+   Net Vb2 VB2
+   Net Iref IREF
+   Inst M24 M24 N_18_MM
+   Inst M18 M18 N_18_MM
+   Inst M22 M22 P_18_MM
+   Inst M20 M20 P_18_MM
+   Inst M21 M21 N_18_MM
+   Inst M19 M19 N_18_MM
+   Inst M17 M17 P_18_MM
+   Inst M16 M16 P_18_MM
+   Inst M15 M15 P_18_MM
+End Cell
+
+Cell SCF_OTA
+   Pin Vo+ VO+
+   Pin Vo- VO-
+   Pin AGnd AGND
+   Pin AVdd AVDD
+   Pin CMFB CMFB
+   Pin Iref IREF
+   Pin Vb2 VB2
+   Pin Vb3 VB3
+   Pin Vi+ VI+
+   Pin Vi- VI-
+   Net N$1118 N$1118
+   Net N$1117 N$1117
+   Net N$1114 N$1114
+   Net N$1111 N$1111
+   Net N$1108 N$1108
+   Net N$1101 N$1101
+   Net N$1098 N$1098
+   Net N$1095 N$1095
+   Net N$1092 N$1092
+   Net N$1088 N$1088
+   Net N$1085 N$1085
+   Net N$1081 N$1081
+   Net N$1078 N$1078
+   Net ND1 ND1
+   Net N$1072 N$1072
+   Net N$1071 N$1071
+   Net N$1070 N$1070
+   Net N$1056 N$1056
+   Net N$1053 N$1053
+   Net N$1050 N$1050
+   Net N$1047 N$1047
+   Net ND3 ND3
+   Net N$1000 N$1000
+   Net N$542 N$542
+   Net ND4 ND4
+   Net N$559 N$559
+   Net ND2 ND2
+   Net N$435 N$435
+   Net N$64 N$64
+   Net Iref IREF
+   Net Vo- VO-
+   Net Vo+ VO+
+   Net Vi- VI-
+   Net Vi+ VI+
+   Net AVdd AVDD
+   Net AGnd AGND
+   Net CMFB CMFB
+   Net Vb2 VB2
+   Net Vb3 VB3
+   Inst M14 M14 N_18_MM
+   Inst M4 M4 N_18_MM
+   Inst M51 M51 N_18_MM
+   Inst M50 M50 N_18_MM
+   Inst M7 M7 P_18_MM
+   Inst M13 M13 N_18_MM
+   Inst M0 M0 P_18_MM
+   Inst M3B M3B N_18_MM
+   Inst M10 M10 P_18_MM
+   Inst M9 M9 P_18_MM
+   Inst M11 M11 N_18_MM
+   Inst M12 M12 N_18_MM
+   Inst M49 M49 N_18_MM
+   Inst M6 M6 P_18_MM
+   Inst M8 M8 P_18_MM
+   Inst M3 M3 N_18_MM
+   Inst M5 M5 N_18_MM
+   Inst M2 M2 P_18_MM
+   Inst M42 M42 N_18_MM
+   Inst M41 M41 N_18_MM
+   Inst M40 M40 N_18_MM
+   Inst M39 M39 P_18_MM
+   Inst M38 M38 P_18_MM
+   Inst M37 M37 P_18_MM
+   Inst M36 M36 P_18_MM
+   Inst M35 M35 P_18_MM
+   Inst M34 M34 P_18_MM
+   Inst M33 M33 P_18_MM
+   Inst M32 M32 P_18_MM
+   Inst M1A M1A P_18_MM
+   Inst M1 M1 P_18_MM
+   Inst M45 M45 N_18_MM
+   Inst M46 M46 N_18_MM
+   Inst M48 M48 N_18_MM
+   Inst M47 M47 N_18_MM
+   Inst M43 M43 N_18_MM
+   Inst M44 M44 N_18_MM
+End Cell
+
+Cell #top#
+   Pin Vo+ VO+
+   Pin Vo- VO-
+   Pin AGnd AGND
+   Pin AVdd AVDD
+   Pin Iref IREF
+   Pin Vi+ VI+
+   Pin Vi- VI-
+   Pin Vocm VOCM
+   Net Vb4 VB4
+   Net Vb3 VB3
+   Net Vb2 VB2
+   Net CMFB CMFB
+   Net Vocm VOCM
+   Net Vo- VO-
+   Net Vo+ VO+
+   Net Vi+ VI+
+   Net Vi- VI-
+   Net Iref IREF
+   Net AGnd AGND
+   Net AVdd AVDD
+   Inst SCF_CMFB1 X_SCF_CMFB1 SCF_CMFB
+   Inst SCF_BIAS1 X_SCF_BIAS1 SCF_BIAS
+   Inst SCF_OTA1 X_SCF_OTA1 SCF_OTA
+End Cell
+

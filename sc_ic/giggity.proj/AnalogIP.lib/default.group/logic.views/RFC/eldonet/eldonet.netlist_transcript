@@ -32,12 +32,13 @@
 Processing [$AnalogIP/default.group/logic.views/RFC] [RFC/RFC] [schematic] (NCF entry line:17 file:$NCF_GLOBAL)
 Primitive [$MGC_DESIGN_KIT/symbols/P_18_MM] [P_18_MM/P_18_MM] [ELDOSPICE=M] (NCF entry line:19 file:$MGC_DESIGN_KIT/symbols/P_18_MM/@ncf.dir/P_18_MM.ncf)
 Primitive [$MGC_DESIGN_KIT/symbols/N_18_MM] [N_18_MM/N_18_MM] [ELDOSPICE=M] (NCF entry line:19 file:$MGC_DESIGN_KIT/symbols/N_18_MM/@ncf.dir/N_18_MM.ncf)
+Primitive [$MGC_IC_DEVICE_LIB/ideal_resistor] [ideal_resistor/ideal_resistor] [SPICE=R] (NCF entry line:72 file:$NCF_GLOBAL) (NCF entry line:77 file:$NCF_GLOBAL)
 Primitive [$MGC_IC_SOURCES_LIB/vcvs_2pin] [vcvs_2pin/vcvs_2pin] [SPICE=E] (NCF entry line:1027 file:$NCF_GLOBAL)
 Primitive [$MGC_IC_SOURCES_LIB/vcvs] [vcvs/vcvs] [SPICE=E] (NCF entry line:1078 file:$NCF_GLOBAL)
 
 **** Writing <$AnalogIP/default.group/logic.views/RFC/eldonet> netlist for ELDO ****
 
-Number of cells: 5
-Number of primitive instances: 27
+Number of cells: 6
+Number of primitive instances: 31
 
 Done...

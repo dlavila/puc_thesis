@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<drc_log>
+<comment>
+This file was automatically created. Please do not hand edit.
+</comment>
+ username="dlavila"
+ datestamp="Sat Feb  8 11:53:35 2014
+"
+<version version="2"/>
+<rve_log runset_name="/dev/null" timestamp="1391871215" drc_file="$SC_filter/default.group/layout.views/SCF_bias/SCF_bias.cal/SCF_bias.drc.results" ll_areax="0" ll_areay="0" ur_areax="0" ur_areay="0" check_area="off" drc_summary_file="drc.summary"/>
+</drc_log>

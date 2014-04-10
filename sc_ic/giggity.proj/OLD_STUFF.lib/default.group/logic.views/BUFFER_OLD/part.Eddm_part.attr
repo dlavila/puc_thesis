@@ -1,0 +1,19 @@
+A 5 u Eddm_part 52d430345251.03.7f.00.00.01.00.02.9f 15 2 2 0
+V v 13 1 52b1fd254cb1.03.7f.00.00.01.00.08.a5
+F f 13 "part.part_13"
+V v 14 1 52b1fd25c810.03.7f.00.00.01.00.08.a5
+F f 14 "part.part_14"
+V v 15 1 52d04a4e90b8.03.7f.00.00.01.00.4d.b1
+F f 15 "part.part_15"
+O 15
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$OLD_STUFF/default.group/logic.views/BUFFER_OLD/schematic" 3 mgc_schematic 528a291b4e87.03.7f.00.00.01.00.14.9d 52d430345223.03.7f.00.00.01.00.02.9f
+R csduv 1 "$OLD_STUFF/default.group/logic.views/BUFFER_OLD/BUFFER_OLD" 37 mgc_symbol 52b1fd25c809.03.7f.00.00.01.00.08.a5 52d430345248.03.7f.00.00.01.00.02.9f
+O 14
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$OLD_STUFF/default.group/logic.views/BUFFER_OLD/schematic" 3 mgc_schematic 528a291b4e87.03.7f.00.00.01.00.14.9d 52d430345223.03.7f.00.00.01.00.02.9f
+R csduv 1 "$OLD_STUFF/default.group/logic.views/BUFFER_OLD/BUFFER_OLD" 37 mgc_symbol 52b1fd25c809.03.7f.00.00.01.00.08.a5 52d430345248.03.7f.00.00.01.00.02.9f
+O 13
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$OLD_STUFF/default.group/logic.views/BUFFER_OLD/schematic" 3 mgc_schematic 528a291b4e87.03.7f.00.00.01.00.14.9d 52d430345223.03.7f.00.00.01.00.02.9f
+R csduv 1 "$OLD_STUFF/default.group/logic.views/BUFFER_OLD/BUFFER_OLD" 36 mgc_symbol 52b1fd254cab.03.7f.00.00.01.00.08.a5 52d430345248.03.7f.00.00.01.00.02.9f

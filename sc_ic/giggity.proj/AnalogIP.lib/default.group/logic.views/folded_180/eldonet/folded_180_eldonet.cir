@@ -1,0 +1,34 @@
+* Component: $AnalogIP/default.group/logic.views/folded_180  Viewpoint: eldonet
+.INCLUDE $AnalogIP/default.group/logic.views/folded_180/eldonet/folded_180_eldonet.spi
+.INCLUDE $MGC_DESIGN_KIT/models/ELDO/include_all
+.PROBE VX
+
+
+
+
+.OPTION NOASCII
+.OPTION MODWL
+.OPTION ENGNOT
+.OPTION AEX
+
+.TEMP 27 
+.PARAM Win=71u 
+.PARAM Lin=0.45u 
+.PARAM Wf=47u 
+.STEP PARAM  Wf LIST 20u 40u 60u
+.PARAM Lf=0.45u 
+.PARAM Wcf=74u 
+.STEP PARAM  Wcf LIST 20u 40u 60u
+.PARAM Lcf=0.45u 
+.PARAM Wcl=64u 
+.STEP PARAM  Wcl LIST 20u 40u 60u
+.PARAM Lcl=0.45u 
+.PARAM Wl=64u 
+.STEP PARAM  Wl LIST 20u 40u 60u
+.PARAM Ll=0.45u 
+
+.OPTION PROBOP2
+.OPTION PROBOPX
+.OP
+.AC dec 10 1 10gig
+

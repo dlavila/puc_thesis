@@ -1,0 +1,17 @@
+* LVS netlist generated with ICnet by 'dlavila' on Sat Feb  8 2014 at 16:35:34
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/SCF_cmfb
+*
+.subckt SCF_cmfb  CMFB AGnd AVdd Vb4 Vo+ Vo- Vocm
+
+        M25 CMFB CMFB AVdd AVdd p_18_mm w=4u l=1u m=8
+        M31 N$6 Vb4 AGnd AGnd n_18_mm w=2.5u l=0.45u m=4
+        M30 N$2 Vb4 AGnd AGnd n_18_mm w=2.5u l=0.45u m=4
+        M29 N$4 Vo- N$6 AGnd n_18_mm w=2.5u l=2u m=16
+        M27 CMFB Vocm N$6 AGnd n_18_mm w=2.5u l=2u m=16
+        M26 CMFB Vocm N$2 AGnd n_18_mm w=2.5u l=2u m=16
+        M23 N$4 N$4 AVdd AVdd p_18_mm w=4u l=1u m=8
+        M28 N$4 Vo+ N$2 AGnd n_18_mm w=2.5u l=2u m=16
+.ends SCF_cmfb
+

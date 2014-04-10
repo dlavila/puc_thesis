@@ -1,0 +1,14 @@
+A 5 u mgc_schematic 52eaa0cfc466.03.7f.00.00.01.00.1d.99 3 2 1 0
+V v 1 1 52eaa0cfc466.03.7f.00.00.01.01.1d.99
+F o 0 ""
+V v 2 1 52eaa0dd1811.03.7f.00.00.01.00.1d.99
+F o 0 ""
+V v 3 1 52eaa0dd9497.03.7f.00.00.01.00.1d.99
+F o 0 ""
+O 3
+R cspuv 0 "$SC_filter/default.group/logic.views/PAD/schematic/sheet1" 2 mgc_sheet 52eaa0dd9467.03.7f.00.00.01.00.1d.99 52eaa0cfc66c.03.7f.00.00.01.00.1d.99
+O 2
+R cspuv 0 "$SC_filter/default.group/logic.views/PAD/schematic/sheet1" 1 mgc_sheet 52eaa0cfc66c.03.7f.00.00.01.01.1d.99 52eaa0cfc66c.03.7f.00.00.01.00.1d.99
+O 1
+R cspuv 0 "$SC_filter/default.group/logic.views/PAD/schematic/sheet1" 1 mgc_sheet 52eaa0cfc66c.03.7f.00.00.01.01.1d.99 52eaa0cfc66c.03.7f.00.00.01.00.1d.99
+P "eddm__refer_state" "eddm__refer_floating"

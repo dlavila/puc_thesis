@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 526ecd63d9e5.03.7f.00.00.01.00.7f.34 18 2 1 0
+V v 16 1 526eee519548.03.7f.00.00.01.00.2c.26
+F o 0 ""
+V v 17 1 526eee51d262.03.7f.00.00.01.00.2c.26
+F o 0 ""
+V v 18 1 526eee5278ac.03.7f.00.00.01.00.2c.26
+F o 0 ""
+O 18
+R cspuv 0 "$AnalogIP/default.group/logic.views/AUX_FCP/schematic/sheet1" 17 mgc_sheet 526eee527892.03.7f.00.00.01.00.2c.26 526ecd63db01.03.7f.00.00.01.00.7f.34
+O 17
+R cspuv 0 "$AnalogIP/default.group/logic.views/AUX_FCP/schematic/sheet1" 16 mgc_sheet 526eee51d23a.03.7f.00.00.01.00.2c.26 526ecd63db01.03.7f.00.00.01.00.7f.34
+O 16
+R cspuv 0 "$AnalogIP/default.group/logic.views/AUX_FCP/schematic/sheet1" 15 mgc_sheet 526eee51952b.03.7f.00.00.01.00.2c.26 526ecd63db01.03.7f.00.00.01.00.7f.34

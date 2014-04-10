@@ -1,0 +1,87 @@
+* ELDO netlist generated with ICnet by 'dlavila' on Tue Nov  5 2013 at 13:05:57
+
+*
+* Globals.
+*
+.global GROUND
+
+*
+* Component pathname : $AnalogIP/default.group/logic.views/s2d
+*
+.subckt S2D  VD+ VD- VICM VID VSS
+
+        E3 N$2 VSS Vicm Vss 1
+        E2 VD- N$2 Vss Vid 0.5
+        E1 VD+ N$2 Vid Vss 0.5
+.ends S2D
+
+*
+* MAIN CELL: Component pathname : $AnalogIP/default.group/logic.views/RFC2
+*
+        M4B N$34 N$122 GROUND GROUND n_18_mm l=0.5u w=4u ad=1.96p as=1.96p
++  pd=8.98u ps=8.98u m=1
+        M9 N$20 CMFB VDD VDD p_18_mm l=0.5u w=32u ad=15.68p as=15.68p pd=64.98u
++  ps=64.98u m=1
+        M8 VO+ VB2 N$21 VDD p_18_mm l=0.18u w=32u ad=15.68p as=15.68p pd=64.98u
++  ps=64.98u m=1
+        M7 VO- VB2 N$20 VDD p_18_mm l=0.18u w=32u ad=15.68p as=15.68p pd=64.98u
++  ps=64.98u m=1
+        M5 VO- VB3 N$5 GROUND n_18_mm l=0.18u w=8u ad=3.92p as=3.92p pd=16.98u
++  ps=16.98u m=1
+        M6 VO+ VB3 N$46 GROUND n_18_mm l=0.18u w=8u ad=3.92p as=3.92p pd=16.98u
++  ps=16.98u m=1
+        M3A N$5 N$186 GROUND GROUND n_18_mm l=0.5u w=12u ad=5.88p as=5.88p
++  pd=24.98u ps=24.98u m=1
+        E6 N$92 GROUND Vo- 0 0.5
+        E7 VDD CMFB N$93 VOCM -10
+        M1A N$5 VI+ N$45 VDD p_18_mm l=0.36u w=32u ad=15.68p as=15.68p pd=64.98u
++  ps=64.98u m=1
+        M0 N$45 VB1T VDD VDD p_18_mm l=0.5u w=64u ad=31.36p as=31.36p pd=0.129m
++  ps=0.129m m=1
+        C5 VI+ N$84 1P
+        C2 VI+ VI+ 1P
+        C4 VO+ VOCM 4P
+        C3 VOCM VO- 4P
+        M13 N$172 N$172 VDD VDD p_18_mm l=0.5u w=8u ad=3.92p as=3.92p pd=16.98u
++  ps=16.98u m=1
+        M4 VB2 VB2 N$172 VDD p_18_mm l=0.18u w=8u ad=3.92p as=3.92p pd=16.98u
++  ps=16.98u m=1
+        V6 N$79 GROUND DC 0.9
+        X_S2D2 VI+ VI- N$79 N$80 GROUND S2D
+        E5 N$93 N$92 Vo+ 0 0.5
+        M4A N$46 N$122 GROUND GROUND n_18_mm l=0.5u w=12u ad=5.88p as=5.88p
++  pd=24.98u ps=24.98u m=1
+        C7 VI- VI- 1P
+        R3 VI+ N$84 100gig
+        R5 VI- VI- 100gig
+        V1 N$80 GROUND DC 0V AC 1 0
+        V2 VOCM GROUND DC 0.9
+        R4 VI- N$189 100gig
+        I3 VB2 VB3 DC 25uA
+        I2 VB1T GROUND DC 25uA
+        M2 VB3 VB3 N$163 GROUND n_18_mm l=0.18u w=2u ad=0.98p as=0.98p pd=4.98u
++  ps=4.98u m=1
+        M3 N$163 N$163 GROUND GROUND n_18_mm l=0.5u w=1u ad=0.49p as=0.49p
++  pd=2.98u ps=2.98u m=1
+        M11 N$186 VB3 N$137 GROUND n_18_mm l=0.18u w=4u ad=1.96p as=1.96p
++  pd=8.98u ps=8.98u m=1
+        M2A N$46 VI- N$45 VDD p_18_mm l=0.36u w=32u ad=15.68p as=15.68p
++  pd=64.98u ps=64.98u m=1
+        M2B N$186 VI- N$45 VDD p_18_mm l=0.36u w=32u ad=15.68p as=15.68p
++  pd=64.98u ps=64.98u m=1
+        M1B N$122 VI+ N$45 VDD p_18_mm l=0.36u w=32u ad=15.68p as=15.68p
++  pd=64.98u ps=64.98u m=1
+        M3B N$137 N$186 GROUND GROUND n_18_mm l=0.5u w=4u ad=1.96p as=1.96p
++  pd=8.98u ps=8.98u m=1
+        M1 VB1T VB1T VDD VDD p_18_mm l=0.5u w=8u ad=3.92p as=3.92p pd=16.98u
++  ps=16.98u m=1
+        M12 N$122 VB3 N$34 GROUND n_18_mm l=0.18u w=4u ad=1.96p as=1.96p
++  pd=8.98u ps=8.98u m=1
+        R6 VI+ VI+ 100gig
+        E4 VO GROUND VO- VO+ 1
+        M10 N$21 CMFB VDD VDD p_18_mm l=0.5u w=32u ad=15.68p as=15.68p pd=64.98u
++  ps=64.98u m=1
+        V3 VDD GROUND DC 1.8V
+        C6 VI- N$189 1P
+*
+.end

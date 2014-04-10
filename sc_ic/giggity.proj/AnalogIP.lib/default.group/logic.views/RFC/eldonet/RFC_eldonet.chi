@@ -6,7 +6,7 @@
 
 ***** PRE-PROCESSING ...
 
-1******* 9-Oct-13 *******  ELDO 2009.2 (64 bits)  (v7.2_1.1)  *******20:45:28******
+1*******14-Oct-13 *******  ELDO 2009.2 (64 bits)  (v7.2_1.1)  *******15:57:29******
 
 0* Component: $AnalogIP/default.group/logic.views/RFC  Viewpoint: eldonet
 
@@ -20,64 +20,70 @@
     4  .CONNECT GROUND 0
     5  
     6  
-    7  * ELDO netlist generated with ICnet by 'dlavila' on Wed Oct  9 2013 at 20:45:27
+    7  * ELDO netlist generated with ICnet by 'dlavila' on Mon Oct 14 2013 at 15:57:11
     8  
     9  *
    10  * MAIN CELL: Component pathname : $AnalogIP/default.group/logic.views/RFC
    11  *
-   12          M1B N$651 VIN+ N$593 VDD P_18_MM L=0.3U W=32U AD=15.68P AS=15.68P
-   13  +  PD=64.98U PS=64.98U M=1
-   14          M11 N$652 VB3 N$653 VSS N_18_MM L=0.18U W=2U AD=0.98P AS=0.98P PD=4.98U
-   15  +  PS=4.98U M=1
-   16          M1A N$638 VIN+ N$593 VDD P_18_MM L=0.3U W=32U AD=15.68P AS=15.68P
-   17  +  PD=64.98U PS=64.98U M=1
-   18          M5 VOUT- VB3 N$638 VSS N_18_MM L=0.18U W=8U AD=3.92P AS=3.92P PD=16.98U
-   19  +  PS=16.98U M=1
-   20          E2 N$329 N$336 VOUT+ VSS 0.5
-   21          M15 N$652 N$652 N$638 VDD P_18_MM L=0.18U W=4U AD=1.96P AS=1.96P
-   22  +  PD=8.98U PS=8.98U M=1
-   23          M3A N$638 N$652 VSS VSS N_18_MM L=0.5U W=16U AD=7.84P AS=7.84P PD=32.98U
-   24  +  PS=32.98U M=1
-   25          M2 N$652 VB3 N$655 VSS N_18_MM L=0.18U W=2U AD=0.98P AS=0.98P PD=4.98U
-   26  +  PS=4.98U M=1
-   27          M3 N$651 VB3 N$669 VSS N_18_MM L=0.18U W=2U AD=0.98P AS=0.98P PD=4.98U
-   28  +  PS=4.98U M=1
-   29          M1 N$593 VB2T N$410 VDD P_18_MM L=0.18U W=16U AD=7.84P AS=7.84P
-   30  +  PD=32.98U PS=32.98U M=1
-   31          M3B N$653 N$652 VSS VSS N_18_MM L=0.5U W=4U AD=1.96P AS=1.96P PD=8.98U
-   32  +  PS=8.98U M=1
-   33          M4 N$655 VB1 VSS VSS N_18_MM L=0.5U W=12U AD=5.88P AS=5.88P PD=24.98U
-   34  +  PS=24.98U M=1
-   35          M13 N$669 VB1 VSS VSS N_18_MM L=0.5U W=12U AD=5.88P AS=5.88P PD=24.98U
-   36  +  PS=24.98U M=1
-   37          E3 N$336 VSS VOUT- VSS 0.5
-   38          M14 N$651 N$651 N$631 VDD P_18_MM L=0.18U W=4U AD=1.96P AS=1.96P
-   39  +  PD=8.98U PS=8.98U M=1
-   40          E1 VDD CMFB N$329 VOCM -10
-   41          M4B N$656 N$651 VSS VSS N_18_MM L=0.5U W=4U AD=1.96P AS=1.96P PD=8.98U
-   42  +  PS=8.98U M=1
-   43          M4A N$631 N$651 VSS VSS N_18_MM L=0.5U W=16U AD=7.84P AS=7.84P PD=32.98U
-   44  +  PS=32.98U M=1
-   45          M12 N$651 VB3 N$656 VSS N_18_MM L=0.18U W=2U AD=0.98P AS=0.98P PD=4.98U
-   46  +  PS=4.98U M=1
-   47          M2B N$652 VIN- N$593 VDD P_18_MM L=0.3U W=32U AD=15.68P AS=15.68P
-   48  +  PD=64.98U PS=64.98U M=1
-   49          M0 N$410 VB1T VDD VDD P_18_MM L=0.18U W=16U AD=7.84P AS=7.84P PD=32.98U
-   50  +  PS=32.98U M=1
-   51          M6 VOUT+ VB3 N$631 VSS N_18_MM L=0.18U W=8U AD=3.92P AS=3.92P PD=16.98U
-   52  +  PS=16.98U M=1
-   53          M10 N$112 CMFB VDD VDD P_18_MM L=0.5U W=32U AD=15.68P AS=15.68P
-   54  +  PD=64.98U PS=64.98U M=1
-   55          M7 VOUT- VB2 N$63 VDD P_18_MM L=0.5U W=32U AD=15.68P AS=15.68P PD=64.98U
-   56  +  PS=64.98U M=1
-   57          M9 N$63 CMFB VDD VDD P_18_MM L=0.5U W=32U AD=15.68P AS=15.68P PD=64.98U
-   58  +  PS=64.98U M=1
-   59          M2A N$631 VIN- N$593 VDD P_18_MM L=0.3U W=32U AD=15.68P AS=15.68P
-   60  +  PD=64.98U PS=64.98U M=1
-   61          M8 VOUT+ VB2 N$112 VDD P_18_MM L=0.5U W=32U AD=15.68P AS=15.68P
-   62  +  PD=64.98U PS=64.98U M=1
-   63  *
-   64  *end
+   12          M15 N$681 N$681 N$638 VDD P_18_MM L=0.18U W=4U AD=1.96P AS=1.96P
+   13  +  PD=8.98U PS=8.98U M=1
+   14          M3A N$638 N$681 VSS VSS N_18_MM L=0.5U W=16U AD=7.84P AS=7.84P PD=32.98U
+   15  +  PS=32.98U M=1
+   16          M2 N$681 VB3 N$655 VSS N_18_MM L=0.18U W=4U AD=1.96P AS=1.96P PD=8.98U
+   17  +  PS=8.98U M=1
+   18          M3 N$679 VB3 N$669 VSS N_18_MM L=0.18U W=4U AD=1.96P AS=1.96P PD=8.98U
+   19  +  PS=8.98U M=1
+   20          M7 VOUT- VB2 N$692 VDD P_18_MM L=0.18U W=32U AD=15.68P AS=15.68P
+   21  +  PD=64.98U PS=64.98U M=1
+   22          M3B N$653 N$681 VSS VSS N_18_MM L=0.5U W=4U AD=1.96P AS=1.96P PD=8.98U
+   23  +  PS=8.98U M=1
+   24          M4 N$655 VB4 VSS VSS N_18_MM L=0.5U W=16U AD=7.84P AS=7.84P PD=32.98U
+   25  +  PS=32.98U M=1
+   26          M20 N$112 VB1 VDD VDD P_18_MM L=0.5U W=24U AD=11.76P AS=11.76P PD=48.98U
+   27  +  PS=48.98U M=1
+   28          M19 N$692 VB1 VDD VDD P_18_MM L=0.5U W=24U AD=11.76P AS=11.76P PD=48.98U
+   29  +  PS=48.98U M=1
+   30          R2 VB2T N$336 1K
+   31          R1 N$329 VB2T 1K
+   32          M13 N$669 VB4 VSS VSS N_18_MM L=0.5U W=16U AD=7.84P AS=7.84P PD=32.98U
+   33  +  PS=32.98U M=1
+   34          E3 N$336 VSS VOUT- VSS 1
+   35          M14 N$679 N$679 N$682 VDD P_18_MM L=0.18U W=4U AD=1.96P AS=1.96P
+   36  +  PD=8.98U PS=8.98U M=1
+   37          E1 VDD CMFB VB2T VOCM -100
+   38          M1A N$638 VIN+ N$410 VDD P_18_MM L=0.3U W=32U AD=15.68P AS=15.68P
+   39  +  PD=64.98U PS=64.98U M=1
+   40          M4B N$656 N$679 VSS VSS N_18_MM L=0.5U W=4U AD=1.96P AS=1.96P PD=8.98U
+   41  +  PS=8.98U M=1
+   42          M1 N$410 N$707 N$410 VDD P_18_MM L=0.18U W=16U AD=7.84P AS=7.84P
+   43  +  PD=32.98U PS=32.98U M=1
+   44          M0 N$410 VB1T VDD VDD P_18_MM L=0.18U W=16U AD=7.84P AS=7.84P PD=32.98U
+   45  +  PS=32.98U M=1
+   46          M4A N$682 N$679 VSS VSS N_18_MM L=0.5U W=16U AD=7.84P AS=7.84P PD=32.98U
+   47  +  PS=32.98U M=1
+   48          M12 N$679 VB3 N$656 VSS N_18_MM L=0.18U W=4U AD=1.96P AS=1.96P PD=8.98U
+   49  +  PS=8.98U M=1
+   50          M5 VOUT- VB3 N$638 VSS N_18_MM L=0.18U W=8U AD=3.92P AS=3.92P PD=16.98U
+   51  +  PS=16.98U M=1
+   52          M6 VOUT+ VB3 N$682 VSS N_18_MM L=0.18U W=8U AD=3.92P AS=3.92P PD=16.98U
+   53  +  PS=16.98U M=1
+   54          E2 N$329 VSS VOUT+ VSS 1
+   55          M9 N$692 CMFB VDD VDD P_18_MM L=0.5U W=8U AD=3.92P AS=3.92P PD=16.98U
+   56  +  PS=16.98U M=1
+   57          M8 VOUT+ VB2 N$112 VDD P_18_MM L=0.18U W=32U AD=15.68P AS=15.68P
+   58  +  PD=64.98U PS=64.98U M=1
+   59          M11 N$681 VB3 N$653 VSS N_18_MM L=0.18U W=4U AD=1.96P AS=1.96P PD=8.98U
+   60  +  PS=8.98U M=1
+   61          M10 N$112 CMFB VDD VDD P_18_MM L=0.5U W=8U AD=3.92P AS=3.92P PD=16.98U
+   62  +  PS=16.98U M=1
+   63          M18 N$682 VIN- N$410 VDD P_18_MM L=0.3U W=32U AD=15.68P AS=15.68P
+   64  +  PD=64.98U PS=64.98U M=1
+   65          M17 N$681 VIN- N$410 VDD P_18_MM L=0.3U W=32U AD=15.68P AS=15.68P
+   66  +  PD=64.98U PS=64.98U M=1
+   67          M16 N$679 VIN+ N$410 VDD P_18_MM L=0.3U W=32U AD=15.68P AS=15.68P
+   68  +  PD=64.98U PS=64.98U M=1
+   69  *
+   70  *end
     2  
     3  ** including /usr/local/mentor/UMC180PDK/models/ELDO/include_all
     1  .LIB   ./018-rf-v2d4-control.eldo 	tt
@@ -3214,13 +3220,13 @@ End of file
 ***** GENERATION ...
 
 Warning 124:  NODE "GROUND": Appears in .CONNECT only.
-Warning 107:  NODE "VB2T": Less than two connections.
 Warning 107:  NODE "VOCM": Less than two connections.
+Warning 107:  NODE "N$707": Less than two connections.
 Warning 107:  NODE "VB1T": Less than two connections.
 Warning  29: Such messages will not be displayed in future. Set .option MSGNODE = 0 to receive all such warnings.
 
-Warning 117:  NODE "VSS": Not connected to any power supply.
 Warning 117:  NODE "VDD": Not connected to any power supply.
+Warning 117:  NODE "VSS": Not connected to any power supply.
 ERROR   26:  No analysis specified
 
 ***** 1  error(s). 
@@ -3230,23 +3236,23 @@ ERROR   26:  No analysis specified
 INFORMATION ABOUT COMPILATION 
 
 
-Memory space allocated (bytes): 123367424
-27 elements
-27 nodes 
+Memory space allocated (bytes): 123375616
+31 elements
+28 nodes 
 0 input signals
 
 Check your input netlist...
 
 ***>MESSAGE SUMMARY: 1 error, 8 warnings
 
-***>GLOBAL CPU TIME 0s 030ms <***
+***>GLOBAL CPU TIME 0s 060ms <***
 
 
-***>GLOBAL ELAPSED TIME 1s <***
+***>GLOBAL ELAPSED TIME 16s <***
 
 
-  Job started at  9-Oct-2013 20:45:27
-  Job end at      9-Oct-2013 20:45:28
+  Job started at 14-Oct-2013 15:57:13
+  Job end at     14-Oct-2013 15:57:29
 
   Run on localhost.localdomain (Linux 2.6.18-348.el5)
 

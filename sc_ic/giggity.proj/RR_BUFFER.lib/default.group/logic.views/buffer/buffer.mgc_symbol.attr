@@ -1,0 +1,13 @@
+A 5 u mgc_symbol 528a460a0e3f.03.7f.00.00.01.00.5e.c8 15 2 1 0
+V v 13 1 528a46b88157.03.7f.00.00.01.00.5e.c8
+F f 13 "buffer.smbl_13"
+V v 14 1 528a46bccd05.03.7f.00.00.01.00.5e.c8
+F f 14 "buffer.smbl_14"
+V v 15 1 528a46bcf217.03.7f.00.00.01.00.5e.c8
+F f 15 "buffer.smbl_15"
+O 15
+R csduv 0 "$RR_BUFFER/default.group/logic.views/buffer/part" 5 Eddm_part 528a469892f8.03.7f.00.00.01.00.5e.c8 528a2a0eaefe.03.7f.00.00.01.00.14.9d
+O 14
+R csduv 0 "$RR_BUFFER/default.group/logic.views/buffer/part" 5 Eddm_part 528a469892f8.03.7f.00.00.01.00.5e.c8 528a2a0eaefe.03.7f.00.00.01.00.14.9d
+O 13
+R csduv 0 "$RR_BUFFER/default.group/logic.views/buffer/part" 5 Eddm_part 528a469892f8.03.7f.00.00.01.00.5e.c8 528a2a0eaefe.03.7f.00.00.01.00.14.9d

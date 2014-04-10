@@ -1,0 +1,139 @@
+# This file provides name mapping information for all objects
+# on the schematic design.  It provides a mapping for each
+# object between its name on the schematic and its name in the netlist.
+version 1.0
+
+Globals
+   ground GROUND
+End Globals
+
+Cell P_18_MM
+   Pin D D
+   Pin G G
+   Pin S S
+   Pin B B
+End Cell
+
+Cell N_18_MM
+   Pin D D
+   Pin G G
+   Pin S S
+   Pin B B
+End Cell
+
+Cell RNHR1000_MM
+   Pin PLUS PLUS
+   Pin MINUS MINUS
+   Pin B B
+End Cell
+
+Cell MIMCAPS_MM
+   Pin PLUS PLUS
+   Pin MINUS MINUS
+End Cell
+
+Cell #top#
+   Pin Vo VO
+   Pin Ib IB
+   Pin Vdd VDD
+   Pin Vi+ VI+
+   Pin Vi- VI-
+   Net N$567 N$567
+   Net N$427 N$427
+   Net N$204 N$204
+   Net N$356 N$356
+   Net N$201 N$201
+   Net N$199 N$199
+   Net N$313 N$313
+   Net N$308 N$308
+   Net N$307 N$307
+   Net N$279 N$279
+   Net N$277 N$277
+   Net N$274 N$274
+   Net N$255 N$255
+   Net N$253 N$253
+   Net N$250 N$250
+   Net N$249 N$249
+   Net N$247 N$247
+   Net Vb1 VB1
+   Net N$209 N$209
+   Net N$206 N$206
+   Net N$205 N$205
+   Net N$90 N$90
+   Net Vpcas VPCAS
+   Net N$203 N$203
+   Net N$169 N$169
+   Net N$167 N$167
+   Net Vb3 VB3
+   Net N$165 N$165
+   Net N$148 N$148
+   Net N$131 N$131
+   Net Vncas VNCAS
+   Net Vb4 VB4
+   Net Vb2 VB2
+   Net N$103 N$103
+   Net Ib IB
+   Net Vi- VI-
+   Net Vi+ VI+
+   Net Vdd VDD
+   Net Vo VO
+   Global ground GROUND
+   Inst M14 M14 P_18_MM
+   Inst M27 M27 N_18_MM
+   Inst M26 M26 N_18_MM
+   Inst M28 M28 N_18_MM
+   Inst M33 M33 P_18_MM
+   Inst M42 M42 P_18_MM
+   Inst M8 M8 N_18_MM
+   Inst M2 M2 N_18_MM
+   Inst M41 M41 P_18_MM
+   Inst M44 M44 P_18_MM
+   Inst M9 M9 N_18_MM
+   Inst M16 M16 N_18_MM
+   Inst M36 M36 P_18_MM
+   Inst M13 M13 P_18_MM
+   Inst M39 M39 P_18_MM
+   Inst R1 XR1 RNHR1000_MM
+   Inst M23 M23 N_18_MM
+   Inst M31 M31 N_18_MM
+   Inst M47 M47 P_18_MM
+   Inst M5 M5 P_18_MM
+   Inst M18 M18 P_18_MM
+   Inst M11 M11 N_18_MM
+   Inst M4 M4 N_18_MM
+   Inst M10 M10 P_18_MM
+   Inst M34 M34 P_18_MM
+   Inst MOUTN MOUTN N_18_MM
+   Inst M30 M30 N_18_MM
+   Inst MOUTP MOUTP P_18_MM
+   Inst M22 M22 P_18_MM
+   Inst M38 M38 P_18_MM
+   Inst M37 M37 P_18_MM
+   Inst M25 M25 N_18_MM
+   Inst M3 M3 P_18_MM
+   Inst M17 M17 N_18_MM
+   Inst M6 M6 P_18_MM
+   Inst M48 M48 P_18_MM
+   Inst M1 M1 P_18_MM
+   Inst M40 M40 P_18_MM
+   Inst M29 M29 N_18_MM
+   Inst R2 XR2 RNHR1000_MM
+   Inst M46 M46 P_18_MM
+   Inst M45 M45 P_18_MM
+   Inst M7 M7 N_18_MM
+   Inst M15 M15 N_18_MM
+   Inst M21 M21 N_18_MM
+   Inst M24 M24 N_18_MM
+   Inst MIN1 MIN1 N_18_MM
+   Inst M12 M12 P_18_MM
+   Inst C1 XC1 MIMCAPS_MM
+   Inst M43 M43 P_18_MM
+   Inst M35 M35 N_18_MM
+   Inst M50 M50 N_18_MM
+   Inst M49 M49 N_18_MM
+   Inst M20 M20 P_18_MM
+   Inst M32 M32 N_18_MM
+   Inst M19 M19 P_18_MM
+   Inst C2 XC2 MIMCAPS_MM
+End Cell
+

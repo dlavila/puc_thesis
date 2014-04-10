@@ -1,0 +1,23 @@
+A 5 u Ic_cell_template 52f6d52a3328.03.7f.00.00.01.00.5d.6a 2 4 9 0
+V v 1 1 52f6d5452010.03.7f.00.00.01.00.5d.6a
+F f 1 "CSA_CF.iccel_1"
+V v 2 1 52f6d64337ae.03.7f.00.00.01.00.5d.6a
+F f 2 "CSA_CF.iccel_2"
+O 2
+R csduv 1 "$MGC_DESIGN_KIT/process/umc18ummrf" 25 Ic_persist_process 4b49fbac2b9a.03.89.ca.1c.10.00.03.ca 462ccb24bc64.03.7f.00.00.02.00.14.78
+R csduv 2 "$SC_filter/default.group/layout_cfg.views/CSA_CF/SDL" 1 Eddm_design_viewpoint 52f6d52a2f83.03.7f.00.00.01.01.5d.6a 52f6d52a2f83.03.7f.00.00.01.00.5d.6a
+R csduv 3 "$MGC_DESIGN_KIT/process/vias/M3M4" 6 Ic_cell_template 42db946f107d.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.02.12.b4
+R csduv 4 "$MGC_DESIGN_KIT/process/vias/M4M5" 6 Ic_cell_template 42db94b97dbf.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.03.12.b4
+R csduv 5 "$MGC_DESIGN_KIT/process/vias/M5M6" 5 Ic_cell_template 42db95bae553.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.04.12.b4
+R cmduv 6 "49052f642000.0d.00.01.a5.b0.00.00.00" 1 Ic_device_template 49fba4394000.0d.00.01.a5.b0.00.00.00 49052f642000.0d.00.01.a5.b0.00.00.00
+R csduv 7 "$SC_filter/default.group/layout.views/switch_X4/switch_X4" 6 Ic_cell_template 52f6d393e304.03.7f.00.00.01.00.5d.6a 52dd94852146.03.7f.00.00.01.00.25.43
+R csdni 8 "$MGC_DESIGN_KIT/process/umc18mmrf_sdl_rules" 1 Mgc_file
+O 1
+R csduv 1 "$MGC_DESIGN_KIT/process/umc18ummrf" 25 Ic_persist_process 4b49fbac2b9a.03.89.ca.1c.10.00.03.ca 462ccb24bc64.03.7f.00.00.02.00.14.78
+R csduv 2 "$SC_filter/default.group/layout_cfg.views/CSA_CF/SDL" 1 Eddm_design_viewpoint 52f6d52a2f83.03.7f.00.00.01.01.5d.6a 52f6d52a2f83.03.7f.00.00.01.00.5d.6a
+R csduv 3 "$MGC_DESIGN_KIT/process/vias/M3M4" 6 Ic_cell_template 42db946f107d.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.02.12.b4
+R csduv 4 "$MGC_DESIGN_KIT/process/vias/M4M5" 6 Ic_cell_template 42db94b97dbf.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.03.12.b4
+R csduv 5 "$MGC_DESIGN_KIT/process/vias/M5M6" 5 Ic_cell_template 42db95bae553.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.04.12.b4
+R cmduv 6 "49052f642000.0d.00.01.a5.b0.00.00.00" 1 Ic_device_template 49fba4394000.0d.00.01.a5.b0.00.00.00 49052f642000.0d.00.01.a5.b0.00.00.00
+R csduv 7 "$SC_filter/default.group/layout.views/switch_X4/switch_X4" 6 Ic_cell_template 52f6d393e304.03.7f.00.00.01.00.5d.6a 52dd94852146.03.7f.00.00.01.00.25.43
+R csdni 8 "$MGC_DESIGN_KIT/process/umc18mmrf_sdl_rules" 1 Mgc_file

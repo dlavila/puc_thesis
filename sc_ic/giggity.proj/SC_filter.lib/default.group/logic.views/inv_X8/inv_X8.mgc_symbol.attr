@@ -1,0 +1,13 @@
+A 5 u mgc_symbol 52d42e638a59.03.7f.00.00.01.00.02.9f 13 2 1 0
+V v 11 1 52963c2390f9.03.7f.00.00.01.00.73.a9
+F f 11 "inv_X8.smbl_11"
+V v 12 1 52d43478ab17.03.7f.00.00.01.00.3d.87
+F f 12 "inv_X8.smbl_12"
+V v 13 1 52d4347b2e0b.03.7f.00.00.01.00.3d.87
+F f 13 "inv_X8.smbl_13"
+O 13
+R csduv 0 "$SC_filter/default.group/logic.views/inv_X8/part" 20 Eddm_part 52d43478ab3d.03.7f.00.00.01.00.3d.87 52d42e638a7c.03.7f.00.00.01.00.02.9f
+O 12
+R csduv 0 "$SC_filter/default.group/logic.views/inv_X8/part" 20 Eddm_part 52d43478ab3d.03.7f.00.00.01.00.3d.87 52d42e638a7c.03.7f.00.00.01.00.02.9f
+O 11
+R csduv 0 "$SC_filter/default.group/logic.views/inv_X8/part" 18 Eddm_part 52963c2390ff.03.7f.00.00.01.00.73.a9 52d42e638a7c.03.7f.00.00.01.00.02.9f

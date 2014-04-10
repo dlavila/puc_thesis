@@ -1,0 +1,18 @@
+* SPICE NETLIST
+***************************************
+
+.SUBCKT L POS NEG SUB
+.ENDS
+***************************************
+.SUBCKT inv_X16 I VDD VSS O
+** N=4 EP=4 IP=0 FDC=8
+M0 O I VDD VDD P_18_MM L=1.8e-07 W=3e-06 AD=8.1e-13 AS=1.47e-12 PD=5.4e-07 PS=3.98e-06 $X=-2360 $Y=-600 $D=3
+M1 VDD I O VDD P_18_MM L=1.8e-07 W=3e-06 AD=8.1e-13 AS=8.1e-13 PD=5.4e-07 PS=5.4e-07 $X=-1640 $Y=-600 $D=3
+M2 O I VDD VDD P_18_MM L=1.8e-07 W=3e-06 AD=8.1e-13 AS=8.1e-13 PD=5.4e-07 PS=5.4e-07 $X=-920 $Y=-600 $D=3
+M3 VDD I O VDD P_18_MM L=1.8e-07 W=3e-06 AD=1.47e-12 AS=8.1e-13 PD=3.98e-06 PS=5.4e-07 $X=-200 $Y=-600 $D=3
+M4 O I VSS VSS N_18_MM L=1.8e-07 W=1e-06 AD=2.7e-13 AS=4.9e-13 PD=5.4e-07 PS=1.98e-06 $X=-2360 $Y=-3110 $D=2
+M5 VSS I O VSS N_18_MM L=1.8e-07 W=1e-06 AD=2.7e-13 AS=2.7e-13 PD=5.4e-07 PS=5.4e-07 $X=-1640 $Y=-3110 $D=2
+M6 O I VSS VSS N_18_MM L=1.8e-07 W=1e-06 AD=2.7e-13 AS=2.7e-13 PD=5.4e-07 PS=5.4e-07 $X=-920 $Y=-3110 $D=2
+M7 VSS I O VSS N_18_MM L=1.8e-07 W=1e-06 AD=4.9e-13 AS=2.7e-13 PD=1.98e-06 PS=5.4e-07 $X=-200 $Y=-3110 $D=2
+.ENDS
+***************************************

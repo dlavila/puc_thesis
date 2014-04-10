@@ -1,0 +1,18 @@
+* LVS netlist generated with ICnet by 'dlavila' on Sat Feb  8 2014 at 23:30:11
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/SCF_bias
+*
+.subckt SCF_bias  Vb1 Vb2 Vb3 AGnd AVdd Iref
+
+        M24 Vb2 Vb5 AGnd AGnd n_18_mm w=2u l=0.45u m=1
+        M18 Vb5 Vb5 AGnd AGnd n_18_mm w=2u l=0.45u m=1
+        M22 Vb1 Vb1 AVdd AVdd p_18_mm w=4u l=1u m=4
+        M20 Vb2 Vb2 Vb1 AVdd p_18_mm w=2u l=0.3u m=4
+        M21 Vb3 Vb3 Vb4 AGnd n_18_mm w=2u l=0.45u m=2
+        M19 Vb4 Vb4 AGnd AGnd n_18_mm w=2u l=0.45u m=1
+        M17 Vb5 Iref AVdd AVdd p_18_mm w=1u l=0.45u m=4
+        M16 Vb3 Iref AVdd AVdd p_18_mm w=1u l=0.45u m=4
+        M15 Iref Iref AVdd AVdd p_18_mm w=1u l=0.45u m=8
+.ends SCF_bias
+

@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 52b1e73a6c45.03.7f.00.00.01.00.15.55 138 2 1 0
+V v 136 1 5298d849ef78.03.7f.00.00.01.00.24.0f
+F o 0 ""
+V v 137 1 5298d8fea664.03.7f.00.00.01.00.24.0f
+F o 0 ""
+V v 138 1 5298d9424c0d.03.7f.00.00.01.00.24.0f
+F o 0 ""
+O 138
+R cspuv 0 "$OLD_STUFF/default.group/logic.views/PAR_BUFFER/schematic/sheet1" 137 mgc_sheet 5298d9424bf8.03.7f.00.00.01.00.24.0f 52b1e73a6c5f.03.7f.00.00.01.00.15.55
+O 137
+R cspuv 0 "$OLD_STUFF/default.group/logic.views/PAR_BUFFER/schematic/sheet1" 136 mgc_sheet 5298d8fea64b.03.7f.00.00.01.00.24.0f 52b1e73a6c5f.03.7f.00.00.01.00.15.55
+O 136
+R cspuv 0 "$OLD_STUFF/default.group/logic.views/PAR_BUFFER/schematic/sheet1" 135 mgc_sheet 5298d849ef47.03.7f.00.00.01.00.24.0f 52b1e73a6c5f.03.7f.00.00.01.00.15.55

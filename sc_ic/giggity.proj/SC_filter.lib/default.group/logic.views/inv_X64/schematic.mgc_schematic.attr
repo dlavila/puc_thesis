@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 52d42de5c529.03.7f.00.00.01.00.02.9f 14 2 1 0
+V v 12 1 52d433f096a3.03.7f.00.00.01.00.3b.51
+F o 0 ""
+V v 13 1 52d434260158.03.7f.00.00.01.00.3b.51
+F o 0 ""
+V v 14 1 52d4342623eb.03.7f.00.00.01.00.3b.51
+F o 0 ""
+O 14
+R cspuv 0 "$SC_filter/default.group/logic.views/inv_X64/schematic/sheet1" 13 mgc_sheet 52d4342623ca.03.7f.00.00.01.00.3b.51 52d42de5c53b.03.7f.00.00.01.00.02.9f
+O 13
+R cspuv 0 "$SC_filter/default.group/logic.views/inv_X64/schematic/sheet1" 12 mgc_sheet 52d43426013f.03.7f.00.00.01.00.3b.51 52d42de5c53b.03.7f.00.00.01.00.02.9f
+O 12
+R cspuv 0 "$SC_filter/default.group/logic.views/inv_X64/schematic/sheet1" 11 mgc_sheet 52d433f09680.03.7f.00.00.01.00.3b.51 52d42de5c53b.03.7f.00.00.01.00.02.9f

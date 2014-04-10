@@ -1,0 +1,15 @@
+A 5 u Eddm_design_viewpoint 52f3f417773d.03.7f.00.00.01.00.69.6a 1 2 7 0
+V v 1 4 52f3f417773e.03.7f.00.00.01.00.69.6a
+F f 1 "SDL.dvpt_1"
+F o 0 
+F o 0 
+F o 0 
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$SC_filter/default.group/logic.views/SCF_cmfb/part" 2 Eddm_part 52f3f3f8e27c.03.7f.00.00.01.00.68.c6 52f3f2c50d08.03.7f.00.00.01.00.68.c6
+R cspuv 1 "$SC_filter/default.group/logic.views/SCF_cmfb/schematic" 7 mgc_schematic 52f3f3e8b2d9.03.7f.00.00.01.00.68.c6 52f3f2c3eda5.03.7f.00.00.01.00.68.c6
+R cspuv 2 "$SC_filter/default.group/logic.views/SCF_cmfb/SCF_cmfb" 1 mgc_symbol 52f3f3f8e1e5.03.7f.00.00.01.01.68.c6 52f3f3f8e1e5.03.7f.00.00.01.00.68.c6
+R cspuv 3 "$MGC_DESIGN_KIT/symbols/N_18_MM/part" 26 Eddm_part 462e23b780f6.03.7f.00.00.01.00.54.63 461b99901841.03.89.ca.19.1a.00.4f.21
+R cspuv 4 "$MGC_DESIGN_KIT/symbols/P_18_MM/part" 23 Eddm_part 462e23ba79d1.03.7f.00.00.01.00.54.63 461b99bfbe81.03.89.ca.19.1a.00.4f.21
+R cspuv 5 "$MGC_DESIGN_KIT/symbols/P_18_MM/P_18_MM" 6 mgc_symbol 462e23ba79c0.03.7f.00.00.01.00.54.63 461b99c2ec2d.03.89.ca.19.1a.00.4f.21
+R cspuv 6 "$MGC_DESIGN_KIT/symbols/N_18_MM/N_18_MM" 9 mgc_symbol 462e23b780e7.03.7f.00.00.01.00.54.63 461b99935891.03.89.ca.19.1a.00.4f.21

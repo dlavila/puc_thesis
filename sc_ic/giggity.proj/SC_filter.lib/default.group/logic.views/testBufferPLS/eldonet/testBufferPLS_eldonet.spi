@@ -1,0 +1,98 @@
+*
+* .CONNECT statements
+*
+.CONNECT GROUND 0
+
+
+* ELDO netlist generated with ICnet by 'dlavila' on Mon Jan 13 2014 at 15:31:53
+
+*
+* Globals.
+*
+.global VDD GROUND
+
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/BUFFER_PLS [SPICE]
+*
+*       .include /home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib/default.group/logic.views/BUFFER_PLS/asim_lib/BUFFER
+
+*
+* Component pathname : $UTILS/default.group/logic.views/s2d
+*
+.subckt S2D  VD+ VD- VICM VID VSS
+
+        E3 N$2 VSS Vicm Vss 1
+        E2 VD- N$2 Vss Vid 0.5
+        E1 VD+ N$2 Vid Vss 0.5
+.ends S2D
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/BIAS_BUFFER
+*
+.subckt BIAS_BUFFER  VB1 VB2 VB3 VB4 VNCAS VPCAS AGND AVDD IB
+
+        M74 VB3 N$65 VB3 AVDD p_18_mm l=0.45u w=5u ad=2.45p as=2.45p pd=10.98u
++  ps=10.98u m=1
+        M73 VB3 N$63 VB3 AVDD p_18_mm l=0.45u w=5u ad=2.45p as=2.45p pd=10.98u
++  ps=10.98u m=1
+        M48 IB IB AVDD AVDD p_18_mm l=0.45u w=5u ad=2.45p as=2.45p pd=10.98u
++  ps=10.98u m=1
+        M45 VB3 IB AVDD AVDD p_18_mm l=0.45u w=5u ad=1.35p as=1.9p pd=5.54u
++  ps=8.26u m=4
+        M43 VB4 IB AVDD AVDD p_18_mm l=0.45u w=5u ad=1.35p as=1.9p pd=5.54u
++  ps=8.26u m=4
+        M22 VB2 VB2 N$54 AVDD p_18_mm l=0.45u w=2.5u ad=0.675p as=1.225p
++  pd=3.04u ps=5.98u m=2
+        M40 VB1 VB2 N$60 AVDD p_18_mm l=0.45u w=2.5u ad=0.675p as=1.225p
++  pd=3.04u ps=5.98u m=2
+        M38 N$60 VB1 AVDD AVDD p_18_mm l=0.45u w=2.5u ad=0.675p as=1.225p
++  pd=3.04u ps=5.98u m=2
+        M37 N$59 VB1 AVDD AVDD p_18_mm l=0.45u w=2.5u ad=0.675p as=1.225p
++  pd=3.04u ps=5.98u m=2
+        M39 VNCAS VB2 N$59 AVDD p_18_mm l=0.45u w=2.5u ad=0.675p as=1.225p
++  pd=3.04u ps=5.98u m=2
+        M32 VNCAS VNCAS N$52 AGND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
++  pd=4.18u ps=4.18u m=1
+        M31 N$58 VB4 AGND AGND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
++  pd=4.18u ps=4.18u m=1
+        M30 VB1 VB3 N$58 AGND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
++  pd=4.18u ps=4.18u m=1
+        M29 N$57 VB4 AGND AGND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
++  pd=4.18u ps=4.18u m=1
+        M28 VB2 VB3 N$57 AGND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
++  pd=4.18u ps=4.18u m=1
+        M27 N$56 VB4 AGND AGND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
++  pd=4.18u ps=4.18u m=1
+        M26 VPCAS VB3 N$56 AGND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
++  pd=4.18u ps=4.18u m=1
+        M25 N$55 VB4 AGND AGND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
++  pd=4.18u ps=4.18u m=1
+        M36 N$54 VB2 AVDD AVDD p_18_mm l=2.25u w=2.5u ad=0.675p as=1.225p
++  pd=3.04u ps=5.98u m=2
+        M24 N$53 VB3 AGND AGND n_18_mm l=2.25u w=1.6u ad=0.784p as=0.784p
++  pd=4.18u ps=4.18u m=1
+        M21 VB3 VB3 N$53 AGND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
++  pd=4.18u ps=4.18u m=1
+        M35 N$52 N$52 AGND AGND n_18_mm l=0.45u w=1.6u ad=0.432p as=0.784p
++  pd=2.14u ps=4.18u m=2
+        M23 VB4 VB3 N$55 AGND n_18_mm l=0.45u w=1.6u ad=0.784p as=0.784p
++  pd=4.18u ps=4.18u m=1
+        M34 N$51 N$51 AVDD AVDD p_18_mm l=0.45u w=2.5u ad=0.675p as=0.95p
++  pd=3.04u ps=4.51u m=4
+        M33 VPCAS VPCAS N$51 AVDD p_18_mm l=0.45u w=2.5u ad=0.675p as=1.225p
++  pd=3.04u ps=5.98u m=2
+.ends BIAS_BUFFER
+
+*
+* MAIN CELL: Component pathname : $SC_filter/default.group/logic.views/testBufferPLS
+*
+        X1 VO GROUND VDD N$27 N$28 N$29 N$30 N$66 N$60 N$31 N$32 BUFFER
+        V2 N$68 GROUND DC 0.9V
+        X_S2D1 N$66 N$60 N$68 N$64 GROUND S2D
+        X_BIAS_BUFFER1 N$27 N$28 N$29 N$30 N$31 N$32 GROUND VDD N$1 BIAS_BUFFER
+        V3 N$64 GROUND DC 0V AC 1 0
+        V1 VDD GROUND DC 1.8V
+        I1 N$1 GROUND DC 3.75uA
+*
+.end

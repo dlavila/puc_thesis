@@ -1,0 +1,13 @@
+A 5 u mgc_symbol 52b1e791c6b0.03.7f.00.00.01.00.15.55 5 2 1 0
+V v 3 1 525316055ec1.03.7f.00.00.01.00.57.72
+F f 3 "s2d.smbl_3"
+V v 4 1 5253162a498a.03.7f.00.00.01.00.57.72
+F f 4 "s2d.smbl_4"
+V v 5 1 5253162b1e98.03.7f.00.00.01.00.57.72
+F f 5 "s2d.smbl_5"
+O 5
+R csduv 0 "$UTILS/default.group/logic.views/s2d/part" 4 Eddm_part 5253162a4992.03.7f.00.00.01.00.57.72 52b1e791c6b6.03.7f.00.00.01.00.15.55
+O 4
+R csduv 0 "$UTILS/default.group/logic.views/s2d/part" 4 Eddm_part 5253162a4992.03.7f.00.00.01.00.57.72 52b1e791c6b6.03.7f.00.00.01.00.15.55
+O 3
+R csduv 0 "$UTILS/default.group/logic.views/s2d/part" 3 Eddm_part 525316055ee5.03.7f.00.00.01.00.57.72 52b1e791c6b6.03.7f.00.00.01.00.15.55

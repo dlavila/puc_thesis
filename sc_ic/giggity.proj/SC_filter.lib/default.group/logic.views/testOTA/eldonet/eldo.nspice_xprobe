@@ -1,0 +1,415 @@
+# This file provides name mapping information for all objects
+# on the schematic design.  It provides a mapping for each
+# object between its name on the schematic and its name in the netlist.
+version 1.0
+
+Globals
+   SCF_VDD SCF_VDD
+   ground GROUND
+End Globals
+
+Cell IDEAL_RESISTOR
+   Pin POS POS
+   Pin NEG NEG
+End Cell
+
+Cell IDEAL_CAPACITOR
+   Pin POS POS
+   Pin NEG NEG
+End Cell
+
+Cell PULSE_V_SOURCE
+   Pin POS POS
+   Pin NEG NEG
+End Cell
+
+Cell VCVS_2PIN
+   Pin POS POS
+   Pin NEG NEG
+End Cell
+
+Cell S2D
+   Pin Vd+ VD+
+   Pin Vd- VD-
+   Pin Vicm VICM
+   Pin Vid VID
+   Pin Vss VSS
+   Net N$2 N$2
+   Net Vd- VD-
+   Net Vd+ VD+
+   Net Vss VSS
+   Net Vicm VICM
+   Net Vid VID
+   Inst E3 E3 VCVS_2PIN
+   Inst E2 E2 VCVS_2PIN
+   Inst E1 E1 VCVS_2PIN
+End Cell
+
+Cell AC_V_SOURCE
+   Pin POS POS
+   Pin NEG NEG
+End Cell
+
+Cell DC_I_SOURCE
+   Pin POS POS
+   Pin NEG NEG
+End Cell
+
+Cell P_18_MM
+   Pin D D
+   Pin G G
+   Pin S S
+   Pin B B
+End Cell
+
+Cell N_18_MM
+   Pin D D
+   Pin G G
+   Pin S S
+   Pin B B
+End Cell
+
+Cell SCF_CMFB2
+   Pin CMFB CMFB
+   Pin AGnd AGND
+   Pin AVdd AVDD
+   Pin Vb4 VB4
+   Pin Vo+ VO+
+   Pin Vo- VO-
+   Pin Vocm VOCM
+   Net N$6 N$6
+   Net N$2 N$2
+   Net N$4 N$4
+   Net Vo+ VO+
+   Net Vo- VO-
+   Net Vb4 VB4
+   Net CMFB CMFB
+   Net Vocm VOCM
+   Net AGnd AGND
+   Net AVdd AVDD
+   Inst M25 M25 P_18_MM
+   Inst M31 M31 N_18_MM
+   Inst M30 M30 N_18_MM
+   Inst M29 M29 N_18_MM
+   Inst M27 M27 N_18_MM
+   Inst M26 M26 N_18_MM
+   Inst M23 M23 P_18_MM
+   Inst M28 M28 N_18_MM
+End Cell
+
+Cell SCF_BIAS
+   Pin Vb2 VB2
+   Pin Vb3 VB3
+   Pin Vb4 VB4
+   Pin AGnd AGND
+   Pin AVdd AVDD
+   Pin Iref IREF
+   Net Vb5 VB5
+   Net N$41 N$41
+   Net AGnd AGND
+   Net AVdd AVDD
+   Net Vb3 VB3
+   Net Vb4 VB4
+   Net Vb2 VB2
+   Net Iref IREF
+   Inst M24 M24 N_18_MM
+   Inst M18 M18 N_18_MM
+   Inst M22 M22 P_18_MM
+   Inst M20 M20 P_18_MM
+   Inst M21 M21 N_18_MM
+   Inst M19 M19 N_18_MM
+   Inst M17 M17 P_18_MM
+   Inst M16 M16 P_18_MM
+   Inst M15 M15 P_18_MM
+End Cell
+
+Cell SCF_OTA
+   Pin Vo+ VO+
+   Pin Vo- VO-
+   Pin AGnd AGND
+   Pin AVdd AVDD
+   Pin CMFB CMFB
+   Pin Iref IREF
+   Pin Vb2 VB2
+   Pin Vb3 VB3
+   Pin Vi+ VI+
+   Pin Vi- VI-
+   Net N$1118 N$1118
+   Net N$1117 N$1117
+   Net N$1114 N$1114
+   Net N$1111 N$1111
+   Net N$1108 N$1108
+   Net N$1101 N$1101
+   Net N$1098 N$1098
+   Net N$1095 N$1095
+   Net N$1092 N$1092
+   Net N$1088 N$1088
+   Net N$1085 N$1085
+   Net N$1081 N$1081
+   Net N$1078 N$1078
+   Net ND1 ND1
+   Net N$1072 N$1072
+   Net N$1071 N$1071
+   Net N$1070 N$1070
+   Net N$1056 N$1056
+   Net N$1053 N$1053
+   Net N$1050 N$1050
+   Net N$1047 N$1047
+   Net ND3 ND3
+   Net N$1000 N$1000
+   Net N$542 N$542
+   Net ND4 ND4
+   Net N$559 N$559
+   Net ND2 ND2
+   Net N$435 N$435
+   Net N$64 N$64
+   Net Iref IREF
+   Net Vo- VO-
+   Net Vo+ VO+
+   Net Vi- VI-
+   Net Vi+ VI+
+   Net AVdd AVDD
+   Net AGnd AGND
+   Net CMFB CMFB
+   Net Vb2 VB2
+   Net Vb3 VB3
+   Inst M14 M14 N_18_MM
+   Inst M4 M4 N_18_MM
+   Inst M51 M51 N_18_MM
+   Inst M50 M50 N_18_MM
+   Inst M7 M7 P_18_MM
+   Inst M13 M13 N_18_MM
+   Inst M0 M0 P_18_MM
+   Inst M3B M3B N_18_MM
+   Inst M10 M10 P_18_MM
+   Inst M9 M9 P_18_MM
+   Inst M11 M11 N_18_MM
+   Inst M12 M12 N_18_MM
+   Inst M49 M49 N_18_MM
+   Inst M6 M6 P_18_MM
+   Inst M8 M8 P_18_MM
+   Inst M3 M3 N_18_MM
+   Inst M5 M5 N_18_MM
+   Inst M2 M2 P_18_MM
+   Inst M42 M42 N_18_MM
+   Inst M41 M41 N_18_MM
+   Inst M40 M40 N_18_MM
+   Inst M39 M39 P_18_MM
+   Inst M38 M38 P_18_MM
+   Inst M37 M37 P_18_MM
+   Inst M36 M36 P_18_MM
+   Inst M35 M35 P_18_MM
+   Inst M34 M34 P_18_MM
+   Inst M33 M33 P_18_MM
+   Inst M32 M32 P_18_MM
+   Inst M1A M1A P_18_MM
+   Inst M1 M1 P_18_MM
+   Inst M45 M45 N_18_MM
+   Inst M46 M46 N_18_MM
+   Inst M48 M48 N_18_MM
+   Inst M47 M47 N_18_MM
+   Inst M43 M43 N_18_MM
+   Inst M44 M44 N_18_MM
+End Cell
+
+Cell SCF
+   Pin Vo+ VO+
+   Pin Vo- VO-
+   Pin AGnd AGND
+   Pin AVdd AVDD
+   Pin Iref IREF
+   Pin Vi+ VI+
+   Pin Vi- VI-
+   Pin Vocm VOCM
+   Net Vb4 VB4
+   Net Vb3 VB3
+   Net Vb2 VB2
+   Net CMFB CMFB
+   Net Vocm VOCM
+   Net Vo- VO-
+   Net Vo+ VO+
+   Net Vi+ VI+
+   Net Vi- VI-
+   Net Iref IREF
+   Net AGnd AGND
+   Net AVdd AVDD
+   Inst SCF_CMFB21 X_SCF_CMFB21 SCF_CMFB2
+   Inst SCF_BIAS1 X_SCF_BIAS1 SCF_BIAS
+   Inst SCF_OTA1 X_SCF_OTA1 SCF_OTA
+End Cell
+
+Cell NAND_X4
+   Pin O O
+   Pin A A
+   Pin B B
+   Pin Vdd VDD
+   Pin Vss VSS
+   Net N$75 N$75
+   Net O O
+   Net B B
+   Net A A
+   Net Vdd VDD
+   Net Vss VSS
+   Inst M3 M3 N_18_MM
+   Inst M4 M4 P_18_MM
+   Inst M1 M1 P_18_MM
+   Inst M2 M2 N_18_MM
+End Cell
+
+Cell INV_X8
+   Pin O O
+   Pin I I
+   Pin Vdd VDD
+   Pin Vss VSS
+   Net O O
+   Net I I
+   Net Vdd VDD
+   Net Vss VSS
+   Inst M1 M1 N_18_MM
+   Inst M2 M2 P_18_MM
+End Cell
+
+Cell INV_X4
+   Pin O O
+   Pin I I
+   Pin Vdd VDD
+   Pin Vss VSS
+   Net O O
+   Net I I
+   Net Vdd VDD
+   Net Vss VSS
+   Inst M1 M1 N_18_MM
+   Inst M2 M2 P_18_MM
+End Cell
+
+Cell INV_X2
+   Pin O O
+   Pin I I
+   Pin Vdd VDD
+   Pin Vss VSS
+   Net O O
+   Net I I
+   Net Vss VSS
+   Net Vdd VDD
+   Inst M1 M1 N_18_MM
+   Inst M2 M2 P_18_MM
+End Cell
+
+Cell PHASE_GEN
+   Pin phi1 PHI1
+   Pin phi1e PHI1E
+   Pin phi2 PHI2
+   Pin phi2e PHI2E
+   Pin clk CLK
+   Pin Vdd VDD
+   Pin Vss VSS
+   Net N$345 N$345
+   Net N$344 N$344
+   Net N$341 N$341
+   Net N$338 N$338
+   Net N$337 N$337
+   Net N$335 N$335
+   Net N$334 N$334
+   Net N$323 N$323
+   Net N$322 N$322
+   Net N$320 N$320
+   Net N$319 N$319
+   Net N$318 N$318
+   Net N$317 N$317
+   Net N$315 N$315
+   Net N$314 N$314
+   Net N$312 N$312
+   Net N$189 N$189
+   Net phi2e PHI2E
+   Net phi2 PHI2
+   Net phi1 PHI1
+   Net phi1e PHI1E
+   Net clk CLK
+   Net Vdd VDD
+   Net Vss VSS
+   Inst NAND_X43 X_NAND_X43 NAND_X4
+   Inst NAND_X42 X_NAND_X42 NAND_X4
+   Inst INV_X83 X_INV_X83 INV_X8
+   Inst INV_X82 X_INV_X82 INV_X8
+   Inst INV_X81 X_INV_X81 INV_X8
+   Inst INV_X47 X_INV_X47 INV_X4
+   Inst INV_X46 X_INV_X46 INV_X4
+   Inst INV_X45 X_INV_X45 INV_X4
+   Inst INV_X44 X_INV_X44 INV_X4
+   Inst INV_X43 X_INV_X43 INV_X4
+   Inst INV_X42 X_INV_X42 INV_X4
+   Inst INV_X49 X_INV_X49 INV_X4
+   Inst INV_X411 X_INV_X411 INV_X4
+   Inst INV_X410 X_INV_X410 INV_X4
+   Inst INV_X84 X_INV_X84 INV_X8
+   Inst NAND_X41 X_NAND_X41 NAND_X4
+   Inst INV_X413 X_INV_X413 INV_X4
+   Inst INV_X412 X_INV_X412 INV_X4
+   Inst INV_X48 X_INV_X48 INV_X4
+   Inst INV_X21 X_INV_X21 INV_X2
+   Inst NAND_X45 X_NAND_X45 NAND_X4
+End Cell
+
+Cell DC_V_SOURCE
+   Pin POS POS
+   Pin NEG NEG
+End Cell
+
+Cell VCVS
+   Pin POS POS
+   Pin NEG NEG
+   Pin CP CP
+   Pin CN CN
+End Cell
+
+Cell #top#
+   Net N$140 N$140
+   Net N$111 N$111
+   Net N$137 N$137
+   Net N$136 N$136
+   Net N$19 N$19
+   Net N$127 N$127
+   Net N$112 N$112
+   Net N$138 N$138
+   Net N$110 N$110
+   Net phi1e PHI1E
+   Net phi1 PHI1
+   Net phi2e PHI2E
+   Net phi2 PHI2
+   Net N$109 N$109
+   Net N$103 N$103
+   Net N$90 N$90
+   Net N$88 N$88
+   Net N$85 N$85
+   Net Vo VO
+   Net N$71 N$71
+   Net N$8 N$8
+   Net N$7 N$7
+   Global SCF_VDD SCF_VDD
+   Global ground GROUND
+   Inst R2 R2 IDEAL_RESISTOR
+   Inst R1 R1 IDEAL_RESISTOR
+   Inst C10 C10 IDEAL_CAPACITOR
+   Inst V7 V7 PULSE_V_SOURCE
+   Inst S2D1 X_S2D1 S2D
+   Inst C8 C8 IDEAL_CAPACITOR
+   Inst V1 V1 AC_V_SOURCE
+   Inst R6 R6 IDEAL_RESISTOR
+   Inst R5 R5 IDEAL_RESISTOR
+   Inst R4 R4 IDEAL_RESISTOR
+   Inst R3 R3 IDEAL_RESISTOR
+   Inst I1 I1 DC_I_SOURCE
+   Inst C2 C2 IDEAL_CAPACITOR
+   Inst SCF1 X_SCF1 SCF
+   Inst C5 C5 IDEAL_CAPACITOR
+   Inst PHASE_GEN1 X_PHASE_GEN1 PHASE_GEN
+   Inst R8 R8 IDEAL_RESISTOR
+   Inst C9 C9 IDEAL_CAPACITOR
+   Inst V4 V4 DC_V_SOURCE
+   Inst E1 E1 VCVS
+   Inst V6 V6 DC_V_SOURCE
+   Inst R7 R7 IDEAL_RESISTOR
+   Inst V3 V3 DC_V_SOURCE
+   Inst C1 C1 IDEAL_CAPACITOR
+End Cell
+

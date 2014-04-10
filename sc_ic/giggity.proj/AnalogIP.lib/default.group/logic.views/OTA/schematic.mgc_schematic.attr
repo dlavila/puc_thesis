@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 5269585833e2.03.7f.00.00.01.00.25.94 327 2 1 0
+V v 325 1 52714d83b910.03.7f.00.00.01.00.2f.6e
+F o 0 ""
+V v 326 1 52714dc629a4.03.7f.00.00.01.00.2f.6e
+F o 0 ""
+V v 327 1 52714e0e6963.03.7f.00.00.01.00.2f.6e
+F o 0 ""
+O 327
+R cspuv 0 "$AnalogIP/default.group/logic.views/OTA/schematic/sheet1" 326 mgc_sheet 52714e0e694e.03.7f.00.00.01.00.2f.6e 526958583517.03.7f.00.00.01.00.25.94
+O 326
+R cspuv 0 "$AnalogIP/default.group/logic.views/OTA/schematic/sheet1" 325 mgc_sheet 52714dc6298d.03.7f.00.00.01.00.2f.6e 526958583517.03.7f.00.00.01.00.25.94
+O 325
+R cspuv 0 "$AnalogIP/default.group/logic.views/OTA/schematic/sheet1" 324 mgc_sheet 52714d83b8ed.03.7f.00.00.01.00.2f.6e 526958583517.03.7f.00.00.01.00.25.94

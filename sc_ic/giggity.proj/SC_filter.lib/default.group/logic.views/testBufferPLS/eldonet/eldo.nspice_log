@@ -1,0 +1,28 @@
+//  ICnet  v2008.2_3.1 (2008.2b)  Tue May 5 19:07:13 PDT 2009
+//  Core Libraries  v2008.2_3.1 Tue May  5 19:22:21 PDT 2009
+//
+//             Copyright Mentor Graphics Corporation 1982
+//
+//                      All Rights Reserved.
+//
+//    THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR
+//           ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  Mentor Graphics software executing under x86_64 Linux.
+//
+
+
+//  Invocation args:  -dmsfile /home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib/default.group/logic.views/testBufferPLS/eldonet/design.dms -force /home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib/default.group/logic.views/testBufferPLS/eldonet
+
+// **** Reading <$SC_filter/default.group/logic.views/testBufferPLS/eldonet> for ELDO netlist ****
+
+// Checking 3 sheet(s) for out of date references to symbols and interfaces...
+
+ *** error *** : Out of date symbol reference in sheet '$SC_filter/default.group/logic.views/testBufferPLS/schematic/sheet1'.
+  Version 16 of symbol '$SC_filter/default.group/logic.views/BUFFER_PLS/BUFFER_PLS' is referenced by the sheet but is not the most current (22).
+*** Please use DA_IC to update the schematic current versions by updating individual sheets
+*** or use the 'Update All Schematics' command in DA_IC.
+
+Must stop due to the previous 1 error(s).
+

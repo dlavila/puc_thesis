@@ -1,0 +1,25 @@
+A 5 u mgc_sheet 525db2d493ea.03.7f.00.00.01.00.18.75 5 2 3 0
+V v 3 2 525db380c9e9.03.7f.00.00.01.00.1a.cf
+F f 3 "sheet1.ssht_3"
+F f 3 "sheet1.sgfx_3"
+V v 4 2 525db3916085.03.7f.00.00.01.00.1a.cf
+F f 4 "sheet1.ssht_4"
+F f 4 "sheet1.sgfx_4"
+V v 5 2 525db8bca1fd.03.7f.00.00.01.00.1e.e4
+F f 5 "sheet1.ssht_5"
+F f 5 "sheet1.sgfx_5"
+O 5
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$AnalogIP/default.group/logic.views/testCommonCentroid/schematic" 1 mgc_schematic 525db2d49333.03.7f.00.00.01.01.18.75 525db2d49333.03.7f.00.00.01.00.18.75
+R csduv 1 "$MGC_DESIGN_KIT/symbols/N_18_MM/part" 26 Eddm_part 462e23b780f6.03.7f.00.00.01.00.54.63 461b99901841.03.89.ca.19.1a.00.4f.21
+R csduv 2 "$MGC_DESIGN_KIT/symbols/N_18_MM/N_18_MM" 9 mgc_symbol 462e23b780e7.03.7f.00.00.01.00.54.63 461b99935891.03.89.ca.19.1a.00.4f.21
+O 4
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$AnalogIP/default.group/logic.views/testCommonCentroid/schematic" 1 mgc_schematic 525db2d49333.03.7f.00.00.01.01.18.75 525db2d49333.03.7f.00.00.01.00.18.75
+R csduv 1 "$MGC_DESIGN_KIT/symbols/N_18_MM/part" 26 Eddm_part 462e23b780f6.03.7f.00.00.01.00.54.63 461b99901841.03.89.ca.19.1a.00.4f.21
+R csduv 2 "$MGC_DESIGN_KIT/symbols/N_18_MM/N_18_MM" 9 mgc_symbol 462e23b780e7.03.7f.00.00.01.00.54.63 461b99935891.03.89.ca.19.1a.00.4f.21
+O 3
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$AnalogIP/default.group/logic.views/testCommonCentroid/schematic" 1 mgc_schematic 525db2d49333.03.7f.00.00.01.01.18.75 525db2d49333.03.7f.00.00.01.00.18.75
+R csduv 1 "$MGC_DESIGN_KIT/symbols/N_18_MM/part" 26 Eddm_part 462e23b780f6.03.7f.00.00.01.00.54.63 461b99901841.03.89.ca.19.1a.00.4f.21
+R csduv 2 "$MGC_DESIGN_KIT/symbols/N_18_MM/N_18_MM" 9 mgc_symbol 462e23b780e7.03.7f.00.00.01.00.54.63 461b99935891.03.89.ca.19.1a.00.4f.21

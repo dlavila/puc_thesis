@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 528e1098a788.03.7f.00.00.01.00.45.fb 17 2 1 0
+V v 15 1 5294b9c4a87c.03.7f.00.00.01.00.70.4f
+F o 0 ""
+V v 16 1 5294ba991dd4.03.7f.00.00.01.00.70.4f
+F o 0 ""
+V v 17 1 5294bb03e57a.03.7f.00.00.01.00.70.4f
+F o 0 ""
+O 17
+R cspuv 0 "$AnalogIP/default.group/logic.views/test_cmos_switch/schematic/sheet1" 16 mgc_sheet 5294bb03e564.03.7f.00.00.01.00.70.4f 528e1098ac47.03.7f.00.00.01.00.45.fb
+O 16
+R cspuv 0 "$AnalogIP/default.group/logic.views/test_cmos_switch/schematic/sheet1" 15 mgc_sheet 5294ba991dbd.03.7f.00.00.01.00.70.4f 528e1098ac47.03.7f.00.00.01.00.45.fb
+O 15
+R cspuv 0 "$AnalogIP/default.group/logic.views/test_cmos_switch/schematic/sheet1" 14 mgc_sheet 5294b9c4a859.03.7f.00.00.01.00.70.4f 528e1098ac47.03.7f.00.00.01.00.45.fb

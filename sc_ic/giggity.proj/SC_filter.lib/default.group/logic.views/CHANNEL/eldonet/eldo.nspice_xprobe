@@ -1,0 +1,962 @@
+# This file provides name mapping information for all objects
+# on the schematic design.  It provides a mapping for each
+# object between its name on the schematic and its name in the netlist.
+version 1.0
+
+Globals
+   ground ground
+   AVdd avdd
+   SCF_VDD scf_vdd
+End Globals
+
+Cell n_18_mm
+   Pin D d
+   Pin G g
+   Pin S s
+   Pin B b
+End Cell
+
+Cell p_18_mm
+   Pin D d
+   Pin G g
+   Pin S s
+   Pin B b
+End Cell
+
+Cell rnhr1000_mm
+   Pin PLUS plus
+   Pin MINUS minus
+   Pin B b
+End Cell
+
+Cell pnp_v50x50_mm
+   Pin C c
+   Pin B b
+   Pin e e
+End Cell
+
+Cell bgr
+   Pin Vref vref
+   Pin AGnd agnd
+   Pin AVdd avdd
+   Net N$10 n$10
+   Net N$8 n$8
+   Net N$7 n$7
+   Net N$6 n$6
+   Net N$5 n$5
+   Net N$3 n$3
+   Net N$2 n$2
+   Net Vref vref
+   Net AGnd agnd
+   Net AVdd_esc1 avdd_esc1
+   Inst M20 m20 p_18_mm
+   Inst R6 xr6 rnhr1000_mm
+   Inst R5 xr5 rnhr1000_mm
+   Inst R4 xr4 rnhr1000_mm
+   Inst R3 xr3 rnhr1000_mm
+   Inst M45 m45 p_18_mm
+   Inst Q6 q6 pnp_v50x50_mm
+   Inst M44 m44 p_18_mm
+   Inst Q5 q5 pnp_v50x50_mm
+   Inst M43 m43 n_18_mm
+   Inst M42 m42 p_18_mm
+   Inst M41 m41 p_18_mm
+   Inst M40 m40 p_18_mm
+   Inst M39 m39 n_18_mm
+   Inst M38 m38 n_18_mm
+   Inst M37 m37 n_18_mm
+   Inst M36 m36 p_18_mm
+   Inst M35 m35 p_18_mm
+End Cell
+
+Cell pulse_v_source
+   Pin POS pos
+   Pin NEG neg
+End Cell
+
+Cell nand_x4
+   Pin O o
+   Pin A a
+   Pin B b
+   Pin Vdd vdd
+   Pin Vss vss
+   Net N$75 n$75
+   Net O o
+   Net B b
+   Net A a
+   Net Vdd vdd
+   Net Vss vss
+   Inst M3 m3 n_18_mm
+   Inst M4 m4 p_18_mm
+   Inst M1 m1 p_18_mm
+   Inst M2 m2 n_18_mm
+End Cell
+
+Cell inv_x8
+   Pin O o
+   Pin I i
+   Pin Vdd vdd
+   Pin Vss vss
+   Net O o
+   Net I i
+   Net Vdd vdd
+   Net Vss vss
+   Inst M1 m1 n_18_mm
+   Inst M2 m2 p_18_mm
+End Cell
+
+Cell inv_x4
+   Pin O o
+   Pin I i
+   Pin Vdd vdd
+   Pin Vss vss
+   Net O o
+   Net I i
+   Net Vdd vdd
+   Net Vss vss
+   Inst M1 m1 n_18_mm
+   Inst M2 m2 p_18_mm
+End Cell
+
+Cell inv_x2
+   Pin O o
+   Pin I i
+   Pin Vdd vdd
+   Pin Vss vss
+   Net O o
+   Net I i
+   Net Vss vss
+   Net Vdd vdd
+   Inst M1 m1 n_18_mm
+   Inst M2 m2 p_18_mm
+End Cell
+
+Cell phase_gen
+   Pin phi1 phi1
+   Pin phi1e phi1e
+   Pin phi2 phi2
+   Pin phi2e phi2e
+   Pin clk clk
+   Pin Vdd vdd
+   Pin Vss vss
+   Net N$345 n$345
+   Net N$344 n$344
+   Net N$341 n$341
+   Net N$338 n$338
+   Net N$337 n$337
+   Net N$335 n$335
+   Net N$334 n$334
+   Net N$323 n$323
+   Net N$322 n$322
+   Net N$320 n$320
+   Net N$319 n$319
+   Net N$318 n$318
+   Net N$317 n$317
+   Net N$315 n$315
+   Net N$314 n$314
+   Net N$312 n$312
+   Net N$189 n$189
+   Net phi2e phi2e
+   Net phi2 phi2
+   Net phi1 phi1
+   Net phi1e phi1e
+   Net clk clk
+   Net Vdd vdd
+   Net Vss vss
+   Inst NAND_X43 x_nand_x43 nand_x4
+   Inst NAND_X42 x_nand_x42 nand_x4
+   Inst INV_X83 x_inv_x83 inv_x8
+   Inst INV_X82 x_inv_x82 inv_x8
+   Inst INV_X81 x_inv_x81 inv_x8
+   Inst INV_X47 x_inv_x47 inv_x4
+   Inst INV_X46 x_inv_x46 inv_x4
+   Inst INV_X45 x_inv_x45 inv_x4
+   Inst INV_X44 x_inv_x44 inv_x4
+   Inst INV_X43 x_inv_x43 inv_x4
+   Inst INV_X42 x_inv_x42 inv_x4
+   Inst INV_X49 x_inv_x49 inv_x4
+   Inst INV_X411 x_inv_x411 inv_x4
+   Inst INV_X410 x_inv_x410 inv_x4
+   Inst INV_X84 x_inv_x84 inv_x8
+   Inst NAND_X41 x_nand_x41 nand_x4
+   Inst INV_X413 x_inv_x413 inv_x4
+   Inst INV_X412 x_inv_x412 inv_x4
+   Inst INV_X48 x_inv_x48 inv_x4
+   Inst INV_X21 x_inv_x21 inv_x2
+   Inst NAND_X45 x_nand_x45 nand_x4
+End Cell
+
+Cell pwl_v_source
+   Pin POS pos
+   Pin NEG neg
+End Cell
+
+Cell dc_v_source
+   Pin POS pos
+   Pin NEG neg
+End Cell
+
+Cell switch_x1
+   Pin out out
+   Pin e e
+   Pin in in
+   Pin Vdd vdd
+   Pin Vss vss
+   Net N$25 n$25
+   Net out out
+   Net e e
+   Net in in
+   Net Vdd vdd
+   Net Vss vss
+   Inst M2 m2 p_18_mm
+   Inst M1 m1 n_18_mm
+   Inst M11 m11 n_18_mm
+   Inst M12 m12 p_18_mm
+End Cell
+
+Cell vcvs
+   Pin POS pos
+   Pin NEG neg
+   Pin CP cp
+   Pin CN cn
+End Cell
+
+Cell switch_x16
+   Pin out out
+   Pin e e
+   Pin in in
+   Pin Vdd vdd
+   Pin Vss vss
+   Net N$46 n$46
+   Net out out
+   Net e e
+   Net in in
+   Net Vdd vdd
+   Net Vss vss
+   Inst M2 m2 n_18_mm
+   Inst M1 m1 p_18_mm
+   Inst M12 m12 p_18_mm
+   Inst M11 m11 n_18_mm
+End Cell
+
+Cell mimcaps_mm
+   Pin PLUS plus
+   Pin MINUS minus
+End Cell
+
+Cell mux_x16
+   Pin O o
+   Pin A a
+   Pin B b
+   Pin e e
+   Pin s s
+   Pin Vdd vdd
+   Pin Vss vss
+   Net N$295 n$295
+   Net N$288 n$288
+   Net N$293 n$293
+   Net N$292 n$292
+   Net N$291 n$291
+   Net N$287 n$287
+   Net N$286 n$286
+   Net O o
+   Net A a
+   Net B b
+   Net s s
+   Net e e
+   Net Vdd vdd
+   Net Vss vss
+   Inst M13 m13 p_18_mm
+   Inst M5 m5 p_18_mm
+   Inst M10 m10 n_18_mm
+   Inst M11 m11 n_18_mm
+   Inst M9 m9 n_18_mm
+   Inst M17 m17 n_18_mm
+   Inst M16 m16 p_18_mm
+   Inst M4 m4 n_18_mm
+   Inst M15 m15 n_18_mm
+   Inst M2 m2 p_18_mm
+   Inst M12 m12 p_18_mm
+   Inst M22 m22 p_18_mm
+   Inst M3 m3 p_18_mm
+   Inst M8 m8 n_18_mm
+   Inst M1 m1 n_18_mm
+   Inst M6 m6 p_18_mm
+   Inst M7 m7 n_18_mm
+   Inst M14 m14 p_18_mm
+End Cell
+
+Cell mux_x4
+   Pin O o
+   Pin A a
+   Pin B b
+   Pin e e
+   Pin s s
+   Pin Vdd vdd
+   Pin Vss vss
+   Net N$352 n$352
+   Net N$349 n$349
+   Net N$347 n$347
+   Net N$346 n$346
+   Net N$343 n$343
+   Net N$311 n$311
+   Net N$306 n$306
+   Net O o
+   Net A a
+   Net B b
+   Net s s
+   Net e e
+   Net Vdd vdd
+   Net Vss vss
+   Inst M18 m18 p_18_mm
+   Inst M14 m14 p_18_mm
+   Inst M13 m13 p_18_mm
+   Inst M6 m6 p_18_mm
+   Inst M3 m3 p_18_mm
+   Inst M15 m15 n_18_mm
+   Inst M7 m7 n_18_mm
+   Inst M16 m16 p_18_mm
+   Inst M5 m5 p_18_mm
+   Inst M4 m4 n_18_mm
+   Inst M8 m8 n_18_mm
+   Inst M10 m10 n_18_mm
+   Inst M9 m9 n_18_mm
+   Inst M17 m17 n_18_mm
+   Inst M1 m1 n_18_mm
+   Inst M12 m12 p_18_mm
+   Inst M2 m2 p_18_mm
+   Inst M11 m11 n_18_mm
+End Cell
+
+Cell buffer
+   Pin Vo vo
+   Pin AGnd agnd
+   Pin AVdd avdd
+   Pin Vb1 vb1
+   Pin Vb2 vb2
+   Pin Vb3 vb3
+   Pin Vb4 vb4
+   Pin Vi+ vi+
+   Pin Vi- vi-
+   Pin Vncas vncas
+   Pin Vpcas vpcas
+   Net N$943 n$943
+   Net N$941 n$941
+   Net N$816 n$816
+   Net N$812 n$812
+   Net N$672 n$672
+   Net N$702 n$702
+   Net N$801 n$801
+   Net N$798 n$798
+   Net N$795 n$795
+   Net N$792 n$792
+   Net N$789 n$789
+   Net N$786 n$786
+   Net N$780 n$780
+   Net N$774 n$774
+   Net N$771 n$771
+   Net N$768 n$768
+   Net N$764 n$764
+   Net N$761 n$761
+   Net N$758 n$758
+   Net N$755 n$755
+   Net N$752 n$752
+   Net N$749 n$749
+   Net N$688 n$688
+   Net ND9 nd9
+   Net N$695 n$695
+   Net N$650 n$650
+   Net ND7 nd7
+   Net N$668 n$668
+   Net N$427 n$427
+   Net N$204 n$204
+   Net N$209 n$209
+   Net ND2 nd2
+   Net ND1 nd1
+   Net ND4 nd4
+   Net ND3 nd3
+   Net ND6 nd6
+   Net N$206 n$206
+   Net ND8 nd8
+   Net N$165 n$165
+   Net Vi- vi-
+   Net Vi+ vi+
+   Net Vo vo
+   Net AVdd_esc1 avdd_esc1
+   Net AGnd agnd
+   Net Vb1 vb1
+   Net Vb2 vb2
+   Net Vb3 vb3
+   Net Vb4 vb4
+   Net Vpcas vpcas
+   Net Vncas vncas
+   Inst R1 xr1 rnhr1000_mm
+   Inst M64 m64 p_18_mm
+   Inst M14 m14 p_18_mm
+   Inst M18 m18 p_18_mm
+   Inst M5 m5 p_18_mm
+   Inst M8 m8 n_18_mm
+   Inst M2 m2 n_18_mm
+   Inst M41 m41 p_18_mm
+   Inst M42 m42 p_18_mm
+   Inst MOUTP moutp p_18_mm
+   Inst M52 m52 p_18_mm
+   Inst MIN1 min1 n_18_mm
+   Inst M1 m1 p_18_mm
+   Inst M11 m11 n_18_mm
+   Inst M9 m9 n_18_mm
+   Inst M16 m16 n_18_mm
+   Inst MOUTN moutn n_18_mm
+   Inst M79 m79 p_18_mm
+   Inst M81 m81 p_18_mm
+   Inst M78 m78 p_18_mm
+   Inst M77 m77 p_18_mm
+   Inst M4 m4 n_18_mm
+   Inst M10 m10 p_18_mm
+   Inst M80 m80 p_18_mm
+   Inst M90 m90 n_18_mm
+   Inst C1 xc1 mimcaps_mm
+   Inst M51 m51 p_18_mm
+   Inst R4 xr4 rnhr1000_mm
+   Inst R3 xr3 rnhr1000_mm
+   Inst R2 xr2 rnhr1000_mm
+   Inst M15 m15 n_18_mm
+   Inst M13 m13 p_18_mm
+   Inst M7 m7 n_18_mm
+   Inst M67 m67 n_18_mm
+   Inst M68 m68 n_18_mm
+   Inst M12 m12 p_18_mm
+   Inst M50 m50 n_18_mm
+   Inst M89 m89 n_18_mm
+   Inst M88 m88 n_18_mm
+   Inst M87 m87 n_18_mm
+   Inst M86 m86 n_18_mm
+   Inst M84 m84 n_18_mm
+   Inst M85 m85 n_18_mm
+   Inst M83 m83 n_18_mm
+   Inst M19 m19 p_18_mm
+   Inst C2 xc2 mimcaps_mm
+   Inst M66 m66 n_18_mm
+   Inst M65 m65 n_18_mm
+   Inst M63 m63 p_18_mm
+   Inst M3 m3 p_18_mm
+   Inst M17 m17 n_18_mm
+   Inst M6 m6 p_18_mm
+   Inst M55 m55 p_18_mm
+   Inst M56 m56 p_18_mm
+   Inst M82 m82 p_18_mm
+End Cell
+
+Cell ideal_capacitor
+   Pin POS pos
+   Pin NEG neg
+End Cell
+
+Cell bias_buffer
+   Pin Vb1 vb1
+   Pin Vb2 vb2
+   Pin Vb3 vb3
+   Pin Vb4 vb4
+   Pin Vncas vncas
+   Pin Vpcas vpcas
+   Pin AGnd agnd
+   Pin AVdd avdd
+   Pin Ib ib
+   Net N$65 n$65
+   Net N$63 n$63
+   Net N$60 n$60
+   Net N$59 n$59
+   Net N$58 n$58
+   Net N$57 n$57
+   Net N$56 n$56
+   Net N$54 n$54
+   Net N$53 n$53
+   Net N$52 n$52
+   Net N$55 n$55
+   Net N$51 n$51
+   Net Vpcas vpcas
+   Net Vb4 vb4
+   Net Vncas vncas
+   Net Vb3 vb3
+   Net Vb2 vb2
+   Net Vb1 vb1
+   Net AGnd agnd
+   Net AVdd_esc1 avdd_esc1
+   Net Ib ib
+   Inst M74 m74 p_18_mm
+   Inst M73 m73 p_18_mm
+   Inst M48 m48 p_18_mm
+   Inst M45 m45 p_18_mm
+   Inst M43 m43 p_18_mm
+   Inst M22 m22 p_18_mm
+   Inst M40 m40 p_18_mm
+   Inst M38 m38 p_18_mm
+   Inst M37 m37 p_18_mm
+   Inst M39 m39 p_18_mm
+   Inst M32 m32 n_18_mm
+   Inst M31 m31 n_18_mm
+   Inst M30 m30 n_18_mm
+   Inst M29 m29 n_18_mm
+   Inst M28 m28 n_18_mm
+   Inst M27 m27 n_18_mm
+   Inst M26 m26 n_18_mm
+   Inst M25 m25 n_18_mm
+   Inst M36 m36 p_18_mm
+   Inst M24 m24 n_18_mm
+   Inst M21 m21 n_18_mm
+   Inst M35 m35 n_18_mm
+   Inst M23 m23 n_18_mm
+   Inst M34 m34 p_18_mm
+   Inst M33 m33 p_18_mm
+End Cell
+
+Cell cap_array
+   Pin Vout vout
+   Pin Cs_b0 cs_b0
+   Pin Cs_b1 cs_b1
+   Pin Cs_b2 cs_b2
+   Pin Cs_b3 cs_b3
+   Pin Cs_b4 cs_b4
+   Pin Vdd vdd
+   Pin Vin vin
+   Pin Vss vss
+   Net N$1 n$1
+   Net N$7 n$7
+   Net N$5 n$5
+   Net N$4 n$4
+   Net N$3 n$3
+   Net Vout vout
+   Net Vin vin
+   Net Cs_b4 cs_b4
+   Net Cs_b3 cs_b3
+   Net Cs_b2 cs_b2
+   Net Cs_b1 cs_b1
+   Net Cs_b0 cs_b0
+   Net Vdd vdd
+   Net Vss vss
+   Inst SWITCH_X165 x_switch_x165 switch_x16
+   Inst C9 xc9 mimcaps_mm
+   Inst SWITCH_X161 x_switch_x161 switch_x16
+   Inst SWITCH_X164 x_switch_x164 switch_x16
+   Inst SWITCH_X162 x_switch_x162 switch_x16
+   Inst C13 xc13 mimcaps_mm
+   Inst C12 xc12 mimcaps_mm
+   Inst C11 xc11 mimcaps_mm
+   Inst C10 xc10 mimcaps_mm
+   Inst SWITCH_X163 x_switch_x163 switch_x16
+End Cell
+
+Cell bias
+   Pin Vb3 vb3
+   Pin Vb4 vb4
+   Pin AGnd agnd
+   Pin AVdd avdd
+   Net N$20 n$20
+   Net N$6 n$6
+   Net Vbiasp vbiasp
+   Net N$114 n$114
+   Net N$109 n$109
+   Net N$64 n$64
+   Net N$10 n$10
+   Net Vb4 vb4
+   Net Vb3 vb3
+   Net AGnd agnd
+   Net AVdd_esc1 avdd_esc1
+   Inst M13 m13 n_18_mm
+   Inst M12 m12 p_18_mm
+   Inst M19 m19 p_18_mm
+   Inst M1 m1 n_18_mm
+   Inst M10 m10 n_18_mm
+   Inst M11 m11 p_18_mm
+   Inst M9 m9 n_18_mm
+   Inst M7 m7 n_18_mm
+   Inst M8 m8 p_18_mm
+   Inst R1 xr1 rnhr1000_mm
+   Inst M5 m5 n_18_mm
+   Inst M2 m2 p_18_mm
+   Inst M15 m15 n_18_mm
+   Inst M4 m4 n_18_mm
+   Inst M17 m17 p_18_mm
+   Inst M18 m18 n_18_mm
+   Inst M3 m3 p_18_mm
+   Inst M6 m6 p_18_mm
+End Cell
+
+Cell switch_x4
+   Pin out out
+   Pin e e
+   Pin in in
+   Pin Vdd vdd
+   Pin Vss vss
+   Net N$40 n$40
+   Net out out
+   Net e e
+   Net in in
+   Net Vdd vdd
+   Net Vss vss
+   Inst M2 m2 p_18_mm
+   Inst M1 m1 n_18_mm
+   Inst M11 m11 n_18_mm
+   Inst M12 m12 p_18_mm
+End Cell
+
+Cell scf_dcmfb
+   Pin CMFB cmfb
+   Pin AGnd agnd
+   Pin AVdd avdd
+   Pin phi1 phi1
+   Pin phi2 phi2
+   Pin Vb1 vb1
+   Pin Vo+ vo+
+   Pin Vo- vo-
+   Pin Vocm vocm
+   Net N$220 n$220
+   Net N$213 n$213
+   Net N$209 n$209
+   Net N$150 n$150
+   Net Vo+ vo+
+   Net Vo- vo-
+   Net CMFB cmfb
+   Net Vocm vocm
+   Net AGnd agnd
+   Net AVdd_esc1 avdd_esc1
+   Net phi2 phi2
+   Net phi1 phi1
+   Net Vb1 vb1
+   Inst SWITCH_X48 x_switch_x48 switch_x4
+   Inst SWITCH_X47 x_switch_x47 switch_x4
+   Inst SWITCH_X46 x_switch_x46 switch_x4
+   Inst SWITCH_X45 x_switch_x45 switch_x4
+   Inst SWITCH_X44 x_switch_x44 switch_x4
+   Inst SWITCH_X43 x_switch_x43 switch_x4
+   Inst SWITCH_X42 x_switch_x42 switch_x4
+   Inst SWITCH_X41 x_switch_x41 switch_x4
+   Inst C2 xc2 mimcaps_mm
+   Inst C3 xc3 mimcaps_mm
+   Inst C1 xc1 mimcaps_mm
+   Inst C4 xc4 mimcaps_mm
+End Cell
+
+Cell scf_ota
+   Pin Vo+ vo+
+   Pin Vo- vo-
+   Pin AGnd agnd
+   Pin AVdd avdd
+   Pin CMFB cmfb
+   Pin Iref iref
+   Pin Vb2 vb2
+   Pin Vb3 vb3
+   Pin Vi+ vi+
+   Pin Vi- vi-
+   Net N$1118 n$1118
+   Net N$1117 n$1117
+   Net N$1114 n$1114
+   Net N$1111 n$1111
+   Net N$1108 n$1108
+   Net N$1101 n$1101
+   Net N$1098 n$1098
+   Net N$1095 n$1095
+   Net N$1092 n$1092
+   Net N$1088 n$1088
+   Net N$1085 n$1085
+   Net N$1081 n$1081
+   Net N$1078 n$1078
+   Net ND1 nd1
+   Net N$1072 n$1072
+   Net N$1071 n$1071
+   Net N$1070 n$1070
+   Net N$1056 n$1056
+   Net N$1053 n$1053
+   Net N$1050 n$1050
+   Net N$1047 n$1047
+   Net ND3 nd3
+   Net N$1000 n$1000
+   Net N$542 n$542
+   Net ND4 nd4
+   Net N$559 n$559
+   Net ND2 nd2
+   Net N$435 n$435
+   Net N$64 n$64
+   Net Iref iref
+   Net Vo- vo-
+   Net Vo+ vo+
+   Net Vi- vi-
+   Net Vi+ vi+
+   Net AVdd_esc1 avdd_esc1
+   Net AGnd agnd
+   Net CMFB cmfb
+   Net Vb2 vb2
+   Net Vb3 vb3
+   Inst M14 m14 n_18_mm
+   Inst M4 m4 n_18_mm
+   Inst M51 m51 n_18_mm
+   Inst M50 m50 n_18_mm
+   Inst M7 m7 p_18_mm
+   Inst M13 m13 n_18_mm
+   Inst M0 m0 p_18_mm
+   Inst M3B m3b n_18_mm
+   Inst M10 m10 p_18_mm
+   Inst M9 m9 p_18_mm
+   Inst M11 m11 n_18_mm
+   Inst M12 m12 n_18_mm
+   Inst M49 m49 n_18_mm
+   Inst M6 m6 p_18_mm
+   Inst M8 m8 p_18_mm
+   Inst M3 m3 n_18_mm
+   Inst M5 m5 n_18_mm
+   Inst M2 m2 p_18_mm
+   Inst M42 m42 n_18_mm
+   Inst M41 m41 n_18_mm
+   Inst M40 m40 n_18_mm
+   Inst M39 m39 p_18_mm
+   Inst M38 m38 p_18_mm
+   Inst M37 m37 p_18_mm
+   Inst M36 m36 p_18_mm
+   Inst M35 m35 p_18_mm
+   Inst M34 m34 p_18_mm
+   Inst M33 m33 p_18_mm
+   Inst M32 m32 p_18_mm
+   Inst M1A m1a p_18_mm
+   Inst M1 m1 p_18_mm
+   Inst M45 m45 n_18_mm
+   Inst M46 m46 n_18_mm
+   Inst M48 m48 n_18_mm
+   Inst M47 m47 n_18_mm
+   Inst M43 m43 n_18_mm
+   Inst M44 m44 n_18_mm
+End Cell
+
+Cell scf_bias
+   Pin Vb1 vb1
+   Pin Vb2 vb2
+   Pin Vb3 vb3
+   Pin Vb4 vb4
+   Pin AGnd agnd
+   Pin AVdd avdd
+   Pin Iref iref
+   Net Vb5 vb5
+   Net AGnd agnd
+   Net AVdd_esc1 avdd_esc1
+   Net Vb3 vb3
+   Net Vb4 vb4
+   Net Vb2 vb2
+   Net Iref iref
+   Net Vb1 vb1
+   Inst M24 m24 n_18_mm
+   Inst M18 m18 n_18_mm
+   Inst M22 m22 p_18_mm
+   Inst M20 m20 p_18_mm
+   Inst M21 m21 n_18_mm
+   Inst M19 m19 n_18_mm
+   Inst M17 m17 p_18_mm
+   Inst M16 m16 p_18_mm
+   Inst M15 m15 p_18_mm
+End Cell
+
+Cell scf
+   Pin Vo+ vo+
+   Pin Vo- vo-
+   Pin AGnd agnd
+   Pin AVdd avdd
+   Pin Iref iref
+   Pin phi1 phi1
+   Pin phi2 phi2
+   Pin Vi+ vi+
+   Pin Vi- vi-
+   Pin Vocm vocm
+   Net Vb1 vb1
+   Net Vb4 vb4
+   Net Vb3 vb3
+   Net Vb2 vb2
+   Net CMFB cmfb
+   Net Vocm vocm
+   Net Vo- vo-
+   Net Vo+ vo+
+   Net Vi+ vi+
+   Net Vi- vi-
+   Net Iref iref
+   Net AGnd agnd
+   Net AVdd_esc1 avdd_esc1
+   Net phi1 phi1
+   Net phi2 phi2
+   Inst SCF_DCMFB1 x_scf_dcmfb1 scf_dcmfb
+   Inst SCF_OTA1 x_scf_ota1 scf_ota
+   Inst SCF_BIAS1 x_scf_bias1 scf_bias
+End Cell
+
+Cell vcvs_2pin
+   Pin POS pos
+   Pin NEG neg
+End Cell
+
+Cell s2d
+   Pin Vd+ vd+
+   Pin Vd- vd-
+   Pin Vicm vicm
+   Pin Vid vid
+   Pin Vss vss
+   Net N$2 n$2
+   Net Vd- vd-
+   Net Vd+ vd+
+   Net Vss vss
+   Net Vicm vicm
+   Net Vid vid
+   Inst E3 e3 vcvs_2pin
+   Inst E2 e2 vcvs_2pin
+   Inst E1 e1 vcvs_2pin
+End Cell
+
+Cell nand_x1
+   Pin O o
+   Pin A a
+   Pin B b
+   Pin Vdd vdd
+   Pin Vss vss
+   Net N$65 n$65
+   Net O o
+   Net B b
+   Net A a
+   Net Vdd vdd
+   Net Vss vss
+   Inst M3 m3 n_18_mm
+   Inst M5 m5 n_18_mm
+   Inst M1 m1 p_18_mm
+   Inst M4 m4 p_18_mm
+End Cell
+
+Cell #top#
+   Pin clk clk
+   Pin Cs_b0 cs_b0
+   Pin Cs_b1 cs_b1
+   Pin Cs_b2 cs_b2
+   Pin Cs_b3 cs_b3
+   Pin Cs_b4 cs_b4
+   Pin DGnd dgnd
+   Pin DVdd dvdd
+   Pin hold hold
+   Pin rst rst
+   Pin sgn sgn
+   Pin Vi+ vi+
+   Pin Vi- vi-
+   Pin Vicm vicm
+   Pin Vocm vocm
+   Net N$797 n$797
+   Net I1 i1
+   Net Vin- vin-
+   Net Vb1 vb1
+   Net Vb2 vb2
+   Net Vb3 vb3
+   Net Vb4 vb4
+   Net Vncas vncas
+   Net Vpcas vpcas
+   Net N$700 n$700
+   Net phi2e phi2e
+   Net N$701 n$701
+   Net N$535 n$535
+   Net N$546 n$546
+   Net N$547 n$547
+   Net N$576 n$576
+   Net rst_f rst_f
+   Net phi2_hold phi2_hold
+   Net N$575 n$575
+   Net N$578 n$578
+   Net rst_b rst_b
+   Net hold_b hold_b
+   Net phi1e phi1e
+   Net phi1 phi1
+   Net phi2 phi2
+   Net Vin+ vin+
+   Net N$574 n$574
+   Net N$533 n$533
+   Net N$532 n$532
+   Net Vref vref
+   Net out_s out_s
+   Net Vo+ vo+
+   Net Vo- vo-
+   Net I2 i2
+   Net N$534 n$534
+   Net Vo-_buffered vo-_buffered
+   Net Vo+_buffered vo+_buffered
+   Net Vo_buffered vo_buffered
+   Net Vo vo
+   Net N$173 n$173
+   Net N$7 n$7
+   Net Cs_b1 cs_b1
+   Net Cs_b2 cs_b2
+   Net Cs_b3 cs_b3
+   Net Cs_b4 cs_b4
+   Net hold hold
+   Net rst rst
+   Net clk clk
+   Net Vi+ vi+
+   Net Vi- vi-
+   Net sgn sgn
+   Net Vicm vicm
+   Net DVdd dvdd
+   Net DGnd dgnd
+   Net Cs_b0 cs_b0
+   Net Vocm vocm
+   Global ground ground
+   Global AVdd avdd
+   Global SCF_VDD scf_vdd
+   Inst M1 m1 n_18_mm
+   Inst BGR1 x_bgr1 bgr
+   Inst V7 v7 pulse_v_source
+   Inst PHASE_GEN2 x_phase_gen2 phase_gen
+   Inst V3 v3 pwl_v_source
+   Inst V1 v1 dc_v_source
+   Inst NAND_X41 x_nand_x41 nand_x4
+   Inst SWITCH_X16 x_switch_x16 switch_x1
+   Inst SWITCH_X15 x_switch_x15 switch_x1
+   Inst E1 e1 vcvs
+   Inst SWITCH_X161 x_switch_x161 switch_x16
+   Inst C10 xc10 mimcaps_mm
+   Inst C9 xc9 mimcaps_mm
+   Inst V10 v10 dc_v_source
+   Inst MUX_X161 x_mux_x161 mux_x16
+   Inst M3 m3 n_18_mm
+   Inst V16 v16 dc_v_source
+   Inst SWITCH_X12 x_switch_x12 switch_x1
+   Inst SWITCH_X11 x_switch_x11 switch_x1
+   Inst MUX_X162 x_mux_x162 mux_x16
+   Inst MUX_X42 x_mux_x42 mux_x4
+   Inst V11 v11 dc_v_source
+   Inst BUFFER1 x_buffer1 buffer
+   Inst BUFFER2 x_buffer2 buffer
+   Inst C12 c12 ideal_capacitor
+   Inst BIAS_BUFFER1 x_bias_buffer1 bias_buffer
+   Inst CAP_ARRAY1 x_cap_array1 cap_array
+   Inst INV_X42 x_inv_x42 inv_x4
+   Inst MUX_X41 x_mux_x41 mux_x4
+   Inst INV_X41 x_inv_x41 inv_x4
+   Inst E2 e2 vcvs
+   Inst V2 v2 dc_v_source
+   Inst V13 v13 dc_v_source
+   Inst V12 v12 dc_v_source
+   Inst INV_X82 x_inv_x82 inv_x8
+   Inst CAP_ARRAY2 x_cap_array2 cap_array
+   Inst V9 v9 dc_v_source
+   Inst BIAS1 x_bias1 bias
+   Inst V8 v8 pwl_v_source
+   Inst SCF1 x_scf1 scf
+   Inst C11 c11 ideal_capacitor
+   Inst NAND_X42 x_nand_x42 nand_x4
+   Inst V5 v5 pwl_v_source
+   Inst V14 v14 dc_v_source
+   Inst S2D1 x_s2d1 s2d
+   Inst V6 v6 dc_v_source
+   Inst V4 v4 dc_v_source
+   Inst INV_X43 x_inv_x43 inv_x4
+   Inst SWITCH_X162 x_switch_x162 switch_x16
+   Inst SWITCH_X165 x_switch_x165 switch_x16
+   Inst SWITCH_X164 x_switch_x164 switch_x16
+   Inst SWITCH_X163 x_switch_x163 switch_x16
+   Inst NAND_X11 x_nand_x11 nand_x1
+   Inst INV_X81 x_inv_x81 inv_x8
+   Inst SWITCH_X14 x_switch_x14 switch_x1
+   Inst SWITCH_X13 x_switch_x13 switch_x1
+   Inst M13 m13 n_18_mm
+   Inst V15 v15 dc_v_source
+   Inst M4 m4 n_18_mm
+End Cell
+

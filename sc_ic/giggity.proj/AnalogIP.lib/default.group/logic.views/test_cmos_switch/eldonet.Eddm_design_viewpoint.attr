@@ -1,0 +1,47 @@
+A 5 u Eddm_design_viewpoint 528e12c3630f.03.7f.00.00.01.00.45.fb 34 2 174 0
+V v 32 4 5294baa625c3.03.7f.00.00.01.00.70.4f
+F f 32 "eldonet.dvpt_32"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 33 4 5294bb053703.03.7f.00.00.01.00.70.4f
+F f 33 "eldonet.dvpt_33"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 34 4 5294bb177cb6.03.7f.00.00.01.00.70.4f
+F f 34 "eldonet.dvpt_34"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+O 34
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$AnalogIP/default.group/logic.views/test_cmos_switch/part" 1 Eddm_part 528e12c35b80.03.7f.00.00.01.01.45.fb 528e12c35b80.03.7f.00.00.01.00.45.fb
+R cspuv 1 "$AnalogIP/default.group/logic.views/test_cmos_switch/schematic" 17 mgc_schematic 5294bb03e57a.03.7f.00.00.01.00.70.4f 528e1098a788.03.7f.00.00.01.00.45.fb
+R cspuv 2 "$AnalogIP/default.group/logic.views/test_cmos_switch/eldonet" 1 Eddm_ba_mgr 528e12c36419.03.7f.00.00.01.00.45.fb 528e12c36418.03.7f.00.00.01.00.45.fb
+R cspuv 3 "$MGC_IC_SOURCES_LIB/dc_v_source/part" 1 Eddm_part 3890a89d50f5.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.01.34.72
+R cspuv 12 "$MGC_DESIGN_KIT/symbols/P_18_MM/part" 23 Eddm_part 462e23ba79d1.03.7f.00.00.01.00.54.63 461b99bfbe81.03.89.ca.19.1a.00.4f.21
+R cspuv 13 "$MGC_DESIGN_KIT/symbols/N_18_MM/part" 26 Eddm_part 462e23b780f6.03.7f.00.00.01.00.54.63 461b99901841.03.89.ca.19.1a.00.4f.21
+R cspuv 164 "$SC_filter/default.group/logic.views/CMOS_switch_X16/part" 17 Eddm_part 5294b8971bee.03.7f.00.00.01.00.6d.d6 5294b895ac8a.03.7f.00.00.01.00.7f.2d
+R cspuv 165 "$SC_filter/default.group/logic.views/CMOS_switch_X16/schematic" 30 mgc_schematic 5294b96e3eb1.03.7f.00.00.01.00.67.4f 5294b895ac6c.03.7f.00.00.01.00.7f.2d
+O 33
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$AnalogIP/default.group/logic.views/test_cmos_switch/part" 1 Eddm_part 528e12c35b80.03.7f.00.00.01.01.45.fb 528e12c35b80.03.7f.00.00.01.00.45.fb
+R cspuv 1 "$AnalogIP/default.group/logic.views/test_cmos_switch/schematic" 17 mgc_schematic 5294bb03e57a.03.7f.00.00.01.00.70.4f 528e1098a788.03.7f.00.00.01.00.45.fb
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 2 "$AnalogIP/default.group/logic.views/test_cmos_switch/eldonet" 1 Eddm_ba_mgr 528e12c36419.03.7f.00.00.01.00.45.fb 528e12c36418.03.7f.00.00.01.00.45.fb
+R cspuv 3 "$MGC_IC_SOURCES_LIB/dc_v_source/part" 1 Eddm_part 3890a89d50f5.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.01.34.72
+R cspuv 12 "$MGC_DESIGN_KIT/symbols/P_18_MM/part" 23 Eddm_part 462e23ba79d1.03.7f.00.00.01.00.54.63 461b99bfbe81.03.89.ca.19.1a.00.4f.21
+R cspuv 13 "$MGC_DESIGN_KIT/symbols/N_18_MM/part" 26 Eddm_part 462e23b780f6.03.7f.00.00.01.00.54.63 461b99901841.03.89.ca.19.1a.00.4f.21
+R cspuv 154 "$SC_filter/default.group/logic.views/CMOS_switch_X4/part" 19 Eddm_part 5294bad74d6a.03.7f.00.00.01.00.70.4f 5294b7faac0c.03.7f.00.00.01.00.7f.2d
+R cspuv 155 "$SC_filter/default.group/logic.views/CMOS_switch_X4/schematic" 28 mgc_schematic 5294b888c8d4.03.7f.00.00.01.00.67.4f 5294b7faabe9.03.7f.00.00.01.00.7f.2d
+O 32
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$AnalogIP/default.group/logic.views/test_cmos_switch/part" 1 Eddm_part 528e12c35b80.03.7f.00.00.01.01.45.fb 528e12c35b80.03.7f.00.00.01.00.45.fb
+R cspuv 1 "$AnalogIP/default.group/logic.views/test_cmos_switch/schematic" 16 mgc_schematic 5294ba991dd4.03.7f.00.00.01.00.70.4f 528e1098a788.03.7f.00.00.01.00.45.fb
+R cspuv 2 "$AnalogIP/default.group/logic.views/test_cmos_switch/eldonet" 1 Eddm_ba_mgr 528e12c36419.03.7f.00.00.01.00.45.fb 528e12c36418.03.7f.00.00.01.00.45.fb
+R cspuv 3 "$MGC_IC_SOURCES_LIB/dc_v_source/part" 1 Eddm_part 3890a89d50f5.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.01.34.72
+R cspuv 12 "$MGC_DESIGN_KIT/symbols/P_18_MM/part" 23 Eddm_part 462e23ba79d1.03.7f.00.00.01.00.54.63 461b99bfbe81.03.89.ca.19.1a.00.4f.21
+R cspuv 13 "$MGC_DESIGN_KIT/symbols/N_18_MM/part" 26 Eddm_part 462e23b780f6.03.7f.00.00.01.00.54.63 461b99901841.03.89.ca.19.1a.00.4f.21
+R cspuv 154 "$SC_filter/default.group/logic.views/CMOS_switch_X4/part" 16 Eddm_part 5294b7fc237d.03.7f.00.00.01.00.6d.7a 5294b7faac0c.03.7f.00.00.01.00.7f.2d
+R cspuv 155 "$SC_filter/default.group/logic.views/CMOS_switch_X4/schematic" 28 mgc_schematic 5294b888c8d4.03.7f.00.00.01.00.67.4f 5294b7faabe9.03.7f.00.00.01.00.7f.2d

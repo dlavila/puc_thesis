@@ -1,0 +1,457 @@
+Obsolete option -64b ignored
+
+Running eldo on localhost.localdomain
+with Eldo libraries :
+/usr/local/mentor/ams/aol/lib/libeldoudm_64.so
+/usr/local/mentor/ams/aol/lib/libeldomos1_64.so
+/usr/local/mentor/ams/aol/lib/libeldoekv_64.so
+/usr/local/mentor/ams/aol/lib/libeldomosp9_64.so
+/usr/local/mentor/ams/aol/lib/libeldocsem_64.so
+/usr/local/mentor/ams/aol/lib/libeldomos2_64.so
+/usr/local/mentor/ams/aol/lib/libeldomos3_64.so
+/usr/local/mentor/ams/aol/lib/libeldobip_64.so
+/usr/local/mentor/ams/aol/lib/libeldodio_64.so
+/usr/local/mentor/ams/aol/lib/libeldojfet_64.so
+/usr/local/mentor/ams/aol/lib/libeldosoi_64.so
+/usr/local/mentor/ams/aol/lib/libeldomos4_64.so
+/usr/local/mentor/ams/aol/lib/libeldoasitft_64.so
+/usr/local/mentor/ams/aol/lib/libeldohisim_64.so
+/usr/local/mentor/ams/aol/lib/libeldospmod_64.so
+/usr/local/mentor/ams/aol/lib/libeldopsp_64.so
+/usr/local/mentor/ams/aol/lib/libeldomosvar_64.so
+/usr/local/mentor/ams/aol/lib/libeldomoto_64.so
+/usr/local/mentor/ams/aol/lib/libeldost_64.so
+/usr/local/mentor/ams/aol/lib/libeldobnr_64.so
+/usr/local/mentor/ams/aol/lib/libeldorockw_64.so
+/usr/local/mentor/ams/aol/lib/libeldopubhicum_64.so
+/usr/local/mentor/ams/aol/lib/libeldotftsh_64.so
+/usr/local/mentor/ams/aol/lib/libeldobta_64.so
+/usr/local/mentor/ams/aol/lib/libeldofas_64.so
+/usr/local/mentor/ams/aol/lib/libeldofascm_64.so
+/usr/local/mentor/ams/aol/lib/libeldosdsim_64.so
+/usr/local/mentor/ams/aol/lib/libeldowire_64.so
+/usr/local/mentor/ams/aol/lib/libogr_64.so loaded.
+
+
+
+              Software under License 
+       Copyright Mentor Graphics Corporation
+
+
+
+
+***** PRE-PROCESSING ...
+
+
+
+***** ANALYSIS ....
+
+Warning 406: In file "/usr/local/mentor/UMC180PDK/models/ELDO/include_all" line 1:
++   COMMAND .LIB cannot find corner tt in library /usr/local/mentor/UMC180PDK/models/ELDO/018-rf-v2d4-control.eldo
+Warning 444: In file "./testBGR_eldonet.cir" line 17:
++   COMMAND .STEP: Compared to Eldo 5.4, the semantic of the .STEP ... LIN has changed:
++   LIN stands for 'number of runs'
++   Rather use keyword INCR if 'increment value' is meant
+
+***** 0  error(s). 
+***** 2  warning(s). 
+
+
+
+***** GENERATION ...
+
+Warning 252: In file "/usr/local/mentor/UMC180PDK/models/ELDO/MM180_RES_V133.mdl.eldo56" line 42:
++   OBJECT "X_BGR1.XR6.C1": Self-connected object not created.
+Warning 252: In file "/usr/local/mentor/UMC180PDK/models/ELDO/MM180_RES_V133.mdl.eldo56" line 42:
++   OBJECT "X_BGR1.XR5.C1": Self-connected object not created.
+Warning 252: In file "/usr/local/mentor/UMC180PDK/models/ELDO/MM180_RES_V133.mdl.eldo56" line 42:
++   OBJECT "X_BGR1.XR3.C1": Self-connected object not created.
+Warning  29: Such messages will not be displayed in future. Set .option MSGNODE = 0 to receive all such warnings.
+
+
+***** 0  error(s). 
+***** 6  warning(s). 
+
+
+INFORMATION ABOUT COMPILATION...
+
+
+Memory space allocated (bytes): 123613184
+24 elements
+9 nodes
+1 input signals
+
+
+run number 1 out of 6
+   value of parameter TEMP is 20.000000
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE: 17-Dec-2013 18:14:47
+
+*** TITLE: * Component: $SC_filter/default.group/logic.views/testBGR  Viewpoint: eldonet
+
+TEMPERATURE : 20.000000 degrees C
+
+Warning 1619:This netlist contains expressions using strongly non-linear functions such as ABS() MIN(), 
++   MAX() (found in device X_BGR1.XR6.R1 for instance) 
++   If, and only if, convergence problems occur either in DC or transient analysis, 
++   the .option mmsmooth is a possible workaround worth testing. 
++   It is NOT recommended to activate it systematically, or if there are no particular convergence problems. 
++   Please refer to the documentation for further discussions about this option
+Connecting to JWDB server, please wait...
+connected to wdb server : -jwdbhost localhost.localdomain -jwdbport 49691
+
+
+--> Partitioning circuit...
+This circuit contains access resistors which are very small.
+For instance, object X_BGR1.Q6 has an access resistor of 1.250000e-04 Ohms
+
+This can lead to convergence difficulties..
+You can use for instance .OPTION MINRACC = 1.000000e-02 
+in order to eliminate access resistors of less than 1.000000e-02 Ohms
+
+***> DC CPU TIME 0s 010ms <***
+
+DC:53 iterations FOR DC analysis
+VDD  0.0000     
+VREF  0.0000     
+X_BGR1.N$10  0.0000     
+X_BGR1.N$2  713.3132A  
+X_BGR1.N$3  1.0049F    
+X_BGR1.N$5  0.0000     
+X_BGR1.N$6  10.5765F   
+X_BGR1.N$7  0.0256A    
+X_BGR1.N$8  0.1218A    
+
+   TOTAL POWER DISSIPATION:  0.0000      WATTS
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 1s 600ms <***
+
+
+
+run number 2 out of 6
+   value of parameter TEMP is 28.000000
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE: 17-Dec-2013 18:14:49
+
+*** TITLE: * Component: $SC_filter/default.group/logic.views/testBGR  Viewpoint: eldonet
+
+TEMPERATURE : 28.000000 degrees C
+
+
+--> Partitioning circuit...
+This circuit contains access resistors which are very small.
+For instance, object X_BGR1.Q6 has an access resistor of 1.250000e-04 Ohms
+
+This can lead to convergence difficulties..
+You can use for instance .OPTION MINRACC = 1.000000e-02 
+in order to eliminate access resistors of less than 1.000000e-02 Ohms
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:47 iterations FOR DC analysis
+VDD  0.0000     
+VREF  0.0000A    
+X_BGR1.N$10  0.0000A    
+X_BGR1.N$2  8.7627P    
+X_BGR1.N$3  9.1577P    
+X_BGR1.N$5  0.0000A    
+X_BGR1.N$6  85.0443P   
+X_BGR1.N$7  364.1121A  
+X_BGR1.N$8 -0.0288A    
+
+   TOTAL POWER DISSIPATION:  0.0000      WATTS
+
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 1s 420ms <***
+
+
+
+run number 3 out of 6
+   value of parameter TEMP is 36.000000
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE: 17-Dec-2013 18:14:51
+
+*** TITLE: * Component: $SC_filter/default.group/logic.views/testBGR  Viewpoint: eldonet
+
+TEMPERATURE : 36.000000 degrees C
+
+
+--> Partitioning circuit...
+This circuit contains access resistors which are very small.
+For instance, object X_BGR1.Q6 has an access resistor of 1.250000e-04 Ohms
+
+This can lead to convergence difficulties..
+You can use for instance .OPTION MINRACC = 1.000000e-02 
+in order to eliminate access resistors of less than 1.000000e-02 Ohms
+
+***> DC CPU TIME 0s 010ms <***
+
+DC:47 iterations FOR DC analysis
+VDD  0.0000     
+VREF  0.0000A    
+X_BGR1.N$10 -0.0000A    
+X_BGR1.N$2  520.2896A  
+X_BGR1.N$3 -3.5044F    
+X_BGR1.N$5 -0.0000A    
+X_BGR1.N$6 -1.8483F    
+X_BGR1.N$7 -0.0134A    
+X_BGR1.N$8 -0.4776A    
+
+   TOTAL POWER DISSIPATION:  0.0000      WATTS
+
+Entering convergence assist at value 1.450000e+00
+
+
+
+--> Performing Simplified G ramping  ...
+---> Simplified G RAMPING  : 0.000000%
+---> Simplified G RAMPING  : 10.000000%
+---> Simplified G RAMPING  : 20.000000%
+---> Simplified G RAMPING  : 30.000000%
+---> Simplified G RAMPING  : 40.000000%
+---> Simplified G RAMPING  : 50.000000%
+---> Simplified G RAMPING  : 60.000000%
+---> Simplified G RAMPING  : 70.000000%
+---> Simplified G RAMPING  : 80.000000%
+---> Simplified G RAMPING  : 90.000000%
+---> Simplified G RAMPING  : 100.000000%
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 1s 490ms <***
+
+
+
+run number 4 out of 6
+   value of parameter TEMP is 44.000000
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE: 17-Dec-2013 18:14:52
+
+*** TITLE: * Component: $SC_filter/default.group/logic.views/testBGR  Viewpoint: eldonet
+
+TEMPERATURE : 44.000000 degrees C
+
+
+--> Partitioning circuit...
+This circuit contains access resistors which are very small.
+For instance, object X_BGR1.Q6 has an access resistor of 1.250000e-04 Ohms
+
+This can lead to convergence difficulties..
+You can use for instance .OPTION MINRACC = 1.000000e-02 
+in order to eliminate access resistors of less than 1.000000e-02 Ohms
+
+***> DC CPU TIME 0s 010ms <***
+
+DC:46 iterations FOR DC analysis
+VDD  0.0000     
+VREF  0.0000A    
+X_BGR1.N$10  0.0000A    
+X_BGR1.N$2  5.8482P    
+X_BGR1.N$3  7.8117P    
+X_BGR1.N$5  0.0000A    
+X_BGR1.N$6  35.3993P   
+X_BGR1.N$7  362.9913A  
+X_BGR1.N$8  2.6217A    
+
+   TOTAL POWER DISSIPATION:  0.0000      WATTS
+
+Entering convergence assist at value 1.425000e+00
+
+
+
+--> Performing Simplified G ramping  ...
+---> Simplified G RAMPING  : 0.000000%
+---> Simplified G RAMPING  : 10.000000%
+---> Simplified G RAMPING  : 20.000000%
+---> Simplified G RAMPING  : 30.000000%
+---> Simplified G RAMPING  : 40.000000%
+---> Simplified G RAMPING  : 50.000000%
+---> Simplified G RAMPING  : 60.000000%
+---> Simplified G RAMPING  : 70.000000%
+---> Simplified G RAMPING  : 80.000000%
+---> Simplified G RAMPING  : 90.000000%
+---> Simplified G RAMPING  : 100.000000%
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 1s 300ms <***
+
+
+
+run number 5 out of 6
+   value of parameter TEMP is 52.000000
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE: 17-Dec-2013 18:14:54
+
+*** TITLE: * Component: $SC_filter/default.group/logic.views/testBGR  Viewpoint: eldonet
+
+TEMPERATURE : 52.000000 degrees C
+
+
+--> Partitioning circuit...
+This circuit contains access resistors which are very small.
+For instance, object X_BGR1.Q6 has an access resistor of 1.250000e-04 Ohms
+
+This can lead to convergence difficulties..
+You can use for instance .OPTION MINRACC = 1.000000e-02 
+in order to eliminate access resistors of less than 1.000000e-02 Ohms
+
+***> DC CPU TIME 0s 010ms <***
+
+DC:45 iterations FOR DC analysis
+VDD  0.0000     
+VREF  0.0000A    
+X_BGR1.N$10  0.0000A    
+X_BGR1.N$2  28.3212P   
+X_BGR1.N$3 -13.0521P   
+X_BGR1.N$5  0.0000A    
+X_BGR1.N$6  1.6413P    
+X_BGR1.N$7 -579.3490A  
+X_BGR1.N$8 -595.3387A  
+
+   TOTAL POWER DISSIPATION:  0.0000      WATTS
+
+Entering convergence assist at value 1.398000e+00
+
+
+
+--> Performing Simplified G ramping  ...
+---> Simplified G RAMPING  : 0.000000%
+---> Simplified G RAMPING  : 10.000000%
+---> Simplified G RAMPING  : 20.000000%
+---> Simplified G RAMPING  : 30.000000%
+---> Simplified G RAMPING  : 40.000000%
+---> Simplified G RAMPING  : 50.000000%
+---> Simplified G RAMPING  : 60.000000%
+---> Simplified G RAMPING  : 70.000000%
+---> Simplified G RAMPING  : 80.000000%
+---> Simplified G RAMPING  : 90.000000%
+---> Simplified G RAMPING  : 100.000000%
+
+
+***>Current simulation completed
+
+
+
+
+
+***>CPU TIME 1s 270ms <***
+
+
+
+run number 6 out of 6
+   value of parameter TEMP is 60.000000
+
+
+Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
+
+*** DATE: 17-Dec-2013 18:14:55
+
+*** TITLE: * Component: $SC_filter/default.group/logic.views/testBGR  Viewpoint: eldonet
+
+TEMPERATURE : 60.000000 degrees C
+
+
+--> Partitioning circuit...
+This circuit contains access resistors which are very small.
+For instance, object X_BGR1.Q6 has an access resistor of 1.250000e-04 Ohms
+
+This can lead to convergence difficulties..
+You can use for instance .OPTION MINRACC = 1.000000e-02 
+in order to eliminate access resistors of less than 1.000000e-02 Ohms
+
+***> DC CPU TIME 0s 010ms <***
+
+DC:45 iterations FOR DC analysis
+VDD  0.0000     
+VREF  0.0000A    
+X_BGR1.N$10 -0.0000A    
+X_BGR1.N$2  22.8697P   
+X_BGR1.N$3  63.6682P   
+X_BGR1.N$5 -0.0000A    
+X_BGR1.N$6  223.7312P  
+X_BGR1.N$7  6.6285F    
+X_BGR1.N$8  5.3893A    
+
+   TOTAL POWER DISSIPATION:  0.0000      WATTS
+
+Entering convergence assist at value 1.370000e+00
+
+
+
+--> Performing Simplified G ramping  ...
+---> Simplified G RAMPING  : 0.000000%
+---> Simplified G RAMPING  : 10.000000%
+---> Simplified G RAMPING  : 20.000000%
+---> Simplified G RAMPING  : 30.000000%
+---> Simplified G RAMPING  : 40.000000%
+---> Simplified G RAMPING  : 50.000000%
+---> Simplified G RAMPING  : 60.000000%
+---> Simplified G RAMPING  : 70.000000%
+---> Simplified G RAMPING  : 80.000000%
+---> Simplified G RAMPING  : 90.000000%
+---> Simplified G RAMPING  : 100.000000%
+
+
+***>Current simulation completed
+
+
+
+
+SIMULATION INFORMATION 
+memory size allocated in bytes 127287296
+nb of components: 54
+nb of nodes: 39
+nb of MOS or BIP calls: 224031
+Number of steps computed: 0
+
+***>CPU TIME 1s 210ms <***
+
+***>MESSAGE SUMMARY: 7 warnings
+
+***>GLOBAL CPU TIME 8s 340ms <***
+
+
+***>GLOBAL ELAPSED TIME 11s <***
+
+

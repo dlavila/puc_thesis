@@ -7,7 +7,7 @@ $AnalogIP -t LIBRARY
 /home/dlavila/puc_thesis/sc_ic/giggity.proj/AnalogIP.lib
 
 $MGC_DESIGN_KIT -t LIBRARY
-/home/dlavila/UMC180PDK
+/usr/local/mentor/UMC180PDK
 
 $MGC_IC_DEVICE_LIB -t LIBRARY
 /usr/local/mentor/2008.2b_linux_x86_64/icflow_home/mgc_icstd_lib/device_lib
@@ -35,3 +35,15 @@ $MGC_IC_VERILOG_LIB -t LIBRARY
 
 $NCF_GLOBAL -t LIBRARY
 /usr/local/mentor/2008.2b_linux_x86_64/icflow_home/mgc_icstd_lib/global.ncf
+
+$SC_filter -t LIBRARY
+/home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib
+
+$RR_BUFFER -t LIBRARY
+/home/dlavila/puc_thesis/sc_ic/giggity.proj/RR_BUFFER.lib
+
+$LS_BUFFER -t LIBRARY
+/home/dlavila/puc_thesis/sc_ic/giggity.proj/LS_BUFFER.lib
+
+$OLD_STUFF -t LIBRARY
+/home/dlavila/puc_thesis/sc_ic/giggity.proj/OLD_STUFF.lib

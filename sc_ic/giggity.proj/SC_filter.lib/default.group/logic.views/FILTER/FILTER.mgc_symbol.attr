@@ -1,0 +1,13 @@
+A 5 u mgc_symbol 529661bb9cdd.03.7f.00.00.01.00.7f.2d 19 2 1 0
+V v 17 1 52d440e1e0f3.03.7f.00.00.01.00.59.dd
+F f 17 "FILTER.smbl_17"
+V v 18 1 52d440e21771.03.7f.00.00.01.00.59.dd
+F f 18 "FILTER.smbl_18"
+V v 19 1 52d440e21ebd.03.7f.00.00.01.00.59.dd
+F f 19 "FILTER.smbl_19"
+O 19
+R csduv 0 "$SC_filter/default.group/logic.views/FILTER/part" 17 Eddm_part 52d440de8d7f.03.7f.00.00.01.00.59.dd 529661bb9d77.03.7f.00.00.01.00.7f.2d
+O 18
+R csduv 0 "$SC_filter/default.group/logic.views/FILTER/part" 17 Eddm_part 52d440de8d7f.03.7f.00.00.01.00.59.dd 529661bb9d77.03.7f.00.00.01.00.7f.2d
+O 17
+R csduv 0 "$SC_filter/default.group/logic.views/FILTER/part" 17 Eddm_part 52d440de8d7f.03.7f.00.00.01.00.59.dd 529661bb9d77.03.7f.00.00.01.00.7f.2d

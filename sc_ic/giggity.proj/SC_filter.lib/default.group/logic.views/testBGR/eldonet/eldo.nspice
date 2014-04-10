@@ -1,0 +1,57 @@
+* ELDO netlist generated with ICnet by 'dlavila' on Tue Dec 17 2013 at 18:14:45
+
+*
+* Globals.
+*
+.global GROUND VDD
+
+
+*
+* Component pathname : $MGC_DESIGN_KIT/symbols/RNHR1000_MM [ELDOSPICE]
+*
+*       .include /usr/local/mentor/UMC180PDK/symbols/RNHR1000_MM/rnhr1000_mm
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/BGR
+*
+.subckt BGR  VREF AGND AVDD
+
+        M20 AVDD N$2 AVDD AVDD p_18_mm l=20u w=20u ad=9.8p as=9.8p pd=40.98u
++  ps=40.98u m=1
+        XR6 VREF AGND AGND rnhr1000_mm lr=40u wr=0.25u m=1
+        XR5 N$5 AGND AGND rnhr1000_mm lr=0.1m wr=0.25u m=1
+        XR4 N$5 N$10 AGND rnhr1000_mm lr=11u wr=0.25u m=1
+        XR3 N$7 AGND AGND rnhr1000_mm lr=0.1m wr=0.25u m=1
+        M45 VREF N$2 AVDD AVDD p_18_mm l=0.36u w=2.4u ad=1.176p as=1.176p
++  pd=5.78u ps=5.78u m=1
+        Q6 AGND AGND N$10 pnp_v50x50_mm m=8
+        M44 N$5 N$2 AVDD AVDD p_18_mm l=0.36u w=2.4u ad=1.176p as=1.176p
++  pd=5.78u ps=5.78u m=1
+        Q5 AGND AGND N$7 pnp_v50x50_mm m=1
+        M43 N$8 N$8 AGND AGND n_18_mm l=10u w=1.2u ad=0.588p as=0.588p pd=3.38u
++  ps=3.38u m=1
+        M42 N$8 N$2 AVDD AVDD p_18_mm l=0.36u w=2.4u ad=1.176p as=1.176p
++  pd=5.78u ps=5.78u m=1
+        M41 N$7 N$8 N$2 AVDD p_18_mm l=0.18u w=1.2u ad=0.588p as=0.588p
++  pd=3.38u ps=3.38u m=1
+        M40 N$7 N$2 AVDD AVDD p_18_mm l=0.36u w=2.4u ad=1.176p as=1.176p
++  pd=5.78u ps=5.78u m=1
+        M39 N$6 N$3 AGND AGND n_18_mm l=1.8u w=1.2u ad=0.588p as=0.588p
++  pd=3.38u ps=3.38u m=1
+        M38 N$2 N$7 N$6 AGND n_18_mm l=0.36u w=1.2u ad=0.588p as=0.588p
++  pd=3.38u ps=3.38u m=1
+        M37 N$3 N$5 N$6 AGND n_18_mm l=0.36u w=1.2u ad=0.588p as=0.588p
++  pd=3.38u ps=3.38u m=1
+        M36 N$3 N$3 AVDD AVDD p_18_mm l=0.36u w=2.4u ad=1.176p as=1.176p
++  pd=5.78u ps=5.78u m=1
+        M35 N$2 N$3 AVDD AVDD p_18_mm l=0.36u w=2.4u ad=1.176p as=1.176p
++  pd=5.78u ps=5.78u m=1
+.ends BGR
+
+*
+* MAIN CELL: Component pathname : $SC_filter/default.group/logic.views/testBGR
+*
+        V1 VDD GROUND DC 1.8V
+        X_BGR1 VREF GROUND VDD BGR
+*
+.end

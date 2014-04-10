@@ -1,0 +1,18 @@
+* Component: $SC_filter/default.group/logic.views/testBufferPLS  Viewpoint: eldonet
+.INCLUDE $SC_filter/default.group/logic.views/testBufferPLS/eldonet/testBufferPLS_eldonet.spi
+.INCLUDE $MGC_DESIGN_KIT/models/ELDO/include_all
+.INCLUDE $SC_filter/default.group/layout.views/BUFFER/BUFFER.cal/BUFFER.pex.netlist
+.PROBE AC V(VO)
+
+
+
+
+.OPTION NOASCII
+.OPTION MODWL
+.OPTION ENGNOT
+.OPTION AEX
+
+.TEMP 27 
+
+.AC dec 10 1 10gig
+

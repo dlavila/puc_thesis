@@ -1,0 +1,10 @@
+A 5 u Ic_cell_template 528a66ce39ed.03.7f.00.00.01.00.17.42 1 4 19 0
+V v 1 1 528a786f24ce.03.7f.00.00.01.00.17.42
+F f 1 "buffer.iccel_1"
+O 1
+R csduv 1 "$MGC_DESIGN_KIT/process/umc18ummrf" 25 Ic_persist_process 4b49fbac2b9a.03.89.ca.1c.10.00.03.ca 462ccb24bc64.03.7f.00.00.02.00.14.78
+R csduv 2 "$RR_BUFFER/default.group/layout_cfg.views/buffer/SDL" 1 Eddm_design_viewpoint 528a66ce352e.03.7f.00.00.01.01.17.42 528a66ce352e.03.7f.00.00.01.00.17.42
+R cmduv 14 "49052f642000.0d.00.01.a5.b0.00.00.00" 1 Ic_device_template 49fba4394000.0d.00.01.a5.b0.00.00.00 49052f642000.0d.00.01.a5.b0.00.00.00
+R csduv 16 "$MGC_DESIGN_KIT/process/vias/MPOLY" 6 Ic_cell_template 42db92881569.03.89.ca.18.68.00.26.d2 41bc13669e44.03.89.ca.19.36.03.12.b4
+R csduv 17 "$MGC_DESIGN_KIT/process/vias/M1M2" 7 Ic_cell_template 42db935f8d0a.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.00.12.b4
+R csdni 18 "$MGC_DESIGN_KIT/process/umc18mmrf_sdl_rules" 1 Mgc_file

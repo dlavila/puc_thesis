@@ -1,0 +1,7 @@
+A 5 u Eddm_part 526ed6c9144a.03.7f.00.00.01.00.16.b0 1 2 1 0
+V v 1 1 526ed6c9144a.03.7f.00.00.01.01.16.b0
+F f 1 "part.part_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$AnalogIP/default.group/logic.views/testMiniOpamps/schematic" 1 mgc_schematic 526ed62175bb.03.7f.00.00.01.01.16.b0 526ed62175bb.03.7f.00.00.01.00.16.b0
+P "eddm__refer_state" "eddm__refer_floating"

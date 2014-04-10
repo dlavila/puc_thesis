@@ -1,0 +1,13 @@
+A 5 u mgc_symbol 5283e1dd94a1.03.7f.00.00.01.00.18.29 38 2 1 0
+V v 36 1 52f3f8c0657e.03.7f.00.00.01.00.68.c6
+F f 36 "SCF_ota.smbl_36"
+V v 37 1 52f3f8d3ee42.03.7f.00.00.01.00.68.c6
+F f 37 "SCF_ota.smbl_37"
+V v 38 1 52f3f8d4290c.03.7f.00.00.01.00.68.c6
+F f 38 "SCF_ota.smbl_38"
+O 38
+R csduv 0 "$SC_filter/default.group/logic.views/SCF_ota/part" 30 Eddm_part 52f3f8c06592.03.7f.00.00.01.00.68.c6 5283e1dd94e4.03.7f.00.00.01.00.18.29
+O 37
+R csduv 0 "$SC_filter/default.group/logic.views/SCF_ota/part" 30 Eddm_part 52f3f8c06592.03.7f.00.00.01.00.68.c6 5283e1dd94e4.03.7f.00.00.01.00.18.29
+O 36
+R csduv 0 "$SC_filter/default.group/logic.views/SCF_ota/part" 30 Eddm_part 52f3f8c06592.03.7f.00.00.01.00.68.c6 5283e1dd94e4.03.7f.00.00.01.00.18.29

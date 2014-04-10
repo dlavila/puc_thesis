@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<drc_log>
+<comment>
+This file was automatically created. Please do not hand edit.
+</comment>
+ username="dlavila"
+ datestamp="Mon Jan 20 20:01:56 2014
+"
+<version version="2"/>
+<rve_log runset_name="/dev/null" timestamp="1390258916" drc_file="$SC_filter/default.group/layout.views/nand_X1/nand_X1.cal/nand_X1.drc.results" ll_areax="0" ll_areay="0" ur_areax="0" ur_areay="0" check_area="off" drc_summary_file="drc.summary"/>
+</drc_log>

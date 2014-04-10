@@ -1,0 +1,19 @@
+A 5 u Eddm_part 52ab4a266413.03.7f.00.00.01.00.11.d3 14 2 2 0
+V v 12 1 52963aea77dd.03.7f.00.00.01.00.6c.5a
+F f 12 "part.part_12"
+V v 13 1 52963c2f546f.03.7f.00.00.01.00.73.a9
+F f 13 "part.part_13"
+V v 14 1 52ab4a27bb50.03.7f.00.00.01.00.42.e2
+F f 14 "part.part_14"
+O 14
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$LS_BUFFER/default.group/logic.views/LS_BUFFER_inv_X1/schematic" 1 mgc_schematic 5283874950cf.03.7f.00.00.01.00.60.26 52ab4a2663ef.03.7f.00.00.01.00.11.d3
+R csduv 1 "$LS_BUFFER/default.group/logic.views/LS_BUFFER_inv_X1/LS_BUFFER_inv_X1" 8 mgc_symbol 52963c2f546c.03.7f.00.00.01.00.73.a9 52ab4a26640d.03.7f.00.00.01.00.11.d3
+O 13
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$LS_BUFFER/default.group/logic.views/LS_BUFFER_inv_X1/schematic" 1 mgc_schematic 5283874950cf.03.7f.00.00.01.00.60.26 52ab4a2663ef.03.7f.00.00.01.00.11.d3
+R csduv 1 "$LS_BUFFER/default.group/logic.views/LS_BUFFER_inv_X1/LS_BUFFER_inv_X1" 8 mgc_symbol 52963c2f546c.03.7f.00.00.01.00.73.a9 52ab4a26640d.03.7f.00.00.01.00.11.d3
+O 12
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$LS_BUFFER/default.group/logic.views/LS_BUFFER_inv_X1/schematic" 1 mgc_schematic 5283874950cf.03.7f.00.00.01.00.60.26 52ab4a2663ef.03.7f.00.00.01.00.11.d3
+R csduv 1 "$LS_BUFFER/default.group/logic.views/LS_BUFFER_inv_X1/LS_BUFFER_inv_X1" 7 mgc_symbol 52963aea77d5.03.7f.00.00.01.00.6c.5a 52ab4a26640d.03.7f.00.00.01.00.11.d3

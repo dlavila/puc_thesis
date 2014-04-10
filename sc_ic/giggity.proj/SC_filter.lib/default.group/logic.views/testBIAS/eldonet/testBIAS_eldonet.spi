@@ -1,0 +1,78 @@
+*
+* .CONNECT statements
+*
+.CONNECT GROUND 0
+
+
+* ELDO netlist generated with ICnet by 'dlavila' on Tue Dec 17 2013 at 18:44:08
+
+*
+* Globals.
+*
+.global GROUND VDD
+
+
+*
+* Component pathname : $MGC_DESIGN_KIT/symbols/RNHR1000_MM [ELDOSPICE]
+*
+*       .include /usr/local/mentor/UMC180PDK/symbols/RNHR1000_MM/rnhr1000_mm
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/BIAS
+*
+.subckt BIAS  VB3 VB4 AGND AVDD
+
+        M13 N$109 VB4 AGND AGND n_18_mm l=0.36u w=6u ad=2.94p as=2.94p pd=12.98u
++  ps=12.98u m=1
+        M12 VB4 VBIASP AVDD AVDD p_18_mm l=0.36u w=2.4u ad=1.176p as=1.176p
++  pd=5.78u ps=5.78u m=1
+        M19 AVDD VBIASP AVDD AVDD p_18_mm l=12u w=12u ad=5.88p as=5.88p
++  pd=24.98u ps=24.98u m=1
+        M1 VBIASP N$114 AGND AGND n_18_mm l=0.36u w=1.2u ad=0.588p as=0.588p
++  pd=3.38u ps=3.38u m=1
+        M10 VBIASP N$64 N$114 AGND n_18_mm l=0.18u w=0.24u ad=0.118p as=0.118p
++  pd=1.46u ps=1.46u m=1
+        M11 N$64 N$64 AVDD AVDD p_18_mm l=3.6u w=0.24u ad=0.118p as=0.118p
++  pd=1.46u ps=1.46u m=1
+        M9 N$64 N$114 AGND AGND n_18_mm l=0.36u w=1.2u ad=0.588p as=0.588p
++  pd=3.38u ps=3.38u m=1
+        M7 N$114 N$114 AGND AGND n_18_mm l=0.36u w=1.2u ad=0.588p as=0.588p
++  pd=3.38u ps=3.38u m=1
+        M8 N$114 VBIASP AVDD AVDD p_18_mm l=0.36u w=2.4u ad=1.176p as=1.176p
++  pd=5.78u ps=5.78u m=1
+        XR1 N$6 AGND AGND rnhr1000_mm lr=5.2u wr=1u m=1
+        M5 N$20 N$20 N$6 AGND n_18_mm l=0.36u w=4.8u ad=2.352p as=2.352p
++  pd=10.58u ps=10.58u m=1
+        M2 VBIASP N$10 AVDD AVDD p_18_mm l=0.36u w=2.4u ad=1.176p as=1.176p
++  pd=5.78u ps=5.78u m=1
+        M15 VB4 VB3 N$109 AGND n_18_mm l=0.36u w=6u ad=2.94p as=2.94p pd=12.98u
++  ps=12.98u m=1
+        M4 N$10 N$20 AGND AGND n_18_mm l=0.36u w=1.2u ad=0.588p as=0.588p
++  pd=3.38u ps=3.38u m=1
+        M17 VB3 VBIASP AVDD AVDD p_18_mm l=0.36u w=2.4u ad=1.176p as=1.176p
++  pd=5.78u ps=5.78u m=1
+        M18 VB3 VB3 AGND AGND n_18_mm l=1.8u w=1u ad=0.49p as=0.49p pd=2.98u
++  ps=2.98u m=1
+        M3 N$10 N$10 AVDD AVDD p_18_mm l=0.36u w=2.4u ad=1.176p as=1.176p
++  pd=5.78u ps=5.78u m=1
+        M6 N$20 VBIASP AVDD AVDD p_18_mm l=0.36u w=2.4u ad=1.176p as=1.176p
++  pd=5.78u ps=5.78u m=1
+.ends BIAS
+
+*
+* MAIN CELL: Component pathname : $SC_filter/default.group/logic.views/testBIAS
+*
+        R2 VDD N$21 1K
+        M2 N$21 N$23 N$20 GROUND n_18_mm l=0.36u w=8u ad=3.92p as=3.92p
++  pd=16.98u ps=16.98u m=1
+        M1 N$20 N$24 GROUND GROUND n_18_mm l=0.36u w=8u ad=3.92p as=3.92p
++  pd=16.98u ps=16.98u m=1
+        R1 VDD N$16 1K
+        M15 N$16 N$23 N$15 GROUND n_18_mm l=0.36u w=1.3u ad=0.637p as=0.637p
++  pd=3.58u ps=3.58u m=1
+        M13 N$15 N$24 GROUND GROUND n_18_mm l=0.36u w=1.3u ad=0.637p as=0.637p
++  pd=3.58u ps=3.58u m=1
+        V1 VDD GROUND DC 1.8V
+        X_BIAS1 N$23 N$24 GROUND VDD BIAS
+*
+.end

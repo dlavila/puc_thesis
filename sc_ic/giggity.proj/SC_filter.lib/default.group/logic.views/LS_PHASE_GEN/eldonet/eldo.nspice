@@ -1,0 +1,58 @@
+* ELDO netlist generated with ICnet by 'dlavila' on Fri Dec 13 2013 at 15:20:34
+
+*
+* Globals.
+*
+.global ls_buffer_vdd ground
+
+*
+* Component pathname : $LS_BUFFER/default.group/logic.views/LS_BUFFER_inv_X4
+*
+.subckt ls_buffer_inv_x4  o i
+
+        m2 o i ls_buffer_vdd ls_buffer_vdd p_18_mm l=0.18u w=0.75u ad=0.203p
++  as=0.285p pd=1.29u ps=1.885u m=4
+        m1 o i ground ground n_18_mm l=0.18u w=0.25u ad=67.5f as=95f pd=0.79u
++  ps=1.135u m=4
+.ends ls_buffer_inv_x4
+
+*
+* Component pathname : $LS_BUFFER/default.group/logic.views/PHASE_GEN_nand_X4
+*
+.subckt phase_gen_nand_x4  o a b
+
+        m1 o b ls_buffer_vdd ls_buffer_vdd p_18_mm l=0.18u w=0.75u ad=0.203p
++  as=0.285p pd=1.29u ps=1.885u m=4
+        m4 o a ls_buffer_vdd ls_buffer_vdd p_18_mm l=0.18u w=0.75u ad=0.203p
++  as=0.285p pd=1.29u ps=1.885u m=4
+        m3 n$75 b ground ground n_18_mm l=0.18u w=0.25u ad=67.5f as=95f
++  pd=0.79u ps=1.135u m=4
+        m2 o a n$75 ground n_18_mm l=0.18u w=0.25u ad=67.5f as=95f pd=0.79u
++  ps=1.135u m=4
+.ends phase_gen_nand_x4
+
+*
+* Component pathname : $LS_BUFFER/default.group/logic.views/LS_BUFFER_inv_X2
+*
+.subckt ls_buffer_inv_x2  o i
+
+        m2 o i ls_buffer_vdd ls_buffer_vdd p_18_mm l=0.18u w=0.75u ad=0.203p
++  as=0.368p pd=1.29u ps=2.48u m=2
+        m1 o i ground ground n_18_mm l=0.18u w=0.25u ad=67.5f as=0.122p
++  pd=0.79u ps=1.48u m=2
+.ends ls_buffer_inv_x2
+
+*
+* MAIN CELL: Component pathname : $LS_BUFFER/default.group/logic.views/PHASE_GEN
+*
+        x_ls_buffer_inv_x46 phi2 n$226 ls_buffer_inv_x4
+        x_ls_buffer_inv_x45 n$226 n$225 ls_buffer_inv_x4
+        x_ls_buffer_inv_x41 n$225 n$224 ls_buffer_inv_x4
+        x_ls_buffer_inv_x44 phi1 n$223 ls_buffer_inv_x4
+        x_ls_buffer_inv_x42 n$221 n$9 ls_buffer_inv_x4
+        x_ls_buffer_inv_x43 n$223 n$221 ls_buffer_inv_x4
+        x_phase_gen_nand_x42 n$224 n$220 n$223 phase_gen_nand_x4
+        x_ls_buffer_inv_x21 n$220 clk ls_buffer_inv_x2
+        x_phase_gen_nand_x41 n$9 clk n$226 phase_gen_nand_x4
+*
+.end

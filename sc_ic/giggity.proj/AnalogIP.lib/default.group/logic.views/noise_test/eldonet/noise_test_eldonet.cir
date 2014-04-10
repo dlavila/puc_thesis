@@ -1,0 +1,19 @@
+* Component: $AnalogIP/default.group/logic.views/noise_test  Viewpoint: eldonet
+.INCLUDE $AnalogIP/default.group/logic.views/noise_test/eldonet/noise_test_eldonet.spi
+.INCLUDE $MGC_DESIGN_KIT/models/ELDO/include_all
+.PROBE VX
+
+
+
+
+.OPTION NOASCII
+.OPTION MODWL
+.OPTION ENGNOT
+.OPTION AEX
+
+.TEMP 27 
+
+.AC dec 10 1 10gig
+
+.NOISE V(VO) V1 0
+.PLOT NOISE DB(ONOISE)

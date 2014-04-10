@@ -1,0 +1,19 @@
+A 5 u Eddm_part 52d42dac5d56.03.7f.00.00.01.00.02.9f 19 2 2 0
+V v 17 1 52d42dadc6e1.03.7f.00.00.01.00.05.ec
+F f 17 "part.part_17"
+V v 18 1 52d4331892a4.03.7f.00.00.01.00.34.c1
+F f 18 "part.part_18"
+V v 19 1 52d4331e2afa.03.7f.00.00.01.00.34.c1
+F f 19 "part.part_19"
+O 19
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/inv_X16/schematic" 1 mgc_schematic 5283874950cf.03.7f.00.00.01.00.60.26 52d42dac5c48.03.7f.00.00.01.00.02.9f
+R csduv 1 "$SC_filter/default.group/logic.views/inv_X16/inv_X16" 12 mgc_symbol 52d4331e2ae0.03.7f.00.00.01.00.34.c1 52d42dac5d36.03.7f.00.00.01.00.02.9f
+O 18
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/inv_X16/schematic" 1 mgc_schematic 5283874950cf.03.7f.00.00.01.00.60.26 52d42dac5c48.03.7f.00.00.01.00.02.9f
+R csduv 1 "$SC_filter/default.group/logic.views/inv_X16/inv_X16" 11 mgc_symbol 52d43318929b.03.7f.00.00.01.00.34.c1 52d42dac5d36.03.7f.00.00.01.00.02.9f
+O 17
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/inv_X16/schematic" 1 mgc_schematic 5283874950cf.03.7f.00.00.01.00.60.26 52d42dac5c48.03.7f.00.00.01.00.02.9f
+R csduv 1 "$SC_filter/default.group/logic.views/inv_X16/inv_X16" 10 mgc_symbol 52963c2d69ba.03.7f.00.00.01.00.73.a9 52d42dac5d36.03.7f.00.00.01.00.02.9f

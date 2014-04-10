@@ -1,0 +1,29 @@
+A 5 u Ic_cell_template 52d947917fb7.03.7f.00.00.01.00.19.dd 5 4 6 0
+V v 1 1 52d9581b9018.03.7f.00.00.01.00.19.dd
+F f 1 "test_comp.test_comp.iccel_1"
+V v 2 1 52d9588ca63b.03.7f.00.00.01.00.19.dd
+F f 2 "test_comp.test_comp.iccel_2"
+V v 3 1 52d95ab4db82.03.7f.00.00.01.00.19.dd
+F f 3 "test_comp.test_comp.iccel_3"
+V v 4 1 52d98ae3785b.03.7f.00.00.01.00.41.d3
+F f 4 "test_comp.test_comp.iccel_4"
+V v 5 1 52dd68ae256f.03.7f.00.00.01.00.1e.14
+F f 5 "test_comp.test_comp.iccel_5"
+O 5
+R csduv 1 "$MGC_DESIGN_KIT/process/umc18ummrf" 25 Ic_persist_process 4b49fbac2b9a.03.89.ca.1c.10.00.03.ca 462ccb24bc64.03.7f.00.00.02.00.14.78
+R csdni 3 "$MGC_DESIGN_KIT/process/umc18mmrf_sdl_rules" 1 Mgc_file
+O 4
+R csduv 1 "$MGC_DESIGN_KIT/process/umc18ummrf" 25 Ic_persist_process 4b49fbac2b9a.03.89.ca.1c.10.00.03.ca 462ccb24bc64.03.7f.00.00.02.00.14.78
+R csdni 3 "$MGC_DESIGN_KIT/process/umc18mmrf_sdl_rules" 1 Mgc_file
+R csduv 4 "$SC_filter/default.group/layout.views/mux_X16/mux_X16" 35 Ic_cell_template 52d98ad3e6cb.03.7f.00.00.01.00.41.d3 52d44bcecfa4.03.7f.00.00.01.00.02.19
+O 3
+R csduv 1 "$MGC_DESIGN_KIT/process/umc18ummrf" 25 Ic_persist_process 4b49fbac2b9a.03.89.ca.1c.10.00.03.ca 462ccb24bc64.03.7f.00.00.02.00.14.78
+R csdni 3 "$MGC_DESIGN_KIT/process/umc18mmrf_sdl_rules" 1 Mgc_file
+O 2
+R csduv 1 "$MGC_DESIGN_KIT/process/umc18ummrf" 25 Ic_persist_process 4b49fbac2b9a.03.89.ca.1c.10.00.03.ca 462ccb24bc64.03.7f.00.00.02.00.14.78
+R csduv 2 "$SC_filter/default.group/layout.views/mux_X16/mux_X16" 14 Ic_cell_template 52d957b7842f.03.7f.00.00.01.00.19.dd 52d44bcecfa4.03.7f.00.00.01.00.02.19
+R csdni 3 "$MGC_DESIGN_KIT/process/umc18mmrf_sdl_rules" 1 Mgc_file
+O 1
+R csduv 1 "$MGC_DESIGN_KIT/process/umc18ummrf" 25 Ic_persist_process 4b49fbac2b9a.03.89.ca.1c.10.00.03.ca 462ccb24bc64.03.7f.00.00.02.00.14.78
+R csduv 2 "$SC_filter/default.group/layout.views/mux_X16/mux_X16" 14 Ic_cell_template 52d957b7842f.03.7f.00.00.01.00.19.dd 52d44bcecfa4.03.7f.00.00.01.00.02.19
+R csdni 3 "$MGC_DESIGN_KIT/process/umc18mmrf_sdl_rules" 1 Mgc_file

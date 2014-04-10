@@ -56,95 +56,50 @@ Warning 406: In file "/usr/local/mentor/UMC180PDK/models/ELDO/include_all" line 
 
 ***** GENERATION ...
 
-Warning 706: In file "/usr/local/mentor/UMC180PDK/models/ELDO/MM180_MIMCAP_V101.mdl.eldo" line 9:
-+   During the creation of XC3, the parameter W in subckt MIMCAPS_MM is ignored as it is already specified on the instance line.
-Warning 706: In file "/usr/local/mentor/UMC180PDK/models/ELDO/MM180_MIMCAP_V101.mdl.eldo" line 9:
-+   During the creation of XC3, the parameter L in subckt MIMCAPS_MM is ignored as it is already specified on the instance line.
-Warning 1615: In file "./testRFC_eldonet.cir" line 18:
+Warning 1615: In file "./testRFC_eldonet.cir" line 23:
 +   COMMAND ".TRAN": Tstep can not be <= 0.0.
-+   It is set to Tmax/20.0 = 5.000e-09 s.
++   It is set to Tmax/20.0 = 1.000e-08 s.
 Warning 107:  NODE "VO": Less than two connections.
-/lib64/libc.so.6: file not recognized: File format not recognized
-collect2: ld returned 1 exit status
 
 ***** 0  error(s). 
-***** 5  warning(s). 
+***** 3  warning(s). 
 
 
 INFORMATION ABOUT COMPILATION...
 
 
-Memory space allocated (bytes): 123469824
-64 elements
-44 nodes
-5 input signals
-Warning 118:  NODE "N$810": No DC path to ground.
-Warning 118:  NODE "N$811": No DC path to ground.
+Memory space allocated (bytes): 123465728
+73 elements
+45 nodes
+4 input signals
 
 Eldo VERSION : ELDO 2009.2 (64 bits) Fri Nov 20 13:09:45 GMT 2009
 
-*** DATE:  9-Oct-2013 23:30:31
+*** DATE:  5-Nov-2013 11:28:14
 
 *** TITLE: * Component: $AnalogIP/default.group/logic.views/testRFC  Viewpoint: eldonet
 
 TEMPERATURE : 27.000000 degrees C
 
-Warning 1619:This netlist contains expressions using strongly non-linear functions such as ABS() MIN(), 
-+   MAX() (found in device XC3.C1 for instance) 
-+   If, and only if, convergence problems occur either in DC or transient analysis, 
-+   the .option mmsmooth is a possible workaround worth testing. 
-+   It is NOT recommended to activate it systematically, or if there are no particular convergence problems. 
-+   Please refer to the documentation for further discussions about this option
-Searching Operating Point between -1.800000e+00V and 
-                                  3.600000e+00V
+Searching Operating Point between -2.000000e+00V and 
+                                  3.700000e+00V
 
 Performing DC analysis...
+Connecting to JWDB server, please wait...
+connected to wdb server : -jwdbhost localhost.localdomain -jwdbport 47449
+
 
 --> Partitioning circuit...
 
-***> DC CPU TIME 0s 020ms <***
+***> DC CPU TIME 0s 010ms <***
 
-DC:2 iterations FOR DC analysis
+DC:4 iterations FOR DC analysis
 
-   TOTAL POWER DISSIPATION:  1.1523M     WATTS
+   TOTAL POWER DISSIPATION:  1.7725M     WATTS
 
 
-Eldo NEWTON: VNTOL=1.000000e-06 RELTOL=6.111111e-04
+   POWER DISSIPATION THROUGH CONTROLLED SOURCES: -76.7499P    WATTS
 
-Connecting to JWDB server, please wait...
-connected to wdb server : -jwdbhost localhost.localdomain -jwdbport 33442
-
-Compute from 0.000000 Nano to 100.000000 Nano
-................................................
-Simulation progress           : 10% (t = 10.0021 N)
-Elapsed CPU time              :  0h  0mn  0s 200    ( 0h  0mn  0s 200)
-................................................
-Simulation progress           : 20% (t = 20.0056 N)
-Elapsed CPU time              :  0h  0mn  0s 260    ( 0h  0mn  0s 460)
-................................................
-Simulation progress           : 30% (t = 30.0020 N)
-Elapsed CPU time              :  0h  0mn  0s 240    ( 0h  0mn  0s 700)
-................................................
-Simulation progress           : 40% (t = 40.0054 N)
-Elapsed CPU time              :  0h  0mn  0s 220    ( 0h  0mn  0s 920)
-................................................
-Simulation progress           : 50% (t = 50.0020 N)
-Elapsed CPU time              :  0h  0mn  0s 240    ( 0h  0mn  1s 160)
-................................................
-Simulation progress           : 60% (t = 60.0055 N)
-Elapsed CPU time              :  0h  0mn  0s 230    ( 0h  0mn  1s 390)
-................................................
-Simulation progress           : 70% (t = 70.0021 N)
-Elapsed CPU time              :  0h  0mn  0s 240    ( 0h  0mn  1s 630)
-................................................
-Simulation progress           : 80% (t = 80.0056 N)
-Elapsed CPU time              :  0h  0mn  0s 210    ( 0h  0mn  1s 840)
-................................................
-Simulation progress           : 90% (t = 90.0020 N)
-Elapsed CPU time              :  0h  0mn  0s 210    ( 0h  0mn  2s  50)
-................................................
-Simulation progress           : 100% (t = 100.0000 N)
-Elapsed CPU time              :  0h  0mn  0s 210    ( 0h  0mn  2s 260)
 
 
 ***>Current simulation completed
@@ -153,21 +108,83 @@ Elapsed CPU time              :  0h  0mn  0s 210    ( 0h  0mn  2s 260)
 
 
 SIMULATION INFORMATION 
-memory size allocated in bytes 126398464
+memory size allocated in bytes 126394368
+nb of components: 165
+nb of nodes: 137
+nb of MOS or BIP calls: 5404
+Number of steps computed: 0
+
+***>CPU TIME 0s 010ms <***
+
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 010ms <***
+
+DC:1 iterations FOR DC analysis
+
+   TOTAL POWER DISSIPATION:  1.7725M     WATTS
+
+
+   POWER DISSIPATION THROUGH CONTROLLED SOURCES: -76.7499P    WATTS
+
+
+Eldo NEWTON: VNTOL=1.000000e-06 RELTOL=6.111111e-04
+
+Compute from 0.000000 Nano to 200.000000 Nano
+................................................
+Simulation progress           : 10% (t = 20.0000 N)
+Elapsed CPU time              :  0h  0mn  0s 360    ( 0h  0mn  0s 360)
+................................................
+Simulation progress           : 20% (t = 40.0100 N)
+Elapsed CPU time              :  0h  0mn  0s 400    ( 0h  0mn  0s 760)
+................................................
+Simulation progress           : 30% (t = 60.0100 N)
+Elapsed CPU time              :  0h  0mn  0s 360    ( 0h  0mn  1s 120)
+................................................
+Simulation progress           : 40% (t = 80.0000 N)
+Elapsed CPU time              :  0h  0mn  0s 380    ( 0h  0mn  1s 500)
+................................................
+Simulation progress           : 50% (t = 100.0000 N)
+Elapsed CPU time              :  0h  0mn  0s 350    ( 0h  0mn  1s 850)
+................................................
+Simulation progress           : 60% (t = 120.0000 N)
+Elapsed CPU time              :  0h  0mn  0s 350    ( 0h  0mn  2s 200)
+................................................
+Simulation progress           : 70% (t = 140.0100 N)
+Elapsed CPU time              :  0h  0mn  0s 350    ( 0h  0mn  2s 550)
+................................................
+Simulation progress           : 80% (t = 160.0000 N)
+Elapsed CPU time              :  0h  0mn  0s 350    ( 0h  0mn  2s 900)
+................................................
+Simulation progress           : 90% (t = 180.0100 N)
+Elapsed CPU time              :  0h  0mn  0s 360    ( 0h  0mn  3s 260)
+................................................
+Simulation progress           : 100% (t = 200.0000 N)
+Elapsed CPU time              :  0h  0mn  0s 320    ( 0h  0mn  3s 580)
+
+
+***>Current simulation completed
+
+
+
+
+SIMULATION INFORMATION 
+memory size allocated in bytes 127582208
 Latency: 0.000000%
-average number of newton iterations: 1.906017
-nb of components: 156
-nb of nodes: 136
-nb of MOS or BIP calls: 58976
-Number of steps computed: 10055
+average number of newton iterations: 1.950702
+nb of components: 165
+nb of nodes: 137
+nb of MOS or BIP calls: 10310
+Number of steps computed: 20001
 
-***>CPU TIME 2s 260ms <***
+***>CPU TIME 3s 580ms <***
 
-***>MESSAGE SUMMARY: 8 warnings
+***>MESSAGE SUMMARY: 3 warnings
 
-***>GLOBAL CPU TIME 2s 320ms <***
+***>GLOBAL CPU TIME 3s 650ms <***
 
 
-***>GLOBAL ELAPSED TIME 5s <***
+***>GLOBAL ELAPSED TIME 6s <***
 
 

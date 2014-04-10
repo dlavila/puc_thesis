@@ -1,0 +1,11 @@
+START report: Tue Dec 17 18:44:09 2013 
+Warning: (eldo - 406)  In file "/usr/local/mentor/UMC180PDK/models/ELDO/include_all" line 1:
++   COMMAND .LIB cannot find corner tt in library /usr/local/mentor/UMC180PDK/models/ELDO/018-rf-v2d4-control.eldo
+Warning: (eldo - 252)  In file "/usr/local/mentor/UMC180PDK/models/ELDO/MM180_RES_V133.mdl.eldo56" line 42:
++   OBJECT "X_BIAS1.XR1.C1": Self-connected object not created.
+Warning: (eldo - 1619) This netlist contains expressions using strongly non-linear functions such as ABS() MIN(), 
++   MAX() (found in device X_BIAS1.XR1.R1 for instance) 
++   If, and only if, convergence problems occur either in DC or transient analysis, 
++   the .option mmsmooth is a possible workaround worth testing. 
++   It is NOT recommended to activate it systematically, or if there are no particular convergence problems. 
++   Please refer to the documentation for further discussions about this option

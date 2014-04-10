@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 529661bb9ce5.03.7f.00.00.01.00.7f.2d 258 2 1 0
+V v 256 1 52d440a972d0.03.7f.00.00.01.00.59.dd
+F o 0 ""
+V v 257 1 52d440e2efe4.03.7f.00.00.01.00.59.dd
+F o 0 ""
+V v 258 1 52d445a109ea.03.7f.00.00.01.00.66.e6
+F o 0 ""
+O 258
+R cspuv 0 "$SC_filter/default.group/logic.views/FILTER/schematic/sheet1" 257 mgc_sheet 52d445a109b5.03.7f.00.00.01.00.66.e6 529661bb9d04.03.7f.00.00.01.00.7f.2d
+O 257
+R cspuv 0 "$SC_filter/default.group/logic.views/FILTER/schematic/sheet1" 256 mgc_sheet 52d440e2efce.03.7f.00.00.01.00.59.dd 529661bb9d04.03.7f.00.00.01.00.7f.2d
+O 256
+R cspuv 0 "$SC_filter/default.group/logic.views/FILTER/schematic/sheet1" 255 mgc_sheet 52d440a972b6.03.7f.00.00.01.00.59.dd 529661bb9d04.03.7f.00.00.01.00.7f.2d

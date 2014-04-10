@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 52b1e6d903ac.03.7f.00.00.01.00.15.55 16 2 1 0
+V v 14 1 527ae348d8a9.03.7f.00.00.01.00.2e.b1
+F o 0 ""
+V v 15 1 527ae62c8ce2.03.7f.00.00.01.00.31.55
+F o 0 ""
+V v 16 1 528530aaba24.03.7f.00.00.01.00.63.06
+F o 0 ""
+O 16
+R cspuv 0 "$OLD_STUFF/CMFB.group/logic.views/CMFB_switch/schematic/sheet1" 15 mgc_sheet 528530aaba08.03.7f.00.00.01.00.63.06 52b1e6d903bc.03.7f.00.00.01.00.15.55
+O 15
+R cspuv 0 "$OLD_STUFF/CMFB.group/logic.views/CMFB_switch/schematic/sheet1" 14 mgc_sheet 527ae62c8ccc.03.7f.00.00.01.00.31.55 52b1e6d903bc.03.7f.00.00.01.00.15.55
+O 14
+R cspuv 0 "$OLD_STUFF/CMFB.group/logic.views/CMFB_switch/schematic/sheet1" 13 mgc_sheet 527ae348d895.03.7f.00.00.01.00.2e.b1 52b1e6d903bc.03.7f.00.00.01.00.15.55

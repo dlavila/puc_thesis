@@ -1,0 +1,49 @@
+A 5 u mgc_sheet 52af65884a8b.03.7f.00.00.01.00.45.0b 73 2 33 0
+V v 71 2 52b0c50c7ffd.03.7f.00.00.01.00.03.e8
+F f 71 "sheet1.ssht_71"
+F f 71 "sheet1.sgfx_71"
+V v 72 2 52ea70d01de1.03.7f.00.00.01.00.4f.e5
+F f 72 "sheet1.ssht_72"
+F f 72 "sheet1.sgfx_72"
+V v 73 2 52ea70d08f4a.03.7f.00.00.01.00.4f.e5
+F f 73 "sheet1.ssht_73"
+F f 73 "sheet1.sgfx_73"
+O 73
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/BIAS/schematic" 1 mgc_schematic 52af6588496f.03.7f.00.00.01.01.45.0b 52af6588496f.03.7f.00.00.01.00.45.0b
+R csduv 3 "$MGC_DESIGN_KIT/symbols/P_18_MM/part" 23 Eddm_part 462e23ba79d1.03.7f.00.00.01.00.54.63 461b99bfbe81.03.89.ca.19.1a.00.4f.21
+R csduv 4 "$MGC_DESIGN_KIT/symbols/P_18_MM/P_18_MM" 6 mgc_symbol 462e23ba79c0.03.7f.00.00.01.00.54.63 461b99c2ec2d.03.89.ca.19.1a.00.4f.21
+R csduv 5 "$MGC_DESIGN_KIT/symbols/N_18_MM/part" 26 Eddm_part 462e23b780f6.03.7f.00.00.01.00.54.63 461b99901841.03.89.ca.19.1a.00.4f.21
+R csduv 6 "$MGC_DESIGN_KIT/symbols/N_18_MM/N_18_MM" 9 mgc_symbol 462e23b780e7.03.7f.00.00.01.00.54.63 461b99935891.03.89.ca.19.1a.00.4f.21
+R csduv 17 "$MGC_DESIGN_KIT/symbols/RNHR1000_MM/part" 28 Eddm_part 48187ecf321a.03.7f.00.00.01.00.4d.3f 461b99e52043.03.89.ca.19.1a.00.4f.21
+R csduv 18 "$MGC_DESIGN_KIT/symbols/RNHR1000_MM/RNHR1000_MM" 12 mgc_symbol 48187ecf3212.03.7f.00.00.01.00.4d.3f 461b99e8467d.03.89.ca.19.1a.00.4f.21
+R csduv 29 "$MGC_IC_GENERIC_LIB/portin/part" 1 Eddm_part 35773eaadc18.03.86.56.31.87.00.0e.9f 3890e8888efb.03.86.56.31.70.00.3a.eb
+R csduv 30 "$MGC_IC_GENERIC_LIB/portin/portin" 1 mgc_symbol 35773d18855d.03.86.56.31.87.00.0e.9f 3890e8888efa.03.86.56.31.70.04.3a.eb
+R csduv 31 "$MGC_IC_GENERIC_LIB/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 3890e8888efa.03.86.56.31.70.03.3a.eb
+R csduv 32 "$MGC_IC_GENERIC_LIB/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 3890e8888efa.03.86.56.31.70.02.3a.eb
+O 72
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/BIAS/schematic" 1 mgc_schematic 52af6588496f.03.7f.00.00.01.01.45.0b 52af6588496f.03.7f.00.00.01.00.45.0b
+R csduv 3 "$MGC_DESIGN_KIT/symbols/P_18_MM/part" 23 Eddm_part 462e23ba79d1.03.7f.00.00.01.00.54.63 461b99bfbe81.03.89.ca.19.1a.00.4f.21
+R csduv 4 "$MGC_DESIGN_KIT/symbols/P_18_MM/P_18_MM" 6 mgc_symbol 462e23ba79c0.03.7f.00.00.01.00.54.63 461b99c2ec2d.03.89.ca.19.1a.00.4f.21
+R csduv 5 "$MGC_DESIGN_KIT/symbols/N_18_MM/part" 26 Eddm_part 462e23b780f6.03.7f.00.00.01.00.54.63 461b99901841.03.89.ca.19.1a.00.4f.21
+R csduv 6 "$MGC_DESIGN_KIT/symbols/N_18_MM/N_18_MM" 9 mgc_symbol 462e23b780e7.03.7f.00.00.01.00.54.63 461b99935891.03.89.ca.19.1a.00.4f.21
+R csduv 17 "$MGC_DESIGN_KIT/symbols/RNHR1000_MM/part" 28 Eddm_part 48187ecf321a.03.7f.00.00.01.00.4d.3f 461b99e52043.03.89.ca.19.1a.00.4f.21
+R csduv 18 "$MGC_DESIGN_KIT/symbols/RNHR1000_MM/RNHR1000_MM" 12 mgc_symbol 48187ecf3212.03.7f.00.00.01.00.4d.3f 461b99e8467d.03.89.ca.19.1a.00.4f.21
+R csduv 29 "$MGC_IC_GENERIC_LIB/portin/part" 1 Eddm_part 35773eaadc18.03.86.56.31.87.00.0e.9f 3890e8888efb.03.86.56.31.70.00.3a.eb
+R csduv 30 "$MGC_IC_GENERIC_LIB/portin/portin" 1 mgc_symbol 35773d18855d.03.86.56.31.87.00.0e.9f 3890e8888efa.03.86.56.31.70.04.3a.eb
+R csduv 31 "$MGC_IC_GENERIC_LIB/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 3890e8888efa.03.86.56.31.70.03.3a.eb
+R csduv 32 "$MGC_IC_GENERIC_LIB/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 3890e8888efa.03.86.56.31.70.02.3a.eb
+O 71
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/BIAS/schematic" 1 mgc_schematic 52af6588496f.03.7f.00.00.01.01.45.0b 52af6588496f.03.7f.00.00.01.00.45.0b
+R csduv 3 "$MGC_DESIGN_KIT/symbols/P_18_MM/part" 23 Eddm_part 462e23ba79d1.03.7f.00.00.01.00.54.63 461b99bfbe81.03.89.ca.19.1a.00.4f.21
+R csduv 4 "$MGC_DESIGN_KIT/symbols/P_18_MM/P_18_MM" 6 mgc_symbol 462e23ba79c0.03.7f.00.00.01.00.54.63 461b99c2ec2d.03.89.ca.19.1a.00.4f.21
+R csduv 5 "$MGC_DESIGN_KIT/symbols/N_18_MM/part" 26 Eddm_part 462e23b780f6.03.7f.00.00.01.00.54.63 461b99901841.03.89.ca.19.1a.00.4f.21
+R csduv 6 "$MGC_DESIGN_KIT/symbols/N_18_MM/N_18_MM" 9 mgc_symbol 462e23b780e7.03.7f.00.00.01.00.54.63 461b99935891.03.89.ca.19.1a.00.4f.21
+R csduv 17 "$MGC_DESIGN_KIT/symbols/RNHR1000_MM/part" 28 Eddm_part 48187ecf321a.03.7f.00.00.01.00.4d.3f 461b99e52043.03.89.ca.19.1a.00.4f.21
+R csduv 18 "$MGC_DESIGN_KIT/symbols/RNHR1000_MM/RNHR1000_MM" 12 mgc_symbol 48187ecf3212.03.7f.00.00.01.00.4d.3f 461b99e8467d.03.89.ca.19.1a.00.4f.21
+R csduv 29 "$MGC_IC_GENERIC_LIB/portin/part" 1 Eddm_part 35773eaadc18.03.86.56.31.87.00.0e.9f 3890e8888efb.03.86.56.31.70.00.3a.eb
+R csduv 30 "$MGC_IC_GENERIC_LIB/portin/portin" 1 mgc_symbol 35773d18855d.03.86.56.31.87.00.0e.9f 3890e8888efa.03.86.56.31.70.04.3a.eb
+R csduv 31 "$MGC_IC_GENERIC_LIB/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 3890e8888efa.03.86.56.31.70.03.3a.eb
+R csduv 32 "$MGC_IC_GENERIC_LIB/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 3890e8888efa.03.86.56.31.70.02.3a.eb

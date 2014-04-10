@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 526e9eb46bb4.03.7f.00.00.01.00.16.d6 6 2 1 0
+V v 4 1 526ea002a50b.03.7f.00.00.01.00.16.d6
+F o 0 ""
+V v 5 1 526ea007878a.03.7f.00.00.01.00.16.d6
+F o 0 ""
+V v 6 1 526ea1996a91.03.7f.00.00.01.00.20.2b
+F o 0 ""
+O 6
+R cspuv 0 "$AnalogIP/default.group/logic.views/cmos_switch/schematic/sheet1" 5 mgc_sheet 526ea1996a75.03.7f.00.00.01.00.20.2b 526e9eb46cc8.03.7f.00.00.01.00.16.d6
+O 5
+R cspuv 0 "$AnalogIP/default.group/logic.views/cmos_switch/schematic/sheet1" 4 mgc_sheet 526ea0078777.03.7f.00.00.01.00.16.d6 526e9eb46cc8.03.7f.00.00.01.00.16.d6
+O 4
+R cspuv 0 "$AnalogIP/default.group/logic.views/cmos_switch/schematic/sheet1" 3 mgc_sheet 526ea002a4ef.03.7f.00.00.01.00.16.d6 526e9eb46cc8.03.7f.00.00.01.00.16.d6

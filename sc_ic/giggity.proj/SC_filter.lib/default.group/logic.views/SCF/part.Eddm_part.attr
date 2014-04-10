@@ -1,0 +1,19 @@
+A 5 u Eddm_part 52f3faa41424.03.7f.00.00.01.00.70.13 13 2 2 0
+V v 11 1 52f69c062958.03.7f.00.00.01.00.0b.58
+F f 11 "part.part_11"
+V v 12 1 52f69c066bc5.03.7f.00.00.01.00.0b.58
+F f 12 "part.part_12"
+V v 13 1 52f69c06e19c.03.7f.00.00.01.00.0b.58
+F f 13 "part.part_13"
+O 13
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/SCF/schematic" 1 mgc_schematic 52f3f90e26da.03.7f.00.00.01.01.70.13 52f3f90e26da.03.7f.00.00.01.00.70.13
+R csduv 1 "$SC_filter/default.group/logic.views/SCF/SCF" 15 mgc_symbol 52f69c06e187.03.7f.00.00.01.00.0b.58 52f3fb04848f.03.7f.00.00.01.00.70.13
+O 12
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/SCF/schematic" 1 mgc_schematic 52f3f90e26da.03.7f.00.00.01.01.70.13 52f3f90e26da.03.7f.00.00.01.00.70.13
+R csduv 1 "$SC_filter/default.group/logic.views/SCF/SCF" 14 mgc_symbol 52f69c066bc0.03.7f.00.00.01.00.0b.58 52f3fb04848f.03.7f.00.00.01.00.70.13
+O 11
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/SCF/schematic" 1 mgc_schematic 52f3f90e26da.03.7f.00.00.01.01.70.13 52f3f90e26da.03.7f.00.00.01.00.70.13
+R csduv 1 "$SC_filter/default.group/logic.views/SCF/SCF" 13 mgc_symbol 52f69c062951.03.7f.00.00.01.00.0b.58 52f3fb04848f.03.7f.00.00.01.00.70.13

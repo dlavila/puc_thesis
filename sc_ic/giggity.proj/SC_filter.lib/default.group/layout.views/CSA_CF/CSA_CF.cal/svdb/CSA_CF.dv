@@ -1,0 +1,170 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/CSA_CF.dv
+dv_start unmatched
+dv_cell {CSA_CF} {CSA_CF} unmatched
+dv_obj_count -transformed_nets {21 21} -transformed_inst {28 28} -transformed_port {9 9}
+dv_discrep 1 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {AGND} {                                                  } -snet {AGND} {}
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  } -sdev {X_SWITCH_X41/M11} {:}  {b} {}
+dv_discrep_line {** missing connection **                                  } -sdev {X_SWITCH_X42/M11} {:}  {b} {}
+dv_discrep_line {** missing connection **                                  } -sdev {X_SWITCH_X43/M11} {:}  {b} {}
+dv_discrep_line {** missing connection **                                  } -sdev {X_SWITCH_X44/M11} {:}  {b} {}
+dv_discrep_line {** missing connection **                                  } -sdev {X_SWITCH_X45/M11} {:}  {b} {}
+dv_discrep_line {** missing connection **                                  } -sdev {X_SWITCH_X46/M11} {:}  {b} {}
+dv_discrep_line {** missing connection **                                  } -sdev {X_SWITCH_X47/M11} {:}  {b} {}
+dv_discrep_line {** missing connection **                                  } -sdev {X_SWITCH_X48/M11} {:}  {b} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 2 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {AVDD} {                                                  } -snet {AVDD} {}
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X15/M6} {} -lloc {(15.690,25.600)} {:}  {b} {                                   ** missing connection **}
+dv_discrep_line {} -ldev {X14/M6} {} -lloc {(15.690,23.880)} {:}  {b} {                                   ** missing connection **}
+dv_discrep_line {} -ldev {X13/M6} {} -lloc {(15.690,2.430)} {:}  {b} {                                    ** missing connection **}
+dv_discrep_line {} -ldev {X12/M6} {} -lloc {(15.690,0.710)} {:}  {b} {                                    ** missing connection **}
+dv_discrep_line {} -ldev {X11/M6} {} -lloc {(-2.400,25.600)} {:}  {b} {                                   ** missing connection **}
+dv_discrep_line {} -ldev {X10/M6} {} -lloc {(-2.400,23.880)} {:}  {b} {                                   ** missing connection **}
+dv_discrep_line {} -ldev {X9/M6} {} -lloc {(-2.400,2.430)} {:}  {b} {                                     ** missing connection **}
+dv_discrep_line {} -ldev {X8/M6} {} -lloc {(-2.400,0.710)} {:}  {b} {                                     ** missing connection **}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 3 {Incorrect Instances}
+dv_discrep_line {} -ldev {X14/M5} {} -lloc {(13.670,23.880)} {  MN(N_18_MM)                        } -sdev {X_SWITCH_X42/M1} {  MN(N_18_MM)}
+dv_discrep_line {  } -lport {g} {: } -lnet {PHI1} {                                                   } -sport {g} {: } -snet {PHI1} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {X14/6} {                                                  } -sport {s} {: } -snet {X_SWITCH_X42/N$40} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {AGND} {                                                   } -sport {d} {: } -snet {AGND} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {AVDD} {                                                   ** } -snet {AVDD} { **}
+dv_discrep_line {  ** } -lnet {AGND} { **                                                } -sport {b} {: } -snet {AGND} {}
+dv_discrep_line {}
+dv_discrep 4 {Incorrect Instances}
+dv_discrep_line {} -ldev {X13/M5} {} -lloc {(13.670,2.430)} {  MN(N_18_MM)                         } -sdev {X_SWITCH_X48/M1} {  MN(N_18_MM)}
+dv_discrep_line {  } -lport {g} {: } -lnet {PHI1} {                                                   } -sport {g} {: } -snet {PHI1} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {X13/6} {                                                  } -sport {s} {: } -snet {X_SWITCH_X48/N$40} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {AGND} {                                                   } -sport {d} {: } -snet {AGND} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {AVDD} {                                                   ** } -snet {AVDD} { **}
+dv_discrep_line {  ** } -lnet {AGND} { **                                                } -sport {b} {: } -snet {AGND} {}
+dv_discrep_line {}
+dv_discrep 5 {Incorrect Instances}
+dv_discrep_line {} -ldev {X12/M5} {} -lloc {(13.670,0.710)} {  MN(N_18_MM)                         } -sdev {X_SWITCH_X45/M1} {  MN(N_18_MM)}
+dv_discrep_line {  } -lport {g} {: } -lnet {PHI1} {                                                   } -sport {g} {: } -snet {PHI1} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {X12/6} {                                                  } -sport {s} {: } -snet {X_SWITCH_X45/N$40} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {AGND} {                                                   } -sport {d} {: } -snet {AGND} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {AVDD} {                                                   ** } -snet {AVDD} { **}
+dv_discrep_line {  ** } -lnet {AGND} { **                                                } -sport {b} {: } -snet {AGND} {}
+dv_discrep_line {}
+dv_discrep 6 {Incorrect Instances}
+dv_discrep_line {} -ldev {X11/M5} {} -lloc {(-4.420,25.600)} {  MN(N_18_MM)                        } -sdev {X_SWITCH_X43/M1} {  MN(N_18_MM)}
+dv_discrep_line {  } -lport {g} {: } -lnet {PHI2} {                                                   } -sport {g} {: } -snet {PHI2} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {X11/6} {                                                  } -sport {s} {: } -snet {X_SWITCH_X43/N$40} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {AGND} {                                                   } -sport {d} {: } -snet {AGND} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {AVDD} {                                                   ** } -snet {AVDD} { **}
+dv_discrep_line {  ** } -lnet {AGND} { **                                                } -sport {b} {: } -snet {AGND} {}
+dv_discrep_line {}
+dv_discrep 7 {Incorrect Instances}
+dv_discrep_line {} -ldev {X10/M5} {} -lloc {(-4.420,23.880)} {  MN(N_18_MM)                        } -sdev {X_SWITCH_X41/M1} {  MN(N_18_MM)}
+dv_discrep_line {  } -lport {g} {: } -lnet {PHI2} {                                                   } -sport {g} {: } -snet {PHI2} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {X10/6} {                                                  } -sport {s} {: } -snet {X_SWITCH_X41/N$40} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {AGND} {                                                   } -sport {d} {: } -snet {AGND} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {AVDD} {                                                   ** } -snet {AVDD} { **}
+dv_discrep_line {  ** } -lnet {AGND} { **                                                } -sport {b} {: } -snet {AGND} {}
+dv_discrep_line {}
+dv_discrep 8 {Incorrect Instances}
+dv_discrep_line {} -ldev {X9/M5} {} -lloc {(-4.420,2.430)} {  MN(N_18_MM)                          } -sdev {X_SWITCH_X47/M1} {  MN(N_18_MM)}
+dv_discrep_line {  } -lport {g} {: } -lnet {PHI2} {                                                   } -sport {g} {: } -snet {PHI2} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {X9/6} {                                                   } -sport {s} {: } -snet {X_SWITCH_X47/N$40} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {AGND} {                                                   } -sport {d} {: } -snet {AGND} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {AVDD} {                                                   ** } -snet {AVDD} { **}
+dv_discrep_line {  ** } -lnet {AGND} { **                                                } -sport {b} {: } -snet {AGND} {}
+dv_discrep_line {}
+dv_discrep 9 {Incorrect Instances}
+dv_discrep_line {} -ldev {X8/M5} {} -lloc {(-4.420,0.710)} {  MN(N_18_MM)                          } -sdev {X_SWITCH_X46/M1} {  MN(N_18_MM)}
+dv_discrep_line {  } -lport {g} {: } -lnet {PHI2} {                                                   } -sport {g} {: } -snet {PHI2} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {X8/6} {                                                   } -sport {s} {: } -snet {X_SWITCH_X46/N$40} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {AGND} {                                                   } -sport {d} {: } -snet {AGND} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {AVDD} {                                                   ** } -snet {AVDD} { **}
+dv_discrep_line {  ** } -lnet {AGND} { **                                                } -sport {b} {: } -snet {AGND} {}
+dv_discrep_line {}
+dv_discrep 10 {Incorrect Instances}
+dv_discrep_line {} -ldev {X15/M5} {} -lloc {(13.670,25.600)} {  MN(N_18_MM)                        } -sdev {X_SWITCH_X44/M1} {  MN(N_18_MM)}
+dv_discrep_line {  } -lport {g} {: } -lnet {PHI1} {                                                   } -sport {g} {: } -snet {PHI1} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {X15/6} {                                                  } -sport {s} {: } -snet {X_SWITCH_X44/N$40} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {AGND} {                                                   } -sport {d} {: } -snet {AGND} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {AVDD} {                                                   ** } -snet {AVDD} { **}
+dv_discrep_line {  ** } -lnet {AGND} { **                                                } -sport {b} {: } -snet {AGND} {}
+dv_discrep_line {}
+dv_discrep -1 {Detailed Instance Connections}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X8/M6} {} -lloc {(-2.400,0.710)} {  MN(N_18_MM)                          } -sdev {X_SWITCH_X46/M11} {  MN(N_18_MM)}
+dv_discrep_line {  } -lport {g} {: } -lnet {PHI2} {                                                   } -sport {g} {: } -snet {PHI2} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {VOCM} {                                                   } -sport {s} {: } -snet {VOCM} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {3} {                                                      } -sport {d} {: } -snet {N$12} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {AVDD} {                                                   ** } -snet {AVDD} { **}
+dv_discrep_line {  ** } -lnet {AGND} { **                                                } -sport {b} {: } -snet {AGND} {}
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X9/M6} {} -lloc {(-2.400,2.430)} {  MN(N_18_MM)                          } -sdev {X_SWITCH_X47/M11} {  MN(N_18_MM)}
+dv_discrep_line {  } -lport {g} {: } -lnet {PHI2} {                                                   } -sport {g} {: } -snet {PHI2} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {VB1} {                                                    } -sport {s} {: } -snet {VB1} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {10} {                                                     } -sport {d} {: } -snet {N$13} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {AVDD} {                                                   ** } -snet {AVDD} { **}
+dv_discrep_line {  ** } -lnet {AGND} { **                                                } -sport {b} {: } -snet {AGND} {}
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X10/M6} {} -lloc {(-2.400,23.880)} {  MN(N_18_MM)                        } -sdev {X_SWITCH_X41/M11} {  MN(N_18_MM)}
+dv_discrep_line {  } -lport {g} {: } -lnet {PHI2} {                                                   } -sport {g} {: } -snet {PHI2} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {VB1} {                                                    } -sport {s} {: } -snet {VB1} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {11} {                                                     } -sport {d} {: } -snet {N$5} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {AVDD} {                                                   ** } -snet {AVDD} { **}
+dv_discrep_line {  ** } -lnet {AGND} { **                                                } -sport {b} {: } -snet {AGND} {}
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X11/M6} {} -lloc {(-2.400,25.600)} {  MN(N_18_MM)                        } -sdev {X_SWITCH_X43/M11} {  MN(N_18_MM)}
+dv_discrep_line {  } -lport {g} {: } -lnet {PHI2} {                                                   } -sport {g} {: } -snet {PHI2} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {VOCM} {                                                   } -sport {s} {: } -snet {VOCM} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {4} {                                                      } -sport {d} {: } -snet {N$7} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {AVDD} {                                                   ** } -snet {AVDD} { **}
+dv_discrep_line {  ** } -lnet {AGND} { **                                                } -sport {b} {: } -snet {AGND} {}
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X12/M6} {} -lloc {(15.690,0.710)} {  MN(N_18_MM)                         } -sdev {X_SWITCH_X45/M11} {  MN(N_18_MM)}
+dv_discrep_line {  } -lport {g} {: } -lnet {PHI1} {                                                   } -sport {g} {: } -snet {PHI1} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {3} {                                                      } -sport {s} {: } -snet {N$12} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VO-} {                                                    } -sport {d} {: } -snet {VO-} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {AVDD} {                                                   ** } -snet {AVDD} { **}
+dv_discrep_line {  ** } -lnet {AGND} { **                                                } -sport {b} {: } -snet {AGND} {}
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X13/M6} {} -lloc {(15.690,2.430)} {  MN(N_18_MM)                         } -sdev {X_SWITCH_X48/M11} {  MN(N_18_MM)}
+dv_discrep_line {  } -lport {g} {: } -lnet {PHI1} {                                                   } -sport {g} {: } -snet {PHI1} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {10} {                                                     } -sport {s} {: } -snet {N$13} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {CMFB} {                                                   } -sport {d} {: } -snet {CMFB} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {AVDD} {                                                   ** } -snet {AVDD} { **}
+dv_discrep_line {  ** } -lnet {AGND} { **                                                } -sport {b} {: } -snet {AGND} {}
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X14/M6} {} -lloc {(15.690,23.880)} {  MN(N_18_MM)                        } -sdev {X_SWITCH_X42/M11} {  MN(N_18_MM)}
+dv_discrep_line {  } -lport {g} {: } -lnet {PHI1} {                                                   } -sport {g} {: } -snet {PHI1} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {11} {                                                     } -sport {s} {: } -snet {N$5} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {CMFB} {                                                   } -sport {d} {: } -snet {CMFB} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {AVDD} {                                                   ** } -snet {AVDD} { **}
+dv_discrep_line {  ** } -lnet {AGND} { **                                                } -sport {b} {: } -snet {AGND} {}
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {X15/M6} {} -lloc {(15.690,25.600)} {  MN(N_18_MM)                        } -sdev {X_SWITCH_X44/M11} {  MN(N_18_MM)}
+dv_discrep_line {  } -lport {g} {: } -lnet {PHI1} {                                                   } -sport {g} {: } -snet {PHI1} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {4} {                                                      } -sport {s} {: } -snet {N$7} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {VO+} {                                                    } -sport {d} {: } -snet {VO+} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {AVDD} {                                                   ** } -snet {AVDD} { **}
+dv_discrep_line {  ** } -lnet {AGND} { **                                                } -sport {b} {: } -snet {AGND} {}
+dv_discrep_line {}
+dv_end

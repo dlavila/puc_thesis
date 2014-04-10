@@ -1,0 +1,71 @@
+A 5 u Eddm_design_viewpoint 52af68f2233e.03.7f.00.00.01.00.45.0b 147 2 620 0
+V v 145 4 52b0b90d1767.03.7f.00.00.01.00.45.0b
+F f 145 "eldonet.dvpt_145"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 146 4 52b0b9164d18.03.7f.00.00.01.00.45.0b
+F f 146 "eldonet.dvpt_146"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 147 4 52b0b9534deb.03.7f.00.00.01.00.45.0b
+F f 147 "eldonet.dvpt_147"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+O 147
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$SC_filter/default.group/logic.views/BIAS/part" 1 Eddm_part 52af68f21657.03.7f.00.00.01.01.45.0b 52af68f21657.03.7f.00.00.01.00.45.0b
+R cspuv 1 "$SC_filter/default.group/logic.views/BIAS/schematic" 65 mgc_schematic 52b0b9163193.03.7f.00.00.01.00.45.0b 52af6588496f.03.7f.00.00.01.00.45.0b
+R cspuv 2 "$SC_filter/default.group/logic.views/BIAS/eldonet" 14 Eddm_ba_mgr 52b0b88db69a.03.7f.00.00.01.00.45.0b 52af68f223fc.03.7f.00.00.01.00.45.0b
+R cspuv 3 "$MGC_IC_DEVICE_LIB/ideal_resistor/part" 2 Eddm_part 3fa692def27e.03.93.22.28.48.00.08.df 3900e8d5419c.03.93.22.22.60.00.56.1b
+R cspuv 4 "$MGC_DESIGN_KIT/symbols/P_18_MM/part" 23 Eddm_part 462e23ba79d1.03.7f.00.00.01.00.54.63 461b99bfbe81.03.89.ca.19.1a.00.4f.21
+R cspuv 5 "$MGC_DESIGN_KIT/symbols/N_18_MM/part" 26 Eddm_part 462e23b780f6.03.7f.00.00.01.00.54.63 461b99901841.03.89.ca.19.1a.00.4f.21
+R cspuv 140 "$MGC_DESIGN_KIT/symbols/PNP_V50X50_MM/part" 20 Eddm_part 462e2007eea7.03.7f.00.00.01.00.54.63 461b99bc0b4d.03.89.ca.19.1a.00.4f.21
+R cspuv 222 "$MGC_DESIGN_KIT/symbols/RNHR1000_MM/part" 28 Eddm_part 48187ecf321a.03.7f.00.00.01.00.4d.3f 461b99e52043.03.89.ca.19.1a.00.4f.21
+R cspuv 504 "$MGC_IC_SOURCES_LIB/pwl_v_source/part" 3 Eddm_part 48349e5877ca.03.93.22.29.54.00.75.8d 3988b97c66f3.03.93.22.22.60.00.1c.5b
+R cspuv 590 "$MGC_DESIGN_KIT/symbols/RNHR1000_MM/RNHR1000_MM" 12 mgc_symbol 48187ecf3212.03.7f.00.00.01.00.4d.3f 461b99e8467d.03.89.ca.19.1a.00.4f.21
+R cspuv 600 "$MGC_IC_SOURCES_LIB/pwl_v_source/pwl_v_source" 4 mgc_symbol 48ac598a0ef7.03.93.22.29.5e.00.3f.5a 3988b97c6727.03.93.22.22.60.00.1c.5b
+R cspuv 601 "$MGC_DESIGN_KIT/symbols/N_18_MM/N_18_MM" 9 mgc_symbol 462e23b780e7.03.7f.00.00.01.00.54.63 461b99935891.03.89.ca.19.1a.00.4f.21
+R cspuv 602 "$MGC_DESIGN_KIT/symbols/PNP_V50X50_MM/PNP_V50X50_MM" 3 mgc_symbol 462e2007ee9b.03.7f.00.00.01.00.54.63 461b99bf358d.03.89.ca.19.1a.00.4f.21
+R cspuv 603 "$MGC_DESIGN_KIT/symbols/P_18_MM/P_18_MM" 6 mgc_symbol 462e23ba79c0.03.7f.00.00.01.00.54.63 461b99c2ec2d.03.89.ca.19.1a.00.4f.21
+R cspuv 604 "$MGC_IC_DEVICE_LIB/ideal_resistor/ideal_resistor" 2 mgc_symbol 3fa692def260.03.93.22.28.48.00.08.df 3900e8d54202.03.93.22.22.60.00.56.1b
+R cspuv 609 "$MGC_IC_DEVICE_LIB/ideal_capacitor/part" 2 Eddm_part 3fa692696ca3.03.93.22.28.48.00.08.df 3900e8d5884e.03.93.22.22.60.00.56.1b
+O 146
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$SC_filter/default.group/logic.views/BIAS/part" 1 Eddm_part 52af68f21657.03.7f.00.00.01.01.45.0b 52af68f21657.03.7f.00.00.01.00.45.0b
+R cspuv 1 "$SC_filter/default.group/logic.views/BIAS/schematic" 65 mgc_schematic 52b0b9163193.03.7f.00.00.01.00.45.0b 52af6588496f.03.7f.00.00.01.00.45.0b
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 2 "$SC_filter/default.group/logic.views/BIAS/eldonet" 14 Eddm_ba_mgr 52b0b88db69a.03.7f.00.00.01.00.45.0b 52af68f223fc.03.7f.00.00.01.00.45.0b
+R cspuv 3 "$MGC_IC_DEVICE_LIB/ideal_resistor/part" 2 Eddm_part 3fa692def27e.03.93.22.28.48.00.08.df 3900e8d5419c.03.93.22.22.60.00.56.1b
+R cspuv 4 "$MGC_DESIGN_KIT/symbols/P_18_MM/part" 23 Eddm_part 462e23ba79d1.03.7f.00.00.01.00.54.63 461b99bfbe81.03.89.ca.19.1a.00.4f.21
+R cspuv 5 "$MGC_DESIGN_KIT/symbols/N_18_MM/part" 26 Eddm_part 462e23b780f6.03.7f.00.00.01.00.54.63 461b99901841.03.89.ca.19.1a.00.4f.21
+R cspuv 140 "$MGC_DESIGN_KIT/symbols/PNP_V50X50_MM/part" 20 Eddm_part 462e2007eea7.03.7f.00.00.01.00.54.63 461b99bc0b4d.03.89.ca.19.1a.00.4f.21
+R cspuv 222 "$MGC_DESIGN_KIT/symbols/RNHR1000_MM/part" 28 Eddm_part 48187ecf321a.03.7f.00.00.01.00.4d.3f 461b99e52043.03.89.ca.19.1a.00.4f.21
+R cspuv 504 "$MGC_IC_SOURCES_LIB/pwl_v_source/part" 3 Eddm_part 48349e5877ca.03.93.22.29.54.00.75.8d 3988b97c66f3.03.93.22.22.60.00.1c.5b
+R cspuv 590 "$MGC_DESIGN_KIT/symbols/RNHR1000_MM/RNHR1000_MM" 12 mgc_symbol 48187ecf3212.03.7f.00.00.01.00.4d.3f 461b99e8467d.03.89.ca.19.1a.00.4f.21
+R cspuv 600 "$MGC_IC_SOURCES_LIB/pwl_v_source/pwl_v_source" 4 mgc_symbol 48ac598a0ef7.03.93.22.29.5e.00.3f.5a 3988b97c6727.03.93.22.22.60.00.1c.5b
+R cspuv 601 "$MGC_DESIGN_KIT/symbols/N_18_MM/N_18_MM" 9 mgc_symbol 462e23b780e7.03.7f.00.00.01.00.54.63 461b99935891.03.89.ca.19.1a.00.4f.21
+R cspuv 602 "$MGC_DESIGN_KIT/symbols/PNP_V50X50_MM/PNP_V50X50_MM" 3 mgc_symbol 462e2007ee9b.03.7f.00.00.01.00.54.63 461b99bf358d.03.89.ca.19.1a.00.4f.21
+R cspuv 603 "$MGC_DESIGN_KIT/symbols/P_18_MM/P_18_MM" 6 mgc_symbol 462e23ba79c0.03.7f.00.00.01.00.54.63 461b99c2ec2d.03.89.ca.19.1a.00.4f.21
+R cspuv 604 "$MGC_IC_DEVICE_LIB/ideal_resistor/ideal_resistor" 2 mgc_symbol 3fa692def260.03.93.22.28.48.00.08.df 3900e8d54202.03.93.22.22.60.00.56.1b
+R cspuv 609 "$MGC_IC_DEVICE_LIB/ideal_capacitor/part" 2 Eddm_part 3fa692696ca3.03.93.22.28.48.00.08.df 3900e8d5884e.03.93.22.22.60.00.56.1b
+O 145
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$SC_filter/default.group/logic.views/BIAS/part" 1 Eddm_part 52af68f21657.03.7f.00.00.01.01.45.0b 52af68f21657.03.7f.00.00.01.00.45.0b
+R cspuv 1 "$SC_filter/default.group/logic.views/BIAS/schematic" 64 mgc_schematic 52b0b8daccbc.03.7f.00.00.01.00.45.0b 52af6588496f.03.7f.00.00.01.00.45.0b
+R cspuv 2 "$SC_filter/default.group/logic.views/BIAS/eldonet" 14 Eddm_ba_mgr 52b0b88db69a.03.7f.00.00.01.00.45.0b 52af68f223fc.03.7f.00.00.01.00.45.0b
+R cspuv 3 "$MGC_IC_DEVICE_LIB/ideal_resistor/part" 2 Eddm_part 3fa692def27e.03.93.22.28.48.00.08.df 3900e8d5419c.03.93.22.22.60.00.56.1b
+R cspuv 4 "$MGC_DESIGN_KIT/symbols/P_18_MM/part" 23 Eddm_part 462e23ba79d1.03.7f.00.00.01.00.54.63 461b99bfbe81.03.89.ca.19.1a.00.4f.21
+R cspuv 5 "$MGC_DESIGN_KIT/symbols/N_18_MM/part" 26 Eddm_part 462e23b780f6.03.7f.00.00.01.00.54.63 461b99901841.03.89.ca.19.1a.00.4f.21
+R cspuv 140 "$MGC_DESIGN_KIT/symbols/PNP_V50X50_MM/part" 20 Eddm_part 462e2007eea7.03.7f.00.00.01.00.54.63 461b99bc0b4d.03.89.ca.19.1a.00.4f.21
+R cspuv 222 "$MGC_DESIGN_KIT/symbols/RNHR1000_MM/part" 28 Eddm_part 48187ecf321a.03.7f.00.00.01.00.4d.3f 461b99e52043.03.89.ca.19.1a.00.4f.21
+R cspuv 504 "$MGC_IC_SOURCES_LIB/pwl_v_source/part" 3 Eddm_part 48349e5877ca.03.93.22.29.54.00.75.8d 3988b97c66f3.03.93.22.22.60.00.1c.5b
+R cspuv 590 "$MGC_DESIGN_KIT/symbols/RNHR1000_MM/RNHR1000_MM" 12 mgc_symbol 48187ecf3212.03.7f.00.00.01.00.4d.3f 461b99e8467d.03.89.ca.19.1a.00.4f.21
+R cspuv 600 "$MGC_IC_SOURCES_LIB/pwl_v_source/pwl_v_source" 4 mgc_symbol 48ac598a0ef7.03.93.22.29.5e.00.3f.5a 3988b97c6727.03.93.22.22.60.00.1c.5b
+R cspuv 601 "$MGC_DESIGN_KIT/symbols/N_18_MM/N_18_MM" 9 mgc_symbol 462e23b780e7.03.7f.00.00.01.00.54.63 461b99935891.03.89.ca.19.1a.00.4f.21
+R cspuv 602 "$MGC_DESIGN_KIT/symbols/PNP_V50X50_MM/PNP_V50X50_MM" 3 mgc_symbol 462e2007ee9b.03.7f.00.00.01.00.54.63 461b99bf358d.03.89.ca.19.1a.00.4f.21
+R cspuv 603 "$MGC_DESIGN_KIT/symbols/P_18_MM/P_18_MM" 6 mgc_symbol 462e23ba79c0.03.7f.00.00.01.00.54.63 461b99c2ec2d.03.89.ca.19.1a.00.4f.21
+R cspuv 604 "$MGC_IC_DEVICE_LIB/ideal_resistor/ideal_resistor" 2 mgc_symbol 3fa692def260.03.93.22.28.48.00.08.df 3900e8d54202.03.93.22.22.60.00.56.1b
+R cspuv 609 "$MGC_IC_DEVICE_LIB/ideal_capacitor/part" 2 Eddm_part 3fa692696ca3.03.93.22.28.48.00.08.df 3900e8d5884e.03.93.22.22.60.00.56.1b

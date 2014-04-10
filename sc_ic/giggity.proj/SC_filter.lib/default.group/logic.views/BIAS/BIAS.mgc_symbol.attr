@@ -1,0 +1,13 @@
+A 5 u mgc_symbol 52b0c0eadf04.03.7f.00.00.01.00.68.4f 7 2 1 0
+V v 5 1 52b0c0f556ae.03.7f.00.00.01.00.68.4f
+F f 5 "BIAS.smbl_5"
+V v 6 1 52b0c0f5e4e2.03.7f.00.00.01.00.68.4f
+F f 6 "BIAS.smbl_6"
+V v 7 1 52b0c0f640cd.03.7f.00.00.01.00.68.4f
+F f 7 "BIAS.smbl_7"
+O 7
+R csduv 0 "$SC_filter/default.group/logic.views/BIAS/part" 6 Eddm_part 52b0c0f556b2.03.7f.00.00.01.00.68.4f 52af68f21657.03.7f.00.00.01.00.45.0b
+O 6
+R csduv 0 "$SC_filter/default.group/logic.views/BIAS/part" 6 Eddm_part 52b0c0f556b2.03.7f.00.00.01.00.68.4f 52af68f21657.03.7f.00.00.01.00.45.0b
+O 5
+R csduv 0 "$SC_filter/default.group/logic.views/BIAS/part" 6 Eddm_part 52b0c0f556b2.03.7f.00.00.01.00.68.4f 52af68f21657.03.7f.00.00.01.00.45.0b

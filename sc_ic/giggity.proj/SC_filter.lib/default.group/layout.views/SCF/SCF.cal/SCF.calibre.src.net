@@ -1,0 +1,102 @@
+* LVS netlist generated with ICnet by 'dlavila' on Sun Feb  9 2014 at 01:23:07
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/SCF_bias
+*
+.subckt SCF_bias  Vb1 Vb2 Vb3 AGnd AVdd Iref
+
+        M24 Vb2 Vb5 AGnd AGnd n_18_mm w=2u l=0.45u m=1
+        M18 Vb5 Vb5 AGnd AGnd n_18_mm w=2u l=0.45u m=1
+        M22 Vb1 Vb1 AVdd AVdd p_18_mm w=4u l=1u m=4
+        M20 Vb2 Vb2 Vb1 AVdd p_18_mm w=2u l=0.3u m=4
+        M21 Vb3 Vb3 Vb4 AGnd n_18_mm w=2u l=0.45u m=2
+        M19 Vb4 Vb4 AGnd AGnd n_18_mm w=2u l=0.45u m=1
+        M17 Vb5 Iref AVdd AVdd p_18_mm w=1u l=0.45u m=4
+        M16 Vb3 Iref AVdd AVdd p_18_mm w=1u l=0.45u m=4
+        M15 Iref Iref AVdd AVdd p_18_mm w=1u l=0.45u m=8
+.ends SCF_bias
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/SCF_ota
+*
+.subckt SCF_ota  Vo+ Vo- AGnd AVdd CMFB Iref Vb2 Vb3 Vi+ Vi-
+
+        M14 ND4 N$542 AGnd AGnd n_18_mm w=2u l=0.45u m=4
+        M4 N$542 Vb3 N$64 AGnd n_18_mm w=1u l=0.18u m=2
+        M51 Vo- N$1117 Vo- AGnd n_18_mm w=2u l=0.45u m=1
+        M50 Vo- N$1114 Vo- AGnd n_18_mm w=2u l=0.45u m=1
+        M7 Vo- Vb2 ND1 AVdd p_18_mm w=2u l=0.3u m=8
+        M13 ND3 N$559 AGnd AGnd n_18_mm w=2u l=0.45u m=4
+        M0 N$435 Iref AVdd AVdd p_18_mm w=8u l=0.45u m=8
+        M3B ND2 N$559 AGnd AGnd n_18_mm w=2u l=0.45u m=2
+        M10 N$1000 CMFB AVdd AVdd p_18_mm w=4u l=1u m=8
+        M9 ND1 CMFB AVdd AVdd p_18_mm w=4u l=1u m=8
+        M11 N$559 Vb3 ND2 AGnd n_18_mm w=1u l=0.18u m=2
+        M12 N$64 N$542 AGnd AGnd n_18_mm w=2u l=0.45u m=2
+        M49 Vo- N$1108 Vo- AGnd n_18_mm w=2u l=0.45u m=1
+        M6 ND4 Vi- N$435 N$435 p_18_mm w=6u l=0.36u m=8
+        M8 Vo+ Vb2 N$1000 AVdd p_18_mm w=2u l=0.3u m=8
+        M3 Vo- Vb3 ND3 AGnd n_18_mm w=2u l=0.45u m=4
+        M5 Vo+ Vb3 ND4 AGnd n_18_mm w=2u l=0.45u m=4
+        M2 N$559 Vi- N$435 N$435 p_18_mm w=6u l=0.36u m=8
+        M42 ND2 N$1085 ND2 AGnd n_18_mm w=2u l=0.45u m=1
+        M41 ND2 N$1081 ND2 AGnd n_18_mm w=1u l=0.18u m=1
+        M40 ND2 N$1078 ND2 AGnd n_18_mm w=1u l=0.18u m=1
+        M39 ND1 N$1072 ND1 AVdd p_18_mm w=4u l=1u m=1
+        M38 ND1 N$1071 ND1 AVdd p_18_mm w=4u l=1u m=1
+        M37 ND1 N$1070 ND1 AVdd p_18_mm w=4u l=1u m=1
+        M36 ND1 N$1118 ND1 AVdd p_18_mm w=4u l=1u m=1
+        M35 Vo- N$1056 Vo- AVdd p_18_mm w=2u l=0.3u m=1
+        M34 Vo- N$1053 Vo- AVdd p_18_mm w=2u l=0.3u m=1
+        M33 Vo- N$1050 Vo- AVdd p_18_mm w=2u l=0.3u m=1
+        M32 Vo- N$1047 Vo- AVdd p_18_mm w=2u l=0.3u m=1
+        M1A ND3 Vi+ N$435 N$435 p_18_mm w=6u l=0.36u m=8
+        M1 N$542 Vi+ N$435 N$435 p_18_mm w=6u l=0.36u m=8
+        M45 ND4 N$1095 ND4 AGnd n_18_mm w=2u l=0.45u m=1
+        M46 ND4 N$1098 ND4 AGnd n_18_mm w=2u l=0.45u m=1
+        M48 Vo- N$1111 Vo- AGnd n_18_mm w=2u l=0.45u m=1
+        M47 ND4 N$1101 ND4 AGnd n_18_mm w=2u l=0.45u m=1
+        M43 ND2 N$1088 ND2 AGnd n_18_mm w=2u l=0.45u m=1
+        M44 ND4 N$1092 ND4 AGnd n_18_mm w=2u l=0.45u m=1
+.ends SCF_ota
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/switch_X4
+*
+.subckt switch_X4  out e in Vdd Vss
+
+        M2 N$40 e Vdd Vdd p_18_mm w=3u l=0.18u m=1
+        M1 N$40 e Vss Vss n_18_mm w=1u l=0.18u m=1
+        M11 out e in Vss n_18_mm w=1u l=0.18u m=4
+        M12 out N$40 in Vdd p_18_mm w=3u l=0.18u m=4
+.ends switch_X4
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/SCF_dcmfb
+*
+.subckt SCF_dcmfb  CMFB AGnd AVdd phi1 phi2 Vb1 Vo+ Vo- Vocm
+
+        X_SWITCH_X48 CMFB phi1 N$220 AVdd AGnd switch_X4
+        X_SWITCH_X47 N$220 phi2 Vb1 AVdd AGnd switch_X4
+        X_SWITCH_X46 N$213 phi2 Vocm AVdd AGnd switch_X4
+        X_SWITCH_X45 Vo- phi1 N$213 AVdd AGnd switch_X4
+        X_SWITCH_X44 Vo+ phi1 N$209 AVdd AGnd switch_X4
+        X_SWITCH_X43 N$209 phi2 Vocm AVdd AGnd switch_X4
+        X_SWITCH_X42 CMFB phi1 N$150 AVdd AGnd switch_X4
+        X_SWITCH_X41 N$150 phi2 Vb1 AVdd AGnd switch_X4
+        C2 N$209 N$150 0.103p m=2 w=10u l=10u $[ mimcaps_mm ]
+        C3 Vo- CMFB 0.103p m=2 w=10u l=10u $[ mimcaps_mm ]
+        C1 Vo+ CMFB 0.103p m=2 w=10u l=10u $[ mimcaps_mm ]
+        C4 N$213 N$220 0.103p m=2 w=10u l=10u $[ mimcaps_mm ]
+.ends SCF_dcmfb
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/SCF
+*
+.subckt SCF  Vo+ Vo- AGnd AVdd Iref phi1 phi2 Vi+ Vi- Vocm
+
+        X_SCF_BIAS1 Vb1 Vb2 Vb3 AGnd AVdd Iref SCF_bias
+        X_SCF_OTA1 Vo+ Vo- AGnd AVdd CMFB Iref Vb2 Vb3 Vi+ Vi- SCF_ota
+        X_SCF_DCMFB1 CMFB AGnd AVdd phi1 phi2 Vb1 Vo+ Vo- Vocm SCF_dcmfb
+.ends SCF
+

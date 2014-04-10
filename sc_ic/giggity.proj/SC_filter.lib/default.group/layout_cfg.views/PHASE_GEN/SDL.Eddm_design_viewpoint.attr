@@ -1,0 +1,27 @@
+A 5 u Eddm_design_viewpoint 52dde5ba0c05.03.7f.00.00.01.00.1c.8c 1 2 15 0
+V v 1 4 52dde5ba0c05.03.7f.00.00.01.01.1c.8c
+F f 1 "SDL.dvpt_1"
+F o 0 
+F o 0 
+F o 0 
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$SC_filter/default.group/logic.views/PHASE_GEN/part" 9 Eddm_part 52d43d44e32e.03.7f.00.00.01.00.57.43 52963b941fee.03.7f.00.00.01.00.7f.2d
+R cspuv 1 "$SC_filter/default.group/logic.views/PHASE_GEN/schematic" 48 mgc_schematic 52d43f51926d.03.7f.00.00.01.00.59.dd 52963b941f7c.03.7f.00.00.01.00.7f.2d
+R cspuv 2 "$SC_filter/default.group/logic.views/PHASE_GEN/PHASE_GEN" 8 mgc_symbol 52d43d44e319.03.7f.00.00.01.00.57.43 52963b941f74.03.7f.00.00.01.00.7f.2d
+R cspuv 3 "$SC_filter/default.group/logic.views/nand_X4/part" 18 Eddm_part 52d43f252b21.03.7f.00.00.01.00.59.dd 52d42e77af9b.03.7f.00.00.01.00.02.9f
+R cspuv 4 "$SC_filter/default.group/logic.views/inv_X2/part" 21 Eddm_part 52d432c93c34.03.7f.00.00.01.00.32.41 52d42dca983b.03.7f.00.00.01.00.02.9f
+R cspuv 5 "$SC_filter/default.group/logic.views/inv_X4/part" 18 Eddm_part 52d433bfbbda.03.7f.00.00.01.00.39.1e 52d42ddd1c8d.03.7f.00.00.01.00.02.9f
+R cspuv 6 "$SC_filter/default.group/logic.views/inv_X8/part" 20 Eddm_part 52d43478ab3d.03.7f.00.00.01.00.3d.87 52d42e638a7c.03.7f.00.00.01.00.02.9f
+R cspuv 7 "$SC_filter/default.group/logic.views/inv_X4/schematic" 1 mgc_schematic 5283874950cf.03.7f.00.00.01.00.60.26 52d42ddd1c45.03.7f.00.00.01.00.02.9f
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 8 "$SC_filter/default.group/logic.views/inv_X4/inv_X4" 9 mgc_symbol 52d433bfbbc0.03.7f.00.00.01.00.39.1e 52d42ddd1c38.03.7f.00.00.01.00.02.9f
+R cspuv 9 "$SC_filter/default.group/logic.views/nand_X4/schematic" 1 mgc_schematic 5283861d0b91.03.7f.00.00.01.00.5d.8c 52d42e77af7f.03.7f.00.00.01.00.02.9f
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 10 "$SC_filter/default.group/logic.views/nand_X4/nand_X4" 14 mgc_symbol 52d43f252b1c.03.7f.00.00.01.00.59.dd 52d42e77af70.03.7f.00.00.01.00.02.9f
+R cspuv 11 "$SC_filter/default.group/logic.views/inv_X2/schematic" 1 mgc_schematic 5283874950cf.03.7f.00.00.01.00.60.26 52d42dca97f8.03.7f.00.00.01.00.02.9f
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 12 "$SC_filter/default.group/logic.views/inv_X2/inv_X2" 13 mgc_symbol 52d432c93c18.03.7f.00.00.01.00.32.41 52d42dca9844.03.7f.00.00.01.00.02.9f
+R cspuv 13 "$SC_filter/default.group/logic.views/inv_X8/schematic" 1 mgc_schematic 5283874950cf.03.7f.00.00.01.00.60.26 52d42e638a60.03.7f.00.00.01.00.02.9f
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 14 "$SC_filter/default.group/logic.views/inv_X8/inv_X8" 12 mgc_symbol 52d43478ab17.03.7f.00.00.01.00.3d.87 52d42e638a59.03.7f.00.00.01.00.02.9f

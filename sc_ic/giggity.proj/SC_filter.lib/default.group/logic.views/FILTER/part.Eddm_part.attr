@@ -1,0 +1,22 @@
+A 5 u Eddm_part 529661bb9d77.03.7f.00.00.01.00.7f.2d 17 2 2 0
+V v 15 1 52d440dda20d.03.7f.00.00.01.00.59.dd
+F f 15 "part.part_15"
+V v 16 1 52d440ddccfc.03.7f.00.00.01.00.59.dd
+F f 16 "part.part_16"
+V v 17 1 52d440de8d7f.03.7f.00.00.01.00.59.dd
+F f 17 "part.part_17"
+O 17
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/FILTER/schematic" 1 mgc_schematic 527bcd272872.03.7f.00.00.01.01.5a.9d 529661bb9ce5.03.7f.00.00.01.00.7f.2d
+P "eddm__refer_state" "eddm__refer_floating"
+R csduv 1 "$SC_filter/default.group/logic.views/FILTER/FILTER" 15 mgc_symbol 52d440de8d12.03.7f.00.00.01.00.59.dd 529661bb9cdd.03.7f.00.00.01.00.7f.2d
+O 16
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/FILTER/schematic" 1 mgc_schematic 527bcd272872.03.7f.00.00.01.01.5a.9d 529661bb9ce5.03.7f.00.00.01.00.7f.2d
+P "eddm__refer_state" "eddm__refer_floating"
+R csduv 1 "$SC_filter/default.group/logic.views/FILTER/FILTER" 14 mgc_symbol 52d440ddccf8.03.7f.00.00.01.00.59.dd 529661bb9cdd.03.7f.00.00.01.00.7f.2d
+O 15
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/FILTER/schematic" 1 mgc_schematic 527bcd272872.03.7f.00.00.01.01.5a.9d 529661bb9ce5.03.7f.00.00.01.00.7f.2d
+P "eddm__refer_state" "eddm__refer_floating"
+R csduv 1 "$SC_filter/default.group/logic.views/FILTER/FILTER" 13 mgc_symbol 52d440dda208.03.7f.00.00.01.00.59.dd 529661bb9cdd.03.7f.00.00.01.00.7f.2d

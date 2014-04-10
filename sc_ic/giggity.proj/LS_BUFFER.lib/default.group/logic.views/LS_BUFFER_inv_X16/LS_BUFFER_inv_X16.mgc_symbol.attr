@@ -1,0 +1,13 @@
+A 5 u mgc_symbol 52ab4a320d35.03.7f.00.00.01.00.11.d3 10 2 1 0
+V v 8 1 52963b06d56d.03.7f.00.00.01.00.6c.5a
+F f 8 "LS_BUFFER_inv_X16.smbl_8"
+V v 9 1 52963b40b5b2.03.7f.00.00.01.00.6e.e4
+F f 9 "LS_BUFFER_inv_X16.smbl_9"
+V v 10 1 52963c2d69ba.03.7f.00.00.01.00.73.a9
+F f 10 "LS_BUFFER_inv_X16.smbl_10"
+O 10
+R csduv 0 "$LS_BUFFER/default.group/logic.views/LS_BUFFER_inv_X16/part" 15 Eddm_part 52963c2d69bf.03.7f.00.00.01.00.73.a9 52ab4a320d5a.03.7f.00.00.01.00.11.d3
+O 9
+R csduv 0 "$LS_BUFFER/default.group/logic.views/LS_BUFFER_inv_X16/part" 14 Eddm_part 52963b40b5b8.03.7f.00.00.01.00.6e.e4 52ab4a320d5a.03.7f.00.00.01.00.11.d3
+O 8
+R csduv 0 "$LS_BUFFER/default.group/logic.views/LS_BUFFER_inv_X16/part" 13 Eddm_part 529637e12860.03.7f.00.00.01.00.69.22 52ab4a320d5a.03.7f.00.00.01.00.11.d3

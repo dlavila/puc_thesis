@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 528a46ebd62a.03.7f.00.00.01.00.62.54 10 2 1 0
+V v 8 1 5298dd450945.03.7f.00.00.01.00.2f.e9
+F o 0 ""
+V v 9 1 5298dd453643.03.7f.00.00.01.00.2f.e9
+F o 0 ""
+V v 10 1 5298dd486f20.03.7f.00.00.01.00.2f.e9
+F o 0 ""
+O 10
+R cspuv 0 "$RR_BUFFER/default.group/logic.views/testBuffer/schematic/sheet1" 9 mgc_sheet 5298dd486eff.03.7f.00.00.01.00.2f.e9 528a46ebd6f9.03.7f.00.00.01.00.62.54
+O 9
+R cspuv 0 "$RR_BUFFER/default.group/logic.views/testBuffer/schematic/sheet1" 8 mgc_sheet 5298dd45362e.03.7f.00.00.01.00.2f.e9 528a46ebd6f9.03.7f.00.00.01.00.62.54
+O 8
+R cspuv 0 "$RR_BUFFER/default.group/logic.views/testBuffer/schematic/sheet1" 7 mgc_sheet 5298dd450931.03.7f.00.00.01.00.2f.e9 528a46ebd6f9.03.7f.00.00.01.00.62.54

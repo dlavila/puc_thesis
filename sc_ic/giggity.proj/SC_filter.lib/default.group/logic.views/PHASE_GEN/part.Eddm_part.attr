@@ -1,0 +1,19 @@
+A 5 u Eddm_part 52963b941fee.03.7f.00.00.01.00.7f.2d 9 2 2 0
+V v 7 1 52d43d440a9c.03.7f.00.00.01.00.57.43
+F f 7 "part.part_7"
+V v 8 1 52d43d446070.03.7f.00.00.01.00.57.43
+F f 8 "part.part_8"
+V v 9 1 52d43d44e32e.03.7f.00.00.01.00.57.43
+F f 9 "part.part_9"
+O 9
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/PHASE_GEN/schematic" 1 mgc_schematic 528387ee7464.03.7f.00.00.01.01.62.9a 52963b941f7c.03.7f.00.00.01.00.7f.2d
+R csduv 1 "$SC_filter/default.group/logic.views/PHASE_GEN/PHASE_GEN" 8 mgc_symbol 52d43d44e319.03.7f.00.00.01.00.57.43 52963b941f74.03.7f.00.00.01.00.7f.2d
+O 8
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/PHASE_GEN/schematic" 1 mgc_schematic 528387ee7464.03.7f.00.00.01.01.62.9a 52963b941f7c.03.7f.00.00.01.00.7f.2d
+R csduv 1 "$SC_filter/default.group/logic.views/PHASE_GEN/PHASE_GEN" 7 mgc_symbol 52d43d44606c.03.7f.00.00.01.00.57.43 52963b941f74.03.7f.00.00.01.00.7f.2d
+O 7
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/PHASE_GEN/schematic" 1 mgc_schematic 528387ee7464.03.7f.00.00.01.01.62.9a 52963b941f7c.03.7f.00.00.01.00.7f.2d
+R csduv 1 "$SC_filter/default.group/logic.views/PHASE_GEN/PHASE_GEN" 6 mgc_symbol 52d43d440a94.03.7f.00.00.01.00.57.43 52963b941f74.03.7f.00.00.01.00.7f.2d

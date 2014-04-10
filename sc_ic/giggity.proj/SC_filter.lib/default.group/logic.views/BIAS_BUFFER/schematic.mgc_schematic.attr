@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 52cee7d5e2d9.03.7f.00.00.01.00.39.f9 7 2 1 0
+V v 5 1 52d0241d45ae.03.7f.00.00.01.00.72.f0
+F o 0 ""
+V v 6 1 52d024bbdec6.03.7f.00.00.01.00.72.f0
+F o 0 ""
+V v 7 1 52d024bc52ec.03.7f.00.00.01.00.72.f0
+F o 0 ""
+O 7
+R cspuv 0 "$SC_filter/default.group/logic.views/BIAS_BUFFER/schematic/sheet1" 6 mgc_sheet 52d024bc52d4.03.7f.00.00.01.00.72.f0 52cee7d5e344.03.7f.00.00.01.00.39.f9
+O 6
+R cspuv 0 "$SC_filter/default.group/logic.views/BIAS_BUFFER/schematic/sheet1" 5 mgc_sheet 52d024bbdea9.03.7f.00.00.01.00.72.f0 52cee7d5e344.03.7f.00.00.01.00.39.f9
+O 5
+R cspuv 0 "$SC_filter/default.group/logic.views/BIAS_BUFFER/schematic/sheet1" 4 mgc_sheet 52d0241d4599.03.7f.00.00.01.00.72.f0 52cee7d5e344.03.7f.00.00.01.00.39.f9

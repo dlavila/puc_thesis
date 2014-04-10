@@ -1,0 +1,6 @@
+A 5 u Eddm_ba_mgr 527bde46ee8b.03.7f.00.00.01.00.68.61 1 2 1 0
+V v 1 1 527bde46ee8b.03.7f.00.00.01.01.68.61
+F f 1 "eldonet.ba_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$SC_filter/default.group/logic.views/testMux/eldonet" 1 Eddm_design_viewpoint 527bde46edd3.03.7f.00.00.01.01.68.61 527bde46edd3.03.7f.00.00.01.00.68.61

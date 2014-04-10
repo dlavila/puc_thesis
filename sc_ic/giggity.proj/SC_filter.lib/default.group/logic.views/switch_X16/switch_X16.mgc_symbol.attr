@@ -1,0 +1,13 @@
+A 5 u mgc_symbol 52d42e8c5ff7.03.7f.00.00.01.00.02.9f 22 2 1 0
+V v 20 1 52d43ba49ebf.03.7f.00.00.01.00.52.be
+F f 20 "switch_X16.smbl_20"
+V v 21 1 52d43ba7117c.03.7f.00.00.01.00.52.be
+F f 21 "switch_X16.smbl_21"
+V v 22 1 52d43ba74dcc.03.7f.00.00.01.00.52.be
+F f 22 "switch_X16.smbl_22"
+O 22
+R csduv 0 "$SC_filter/default.group/logic.views/switch_X16/part" 25 Eddm_part 52d43ba49f3a.03.7f.00.00.01.00.52.be 52d42e8c602a.03.7f.00.00.01.00.02.9f
+O 21
+R csduv 0 "$SC_filter/default.group/logic.views/switch_X16/part" 25 Eddm_part 52d43ba49f3a.03.7f.00.00.01.00.52.be 52d42e8c602a.03.7f.00.00.01.00.02.9f
+O 20
+R csduv 0 "$SC_filter/default.group/logic.views/switch_X16/part" 25 Eddm_part 52d43ba49f3a.03.7f.00.00.01.00.52.be 52d42e8c602a.03.7f.00.00.01.00.02.9f

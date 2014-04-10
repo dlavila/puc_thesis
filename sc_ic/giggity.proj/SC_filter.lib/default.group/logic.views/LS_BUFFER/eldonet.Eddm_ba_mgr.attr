@@ -1,0 +1,13 @@
+A 5 u Eddm_ba_mgr 52b1e5debbfb.03.7f.00.00.01.00.15.55 2 2 3 0
+V v 1 1 528a4ce4daa7.03.7f.00.00.01.01.73.35
+F f 1 "eldonet.ba_1"
+V v 2 1 5293b6812ae1.03.7f.00.00.01.00.4b.81
+F f 2 "eldonet.ba_2"
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 1 "$SC_filter/default.group/logic.views/LS_BUFFER/eldonet" 89 Eddm_design_viewpoint 5293b6812aa9.03.7f.00.00.01.00.4b.81 52b1e5debbb6.03.7f.00.00.01.00.15.55
+R cspuv 2 "$SC_filter/default.group/logic.views/LS_BUFFER/schematic" 43 mgc_schematic 5293b64d480e.03.7f.00.00.01.00.4b.81 52b1e5debb7f.03.7f.00.00.01.00.15.55
+P "eddm__refer_state" "eddm__refer_floating"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$SC_filter/default.group/logic.views/LS_BUFFER/eldonet" 1 Eddm_design_viewpoint 528a4ce4d986.03.7f.00.00.01.01.73.35 52b1e5debbb6.03.7f.00.00.01.00.15.55

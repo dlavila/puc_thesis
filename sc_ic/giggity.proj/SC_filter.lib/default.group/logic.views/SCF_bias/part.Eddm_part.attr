@@ -1,0 +1,22 @@
+A 5 u Eddm_part 52f3f2b9a5d5.03.7f.00.00.01.00.66.ab 23 2 2 0
+V v 21 1 52f6e661d3a8.03.7f.00.00.01.00.28.61
+F f 21 "part.part_21"
+V v 22 1 52f6e66e40d1.03.7f.00.00.01.00.28.61
+F f 22 "part.part_22"
+V v 23 1 52f6e66ed1c0.03.7f.00.00.01.00.28.61
+F f 23 "part.part_23"
+O 23
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/SCF_bias/schematic" 1 mgc_schematic 52f3f2b83948.03.7f.00.00.01.01.66.ab 52f3f2b83948.03.7f.00.00.01.00.66.ab
+P "eddm__refer_state" "eddm__refer_floating"
+R csduv 1 "$SC_filter/default.group/logic.views/SCF_bias/SCF_bias" 33 mgc_symbol 52f6e66ed1ae.03.7f.00.00.01.00.28.61 52f3f3f19e8a.03.7f.00.00.01.00.68.c6
+O 22
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/SCF_bias/schematic" 1 mgc_schematic 52f3f2b83948.03.7f.00.00.01.01.66.ab 52f3f2b83948.03.7f.00.00.01.00.66.ab
+P "eddm__refer_state" "eddm__refer_floating"
+R csduv 1 "$SC_filter/default.group/logic.views/SCF_bias/SCF_bias" 32 mgc_symbol 52f6e66e40cb.03.7f.00.00.01.00.28.61 52f3f3f19e8a.03.7f.00.00.01.00.68.c6
+O 21
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/SCF_bias/schematic" 1 mgc_schematic 52f3f2b83948.03.7f.00.00.01.01.66.ab 52f3f2b83948.03.7f.00.00.01.00.66.ab
+P "eddm__refer_state" "eddm__refer_floating"
+R csduv 1 "$SC_filter/default.group/logic.views/SCF_bias/SCF_bias" 31 mgc_symbol 52f6e661d398.03.7f.00.00.01.00.28.61 52f3f3f19e8a.03.7f.00.00.01.00.68.c6

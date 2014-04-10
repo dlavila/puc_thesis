@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/PHASE_GEN.dv
+dv_start matched
+dv_cell {PHASE_GEN} {PHASE_GEN} matched
+dv_obj_count -transformed_nets {18 18} -transformed_inst {15 15} -transformed_port {7 7}
+dv_end

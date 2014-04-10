@@ -1,0 +1,68 @@
+*
+* .CONNECT statements
+*
+.CONNECT GROUND 0
+
+
+* ELDO netlist generated with ICnet by 'dlavila' on Thu Nov  7 2013 at 15:54:23
+
+*
+* Globals.
+*
+.global GROUND SCF_VDD
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/mux_with_enable_SCF_input
+*
+.subckt MUX_WITH_ENABLE_SCF_INPUT  O A B E S
+
+        M6 O N$124 A SCF_VDD p_18_mm l=0.18u w=4u ad=1.178p as=1.178p pd=5.033u
++  ps=5.033u m=9
+        M23 N$63 S SCF_VDD SCF_VDD p_18_mm l=0.18u w=4u ad=1.96p as=1.96p
++  pd=8.98u ps=8.98u m=1
+        M11 O N$144 B GROUND n_18_mm l=0.18u w=1.2u ad=0.353p as=0.353p
++  pd=1.922u ps=1.922u m=9
+        M24 N$63 S GROUND GROUND n_18_mm l=0.18u w=1.2u ad=0.588p as=0.588p
++  pd=3.38u ps=3.38u m=1
+        M16 N$124 E SCF_VDD SCF_VDD p_18_mm l=0.18u w=4u ad=1.373p as=1.373p
++  pd=6.02u ps=6.02u m=3
+        M14 N$124 N$63 SCF_VDD SCF_VDD p_18_mm l=0.18u w=4u ad=1.373p as=1.373p
++  pd=6.02u ps=6.02u m=3
+        M13 N$148 N$124 SCF_VDD SCF_VDD p_18_mm l=0.18u w=4u ad=1.373p as=1.373p
++  pd=6.02u ps=6.02u m=3
+        M12 O N$112 B SCF_VDD p_18_mm l=0.18u w=4u ad=1.178p as=1.178p pd=5.033u
++  ps=5.033u m=9
+        M1 N$112 S SCF_VDD SCF_VDD p_18_mm l=0.18u w=4u ad=1.373p as=1.373p
++  pd=6.02u ps=6.02u m=3
+        M2 N$144 N$112 SCF_VDD SCF_VDD p_18_mm l=0.18u w=4u ad=1.373p as=1.373p
++  pd=6.02u ps=6.02u m=3
+        M7 N$112 E N$113 GROUND n_18_mm l=0.18u w=1.2u ad=0.412p as=0.412p
++  pd=2.287u ps=2.287u m=3
+        M5 N$112 E SCF_VDD SCF_VDD p_18_mm l=0.18u w=4u ad=1.373p as=1.373p
++  pd=6.02u ps=6.02u m=3
+        M9 N$120 N$63 GROUND GROUND n_18_mm l=0.18u w=1.2u ad=0.412p as=0.412p
++  pd=2.287u ps=2.287u m=3
+        M10 N$124 E N$120 GROUND n_18_mm l=0.18u w=1.2u ad=0.412p as=0.412p
++  pd=2.287u ps=2.287u m=3
+        M8 O N$148 A GROUND n_18_mm l=0.18u w=1.2u ad=0.353p as=0.353p pd=1.922u
++  ps=1.922u m=9
+        M15 N$148 N$124 GROUND GROUND n_18_mm l=0.18u w=1.2u ad=0.412p as=0.412p
++  pd=2.287u ps=2.287u m=3
+        M3 N$113 S GROUND GROUND n_18_mm l=0.18u w=1.2u ad=0.412p as=0.412p
++  pd=2.287u ps=2.287u m=3
+        M4 N$144 N$112 GROUND GROUND n_18_mm l=0.18u w=1.2u ad=0.412p as=0.412p
++  pd=2.287u ps=2.287u m=3
+.ends MUX_WITH_ENABLE_SCF_INPUT
+
+*
+* MAIN CELL: Component pathname : $SC_filter/default.group/logic.views/testMux
+*
+        C1 VO GROUND 1P
+        V5 S GROUND PWL ( 0 0 1.5u 0 1.501u 1.8 5u 1.8 5.01u 0 )
+        V4 E GROUND PWL ( 0 0 3u 0 3.01u 1.8 8u 1.8 8.01u 0 )
+        V3 A GROUND SIN ( 0.9 0.5v 2meg 0 0 )
+        V2 B GROUND SIN ( 0.9 0.5v 3meg 0 0 )
+        V1 SCF_VDD GROUND DC 1.8V
+        X_MUX_WITH_ENABLE_SCF_INPUT1 VO A B E S MUX_WITH_ENABLE_SCF_INPUT
+*
+.end

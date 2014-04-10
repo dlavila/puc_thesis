@@ -1,0 +1,364 @@
+* ELDO netlist generated with ICnet by 'dlavila' on Mon Jan 13 2014 at 17:21:06
+
+*
+* Globals.
+*
+.global ground scf_vdd
+
+
+*
+* Component pathname : $MGC_DESIGN_KIT/symbols/MIMCAPS_MM [ELDOSPICE]
+*
+*       .include /usr/local/mentor/UMC180PDK/symbols/MIMCAPS_MM/mimcaps_mm
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/mux_X4
+*
+.subckt mux_x4  o a b e s vdd vss
+
+        m10 n$292 n$293 vss vss n_18_mm l=0.18u w=1u ad=0.49p as=0.49p pd=2.98u
++  ps=2.98u m=1
+        m6 o n$295 a vdd p_18_mm l=0.18u w=3u ad=0.81p as=1.14p pd=3.54u
++  ps=5.26u m=4
+        m3 n$306 n$288 vdd vdd p_18_mm l=0.18u w=3u ad=0.81p as=1.14p pd=3.54u
++  ps=5.26u m=4
+        m13 n$295 e vdd vdd p_18_mm l=0.18u w=3u ad=1.47p as=1.47p pd=6.98u
++  ps=6.98u m=1
+        m17 n$293 s vss vss n_18_mm l=0.18u w=1u ad=0.49p as=0.49p pd=2.98u
++  ps=2.98u m=1
+        m16 n$311 n$295 vdd vdd p_18_mm l=0.18u w=3u ad=0.81p as=1.14p pd=3.54u
++  ps=5.26u m=4
+        m4 n$288 e n$291 vss n_18_mm l=0.18u w=1u ad=0.49p as=0.49p pd=2.98u
++  ps=2.98u m=1
+        m15 n$295 e n$292 vss n_18_mm l=0.18u w=1u ad=0.49p as=0.49p pd=2.98u
++  ps=2.98u m=1
+        m2 n$288 e vdd vdd p_18_mm l=0.18u w=3u ad=1.47p as=1.47p pd=6.98u
++  ps=6.98u m=1
+        m8 o n$306 b vss n_18_mm l=0.18u w=1u ad=0.27p as=0.38p pd=1.54u
++  ps=2.26u m=4
+        m22 n$293 s vdd vdd p_18_mm l=0.18u w=3u ad=1.47p as=1.47p pd=6.98u
++  ps=6.98u m=1
+        m5 n$288 s vdd vdd p_18_mm l=0.18u w=3u ad=1.47p as=1.47p pd=6.98u
++  ps=6.98u m=1
+        m9 n$311 n$295 vss vss n_18_mm l=0.18u w=1u ad=0.27p as=0.38p pd=1.54u
++  ps=2.26u m=4
+        m14 n$295 n$293 vdd vdd p_18_mm l=0.18u w=3u ad=1.47p as=1.47p pd=6.98u
++  ps=6.98u m=1
+        m1 n$306 n$288 vss vss n_18_mm l=0.18u w=1u ad=0.27p as=0.38p pd=1.54u
++  ps=2.26u m=4
+        m12 o n$288 b vdd p_18_mm l=0.18u w=3u ad=0.81p as=1.14p pd=3.54u
++  ps=5.26u m=4
+        m7 n$291 s vss vss n_18_mm l=0.18u w=1u ad=0.49p as=0.49p pd=2.98u
++  ps=2.98u m=1
+        m11 o n$311 a vss n_18_mm l=0.18u w=1u ad=0.27p as=0.38p pd=1.54u
++  ps=2.26u m=4
+.ends mux_x4
+
+*
+* Component pathname : $UTILS/default.group/logic.views/s2d
+*
+.subckt s2d  vd+ vd- vicm vid vss
+
+        e3 n$2 vss Vicm Vss 1
+        e2 vd- n$2 Vss Vid 0.5
+        e1 vd+ n$2 Vid Vss 0.5
+.ends s2d
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/nand_X4
+*
+.subckt nand_x4  o a b vdd vss
+
+        m3 n$75 b vss vss n_18_mm l=0.18u w=0.25u ad=67.5f as=95f pd=0.79u
++  ps=1.135u m=4
+        m4 o a vdd vdd p_18_mm l=0.18u w=0.75u ad=0.203p as=0.285p pd=1.29u
++  ps=1.885u m=4
+        m1 o b vdd vdd p_18_mm l=0.18u w=0.75u ad=0.203p as=0.285p pd=1.29u
++  ps=1.885u m=4
+        m2 o a n$75 vss n_18_mm l=0.18u w=0.25u ad=67.5f as=95f pd=0.79u
++  ps=1.135u m=4
+.ends nand_x4
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/switch_X1
+*
+.subckt switch_x1  out e in vdd vss
+
+        m2 n$25 e vdd vdd p_18_mm l=0.18u w=0.75u ad=0.368p as=0.368p pd=2.48u
++  ps=2.48u m=1
+        m1 n$25 e vss vss n_18_mm l=0.18u w=0.25u ad=0.122p as=0.122p pd=1.48u
++  ps=1.48u m=1
+        m11 out e in vss n_18_mm l=0.18u w=0.25u ad=67.5f as=95f pd=0.79u
++  ps=1.135u m=4
+        m12 out n$25 in vdd p_18_mm l=0.18u w=0.75u ad=0.203p as=0.285p
++  pd=1.29u ps=1.885u m=4
+.ends switch_x1
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/switch_X16
+*
+.subckt switch_x16  out e in vdd vss
+
+        m2 n$46 e vss vss n_18_mm l=0.18u w=1u ad=0.27p as=0.38p pd=1.54u
++  ps=2.26u m=4
+        m1 n$46 e vdd vdd p_18_mm l=0.18u w=3u ad=0.81p as=1.14p pd=3.54u
++  ps=5.26u m=4
+        m12 out n$46 in vdd p_18_mm l=0.18u w=3u ad=0.81p as=0.893p pd=3.54u
++  ps=3.97u m=16
+        m11 out e in vss n_18_mm l=0.18u w=1u ad=0.27p as=0.298p pd=1.54u
++  ps=1.72u m=16
+.ends switch_x16
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/inv_X8
+*
+.subckt inv_x8  o i vdd vss
+
+        m1 o i vss vss n_18_mm l=0.18u w=0.25u ad=67.5f as=81.25f pd=0.79u
++  ps=0.963u m=8
+        m2 o i vdd vdd p_18_mm l=0.18u w=0.75u ad=0.203p as=0.244p pd=1.29u
++  ps=1.588u m=8
+.ends inv_x8
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/inv_X4
+*
+.subckt inv_x4  o i vdd vss
+
+        m1 o i vss vss n_18_mm l=0.18u w=0.25u ad=67.5f as=95f pd=0.79u
++  ps=1.135u m=4
+        m2 o i vdd vdd p_18_mm l=0.18u w=0.75u ad=0.203p as=0.285p pd=1.29u
++  ps=1.885u m=4
+.ends inv_x4
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/inv_X2
+*
+.subckt inv_x2  o i vdd vss
+
+        m1 o i vss vss n_18_mm l=0.18u w=0.25u ad=67.5f as=0.122p pd=0.79u
++  ps=1.48u m=2
+        m2 o i vdd vdd p_18_mm l=0.18u w=0.75u ad=0.203p as=0.368p pd=1.29u
++  ps=2.48u m=2
+.ends inv_x2
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/PHASE_GEN
+*
+.subckt phase_gen  phi1 phi1e phi2 phi2e clk vdd vss
+
+        x_nand_x43 n$345 n$317 n$344 vdd vss nand_x4
+        x_nand_x42 n$341 n$314 n$320 vdd vss nand_x4
+        x_inv_x83 phi2 n$323 vdd vss inv_x8
+        x_inv_x82 phi1 n$322 vdd vss inv_x8
+        x_inv_x81 phi1e n$341 vdd vss inv_x8
+        x_inv_x47 n$317 n$334 vdd vss inv_x4
+        x_inv_x46 n$334 n$315 vdd vss inv_x4
+        x_inv_x45 n$315 n$338 vdd vss inv_x4
+        x_inv_x44 n$314 n$337 vdd vss inv_x4
+        x_inv_x43 n$337 n$312 vdd vss inv_x4
+        x_inv_x42 n$312 n$335 vdd vss inv_x4
+        x_inv_x49 n$344 n$318 vdd vss inv_x4
+        x_inv_x411 n$320 n$319 vdd vss inv_x4
+        x_inv_x410 n$319 n$314 vdd vss inv_x4
+        x_inv_x84 phi2e n$345 vdd vss inv_x8
+        x_nand_x41 n$338 n$189 n$337 vdd vss nand_x4
+        x_inv_x413 n$323 n$344 vdd vss inv_x4
+        x_inv_x412 n$322 n$320 vdd vss inv_x4
+        x_inv_x48 n$318 n$317 vdd vss inv_x4
+        x_inv_x21 n$189 clk vdd vss inv_x2
+        x_nand_x45 n$335 clk n$334 vdd vss nand_x4
+.ends phase_gen
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/mux_X16
+*
+.subckt mux_x16  o a b e s vdd vss
+
+        m10 n$292 n$293 vss vss n_18_mm l=0.18u w=1u ad=0.49p as=0.49p pd=2.98u
++  ps=2.98u m=1
+        m11 o n$286 a vss n_18_mm l=0.18u w=1u ad=0.27p as=0.298p pd=1.54u
++  ps=1.72u m=16
+        m9 n$286 n$295 vss vss n_18_mm l=0.18u w=1u ad=0.27p as=0.38p pd=1.54u
++  ps=2.26u m=4
+        m17 n$293 s vss vss n_18_mm l=0.18u w=1u ad=0.49p as=0.49p pd=2.98u
++  ps=2.98u m=1
+        m16 n$286 n$295 vdd vdd p_18_mm l=0.18u w=3u ad=0.81p as=1.14p pd=3.54u
++  ps=5.26u m=4
+        m13 n$295 e vdd vdd p_18_mm l=0.18u w=3u ad=1.47p as=1.47p pd=6.98u
++  ps=6.98u m=1
+        m4 n$288 e n$291 vss n_18_mm l=0.18u w=1u ad=0.49p as=0.49p pd=2.98u
++  ps=2.98u m=1
+        m15 n$295 e n$292 vss n_18_mm l=0.18u w=1u ad=0.49p as=0.49p pd=2.98u
++  ps=2.98u m=1
+        m2 n$288 e vdd vdd p_18_mm l=0.18u w=3u ad=1.47p as=1.47p pd=6.98u
++  ps=6.98u m=1
+        m12 o n$288 b vdd p_18_mm l=0.18u w=3u ad=0.81p as=0.893p pd=3.54u
++  ps=3.97u m=16
+        m22 n$293 s vdd vdd p_18_mm l=0.18u w=3u ad=1.47p as=1.47p pd=6.98u
++  ps=6.98u m=1
+        m5 n$288 s vdd vdd p_18_mm l=0.18u w=3u ad=1.47p as=1.47p pd=6.98u
++  ps=6.98u m=1
+        m3 n$287 n$288 vdd vdd p_18_mm l=0.18u w=3u ad=0.81p as=1.14p pd=3.54u
++  ps=5.26u m=4
+        m8 o n$287 b vss n_18_mm l=0.18u w=1u ad=0.27p as=0.298p pd=1.54u
++  ps=1.72u m=16
+        m1 n$287 n$288 vss vss n_18_mm l=0.18u w=1u ad=0.27p as=0.38p pd=1.54u
++  ps=2.26u m=4
+        m6 o n$295 a vdd p_18_mm l=0.18u w=3u ad=0.81p as=0.893p pd=3.54u
++  ps=3.97u m=16
+        m7 n$291 s vss vss n_18_mm l=0.18u w=1u ad=0.49p as=0.49p pd=2.98u
++  ps=2.98u m=1
+        m14 n$295 n$293 vdd vdd p_18_mm l=0.18u w=3u ad=1.47p as=1.47p pd=6.98u
++  ps=6.98u m=1
+.ends mux_x16
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/SCF_ota
+*
+.subckt scf_ota  vo+ vo- agnd avdd iref vi+ vi- vocm
+
+        m1a n$348 vi+ n$435 n$435 p_18_mm l=0.36u w=6u ad=1.62p as=1.95p
++  pd=6.54u ps=8.15u m=8
+        m1 n$542 vi+ n$435 n$435 p_18_mm l=0.36u w=6u ad=1.62p as=1.95p
++  pd=6.54u ps=8.15u m=8
+        m22 vb1 vb1 avdd avdd p_18_mm l=1u w=4u ad=1.08p as=1.52p pd=4.54u
++  ps=6.76u m=4
+        m17 vb5 iref avdd avdd p_18_mm l=0.45u w=4u ad=1.96p as=1.96p pd=8.98u
++  ps=8.98u m=1
+        m23 n$1017 n$1017 avdd avdd p_18_mm l=1u w=4u ad=1.08p as=1.3p pd=4.54u
++  ps=5.65u m=8
+        m30 n$1029 vb4 agnd agnd n_18_mm l=0.45u w=2.5u ad=0.675p as=0.95p
++  pd=3.04u ps=4.51u m=4
+        m24 vb2 vb5 agnd agnd n_18_mm l=0.45u w=2u ad=0.98p as=0.98p pd=4.98u
++  ps=4.98u m=1
+        m18 vb5 vb5 agnd agnd n_18_mm l=0.45u w=2u ad=0.98p as=0.98p pd=4.98u
++  ps=4.98u m=1
+        m2 n$559 vi- n$435 n$435 p_18_mm l=0.36u w=6u ad=1.62p as=1.95p
++  pd=6.54u ps=8.15u m=8
+        m0 n$435 iref avdd avdd p_18_mm l=0.45u w=8u ad=2.16p as=2.6p pd=8.54u
++  ps=10.65u m=8
+        m14 n$503 n$542 agnd agnd n_18_mm l=0.45u w=2u ad=0.54p as=0.76p
++  pd=2.54u ps=3.76u m=4
+        m4 n$542 vb3 n$64 agnd n_18_mm l=0.18u w=1u ad=0.27p as=0.49p pd=1.54u
++  ps=2.98u m=2
+        m25 cmfb cmfb avdd avdd p_18_mm l=1u w=4u ad=1.08p as=1.3p pd=4.54u
++  ps=5.65u m=8
+        m21 vb3 vb3 vb4 agnd n_18_mm l=0.45u w=2u ad=0.54p as=0.98p pd=2.54u
++  ps=4.98u m=2
+        m7 vo- vb2 n$965 avdd p_18_mm l=0.3u w=2u ad=0.54p as=0.65p pd=2.54u
++  ps=3.15u m=8
+        m13 n$348 n$559 agnd agnd n_18_mm l=0.45u w=2u ad=0.54p as=0.76p
++  pd=2.54u ps=3.76u m=4
+        m19 vb4 vb4 agnd agnd n_18_mm l=0.45u w=2u ad=0.98p as=0.98p pd=4.98u
++  ps=4.98u m=1
+        m3b n$19 n$559 agnd agnd n_18_mm l=0.45u w=2u ad=0.54p as=0.98p
++  pd=2.54u ps=4.98u m=2
+        m10 n$1000 cmfb avdd avdd p_18_mm l=1u w=4u ad=1.08p as=1.3p pd=4.54u
++  ps=5.65u m=8
+        m9 n$965 cmfb avdd avdd p_18_mm l=1u w=4u ad=1.08p as=1.3p pd=4.54u
++  ps=5.65u m=8
+        m15 iref iref avdd avdd p_18_mm l=0.45u w=8u ad=3.92p as=3.92p pd=16.98u
++  ps=16.98u m=1
+        m11 n$559 vb3 n$19 agnd n_18_mm l=0.18u w=1u ad=0.27p as=0.49p pd=1.54u
++  ps=2.98u m=2
+        m12 n$64 n$542 agnd agnd n_18_mm l=0.45u w=2u ad=0.54p as=0.98p
++  pd=2.54u ps=4.98u m=2
+        m28 n$1017 vo+ n$1029 agnd n_18_mm l=2u w=2.5u ad=0.675p as=0.744p
++  pd=3.04u ps=3.408u m=16
+        m6 n$503 vi- n$435 n$435 p_18_mm l=0.36u w=6u ad=1.62p as=1.95p
++  pd=6.54u ps=8.15u m=8
+        m8 vo+ vb2 n$1000 avdd p_18_mm l=0.3u w=2u ad=0.54p as=0.65p pd=2.54u
++  ps=3.15u m=8
+        m3 vo- vb3 n$348 agnd n_18_mm l=0.45u w=2u ad=0.54p as=0.76p pd=2.54u
++  ps=3.76u m=4
+        m5 vo+ vb3 n$503 agnd n_18_mm l=0.45u w=2u ad=0.54p as=0.76p pd=2.54u
++  ps=3.76u m=4
+        m20 vb2 vb2 vb1 avdd p_18_mm l=0.3u w=2u ad=0.54p as=0.76p pd=2.54u
++  ps=3.76u m=4
+        m31 n$1023 vb4 agnd agnd n_18_mm l=0.45u w=2.5u ad=0.675p as=0.95p
++  pd=3.04u ps=4.51u m=4
+        m29 n$1017 vo- n$1023 agnd n_18_mm l=2u w=2.5u ad=0.675p as=0.744p
++  pd=3.04u ps=3.408u m=16
+        m27 cmfb vocm n$1023 agnd n_18_mm l=2u w=2.5u ad=0.675p as=0.744p
++  pd=3.04u ps=3.408u m=16
+        m26 cmfb vocm n$1029 agnd n_18_mm l=2u w=2.5u ad=0.675p as=0.744p
++  pd=3.04u ps=3.408u m=16
+        m16 vb3 iref avdd avdd p_18_mm l=0.45u w=4u ad=1.96p as=1.96p pd=8.98u
++  ps=8.98u m=1
+.ends scf_ota
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/nand_X1
+*
+.subckt nand_x1  o a b vdd vss
+
+        m3 n$65 b vss vss n_18_mm l=0.18u w=0.25u ad=0.122p as=0.122p pd=1.48u
++  ps=1.48u m=1
+        m5 o a n$65 vss n_18_mm l=0.18u w=0.25u ad=0.122p as=0.122p pd=1.48u
++  ps=1.48u m=1
+        m1 o b vdd vdd p_18_mm l=0.18u w=0.75u ad=0.368p as=0.368p pd=2.48u
++  ps=2.48u m=1
+        m4 o a vdd vdd p_18_mm l=0.18u w=0.75u ad=0.368p as=0.368p pd=2.48u
++  ps=2.48u m=1
+.ends nand_x1
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/FILTER
+*
+.subckt filter  vo+ vo- ag avdd clk cs_b0 cs_b1 cs_b2 cs_b3 cs_b4 dgnd dvdd
++ hold ota_iref rst sgn vi+ vi- vicm vocm
+
+        x_nand_x42 n$727 phi2 hold_b dvdd dgnd nand_x4
+        x_switch_x16 n$674 rst vin- dvdd dgnd switch_x1
+        x_switch_x13 vocm rst_f vo- dvdd dgnd switch_x1
+        x_switch_x163 n$675 phi2_hold n$674 dvdd dgnd switch_x16
+        xc1 vo- n$682 mimcaps_mm w=2.7u l=2.7u m=128
+        xc3 n$675 vin+ mimcaps_mm w=2.7u l=2.7u m=32
+        xc4 n$674 vin- mimcaps_mm w=2.7u l=2.7u m=32
+        x_switch_x164 vicm phi1e vin- dvdd dgnd switch_x16
+        x_switch_x165 vicm phi1e vin+ dvdd dgnd switch_x16
+        x_phase_gen1 phi2 n$628 phi1 phi1e clk dvdd dgnd phase_gen
+        xc5 vo- vocm mimcaps_mm w=10u l=10u m=5
+        x_switch_x15 vin+ rst n$675 dvdd dgnd switch_x1
+        x_inv_x43 phi2_hold n$727 dvdd dgnd inv_x4
+        x_switch_x162 n$674 n$668 vi- dvdd dgnd switch_x16
+        x_mux_x161 n$682 vin+ vin- phi2_hold sgn dvdd dgnd mux_x16
+        x_switch_x12 n$695 rst_f vo+ dvdd dgnd switch_x1
+        x_scf_ota1 vo- vo+ ag avdd ota_iref n$695 n$682 vocm scf_ota
+        x_switch_x14 vocm rst_f vo+ dvdd dgnd switch_x1
+        x_nand_x41 n$704 phi1 rst_b dvdd dgnd nand_x4
+        x_inv_x82 rst_f n$711 dvdd dgnd inv_x8
+        x_mux_x162 n$695 vin- vin+ phi2_hold sgn dvdd dgnd mux_x16
+        x_inv_x41 hold_b hold dvdd dgnd inv_x4
+        x_inv_x81 n$668 n$704 dvdd dgnd inv_x8
+        x_nand_x11 n$711 rst hold_b dvdd dgnd nand_x1
+        xc6 vo+ vocm mimcaps_mm w=10u l=10u m=5
+        x_switch_x161 n$675 n$668 vi+ dvdd dgnd switch_x16
+        x_inv_x42 rst_b rst dvdd dgnd inv_x4
+        x_switch_x11 n$682 rst_f vo- dvdd dgnd switch_x1
+        xc2 vo+ n$695 mimcaps_mm w=2.7u l=2.7u m=128
+.ends filter
+
+*
+* MAIN CELL: Component pathname : $SC_filter/default.group/logic.views/testFilter
+*
+        x_mux_x42 n$122 vi+ n$79 scf_vdd scf_vdd scf_vdd ground mux_x4
+        x_mux_x41 n$120 vi- n$54 scf_vdd scf_vdd scf_vdd ground mux_x4
+        e1 vo ground n$122 n$120 1
+        i2 n$46 ground DC 25uA
+        x_s2d1 vi+ vi- vicm n$7 ground s2d
+        v3 rst ground PWL ( 0 0 1000n 0 1000.1n 1.8 1115n 1.8 1115.1n 0
++  )
+        v8 hold ground PWL ( 0 0 700n 0 700.1n 1.8 900n 1.8 900.1n 0 )
+        v7 n$21 ground PULSE ( 0V 1.8V 10nS 0.01nS 0.01nS 10nS 20nS )
+        v5 sgn ground PWL ( 0 0 400n 0 400.1n 1.8 800n 1.8 800.1n 0 1200n
++  0 1200.1n 1.8 )
+        v2 n$7 ground DC 0.1
+        v4 vocm ground DC 0.9
+        v6 vicm ground DC 0.9
+        x_filter1 n$54 n$79 ground scf_vdd n$21 n$104 n$105 n$106 n$107
++ n$108 ground scf_vdd hold n$46 rst sgn vi+ vi- vicm vocm filter
+        v1 scf_vdd ground DC 1.8V
+*
+.end

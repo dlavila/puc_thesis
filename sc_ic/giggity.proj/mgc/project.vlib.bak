@@ -8,7 +8,7 @@
   </library>
   <library name="MGC_DESIGN_KIT" >
    <locations>
-    <location>/home/dlavila/UMC180PDK</location>
+    <location>/usr/local/mentor/UMC180PDK</location>
    </locations>
   </library>
   <library name="MGC_IC_DEVICE_LIB" >
@@ -54,6 +54,26 @@
   <library name="NCF_GLOBAL" >
    <locations>
     <location>/usr/local/mentor/2008.2b_linux_x86_64/icflow_home/mgc_icstd_lib/global.ncf</location>
+   </locations>
+  </library>
+  <library name="SC_filter" >
+   <locations>
+    <location>SC_filter.lib</location>
+   </locations>
+  </library>
+  <library name="RR_BUFFER" >
+   <locations>
+    <location>RR_BUFFER.lib</location>
+   </locations>
+  </library>
+  <library name="LS_BUFFER" >
+   <locations>
+    <location>LS_BUFFER.lib</location>
+   </locations>
+  </library>
+  <library name="OLD_STUFF" >
+   <locations>
+    <location>OLD_STUFF.lib</location>
    </locations>
   </library>
  </entries>

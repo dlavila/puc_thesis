@@ -1,0 +1,87 @@
+# This file provides name mapping information for all objects
+# on the schematic design.  It provides a mapping for each
+# object between its name on the schematic and its name in the netlist.
+version 1.0
+
+Globals
+   LS_BUFFER_VDD ls_buffer_vdd
+   ground ground
+End Globals
+
+Cell p_18_mm
+   Pin D d
+   Pin G g
+   Pin S s
+   Pin B b
+End Cell
+
+Cell n_18_mm
+   Pin D d
+   Pin G g
+   Pin S s
+   Pin B b
+End Cell
+
+Cell ls_buffer_inv_x4
+   Pin O o
+   Pin I i
+   Net O o
+   Net I i
+   Global LS_BUFFER_VDD ls_buffer_vdd
+   Global ground ground
+   Inst M2 m2 p_18_mm
+   Inst M1 m1 n_18_mm
+End Cell
+
+Cell phase_gen_nand_x4
+   Pin O o
+   Pin A a
+   Pin B b
+   Net N$75 n$75
+   Net O o
+   Net B b
+   Net A a
+   Global LS_BUFFER_VDD ls_buffer_vdd
+   Global ground ground
+   Inst M1 m1 p_18_mm
+   Inst M4 m4 p_18_mm
+   Inst M3 m3 n_18_mm
+   Inst M2 m2 n_18_mm
+End Cell
+
+Cell ls_buffer_inv_x2
+   Pin O o
+   Pin I i
+   Net O o
+   Net I i
+   Global LS_BUFFER_VDD ls_buffer_vdd
+   Global ground ground
+   Inst M2 m2 p_18_mm
+   Inst M1 m1 n_18_mm
+End Cell
+
+Cell #top#
+   Pin phi1 phi1
+   Pin phi2 phi2
+   Pin clk clk
+   Net N$226 n$226
+   Net N$225 n$225
+   Net N$224 n$224
+   Net N$223 n$223
+   Net N$221 n$221
+   Net N$220 n$220
+   Net N$9 n$9
+   Net phi2 phi2
+   Net phi1 phi1
+   Net clk clk
+   Inst LS_BUFFER_INV_X46 x_ls_buffer_inv_x46 ls_buffer_inv_x4
+   Inst LS_BUFFER_INV_X45 x_ls_buffer_inv_x45 ls_buffer_inv_x4
+   Inst LS_BUFFER_INV_X41 x_ls_buffer_inv_x41 ls_buffer_inv_x4
+   Inst LS_BUFFER_INV_X44 x_ls_buffer_inv_x44 ls_buffer_inv_x4
+   Inst LS_BUFFER_INV_X42 x_ls_buffer_inv_x42 ls_buffer_inv_x4
+   Inst LS_BUFFER_INV_X43 x_ls_buffer_inv_x43 ls_buffer_inv_x4
+   Inst PHASE_GEN_NAND_X42 x_phase_gen_nand_x42 phase_gen_nand_x4
+   Inst LS_BUFFER_INV_X21 x_ls_buffer_inv_x21 ls_buffer_inv_x2
+   Inst PHASE_GEN_NAND_X41 x_phase_gen_nand_x41 phase_gen_nand_x4
+End Cell
+

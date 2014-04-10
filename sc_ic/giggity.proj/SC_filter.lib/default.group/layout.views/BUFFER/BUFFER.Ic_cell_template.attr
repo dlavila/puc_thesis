@@ -1,0 +1,66 @@
+A 5 u Ic_cell_template 52d04a712b9e.03.7f.00.00.01.00.07.5c 287 4 25 0
+V v 283 1 52d01bbfef78.03.7f.00.00.01.00.59.ad
+F f 283 "BUFFER.iccel_283"
+V v 284 1 52d01de90ec9.03.7f.00.00.01.00.6b.29
+F f 284 "BUFFER.iccel_284"
+V v 285 1 52d036b58ed5.03.7f.00.00.01.00.06.bd
+F f 285 "BUFFER.iccel_285"
+V v 286 1 52d04d358043.03.7f.00.00.01.00.55.51
+F f 286 "BUFFER.iccel_286"
+V v 287 1 52d04dfc3e32.03.7f.00.00.01.00.55.51
+F f 287 "BUFFER.iccel_287"
+O 287
+R csduv 1 "$MGC_DESIGN_KIT/process/umc18ummrf" 25 Ic_persist_process 4b49fbac2b9a.03.89.ca.1c.10.00.03.ca 462ccb24bc64.03.7f.00.00.02.00.14.78
+R csduv 2 "$SC_filter/default.group/layout_cfg.views/BUFFER/SDL" 1 Eddm_design_viewpoint 52b44819d8ff.03.7f.00.00.01.01.02.aa 52d04a72d358.03.7f.00.00.01.00.07.5c
+R csdni 4 "$MGC_DESIGN_KIT/process/umc18mmrf_sdl_rules" 1 Mgc_file
+R cmduv 6 "49052f642000.0d.00.01.a5.b0.00.00.00" 1 Ic_device_template 49fba4394000.0d.00.01.a5.b0.00.00.00 49052f642000.0d.00.01.a5.b0.00.00.00
+R csduv 12 "$MGC_DESIGN_KIT/process/vias/MPOLY" 6 Ic_cell_template 42db92881569.03.89.ca.18.68.00.26.d2 41bc13669e44.03.89.ca.19.36.03.12.b4
+R csduv 13 "$MGC_DESIGN_KIT/process/vias/M1M2" 7 Ic_cell_template 42db935f8d0a.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.00.12.b4
+R csduv 14 "$MGC_DESIGN_KIT/process/vias/M2M3" 5 Ic_cell_template 42db94100a6f.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.01.12.b4
+R csduv 22 "$MGC_DESIGN_KIT/process/vias/M3M4" 6 Ic_cell_template 42db946f107d.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.02.12.b4
+R csduv 23 "$MGC_DESIGN_KIT/process/vias/M4M5" 6 Ic_cell_template 42db94b97dbf.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.03.12.b4
+R csduv 24 "$MGC_DESIGN_KIT/process/vias/M5M6" 5 Ic_cell_template 42db95bae553.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.04.12.b4
+O 286
+R csduv 1 "$MGC_DESIGN_KIT/process/umc18ummrf" 25 Ic_persist_process 4b49fbac2b9a.03.89.ca.1c.10.00.03.ca 462ccb24bc64.03.7f.00.00.02.00.14.78
+R csduv 2 "$SC_filter/default.group/layout_cfg.views/BUFFER/SDL" 1 Eddm_design_viewpoint 52b44819d8ff.03.7f.00.00.01.01.02.aa 52d04a72d358.03.7f.00.00.01.00.07.5c
+R csdni 4 "$MGC_DESIGN_KIT/process/umc18mmrf_sdl_rules" 1 Mgc_file
+R cmduv 6 "49052f642000.0d.00.01.a5.b0.00.00.00" 1 Ic_device_template 49fba4394000.0d.00.01.a5.b0.00.00.00 49052f642000.0d.00.01.a5.b0.00.00.00
+R csduv 12 "$MGC_DESIGN_KIT/process/vias/MPOLY" 6 Ic_cell_template 42db92881569.03.89.ca.18.68.00.26.d2 41bc13669e44.03.89.ca.19.36.03.12.b4
+R csduv 13 "$MGC_DESIGN_KIT/process/vias/M1M2" 7 Ic_cell_template 42db935f8d0a.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.00.12.b4
+R csduv 14 "$MGC_DESIGN_KIT/process/vias/M2M3" 5 Ic_cell_template 42db94100a6f.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.01.12.b4
+R csduv 22 "$MGC_DESIGN_KIT/process/vias/M3M4" 6 Ic_cell_template 42db946f107d.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.02.12.b4
+R csduv 23 "$MGC_DESIGN_KIT/process/vias/M4M5" 6 Ic_cell_template 42db94b97dbf.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.03.12.b4
+R csduv 24 "$MGC_DESIGN_KIT/process/vias/M5M6" 5 Ic_cell_template 42db95bae553.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.04.12.b4
+O 285
+R csduv 1 "$MGC_DESIGN_KIT/process/umc18ummrf" 25 Ic_persist_process 4b49fbac2b9a.03.89.ca.1c.10.00.03.ca 462ccb24bc64.03.7f.00.00.02.00.14.78
+R csduv 2 "$SC_filter/default.group/layout_cfg.views/BUFFER/SDL" 1 Eddm_design_viewpoint 52b44819d8ff.03.7f.00.00.01.01.02.aa 52c8c51cd619.03.7f.00.00.01.00.2a.7f
+R csdni 4 "$MGC_DESIGN_KIT/process/umc18mmrf_sdl_rules" 1 Mgc_file
+R cmduv 6 "49052f642000.0d.00.01.a5.b0.00.00.00" 1 Ic_device_template 49fba4394000.0d.00.01.a5.b0.00.00.00 49052f642000.0d.00.01.a5.b0.00.00.00
+R csduv 12 "$MGC_DESIGN_KIT/process/vias/MPOLY" 6 Ic_cell_template 42db92881569.03.89.ca.18.68.00.26.d2 41bc13669e44.03.89.ca.19.36.03.12.b4
+R csduv 13 "$MGC_DESIGN_KIT/process/vias/M1M2" 7 Ic_cell_template 42db935f8d0a.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.00.12.b4
+R csduv 14 "$MGC_DESIGN_KIT/process/vias/M2M3" 5 Ic_cell_template 42db94100a6f.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.01.12.b4
+R csduv 22 "$MGC_DESIGN_KIT/process/vias/M3M4" 6 Ic_cell_template 42db946f107d.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.02.12.b4
+R csduv 23 "$MGC_DESIGN_KIT/process/vias/M4M5" 6 Ic_cell_template 42db94b97dbf.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.03.12.b4
+R csduv 24 "$MGC_DESIGN_KIT/process/vias/M5M6" 5 Ic_cell_template 42db95bae553.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.04.12.b4
+O 284
+R csduv 1 "$MGC_DESIGN_KIT/process/umc18ummrf" 25 Ic_persist_process 4b49fbac2b9a.03.89.ca.1c.10.00.03.ca 462ccb24bc64.03.7f.00.00.02.00.14.78
+R csduv 2 "$SC_filter/default.group/layout_cfg.views/BUFFER/SDL" 1 Eddm_design_viewpoint 52b44819d8ff.03.7f.00.00.01.01.02.aa 52c8c51cd619.03.7f.00.00.01.00.2a.7f
+R csdni 4 "$MGC_DESIGN_KIT/process/umc18mmrf_sdl_rules" 1 Mgc_file
+R cmduv 6 "49052f642000.0d.00.01.a5.b0.00.00.00" 1 Ic_device_template 49fba4394000.0d.00.01.a5.b0.00.00.00 49052f642000.0d.00.01.a5.b0.00.00.00
+R csduv 12 "$MGC_DESIGN_KIT/process/vias/MPOLY" 6 Ic_cell_template 42db92881569.03.89.ca.18.68.00.26.d2 41bc13669e44.03.89.ca.19.36.03.12.b4
+R csduv 13 "$MGC_DESIGN_KIT/process/vias/M1M2" 7 Ic_cell_template 42db935f8d0a.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.00.12.b4
+R csduv 14 "$MGC_DESIGN_KIT/process/vias/M2M3" 5 Ic_cell_template 42db94100a6f.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.01.12.b4
+R csduv 22 "$MGC_DESIGN_KIT/process/vias/M3M4" 6 Ic_cell_template 42db946f107d.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.02.12.b4
+R csduv 23 "$MGC_DESIGN_KIT/process/vias/M4M5" 6 Ic_cell_template 42db94b97dbf.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.03.12.b4
+R csduv 24 "$MGC_DESIGN_KIT/process/vias/M5M6" 5 Ic_cell_template 42db95bae553.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.04.12.b4
+O 283
+R csduv 1 "$MGC_DESIGN_KIT/process/umc18ummrf" 25 Ic_persist_process 4b49fbac2b9a.03.89.ca.1c.10.00.03.ca 462ccb24bc64.03.7f.00.00.02.00.14.78
+R csduv 2 "$SC_filter/default.group/layout_cfg.views/BUFFER/SDL" 1 Eddm_design_viewpoint 52b44819d8ff.03.7f.00.00.01.01.02.aa 52c8c51cd619.03.7f.00.00.01.00.2a.7f
+R csdni 4 "$MGC_DESIGN_KIT/process/umc18mmrf_sdl_rules" 1 Mgc_file
+R cmduv 6 "49052f642000.0d.00.01.a5.b0.00.00.00" 1 Ic_device_template 49fba4394000.0d.00.01.a5.b0.00.00.00 49052f642000.0d.00.01.a5.b0.00.00.00
+R csduv 12 "$MGC_DESIGN_KIT/process/vias/MPOLY" 6 Ic_cell_template 42db92881569.03.89.ca.18.68.00.26.d2 41bc13669e44.03.89.ca.19.36.03.12.b4
+R csduv 13 "$MGC_DESIGN_KIT/process/vias/M1M2" 7 Ic_cell_template 42db935f8d0a.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.00.12.b4
+R csduv 14 "$MGC_DESIGN_KIT/process/vias/M2M3" 5 Ic_cell_template 42db94100a6f.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.01.12.b4
+R csduv 22 "$MGC_DESIGN_KIT/process/vias/M3M4" 6 Ic_cell_template 42db946f107d.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.02.12.b4
+R csduv 23 "$MGC_DESIGN_KIT/process/vias/M4M5" 6 Ic_cell_template 42db94b97dbf.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.03.12.b4
+R csduv 24 "$MGC_DESIGN_KIT/process/vias/M5M6" 5 Ic_cell_template 42db95bae553.03.89.ca.18.68.00.26.d2 41bc13669e43.03.89.ca.19.36.04.12.b4

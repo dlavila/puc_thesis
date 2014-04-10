@@ -1,0 +1,24 @@
+START report: Fri Feb  7 14:53:46 2014 
+Warning: (eldo - 406)  In file "/usr/local/mentor/UMC180PDK/models/ELDO/include_all" line 1:
++   COMMAND .LIB cannot find corner tt in library /usr/local/mentor/UMC180PDK/models/ELDO/018-rf-v2d4-control.eldo
+Warning: (eldo - 255)  In file "./CSA_eldonet.spi" line 24:
++   OBJECT "M1":  Size not consistent with LMIN/LMAX/WMIN/WMAX/TEMPMIN/TEMPMAX specification.
++    w (6.000000e+02u) is greater than wmax (1.000000e+02u)
+Warning: (eldo - 255)  In file "./CSA_eldonet.spi" line 50:
++   OBJECT "M5":  Size not consistent with LMIN/LMAX/WMIN/WMAX/TEMPMIN/TEMPMAX specification.
++    w (1.500000e+03u) is greater than wmax (1.000000e+02u)
+Warning: (eldo - 255)  In file "./CSA_eldonet.spi" line 55:
++   OBJECT "M4":  Size not consistent with LMIN/LMAX/WMIN/WMAX/TEMPMIN/TEMPMAX specification.
++    w (2.500000e+02u) is greater than wmax (1.000000e+02u)
+Warning: (eldo - 255)  In file "./CSA_eldonet.spi" line 86:
++   OBJECT "M6":  Size not consistent with LMIN/LMAX/WMIN/WMAX/TEMPMIN/TEMPMAX specification.
++    w (1.500000e+02u) is greater than wmax (1.000000e+02u)
+Warning: (eldo - 255)  In file "./CSA_eldonet.spi" line 91:
++   OBJECT "M9":  Size not consistent with LMIN/LMAX/WMIN/WMAX/TEMPMIN/TEMPMAX specification.
++    w (1.500000e+02u) is greater than wmax (1.000000e+02u)
+Warning: (eldo - 255)  In file "./CSA_eldonet.spi" line 96:
++   OBJECT "M10":  Size not consistent with LMIN/LMAX/WMIN/WMAX/TEMPMIN/TEMPMAX specification.
++    w (1.500000e+02u) is greater than wmax (1.000000e+02u)
+Warning: (eldo - 1615)  In file "./CSA_eldonet.cir" line 39:
++   COMMAND ".TRAN": Tstep can not be <= 0.0.
++   It is set to Tmax/20.0 = 4.000e-08 s.

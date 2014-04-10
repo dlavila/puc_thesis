@@ -1,0 +1,22 @@
+A 5 u Eddm_part 52cee7ee3479.03.7f.00.00.01.00.39.f9 7 2 2 0
+V v 5 1 52d025a8d4bc.03.7f.00.00.01.00.72.f0
+F f 5 "part.part_5"
+V v 6 1 52d025aae07a.03.7f.00.00.01.00.72.f0
+F f 6 "part.part_6"
+V v 7 1 52d025c26742.03.7f.00.00.01.00.72.f0
+F f 7 "part.part_7"
+O 7
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/BIAS_BUFFER/schematic" 1 mgc_schematic 52cee7d5e2d9.03.7f.00.00.01.01.39.f9 52cee7d5e2d9.03.7f.00.00.01.00.39.f9
+P "eddm__refer_state" "eddm__refer_floating"
+R csduv 1 "$SC_filter/default.group/logic.views/BIAS_BUFFER/BIAS_BUFFER" 8 mgc_symbol 52d025c2673d.03.7f.00.00.01.00.72.f0 52d024207a75.03.7f.00.00.01.00.72.f0
+O 6
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/BIAS_BUFFER/schematic" 1 mgc_schematic 52cee7d5e2d9.03.7f.00.00.01.01.39.f9 52cee7d5e2d9.03.7f.00.00.01.00.39.f9
+P "eddm__refer_state" "eddm__refer_floating"
+R csduv 1 "$SC_filter/default.group/logic.views/BIAS_BUFFER/BIAS_BUFFER" 7 mgc_symbol 52d025aae075.03.7f.00.00.01.00.72.f0 52d024207a75.03.7f.00.00.01.00.72.f0
+O 5
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/BIAS_BUFFER/schematic" 1 mgc_schematic 52cee7d5e2d9.03.7f.00.00.01.01.39.f9 52cee7d5e2d9.03.7f.00.00.01.00.39.f9
+P "eddm__refer_state" "eddm__refer_floating"
+R csduv 1 "$SC_filter/default.group/logic.views/BIAS_BUFFER/BIAS_BUFFER" 6 mgc_symbol 52d025a8d4b7.03.7f.00.00.01.00.72.f0 52d024207a75.03.7f.00.00.01.00.72.f0

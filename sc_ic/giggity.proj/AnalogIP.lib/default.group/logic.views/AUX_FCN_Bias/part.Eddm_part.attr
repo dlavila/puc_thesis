@@ -1,0 +1,19 @@
+A 5 u Eddm_part 526ed53155dd.03.7f.00.00.01.00.7f.34 6 2 2 0
+V v 4 1 526ed5555744.03.7f.00.00.01.00.7f.34
+F f 4 "part.part_4"
+V v 5 1 526ed59d68b5.03.7f.00.00.01.00.7f.34
+F f 5 "part.part_5"
+V v 6 1 526ed59e1ff4.03.7f.00.00.01.00.7f.34
+F f 6 "part.part_6"
+O 6
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$AnalogIP/default.group/logic.views/AUX_FCN_Bias/schematic" 2 mgc_schematic 526ed22f3863.03.7f.00.00.01.00.7f.34 526ed1f5456b.03.7f.00.00.01.00.7f.34
+R csduv 1 "$AnalogIP/default.group/logic.views/AUX_FCN_Bias/AUX_FCN_Bias" 5 mgc_symbol 526ed59e1fd7.03.7f.00.00.01.00.7f.34 526ed5356117.03.7f.00.00.01.00.7f.34
+O 5
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$AnalogIP/default.group/logic.views/AUX_FCN_Bias/schematic" 2 mgc_schematic 526ed22f3863.03.7f.00.00.01.00.7f.34 526ed1f5456b.03.7f.00.00.01.00.7f.34
+R csduv 1 "$AnalogIP/default.group/logic.views/AUX_FCN_Bias/AUX_FCN_Bias" 4 mgc_symbol 526ed59d689a.03.7f.00.00.01.00.7f.34 526ed5356117.03.7f.00.00.01.00.7f.34
+O 4
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$AnalogIP/default.group/logic.views/AUX_FCN_Bias/schematic" 2 mgc_schematic 526ed22f3863.03.7f.00.00.01.00.7f.34 526ed1f5456b.03.7f.00.00.01.00.7f.34
+R csduv 1 "$AnalogIP/default.group/logic.views/AUX_FCN_Bias/AUX_FCN_Bias" 3 mgc_symbol 526ed5555714.03.7f.00.00.01.00.7f.34 526ed5356117.03.7f.00.00.01.00.7f.34

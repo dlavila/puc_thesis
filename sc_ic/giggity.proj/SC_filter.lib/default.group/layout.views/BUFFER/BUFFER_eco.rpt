@@ -1,0 +1,66 @@
+* ICgraph ECO report for cell: $SC_filter/default.group/layout.views/BUFFER/BUFFER
+* Generated:  Sat Dec 21 19:44:02 2013
+
+* REPORTING ONLY. NO LAYOUT CHANGES WILL BE MADE.
+------------------------------------------------------------
+Transistor instance /M61 is in source but not in layout
+Transistor instance /M62 is in source but not in layout
+Transistor instance /M63 is in source but not in layout
+Transistor instance /M64 is in source but not in layout
+Transistor instance /M65 is in source but not in layout
+Transistor instance /M66 is in source but not in layout
+Transistor instance /M67 is in source but not in layout
+Transistor instance /M68 is in source but not in layout
+Instance /R1 ($resistor) is in source but not in layout
+Instance /R2 ($resistor) is in source but not in layout
+Transistor instance /M10 is in source but not in layout
+Transistor instance /M11 is in source but not in layout
+Transistor instance /M12 is in source but not in layout
+Instance /C1 ($mimcap) is in source but not in layout
+Transistor instance /M13 is in source but not in layout
+Transistor instance /M14 is in source but not in layout
+Instance /C2 ($mimcap) is in source but not in layout
+Transistor instance /M15 is in source but not in layout
+Transistor instance /M16 is in source but not in layout
+Transistor instance /M21 is in source but not in layout
+Transistor instance /M22 is in source but not in layout
+Transistor instance /M23 is in source but not in layout
+Transistor instance /M24 is in source but not in layout
+Transistor instance /M25 is in source but not in layout
+Transistor instance /M26 is in source but not in layout
+Transistor instance /M27 is in source but not in layout
+Transistor instance /M28 is in source but not in layout
+Transistor instance /M29 is in source but not in layout
+Transistor instance /M30 is in source but not in layout
+Transistor instance /M31 is in source but not in layout
+Transistor instance /M32 is in source but not in layout
+Transistor instance /M33 is in source but not in layout
+Transistor instance /M34 is in source but not in layout
+Transistor instance /M5 is in source but not in layout
+Transistor instance /M35 is in source but not in layout
+Transistor instance /M6 is in source but not in layout
+Transistor instance /M7 is in source but not in layout
+Transistor instance /M36 is in source but not in layout
+Transistor instance /M37 is in source but not in layout
+Transistor instance /M8 is in source but not in layout
+Transistor instance /M38 is in source but not in layout
+Transistor instance /M9 is in source but not in layout
+Transistor instance /M39 is in source but not in layout
+Transistor instance /M40 is in source but not in layout
+Transistor instance /M43 is in source but not in layout
+Transistor instance /M45 is in source but not in layout
+Transistor instance /M47 is in source but not in layout
+Transistor instance /M48 is in source but not in layout
+Transistor instance /M49 is in source but not in layout
+Transistor instance /M51 is in source but not in layout
+Transistor instance /MOUTN is in source but not in layout
+Transistor instance /M52 is in source but not in layout
+Transistor instance /M53 is in source but not in layout
+Transistor instance /MOUTP is in source but not in layout
+Transistor instance /M54 is in source but not in layout
+Transistor instance /M55 is in source but not in layout
+Transistor instance /M56 is in source but not in layout
+Deleted layout net: /N$90
+Deleted layout net: /N$205
+Deleted layout net: /N$169
+Deleted layout net: /N$203

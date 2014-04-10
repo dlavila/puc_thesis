@@ -1,14 +1,14 @@
-A 5 u mgc_sheet 524c8197af44.03.7f.00.00.01.00.24.12 321 2 33 0
-V v 319 2 52560f7c837f.03.7f.00.00.01.00.12.69
-F f 319 "sheet1.ssht_319"
-F f 319 "sheet1.sgfx_319"
-V v 320 2 52561038005f.03.7f.00.00.01.00.12.69
-F f 320 "sheet1.ssht_320"
-F f 320 "sheet1.sgfx_320"
-V v 321 2 5256103911e8.03.7f.00.00.01.00.12.69
-F f 321 "sheet1.ssht_321"
-F f 321 "sheet1.sgfx_321"
-O 321
+A 5 u mgc_sheet 524c8197af44.03.7f.00.00.01.00.24.12 373 2 37 0
+V v 371 2 526e91d9d4a3.03.7f.00.00.01.00.62.a4
+F f 371 "sheet1.ssht_371"
+F f 371 "sheet1.sgfx_371"
+V v 372 2 5278f4a173dd.03.7f.00.00.01.00.5c.3d
+F f 372 "sheet1.ssht_372"
+F f 372 "sheet1.sgfx_372"
+V v 373 2 5278ffc9c4c0.03.7f.00.00.01.00.5e.90
+F f 373 "sheet1.ssht_373"
+F f 373 "sheet1.sgfx_373"
+O 373
 P "eddm__stream_to_use" "eddm__propl_dstream"
 R csduv 0 "$AnalogIP/default.group/logic.views/RFC/schematic" 1 mgc_schematic 524c8197ad52.03.7f.00.00.01.01.24.12 524c8197ad52.03.7f.00.00.01.00.24.12
 R csduv 1 "$MGC_DESIGN_KIT/symbols/P_18_MM/part" 23 Eddm_part 462e23ba79d1.03.7f.00.00.01.00.54.63 461b99bfbe81.03.89.ca.19.1a.00.4f.21
@@ -23,7 +23,9 @@ R csduv 19 "$MGC_IC_SOURCES_LIB/vcvs/part" 1 Eddm_part 3890ce21ee10.03.86.56.31.
 R csduv 20 "$MGC_IC_SOURCES_LIB/vcvs/vcvs" 1 mgc_symbol 3890ce21edda.03.86.56.31.70.00.34.2e 3890ce7e2bcb.03.86.56.31.70.02.34.72
 R csduv 21 "$MGC_IC_SOURCES_LIB/vcvs_2pin/part" 1 Eddm_part 359ac661711d.03.86.56.31.87.00.43.29 3890ce7e2bcb.03.86.56.31.70.01.34.72
 R csduv 22 "$MGC_IC_SOURCES_LIB/vcvs_2pin/vcvs_2pin" 1 mgc_symbol 359938903115.03.86.56.31.87.00.1c.d1 3890ce7e2bcb.03.86.56.31.70.00.34.72
-O 320
+R csduv 33 "$MGC_IC_DEVICE_LIB/ideal_resistor/part" 2 Eddm_part 3fa692def27e.03.93.22.28.48.00.08.df 3900e8d5419c.03.93.22.22.60.00.56.1b
+R csduv 34 "$MGC_IC_DEVICE_LIB/ideal_resistor/ideal_resistor" 2 mgc_symbol 3fa692def260.03.93.22.28.48.00.08.df 3900e8d54202.03.93.22.22.60.00.56.1b
+O 372
 P "eddm__stream_to_use" "eddm__propl_dstream"
 R csduv 0 "$AnalogIP/default.group/logic.views/RFC/schematic" 1 mgc_schematic 524c8197ad52.03.7f.00.00.01.01.24.12 524c8197ad52.03.7f.00.00.01.00.24.12
 R csduv 1 "$MGC_DESIGN_KIT/symbols/P_18_MM/part" 23 Eddm_part 462e23ba79d1.03.7f.00.00.01.00.54.63 461b99bfbe81.03.89.ca.19.1a.00.4f.21
@@ -38,7 +40,9 @@ R csduv 19 "$MGC_IC_SOURCES_LIB/vcvs/part" 1 Eddm_part 3890ce21ee10.03.86.56.31.
 R csduv 20 "$MGC_IC_SOURCES_LIB/vcvs/vcvs" 1 mgc_symbol 3890ce21edda.03.86.56.31.70.00.34.2e 3890ce7e2bcb.03.86.56.31.70.02.34.72
 R csduv 21 "$MGC_IC_SOURCES_LIB/vcvs_2pin/part" 1 Eddm_part 359ac661711d.03.86.56.31.87.00.43.29 3890ce7e2bcb.03.86.56.31.70.01.34.72
 R csduv 22 "$MGC_IC_SOURCES_LIB/vcvs_2pin/vcvs_2pin" 1 mgc_symbol 359938903115.03.86.56.31.87.00.1c.d1 3890ce7e2bcb.03.86.56.31.70.00.34.72
-O 319
+R csduv 33 "$MGC_IC_DEVICE_LIB/ideal_resistor/part" 2 Eddm_part 3fa692def27e.03.93.22.28.48.00.08.df 3900e8d5419c.03.93.22.22.60.00.56.1b
+R csduv 34 "$MGC_IC_DEVICE_LIB/ideal_resistor/ideal_resistor" 2 mgc_symbol 3fa692def260.03.93.22.28.48.00.08.df 3900e8d54202.03.93.22.22.60.00.56.1b
+O 371
 P "eddm__stream_to_use" "eddm__propl_dstream"
 R csduv 0 "$AnalogIP/default.group/logic.views/RFC/schematic" 1 mgc_schematic 524c8197ad52.03.7f.00.00.01.01.24.12 524c8197ad52.03.7f.00.00.01.00.24.12
 R csduv 1 "$MGC_DESIGN_KIT/symbols/P_18_MM/part" 23 Eddm_part 462e23ba79d1.03.7f.00.00.01.00.54.63 461b99bfbe81.03.89.ca.19.1a.00.4f.21
@@ -53,3 +57,5 @@ R csduv 19 "$MGC_IC_SOURCES_LIB/vcvs/part" 1 Eddm_part 3890ce21ee10.03.86.56.31.
 R csduv 20 "$MGC_IC_SOURCES_LIB/vcvs/vcvs" 1 mgc_symbol 3890ce21edda.03.86.56.31.70.00.34.2e 3890ce7e2bcb.03.86.56.31.70.02.34.72
 R csduv 21 "$MGC_IC_SOURCES_LIB/vcvs_2pin/part" 1 Eddm_part 359ac661711d.03.86.56.31.87.00.43.29 3890ce7e2bcb.03.86.56.31.70.01.34.72
 R csduv 22 "$MGC_IC_SOURCES_LIB/vcvs_2pin/vcvs_2pin" 1 mgc_symbol 359938903115.03.86.56.31.87.00.1c.d1 3890ce7e2bcb.03.86.56.31.70.00.34.72
+R csduv 33 "$MGC_IC_DEVICE_LIB/ideal_resistor/part" 2 Eddm_part 3fa692def27e.03.93.22.28.48.00.08.df 3900e8d5419c.03.93.22.22.60.00.56.1b
+R csduv 34 "$MGC_IC_DEVICE_LIB/ideal_resistor/ideal_resistor" 2 mgc_symbol 3fa692def260.03.93.22.28.48.00.08.df 3900e8d54202.03.93.22.22.60.00.56.1b

@@ -1,0 +1,116 @@
+*
+* .CONNECT statements
+*
+.CONNECT GROUND 0
+
+
+* ELDO netlist generated with ICnet by 'dlavila' on Fri Nov 15 2013 at 12:30:38
+
+*
+* Globals.
+*
+.global VDD GROUND
+
+
+*
+* Component pathname : $MGC_DESIGN_KIT/symbols/MIMCAPS_MM [ELDOSPICE]
+*
+*       .include /usr/local/mentor/UMC180PDK/symbols/MIMCAPS_MM/mimcaps_mm
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/s2d
+*
+.subckt S2D  VD+ VD- VICM VID VSS
+
+        E3 N$2 VSS Vicm Vss 1
+        E2 VD- N$2 Vss Vid 0.5
+        E1 VD+ N$2 Vid Vss 0.5
+.ends S2D
+
+*
+* Component pathname : $AnalogIP/default.group/logic.views/buffer
+*
+.subckt BUFFER  VO VB1 VB2 VB3 VB4 VDD_ESC1 VI+ VI- VNCAS VPCAS VSS
+
+        M8 N$253 VNCAS N$252 VSS n_18_mm l=0.45u w=5.8u ad=2.842p as=2.842p
++  pd=12.58u ps=12.58u m=1
+        MIN2 N$232 VI+ N$145 VSS n_18_mm l=0.45u w=7.2u ad=3.528p as=3.528p
++  pd=15.38u ps=15.38u m=1
+        MCP2 N$257 VB2 N$232 VDD_ESC1 p_18_mm l=0.45u w=32.4u ad=15.876p
++  as=15.876p pd=65.78u ps=65.78u m=1
+        MCN2 N$258 VB3 N$242 VSS n_18_mm l=0.45u w=5.8u ad=2.842p as=2.842p
++  pd=12.58u ps=12.58u m=1
+        MCN1 N$252 VB3 N$239 VSS n_18_mm l=0.45u w=5.8u ad=2.842p as=2.842p
++  pd=12.58u ps=12.58u m=1
+        MIP2 N$242 VI+ N$214 VDD_ESC1 p_18_mm l=0.45u w=32.4u ad=15.876p
++  as=15.876p pd=65.78u ps=65.78u m=1
+        MLP1 N$234 N$253 VDD_ESC1 VDD_ESC1 p_18_mm l=0.45u w=32.4u ad=15.876p
++  as=15.876p pd=65.78u ps=65.78u m=1
+        MZN N$206 N$206 N$145 VSS n_18_mm l=0.45u w=21.6u ad=10.584p as=10.584p
++  pd=44.18u ps=44.18u m=1
+        M11 N$257 VNCAS N$258 VSS n_18_mm l=0.45u w=5.8u ad=2.842p as=2.842p
++  pd=12.58u ps=12.58u m=1
+        M10 N$258 VPCAS N$257 VDD_ESC1 p_18_mm l=0.45u w=32.4u ad=15.876p
++  as=15.876p pd=65.78u ps=65.78u m=1
+        MLP2 N$232 N$253 VDD_ESC1 VDD_ESC1 p_18_mm l=0.45u w=32.4u ad=15.876p
++  as=15.876p pd=65.78u ps=65.78u m=1
+        XC2 VO N$232 mimcaps_mm w=30u l=30u m=1
+        XC1 VO N$242 mimcaps_mm w=30u l=30u m=1
+        MZP N$206 N$206 N$214 VDD_ESC1 p_18_mm l=0.45u w=97.2u ad=47.628p
++  as=47.628p pd=0.195m ps=0.195m m=1
+        MLN2 N$242 N$252 VSS VSS n_18_mm l=0.45u w=5.8u ad=2.842p as=2.842p
++  pd=12.58u ps=12.58u m=1
+        MIP1 N$239 VI- N$214 VDD_ESC1 p_18_mm l=0.45u w=32.4u ad=15.876p
++  as=15.876p pd=65.78u ps=65.78u m=1
+        M9 N$252 VPCAS N$253 VDD_ESC1 p_18_mm l=0.45u w=32.4u ad=15.876p
++  as=15.876p pd=65.78u ps=65.78u m=1
+        MLN1 N$239 N$252 VSS VSS n_18_mm l=0.45u w=5.8u ad=2.842p as=2.842p
++  pd=12.58u ps=12.58u m=1
+        MIN1 N$234 VI- N$145 VSS n_18_mm l=0.45u w=7.2u ad=3.528p as=3.528p
++  pd=15.38u ps=15.38u m=1
+        MOUTN VO N$258 VSS VSS n_18_mm l=0.45u w=5.77u ad=1.981p as=1.981p
++  pd=8.38u ps=8.38u m=3
+        MOUTP VO N$257 VDD_ESC1 VDD_ESC1 p_18_mm l=0.45u w=32.4u ad=11.124p
++  as=11.124p pd=43.887u ps=43.887u m=3
+        I2 VDD_ESC1 N$214 DC 60uA
+        I1 N$145 VSS DC 60uA
+        MCP1 N$253 VB2 N$234 VDD_ESC1 p_18_mm l=0.45u w=32.4u ad=15.876p
++  as=15.876p pd=65.78u ps=65.78u m=1
+.ends BUFFER
+
+*
+* MAIN CELL: Component pathname : $AnalogIP/default.group/logic.views/testBuffer
+*
+        C1 VO GROUND 16P
+        X_S2D1 N$107 N$27 N$113 N$115 GROUND S2D
+        M10 N$141 N$141 VDD VDD p_18_mm l=0.45u w=32.4u ad=15.876p as=15.876p
++  pd=65.78u ps=65.78u m=1
+        M7 N$140 N$140 GROUND GROUND n_18_mm l=0.45u w=5.8u ad=2.842p as=2.842p
++  pd=12.58u ps=12.58u m=1
+        M6 VNCAS VNCAS N$140 GROUND n_18_mm l=0.45u w=5.8u ad=2.842p as=2.842p
++  pd=12.58u ps=12.58u m=1
+        M11 VPCAS VPCAS N$141 VDD p_18_mm l=0.45u w=32.4u ad=15.876p as=15.876p
++  pd=65.78u ps=65.78u m=1
+        V2 VDD GROUND DC 1.8V
+        V3 N$113 GROUND DC 1V
+        M9 N$102 VB1 VDD VDD p_18_mm l=0.45u w=32.4u ad=15.876p as=15.876p
++  pd=65.78u ps=65.78u m=1
+        M8 VNCAS VB2 N$102 VDD p_18_mm l=0.45u w=32.4u ad=15.876p as=15.876p
++  pd=65.78u ps=65.78u m=1
+        V4 N$115 GROUND DC 0V AC 1 0
+        M5 N$101 VB4 GROUND GROUND n_18_mm l=0.45u w=5.8u ad=2.842p as=2.842p
++  pd=12.58u ps=12.58u m=1
+        M3 VPCAS VB3 N$101 GROUND n_18_mm l=0.45u w=5.8u ad=2.842p as=2.842p
++  pd=12.58u ps=12.58u m=1
+        I1 VB2 VB3 DC Ib
+        M2 VB1 VB1 VDD VDD p_18_mm l=0.45u w=32.4u ad=15.876p as=15.876p
++  pd=65.78u ps=65.78u m=1
+        M4 VB2 VB2 VB1 VDD p_18_mm l=0.45u w=32.4u ad=15.876p as=15.876p
++  pd=65.78u ps=65.78u m=1
+        M1 VB3 VB3 VB4 GROUND n_18_mm l=0.45u w=5.8u ad=2.842p as=2.842p
++  pd=12.58u ps=12.58u m=1
+        MLN1 VB4 VB4 GROUND GROUND n_18_mm l=0.45u w=5.8u ad=2.842p as=2.842p
++  pd=12.58u ps=12.58u m=1
+        X_BUFFER1 VO VB1 VB2 VB3 VB4 VDD N$27 N$107 VNCAS VPCAS GROUND BUFFER
+*
+.end

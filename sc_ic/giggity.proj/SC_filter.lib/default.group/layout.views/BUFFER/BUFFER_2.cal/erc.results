@@ -1,0 +1,296 @@
+BUFFER_2 1000
+WRONG_NTAP
+0 0 3 Jan 10 13:15:37 2014                                                      
+Rule File Pathname: /home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib/default.group/layout.views/BUFFER_2/BUFFER_2.cal/_G-DF-MIXED_MODE_RFCMOS18-1.8V_3.3V-1P6M-MMC_CALIBRE-LVS-2.1-P4.txt_
+Rule File Title: LVS of UMC 0.18um 1.8V/3.3V 1P6M MMC Mixed Mode/RFCMOS Process
+Check NTAP WITH WRONG TEXT ?VSS? ?GND? EXCEPT DIODE and BJT
+WRONG_PTAP
+0 0 3 Jan 10 13:15:37 2014                                                      
+Rule File Pathname: /home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib/default.group/layout.views/BUFFER_2/BUFFER_2.cal/_G-DF-MIXED_MODE_RFCMOS18-1.8V_3.3V-1P6M-MMC_CALIBRE-LVS-2.1-P4.txt_
+Rule File Title: LVS of UMC 0.18um 1.8V/3.3V 1P6M MMC Mixed Mode/RFCMOS Process
+Check PTAP WITH WRONG TEXT ?VDD? ?VCC? EXCEPT DIODE and BJT
+WRONG_TTAP
+0 0 3 Jan 10 13:15:37 2014                                                      
+Rule File Pathname: /home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib/default.group/layout.views/BUFFER_2/BUFFER_2.cal/_G-DF-MIXED_MODE_RFCMOS18-1.8V_3.3V-1P6M-MMC_CALIBRE-LVS-2.1-P4.txt_
+Rule File Title: LVS of UMC 0.18um 1.8V/3.3V 1P6M MMC Mixed Mode/RFCMOS Process
+Check TTAP WITH WRONG TEXT ?VDD? ?VCC? EXCEPT DIODE and BJT
+WRONG_FLOATING_NTAP
+0 0 3 Jan 10 13:15:37 2014                                                      
+Rule File Pathname: /home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib/default.group/layout.views/BUFFER_2/BUFFER_2.cal/_G-DF-MIXED_MODE_RFCMOS18-1.8V_3.3V-1P6M-MMC_CALIBRE-LVS-2.1-P4.txt_
+Rule File Title: LVS of UMC 0.18um 1.8V/3.3V 1P6M MMC Mixed Mode/RFCMOS Process
+Check NTAP WITHOUT TEXT ?VDD? ?VCC? ?VSS? ?GND? EXCEPT DIODE and BJT
+WRONG_FLOATING_PTAP
+0 0 3 Jan 10 13:15:37 2014                                                      
+Rule File Pathname: /home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib/default.group/layout.views/BUFFER_2/BUFFER_2.cal/_G-DF-MIXED_MODE_RFCMOS18-1.8V_3.3V-1P6M-MMC_CALIBRE-LVS-2.1-P4.txt_
+Rule File Title: LVS of UMC 0.18um 1.8V/3.3V 1P6M MMC Mixed Mode/RFCMOS Process
+Check PTAP WITHOUT TEXT ?VDD? ?VCC? ?VSS? ?GND? EXCEPT DIODE and BJT
+WRONG_FLOATING_TTAP
+0 0 3 Jan 10 13:15:37 2014                                                      
+Rule File Pathname: /home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib/default.group/layout.views/BUFFER_2/BUFFER_2.cal/_G-DF-MIXED_MODE_RFCMOS18-1.8V_3.3V-1P6M-MMC_CALIBRE-LVS-2.1-P4.txt_
+Rule File Title: LVS of UMC 0.18um 1.8V/3.3V 1P6M MMC Mixed Mode/RFCMOS Process
+Check TTAP WITHOUT TEXT ?VDD? ?VCC? ?VSS? ?GND? EXCEPT DIODE and BJT
+WRONG_FLOATING_WEL
+0 0 3 Jan 10 13:15:37 2014                                                      
+Rule File Pathname: /home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib/default.group/layout.views/BUFFER_2/BUFFER_2.cal/_G-DF-MIXED_MODE_RFCMOS18-1.8V_3.3V-1P6M-MMC_CALIBRE-LVS-2.1-P4.txt_
+Rule File Title: LVS of UMC 0.18um 1.8V/3.3V 1P6M MMC Mixed Mode/RFCMOS Process
+Check WEL WITHOUT TEXT ?VDD? ?VCC? ?VSS? ?GND? EXCEPT DIODE and BJT
+PATHCHK_GND
+0 0 3 Jan 10 13:15:37 2014                                                      
+Rule File Pathname: /home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib/default.group/layout.views/BUFFER_2/BUFFER_2.cal/_G-DF-MIXED_MODE_RFCMOS18-1.8V_3.3V-1P6M-MMC_CALIBRE-LVS-2.1-P4.txt_
+Rule File Title: LVS of UMC 0.18um 1.8V/3.3V 1P6M MMC Mixed Mode/RFCMOS Process
+To check nets with a path to ground not power
+PATHCHK_PWR
+0 0 3 Jan 10 13:15:37 2014                                                      
+Rule File Pathname: /home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib/default.group/layout.views/BUFFER_2/BUFFER_2.cal/_G-DF-MIXED_MODE_RFCMOS18-1.8V_3.3V-1P6M-MMC_CALIBRE-LVS-2.1-P4.txt_
+Rule File Title: LVS of UMC 0.18um 1.8V/3.3V 1P6M MMC Mixed Mode/RFCMOS Process
+To check nets with a path to power not ground
+PATHCHK_NPWRGND
+24 24 3 Jan 10 13:15:37 2014                                                    
+Rule File Pathname: /home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib/default.group/layout.views/BUFFER_2/BUFFER_2.cal/_G-DF-MIXED_MODE_RFCMOS18-1.8V_3.3V-1P6M-MMC_CALIBRE-LVS-2.1-P4.txt_
+Rule File Title: LVS of UMC 0.18um 1.8V/3.3V 1P6M MMC Mixed Mode/RFCMOS Process
+To check nets with no path to power and ground
+p 1 4
+38800 56930
+39250 56930
+39250 59870
+38800 59870
+p 2 4
+40780 56930
+41230 56930
+41230 59870
+40780 59870
+p 3 4
+43070 56930
+43520 56930
+43520 59870
+43070 59870
+p 4 4
+45050 56930
+45500 56930
+45500 59870
+45050 59870
+p 5 4
+52140 76460
+52590 76460
+52590 79400
+52140 79400
+p 6 4
+54220 14720
+54670 14720
+54670 16760
+54220 16760
+p 7 4
+54220 17180
+54670 17180
+54670 19220
+54220 19220
+p 8 4
+57090 76460
+57540 76460
+57540 79400
+57090 79400
+p 9 4
+58030 22160
+58480 22160
+58480 24200
+58030 24200
+p 10 4
+58490 14720
+58940 14720
+58940 16760
+58490 16760
+p 11 4
+58490 17180
+58940 17180
+58940 19220
+58490 19220
+p 12 4
+60010 22160
+60460 22160
+60460 24200
+60010 24200
+p 13 4
+65800 22160
+66250 22160
+66250 24200
+65800 24200
+p 14 4
+67380 14720
+67830 14720
+67830 16760
+67380 16760
+p 15 4
+67380 17180
+67830 17180
+67830 19220
+67380 19220
+p 16 4
+67780 22160
+68230 22160
+68230 24200
+67780 24200
+p 17 4
+68600 76460
+69050 76460
+69050 79400
+68600 79400
+p 18 4
+71650 14720
+72100 14720
+72100 16760
+71650 16760
+p 19 4
+71650 17180
+72100 17180
+72100 19220
+71650 19220
+p 20 4
+73550 76460
+74000 76460
+74000 79400
+73550 79400
+p 21 4
+80760 56930
+81210 56930
+81210 59870
+80760 59870
+p 22 4
+82740 56930
+83190 56930
+83190 59870
+82740 59870
+p 23 4
+85030 56930
+85480 56930
+85480 59870
+85030 59870
+p 24 4
+87010 56930
+87460 56930
+87460 59870
+87010 59870
+PATHCHK_NLABELED
+24 24 3 Jan 10 13:15:37 2014                                                    
+Rule File Pathname: /home/dlavila/puc_thesis/sc_ic/giggity.proj/SC_filter.lib/default.group/layout.views/BUFFER_2/BUFFER_2.cal/_G-DF-MIXED_MODE_RFCMOS18-1.8V_3.3V-1P6M-MMC_CALIBRE-LVS-2.1-P4.txt_
+Rule File Title: LVS of UMC 0.18um 1.8V/3.3V 1P6M MMC Mixed Mode/RFCMOS Process
+To check nets with no path to any labeled net
+p 1 4
+38800 56930
+39250 56930
+39250 59870
+38800 59870
+p 2 4
+40780 56930
+41230 56930
+41230 59870
+40780 59870
+p 3 4
+43070 56930
+43520 56930
+43520 59870
+43070 59870
+p 4 4
+45050 56930
+45500 56930
+45500 59870
+45050 59870
+p 5 4
+52140 76460
+52590 76460
+52590 79400
+52140 79400
+p 6 4
+54220 14720
+54670 14720
+54670 16760
+54220 16760
+p 7 4
+54220 17180
+54670 17180
+54670 19220
+54220 19220
+p 8 4
+57090 76460
+57540 76460
+57540 79400
+57090 79400
+p 9 4
+58030 22160
+58480 22160
+58480 24200
+58030 24200
+p 10 4
+58490 14720
+58940 14720
+58940 16760
+58490 16760
+p 11 4
+58490 17180
+58940 17180
+58940 19220
+58490 19220
+p 12 4
+60010 22160
+60460 22160
+60460 24200
+60010 24200
+p 13 4
+65800 22160
+66250 22160
+66250 24200
+65800 24200
+p 14 4
+67380 14720
+67830 14720
+67830 16760
+67380 16760
+p 15 4
+67380 17180
+67830 17180
+67830 19220
+67380 19220
+p 16 4
+67780 22160
+68230 22160
+68230 24200
+67780 24200
+p 17 4
+68600 76460
+69050 76460
+69050 79400
+68600 79400
+p 18 4
+71650 14720
+72100 14720
+72100 16760
+71650 16760
+p 19 4
+71650 17180
+72100 17180
+72100 19220
+71650 19220
+p 20 4
+73550 76460
+74000 76460
+74000 79400
+73550 79400
+p 21 4
+80760 56930
+81210 56930
+81210 59870
+80760 59870
+p 22 4
+82740 56930
+83190 56930
+83190 59870
+82740 59870
+p 23 4
+85030 56930
+85480 56930
+85480 59870
+85030 59870
+p 24 4
+87010 56930
+87460 56930
+87460 59870
+87010 59870

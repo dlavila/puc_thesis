@@ -3,98 +3,109 @@
 # object between its name on the schematic and its name in the netlist.
 version 1.0
 
-Cell P_18_MM
-   Pin D D
-   Pin G G
-   Pin S S
-   Pin B B
+Cell vcvs_2pin
+   Pin POS pos
+   Pin NEG neg
 End Cell
 
-Cell N_18_MM
-   Pin D D
-   Pin G G
-   Pin S S
-   Pin B B
+Cell p_18_mm
+   Pin D d
+   Pin G g
+   Pin S s
+   Pin B b
 End Cell
 
-Cell VCVS_2PIN
-   Pin POS POS
-   Pin NEG NEG
+Cell vcvs
+   Pin POS pos
+   Pin NEG neg
+   Pin CP cp
+   Pin CN cn
 End Cell
 
-Cell VCVS
-   Pin POS POS
-   Pin NEG NEG
-   Pin CP CP
-   Pin CN CN
+Cell n_18_mm
+   Pin D d
+   Pin G g
+   Pin S s
+   Pin B b
+End Cell
+
+Cell ideal_resistor
+   Pin POS pos
+   Pin NEG neg
 End Cell
 
 Cell #top#
-   Pin Vout+ VOUT+
-   Pin Vout- VOUT-
-   Pin Vb1 VB1
-   Pin Vb1t VB1T
-   Pin Vb2 VB2
-   Pin Vb2t VB2T
-   Pin Vb3 VB3
-   Pin Vdd VDD
-   Pin Vin+ VIN+
-   Pin Vin- VIN-
-   Pin Vocm VOCM
-   Pin Vss VSS
-   Net N$669 N$669
-   Net N$656 N$656
-   Net N$653 N$653
-   Net N$655 N$655
-   Net N$651 N$651
-   Net N$652 N$652
-   Net N$638 N$638
-   Net N$631 N$631
-   Net N$593 N$593
-   Net CMFB CMFB
-   Net N$410 N$410
-   Net N$336 N$336
-   Net N$329 N$329
-   Net N$63 N$63
-   Net N$112 N$112
-   Net Vocm VOCM
-   Net Vb3 VB3
-   Net Vb1 VB1
-   Net Vdd VDD
-   Net Vss VSS
-   Net Vb1t VB1T
-   Net Vb2t VB2T
-   Net Vout- VOUT-
-   Net Vout+ VOUT+
-   Net Vb2 VB2
-   Net Vin- VIN-
-   Net Vin+ VIN+
-   Inst M1b M1B P_18_MM
-   Inst M11 M11 N_18_MM
-   Inst M1a M1A P_18_MM
-   Inst M5 M5 N_18_MM
-   Inst E2 E2 VCVS_2PIN
-   Inst M15 M15 P_18_MM
-   Inst M3A M3A N_18_MM
-   Inst M2 M2 N_18_MM
-   Inst M3 M3 N_18_MM
-   Inst M1 M1 P_18_MM
-   Inst M3b M3B N_18_MM
-   Inst M4 M4 N_18_MM
-   Inst M13 M13 N_18_MM
-   Inst E3 E3 VCVS_2PIN
-   Inst M14 M14 P_18_MM
-   Inst E1 E1 VCVS
-   Inst M4B M4B N_18_MM
-   Inst M4a M4A N_18_MM
-   Inst M12 M12 N_18_MM
-   Inst M2b M2B P_18_MM
-   Inst M0 M0 P_18_MM
-   Inst M6 M6 N_18_MM
-   Inst M10 M10 P_18_MM
-   Inst M7 M7 P_18_MM
-   Inst M9 M9 P_18_MM
-   Inst M2a M2A P_18_MM
-   Inst M8 M8 P_18_MM
+   Pin Vout+ vout+
+   Pin Vout- vout-
+   Pin Vb1 vb1
+   Pin Vb1t vb1t
+   Pin Vb2 vb2
+   Pin Vb2t vb2t
+   Pin Vb3 vb3
+   Pin Vb4 vb4
+   Pin Vdd vdd
+   Pin Vin+ vin+
+   Pin Vin- vin-
+   Pin Vocm vocm
+   Pin Vss vss
+   Net N$707 n$707
+   Net N$329 n$329
+   Net N$692 n$692
+   Net N$410 n$410
+   Net N$638 n$638
+   Net N$682 n$682
+   Net N$681 n$681
+   Net N$679 n$679
+   Net N$669 n$669
+   Net N$656 n$656
+   Net N$653 n$653
+   Net CMFB cmfb
+   Net N$655 n$655
+   Net N$336 n$336
+   Net N$112 n$112
+   Net Vocm vocm
+   Net Vb3 vb3
+   Net Vb1 vb1
+   Net Vdd vdd
+   Net Vss vss
+   Net Vb1t vb1t
+   Net Vb2t vb2t
+   Net Vout- vout-
+   Net Vout+ vout+
+   Net Vb2 vb2
+   Net Vin- vin-
+   Net Vin+ vin+
+   Net Vb4 vb4
+   Inst E3 e3 vcvs_2pin
+   Inst M14 m14 p_18_mm
+   Inst E1 e1 vcvs
+   Inst M1a m1a p_18_mm
+   Inst M4B m4b n_18_mm
+   Inst M1 m1 p_18_mm
+   Inst M0 m0 p_18_mm
+   Inst M4a m4a n_18_mm
+   Inst M12 m12 n_18_mm
+   Inst M5 m5 n_18_mm
+   Inst M6 m6 n_18_mm
+   Inst E2 e2 vcvs_2pin
+   Inst M9 m9 p_18_mm
+   Inst M8 m8 p_18_mm
+   Inst M11 m11 n_18_mm
+   Inst M10 m10 p_18_mm
+   Inst M18 m18 p_18_mm
+   Inst M17 m17 p_18_mm
+   Inst M16 m16 p_18_mm
+   Inst M15 m15 p_18_mm
+   Inst M3A m3a n_18_mm
+   Inst M2 m2 n_18_mm
+   Inst M3 m3 n_18_mm
+   Inst M7 m7 p_18_mm
+   Inst M3b m3b n_18_mm
+   Inst M4 m4 n_18_mm
+   Inst M20 m20 p_18_mm
+   Inst M19 m19 p_18_mm
+   Inst R2 r2 ideal_resistor
+   Inst R1 r1 ideal_resistor
+   Inst M13 m13 n_18_mm
 End Cell
 

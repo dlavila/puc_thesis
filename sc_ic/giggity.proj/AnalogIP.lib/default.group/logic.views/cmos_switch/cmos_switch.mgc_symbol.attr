@@ -1,0 +1,13 @@
+A 5 u mgc_symbol 526ea01cbbae.03.7f.00.00.01.00.19.70 7 2 1 0
+V v 5 1 526ea1606f19.03.7f.00.00.01.00.19.70
+F f 5 "cmos_switch.smbl_5"
+V v 6 1 526ea1903534.03.7f.00.00.01.00.1e.10
+F f 6 "cmos_switch.smbl_6"
+V v 7 1 526ea190a2ac.03.7f.00.00.01.00.1e.10
+F f 7 "cmos_switch.smbl_7"
+O 7
+R csduv 0 "$AnalogIP/default.group/logic.views/cmos_switch/part" 7 Eddm_part 526ea1903557.03.7f.00.00.01.00.1e.10 526ea0021405.03.7f.00.00.01.00.16.d6
+O 6
+R csduv 0 "$AnalogIP/default.group/logic.views/cmos_switch/part" 7 Eddm_part 526ea1903557.03.7f.00.00.01.00.1e.10 526ea0021405.03.7f.00.00.01.00.16.d6
+O 5
+R csduv 0 "$AnalogIP/default.group/logic.views/cmos_switch/part" 6 Eddm_part 526ea1606f33.03.7f.00.00.01.00.19.70 526ea0021405.03.7f.00.00.01.00.16.d6

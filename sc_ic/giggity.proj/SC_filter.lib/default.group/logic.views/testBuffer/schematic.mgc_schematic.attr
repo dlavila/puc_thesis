@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 52b1e5d3b422.03.7f.00.00.01.00.15.55 24 2 1 0
+V v 22 1 52d02604c326.03.7f.00.00.01.00.72.f0
+F o 0 ""
+V v 23 1 52d0265d6c93.03.7f.00.00.01.00.72.f0
+F o 0 ""
+V v 24 1 52d449dec506.03.7f.00.00.01.00.66.e6
+F o 0 ""
+O 24
+R cspuv 0 "$SC_filter/default.group/logic.views/testBuffer/schematic/sheet1" 23 mgc_sheet 52d449dec4ee.03.7f.00.00.01.00.66.e6 52b1e5d3b439.03.7f.00.00.01.00.15.55
+O 23
+R cspuv 0 "$SC_filter/default.group/logic.views/testBuffer/schematic/sheet1" 22 mgc_sheet 52d0265d6c74.03.7f.00.00.01.00.72.f0 52b1e5d3b439.03.7f.00.00.01.00.15.55
+O 22
+R cspuv 0 "$SC_filter/default.group/logic.views/testBuffer/schematic/sheet1" 21 mgc_sheet 52d02604c30e.03.7f.00.00.01.00.72.f0 52b1e5d3b439.03.7f.00.00.01.00.15.55

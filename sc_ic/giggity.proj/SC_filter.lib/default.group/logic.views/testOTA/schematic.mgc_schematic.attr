@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 527a9885479d.03.7f.00.00.01.00.7b.c5 39 2 1 0
+V v 37 1 52f68a57c9b3.03.7f.00.00.01.00.0b.58
+F o 0 ""
+V v 38 1 52f68a5cd756.03.7f.00.00.01.00.0b.58
+F o 0 ""
+V v 39 1 52f699752364.03.7f.00.00.01.00.0b.58
+F o 0 ""
+O 39
+R cspuv 0 "$SC_filter/default.group/logic.views/testOTA/schematic/sheet1" 38 mgc_sheet 52f699752321.03.7f.00.00.01.00.0b.58 527a9885481c.03.7f.00.00.01.00.7b.c5
+O 38
+R cspuv 0 "$SC_filter/default.group/logic.views/testOTA/schematic/sheet1" 37 mgc_sheet 52f68a5cd741.03.7f.00.00.01.00.0b.58 527a9885481c.03.7f.00.00.01.00.7b.c5
+O 37
+R cspuv 0 "$SC_filter/default.group/logic.views/testOTA/schematic/sheet1" 36 mgc_sheet 52f68a57c99a.03.7f.00.00.01.00.0b.58 527a9885481c.03.7f.00.00.01.00.7b.c5

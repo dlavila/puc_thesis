@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 52ab2132d41b.03.7f.00.00.01.00.43.07 70 2 1 0
+V v 68 1 52af3e27c6ed.03.7f.00.00.01.00.18.5b
+F o 0 ""
+V v 69 1 52af3e59bf7a.03.7f.00.00.01.00.18.5b
+F o 0 ""
+V v 70 1 52af3f2e2520.03.7f.00.00.01.00.18.5b
+F o 0 ""
+O 70
+R cspuv 0 "$LS_BUFFER/default.group/logic.views/NEW_BUFFER/schematic/sheet1" 69 mgc_sheet 52af3f2e250d.03.7f.00.00.01.00.18.5b 52ab2132d60a.03.7f.00.00.01.00.43.07
+O 69
+R cspuv 0 "$LS_BUFFER/default.group/logic.views/NEW_BUFFER/schematic/sheet1" 68 mgc_sheet 52af3e59bf5c.03.7f.00.00.01.00.18.5b 52ab2132d60a.03.7f.00.00.01.00.43.07
+O 68
+R cspuv 0 "$LS_BUFFER/default.group/logic.views/NEW_BUFFER/schematic/sheet1" 67 mgc_sheet 52af3e27c6d9.03.7f.00.00.01.00.18.5b 52ab2132d60a.03.7f.00.00.01.00.43.07

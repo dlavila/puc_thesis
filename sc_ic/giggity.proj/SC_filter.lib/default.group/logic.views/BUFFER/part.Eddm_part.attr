@@ -1,0 +1,19 @@
+A 5 u Eddm_part 52d04a711092.03.7f.00.00.01.00.07.5c 22 2 2 0
+V v 20 1 52d024c67c94.03.7f.00.00.01.00.72.f0
+F f 20 "part.part_20"
+V v 21 1 52d024c6dc3d.03.7f.00.00.01.00.72.f0
+F f 21 "part.part_21"
+V v 22 1 52d04a744cb3.03.7f.00.00.01.00.50.27
+F f 22 "part.part_22"
+O 22
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/BUFFER/schematic" 3 mgc_schematic 528a291b4e87.03.7f.00.00.01.00.14.9d 52d04a711077.03.7f.00.00.01.00.07.5c
+R csduv 1 "$SC_filter/default.group/logic.views/BUFFER/BUFFER" 49 mgc_symbol 52d024c6dc37.03.7f.00.00.01.00.72.f0 52d04a71106f.03.7f.00.00.01.00.07.5c
+O 21
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/BUFFER/schematic" 3 mgc_schematic 528a291b4e87.03.7f.00.00.01.00.14.9d 52d04a711077.03.7f.00.00.01.00.07.5c
+R csduv 1 "$SC_filter/default.group/logic.views/BUFFER/BUFFER" 49 mgc_symbol 52d024c6dc37.03.7f.00.00.01.00.72.f0 52d04a71106f.03.7f.00.00.01.00.07.5c
+O 20
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$SC_filter/default.group/logic.views/BUFFER/schematic" 3 mgc_schematic 528a291b4e87.03.7f.00.00.01.00.14.9d 52d04a711077.03.7f.00.00.01.00.07.5c
+R csduv 1 "$SC_filter/default.group/logic.views/BUFFER/BUFFER" 48 mgc_symbol 52d024c67c8d.03.7f.00.00.01.00.72.f0 52d04a71106f.03.7f.00.00.01.00.07.5c

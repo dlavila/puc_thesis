@@ -1,0 +1,40 @@
+* SPICE NETLIST
+***************************************
+
+.SUBCKT L POS NEG SUB
+.ENDS
+***************************************
+.SUBCKT switch_X4 e VDD VSS in out
+** N=6 EP=5 IP=0 FDC=10
+M0 6 e VDD VDD P_18_MM L=1.8e-07 W=3e-06 AD=1.47e-12 AS=1.47e-12 PD=3.98e-06 PS=3.98e-06 $X=460 $Y=1070 $D=3
+M1 out 6 in VDD P_18_MM L=1.8e-07 W=3e-06 AD=8.1e-13 AS=1.47e-12 PD=5.4e-07 PS=3.98e-06 $X=2480 $Y=1070 $D=3
+M2 in 6 out VDD P_18_MM L=1.8e-07 W=3e-06 AD=8.1e-13 AS=8.1e-13 PD=5.4e-07 PS=5.4e-07 $X=3200 $Y=1070 $D=3
+M3 out 6 in VDD P_18_MM L=1.8e-07 W=3e-06 AD=8.1e-13 AS=8.1e-13 PD=5.4e-07 PS=5.4e-07 $X=3920 $Y=1070 $D=3
+M4 in 6 out VDD P_18_MM L=1.8e-07 W=3e-06 AD=1.47e-12 AS=8.1e-13 PD=3.98e-06 PS=5.4e-07 $X=4640 $Y=1070 $D=3
+M5 6 e VSS VSS N_18_MM L=1.8e-07 W=1e-06 AD=4.9e-13 AS=4.9e-13 PD=1.98e-06 PS=1.98e-06 $X=460 $Y=-1440 $D=2
+M6 out e in VSS N_18_MM L=1.8e-07 W=1e-06 AD=2.7e-13 AS=4.9e-13 PD=5.4e-07 PS=1.98e-06 $X=2480 $Y=-1440 $D=2
+M7 in e out VSS N_18_MM L=1.8e-07 W=1e-06 AD=2.7e-13 AS=2.7e-13 PD=5.4e-07 PS=5.4e-07 $X=3200 $Y=-1440 $D=2
+M8 out e in VSS N_18_MM L=1.8e-07 W=1e-06 AD=2.7e-13 AS=2.7e-13 PD=5.4e-07 PS=5.4e-07 $X=3920 $Y=-1440 $D=2
+M9 in e out VSS N_18_MM L=1.8e-07 W=1e-06 AD=4.9e-13 AS=2.7e-13 PD=1.98e-06 PS=5.4e-07 $X=4640 $Y=-1440 $D=2
+.ENDS
+***************************************
+.SUBCKT SCF_dcmfb AVdd AGnd Vo- Vo+ phi2 Vocm Vb1 phi1 CMFB
+** N=14 EP=9 IP=40 FDC=88
+C0 3 10 L=1e-05 W=1e-05 $[MIMCAPS_MM] $X=32450 $Y=-45650 $D=64
+C1 3 10 L=1e-05 W=1e-05 $[MIMCAPS_MM] $X=32450 $Y=-34650 $D=64
+C2 4 11 L=1e-05 W=1e-05 $[MIMCAPS_MM] $X=32450 $Y=-22480 $D=64
+C3 4 11 L=1e-05 W=1e-05 $[MIMCAPS_MM] $X=32450 $Y=-11480 $D=64
+C4 Vo- CMFB L=1e-05 W=1e-05 $[MIMCAPS_MM] $X=50380 $Y=-45650 $D=64
+C5 Vo- CMFB L=1e-05 W=1e-05 $[MIMCAPS_MM] $X=50380 $Y=-34650 $D=64
+C6 Vo+ CMFB L=1e-05 W=1e-05 $[MIMCAPS_MM] $X=50380 $Y=-22480 $D=64
+C7 Vo+ CMFB L=1e-05 W=1e-05 $[MIMCAPS_MM] $X=50380 $Y=-11480 $D=64
+X8 phi2 AVdd AGnd Vocm 3 switch_X4 $T=25580 -37450 1 0 $X=24860 $Y=-42640
+X9 phi2 AVdd AGnd Vb1 10 switch_X4 $T=25580 -32850 0 0 $X=24860 $Y=-35150
+X10 phi2 AVdd AGnd Vb1 11 switch_X4 $T=25580 -14280 1 0 $X=24860 $Y=-19470
+X11 phi2 AVdd AGnd Vocm 4 switch_X4 $T=25580 -9680 0 0 $X=24860 $Y=-11980
+X12 phi1 AVdd AGnd 3 Vo- switch_X4 $T=43670 -37450 1 0 $X=42950 $Y=-42640
+X13 phi1 AVdd AGnd 10 CMFB switch_X4 $T=43670 -32850 0 0 $X=42950 $Y=-35150
+X14 phi1 AVdd AGnd 11 CMFB switch_X4 $T=43670 -14280 1 0 $X=42950 $Y=-19470
+X15 phi1 AVdd AGnd 4 Vo+ switch_X4 $T=43670 -9680 0 0 $X=42950 $Y=-11980
+.ENDS
+***************************************

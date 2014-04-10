@@ -1,0 +1,78 @@
+* ELDO netlist generated with ICnet by 'dlavila' on Wed Nov 13 2013 at 11:46:08
+
+*
+* Globals.
+*
+.global GROUND SCF_VDD
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/INV_clk_gen_1
+*
+.subckt INV_CLK_GEN_1  O I
+
+        M4 O I GROUND GROUND n_18_mm l=0.18u w=1u ad=0.49p as=0.49p pd=2.98u
++  ps=2.98u m=1
+        M2 O I SCF_VDD SCF_VDD p_18_mm l=0.18u w=3u ad=1.47p as=1.47p pd=6.98u
++  ps=6.98u m=1
+.ends INV_CLK_GEN_1
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/NAND_clk_gen
+*
+.subckt NAND_CLK_GEN  O A B
+
+        M3 N$52 B GROUND GROUND n_18_mm l=0.18u w=1u ad=0.49p as=0.49p pd=2.98u
++  ps=2.98u m=1
+        M1 O A SCF_VDD SCF_VDD p_18_mm l=0.18u w=3u ad=1.47p as=1.47p pd=6.98u
++  ps=6.98u m=1
+        M2 O B SCF_VDD SCF_VDD p_18_mm l=0.18u w=3u ad=1.47p as=1.47p pd=6.98u
++  ps=6.98u m=1
+        M4 O A N$52 GROUND n_18_mm l=0.18u w=1u ad=0.49p as=0.49p pd=2.98u
++  ps=2.98u m=1
+.ends NAND_CLK_GEN
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/INV_clk_gen_2
+*
+.subckt INV_CLK_GEN_2  O I
+
+        M4 O I GROUND GROUND n_18_mm l=0.18u w=1u ad=0.27p as=0.38p pd=1.54u
++  ps=2.26u m=4
+        M2 O I SCF_VDD SCF_VDD p_18_mm l=0.18u w=3u ad=0.81p as=1.14p pd=3.54u
++  ps=5.26u m=4
+.ends INV_CLK_GEN_2
+
+*
+* MAIN CELL: Component pathname : $SC_filter/default.group/logic.views/CLK_gen
+*
+        X_INV_CLK_GEN_119 N$73 N$70 INV_CLK_GEN_1
+        X_INV_CLK_GEN_118 N$70 N$69 INV_CLK_GEN_1
+        X_NAND_CLK_GEN3 N$16 N$33 N$26 NAND_CLK_GEN
+        X_INV_CLK_GEN_15 N$13 N$73 INV_CLK_GEN_1
+        X_INV_CLK_GEN_16 N$29 N$13 INV_CLK_GEN_1
+        X_INV_CLK_GEN_24 PHI2E N$38 INV_CLK_GEN_2
+        X_INV_CLK_GEN_23 PHI2 N$22 INV_CLK_GEN_2
+        X_INV_CLK_GEN_22 PHI1 N$15 INV_CLK_GEN_2
+        X_INV_CLK_GEN_21 PHI1E N$42 INV_CLK_GEN_2
+        X_NAND_CLK_GEN4 N$38 N$74 N$31 NAND_CLK_GEN
+        X_NAND_CLK_GEN2 N$42 N$69 N$29 NAND_CLK_GEN
+        X_INV_CLK_GEN_113 N$22 N$31 INV_CLK_GEN_1
+        X_INV_CLK_GEN_112 N$31 N$20 INV_CLK_GEN_1
+        X_INV_CLK_GEN_111 N$20 N$72 INV_CLK_GEN_1
+        X_INV_CLK_GEN_110 N$74 N$57 INV_CLK_GEN_1
+        X_INV_CLK_GEN_19 N$57 N$17 INV_CLK_GEN_1
+        X_INV_CLK_GEN_17 N$15 N$29 INV_CLK_GEN_1
+        X_INV_CLK_GEN_14 N$69 N$26 INV_CLK_GEN_1
+        X_INV_CLK_GEN_13 N$26 N$10 INV_CLK_GEN_1
+        X_INV_CLK_GEN_12 N$10 N$63 INV_CLK_GEN_1
+        X_NAND_CLK_GEN1 N$9 CLK N$57 NAND_CLK_GEN
+        X_INV_CLK_GEN_11 N$33 CLK INV_CLK_GEN_1
+        X_INV_CLK_GEN_117 N$66 N$64 INV_CLK_GEN_1
+        X_INV_CLK_GEN_116 N$64 N$16 INV_CLK_GEN_1
+        X_INV_CLK_GEN_115 N$63 N$61 INV_CLK_GEN_1
+        X_INV_CLK_GEN_114 N$61 N$9 INV_CLK_GEN_1
+        X_INV_CLK_GEN_18 N$17 N$66 INV_CLK_GEN_1
+        X_INV_CLK_GEN_121 N$72 N$71 INV_CLK_GEN_1
+        X_INV_CLK_GEN_120 N$71 N$74 INV_CLK_GEN_1
+*
+.end

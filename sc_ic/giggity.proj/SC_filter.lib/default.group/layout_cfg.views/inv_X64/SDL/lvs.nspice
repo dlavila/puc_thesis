@@ -1,0 +1,11 @@
+* LVS netlist generated with ICnet by 'dlavila' on Mon Jan 20 2014 at 22:30:55
+
+*
+* Component pathname : $SC_filter/default.group/logic.views/inv_X64
+*
+.subckt inv_X64  O I Vdd Vss
+
+        M1 O I Vss Vss n_18_mm w=1u l=0.18u m=16
+        M2 O I Vdd Vdd p_18_mm w=3u l=0.18u m=16
+.ends inv_X64
+
