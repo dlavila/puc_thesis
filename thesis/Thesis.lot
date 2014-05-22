@@ -3,10 +3,15 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {2.1}{\ignorespaces BeamCal instrumentation ASIC specifications summary.\relax }}{8}{table.caption.6}
+\contentsline {table}{\numberline {2.2}{\ignorespaces Channel noise budget.\relax }}{8}{table.caption.7}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Filter specifications summary.\relax }}{27}{table.caption.18}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Filter OTA design values.\relax }}{30}{table.caption.22}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Rail-to-rail buffer main design values.\relax }}{33}{table.caption.24}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {A.1}{\ignorespaces The Bean 2 prototype pinout}}{48}{table.A.1}
 \addvspace {10\p@ }

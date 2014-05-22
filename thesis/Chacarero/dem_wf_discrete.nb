@@ -1,0 +1,331 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[     11641,        322]
+NotebookOptionsPosition[     11011,        297]
+NotebookOutlinePosition[     11366,        313]
+CellTagsIndexPosition[     11323,        310]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"\[Tau]", "=", "0.5"}], ";"}]], "Input",
+ CellChangeTimes->{{3.607378841610531*^9, 3.607378847779488*^9}, {
+  3.6073790053531017`*^9, 3.607379016087929*^9}, {3.607379242683278*^9, 
+  3.607379243889904*^9}, {3.6073835433850803`*^9, 3.607383544070835*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"tf", "=", " ", "10"}], ";"}]], "Input",
+ CellChangeTimes->{{3.607378944896057*^9, 3.607378946345744*^9}, {
+  3.607378987921975*^9, 3.607378999048437*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Amp", "=", "1"}], ";"}]], "Input",
+ CellChangeTimes->{{3.607379148502977*^9, 3.607379149811555*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Ns", "=", "20"}], ";"}]], "Input",
+ CellChangeTimes->{{3.607379764291121*^9, 3.607379769141898*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Ts", " ", "=", " ", 
+   RowBox[{"tf", "/", "Ns"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.6073797993202877`*^9, 3.607379807768505*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"y", "[", "t_", "]"}], ":=", 
+   RowBox[{
+    RowBox[{"(", 
+     RowBox[{"1", "-", 
+      RowBox[{"Exp", "[", 
+       RowBox[{
+        RowBox[{"-", "t"}], "/", "\[Tau]"}], "]"}]}], ")"}], 
+    RowBox[{"UnitStep", "[", "t", "]"}]}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.6073788239530287`*^9, 3.607378857947624*^9}, {
+  3.6073798907898417`*^9, 3.6073798938997297`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"yo", "[", 
+    RowBox[{"t_", ",", "ti_"}], "]"}], ":=", 
+   RowBox[{"-", " ", 
+    RowBox[{"Sum", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{"-", "1"}], ")"}], " ", "^", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"-", 
+           RowBox[{"Floor", "[", 
+            RowBox[{"i", "/", "11"}], "]"}]}], "+", "2"}], ")"}]}], 
+       RowBox[{"y", "[", 
+        RowBox[{
+         RowBox[{"i", " ", "Ts"}], "-", "ti"}], "]"}]}], ",", " ", 
+      RowBox[{"{", 
+       RowBox[{"i", ",", "1", ",", 
+        RowBox[{"Floor", "[", 
+         RowBox[{"t", "/", "Ts"}], "]"}]}], "}"}]}], "]"}]}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.607380285357168*^9, 3.607380438258402*^9}, {
+   3.607380483128764*^9, 3.6073804897201023`*^9}, {3.607380584037878*^9, 
+   3.6073805842163677`*^9}, {3.607381771026486*^9, 3.607381778081912*^9}, {
+   3.607382554051173*^9, 3.607382557177144*^9}, {3.607382629042808*^9, 
+   3.607382646585343*^9}, 3.607382758263556*^9, {3.607382918479377*^9, 
+   3.6073830133658752`*^9}, {3.607383068805752*^9, 3.607383070853457*^9}, {
+   3.607383122936565*^9, 3.6073831715029383`*^9}, {3.607383224301112*^9, 
+   3.607383224604987*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"w", "[", "t_", "]"}], " ", ":=", 
+   RowBox[{"-", " ", 
+    RowBox[{"Sum", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{"-", "1"}], ")"}], " ", "^", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"-", 
+           RowBox[{"Floor", "[", 
+            RowBox[{"i", "/", "11"}], "]"}]}], "+", "2"}], ")"}]}], 
+       RowBox[{"y", "[", 
+        RowBox[{
+         RowBox[{"i", " ", "Ts"}], "-", "t"}], "]"}]}], ",", " ", 
+      RowBox[{"{", 
+       RowBox[{"i", ",", "1", ",", "Ns"}], "}"}]}], "]"}]}]}], ";"}]], "Input",\
+
+ CellChangeTimes->{{3.607383435762272*^9, 3.607383462066436*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{"GraphicsGrid", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"Plot", "[", 
+        RowBox[{
+         RowBox[{"y", "[", 
+          RowBox[{"t", "-", "ti"}], "]"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"t", ",", "0", ",", "tf"}], "}"}], ",", 
+         RowBox[{"AspectRatio", "\[Rule]", "1"}], ",", 
+         RowBox[{"PlotRange", "\[Rule]", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"0", ",", 
+              RowBox[{"tf", "+", "1"}]}], "}"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"0", ",", "Amp"}], "}"}]}], "}"}]}], ",", 
+         RowBox[{"PlotPoints", "\[Rule]", "200"}], ",", 
+         RowBox[{"Epilog", "\[Rule]", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"PointSize", "[", "Medium", "]"}], ",", 
+            RowBox[{"Point", "[", 
+             RowBox[{"Table", "[", 
+              RowBox[{
+               RowBox[{"{", 
+                RowBox[{"t", ",", 
+                 RowBox[{"y", "[", 
+                  RowBox[{"t", "-", "ti"}], "]"}]}], "}"}], ",", 
+               RowBox[{"{", 
+                RowBox[{"t", ",", "0.25", ",", " ", "tf", ",", "Ts"}], 
+                "}"}]}], "]"}], "]"}]}], "}"}]}]}], "]"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"Plot", "[", 
+         RowBox[{
+          RowBox[{"yo", "[", 
+           RowBox[{
+            RowBox[{"t", "+", "0.25"}], ",", "ti"}], "]"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"t", ",", "0", ",", "tf"}], "}"}], ",", 
+          RowBox[{"AspectRatio", "\[Rule]", "1"}], ",", 
+          RowBox[{"PlotRange", "\[Rule]", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"{", 
+              RowBox[{"0", ",", 
+               RowBox[{"tf", "+", "1"}]}], "}"}], ",", 
+             RowBox[{"{", 
+              RowBox[{
+               RowBox[{"-", "10"}], ",", "10"}], "}"}]}], "}"}]}], ",", 
+          RowBox[{"PlotPoints", "\[Rule]", "200"}], ",", 
+          RowBox[{"Epilog", "\[Rule]", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"PointSize", "[", "Medium", "]"}], ",", 
+             RowBox[{"Point", "[", 
+              RowBox[{"{", 
+               RowBox[{"tf", ",", 
+                RowBox[{"yo", "[", 
+                 RowBox[{
+                  RowBox[{"tf", "+", "0.25"}], ",", "ti"}], "]"}]}], "}"}], 
+              "]"}]}], "}"}]}]}], "]"}], ",", 
+        RowBox[{"Plot", "[", 
+         RowBox[{
+          RowBox[{"w", "[", "t", "]"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"t", ",", "0", ",", "tf"}], "}"}], ",", 
+          RowBox[{"AspectRatio", "\[Rule]", "1"}], ",", 
+          RowBox[{"PlotRange", "\[Rule]", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"{", 
+              RowBox[{"0", ",", 
+               RowBox[{"tf", "+", "1"}]}], "}"}], ",", 
+             RowBox[{"{", 
+              RowBox[{
+               RowBox[{"-", "10"}], ",", "10"}], "}"}]}], "}"}]}], ",", 
+          RowBox[{"PlotPoints", "\[Rule]", "200"}], ",", 
+          RowBox[{"Axes", "\[Rule]", 
+           RowBox[{"{", 
+            RowBox[{"True", ",", "False"}], "}"}]}], ",", 
+          RowBox[{"Epilog", "\[Rule]", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"PointSize", "[", "Medium", "]"}], ",", 
+             RowBox[{"Point", "[", 
+              RowBox[{"{", 
+               RowBox[{"ti", ",", 
+                RowBox[{"yo", "[", 
+                 RowBox[{
+                  RowBox[{"tf", "+", "0.25"}], ",", "ti"}], "]"}]}], "}"}], 
+              "]"}]}], "}"}]}]}], "]"}]}], "}"}]}], "}"}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"ti", ",", "0", ",", "tf"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->CompressedData["
+1:eJwdxUEoQ3EAB+B/VmorKSPN4WmXHeym5B1cLNEORi8sbNSMheGgzYvDyGp7
+5TQpJg5vFy7eIkrhIAtbkqe1thxsyph6yZa2w2K/d/j6tLYFZrKKENJUgZPF
+RofvNdc5vbolX++4duGjBLeMLzO8Bwv+v3XMid4AZk0Tm7juo3ob77dLQSzm
+13h88JwPYaLThDFPjOdYKVqj+Gdp5QFHR0kc9/LhJO7Jprr9lROsy4ipp98+
+TJsiDFY6G2K4dZB6wTnr3RvmT2xZ/FlWFPC37qaIvQNfZdxRG6jhKo+00Bps
+tggUnk/TNL4dMsgHnfp+fLUzLq96bBvD9jgrX1LofdijDsl3aQO7+LBE9vCx
++v0US7MbZ5gxz1xgUbUoL1nc9ziTskdxrFlIYKoYSeOpOT6Ph52GAv4He5r1
+DQ==
+  "]],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`ti$$ = 7.92, Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{
+      Hold[$CellContext`ti$$], 0, 10}}, Typeset`size$$ = {473., {234., 239.}},
+     Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
+    True, $CellContext`ti$185670$$ = 0}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, "Variables" :> {$CellContext`ti$$ = 0}, 
+      "ControllerVariables" :> {
+        Hold[$CellContext`ti$$, $CellContext`ti$185670$$, 0]}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> GraphicsGrid[{{
+          Plot[
+           $CellContext`y[$CellContext`t - $CellContext`ti$$], \
+{$CellContext`t, 0, $CellContext`tf}, AspectRatio -> 1, 
+           PlotRange -> {{0, $CellContext`tf + 1}, {0, $CellContext`Amp}}, 
+           PlotPoints -> 200, Epilog -> {
+             PointSize[Medium], 
+             Point[
+              Table[{$CellContext`t, 
+                $CellContext`y[$CellContext`t - $CellContext`ti$$]}, \
+{$CellContext`t, 0.25, $CellContext`tf, $CellContext`Ts}]]}]}, {
+          Plot[
+           $CellContext`yo[$CellContext`t + 
+            0.25, $CellContext`ti$$], {$CellContext`t, 0, $CellContext`tf}, 
+           AspectRatio -> 1, 
+           PlotRange -> {{0, $CellContext`tf + 1}, {-10, 10}}, PlotPoints -> 
+           200, Epilog -> {
+             PointSize[Medium], 
+             Point[{$CellContext`tf, 
+               $CellContext`yo[$CellContext`tf + 0.25, $CellContext`ti$$]}]}], 
+          Plot[
+           $CellContext`w[$CellContext`t], {$CellContext`t, 
+            0, $CellContext`tf}, AspectRatio -> 1, 
+           PlotRange -> {{0, $CellContext`tf + 1}, {-10, 10}}, PlotPoints -> 
+           200, Axes -> {True, False}, Epilog -> {
+             PointSize[Medium], 
+             Point[{$CellContext`ti$$, 
+               $CellContext`yo[$CellContext`tf + 
+                0.25, $CellContext`ti$$]}]}]}}], 
+      "Specifications" :> {{$CellContext`ti$$, 0, 10}}, "Options" :> {}, 
+      "DefaultOptions" :> {}],
+     ImageSizeCache->{518., {278., 283.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{{3.607383798334753*^9, 3.60738382271848*^9}, 
+   3.607383970530758*^9}]
+}, Open  ]]
+},
+WindowSize->{800, 556},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"9.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (November 20, \
+2012)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[557, 20, 288, 5, 28, "Input"],
+Cell[848, 27, 189, 4, 28, "Input"],
+Cell[1040, 33, 135, 3, 28, "Input"],
+Cell[1178, 38, 135, 3, 28, "Input"],
+Cell[1316, 43, 172, 4, 28, "Input"],
+Cell[1491, 49, 417, 12, 28, "Input"],
+Cell[1911, 63, 1251, 32, 28, "Input"],
+Cell[3165, 97, 686, 22, 28, "Input"],
+Cell[CellGroupData[{
+Cell[3876, 123, 4242, 109, 182, "Input"],
+Cell[8121, 234, 2874, 60, 578, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

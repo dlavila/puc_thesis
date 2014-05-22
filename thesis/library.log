@@ -1,0 +1,26 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdftex 2014.3.11)  17 APR 2014 17:18
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**library.bib
+(./library.bib
+./library.bib:6: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.6 @STRING{eurasip_
+                    j_wcn = {{EURASIP} Journal of Wireless Communications an...
+
+? 
+./library.bib:6: Emergency stop.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.6 @STRING{eurasip_
+                    j_wcn = {{EURASIP} Journal of Wireless Communications an...
+End of file on the terminal!
+
+./library.bib:6:  ==> Fatal error occurred, no output PDF file produced!

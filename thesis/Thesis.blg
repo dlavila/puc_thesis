@@ -9,11 +9,6 @@ A level-1 auxiliary file: ./text/results.aux
 A level-1 auxiliary file: ./text/conclusion.aux
 A level-1 auxiliary file: ./text/appendixA.aux
 The style file: apacite.bst
-Already encountered file ./text/appendixA.aux
----line 69 of file Thesis.aux
- : \@input{./text/appendixA.aux
- :                             }
-I'm skipping whatever remains of this command
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
@@ -25,45 +20,47 @@ Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: ./library.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 25 entries,
+Warning--`others' not consistent with 6th ed. of the APA Manual
+Warning--`others' not consistent with 6th ed. of the APA Manual
+You've used 51 entries,
             6951 wiz_defined-function locations,
-            1926 strings with 23489 characters,
-and the built_in function-call counts, 46739 in all, are:
-= -- 5713
-> -- 374
-< -- 2317
-+ -- 2234
-- -- 52
-* -- 3109
-:= -- 8830
-add.period$ -- 104
-call.type$ -- 25
-change.case$ -- 414
+            2062 strings with 27586 characters,
+and the built_in function-call counts, 99470 in all, are:
+= -- 12208
+> -- 830
+< -- 4996
++ -- 4864
+- -- 110
+* -- 6455
+:= -- 18624
+add.period$ -- 215
+call.type$ -- 51
+change.case$ -- 876
 chr.to.int$ -- 0
-cite$ -- 50
-duplicate$ -- 1131
-empty$ -- 1842
-format.name$ -- 581
-if$ -- 8819
+cite$ -- 102
+duplicate$ -- 2487
+empty$ -- 3828
+format.name$ -- 1323
+if$ -- 18755
 int.to.chr$ -- 0
-int.to.str$ -- 75
+int.to.str$ -- 153
 missing$ -- 0
-newline$ -- 632
-num.names$ -- 202
-pop$ -- 685
+newline$ -- 1263
+num.names$ -- 410
+pop$ -- 1578
 preamble$ -- 1
-purify$ -- 99
+purify$ -- 219
 quote$ -- 0
-skip$ -- 3097
+skip$ -- 6533
 stack$ -- 0
-substring$ -- 2437
-swap$ -- 752
-text.length$ -- 72
+substring$ -- 5293
+swap$ -- 1556
+text.length$ -- 171
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 2128
-warning$ -- 0
-while$ -- 198
+type$ -- 4528
+warning$ -- 2
+while$ -- 469
 width$ -- 0
-write$ -- 765
-(There was 1 error message)
+write$ -- 1569
+(There were 2 warnings)

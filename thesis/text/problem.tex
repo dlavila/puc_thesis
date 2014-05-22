@@ -1,6 +1,56 @@
 \chapter{PROBLEM DEFINITION}
 \label{chapter:problem}
 \section{The International Linear Collider}
+
+The work described in this thesis form part of the design and implementation of the front-end circuit for one of the detector systems of the International Linear Collider (ILC).
+
+Planned to be operating in the mid 2020’s, the ILC will be the largest linear collider ever built. Consisting of two linear accelerators that will stretch approximately 32 kilometers in length, the ILC will smash electrons and positrons together at nearly the speed of light. The intended beam collision energy is 500 billion-electron-volts (GeV) for the first stage, with the possibility for a later upgrade to 1 TeV. 
+
+
+
+
+Superconducting accelerator cavities operating at temperatures near absolute zero give the particles more and more energy until they smash in centre of the machine, where a bunch of detectors gather clues about the particles identity .
+ 
+Located at the ILC detector forward region, the BeamCal is a highly segmented ($>$ 90000 channels) calorimeter that will serve three main purposes: improve the hermeticity of the ILC detector for low polar angles, reduce the backscattering from pairs into the inner ILC detector part and protect the final magnet of the beam delivery system, and assist the beam diagnostics. The BeamCal specifications for radiation tolerance, noise, signal charge, pulse rate and occupancy pose unique challenges for the instrumentation system.
+
+The project FONDECYT 11110165: Application of Advanced CMOS Techniques in Pulse Processors for Particle Physics Experiments deals with the design and implementation of a mixed-signal integrated circuit (IC) to address the BeamCal instrumentation needs.
+
 \section{The Bean}
-\section{Noise analysis in discrete-time filters}
-\section{Arbitrary weighting function synthesis}
+The Bean – BeamCal Instrumentation IC – is a 32-channel front-end and readout ASIC that will address the BeamCal instrumentation requirements. By employing a charge-sensitive amplifier and a switched-capacitor filter, the Bean will process the input charge signals at the ILC pulse rate. Each channel will have a 10-bit successive approximation register analog-to-digital converter and digital memory for readout purposes. The Bean will also feature a fast feedback adder, capable of providing an 8-bit, low-latency output for beam diagnostics purposes.
+
+\begin{table}[!t]
+	\begin{center}
+		\begin{tabular}{|l|l|}\hline
+			Input rate & $3.25\,\text{MHz}$ during $0.87\,\text{ms}$, repeated every $200\,\text{ms}$ \\ \hline
+			Channels per ASIC & $32$ \\ \hline
+			Occupancy & $100\%$ \\ \hline
+			Resolution & 10 bits for individual channels, 8 bits for fast feedback \\ \hline
+			Modes of operation & Standard data taking (SDT), Detector Calibration (DCal) \\ \hline
+			Input signals & 4 fC - 40 pC in SDT, 0.74 pC in DCal \\ \hline
+			Input capacitance & 65 pF \\ \hline
+			Additional feature & Low-latency ($1\,\micro\text{s}$) output \\ \hline
+			Additional feature & Internal pulser for electronics calibration \\ \hline
+			Radiation tolerance & 1 Mrad ($\text{SiO}_2$) total ionizing dose \\ \hline
+			Power consumption & 2.19 mW per channel \\ \hline
+			Total ASIC count & $2836$ \\\hline
+		\end{tabular}
+		\vspace*{5pt}
+		\caption{BeamCal instrumentation ASIC specifications summary.}\label{tab:bean_specs}
+	\end{center}
+\end{table}
+
+\begin{table}[!t]
+	\begin{center}
+		\begin{tabular}{|l|l|}\hline
+			{\bf Noise source} & {\bf Noise power budget} \\ \hline\hline
+			CSA & $1\times Q_n^2$ \\ \hline
+			Filter $kT/C$ & $1\times Q_n^2$ \\ \hline
+			Filter amplifier & $0.25\times Q_n^2$ \\\hline 
+			Buffers & $0.25\times Q_n^2$ \\ \hline
+			ADC & $0.25\times Q_n^2$ \\ \hline
+			Total & $2.75\times Q_n^2$ \\\hline
+		\end{tabular}
+		\vspace*{5pt}
+		\caption{Channel noise budget.}\label{tab:noise_budget}
+	\end{center}
+\end{table}

@@ -15,7 +15,10 @@
 \usepackage{color}
 \usepackage{ifpdf}             
 \usepackage{array}
-\usepackage{sistyle}            
+\usepackage{sistyle}
+\usepackage{nicefrac}
+\usepackage{longtable}  
+\usepackage[stable]{footmisc}    
 
 % Graphics packages for dual use of LaTeX and pdfTeX and other graphics handling definitions.
 \ifpdf
@@ -129,9 +132,9 @@
 \advisorB{} % de existir, segundo supervisor
 
 % Committee
-\committeememberA{Marcelo Guarini Hermann}
+\committeememberA{Enrique Álvarez Fontecilla}
 \guestmemberA{PROFESOR INVITADO}
-\ogrsmember{REPRESENTANTE DE POSTGRADO}
+\ogrsmember{Jaime Navón Cohen}
 
 % Subject
 \subject{Engineering}
@@ -144,9 +147,7 @@
 \copyrightyear{MMXIII} %AÃO
 
 % Dedication
-\dedication{
-    \flushright {\itshape Giggity giggity ...} \\
-    \flushright {\scshape{Glen Quagmire}\\}}%\hspace{1cm} $\;$ \\}
+\dedication{\mbox{}}
 
 % Preliminaries: cover page and dedication
 \NoChapterPageNumber    % no header - footer on first page of chapter
@@ -162,7 +163,14 @@
 
 \chapter*{ACKNOWLEDGEMENTS}
 
-ESCRIBIR AGRADECIMIENTOS
+First and foremost I'd like to thank my advisor, Professor Ángel Abusleme, whose enthusiasm, patience, and knowledge, were fundamental to achieve the most precious goal of any grad student, reach the end of his thesis. 
+
+I wish to thank to all those who are and were members of the IC-UC group, and especially to Professor Enrique Álvarez, Hernán Campillo and Cristóbal Alessandri.
+
+I would like to express my gratitude to Cleve Moler, for making such a terrific piece of software call MATLAB, which was a fundamental tool for the development of this thesis. I am also extremely grateful to Gottfrid Svartholm, Fredrik Neij and Peter Sunde.
+
+Finally, I want to thank to my family for the continuous love they have provided me since I was a couple of cells (a.k.a gametes) living apart.
+
 
 \cleardoublepage
 
@@ -173,33 +181,41 @@ ESCRIBIR AGRADECIMIENTOS
 
 \cleardoublepage
 
-\MScAbstract{ESCRIBIR ABSTRACT
-}{KEYWORDS}
+\MScAbstract{Particle Physics is the branch of physics that studies the fundamental constituents of matter and radiation, and their mutual interactions. The main tools used by particle physicists are particle accelerators, which uses electromagnetic fields to accelerate charged particles to relativistic speeds before they are made to collide inside detectors. The International Linear Collider (ILC), a next generation, 31-kilometer long linear particle accelerator, will smash electron and positron bunches at up to 500 GeV. Located at the ILC detector forward region, is the BeamCal, a highly segmented calorimeter detector. The BeamCal specifications for radiation tolerance, noise, signal charge, pulse rate and occupancy pose unique challenges for the instrumentation system.
+
+Framed in the design, integration and testing of the Bean IC, a 5-channel application specific integrated circuit (ASIC) planned to meet the BeamCal instrumentation needs, this thesis presents: the development of a new mathematical framework for a design-oriented analysis of discrete-time filters in the discrete-time domain; and the design and implementation of a Switched Capacitor (SC) filter for arbitrary weighting function synthesis to be included in the Bean IC, which aims to take full advantage of the introduced mathematical framework. 
+
+}{Charge Measurements, Low-noise filters, Noise, Nuclear Physics Instrumentation, Optimum Digital Filtering.}
 
 \cleardoublepage
 
 \MScResumen{
-ESCRIBIR RESUMEN
-}{PALABRAS CLAVE}
+La Física de Partículas es la rama de la física que estudia las constituyentes fundamentales de la materia y la radiación, y sus interacciones mutuas. Las principales herramientas utilizadas por los físicos de partículas son los aceleradores de partículas, los cuales usan campos electromagnéticos para acelerar partículas cargadas a velocidades relativistas, para después hacerlas colisionar dentro de detectores. El Colisionador Lineal Internacional (ILC) es un acelerador de partículas lineal de la próxima generación de 31 kilómetros de largo que colisionará grupos de electrones y positrones a 500 GeV. Ubicado en la región delantera del ILC se encuentra el BeamCal, un detector calorímetro altamente segmentado. Las especificaciones del BeamCal para tolerancia a la radiación, ruido, señal de carga, tasa de pulsos y ocupación plantean desafíos únicos para el sistema de instrumentación.
+
+Enmarcado en el diseño, integración y prueba de \emph{Bean IC}, un circuito integrado de aplicación específica (ASIC, por sus siglas en inglés) de cinco canales para satisfacer las necesidades de instrumentación del BeamCal, esta tesis presenta: el desarrollo de un nuevo marco matemático para el análisis orientado al diseño de filtros de tiempo discreto; y el diseño y implementación de un filtro de Capacitores Conmutados para la síntesis de funciones de peso arbitraria que sera incluido en \emph{Bean IC}, el cual busca aprovechar al máximo el marco matemático propuesto.
+
+
+}{Medición de carga, Filtros de Bajo Ruido, Ruido, Instrumentación para Física Nuclear, Filtración Digital Optima}
 
 \cleardoublepage
 \pagenumbering{arabic}
 \setlength{\labelsep}{1em}
 
 \include{./text/introduction}
+\clearpage
 \include{./text/problem}
+\clearpage
 \include{./text/theoretical}
+\clearpage
 \include{./text/filter}
+\clearpage
 \include{./text/results}
+\clearpage
 \include{./text/conclusion}
-\include{./text/appendixA}
 
 % References
 
-\cleardoublepage
-\bibliographystyle{apacite}
-\bibliography{\bibpath/library}
-\cleardoublepage
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Begin Appendix
@@ -218,6 +234,10 @@ ESCRIBIR RESUMEN
 
 \include{./text/appendixA}
 
+\cleardoublepage
+\bibliographystyle{apacite}
+\bibliography{\bibpath/library}
+\cleardoublepage
 
 \end{document}
 

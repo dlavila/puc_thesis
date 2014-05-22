@@ -64,13 +64,14 @@ beta_bc = 1;
 
 CLt_max = CL + (1-beta_wc)*CF;
 
-L = [0.18 0.3 0.45];
+L = [0.18 0.3];
 
-gmId = (3:2.6:20.5)+1.5;
+%gmId = (3:2.6:20.5)+1.5;
+gmId = 3.9:5.4:21;
 
 NBf = Qn2- 2*K*T/CF*3;
 
-x = 0.5;
+x = 1;
 
 y = 3/4*(NBf*(1+x)/(4*K*T/CF)-7/3-2*x);
 
@@ -86,15 +87,16 @@ y = 3/4*(NBf*(1+x)/(4*K*T/CF)-7/3-2*x);
 
 Ibudget = 400;
 If = Ibudget*10e-6;
-idx = [];
+idx = zeros(13276306,12);
 
 Vds_in = Vdd/2;
-Vds_f  = Vdd/4.6;
+Vds_f  = Vdd/4.5;
 Vds_cin = Vdd/4.6;
 Vds_cl = Vdd/4.6;
 Vds_l  = Vdd/4.6;
+count = 1;
 
-for k = 20:Ibudget/10;
+for k = 10:(Ibudget/10);
     
     It = k*10e-6;
     Il = (Ibudget/10-k)*10e-6;
@@ -134,8 +136,33 @@ for k = 20:Ibudget/10;
 
                                             Av = 2*gm_in*Ro;
 
-                                            if(Av > 1000)
-                                                idx = [idx ; [k, Av ,i_in , i_f, i_cin, i_cl, i_l,j_in,j_f,j_cin,j_cl,j_l]];
+                                            if(Av > 2000)
+                                                W_in    = It/2/Id_W(gmId(j_in), 0, Vdd/2, L(i_in), 'p');
+                                                W_f     = If/2/Id_W(gmId(j_f), 0, Vds_f, L(i_f), 'p');
+                                                W_cin    = Il/2/Id_W(gmId(j_cin), 0, Vds_cin, L(i_cin), 'p');
+                                                W_cl    = Il/2/Id_W(gmId(j_cl), 0, Vds_cl, L(i_cl), 'n');
+                                                W_l     = Il/2/Id_W(gmId(j_l), 0, Vds_l, L(i_l), 'n');
+                                                
+                                                
+                                                C_LA = (C_per_W('gd', gmId(j_f), Vds_f, L(i_f), 'p') + C_per_W('db', gmId(j_f), Vds_f, L(i_f), 'p'))*W_f ...
+                                                     + (C_per_W('db', gmId(j_in), Vds_in, L(i_in), 'p') + C_per_W('gd', gmId(j_in), Vds_in, L(i_in), 'p'))*W_in ...
+                                                     + (C_per_W('gs', gmId(j_cin), Vds_cin, L(i_cin), 'p') + C_per_W('gb', gmId(j_cin), Vds_cin, L(i_cin), 'p'))*W_cin;
+                                                     %+ (C_per_W('gs', gmId_cin, Vds_cin, L_cin, 'p'))*W_cin;
+
+                                                C_LB = C_per_W('gd', gmId(j_cl), Vds_cl, L(i_cl), 'n')*W_cl + C_per_W('gd', gmId(j_cin), Vds_cin, L(i_cin), 'p')*W_cin + 2e-12;
+
+                                                
+                                                pc = gm_in/C_LB/(2*pi);
+                                                p2 = gm_cin/C_LA/(2*pi);
+                                                
+                                                Av
+                                                pc
+                                                PM = atan(p2/pc)*180/pi
+                                                W_f
+                                                W_cin
+
+                                                idx(count,:) = [k, Av ,i_in , i_f, i_cin, i_cl, i_l,j_in,j_f,j_cin,j_cl,j_l];
+                                                count = count + 1;
                                             end
                                         end
                                     end
@@ -148,7 +175,9 @@ for k = 20:Ibudget/10;
         end
     end
     toc
-    sprintf('Paso %d de %d terminado',k-19,(Ibudget/10-20))
+    
+    %sprintf('Paso %d de %d terminado',k-19,(Ibudget/10-20))
 end
+count
 
-save('scf_opt_sol_step1.mat','idx','L','gmId','Ibudget','Vds_in','Vds_f','Vds_cin','Vds_cl','Vds_l')
+%save('scf_opt_sol_step1.mat','idx','L','gmId','Ibudget','Vds_in','Vds_f','Vds_cin','Vds_cl','Vds_l')

@@ -1,5 +1,5 @@
 function [y] = Id_W(varargin)
-% Id_W transistor current density (A/um).
+% Id_W transistor current density (uA/um).
 %   Id_W(gmId, Vbs, Vds, L, flavor) returns Id/W for a given
 %   set (gmId, Vbs, Vds, L, flavor), where:
 %

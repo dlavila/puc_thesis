@@ -1,5 +1,5 @@
 function [y] = C_per_W(varargin)
-% C_per_W Capacitance per transistor weight (um).
+% C_per_W Capacitance per transistor width (um).
 %   C_per_W(nodes, gmId, Vbs, Vds, L, flavor) returns C_nodes/W for a given
 %   set (gmId, Vbs, Vds, L, flavor), where:
 %
