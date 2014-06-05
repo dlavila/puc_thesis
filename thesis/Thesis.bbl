@@ -165,11 +165,11 @@ Assaad, R.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2009}{Sept}{}.
+\APACrefYearMonthDay{2009}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {The Recycling Folded Cascode: A General Enhancement of
-  the Folded Cascode Amplifier} {The recycling folded cascode: A general
-  enhancement of the folded cascode amplifier}.{\BBCQ}
+{\BBOQ}\APACrefatitle {{The Recycling Folded Cascode: A General Enhancement of
+  the Folded Cascode Amplifier}} {{The Recycling Folded Cascode: A General
+  Enhancement of the Folded Cascode Amplifier}}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Solid-State Circuits, IEEE Journal
   of}{44}{9}{2535-2542}.
@@ -194,7 +194,7 @@ Avila, D.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2013}{Dec}{}.
+\APACrefYearMonthDay{2013}{}{}.
 \newblock
 {\BBOQ}\APACrefatitle {Noise Analysis in Pulse-Processing Discrete-Time
   Filters} {Noise analysis in pulse-processing discrete-time filters}.{\BBCQ}
@@ -433,7 +433,7 @@ gadomski101}%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{1992}{{\APACmonth{08}}}{}.
+\APACrefYearMonthDay{1992}{}{}.
 \newblock
 {\BBOQ}\APACrefatitle {{The deconvolution method of fast pulse shaping at
   hadron colliders}} {{The deconvolution method of fast pulse shaping at hadron
@@ -516,7 +516,7 @@ gatti103}%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{1984}{{\APACmonth{09}}}{}.
+\APACrefYearMonthDay{1984}{}{}.
 \newblock
 {\BBOQ}\APACrefatitle {{Present trends and realisations in readout electronics
   for semiconductor detectors in high energy physics}} {{Present trends and
@@ -667,6 +667,64 @@ Goulding, F.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Gray%
+, Hurst%
+, Lewis%
+\BCBL {}\ \BBA {} Meyer%
+}{%
+Gray%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2001}}%
+}]{%
+gray101}
+\APACinsertmetastar {%
+gray101}%
+\begin{APACrefauthors}%
+Gray, P\BPBI R.%
+, Hurst, P\BPBI J.%
+, Lewis, S\BPBI H.%
+\BCBL {}\ \BBA {} Meyer, R\BPBI G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2001}.
+\newblock
+\APACrefbtitle {Analysis and design of analog integrated circuits} {Analysis
+  and design of analog integrated circuits}\ (\PrintOrdinal{4th}\ \BEd).
+\newblock
+\APACaddressPublisher{}{Wiley}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Haigh%
+\ \BBA {} Singh%
+}{%
+Haigh%
+\ \BBA {} Singh%
+}{%
+{\protect \APACyear {1983}}%
+}]{%
+haigh101}
+\APACinsertmetastar {%
+haigh101}%
+\begin{APACrefauthors}%
+Haigh, D.%
+\BCBT {}\ \BBA {} Singh, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1983}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A switching scheme for switched capacitor filters which
+  reduces the effect of parasitic capacitances associated with switch control
+  terminals} {A switching scheme for switched capacitor filters which reduces
+  the effect of parasitic capacitances associated with switch control
+  terminals}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Proc. ISCAS}{}{}{586-589}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Haller%
 \ \BBA {} Wooley%
 }{%
@@ -715,7 +773,7 @@ Hogervorst, R.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{1994}{Dec}{}.
+\APACrefYearMonthDay{1994}{}{}.
 \newblock
 {\BBOQ}\APACrefatitle {A compact power-efficient 3 V CMOS rail-to-rail
   input/output operational amplifier for VLSI cell libraries} {A compact
@@ -745,7 +803,7 @@ Hogervorst, R.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{1995}{Sept}{}.
+\APACrefYearMonthDay{1995}{}{}.
 \newblock
 {\BBOQ}\APACrefatitle {Compact CMOS constant-gm rail-to-rail input stages with
   gm-control by an electronic zener diode} {Compact cmos constant-gm
@@ -777,6 +835,30 @@ IBM.%
 \APACrefbtitle {{ILOG CPLEX} {O}ptimizer.} {{ILOG CPLEX} {O}ptimizer.}
 \newblock
 \begin{APACrefURL} \url{http://www.ilog.com/products/cplex/} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Jindal%
+}{%
+Jindal%
+}{%
+{\protect \APACyear {2006}}%
+}]{%
+jindal101}
+\APACinsertmetastar {%
+jindal101}%
+\begin{APACrefauthors}%
+Jindal, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Compact Noise Models for MOSFETs} {Compact noise models
+  for mosfets}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Electron Devices, IEEE Transactions
+  on}{53}{9}{2051-2061}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1086,7 +1168,7 @@ radeka105}%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{1984}{{\APACmonth{09}}}{}.
+\APACrefYearMonthDay{1984}{}{}.
 \newblock
 {\BBOQ}\APACrefatitle {{Semiconductor position-sensitive detectors}}
   {{Semiconductor position-sensitive detectors}}.{\BBCQ}
@@ -1144,6 +1226,29 @@ Radeka, V.%
   (\BVOL\ 21B1, \BPG~288-319).
 \newblock
 \APACaddressPublisher{}{Springer Berlin Heidelberg}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Rashid%
+}{%
+Rashid%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+rashid101}
+\APACinsertmetastar {%
+rashid101}%
+\begin{APACrefauthors}%
+Rashid, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2010}.
+\newblock
+\APACrefbtitle {Microelectronic Circuits: Analysis \& Design} {Microelectronic
+  circuits: Analysis \& design}.
+\newblock
+\APACaddressPublisher{}{Cengage Learning}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1244,7 +1349,7 @@ Silveira, F.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{1996}{Sep}{}.
+\APACrefYearMonthDay{1996}{}{}.
 \newblock
 {\BBOQ}\APACrefatitle {A gm/ID based methodology for the design of CMOS analog
   circuits and its application to the synthesis of a silicon-on-insulator

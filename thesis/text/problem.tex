@@ -1,22 +1,18 @@
 \chapter{PROBLEM DEFINITION}
 \label{chapter:problem}
-\section{The International Linear Collider}
+\section{The BeamCal Instrumentation }
 
-The work described in this thesis form part of the design and implementation of the front-end circuit for one of the detector systems of the International Linear Collider (ILC).
+The work described in this thesis is a contribution to the design and implementation of the front-end circuit for one of the detector systems of the International Linear Collider (ILC).
 
 Planned to be operating in the mid 2020’s, the ILC will be the largest linear collider ever built. Consisting of two linear accelerators that will stretch approximately 32 kilometers in length, the ILC will smash electrons and positrons together at nearly the speed of light. The intended beam collision energy is 500 billion-electron-volts (GeV) for the first stage, with the possibility for a later upgrade to 1 TeV. 
-
-
-
-
-Superconducting accelerator cavities operating at temperatures near absolute zero give the particles more and more energy until they smash in centre of the machine, where a bunch of detectors gather clues about the particles identity .
  
-Located at the ILC detector forward region, the BeamCal is a highly segmented ($>$ 90000 channels) calorimeter that will serve three main purposes: improve the hermeticity of the ILC detector for low polar angles, reduce the backscattering from pairs into the inner ILC detector part and protect the final magnet of the beam delivery system, and assist the beam diagnostics. The BeamCal specifications for radiation tolerance, noise, signal charge, pulse rate and occupancy pose unique challenges for the instrumentation system.
+Located at the ILC detector forward region, the BeamCal is a highly segmented ($>$ 90000 channels) calorimeter that will serve four main purposes: improve the hermeticity of the ILC detector for low polar angles, reduce the backscattering from pairs into the inner ILC detector part and protect the final magnet of the beam delivery system, and assist the beam diagnostics. The BeamCal specifications for radiation tolerance, noise, signal charge, pulse rate and occupancy pose unique challenges for the instrumentation system.
 
 The project FONDECYT 11110165: Application of Advanced CMOS Techniques in Pulse Processors for Particle Physics Experiments deals with the design and implementation of a mixed-signal integrated circuit (IC) to address the BeamCal instrumentation needs.
 
-\section{The Bean}
-The Bean – BeamCal Instrumentation IC – is a 32-channel front-end and readout ASIC that will address the BeamCal instrumentation requirements. By employing a charge-sensitive amplifier and a switched-capacitor filter, the Bean will process the input charge signals at the ILC pulse rate. Each channel will have a 10-bit successive approximation register analog-to-digital converter and digital memory for readout purposes. The Bean will also feature a fast feedback adder, capable of providing an 8-bit, low-latency output for beam diagnostics purposes.
+FALTA UNIR PARRAFOS.
+
+The Bean – BeamCal Instrumentation IC – is a 32-channel front-end and readout ASIC that will address the BeamCal instrumentation requirements. By employing a charge-sensitive amplifier and a switched-capacitor filter, the Bean will process the input charge signals at the ILC pulse rate. Each channel will have a 10-bit successive approximation register analog-to-digital converter and digital memory array for readout purposes. The Bean will also feature a fast feedback adder, capable of providing an 8-bit, low-latency output for beam diagnostics purposes.
 
 \begin{table}[!t]
 	\begin{center}
@@ -54,3 +50,5 @@ The Bean – BeamCal Instrumentation IC – is a 32-channel front-end and readou
 		\caption{Channel noise budget.}\label{tab:noise_budget}
 	\end{center}
 \end{table}
+
+FALTA COMPLETAR, EXPLICAR FUNCIONAMIENTO DE THE BEAN Y REFERENCIAR LAS ESPECIFICACIONES, TAMBIEN HABLAR DE LOS OBJETIVOS ESPECIFICOS DEL FONDECYT.

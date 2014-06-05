@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.11)  22 MAY 2014 01:25
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.11)  4 JUN 2014 15:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -839,7 +839,7 @@ LaTeX Info: Redefining \nameref on input line 114.
 
 Package hyperref Info: Anchor `Doc-Start' on input line 114.
 
-<Figures/LogoUC.pdf, id=155, 614.295pt x 794.97pt>
+<Figures/LogoUC.pdf, id=179, 614.295pt x 794.97pt>
 File: Figures/LogoUC.pdf Graphic file (type pdf)
  <use Figures/LogoUC.pdf>
 Package pdftex.def Info: Figures/LogoUC.pdf used on input line 158.
@@ -1009,21 +1009,20 @@ Package hyperref Info: Reference (link) `chapter.1' on input line 7.
 Package hyperref Info: Reference (link) `section.1.1' on input line 8.
 Package hyperref Info: Reference (link) `section.1.2' on input line 9.
 Package hyperref Info: Reference (link) `section.1.3' on input line 10.
-Package hyperref Info: Reference (link) `section.1.4' on input line 11.
-Package hyperref Info: Reference (link) `chapter.2' on input line 12.
-Package hyperref Info: Reference (link) `section.2.1' on input line 13.
-Package hyperref Info: Reference (link) `section.2.2' on input line 14.
-Package hyperref Info: Reference (link) `chapter.3' on input line 15.
-Package hyperref Info: Reference (link) `section.3.1' on input line 16.
-Package hyperref Info: Reference (link) `section.3.2' on input line 17.
-Package hyperref Info: Reference (link) `section.3.3' on input line 18.
-Package hyperref Info: Reference (link) `section.3.4' on input line 19.
-Package hyperref Info: Reference (link) `section.3.5' on input line 20.
-Package hyperref Info: Reference (link) `chapter.4' on input line 21.
-Package hyperref Info: Reference (link) `section.4.1' on input line 22.
-Package hyperref Info: Reference (link) `section.4.2' on input line 23.
-Package hyperref Info: Reference (link) `subsection.4.2.1' on input line 24.
-Package hyperref Info: Anchor `page.v' on input line 25.
+Package hyperref Info: Reference (link) `subsection.1.3.1' on input line 11.
+Package hyperref Info: Reference (link) `subsection.1.3.2' on input line 12.
+Package hyperref Info: Reference (link) `section.1.4' on input line 13.
+Package hyperref Info: Reference (link) `chapter.2' on input line 14.
+Package hyperref Info: Reference (link) `section.2.1' on input line 15.
+Package hyperref Info: Reference (link) `chapter.3' on input line 16.
+Package hyperref Info: Reference (link) `section.3.1' on input line 17.
+Package hyperref Info: Reference (link) `section.3.2' on input line 18.
+Package hyperref Info: Reference (link) `section.3.3' on input line 19.
+Package hyperref Info: Reference (link) `section.3.4' on input line 20.
+Package hyperref Info: Reference (link) `section.3.5' on input line 21.
+Package hyperref Info: Reference (link) `chapter.4' on input line 22.
+Package hyperref Info: Reference (link) `section.4.1' on input line 23.
+Package hyperref Info: Anchor `page.v' on input line 24.
  [5
 
 
@@ -1039,55 +1038,68 @@ Package `hyperref' Info: End of reference (link) `chapter.1', line 7.
 Package `hyperref' Info: End of reference (link) `section.1.1', line 8.
 Package `hyperref' Info: End of reference (link) `section.1.2', line 9.
 Package `hyperref' Info: End of reference (link) `section.1.3', line 10.
-Package `hyperref' Info: End of reference (link) `section.1.4', line 11.
-Package `hyperref' Info: End of reference (link) `chapter.2', line 12.
-Package `hyperref' Info: End of reference (link) `section.2.1', line 13.
-Package `hyperref' Info: End of reference (link) `section.2.2', line 14.
-Package `hyperref' Info: End of reference (link) `chapter.3', line 15.
-Package `hyperref' Info: End of reference (link) `section.3.1', line 16.
-Package `hyperref' Info: End of reference (link) `section.3.2', line 17.
-Package `hyperref' Info: End of reference (link) `section.3.3', line 18.
-Package `hyperref' Info: End of reference (link) `section.3.4', line 19.
-Package `hyperref' Info: End of reference (link) `section.3.5', line 20.
-Package `hyperref' Info: End of reference (link) `chapter.4', line 21.
-Package `hyperref' Info: End of reference (link) `section.4.1', line 22.
-Package `hyperref' Info: End of reference (link) `section.4.2', line 23.
+Package `hyperref' Info: End of reference (link) `subsection.1.3.1', line 11.
+Package `hyperref' Info: End of reference (link) `subsection.1.3.2', line 12.
+Package `hyperref' Info: End of reference (link) `section.1.4', line 13.
+Package `hyperref' Info: End of reference (link) `chapter.2', line 14.
+Package `hyperref' Info: End of reference (link) `section.2.1', line 15.
+Package `hyperref' Info: End of reference (link) `chapter.3', line 16.
+Package `hyperref' Info: End of reference (link) `section.3.1', line 17.
+Package `hyperref' Info: End of reference (link) `section.3.2', line 18.
+Package `hyperref' Info: End of reference (link) `section.3.3', line 19.
+Package `hyperref' Info: End of reference (link) `section.3.4', line 20.
+Package `hyperref' Info: End of reference (link) `section.3.5', line 21.
+Package `hyperref' Info: End of reference (link) `chapter.4', line 22.
 ]
-Package hyperref Info: Reference (link) `section.4.3' on input line 25.
-Package hyperref Info: Reference (link) `subsection.4.3.1' on input line 26.
-Package hyperref Info: Reference (link) `subsection.4.3.2' on input line 27.
-Package hyperref Info: Reference (link) `subsection.4.3.3' on input line 28.
-Package hyperref Info: Reference (link) `subsection.4.3.4' on input line 29.
-Package hyperref Info: Reference (link) `chapter.5' on input line 30.
-Package hyperref Info: Reference (link) `section.5.1' on input line 31.
-Package hyperref Info: Reference (link) `section.5.2' on input line 32.
-Package hyperref Info: Reference (link) `chapter.6' on input line 33.
-Package hyperref Info: Reference (link) `section.6.1' on input line 34.
-Package hyperref Info: Reference (link) `section.6.2' on input line 35.
-Package hyperref Info: Reference (link) `section.6.2' on input line 36.
-Package hyperref Info: Reference (link) `appendix.A' on input line 37.
-Package hyperref Info: Reference (link) `chapter*.7' on input line 38.
+Package hyperref Info: Reference (link) `section.4.2' on input line 24.
+Package hyperref Info: Reference (link) `subsection.4.2.1' on input line 25.
+Package hyperref Info: Reference (link) `section.4.3' on input line 26.
+Package hyperref Info: Reference (link) `subsection.4.3.1' on input line 27.
+Package hyperref Info: Reference (link) `subsection.4.3.2' on input line 28.
+Package hyperref Info: Reference (link) `subsection.4.3.3' on input line 29.
+Package hyperref Info: Reference (link) `subsection.4.3.4' on input line 30.
+Package hyperref Info: Reference (link) `chapter.5' on input line 31.
+Package hyperref Info: Reference (link) `section.5.1' on input line 32.
+Package hyperref Info: Reference (link) `section.5.2' on input line 33.
+Package hyperref Info: Reference (link) `subsection.5.2.1' on input line 34.
+Package hyperref Info: Reference (link) `subsection.5.2.2' on input line 35.
+Package hyperref Info: Reference (link) `subsection.5.2.3' on input line 36.
+Package hyperref Info: Reference (link) `subsection.5.2.4' on input line 37.
+Package hyperref Info: Reference (link) `subsection.5.2.5' on input line 38.
+Package hyperref Info: Reference (link) `chapter.6' on input line 39.
+Package hyperref Info: Reference (link) `section.6.1' on input line 40.
+Package hyperref Info: Reference (link) `section.6.2' on input line 41.
+Package hyperref Info: Reference (link) `section.6.2' on input line 42.
+Package hyperref Info: Reference (link) `appendix.A' on input line 43.
+Package hyperref Info: Reference (link) `chapter*.7' on input line 44.
 )
 \tf@toc=\write4
 \openout4 = `Thesis.toc'.
 
 Package hyperref Info: Anchor `page.vi' on input line 178.
  [6
-Package `hyperref' Info: End of reference (link) `subsection.4.2.1', line 24.
-Package `hyperref' Info: End of reference (link) `section.4.3', line 25.
-Package `hyperref' Info: End of reference (link) `subsection.4.3.1', line 26.
-Package `hyperref' Info: End of reference (link) `subsection.4.3.2', line 27.
-Package `hyperref' Info: End of reference (link) `subsection.4.3.3', line 28.
-Package `hyperref' Info: End of reference (link) `subsection.4.3.4', line 29.
-Package `hyperref' Info: End of reference (link) `chapter.5', line 30.
-Package `hyperref' Info: End of reference (link) `section.5.1', line 31.
-Package `hyperref' Info: End of reference (link) `section.5.2', line 32.
-Package `hyperref' Info: End of reference (link) `chapter.6', line 33.
-Package `hyperref' Info: End of reference (link) `section.6.1', line 34.
-Package `hyperref' Info: End of reference (link) `section.6.2', line 35.
-Package `hyperref' Info: End of reference (link) `section.6.2', line 36.
-Package `hyperref' Info: End of reference (link) `appendix.A', line 37.
-Package `hyperref' Info: End of reference (link) `chapter*.7', line 38.
+Package `hyperref' Info: End of reference (link) `section.4.1', line 23.
+Package `hyperref' Info: End of reference (link) `section.4.2', line 24.
+Package `hyperref' Info: End of reference (link) `subsection.4.2.1', line 25.
+Package `hyperref' Info: End of reference (link) `section.4.3', line 26.
+Package `hyperref' Info: End of reference (link) `subsection.4.3.1', line 27.
+Package `hyperref' Info: End of reference (link) `subsection.4.3.2', line 28.
+Package `hyperref' Info: End of reference (link) `subsection.4.3.3', line 29.
+Package `hyperref' Info: End of reference (link) `subsection.4.3.4', line 30.
+Package `hyperref' Info: End of reference (link) `chapter.5', line 31.
+Package `hyperref' Info: End of reference (link) `section.5.1', line 32.
+Package `hyperref' Info: End of reference (link) `section.5.2', line 33.
+Package `hyperref' Info: End of reference (link) `subsection.5.2.1', line 34.
+Package `hyperref' Info: End of reference (link) `subsection.5.2.2', line 35.
+Package `hyperref' Info: End of reference (link) `subsection.5.2.3', line 36.
+Package `hyperref' Info: End of reference (link) `subsection.5.2.4', line 37.
+Package `hyperref' Info: End of reference (link) `subsection.5.2.5', line 38.
+Package `hyperref' Info: End of reference (link) `chapter.6', line 39.
+Package `hyperref' Info: End of reference (link) `section.6.1', line 40.
+Package `hyperref' Info: End of reference (link) `section.6.2', line 41.
+Package `hyperref' Info: End of reference (link) `section.6.2', line 42.
+Package `hyperref' Info: End of reference (link) `appendix.A', line 43.
+Package `hyperref' Info: End of reference (link) `chapter*.7', line 44.
 ]
 Package hyperref Info: Anchor `chapter*.3' on input line 179.
 Package hyperref Info: bookmark on input line 179:
@@ -1102,83 +1114,85 @@ LIST OF FIGURES
 (./Thesis.lof
 Package hyperref Info: Reference (link) `figure.caption.4' on input line 5.
 Package hyperref Info: Reference (link) `figure.caption.5' on input line 6.
-Package hyperref Info: Reference (link) `figure.caption.8' on input line 9.
+Package hyperref Info: Reference (link) `figure.caption.6' on input line 7.
 Package hyperref Info: Reference (link) `figure.caption.9' on input line 10.
 Package hyperref Info: Reference (link) `figure.caption.10' on input line 11.
-Package hyperref Info: Reference (link) `equation.3.2.10' on input line 11.
 Package hyperref Info: Reference (link) `figure.caption.11' on input line 12.
+Package hyperref Info: Reference (link) `equation.3.2.10' on input line 12.
 Package hyperref Info: Reference (link) `figure.caption.12' on input line 13.
 Package hyperref Info: Reference (link) `figure.caption.13' on input line 14.
 Package hyperref Info: Reference (link) `figure.caption.14' on input line 15.
 Package hyperref Info: Reference (link) `figure.caption.15' on input line 16.
 Package hyperref Info: Reference (link) `figure.caption.16' on input line 17.
-Package hyperref Info: Reference (link) `figure.caption.17' on input line 19.
-Package hyperref Info: Reference (link) `figure.caption.19' on input line 20.
+Package hyperref Info: Reference (link) `figure.caption.17' on input line 18.
+Package hyperref Info: Reference (link) `figure.caption.18' on input line 20.
 Package hyperref Info: Reference (link) `figure.caption.20' on input line 21.
 Package hyperref Info: Reference (link) `figure.caption.21' on input line 22.
-Package hyperref Info: Reference (link) `figure.caption.23' on input line 23.
-Package hyperref Info: Reference (link) `figure.caption.25' on input line 24.
+Package hyperref Info: Reference (link) `figure.caption.22' on input line 23.
+Package hyperref Info: Reference (link) `figure.caption.24' on input line 24.
 Package hyperref Info: Reference (link) `figure.caption.26' on input line 25.
-Package hyperref Info: Reference (link) `figure.caption.27' on input line 26.
-Package hyperref Info: Anchor `page.vii' on input line 27.
+Package hyperref Info: Anchor `page.vii' on input line 26.
  [7
 
 
 Package `hyperref' Info: End of reference (link) `figure.caption.4', line 5.
 Package `hyperref' Info: End of reference (link) `figure.caption.5', line 6.
-Package `hyperref' Info: End of reference (link) `figure.caption.8', line 9.
+Package `hyperref' Info: End of reference (link) `figure.caption.6', line 7.
 Package `hyperref' Info: End of reference (link) `figure.caption.9', line 10.
-Package `hyperref' Info: End of reference (link) `equation.3.2.10', line 11.
 Package `hyperref' Info: End of reference (link) `figure.caption.10', line 11.
+Package `hyperref' Info: End of reference (link) `equation.3.2.10', line 12.
 Package `hyperref' Info: End of reference (link) `figure.caption.11', line 12.
 Package `hyperref' Info: End of reference (link) `figure.caption.12', line 13.
 Package `hyperref' Info: End of reference (link) `figure.caption.13', line 14.
 Package `hyperref' Info: End of reference (link) `figure.caption.14', line 15.
 Package `hyperref' Info: End of reference (link) `figure.caption.15', line 16.
 Package `hyperref' Info: End of reference (link) `figure.caption.16', line 17.
-Package `hyperref' Info: End of reference (link) `figure.caption.17', line 19.
-Package `hyperref' Info: End of reference (link) `figure.caption.19', line 20.
+Package `hyperref' Info: End of reference (link) `figure.caption.17', line 18.
+Package `hyperref' Info: End of reference (link) `figure.caption.18', line 20.
 Package `hyperref' Info: End of reference (link) `figure.caption.20', line 21.
 Package `hyperref' Info: End of reference (link) `figure.caption.21', line 22.
-Package `hyperref' Info: End of reference (link) `figure.caption.23', line 23.
-Package `hyperref' Info: End of reference (link) `figure.caption.25', line 24.
-Package `hyperref' Info: End of reference (link) `figure.caption.26', line 25.
+Package `hyperref' Info: End of reference (link) `figure.caption.22', line 23.
+Package `hyperref' Info: End of reference (link) `figure.caption.24', line 24.
 ]
+Package hyperref Info: Reference (link) `figure.caption.27' on input line 26.
 Package hyperref Info: Reference (link) `figure.caption.28' on input line 27.
-Package hyperref Info: Reference (link) `figure.caption.29' on input line 29.
+Package hyperref Info: Reference (link) `figure.caption.29' on input line 28.
 Package hyperref Info: Reference (link) `figure.caption.30' on input line 30.
 Package hyperref Info: Reference (link) `figure.caption.31' on input line 31.
 Package hyperref Info: Reference (link) `figure.caption.32' on input line 32.
 Package hyperref Info: Reference (link) `figure.caption.33' on input line 33.
 Package hyperref Info: Reference (link) `figure.caption.34' on input line 34.
-Package hyperref Info: Reference (link) `figure.caption.35' on input line 35.
-Package hyperref Info: Reference (link) `figure.caption.36' on input line 36.
-Package hyperref Info: Reference (link) `figure.caption.37' on input line 37.
-Package hyperref Info: Reference (link) `figure.caption.38' on input line 38.
-Package hyperref Info: Reference (link) `figure.caption.39' on input line 39.
-Package hyperref Info: Reference (link) `figure.caption.40' on input line 40.
-Package hyperref Info: Reference (link) `figure.caption.41' on input line 43.
+Package hyperref Info: Reference (link) `figure.caption.36' on input line 35.
+Package hyperref Info: Reference (link) `figure.caption.37' on input line 36.
+Package hyperref Info: Reference (link) `figure.caption.38' on input line 37.
+Package hyperref Info: Reference (link) `figure.caption.39' on input line 38.
+Package hyperref Info: Reference (link) `figure.caption.40' on input line 39.
+Package hyperref Info: Reference (link) `figure.caption.41' on input line 40.
+Package hyperref Info: Reference (link) `figure.caption.42' on input line 41.
+Package hyperref Info: Reference (link) `figure.caption.43' on input line 44.
 )
 \tf@lof=\write5
 \openout5 = `Thesis.lof'.
 
 Package hyperref Info: Anchor `page.viii' on input line 179.
  [8
+Package `hyperref' Info: End of reference (link) `figure.caption.26', line 25.
 Package `hyperref' Info: End of reference (link) `figure.caption.27', line 26.
 Package `hyperref' Info: End of reference (link) `figure.caption.28', line 27.
-Package `hyperref' Info: End of reference (link) `figure.caption.29', line 29.
+Package `hyperref' Info: End of reference (link) `figure.caption.29', line 28.
 Package `hyperref' Info: End of reference (link) `figure.caption.30', line 30.
 Package `hyperref' Info: End of reference (link) `figure.caption.31', line 31.
 Package `hyperref' Info: End of reference (link) `figure.caption.32', line 32.
 Package `hyperref' Info: End of reference (link) `figure.caption.33', line 33.
 Package `hyperref' Info: End of reference (link) `figure.caption.34', line 34.
-Package `hyperref' Info: End of reference (link) `figure.caption.35', line 35.
-Package `hyperref' Info: End of reference (link) `figure.caption.36', line 36.
-Package `hyperref' Info: End of reference (link) `figure.caption.37', line 37.
-Package `hyperref' Info: End of reference (link) `figure.caption.38', line 38.
-Package `hyperref' Info: End of reference (link) `figure.caption.39', line 39.
-Package `hyperref' Info: End of reference (link) `figure.caption.40', line 40.
-Package `hyperref' Info: End of reference (link) `figure.caption.41', line 43.
+Package `hyperref' Info: End of reference (link) `figure.caption.36', line 35.
+Package `hyperref' Info: End of reference (link) `figure.caption.37', line 36.
+Package `hyperref' Info: End of reference (link) `figure.caption.38', line 37.
+Package `hyperref' Info: End of reference (link) `figure.caption.39', line 38.
+Package `hyperref' Info: End of reference (link) `figure.caption.40', line 39.
+Package `hyperref' Info: End of reference (link) `figure.caption.41', line 40.
+Package `hyperref' Info: End of reference (link) `figure.caption.42', line 41.
+Package `hyperref' Info: End of reference (link) `figure.caption.43', line 44.
 ]
 Package hyperref Info: Anchor `chapter*.4' on input line 180.
 Package hyperref Info: bookmark on input line 180:
@@ -1191,12 +1205,13 @@ e }{\@secnumber }{\listtablename }}
 
 LIST OF TABLES
 (./Thesis.lot
-Package hyperref Info: Reference (link) `table.caption.6' on input line 6.
-Package hyperref Info: Reference (link) `table.caption.7' on input line 7.
-Package hyperref Info: Reference (link) `table.caption.18' on input line 10.
-Package hyperref Info: Reference (link) `table.caption.22' on input line 11.
-Package hyperref Info: Reference (link) `table.caption.24' on input line 12.
-Package hyperref Info: Reference (link) `table.A.1' on input line 16.
+Package hyperref Info: Reference (link) `table.caption.7' on input line 6.
+Package hyperref Info: Reference (link) `table.caption.8' on input line 7.
+Package hyperref Info: Reference (link) `table.caption.19' on input line 10.
+Package hyperref Info: Reference (link) `table.caption.23' on input line 11.
+Package hyperref Info: Reference (link) `table.caption.25' on input line 12.
+Package hyperref Info: Reference (link) `table.caption.35' on input line 14.
+Package hyperref Info: Reference (link) `table.A.1' on input line 17.
 )
 \tf@lot=\write6
 \openout6 = `Thesis.lot'.
@@ -1205,12 +1220,13 @@ Package hyperref Info: Anchor `page.ix' on input line 180.
  [9
 
 
-Package `hyperref' Info: End of reference (link) `table.caption.6', line 6.
-Package `hyperref' Info: End of reference (link) `table.caption.7', line 7.
-Package `hyperref' Info: End of reference (link) `table.caption.18', line 10.
-Package `hyperref' Info: End of reference (link) `table.caption.22', line 11.
-Package `hyperref' Info: End of reference (link) `table.caption.24', line 12.
-Package `hyperref' Info: End of reference (link) `table.A.1', line 16.
+Package `hyperref' Info: End of reference (link) `table.caption.7', line 6.
+Package `hyperref' Info: End of reference (link) `table.caption.8', line 7.
+Package `hyperref' Info: End of reference (link) `table.caption.19', line 10.
+Package `hyperref' Info: End of reference (link) `table.caption.23', line 11.
+Package `hyperref' Info: End of reference (link) `table.caption.25', line 12.
+Package `hyperref' Info: End of reference (link) `table.caption.35', line 14.
+Package `hyperref' Info: End of reference (link) `table.A.1', line 17.
 ]
 Package hyperref Info: Anchor `chapter*.2' on input line 188.
 pdfTeX warning (ext4): destination with the same identifier (name{chapter*.2}) 
@@ -1241,7 +1257,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{chapter*.3})
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.198 ...sica Nuclear, Filtración Digital Optima}
+l.198 ...Física Nuclear, Filtrado Digital Optimo}
                                                   
 Package hyperref Info: Anchor `chapter*.6' on input line 198.
 
@@ -1341,11 +1357,11 @@ e }{\@secnumber }{\Sectionformat {Electronics for particle physics experiments}
 (hyperref)             toclevel {1}
 (hyperref)             type {toc}.
 Package hyperref Info: Reference (cite) `cite.spieler2005semiconductor' on inpu
-t line 46.
+t line 45.
 Package hyperref Info: Reference (cite) `cite.spieler2005semiconductor' on inpu
-t line 46.
-Package hyperref Info: Reference (link) `figure.caption.4' on input line 46.
-Package hyperref Info: Anchor `figure.caption.4' on input line 49.
+t line 45.
+Package hyperref Info: Reference (link) `figure.caption.4' on input line 45.
+Package hyperref Info: Anchor `figure.caption.4' on input line 48.
 Package epstopdf Info: Source file: <./Figures/detector.eps>
 (epstopdf)                    date: 2014-04-16 16:25:26
 (epstopdf)                    size: 118166 bytes
@@ -1354,16 +1370,16 @@ Package epstopdf Info: Source file: <./Figures/detector.eps>
 (epstopdf)                    size: 16129 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/detector-eps-con
 verted-to.pdf ./Figures/detector.eps>
-(epstopdf)             \includegraphics on input line 50.
+(epstopdf)             \includegraphics on input line 49.
 Package epstopdf Info: Output file is already uptodate.
- <./Figures/detector-eps-converted-to.pdf, id=369, 454.69875pt x 74.2775pt>
+ <./Figures/detector-eps-converted-to.pdf, id=405, 454.69875pt x 74.2775pt>
 File: ./Figures/detector-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figures/detector-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/detector-eps-converted-to.pdf used on input 
-line 50.
+line 49.
 (pdftex.def)             Requested size: 361.34999pt x 59.0288pt.
-Package hyperref Info: bookmark on input line 51:
+Package hyperref Info: bookmark on input line 50:
 (hyperref)             thecounter {1.1}
 (hyperref)             text {\protect \numberline {\caption@lstfmt {\@nameuse {
 p@figure}}{\@nameuse {thefigure}}}{\ignorespaces Block diagram for a single cha
@@ -1372,39 +1388,39 @@ nnel, generic instrumentation circuit for particle physics experiments.\relax }
 (hyperref)             reference {figure.caption.4}
 (hyperref)             toclevel {0}
 (hyperref)             type {lof}.
-Package hyperref Info: Reference (link) `figure.caption.5' on input line 55.
-Package hyperref Info: Reference (cite) `cite.Alvarez101' on input line 55.
-Package hyperref Info: Reference (cite) `cite.Alvarez101' on input line 55.
-Package hyperref Info: Reference (cite) `cite.Asp100' on input line 55.
-Package hyperref Info: Reference (cite) `cite.Asp100' on input line 55.
-Package hyperref Info: Reference (cite) `cite.deGeronimo500' on input line 55.
-Package hyperref Info: Reference (cite) `cite.deGeronimo500' on input line 55.
-Package hyperref Info: Reference (cite) `cite.oconnor100' on input line 55.
-Package hyperref Info: Reference (cite) `cite.oconnor100' on input line 55.
-Package hyperref Info: Reference (cite) `cite.Snoeys100' on input line 55.
-Package hyperref Info: Reference (cite) `cite.Snoeys100' on input line 55.
-Package hyperref Info: Reference (cite) `cite.Haller100' on input line 55.
-Package hyperref Info: Reference (cite) `cite.Haller100' on input line 55.
-Package hyperref Info: Reference (cite) `cite.Kleinfelder100' on input line 55.
+Package hyperref Info: Reference (link) `figure.caption.5' on input line 54.
+Package hyperref Info: Reference (cite) `cite.Alvarez101' on input line 54.
+Package hyperref Info: Reference (cite) `cite.Alvarez101' on input line 54.
+Package hyperref Info: Reference (cite) `cite.Asp100' on input line 54.
+Package hyperref Info: Reference (cite) `cite.Asp100' on input line 54.
+Package hyperref Info: Reference (cite) `cite.deGeronimo500' on input line 54.
+Package hyperref Info: Reference (cite) `cite.deGeronimo500' on input line 54.
+Package hyperref Info: Reference (cite) `cite.oconnor100' on input line 54.
+Package hyperref Info: Reference (cite) `cite.oconnor100' on input line 54.
+Package hyperref Info: Reference (cite) `cite.Snoeys100' on input line 54.
+Package hyperref Info: Reference (cite) `cite.Snoeys100' on input line 54.
+Package hyperref Info: Reference (cite) `cite.Haller100' on input line 54.
+Package hyperref Info: Reference (cite) `cite.Haller100' on input line 54.
+Package hyperref Info: Reference (cite) `cite.Kleinfelder100' on input line 54.
 
-Package hyperref Info: Reference (cite) `cite.Kleinfelder100' on input line 55.
+Package hyperref Info: Reference (cite) `cite.Kleinfelder100' on input line 54.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package hyperref Info: Anchor `page.2' on input line 56.
+Package hyperref Info: Anchor `page.2' on input line 55.
  [2
 Package `hyperref' Info: End of reference (cite) `cite.abuslemethesis', line 18
 .
 Package `hyperref' Info: End of reference (cite) `cite.abuslemethesis', line 18
 .
 Package `hyperref' Info: End of reference (cite) `cite.spieler2005semiconductor
-', line 46.
+', line 45.
 Package `hyperref' Info: End of reference (cite) `cite.spieler2005semiconductor
-', line 46.
-Package `hyperref' Info: End of reference (link) `figure.caption.4', line 46.
+', line 45.
+Package `hyperref' Info: End of reference (link) `figure.caption.4', line 45.
  <./Figures/detector-eps-converted-to.pdf>]
-Package hyperref Info: Anchor `figure.caption.5' on input line 57.
+Package hyperref Info: Anchor `figure.caption.5' on input line 56.
 Package epstopdf Info: Source file: <./Figures/csa_post.eps>
 (epstopdf)                    date: 2014-05-14 10:26:03
 (epstopdf)                    size: 104824 bytes
@@ -1413,17 +1429,17 @@ Package epstopdf Info: Source file: <./Figures/csa_post.eps>
 (epstopdf)                    size: 18227 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/csa_post-eps-con
 verted-to.pdf ./Figures/csa_post.eps>
-(epstopdf)             \includegraphics on input line 59.
+(epstopdf)             \includegraphics on input line 58.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/csa_post-eps-converted-to.pdf, id=411, 202.7575pt x 170.6375pt>
+<./Figures/csa_post-eps-converted-to.pdf, id=447, 202.7575pt x 170.6375pt>
 File: ./Figures/csa_post-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figures/csa_post-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/csa_post-eps-converted-to.pdf used on input 
-line 59.
+line 58.
 (pdftex.def)             Requested size: 144.54pt x 121.64555pt.
-Package hyperref Info: bookmark on input line 60:
+Package hyperref Info: bookmark on input line 59:
 (hyperref)             thecounter {1.2}
 (hyperref)             text {\protect \numberline {\caption@lstfmt {\@nameuse {
 p@figure}}{\@nameuse {thefigure}}}{\ignorespaces CSA using a voltage amplifier.
@@ -1431,8 +1447,8 @@ p@figure}}{\@nameuse {thefigure}}}{\ignorespaces CSA using a voltage amplifier.
 (hyperref)             reference {figure.caption.5}
 (hyperref)             toclevel {0}
 (hyperref)             type {lof}.
-Package hyperref Info: Anchor `section.1.3' on input line 64.
-Package hyperref Info: bookmark on input line 64:
+Package hyperref Info: Anchor `section.1.3' on input line 63.
+Package hyperref Info: bookmark on input line 63:
 (hyperref)             thecounter {1.3}
 (hyperref)             text {\protect \tocsection {\csname sectionname\endcsnam
 e }{\@secnumber }{\Sectionformat {Noise minimization in circuits for particle p
@@ -1440,72 +1456,147 @@ hysics instrumentation}{1}}}
 (hyperref)             reference {section.1.3}
 (hyperref)             toclevel {1}
 (hyperref)             type {toc}.
-Package hyperref Info: Reference (cite) `cite.radeka104' on input line 66.
-Package hyperref Info: Reference (cite) `cite.radeka104' on input line 66.
+Package hyperref Info: Anchor `subsection.1.3.1' on input line 64.
+Package hyperref Info: bookmark on input line 64:
+(hyperref)             thecounter {1.3.1}
+(hyperref)             text {\protect \tocsubsection {\csname subsectionname\en
+dcsname }{\@secnumber }{\Sectionformat {Basic notions}{2}}}
+(hyperref)             reference {subsection.1.3.1}
+(hyperref)             toclevel {2}
+(hyperref)             type {toc}.
+Package hyperref Info: Reference (cite) `cite.gray101' on input line 65.
+Package hyperref Info: Reference (cite) `cite.gray101' on input line 65.
+Package hyperref Info: Reference (cite) `cite.gray101' on input line 65.
+Package hyperref Info: Reference (cite) `cite.gray101' on input line 65.
+Package hyperref Info: Reference (cite) `cite.jindal101' on input line 65.
+Package hyperref Info: Reference (cite) `cite.jindal101' on input line 65.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package hyperref Info: Anchor `page.3' on input line 67.
+Package hyperref Info: Anchor `page.3' on input line 66.
  [3
-Package `hyperref' Info: End of reference (link) `figure.caption.5', line 55.
-Package `hyperref' Info: End of reference (cite) `cite.Alvarez101', line 55.
-Package `hyperref' Info: End of reference (cite) `cite.Alvarez101', line 55.
-Package `hyperref' Info: End of reference (cite) `cite.Asp100', line 55.
-Package `hyperref' Info: End of reference (cite) `cite.Asp100', line 55.
-Package `hyperref' Info: End of reference (cite) `cite.deGeronimo500', line 55.
+Package `hyperref' Info: End of reference (link) `figure.caption.5', line 54.
+Package `hyperref' Info: End of reference (cite) `cite.Alvarez101', line 54.
+Package `hyperref' Info: End of reference (cite) `cite.Alvarez101', line 54.
+Package `hyperref' Info: End of reference (cite) `cite.Asp100', line 54.
+Package `hyperref' Info: End of reference (cite) `cite.Asp100', line 54.
+Package `hyperref' Info: End of reference (cite) `cite.deGeronimo500', line 54.
 
-Package `hyperref' Info: End of reference (cite) `cite.deGeronimo500', line 55.
+Package `hyperref' Info: End of reference (cite) `cite.deGeronimo500', line 54.
 
-Package `hyperref' Info: End of reference (cite) `cite.oconnor100', line 55.
-Package `hyperref' Info: End of reference (cite) `cite.oconnor100', line 55.
-Package `hyperref' Info: End of reference (cite) `cite.Snoeys100', line 55.
-Package `hyperref' Info: End of reference (cite) `cite.Snoeys100', line 55.
-Package `hyperref' Info: End of reference (cite) `cite.Haller100', line 55.
-Package `hyperref' Info: End of reference (cite) `cite.Haller100', line 55.
-Package `hyperref' Info: End of reference (cite) `cite.Kleinfelder100', line 55
+Package `hyperref' Info: End of reference (cite) `cite.oconnor100', line 54.
+Package `hyperref' Info: End of reference (cite) `cite.oconnor100', line 54.
+Package `hyperref' Info: End of reference (cite) `cite.Snoeys100', line 54.
+Package `hyperref' Info: End of reference (cite) `cite.Snoeys100', line 54.
+Package `hyperref' Info: End of reference (cite) `cite.Haller100', line 54.
+Package `hyperref' Info: End of reference (cite) `cite.Haller100', line 54.
+Package `hyperref' Info: End of reference (cite) `cite.Kleinfelder100', line 54
 .
-Package `hyperref' Info: End of reference (cite) `cite.Kleinfelder100', line 55
+Package `hyperref' Info: End of reference (cite) `cite.Kleinfelder100', line 54
 .
 ]
-Package hyperref Info: Reference (cite) `cite.goulding101' on input line 68.
-Package hyperref Info: Reference (cite) `cite.goulding101' on input line 68.
-Package hyperref Info: Reference (cite) `cite.gatti103' on input line 70.
-Package hyperref Info: Reference (cite) `cite.gatti103' on input line 70.
-Package hyperref Info: Reference (cite) `cite.radeka105' on input line 70.
-Package hyperref Info: Reference (cite) `cite.radeka105' on input line 70.
+Package hyperref Info: Anchor `equation.1.3.1' on input line 70.
+Package hyperref Info: Anchor `equation.1.3.1' on input line 70.
+Package hyperref Info: Anchor `equation.1.3.1' on input line 70.
+Package hyperref Info: Anchor `equation.1.3.1' on input line 70.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package hyperref Info: Anchor `page.4' on input line 72.
  [4
-Package `hyperref' Info: End of reference (cite) `cite.radeka104', line 66.
-Package `hyperref' Info: End of reference (cite) `cite.radeka104', line 66.
-Package `hyperref' Info: End of reference (cite) `cite.goulding101', line 68.
-Package `hyperref' Info: End of reference (cite) `cite.goulding101', line 68.
-Package `hyperref' Info: End of reference (cite) `cite.gatti103', line 70.
-Package `hyperref' Info: End of reference (cite) `cite.gatti103', line 70.
-Package `hyperref' Info: End of reference (cite) `cite.radeka105', line 70.
+Package `hyperref' Info: End of reference (cite) `cite.gray101', line 65.
+Package `hyperref' Info: End of reference (cite) `cite.gray101', line 65.
+Package `hyperref' Info: End of reference (cite) `cite.gray101', line 65.
+Package `hyperref' Info: End of reference (cite) `cite.gray101', line 65.
+Package `hyperref' Info: End of reference (cite) `cite.jindal101', line 65.
+Package `hyperref' Info: End of reference (cite) `cite.jindal101', line 65.
  <./Figures/csa_post-eps-converted-to.pdf>]
-Package hyperref Info: Reference (cite) `cite.radeka101' on input line 72.
-Package hyperref Info: Reference (cite) `cite.radeka101' on input line 72.
-Package hyperref Info: Reference (cite) `cite.lutz101' on input line 74.
-Package hyperref Info: Reference (cite) `cite.lutz101' on input line 74.
-Package hyperref Info: Reference (cite) `cite.gatti104' on input line 74.
-Package hyperref Info: Reference (cite) `cite.gatti104' on input line 74.
-Package hyperref Info: Reference (cite) `cite.sansen101' on input line 74.
-Package hyperref Info: Reference (cite) `cite.sansen101' on input line 74.
-Package hyperref Info: Reference (cite) `cite.gadomski101' on input line 76.
-Package hyperref Info: Reference (cite) `cite.gadomski101' on input line 76.
-Package hyperref Info: Reference (cite) `cite.pullia104' on input line 78.
-Package hyperref Info: Reference (cite) `cite.pullia104' on input line 78.
-Package hyperref Info: Reference (cite) `cite.goulding101' on input line 78.
-Package hyperref Info: Reference (cite) `cite.goulding101' on input line 78.
-Package hyperref Info: Reference (cite) `cite.pullia102' on input line 78.
-Package hyperref Info: Reference (cite) `cite.pullia102' on input line 78.
-Package hyperref Info: Reference (cite) `cite.radeka201' on input line 84.
-Package hyperref Info: Reference (cite) `cite.radeka201' on input line 84.
-Package hyperref Info: Anchor `section.1.4' on input line 87.
-Package hyperref Info: bookmark on input line 87:
+Package hyperref Info: Reference (link) `figure.caption.6' on input line 75.
+Package hyperref Info: Anchor `figure.caption.6' on input line 77.
+Package epstopdf Info: Source file: <./Figures/noise_cir.eps>
+(epstopdf)                    date: 2014-05-29 15:18:56
+(epstopdf)                    size: 197001 bytes
+(epstopdf)             Output file: <./Figures/noise_cir-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-05-29 15:19:54
+(epstopdf)                    size: 30237 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Figures/noise_cir-eps-co
+nverted-to.pdf ./Figures/noise_cir.eps>
+(epstopdf)             \includegraphics on input line 79.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Figures/noise_cir-eps-converted-to.pdf, id=492, 300.12125pt x 136.51pt>
+File: ./Figures/noise_cir-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./Figures/noise_cir-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figures/noise_cir-eps-converted-to.pdf used on input
+ line 79.
+(pdftex.def)             Requested size: 231.26378pt x 105.19217pt.
+Package hyperref Info: bookmark on input line 80:
+(hyperref)             thecounter {1.3}
+(hyperref)             text {\protect \numberline {\caption@lstfmt {\@nameuse {
+p@figure}}{\@nameuse {thefigure}}}{\ignorespaces Equivalent representation of a
+ linear circuit internal noise sources referred to the input port.\relax }}
+(hyperref)             reference {figure.caption.6}
+(hyperref)             toclevel {0}
+(hyperref)             type {lof}.
+Package hyperref Info: Anchor `subsection.1.3.2' on input line 83.
+Package hyperref Info: bookmark on input line 83:
+(hyperref)             thecounter {1.3.2}
+(hyperref)             text {\protect \tocsubsection {\csname subsectionname\en
+dcsname }{\@secnumber }{\Sectionformat {Current trends in noise minimization fo
+r particle physics instrumentation systems}{2}}}
+(hyperref)             reference {subsection.1.3.2}
+(hyperref)             toclevel {2}
+(hyperref)             type {toc}.
+Package hyperref Info: Reference (cite) `cite.radeka104' on input line 84.
+Package hyperref Info: Reference (cite) `cite.radeka104' on input line 84.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package hyperref Info: Anchor `page.5' on input line 85.
+ [5
+Package `hyperref' Info: End of reference (link) `figure.caption.6', line 75.
+ <./Figures/noise_cir-eps-converted-to.pdf>]
+Package hyperref Info: Reference (cite) `cite.goulding101' on input line 86.
+Package hyperref Info: Reference (cite) `cite.goulding101' on input line 86.
+Package hyperref Info: Reference (cite) `cite.gatti103' on input line 88.
+Package hyperref Info: Reference (cite) `cite.gatti103' on input line 88.
+Package hyperref Info: Reference (cite) `cite.radeka105' on input line 88.
+Package hyperref Info: Reference (cite) `cite.radeka105' on input line 88.
+Package hyperref Info: Reference (cite) `cite.radeka101' on input line 90.
+Package hyperref Info: Reference (cite) `cite.radeka101' on input line 90.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package hyperref Info: Anchor `page.6' on input line 92.
+ [6
+Package `hyperref' Info: End of reference (cite) `cite.radeka104', line 84.
+Package `hyperref' Info: End of reference (cite) `cite.radeka104', line 84.
+Package `hyperref' Info: End of reference (cite) `cite.goulding101', line 86.
+Package `hyperref' Info: End of reference (cite) `cite.goulding101', line 86.
+Package `hyperref' Info: End of reference (cite) `cite.gatti103', line 88.
+Package `hyperref' Info: End of reference (cite) `cite.gatti103', line 88.
+Package `hyperref' Info: End of reference (cite) `cite.radeka105', line 88.
+Package `hyperref' Info: End of reference (cite) `cite.radeka105', line 88.
+]
+Package hyperref Info: Reference (cite) `cite.lutz101' on input line 92.
+Package hyperref Info: Reference (cite) `cite.lutz101' on input line 92.
+Package hyperref Info: Reference (cite) `cite.gatti104' on input line 92.
+Package hyperref Info: Reference (cite) `cite.gatti104' on input line 92.
+Package hyperref Info: Reference (cite) `cite.sansen101' on input line 92.
+Package hyperref Info: Reference (cite) `cite.sansen101' on input line 92.
+Package hyperref Info: Reference (cite) `cite.gadomski101' on input line 94.
+Package hyperref Info: Reference (cite) `cite.gadomski101' on input line 94.
+Package hyperref Info: Reference (cite) `cite.pullia104' on input line 96.
+Package hyperref Info: Reference (cite) `cite.pullia104' on input line 96.
+Package hyperref Info: Reference (cite) `cite.goulding101' on input line 96.
+Package hyperref Info: Reference (cite) `cite.goulding101' on input line 96.
+Package hyperref Info: Reference (cite) `cite.pullia102' on input line 96.
+Package hyperref Info: Reference (cite) `cite.pullia102' on input line 96.
+Package hyperref Info: Reference (cite) `cite.radeka201' on input line 102.
+Package hyperref Info: Reference (cite) `cite.radeka201' on input line 102.
+Package hyperref Info: Anchor `section.1.4' on input line 105.
+Package hyperref Info: bookmark on input line 105:
 (hyperref)             thecounter {1.4}
 (hyperref)             text {\protect \tocsection {\csname sectionname\endcsnam
 e }{\@secnumber }{\Sectionformat {Thesis content}{1}}}
@@ -1515,31 +1606,30 @@ e }{\@secnumber }{\Sectionformat {Thesis content}{1}}}
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package hyperref Info: Anchor `page.5' on input line 204.
- [5
-Package `hyperref' Info: End of reference (cite) `cite.radeka105', line 70.
-Package `hyperref' Info: End of reference (cite) `cite.radeka101', line 72.
-Package `hyperref' Info: End of reference (cite) `cite.radeka101', line 72.
-Package `hyperref' Info: End of reference (cite) `cite.lutz101', line 74.
-Package `hyperref' Info: End of reference (cite) `cite.lutz101', line 74.
-Package `hyperref' Info: End of reference (cite) `cite.gatti104', line 74.
-Package `hyperref' Info: End of reference (cite) `cite.gatti104', line 74.
-Package `hyperref' Info: End of reference (cite) `cite.sansen101', line 74.
-Package `hyperref' Info: End of reference (cite) `cite.sansen101', line 74.
-Package `hyperref' Info: End of reference (cite) `cite.gadomski101', line 76.
-Package `hyperref' Info: End of reference (cite) `cite.gadomski101', line 76.
-Package `hyperref' Info: End of reference (cite) `cite.pullia104', line 78.
-Package `hyperref' Info: End of reference (cite) `cite.pullia104', line 78.
-Package `hyperref' Info: End of reference (cite) `cite.goulding101', line 78.
-Package `hyperref' Info: End of reference (cite) `cite.goulding101', line 78.
-Package `hyperref' Info: End of reference (cite) `cite.pullia102', line 78.
-Package `hyperref' Info: End of reference (cite) `cite.pullia102', line 78.
-Package `hyperref' Info: End of reference (cite) `cite.radeka201', line 84.
-Package `hyperref' Info: End of reference (cite) `cite.radeka201', line 84.
+Package hyperref Info: Anchor `page.7' on input line 204.
+ [7
+Package `hyperref' Info: End of reference (cite) `cite.radeka101', line 90.
+Package `hyperref' Info: End of reference (cite) `cite.radeka101', line 90.
+Package `hyperref' Info: End of reference (cite) `cite.lutz101', line 92.
+Package `hyperref' Info: End of reference (cite) `cite.lutz101', line 92.
+Package `hyperref' Info: End of reference (cite) `cite.gatti104', line 92.
+Package `hyperref' Info: End of reference (cite) `cite.gatti104', line 92.
+Package `hyperref' Info: End of reference (cite) `cite.sansen101', line 92.
+Package `hyperref' Info: End of reference (cite) `cite.sansen101', line 92.
+Package `hyperref' Info: End of reference (cite) `cite.gadomski101', line 94.
+Package `hyperref' Info: End of reference (cite) `cite.gadomski101', line 94.
+Package `hyperref' Info: End of reference (cite) `cite.pullia104', line 96.
+Package `hyperref' Info: End of reference (cite) `cite.pullia104', line 96.
+Package `hyperref' Info: End of reference (cite) `cite.goulding101', line 96.
+Package `hyperref' Info: End of reference (cite) `cite.goulding101', line 96.
+Package `hyperref' Info: End of reference (cite) `cite.pullia102', line 96.
+Package `hyperref' Info: End of reference (cite) `cite.pullia102', line 96.
+Package `hyperref' Info: End of reference (cite) `cite.radeka201', line 102.
+Package `hyperref' Info: End of reference (cite) `cite.radeka201', line 102.
 ]
-Package hyperref Info: Anchor `page.6' on input line 204.
+Package hyperref Info: Anchor `page.8' on input line 204.
 
-[6]
+[8]
 \openout2 = `./text/problem.aux'.
 
  (./text/problem.tex
@@ -1562,20 +1652,12 @@ Package hyperref Info: Anchor `section.2.1' on input line 3.
 Package hyperref Info: bookmark on input line 3:
 (hyperref)             thecounter {2.1}
 (hyperref)             text {\protect \tocsection {\csname sectionname\endcsnam
-e }{\@secnumber }{\Sectionformat {The International Linear Collider}{1}}}
+e }{\@secnumber }{\Sectionformat {The BeamCal Instrumentation }{1}}}
 (hyperref)             reference {section.2.1}
 (hyperref)             toclevel {1}
 (hyperref)             type {toc}.
-Package hyperref Info: Anchor `section.2.2' on input line 18.
-Package hyperref Info: bookmark on input line 18:
-(hyperref)             thecounter {2.2}
-(hyperref)             text {\protect \tocsection {\csname sectionname\endcsnam
-e }{\@secnumber }{\Sectionformat {The Bean}{1}}}
-(hyperref)             reference {section.2.2}
-(hyperref)             toclevel {1}
-(hyperref)             type {toc}.
 
-Overfull \hbox (3.53894pt too wide) in paragraph at lines 19--20
+Overfull \hbox (3.53894pt too wide) in paragraph at lines 15--16
 \OT1/ptm/m/n/12 ASIC that will ad-dress the Beam-Cal in-stru-men-ta-tion re-qui
 re-ments. By em-ploy-ing a charge-
  []
@@ -1583,35 +1665,35 @@ re-ments. By em-ploy-ing a charge-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package hyperref Info: Anchor `page.7' on input line 20.
- [7
+Package hyperref Info: Anchor `page.9' on input line 16.
+ [9
 
 
 
 
 
 ]
-Package hyperref Info: Anchor `table.caption.6' on input line 21.
-Package hyperref Info: bookmark on input line 38:
+Package hyperref Info: Anchor `table.caption.7' on input line 17.
+Package hyperref Info: bookmark on input line 34:
 (hyperref)             thecounter {2.1}
 (hyperref)             text {\protect \numberline {\caption@lstfmt {\@nameuse {
 p@table}}{\@nameuse {thetable}}}{\ignorespaces BeamCal instrumentation ASIC spe
 cifications summary.\relax }}
-(hyperref)             reference {table.caption.6}
-(hyperref)             toclevel {0}
-(hyperref)             type {lot}.
-Package hyperref Info: Anchor `table.caption.7' on input line 42.
-Package hyperref Info: bookmark on input line 54:
-(hyperref)             thecounter {2.2}
-(hyperref)             text {\protect \numberline {\caption@lstfmt {\@nameuse {
-p@table}}{\@nameuse {thetable}}}{\ignorespaces Channel noise budget.\relax }}
 (hyperref)             reference {table.caption.7}
 (hyperref)             toclevel {0}
 (hyperref)             type {lot}.
+Package hyperref Info: Anchor `table.caption.8' on input line 38.
+Package hyperref Info: bookmark on input line 50:
+(hyperref)             thecounter {2.2}
+(hyperref)             text {\protect \numberline {\caption@lstfmt {\@nameuse {
+p@table}}{\@nameuse {thetable}}}{\ignorespaces Channel noise budget.\relax }}
+(hyperref)             reference {table.caption.8}
+(hyperref)             toclevel {0}
+(hyperref)             type {lot}.
 )
-Package hyperref Info: Anchor `page.8' on input line 206.
+Package hyperref Info: Anchor `page.10' on input line 206.
 
-[8]
+[10]
 \openout2 = `./text/theoretical.aux'.
 
  (./text/theoretical.tex
@@ -1688,8 +1770,8 @@ Package hyperref Info: Reference (cite) `cite.porro101' on input line 9.
 
 Underfull \vbox (badness 1178) has occurred while \output is active []
 
-Package hyperref Info: Anchor `page.9' on input line 10.
- [9
+Package hyperref Info: Anchor `page.11' on input line 10.
+ [11
 
 
 
@@ -1740,7 +1822,7 @@ e }{\@secnumber }{\Sectionformat {Discrete-Time Analysis}{1}}}
 (hyperref)             reference {section.3.2}
 (hyperref)             toclevel {1}
 (hyperref)             type {toc}.
-Package hyperref Info: Reference (link) `figure.caption.8' on input line 21.
+Package hyperref Info: Reference (link) `figure.caption.9' on input line 21.
 Package hyperref Info: Anchor `equation.3.2.1' on input line 22.
 Package hyperref Info: Anchor `equation.3.2.1' on input line 22.
 Package hyperref Info: Anchor `equation.3.2.1' on input line 22.
@@ -1748,8 +1830,8 @@ Package hyperref Info: Anchor `equation.3.2.1' on input line 22.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package hyperref Info: Anchor `page.10' on input line 27.
- [10
+Package hyperref Info: Anchor `page.12' on input line 27.
+ [12
 Package `hyperref' Info: End of reference (cite) `cite.jordanov101', line 9.
 Package `hyperref' Info: End of reference (cite) `cite.jordanov101', line 9.
 Package `hyperref' Info: End of reference (cite) `cite.sampietro101', line 9.
@@ -1760,7 +1842,7 @@ Package `hyperref' Info: End of reference (cite) `cite.fiorini101', line 9.
 Package `hyperref' Info: End of reference (cite) `cite.fiorini101', line 9.
 Package `hyperref' Info: End of reference (cite) `cite.porro101', line 9.
 Package `hyperref' Info: End of reference (cite) `cite.porro101', line 9.
-Package `hyperref' Info: End of reference (link) `figure.caption.8', line 21.
+Package `hyperref' Info: End of reference (link) `figure.caption.9', line 21.
 ]
 Package hyperref Info: Reference (cite) `cite.goulding101' on input line 27.
 Package hyperref Info: Reference (cite) `cite.goulding101' on input line 27.
@@ -1772,8 +1854,8 @@ Package hyperref Info: Anchor `equation.3.2.2' on input line 30.
 Package hyperref Info: Anchor `equation.3.2.2' on input line 30.
 Package hyperref Info: Anchor `equation.3.2.2' on input line 30.
 Package hyperref Info: Anchor `equation.3.2.2' on input line 30.
-Package hyperref Info: Reference (link) `figure.caption.8' on input line 33.
-Package hyperref Info: Anchor `figure.caption.8' on input line 35.
+Package hyperref Info: Reference (link) `figure.caption.9' on input line 33.
+Package hyperref Info: Anchor `figure.caption.9' on input line 35.
 Package epstopdf Info: Source file: <./Figures/system.eps>
 (epstopdf)                    date: 2013-07-23 16:16:32
 (epstopdf)                    size: 543910 bytes
@@ -1785,7 +1867,7 @@ rted-to.pdf ./Figures/system.eps>
 (epstopdf)             \includegraphics on input line 37.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/system-eps-converted-to.pdf, id=582, 325.215pt x 106.3975pt>
+<./Figures/system-eps-converted-to.pdf, id=663, 325.215pt x 106.3975pt>
 File: ./Figures/system-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figures/system-eps-converted-to.pdf>
@@ -1797,7 +1879,7 @@ Package hyperref Info: bookmark on input line 38:
 (hyperref)             text {\protect \numberline {\caption@lstfmt {\@nameuse {
 p@figure}}{\@nameuse {thefigure}}}{\ignorespaces Model for noise analysis in a 
 typical \mbox {front-end} circuit.\relax }}
-(hyperref)             reference {figure.caption.8}
+(hyperref)             reference {figure.caption.9}
 (hyperref)             toclevel {0}
 (hyperref)             type {lof}.
 Package hyperref Info: Reference (cite) `cite.radeka201' on input line 41.
@@ -1810,20 +1892,20 @@ Package hyperref Info: Anchor `equation.3.2.3' on input line 42.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package hyperref Info: Anchor `page.11' on input line 44.
- [11
+Package hyperref Info: Anchor `page.13' on input line 44.
+ [13
 Package `hyperref' Info: End of reference (cite) `cite.goulding101', line 27.
 Package `hyperref' Info: End of reference (cite) `cite.goulding101', line 27.
 Package `hyperref' Info: End of reference (cite) `cite.radeka101', line 27.
 Package `hyperref' Info: End of reference (cite) `cite.radeka101', line 27.
 Package `hyperref' Info: End of reference (cite) `cite.pullia102', line 27.
 Package `hyperref' Info: End of reference (cite) `cite.pullia102', line 27.
-Package `hyperref' Info: End of reference (link) `figure.caption.8', line 33.
+Package `hyperref' Info: End of reference (link) `figure.caption.9', line 33.
 Package `hyperref' Info: End of reference (cite) `cite.radeka201', line 41.
 Package `hyperref' Info: End of reference (cite) `cite.radeka201', line 41.
 Package `hyperref' Info: End of reference (link) `equation.3.2.2', line 41.
  <./Figures/system-eps-converted-to.pdf>]
-Package hyperref Info: Reference (link) `figure.caption.9' on input line 46.
+Package hyperref Info: Reference (link) `figure.caption.10' on input line 46.
 Package hyperref Info: Anchor `equation.3.2.4' on input line 47.
 Package hyperref Info: Anchor `equation.3.2.4' on input line 47.
 Package hyperref Info: Anchor `equation.3.2.4' on input line 47.
@@ -1855,15 +1937,15 @@ Package hyperref Info: Anchor `equation.3.2.9' on input line 73.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package hyperref Info: Anchor `page.12' on input line 79.
- [12
-Package `hyperref' Info: End of reference (link) `figure.caption.9', line 46.
+Package hyperref Info: Anchor `page.14' on input line 79.
+ [14
+Package `hyperref' Info: End of reference (link) `figure.caption.10', line 46.
 Package `hyperref' Info: End of reference (link) `equation.3.2.4', line 50.
 Package `hyperref' Info: End of reference (link) `equation.3.2.6', line 61.
 Package `hyperref' Info: End of reference (link) `equation.3.2.3', line 67.
 Package `hyperref' Info: End of reference (link) `equation.3.2.7', line 67.
 ]
-Package hyperref Info: Anchor `figure.caption.9' on input line 81.
+Package hyperref Info: Anchor `figure.caption.10' on input line 81.
 Package epstopdf Info: Source file: <./Figures/sequence.eps>
 (epstopdf)                    date: 2013-07-23 14:09:53
 (epstopdf)                    size: 247040 bytes
@@ -1875,7 +1957,7 @@ verted-to.pdf ./Figures/sequence.eps>
 (epstopdf)             \includegraphics on input line 83.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/sequence-eps-converted-to.pdf, id=652, 562.1pt x 429.605pt>
+<./Figures/sequence-eps-converted-to.pdf, id=730, 562.1pt x 429.605pt>
 File: ./Figures/sequence-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figures/sequence-eps-converted-to.pdf>
@@ -1889,7 +1971,7 @@ p@figure}}{\@nameuse {thefigure}}}{\ignorespaces Noise contribution of the puls
 es generated within $P_i$ and measured at an arbitrary sample $k$ (i.e., $t=kT_
 s$), using an arbitrary filtered noise core function $\hat {y}(t)$. The indepen
 dent contribution of each pulse is pointed out with black dots.\relax }}
-(hyperref)             reference {figure.caption.9}
+(hyperref)             reference {figure.caption.10}
 (hyperref)             toclevel {0}
 (hyperref)             type {lof}.
 Package hyperref Info: Reference (link) `equation.3.2.9' on input line 87.
@@ -1898,18 +1980,18 @@ Package hyperref Info: Anchor `equation.3.2.10' on input line 88.
 Package hyperref Info: Anchor `equation.3.2.10' on input line 88.
 Package hyperref Info: Anchor `equation.3.2.10' on input line 88.
 Package hyperref Info: Reference (link) `equation.3.2.10' on input line 91.
-Package hyperref Info: Reference (link) `figure.caption.10' on input line 91.
+Package hyperref Info: Reference (link) `figure.caption.11' on input line 91.
 Package hyperref Info: Reference (link) `equation.3.2.10' on input line 93.
 Package hyperref Info: Reference (link) `equation.3.2.10' on input line 93.
 Package hyperref Info: Reference (link) `equation.3.2.10' on input line 93.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package hyperref Info: Anchor `page.13' on input line 94.
- [13
+Package hyperref Info: Anchor `page.15' on input line 94.
+ [15
 Package `hyperref' Info: End of reference (link) `equation.3.2.9', line 87.
 Package `hyperref' Info: End of reference (link) `equation.3.2.10', line 91.
-Package `hyperref' Info: End of reference (link) `figure.caption.10', line 91.
+Package `hyperref' Info: End of reference (link) `figure.caption.11', line 91.
  <./Figures/sequence-eps-converted-to.pdf>]
 Package hyperref Info: Anchor `equation.3.2.11' on input line 97.
 Package hyperref Info: Anchor `equation.3.2.12' on input line 102.
@@ -1921,7 +2003,7 @@ Package hyperref Info: Anchor `equation.3.2.14' on input line 108.
 Package hyperref Info: Anchor `equation.3.2.14' on input line 108.
 Package hyperref Info: Anchor `equation.3.2.14' on input line 108.
 Package hyperref Info: Anchor `equation.3.2.14' on input line 108.
-Package hyperref Info: Anchor `figure.caption.10' on input line 112.
+Package hyperref Info: Anchor `figure.caption.11' on input line 112.
 Package epstopdf Info: Source file: <./Figures/envelope-example.eps>
 (epstopdf)                    date: 2013-07-23 14:09:53
 (epstopdf)                    size: 1198843 bytes
@@ -1934,7 +2016,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 114.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/envelope-example-eps-converted-to.pdf, id=710, 322.20375pt x 208.78p
+<./Figures/envelope-example-eps-converted-to.pdf, id=788, 322.20375pt x 208.78p
 t>
 File: ./Figures/envelope-example-eps-converted-to.pdf Graphic file (type pdf)
  <use ./Figures/envelope-example-eps-converted-to.pdf>
@@ -1947,15 +2029,15 @@ Package hyperref Info: bookmark on input line 115:
 p@figure}}{\@nameuse {thefigure}}}{\ignorespaces Evolution of the total integra
 ted noise at the filter input, where the noise of each sample was split accordi
 ng to \eqref {eq:noise_evo}.\relax }}
-(hyperref)             reference {figure.caption.10}
+(hyperref)             reference {figure.caption.11}
 (hyperref)             toclevel {0}
 (hyperref)             type {lof}.
 Package hyperref Info: Reference (link) `equation.3.2.10' on input line 115.
 Package hyperref Info: Reference (link) `equation.3.2.10' on input line 115.
 Package hyperref Info: Reference (link) `equation.3.2.14' on input line 118.
 Package hyperref Info: Reference (link) `equation.3.2.3' on input line 118.
-Package hyperref Info: Reference (link) `figure.caption.11' on input line 118.
-Package hyperref Info: Anchor `figure.caption.11' on input line 120.
+Package hyperref Info: Reference (link) `figure.caption.12' on input line 118.
+Package hyperref Info: Anchor `figure.caption.12' on input line 120.
 Package epstopdf Info: Source file: <./Figures/envelopes.eps>
 (epstopdf)                    date: 2013-07-23 14:09:53
 (epstopdf)                    size: 174722 bytes
@@ -1967,7 +2049,7 @@ nverted-to.pdf ./Figures/envelopes.eps>
 (epstopdf)             \includegraphics on input line 122.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/envelopes-eps-converted-to.pdf, id=716, 492.84125pt x 394.47375pt>
+<./Figures/envelopes-eps-converted-to.pdf, id=794, 492.84125pt x 394.47375pt>
 File: ./Figures/envelopes-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figures/envelopes-eps-converted-to.pdf>
@@ -1980,14 +2062,14 @@ Package hyperref Info: bookmark on input line 123:
 p@figure}}{\@nameuse {thefigure}}}{\ignorespaces $\sigma ^2(t)$ for thermal, sh
 ot and flicker noise with normalized time $t/\tau $ and an arbitrary amplitude.
 \relax }}
-(hyperref)             reference {figure.caption.11}
+(hyperref)             reference {figure.caption.12}
 (hyperref)             toclevel {0}
 (hyperref)             type {lof}.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package hyperref Info: Anchor `page.14' on input line 124.
- [14
+Package hyperref Info: Anchor `page.16' on input line 124.
+ [16
 Package `hyperref' Info: End of reference (link) `equation.3.2.10', line 93.
 Package `hyperref' Info: End of reference (link) `equation.3.2.10', line 93.
 Package `hyperref' Info: End of reference (link) `equation.3.2.10', line 93.
@@ -1996,7 +2078,7 @@ Package `hyperref' Info: End of reference (link) `equation.3.2.9', line 107.
 Package `hyperref' Info: End of reference (link) `equation.3.2.13', line 107.
 Package `hyperref' Info: End of reference (link) `equation.3.2.14', line 118.
 Package `hyperref' Info: End of reference (link) `equation.3.2.3', line 118.
-Package `hyperref' Info: End of reference (link) `figure.caption.11', line 118.
+Package `hyperref' Info: End of reference (link) `figure.caption.12', line 118.
 
 ]
 Package hyperref Info: Anchor `section.3.3' on input line 129.
@@ -2007,16 +2089,16 @@ e }{\@secnumber }{\Sectionformat {Example}{1}}}
 (hyperref)             reference {section.3.3}
 (hyperref)             toclevel {1}
 (hyperref)             type {toc}.
-Package hyperref Info: Reference (link) `figure.caption.12' on input line 130.
+Package hyperref Info: Reference (link) `figure.caption.13' on input line 130.
 Package hyperref Info: Reference (cite) `cite.sansen101' on input line 130.
 Package hyperref Info: Reference (cite) `cite.sansen101' on input line 130.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package hyperref Info: Anchor `page.15' on input line 131.
- [15
+Package hyperref Info: Anchor `page.17' on input line 131.
+ [17
 Package `hyperref' Info: End of reference (link) `equation.3.2.10', line 115.
-Package `hyperref' Info: End of reference (link) `figure.caption.12', line 130.
+Package `hyperref' Info: End of reference (link) `figure.caption.13', line 130.
 
  <./Figures/envelope-example-eps-converted-to.pdf>]
 Package hyperref Info: Anchor `equation.3.3.15' on input line 131.
@@ -2039,7 +2121,7 @@ C[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 C[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 C
 [] []. 
  []
 
-Package hyperref Info: Anchor `figure.caption.12' on input line 141.
+Package hyperref Info: Anchor `figure.caption.13' on input line 141.
 Package epstopdf Info: Source file: <./Figures/front-end.eps>
 (epstopdf)                    date: 2013-07-23 16:25:10
 (epstopdf)                    size: 427197 bytes
@@ -2050,7 +2132,7 @@ Package epstopdf Info: Source file: <./Figures/front-end.eps>
 nverted-to.pdf ./Figures/front-end.eps>
 (epstopdf)             \includegraphics on input line 143.
 Package epstopdf Info: Output file is already uptodate.
-<./Figures/front-end-eps-converted-to.pdf, id=803, 541.02126pt x 196.735pt>
+<./Figures/front-end-eps-converted-to.pdf, id=880, 541.02126pt x 196.735pt>
 File: ./Figures/front-end-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figures/front-end-eps-converted-to.pdf>
@@ -2062,7 +2144,7 @@ Package hyperref Info: bookmark on input line 144:
 (hyperref)             text {\protect \numberline {\caption@lstfmt {\@nameuse {
 p@figure}}{\@nameuse {thefigure}}}{\ignorespaces Front-end circuit used for noi
 se analysis.\relax }}
-(hyperref)             reference {figure.caption.12}
+(hyperref)             reference {figure.caption.13}
 (hyperref)             toclevel {0}
 (hyperref)             type {lof}.
 Package hyperref Info: Reference (link) `equation.3.3.16' on input line 147.
@@ -2073,8 +2155,8 @@ Package hyperref Info: Anchor `equation.3.3.17' on input line 148.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package hyperref Info: Anchor `page.16' on input line 150.
- [16
+Package hyperref Info: Anchor `page.18' on input line 150.
+ [18
 Package `hyperref' Info: End of reference (cite) `cite.sansen101', line 130.
 Package `hyperref' Info: End of reference (cite) `cite.sansen101', line 130.
 Package `hyperref' Info: End of reference (cite) `cite.pullia102', line 135.
@@ -2111,8 +2193,8 @@ Package hyperref Info: Anchor `equation.3.3.21' on input line 165.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package hyperref Info: Anchor `page.17' on input line 167.
- [17
+Package hyperref Info: Anchor `page.19' on input line 167.
+ [19
 Package `hyperref' Info: End of reference (link) `equation.3.3.16', line 147.
 Package `hyperref' Info: End of reference (cite) `cite.pullia102', line 152.
 Package `hyperref' Info: End of reference (cite) `cite.pullia102', line 152.
@@ -2128,10 +2210,10 @@ Package hyperref Info: Anchor `equation.3.3.22' on input line 170.
 Package hyperref Info: Anchor `equation.3.3.22' on input line 170.
 Package hyperref Info: Anchor `equation.3.3.22' on input line 170.
 Package hyperref Info: Anchor `equation.3.3.22' on input line 170.
-Package hyperref Info: Reference (link) `figure.caption.13' on input line 174.
+Package hyperref Info: Reference (link) `figure.caption.14' on input line 174.
 Package hyperref Info: Reference (link) `equation.3.3.21' on input line 174.
 Package hyperref Info: Reference (link) `equation.3.3.22' on input line 174.
-Package hyperref Info: Anchor `figure.caption.13' on input line 175.
+Package hyperref Info: Anchor `figure.caption.14' on input line 175.
 Package epstopdf Info: Source file: <./Figures/example.eps>
 (epstopdf)                    date: 2013-09-18 12:21:49
 (epstopdf)                    size: 175769 bytes
@@ -2143,7 +2225,7 @@ erted-to.pdf ./Figures/example.eps>
 (epstopdf)             \includegraphics on input line 177.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/example-eps-converted-to.pdf, id=906, 491.8375pt x 394.47375pt>
+<./Figures/example-eps-converted-to.pdf, id=983, 491.8375pt x 394.47375pt>
 File: ./Figures/example-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figures/example-eps-converted-to.pdf>
@@ -2157,7 +2239,7 @@ p@figure}}{\@nameuse {thefigure}}}{\ignorespaces $\hat {\sigma }_\text {th}^2(N
 )$ and $N \frac {\overline {v_n^2}}{2\hat {\tau }}\frac {C_{tot}^2}{C_F^2}$ as 
 a function of $\hat {\tau }$, using $\overline {v_n^2} = 1$, \mbox {$C_{tot}^2/
 C_F^2 = 1$} and $N = 20$.\relax }}
-(hyperref)             reference {figure.caption.13}
+(hyperref)             reference {figure.caption.14}
 (hyperref)             toclevel {0}
 (hyperref)             type {lof}.
 Package hyperref Info: Reference (link) `equation.3.3.19' on input line 181.
@@ -2165,11 +2247,11 @@ Package hyperref Info: Anchor `equation.3.3.23' on input line 185.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package hyperref Info: Anchor `page.18' on input line 185.
- [18
+Package hyperref Info: Anchor `page.20' on input line 185.
+ [20
 Package `hyperref' Info: End of reference (link) `equation.3.3.20', line 164.
 Package `hyperref' Info: End of reference (link) `equation.3.2.14', line 164.
-Package `hyperref' Info: End of reference (link) `figure.caption.13', line 174.
+Package `hyperref' Info: End of reference (link) `figure.caption.14', line 174.
 
 Package `hyperref' Info: End of reference (link) `equation.3.3.21', line 174.
 Package `hyperref' Info: End of reference (link) `equation.3.3.22', line 174.
@@ -2205,7 +2287,7 @@ e }{\@secnumber }{\Sectionformat {$\mathit {ENC}$ Minimization}{1}}}
 (hyperref)             reference {section.3.4}
 (hyperref)             toclevel {1}
 (hyperref)             type {toc}.
-Package hyperref Info: Reference (link) `figure.caption.12' on input line 206.
+Package hyperref Info: Reference (link) `figure.caption.13' on input line 206.
 Package hyperref Info: Anchor `equation.3.4.27' on input line 207.
 Package hyperref Info: Anchor `equation.3.4.27' on input line 207.
 Package hyperref Info: Anchor `equation.3.4.27' on input line 207.
@@ -2213,13 +2295,13 @@ Package hyperref Info: Anchor `equation.3.4.27' on input line 207.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package hyperref Info: Anchor `page.19' on input line 211.
- [19
+Package hyperref Info: Anchor `page.21' on input line 211.
+ [21
 Package `hyperref' Info: End of reference (link) `equation.3.3.23', line 186.
 Package `hyperref' Info: End of reference (link) `equation.3.3.24', line 191.
 Package `hyperref' Info: End of reference (link) `equation.3.3.26', line 199.
 Package `hyperref' Info: End of reference (link) `equation.3.3.21', line 199.
-Package `hyperref' Info: End of reference (link) `figure.caption.12', line 206.
+Package `hyperref' Info: End of reference (link) `figure.caption.13', line 206.
 
 ]
 Package hyperref Info: Anchor `equation.3.4.28' on input line 211.
@@ -2241,8 +2323,8 @@ Package hyperref Info: Anchor `equation.3.4.31' on input line 228.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package hyperref Info: Anchor `page.20' on input line 228.
- [20
+Package hyperref Info: Anchor `page.22' on input line 228.
+ [22
 Package `hyperref' Info: End of reference (link) `equation.3.3.15', line 214.
 Package `hyperref' Info: End of reference (cite) `cite.bertuccio101', line 214.
 
@@ -2270,8 +2352,8 @@ Package hyperref Info: Reference (cite) `cite.pullia102' on input line 240.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package hyperref Info: Anchor `page.21' on input line 241.
- [21
+Package hyperref Info: Anchor `page.23' on input line 241.
+ [23
 Package `hyperref' Info: End of reference (link) `equation.3.4.29', line 224.
 Package `hyperref' Info: End of reference (link) `equation.3.2.14', line 229.
 Package `hyperref' Info: End of reference (link) `equation.3.4.32', line 236.
@@ -2282,13 +2364,13 @@ Package `hyperref' Info: End of reference (cite) `cite.van101', line 240.
 ]
 Package hyperref Info: Reference (cite) `cite.cplex' on input line 242.
 Package hyperref Info: Reference (cite) `cite.cplex' on input line 242.
-Package hyperref Info: Reference (link) `figure.caption.14' on input line 242.
 Package hyperref Info: Reference (link) `figure.caption.15' on input line 242.
+Package hyperref Info: Reference (link) `figure.caption.16' on input line 242.
 Package hyperref Info: Reference (cite) `cite.gatti101' on input line 242.
 Package hyperref Info: Reference (cite) `cite.gatti101' on input line 242.
 Package hyperref Info: Reference (cite) `cite.pullia104' on input line 242.
 Package hyperref Info: Reference (cite) `cite.pullia104' on input line 242.
-Package hyperref Info: Anchor `figure.caption.14' on input line 244.
+Package hyperref Info: Anchor `figure.caption.15' on input line 244.
 Package epstopdf Info: Source file: <./Figures/optimum_tau.eps>
 (epstopdf)                    date: 2013-07-23 14:09:53
 (epstopdf)                    size: 204129 bytes
@@ -2301,7 +2383,7 @@ converted-to.pdf ./Figures/optimum_tau.eps>
 (epstopdf)             \includegraphics on input line 246.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/optimum_tau-eps-converted-to.pdf, id=991, 346.29375pt x 301.125pt>
+<./Figures/optimum_tau-eps-converted-to.pdf, id=1067, 346.29375pt x 301.125pt>
 File: ./Figures/optimum_tau-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figures/optimum_tau-eps-converted-to.pdf>
@@ -2313,10 +2395,10 @@ Package hyperref Info: bookmark on input line 247:
 (hyperref)             text {\protect \numberline {\caption@lstfmt {\@nameuse {
 p@figure}}{\@nameuse {thefigure}}}{\ignorespaces Minimum $\mathit {ENC}^2$ as a
  function of $\hat {\tau }$ for a fixed $N$.\relax }}
-(hyperref)             reference {figure.caption.14}
+(hyperref)             reference {figure.caption.15}
 (hyperref)             toclevel {0}
 (hyperref)             type {lof}.
-Package hyperref Info: Anchor `figure.caption.15' on input line 250.
+Package hyperref Info: Anchor `figure.caption.16' on input line 250.
 Package epstopdf Info: Source file: <./Figures/optimum_wf.eps>
 (epstopdf)                    date: 2013-07-25 18:03:37
 (epstopdf)                    size: 168995 bytes
@@ -2329,9 +2411,8 @@ onverted-to.pdf ./Figures/optimum_wf.eps>
 (epstopdf)             \includegraphics on input line 252.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/optimum_wf-eps-converted-to.pdf, id=992, 340.27126pt x 304.13625pt>
+<./Figures/optimum_wf-eps-converted-to.pdf, id=1068, 340.27126pt x 304.13625pt>
 File: ./Figures/optimum_wf-eps-converted-to.pdf Graphic file (type pdf)
-
 <use ./Figures/optimum_wf-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/optimum_wf-eps-converted-to.pdf used on inpu
 t line 252.
@@ -2341,34 +2422,34 @@ Package hyperref Info: bookmark on input line 253:
 (hyperref)             text {\protect \numberline {\caption@lstfmt {\@nameuse {
 p@figure}}{\@nameuse {thefigure}}}{\ignorespaces Optimum WF for different value
 s of $\hat {\tau }$ for $N=20$.\relax }}
-(hyperref)             reference {figure.caption.15}
+(hyperref)             reference {figure.caption.16}
 (hyperref)             toclevel {0}
 (hyperref)             type {lof}.
-Package hyperref Info: Reference (link) `figure.caption.16' on input line 256.
-Package hyperref Info: Reference (link) `figure.caption.16' on input line 256.
+Package hyperref Info: Reference (link) `figure.caption.17' on input line 256.
+Package hyperref Info: Reference (link) `figure.caption.17' on input line 256.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package hyperref Info: Anchor `page.22' on input line 257.
- [22
+Package hyperref Info: Anchor `page.24' on input line 257.
+ [24
 Package `hyperref' Info: End of reference (cite) `cite.pullia102', line 240.
 Package `hyperref' Info: End of reference (cite) `cite.pullia102', line 240.
 Package `hyperref' Info: End of reference (cite) `cite.cplex', line 242.
 Package `hyperref' Info: End of reference (cite) `cite.cplex', line 242.
-Package `hyperref' Info: End of reference (link) `figure.caption.14', line 242.
-
 Package `hyperref' Info: End of reference (link) `figure.caption.15', line 242.
 
-Package `hyperref' Info: End of reference (cite) `cite.gatti101', line 242.
-Package `hyperref' Info: End of reference (cite) `cite.gatti101', line 242.
-Package `hyperref' Info: End of reference (cite) `cite.pullia104', line 242.
-Package `hyperref' Info: End of reference (cite) `cite.pullia104', line 242.
-Package `hyperref' Info: End of reference (link) `figure.caption.16', line 256.
+Package `hyperref' Info: End of reference (link) `figure.caption.16', line 242.
 
-Package `hyperref' Info: End of reference (link) `figure.caption.16', line 256.
+Package `hyperref' Info: End of reference (cite) `cite.gatti101', line 242.
+Package `hyperref' Info: End of reference (cite) `cite.gatti101', line 242.
+Package `hyperref' Info: End of reference (cite) `cite.pullia104', line 242.
+Package `hyperref' Info: End of reference (cite) `cite.pullia104', line 242.
+Package `hyperref' Info: End of reference (link) `figure.caption.17', line 256.
+
+Package `hyperref' Info: End of reference (link) `figure.caption.17', line 256.
 
  <./Figures/optimum_tau-eps-converted-to.pdf>]
-Package hyperref Info: Anchor `figure.caption.16' on input line 258.
+Package hyperref Info: Anchor `figure.caption.17' on input line 258.
 Package epstopdf Info: Source file: <./Figures/optimum_N.eps>
 (epstopdf)                    date: 2013-09-18 12:53:26
 (epstopdf)                    size: 174534 bytes
@@ -2380,7 +2461,7 @@ nverted-to.pdf ./Figures/optimum_N.eps>
 (epstopdf)             \includegraphics on input line 260.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/optimum_N-eps-converted-to.pdf, id=1021, 475.7775pt x 400.49625pt>
+<./Figures/optimum_N-eps-converted-to.pdf, id=1098, 475.7775pt x 400.49625pt>
 File: ./Figures/optimum_N-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figures/optimum_N-eps-converted-to.pdf>
@@ -2392,7 +2473,7 @@ Package hyperref Info: bookmark on input line 261:
 (hyperref)             text {\protect \numberline {\caption@lstfmt {\@nameuse {
 p@figure}}{\@nameuse {thefigure}}}{\ignorespaces Optimum $\mathit {ENC}^2$ as a
  function of $N$ for $\hat {\tau } = 0.03\,\mu \text {s}$.\relax }}
-(hyperref)             reference {figure.caption.16}
+(hyperref)             reference {figure.caption.17}
 (hyperref)             toclevel {0}
 (hyperref)             type {lof}.
 Package hyperref Info: Anchor `section.3.5' on input line 269.
@@ -2406,10 +2487,10 @@ e }{\@secnumber }{\Sectionformat {Conclusion}{1}}}
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package hyperref Info: Anchor `page.23' on input line 273.
- [23 <./Figures/optimum_wf-eps-converted-to.pdf>])
-Package hyperref Info: Anchor `page.24' on input line 208.
- [24 <./Figures/optimum_N-eps-converted-to.pdf>]
+Package hyperref Info: Anchor `page.25' on input line 273.
+ [25 <./Figures/optimum_wf-eps-converted-to.pdf>])
+Package hyperref Info: Anchor `page.26' on input line 208.
+ [26 <./Figures/optimum_N-eps-converted-to.pdf>]
 \openout2 = `./text/filter.aux'.
 
  (./text/filter.tex
@@ -2441,6 +2522,8 @@ e }{\@secnumber }{\Sectionformat {Introduction}{1}}}
 (hyperref)             reference {section.4.1}
 (hyperref)             toclevel {1}
 (hyperref)             type {toc}.
+Package hyperref Info: Reference (cite) `cite.avila101' on input line 9.
+Package hyperref Info: Reference (cite) `cite.avila101' on input line 9.
 Package hyperref Info: Reference (link) `chapter.2' on input line 9.
 Package hyperref Info: Anchor `section.4.2' on input line 14.
 Package hyperref Info: bookmark on input line 14:
@@ -2450,24 +2533,28 @@ e }{\@secnumber }{\Sectionformat {System-Level Design}{1}}}
 (hyperref)             reference {section.4.2}
 (hyperref)             toclevel {1}
 (hyperref)             type {toc}.
-Package hyperref Info: Anchor `equation.4.2.1' on input line 17.
-Package hyperref Info: Anchor `equation.4.2.1' on input line 17.
-Package hyperref Info: Anchor `equation.4.2.1' on input line 17.
-Package hyperref Info: Anchor `equation.4.2.1' on input line 17.
-Package hyperref Info: Reference (link) `figure.caption.17' on input line 20.
+Package hyperref Info: Anchor `equation.4.2.1' on input line 16.
+Package hyperref Info: Anchor `equation.4.2.1' on input line 16.
+Package hyperref Info: Anchor `equation.4.2.1' on input line 16.
+Package hyperref Info: Anchor `equation.4.2.1' on input line 16.
+Package hyperref Info: Reference (link) `figure.caption.18' on input line 19.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package hyperref Info: Anchor `page.25' on input line 22.
- [25
+Package hyperref Info: Anchor `page.27' on input line 21.
+ [27
 
 
 
 
 
+Package `hyperref' Info: End of reference (cite) `cite.avila101', line 9.
+Package `hyperref' Info: End of reference (cite) `cite.avila101', line 9.
 Package `hyperref' Info: End of reference (link) `chapter.2', line 9.
 ]
-Package hyperref Info: Anchor `figure.caption.17' on input line 25.
+Package hyperref Info: Reference (cite) `cite.haigh101' on input line 21.
+Package hyperref Info: Reference (cite) `cite.haigh101' on input line 21.
+Package hyperref Info: Anchor `figure.caption.18' on input line 26.
 Package epstopdf Info: Source file: <./Figures/Filter/filter_post.eps>
 (epstopdf)                    date: 2014-05-15 13:35:35
 (epstopdf)                    size: 721714 bytes
@@ -2477,106 +2564,59 @@ Package epstopdf Info: Source file: <./Figures/Filter/filter_post.eps>
 (epstopdf)                    size: 82826 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/Filter/filter_po
 st-eps-converted-to.pdf ./Figures/Filter/filter_post.eps>
-(epstopdf)             \includegraphics on input line 27.
+(epstopdf)             \includegraphics on input line 28.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/Filter/filter_post-eps-converted-to.pdf, id=1068, 471.7625pt x 204.7
+<./Figures/Filter/filter_post-eps-converted-to.pdf, id=1150, 471.7625pt x 204.7
 65pt>
 File: ./Figures/Filter/filter_post-eps-converted-to.pdf Graphic file (type pdf)
 
  <use ./Figures/Filter/filter_post-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/Filter/filter_post-eps-converted-to.pdf used
- on input line 27.
+ on input line 28.
 (pdftex.def)             Requested size: 433.62pt x 188.21109pt.
 
-Overfull \hbox (4.26434pt too wide) in paragraph at lines 27--28
+Overfull \hbox (4.26434pt too wide) in paragraph at lines 28--29
  [][] 
  []
 
-Package hyperref Info: bookmark on input line 28:
+Package hyperref Info: bookmark on input line 29:
 (hyperref)             thecounter {4.1}
 (hyperref)             text {\protect \numberline {\caption@lstfmt {\@nameuse {
 p@figure}}{\@nameuse {thefigure}}}{\ignorespaces Simplified filter schematic. R
 eset switches are depicted in gray.\relax }}
-(hyperref)             reference {figure.caption.17}
+(hyperref)             reference {figure.caption.18}
 (hyperref)             toclevel {0}
 (hyperref)             type {lof}.
-Package hyperref Info: Anchor `subsection.4.2.1' on input line 31.
-Package hyperref Info: bookmark on input line 31:
+Package hyperref Info: Anchor `subsection.4.2.1' on input line 32.
+Package hyperref Info: bookmark on input line 32:
 (hyperref)             thecounter {4.2.1}
 (hyperref)             text {\protect \tocsubsection {\csname subsectionname\en
 dcsname }{\@secnumber }{\Sectionformat {Filter Specifications}{2}}}
 (hyperref)             reference {subsection.4.2.1}
 (hyperref)             toclevel {2}
 (hyperref)             type {toc}.
-Package hyperref Info: Reference (link) `table.caption.18' on input line 33.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-Package hyperref Info: Anchor `page.26' on input line 34.
- [26
-Package `hyperref' Info: End of reference (link) `figure.caption.17', line 20.
-Package `hyperref' Info: End of reference (link) `table.caption.18', line 33.
- <./Figures/Filter/filter_post-eps-converted-to.pdf>]
-Package hyperref Info: Anchor `table.caption.18' on input line 35.
-Package hyperref Info: bookmark on input line 49:
+Package hyperref Info: Reference (link) `table.caption.19' on input line 34.
+Package hyperref Info: Reference (link) `table.caption.7' on input line 34.
+Package hyperref Info: Anchor `table.caption.19' on input line 36.
+Package hyperref Info: bookmark on input line 50:
 (hyperref)             thecounter {4.1}
 (hyperref)             text {\protect \numberline {\caption@lstfmt {\@nameuse {
 p@table}}{\@nameuse {thetable}}}{\ignorespaces Filter specifications summary.\r
 elax }}
-(hyperref)             reference {table.caption.18}
+(hyperref)             reference {table.caption.19}
 (hyperref)             toclevel {0}
 (hyperref)             type {lot}.
-Package hyperref Info: Anchor `section.4.3' on input line 95.
-Package hyperref Info: bookmark on input line 95:
+Package hyperref Info: Anchor `section.4.3' on input line 96.
+Package hyperref Info: bookmark on input line 96:
 (hyperref)             thecounter {4.3}
 (hyperref)             text {\protect \tocsection {\csname sectionname\endcsnam
 e }{\@secnumber }{\Sectionformat {Circuit Design}{1}}}
 (hyperref)             reference {section.4.3}
 (hyperref)             toclevel {1}
 (hyperref)             type {toc}.
-Package hyperref Info: Reference (cite) `cite.assaad101' on input line 96.
-Package hyperref Info: Reference (cite) `cite.assaad101' on input line 96.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-Package hyperref Info: Anchor `page.27' on input line 103.
- [27
-Package `hyperref' Info: End of reference (cite) `cite.assaad101', line 96.
-Package `hyperref' Info: End of reference (cite) `cite.assaad101', line 96.
-]
-Package hyperref Info: Anchor `equation.4.3.2' on input line 103.
-Package hyperref Info: Anchor `equation.4.3.2' on input line 103.
-Package hyperref Info: Anchor `equation.4.3.2' on input line 103.
-Package hyperref Info: Anchor `equation.4.3.2' on input line 103.
-Package hyperref Info: Reference (cite) `cite.vleugels101' on input line 106.
-Package hyperref Info: Reference (cite) `cite.vleugels101' on input line 106.
-Package hyperref Info: Anchor `equation.4.3.3' on input line 107.
-Package hyperref Info: Anchor `equation.4.3.3' on input line 107.
-Package hyperref Info: Anchor `equation.4.3.3' on input line 107.
-Package hyperref Info: Anchor `equation.4.3.3' on input line 107.
-Package hyperref Info: Anchor `equation.4.3.4' on input line 111.
-Package hyperref Info: Anchor `equation.4.3.4' on input line 111.
-Package hyperref Info: Anchor `equation.4.3.4' on input line 111.
-Package hyperref Info: Anchor `equation.4.3.4' on input line 111.
-Package hyperref Info: Anchor `equation.4.3.5' on input line 115.
-Package hyperref Info: Anchor `equation.4.3.5' on input line 115.
-Package hyperref Info: Anchor `equation.4.3.5' on input line 115.
-Package hyperref Info: Anchor `equation.4.3.5' on input line 115.
-Package hyperref Info: Anchor `equation.4.3.6' on input line 119.
-Package hyperref Info: Anchor `equation.4.3.6' on input line 119.
-Package hyperref Info: Anchor `equation.4.3.6' on input line 119.
-Package hyperref Info: Anchor `equation.4.3.6' on input line 119.
-Package hyperref Info: Anchor `equation.4.3.7' on input line 123.
-Package hyperref Info: Anchor `equation.4.3.7' on input line 123.
-Package hyperref Info: Anchor `equation.4.3.7' on input line 123.
-Package hyperref Info: Anchor `equation.4.3.7' on input line 123.
-Package hyperref Info: Anchor `equation.4.3.8' on input line 127.
-Package hyperref Info: Anchor `equation.4.3.8' on input line 127.
-Package hyperref Info: Anchor `equation.4.3.8' on input line 127.
-Package hyperref Info: Anchor `equation.4.3.8' on input line 127.
-Package hyperref Info: Anchor `subsection.4.3.1' on input line 131.
-Package hyperref Info: bookmark on input line 131:
+Package hyperref Info: Anchor `subsection.4.3.1' on input line 97.
+Package hyperref Info: bookmark on input line 97:
 (hyperref)             thecounter {4.3.1}
 (hyperref)             text {\protect \tocsubsection {\csname subsectionname\en
 dcsname }{\@secnumber }{\Sectionformat {Operational Transconductance Amplifier}
@@ -2584,27 +2624,102 @@ dcsname }{\@secnumber }{\Sectionformat {Operational Transconductance Amplifier}
 (hyperref)             reference {subsection.4.3.1}
 (hyperref)             toclevel {2}
 (hyperref)             type {toc}.
-Package hyperref Info: Reference (cite) `cite.assaad101' on input line 132.
-Package hyperref Info: Reference (cite) `cite.assaad101' on input line 132.
-Package hyperref Info: Reference (link) `figure.caption.19' on input line 132.
+Package hyperref Info: Reference (cite) `cite.assaad101' on input line 98.
+Package hyperref Info: Reference (cite) `cite.assaad101' on input line 98.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package hyperref Info: Anchor `page.28' on input line 133.
+Package hyperref Info: Anchor `page.28' on input line 99.
  [28
-Package `hyperref' Info: End of reference (cite) `cite.vleugels101', line 106.
-Package `hyperref' Info: End of reference (cite) `cite.vleugels101', line 106.
-Package `hyperref' Info: End of reference (cite) `cite.assaad101', line 132.
-Package `hyperref' Info: End of reference (cite) `cite.assaad101', line 132.
+Package `hyperref' Info: End of reference (link) `figure.caption.18', line 19.
+Package `hyperref' Info: End of reference (cite) `cite.haigh101', line 21.
+Package `hyperref' Info: End of reference (cite) `cite.haigh101', line 21.
+Package `hyperref' Info: End of reference (link) `table.caption.19', line 34.
+Package `hyperref' Info: End of reference (link) `table.caption.7', line 34.
 ]
-Package hyperref Info: Reference (link) `table.caption.22' on input line 135.
-Package hyperref Info: Reference (cite) `cite.silveira101' on input line 135.
-Package hyperref Info: Reference (cite) `cite.silveira101' on input line 135.
-Package hyperref Info: Reference (cite) `cite.bernardinis101' on input line 135
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package hyperref Info: Anchor `page.29' on input line 99.
+ [29 <./Figures/Filter/filter_post-eps-converted-to.pdf>]
+Package hyperref Info: Reference (cite) `cite.assaad101' on input line 100.
+Package hyperref Info: Reference (cite) `cite.assaad101' on input line 100.
+Package hyperref Info: Reference (link) `figure.caption.20' on input line 100.
+Package hyperref Info: Reference (cite) `cite.rashid101' on input line 102.
+Package hyperref Info: Reference (cite) `cite.rashid101' on input line 102.
+Package hyperref Info: Anchor `equation.4.3.2' on input line 103.
+Package hyperref Info: Anchor `equation.4.3.2' on input line 103.
+Package hyperref Info: Anchor `equation.4.3.2' on input line 103.
+Package hyperref Info: Anchor `equation.4.3.2' on input line 103.
+Package hyperref Info: Anchor `equation.4.3.3' on input line 107.
+Package hyperref Info: Anchor `equation.4.3.3' on input line 107.
+Package hyperref Info: Anchor `equation.4.3.3' on input line 107.
+Package hyperref Info: Anchor `equation.4.3.3' on input line 107.
+Package hyperref Info: Anchor `equation.4.3.4' on input line 112.
+Package hyperref Info: Anchor `equation.4.3.4' on input line 112.
+Package hyperref Info: Anchor `equation.4.3.4' on input line 112.
+Package hyperref Info: Anchor `equation.4.3.4' on input line 112.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package hyperref Info: Anchor `page.30' on input line 114.
+ [30
+Package `hyperref' Info: End of reference (cite) `cite.assaad101', line 98.
+Package `hyperref' Info: End of reference (cite) `cite.assaad101', line 98.
+Package `hyperref' Info: End of reference (cite) `cite.assaad101', line 100.
+Package `hyperref' Info: End of reference (cite) `cite.assaad101', line 100.
+Package `hyperref' Info: End of reference (link) `figure.caption.20', line 100.
+
+Package `hyperref' Info: End of reference (cite) `cite.rashid101', line 102.
+Package `hyperref' Info: End of reference (cite) `cite.rashid101', line 102.
+]
+Package hyperref Info: Anchor `equation.4.3.5' on input line 116.
+Package hyperref Info: Anchor `equation.4.3.5' on input line 116.
+Package hyperref Info: Anchor `equation.4.3.5' on input line 116.
+Package hyperref Info: Anchor `equation.4.3.5' on input line 116.
+Package hyperref Info: Anchor `equation.4.3.6' on input line 120.
+Package hyperref Info: Anchor `equation.4.3.6' on input line 120.
+Package hyperref Info: Anchor `equation.4.3.6' on input line 120.
+Package hyperref Info: Anchor `equation.4.3.6' on input line 120.
+Package hyperref Info: Anchor `equation.4.3.7' on input line 124.
+Package hyperref Info: Anchor `equation.4.3.7' on input line 124.
+Package hyperref Info: Anchor `equation.4.3.7' on input line 124.
+Package hyperref Info: Anchor `equation.4.3.7' on input line 124.
+Package hyperref Info: Anchor `equation.4.3.8' on input line 130.
+Package hyperref Info: Anchor `equation.4.3.8' on input line 130.
+Package hyperref Info: Anchor `equation.4.3.8' on input line 130.
+Package hyperref Info: Anchor `equation.4.3.8' on input line 130.
+Package hyperref Info: Anchor `equation.4.3.9' on input line 135.
+Package hyperref Info: Anchor `equation.4.3.9' on input line 135.
+Package hyperref Info: Anchor `equation.4.3.9' on input line 135.
+Package hyperref Info: Anchor `equation.4.3.9' on input line 135.
+Package hyperref Info: Reference (cite) `cite.vleugels101' on input line 138.
+Package hyperref Info: Reference (cite) `cite.vleugels101' on input line 138.
+Package hyperref Info: Anchor `equation.4.3.10' on input line 139.
+Package hyperref Info: Anchor `equation.4.3.10' on input line 139.
+Package hyperref Info: Anchor `equation.4.3.10' on input line 139.
+Package hyperref Info: Anchor `equation.4.3.10' on input line 139.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package hyperref Info: Anchor `page.31' on input line 141.
+ [31
+Package `hyperref' Info: End of reference (cite) `cite.vleugels101', line 138.
+Package `hyperref' Info: End of reference (cite) `cite.vleugels101', line 138.
+]
+Package hyperref Info: Anchor `equation.4.3.11' on input line 143.
+Package hyperref Info: Anchor `equation.4.3.11' on input line 143.
+Package hyperref Info: Anchor `equation.4.3.11' on input line 143.
+Package hyperref Info: Anchor `equation.4.3.11' on input line 143.
+Package hyperref Info: Reference (link) `table.caption.23' on input line 146.
+Package hyperref Info: Reference (link) `equation.4.3.2' on input line 146.
+Package hyperref Info: Reference (link) `equation.4.3.11' on input line 146.
+Package hyperref Info: Reference (cite) `cite.silveira101' on input line 146.
+Package hyperref Info: Reference (cite) `cite.silveira101' on input line 146.
+Package hyperref Info: Reference (cite) `cite.bernardinis101' on input line 146
 .
-Package hyperref Info: Reference (cite) `cite.bernardinis101' on input line 135
+Package hyperref Info: Reference (cite) `cite.bernardinis101' on input line 146
 .
-Package hyperref Info: Anchor `figure.caption.19' on input line 139.
+Package hyperref Info: Anchor `figure.caption.20' on input line 147.
 Package epstopdf Info: Source file: <./Figures/Filter/OTA_post.eps>
 (epstopdf)                    date: 2014-04-28 17:19:02
 (epstopdf)                    size: 1012170 bytes
@@ -2614,26 +2729,26 @@ Package epstopdf Info: Source file: <./Figures/Filter/OTA_post.eps>
 (epstopdf)                    size: 97158 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/Filter/OTA_post-
 eps-converted-to.pdf ./Figures/Filter/OTA_post.eps>
-(epstopdf)             \includegraphics on input line 141.
+(epstopdf)             \includegraphics on input line 149.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/Filter/OTA_post-eps-converted-to.pdf, id=1157, 417.56pt x 271.0125pt
+<./Figures/Filter/OTA_post-eps-converted-to.pdf, id=1251, 417.56pt x 271.0125pt
 >
 File: ./Figures/Filter/OTA_post-eps-converted-to.pdf Graphic file (type pdf)
  <use ./Figures/Filter/OTA_post-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/Filter/OTA_post-eps-converted-to.pdf used on
- input line 141.
+ input line 149.
 (pdftex.def)             Requested size: 397.48499pt x 257.99799pt.
-Package hyperref Info: bookmark on input line 142:
+Package hyperref Info: bookmark on input line 150:
 (hyperref)             thecounter {4.2}
 (hyperref)             text {\protect \numberline {\caption@lstfmt {\@nameuse {
 p@figure}}{\@nameuse {thefigure}}}{\ignorespaces Recycling folded cascode OTA s
 chematic. Three terminal NMOS and PMOS devices are with their bodies tied to gr
 ound and $V_\textit {DD}$ respectively.\relax }}
-(hyperref)             reference {figure.caption.19}
+(hyperref)             reference {figure.caption.20}
 (hyperref)             toclevel {0}
 (hyperref)             type {lof}.
-Package hyperref Info: Anchor `figure.caption.20' on input line 145.
+Package hyperref Info: Anchor `figure.caption.21' on input line 152.
 Package epstopdf Info: Source file: <./Figures/Filter/CMFB_post.eps>
 (epstopdf)                    date: 2014-04-28 17:19:12
 (epstopdf)                    size: 277854 bytes
@@ -2643,25 +2758,25 @@ o.pdf>
 (epstopdf)                    size: 33090 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/Filter/CMFB_post
 -eps-converted-to.pdf ./Figures/Filter/CMFB_post.eps>
-(epstopdf)             \includegraphics on input line 147.
+(epstopdf)             \includegraphics on input line 154.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/Filter/CMFB_post-eps-converted-to.pdf, id=1158, 410.53375pt x 138.51
+<./Figures/Filter/CMFB_post-eps-converted-to.pdf, id=1252, 410.53375pt x 138.51
 75pt>
 File: ./Figures/Filter/CMFB_post-eps-converted-to.pdf Graphic file (type pdf)
  <use ./Figures/Filter/CMFB_post-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/Filter/CMFB_post-eps-converted-to.pdf used o
-n input line 147.
+n input line 154.
 (pdftex.def)             Requested size: 332.44243pt x 112.16896pt.
-Package hyperref Info: bookmark on input line 148:
+Package hyperref Info: bookmark on input line 155:
 (hyperref)             thecounter {4.3}
 (hyperref)             text {\protect \numberline {\caption@lstfmt {\@nameuse {
 p@figure}}{\@nameuse {thefigure}}}{\ignorespaces OTA discrete-time commmon-mode
  feedback circuit schematic.\relax }}
-(hyperref)             reference {figure.caption.20}
+(hyperref)             reference {figure.caption.21}
 (hyperref)             toclevel {0}
 (hyperref)             type {lof}.
-Package hyperref Info: Anchor `figure.caption.21' on input line 151.
+Package hyperref Info: Anchor `figure.caption.22' on input line 157.
 Package epstopdf Info: Source file: <./Figures/Filter/bias_ota_post.eps>
 (epstopdf)                    date: 2014-04-28 17:19:21
 (epstopdf)                    size: 264250 bytes
@@ -2671,69 +2786,61 @@ ed-to.pdf>
 (epstopdf)                    size: 33722 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/Filter/bias_ota_
 post-eps-converted-to.pdf ./Figures/Filter/bias_ota_post.eps>
-(epstopdf)             \includegraphics on input line 153.
+(epstopdf)             \includegraphics on input line 159.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/Filter/bias_ota_post-eps-converted-to.pdf, id=1159, 299.1175pt x 204
+<./Figures/Filter/bias_ota_post-eps-converted-to.pdf, id=1253, 299.1175pt x 204
 .765pt>
 File: ./Figures/Filter/bias_ota_post-eps-converted-to.pdf Graphic file (type pd
 f)
  <use ./Figures/Filter/bias_ota_post-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/Filter/bias_ota_post-eps-converted-to.pdf us
-ed on input line 153.
+ed on input line 159.
 (pdftex.def)             Requested size: 289.07999pt x 197.90628pt.
-Package hyperref Info: bookmark on input line 154:
+Package hyperref Info: bookmark on input line 160:
 (hyperref)             thecounter {4.4}
 (hyperref)             text {\protect \numberline {\caption@lstfmt {\@nameuse {
 p@figure}}{\@nameuse {thefigure}}}{\ignorespaces OTA bias network schematic.\re
 lax }}
-(hyperref)             reference {figure.caption.21}
+(hyperref)             reference {figure.caption.22}
 (hyperref)             toclevel {0}
 (hyperref)             type {lof}.
-Package hyperref Info: Anchor `table.caption.22' on input line 157.
-Package hyperref Info: bookmark on input line 172:
+Package hyperref Info: Anchor `table.caption.23' on input line 162.
+Package hyperref Info: bookmark on input line 177:
 (hyperref)             thecounter {4.2}
 (hyperref)             text {\protect \numberline {\caption@lstfmt {\@nameuse {
 p@table}}{\@nameuse {thetable}}}{\ignorespaces Filter OTA design values.\relax 
 }}
-(hyperref)             reference {table.caption.22}
+(hyperref)             reference {table.caption.23}
 (hyperref)             toclevel {0}
 (hyperref)             type {lot}.
-Package hyperref Info: Anchor `subsection.4.3.2' on input line 179.
-Package hyperref Info: bookmark on input line 179:
+Package hyperref Info: Anchor `subsection.4.3.2' on input line 182.
+Package hyperref Info: bookmark on input line 182:
 (hyperref)             thecounter {4.3.2}
 (hyperref)             text {\protect \tocsubsection {\csname subsectionname\en
 dcsname }{\@secnumber }{\Sectionformat {Variable Capacitor}{2}}}
 (hyperref)             reference {subsection.4.3.2}
 (hyperref)             toclevel {2}
 (hyperref)             type {toc}.
-Package hyperref Info: Reference (link) `figure.caption.23' on input line 181.
+Package hyperref Info: Reference (link) `figure.caption.24' on input line 183.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package hyperref Info: Anchor `page.29' on input line 182.
- [29
-Package `hyperref' Info: End of reference (link) `figure.caption.19', line 132.
+Package hyperref Info: Anchor `page.32' on input line 184.
+ [32
+Package `hyperref' Info: End of reference (link) `table.caption.23', line 146.
+Package `hyperref' Info: End of reference (link) `equation.4.3.2', line 146.
+Package `hyperref' Info: End of reference (link) `equation.4.3.11', line 146.
+Package `hyperref' Info: End of reference (cite) `cite.silveira101', line 146.
+Package `hyperref' Info: End of reference (cite) `cite.silveira101', line 146.
+Package `hyperref' Info: End of reference (cite) `cite.bernardinis101', line 14
+6.
+Package `hyperref' Info: End of reference (cite) `cite.bernardinis101', line 14
+6.
+Package `hyperref' Info: End of reference (link) `figure.caption.24', line 183.
 
-Package `hyperref' Info: End of reference (link) `table.caption.22', line 135.
-Package `hyperref' Info: End of reference (cite) `cite.silveira101', line 135.
-Package `hyperref' Info: End of reference (cite) `cite.silveira101', line 135.
-Package `hyperref' Info: End of reference (cite) `cite.bernardinis101', line 13
-5.
-Package `hyperref' Info: End of reference (cite) `cite.bernardinis101', line 13
-5.
- <./Figures/Filter/OTA_post-eps-converted-to.pdf>]
-
-LaTeX Warning: Text page 30 contains only floats.
-
-
-Overfull \vbox (7.30501pt too high) has occurred while \output is active []
-
-Package hyperref Info: Anchor `page.30' on input line 182.
-
-[30 <./Figures/Filter/CMFB_post-eps-converted-to.pdf> <./Figures/Filter/bias_ot
-a_post-eps-converted-to.pdf>]
-Package hyperref Info: Anchor `figure.caption.23' on input line 183.
+]
+Package hyperref Info: Anchor `figure.caption.24' on input line 185.
 Package epstopdf Info: Source file: <./Figures/Filter/cap_array_post.eps>
 (epstopdf)                    date: 2014-04-28 17:38:53
 (epstopdf)                    size: 603143 bytes
@@ -2743,70 +2850,71 @@ ted-to.pdf>
 (epstopdf)                    size: 42896 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/Filter/cap_array
 _post-eps-converted-to.pdf ./Figures/Filter/cap_array_post.eps>
-(epstopdf)             \includegraphics on input line 185.
+(epstopdf)             \includegraphics on input line 187.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/Filter/cap_array_post-eps-converted-to.pdf, id=1272, 177.66376pt x 3
+<./Figures/Filter/cap_array_post-eps-converted-to.pdf, id=1264, 177.66376pt x 3
 47.2975pt>
 File: ./Figures/Filter/cap_array_post-eps-converted-to.pdf Graphic file (type p
 df)
  <use ./Figures/Filter/cap_array_post-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/Filter/cap_array_post-eps-converted-to.pdf u
-sed on input line 185.
+sed on input line 187.
 (pdftex.def)             Requested size: 130.08621pt x 254.29877pt.
-Package hyperref Info: bookmark on input line 186:
+Package hyperref Info: bookmark on input line 188:
 (hyperref)             thecounter {4.5}
 (hyperref)             text {\protect \numberline {\caption@lstfmt {\@nameuse {
 p@figure}}{\@nameuse {thefigure}}}{\ignorespaces 6-bit programmable capacitor.\
 relax }}
-(hyperref)             reference {figure.caption.23}
+(hyperref)             reference {figure.caption.24}
 (hyperref)             toclevel {0}
 (hyperref)             type {lof}.
-Package hyperref Info: Anchor `subsection.4.3.3' on input line 189.
-Package hyperref Info: bookmark on input line 189:
+Package hyperref Info: Anchor `subsection.4.3.3' on input line 191.
+Package hyperref Info: bookmark on input line 191:
 (hyperref)             thecounter {4.3.3}
 (hyperref)             text {\protect \tocsubsection {\csname subsectionname\en
 dcsname }{\@secnumber }{\Sectionformat {Rail-to-Rail buffer}{2}}}
 (hyperref)             reference {subsection.4.3.3}
 (hyperref)             toclevel {2}
 (hyperref)             type {toc}.
-Package hyperref Info: Reference (link) `figure.caption.25' on input line 190.
+Package hyperref Info: Reference (link) `figure.caption.26' on input line 192.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package hyperref Info: Anchor `page.31' on input line 192.
- [31
-Package `hyperref' Info: End of reference (link) `figure.caption.23', line 181.
+Package hyperref Info: Anchor `page.33' on input line 193.
+ [33 <./Figures/Filter/OTA_post-eps-converted-to.pdf> <./Figures/Filter/CMFB_po
+st-eps-converted-to.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package `hyperref' Info: End of reference (link) `figure.caption.25', line 190.
+Package hyperref Info: Anchor `page.34' on input line 193.
+ [34 <./Figures/Filter/bias_ota_post-eps-converted-to.pdf> <./Figures/Filter/ca
+p_array_post-eps-converted-to.pdf>]
+Package hyperref Info: Reference (cite) `cite.hogervorst101' on input line 194.
 
- <./Figures/Filter/cap_array_post-eps-converted-to.pdf>]
-Package hyperref Info: Reference (cite) `cite.hogervorst101' on input line 192.
+Package hyperref Info: Reference (cite) `cite.hogervorst101' on input line 194.
 
-Package hyperref Info: Reference (cite) `cite.hogervorst101' on input line 192.
+Package hyperref Info: Reference (cite) `cite.hogervorst102' on input line 194.
 
-Package hyperref Info: Reference (cite) `cite.hogervorst102' on input line 192.
-
-Package hyperref Info: Reference (cite) `cite.hogervorst102' on input line 192.
+Package hyperref Info: Reference (cite) `cite.hogervorst102' on input line 194.
 
 Package hyperref Info: Reference (cite) `cite.analogessentials' on input line 1
-92.
+94.
 Package hyperref Info: Reference (cite) `cite.analogessentials' on input line 1
-92.
-Package hyperref Info: Reference (link) `table.caption.24' on input line 194.
-Package hyperref Info: Reference (link) `figure.caption.26' on input line 198.
+94.
+Package hyperref Info: Reference (link) `figure.caption.27' on input line 198.
 Package hyperref Info: Reference (cite) `cite.baker101' on input line 198.
 Package hyperref Info: Reference (cite) `cite.baker101' on input line 198.
-Package hyperref Info: Anchor `table.caption.24' on input line 201.
+Package hyperref Info: Reference (link) `table.caption.25' on input line 200.
+Package hyperref Info: Anchor `table.caption.25' on input line 201.
 Package hyperref Info: bookmark on input line 217:
 (hyperref)             thecounter {4.3}
 (hyperref)             text {\protect \numberline {\caption@lstfmt {\@nameuse {
 p@table}}{\@nameuse {thetable}}}{\ignorespaces Rail-to-rail buffer main design 
 values.\relax }}
-(hyperref)             reference {table.caption.24}
+(hyperref)             reference {table.caption.25}
 (hyperref)             toclevel {0}
 (hyperref)             type {lot}.
-Package hyperref Info: Anchor `figure.caption.25' on input line 222.
+Package hyperref Info: Anchor `figure.caption.26' on input line 221.
 Package epstopdf Info: Source file: <./Figures/Filter/buffer_post.eps>
 (epstopdf)                    date: 2014-05-08 16:48:36
 (epstopdf)                    size: 1636279 bytes
@@ -2816,31 +2924,31 @@ Package epstopdf Info: Source file: <./Figures/Filter/buffer_post.eps>
 (epstopdf)                    size: 89725 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/Filter/buffer_po
 st-eps-converted-to.pdf ./Figures/Filter/buffer_post.eps>
-(epstopdf)             \includegraphics on input line 224.
+(epstopdf)             \includegraphics on input line 223.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/Filter/buffer_post-eps-converted-to.pdf, id=1321, 545.03625pt x 325.
+<./Figures/Filter/buffer_post-eps-converted-to.pdf, id=1417, 545.03625pt x 325.
 215pt>
 File: ./Figures/Filter/buffer_post-eps-converted-to.pdf Graphic file (type pdf)
 
  <use ./Figures/Filter/buffer_post-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/Filter/buffer_post-eps-converted-to.pdf used
- on input line 224.
+ on input line 223.
 (pdftex.def)             Requested size: 433.62pt x 258.73326pt.
 
-Overfull \hbox (4.26434pt too wide) in paragraph at lines 224--225
+Overfull \hbox (4.26434pt too wide) in paragraph at lines 223--224
  [][] 
  []
 
-Package hyperref Info: bookmark on input line 225:
+Package hyperref Info: bookmark on input line 224:
 (hyperref)             thecounter {4.6}
 (hyperref)             text {\protect \numberline {\caption@lstfmt {\@nameuse {
 p@figure}}{\@nameuse {thefigure}}}{\ignorespaces Rail-to-rail operational ampli
 fier schematic.\relax }}
-(hyperref)             reference {figure.caption.25}
+(hyperref)             reference {figure.caption.26}
 (hyperref)             toclevel {0}
 (hyperref)             type {lof}.
-Package hyperref Info: Anchor `figure.caption.26' on input line 228.
+Package hyperref Info: Anchor `figure.caption.27' on input line 226.
 Package epstopdf Info: Source file: <./Figures/Filter/bias_buffer_post.eps>
 (epstopdf)                    date: 2014-04-28 17:19:54
 (epstopdf)                    size: 448200 bytes
@@ -2850,69 +2958,72 @@ erted-to.pdf>
 (epstopdf)                    size: 51614 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/Filter/bias_buff
 er_post-eps-converted-to.pdf ./Figures/Filter/bias_buffer_post.eps>
-(epstopdf)             \includegraphics on input line 230.
+(epstopdf)             \includegraphics on input line 228.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/Filter/bias_buffer_post-eps-converted-to.pdf, id=1322, 450.68375pt x
+<./Figures/Filter/bias_buffer_post-eps-converted-to.pdf, id=1418, 450.68375pt x
  246.9225pt>
 File: ./Figures/Filter/bias_buffer_post-eps-converted-to.pdf Graphic file (type
  pdf)
  <use ./Figures/Filter/bias_buffer_post-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/Filter/bias_buffer_post-eps-converted-to.pdf
- used on input line 230.
+ used on input line 228.
 (pdftex.def)             Requested size: 361.34999pt x 197.9866pt.
-Package hyperref Info: bookmark on input line 231:
+Package hyperref Info: bookmark on input line 229:
 (hyperref)             thecounter {4.7}
 (hyperref)             text {\protect \numberline {\caption@lstfmt {\@nameuse {
 p@figure}}{\@nameuse {thefigure}}}{\ignorespaces Op-amp bias network schematic.
 \relax }}
-(hyperref)             reference {figure.caption.26}
+(hyperref)             reference {figure.caption.27}
 (hyperref)             toclevel {0}
 (hyperref)             type {lof}.
-Package hyperref Info: Anchor `subsection.4.3.4' on input line 235.
-Package hyperref Info: bookmark on input line 235:
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package hyperref Info: Anchor `page.35' on input line 231.
+ [35
+Package `hyperref' Info: End of reference (link) `figure.caption.26', line 192.
+
+Package `hyperref' Info: End of reference (cite) `cite.hogervorst101', line 194
+.
+Package `hyperref' Info: End of reference (cite) `cite.hogervorst101', line 194
+.
+Package `hyperref' Info: End of reference (cite) `cite.hogervorst102', line 194
+.
+Package `hyperref' Info: End of reference (cite) `cite.hogervorst102', line 194
+.
+Package `hyperref' Info: End of reference (cite) `cite.analogessentials', line 
+194.
+Package `hyperref' Info: End of reference (cite) `cite.analogessentials', line 
+194.
+Package `hyperref' Info: End of reference (link) `figure.caption.27', line 198.
+
+Package `hyperref' Info: End of reference (cite) `cite.baker101', line 198.
+Package `hyperref' Info: End of reference (cite) `cite.baker101', line 198.
+Package `hyperref' Info: End of reference (link) `table.caption.25', line 200.
+]
+Package hyperref Info: Anchor `subsection.4.3.4' on input line 233.
+Package hyperref Info: bookmark on input line 233:
 (hyperref)             thecounter {4.3.4}
 (hyperref)             text {\protect \tocsubsection {\csname subsectionname\en
 dcsname }{\@secnumber }{\Sectionformat {IC bias network}{2}}}
 (hyperref)             reference {subsection.4.3.4}
 (hyperref)             toclevel {2}
 (hyperref)             type {toc}.
-Package hyperref Info: Reference (cite) `cite.murmann101' on input line 236.
-Package hyperref Info: Reference (cite) `cite.murmann101' on input line 236.
-Package hyperref Info: Reference (link) `figure.caption.27' on input line 236.
-Package hyperref Info: Reference (link) `figure.caption.28' on input line 236.
-Package hyperref Info: Reference (cite) `cite.baker101' on input line 236.
-Package hyperref Info: Reference (cite) `cite.baker101' on input line 236.
+Package hyperref Info: Reference (cite) `cite.murmann101' on input line 234.
+Package hyperref Info: Reference (cite) `cite.murmann101' on input line 234.
+Package hyperref Info: Reference (link) `figure.caption.28' on input line 234.
+Package hyperref Info: Reference (link) `figure.caption.29' on input line 234.
+Package hyperref Info: Reference (link) `Hfootnote.3' on input line 234.
+Package hyperref Info: Anchor `Hfootnote.3' on input line 234.
+Package hyperref Info: Reference (cite) `cite.baker101' on input line 234.
+Package hyperref Info: Reference (cite) `cite.baker101' on input line 234.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package hyperref Info: Anchor `page.32' on input line 237.
- [32
-Package `hyperref' Info: End of reference (cite) `cite.hogervorst101', line 192
-.
-Package `hyperref' Info: End of reference (cite) `cite.hogervorst101', line 192
-.
-Package `hyperref' Info: End of reference (cite) `cite.hogervorst102', line 192
-.
-Package `hyperref' Info: End of reference (cite) `cite.hogervorst102', line 192
-.
-Package `hyperref' Info: End of reference (cite) `cite.analogessentials', line 
-192.
-Package `hyperref' Info: End of reference (cite) `cite.analogessentials', line 
-192.
-Package `hyperref' Info: End of reference (link) `table.caption.24', line 194.
-Package `hyperref' Info: End of reference (link) `figure.caption.26', line 198.
-
-Package `hyperref' Info: End of reference (cite) `cite.baker101', line 198.
-Package `hyperref' Info: End of reference (cite) `cite.baker101', line 198.
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-Package hyperref Info: Anchor `page.33' on input line 237.
- [33
-Package `hyperref' Info: End of reference (cite) `cite.murmann101', line 236.
- <./Figures/Filter/buffer_post-eps-converted-to.pdf>]
-Package hyperref Info: Anchor `figure.caption.27' on input line 238.
+Package hyperref Info: Anchor `page.36' on input line 235.
+ [36 <./Figures/Filter/buffer_post-eps-converted-to.pdf>]
+Package hyperref Info: Anchor `figure.caption.28' on input line 236.
 Package epstopdf Info: Source file: <./Figures/Filter/bias_all_post.eps>
 (epstopdf)                    date: 2014-04-28 17:20:01
 (epstopdf)                    size: 274873 bytes
@@ -2922,26 +3033,36 @@ ed-to.pdf>
 (epstopdf)                    size: 31057 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/Filter/bias_all_
 post-eps-converted-to.pdf ./Figures/Filter/bias_all_post.eps>
-(epstopdf)             \includegraphics on input line 240.
+(epstopdf)             \includegraphics on input line 238.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/Filter/bias_all_post-eps-converted-to.pdf, id=1415, 227.85126pt x 18
+<./Figures/Filter/bias_all_post-eps-converted-to.pdf, id=1510, 227.85126pt x 18
 3.68625pt>
 File: ./Figures/Filter/bias_all_post-eps-converted-to.pdf Graphic file (type pd
 f)
  <use ./Figures/Filter/bias_all_post-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/Filter/bias_all_post-eps-converted-to.pdf us
-ed on input line 240.
+ed on input line 238.
 (pdftex.def)             Requested size: 216.81pt x 174.78961pt.
-Package hyperref Info: bookmark on input line 241:
+Package hyperref Info: bookmark on input line 239:
 (hyperref)             thecounter {4.8}
 (hyperref)             text {\protect \numberline {\caption@lstfmt {\@nameuse {
 p@figure}}{\@nameuse {thefigure}}}{\ignorespaces Current distribution bias sche
 me.\relax }}
-(hyperref)             reference {figure.caption.27}
+(hyperref)             reference {figure.caption.28}
 (hyperref)             toclevel {0}
 (hyperref)             type {lof}.
-Package hyperref Info: Anchor `figure.caption.28' on input line 244.
+Package hyperref Info: Anchor `page.37' on input line 240.
+ [37
+Package `hyperref' Info: End of reference (cite) `cite.murmann101', line 234.
+Package `hyperref' Info: End of reference (cite) `cite.murmann101', line 234.
+Package `hyperref' Info: End of reference (link) `figure.caption.28', line 234.
+
+Package `hyperref' Info: End of reference (link) `figure.caption.29', line 234.
+
+Package `hyperref' Info: End of reference (link) `Hfootnote.3', line 234.
+ <./Figures/Filter/bias_buffer_post-eps-converted-to.pdf>]
+Package hyperref Info: Anchor `figure.caption.29' on input line 241.
 Package epstopdf Info: Source file: <./Figures/Filter/bias_filter_post.eps>
 (epstopdf)                    date: 2014-04-28 17:19:40
 (epstopdf)                    size: 293608 bytes
@@ -2951,44 +3072,37 @@ erted-to.pdf>
 (epstopdf)                    size: 48805 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/Filter/bias_filt
 er_post-eps-converted-to.pdf ./Figures/Filter/bias_filter_post.eps>
-(epstopdf)             \includegraphics on input line 246.
+(epstopdf)             \includegraphics on input line 243.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/Filter/bias_filter_post-eps-converted-to.pdf, id=1416, 494.84875pt x
+<./Figures/Filter/bias_filter_post-eps-converted-to.pdf, id=1548, 494.84875pt x
  250.9375pt>
 File: ./Figures/Filter/bias_filter_post-eps-converted-to.pdf Graphic file (type
  pdf)
  <use ./Figures/Filter/bias_filter_post-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/Filter/bias_filter_post-eps-converted-to.pdf
- used on input line 246.
+ used on input line 243.
 (pdftex.def)             Requested size: 433.62pt x 219.88756pt.
 
-Overfull \hbox (4.26434pt too wide) in paragraph at lines 246--247
+Overfull \hbox (4.26434pt too wide) in paragraph at lines 243--244
  [][] 
  []
 
-Package hyperref Info: bookmark on input line 247:
+Package hyperref Info: bookmark on input line 244:
 (hyperref)             thecounter {4.9}
 (hyperref)             text {\protect \numberline {\caption@lstfmt {\@nameuse {
 p@figure}}{\@nameuse {thefigure}}}{\ignorespaces $\beta $-multiplier bias schem
 atic.\relax }}
-(hyperref)             reference {figure.caption.28}
+(hyperref)             reference {figure.caption.29}
 (hyperref)             toclevel {0}
 (hyperref)             type {lof}.
 )
-Package hyperref Info: Anchor `page.34' on input line 210.
- [34
-Package `hyperref' Info: End of reference (cite) `cite.murmann101', line 236.
-Package `hyperref' Info: End of reference (link) `figure.caption.27', line 236.
-
-Package `hyperref' Info: End of reference (link) `figure.caption.28', line 236.
-
-Package `hyperref' Info: End of reference (cite) `cite.baker101', line 236.
-Package `hyperref' Info: End of reference (cite) `cite.baker101', line 236.
- <./Figures/Filter/bias_buffer_post-eps-converted-to.pdf>]
-Package hyperref Info: Anchor `page.35' on input line 210.
- [35 <./Figures/Filter/bias_all_post-eps-converted-to.pdf> <./Figures/Filter/bi
-as_filter_post-eps-converted-to.pdf>]
+Package hyperref Info: Anchor `page.38' on input line 210.
+ [38
+Package `hyperref' Info: End of reference (cite) `cite.baker101', line 234.
+Package `hyperref' Info: End of reference (cite) `cite.baker101', line 234.
+ <./Figures/Filter/bias_all_post-eps-converted-to.pdf> <./Figures/Filter/bias_f
+ilter_post-eps-converted-to.pdf>]
 \openout2 = `./text/results.aux'.
 
  (./text/results.tex
@@ -3011,32 +3125,73 @@ Package hyperref Info: Anchor `section.5.1' on input line 4.
 Package hyperref Info: bookmark on input line 4:
 (hyperref)             thecounter {5.1}
 (hyperref)             text {\protect \tocsection {\csname sectionname\endcsnam
-e }{\@secnumber }{\Sectionformat {The Bean 2 prototype Implementation}{1}}}
+e }{\@secnumber }{\Sectionformat {The Bean V2 prototype Implementation}{1}}}
 (hyperref)             reference {section.5.1}
 (hyperref)             toclevel {1}
 (hyperref)             type {toc}.
-Package hyperref Info: Reference (link) `figure.caption.29' on input line 8.
-Package hyperref Info: Anchor `figure.caption.29' on input line 12.
-<./Figures/IC_layout.pdf, id=1506, 566.115pt x 568.1225pt>
+Package hyperref Info: Reference (link) `Hfootnote.4' on input line 5.
+Package hyperref Info: Anchor `Hfootnote.4' on input line 5.
+Package hyperref Info: Reference (link) `figure.caption.30' on input line 7.
+Package hyperref Info: Reference (link) `figure.caption.31' on input line 9.
+Package hyperref Info: Reference (link) `figure.caption.18' on input line 9.
+Package hyperref Info: Reference (link) `figure.caption.34' on input line 9.
+Package hyperref Info: Reference (link) `figure.caption.32' on input line 9.
+Package hyperref Info: Reference (link) `figure.caption.33' on input line 9.
+
+Underfull \vbox (badness 3568) has occurred while \output is active []
+
+Package hyperref Info: Anchor `page.39' on input line 10.
+ [39
+
+
+
+
+
+Package `hyperref' Info: End of reference (link) `Hfootnote.4', line 5.
+Package `hyperref' Info: End of reference (link) `figure.caption.30', line 7.
+Package `hyperref' Info: End of reference (link) `figure.caption.31', line 9.
+Package `hyperref' Info: End of reference (link) `figure.caption.18', line 9.
+Package `hyperref' Info: End of reference (link) `figure.caption.34', line 9.
+Package `hyperref' Info: End of reference (link) `figure.caption.32', line 9.
+Package `hyperref' Info: End of reference (link) `figure.caption.33', line 9.
+]
+Package hyperref Info: Anchor `figure.caption.30' on input line 14.
+
+<./Figures/IC_layout.pdf, id=1616, 566.115pt x 568.1225pt>
 File: ./Figures/IC_layout.pdf Graphic file (type pdf)
 
 <use ./Figures/IC_layout.pdf>
-Package pdftex.def Info: ./Figures/IC_layout.pdf used on input line 14.
-(pdftex.def)             Requested size: 433.62pt x 435.16708pt.
-
-Overfull \hbox (4.26434pt too wide) in paragraph at lines 14--15
- [][] 
- []
-
-Package hyperref Info: bookmark on input line 15:
+Package pdftex.def Info: ./Figures/IC_layout.pdf used on input line 16.
+(pdftex.def)             Requested size: 361.34999pt x 362.64357pt.
+Package hyperref Info: bookmark on input line 17:
 (hyperref)             thecounter {5.1}
 (hyperref)             text {\protect \numberline {\caption@lstfmt {\@nameuse {
 p@figure}}{\@nameuse {thefigure}}}{\ignorespaces The Bean 2 prototype layout.\r
 elax }}
-(hyperref)             reference {figure.caption.29}
+(hyperref)             reference {figure.caption.30}
 (hyperref)             toclevel {0}
 (hyperref)             type {lof}.
-Package hyperref Info: Anchor `figure.caption.30' on input line 18.
+Package hyperref Info: Anchor `figure.caption.31' on input line 21.
+
+<./Figures/filter_layout.pdf, id=1617, 942.52126pt x 536.0025pt>
+File: ./Figures/filter_layout.pdf Graphic file (type pdf)
+
+<use ./Figures/filter_layout.pdf>
+Package pdftex.def Info: ./Figures/filter_layout.pdf used on input line 23.
+(pdftex.def)             Requested size: 433.62pt x 246.59685pt.
+
+Overfull \hbox (4.26434pt too wide) in paragraph at lines 23--24
+ [][] 
+ []
+
+Package hyperref Info: bookmark on input line 24:
+(hyperref)             thecounter {5.2}
+(hyperref)             text {\protect \numberline {\caption@lstfmt {\@nameuse {
+p@figure}}{\@nameuse {thefigure}}}{\ignorespaces Filter Layout.\relax }}
+(hyperref)             reference {figure.caption.31}
+(hyperref)             toclevel {0}
+(hyperref)             type {lof}.
+Package hyperref Info: Anchor `figure.caption.32' on input line 28.
 Package epstopdf Info: Source file: <./Figures/CSA_layout.eps>
 (epstopdf)                    date: 2014-05-08 17:10:15
 (epstopdf)                    size: 6351021 bytes
@@ -3046,24 +3201,24 @@ Package epstopdf Info: Source file: <./Figures/CSA_layout.eps>
 (epstopdf)                    size: 2342223 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/CSA_layout-eps-c
 onverted-to.pdf ./Figures/CSA_layout.eps>
-(epstopdf)             \includegraphics on input line 20.
+(epstopdf)             \includegraphics on input line 30.
 Package epstopdf Info: Output file is already uptodate.
-<./Figures/CSA_layout-eps-converted-to.pdf, id=1507, 552.0625pt x 501.875pt>
+<./Figures/CSA_layout-eps-converted-to.pdf, id=1618, 552.0625pt x 501.875pt>
 File: ./Figures/CSA_layout-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figures/CSA_layout-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/CSA_layout-eps-converted-to.pdf used on inpu
-t line 20.
+t line 30.
 (pdftex.def)             Requested size: 289.07999pt x 262.80675pt.
-Package hyperref Info: bookmark on input line 21:
-(hyperref)             thecounter {5.2}
+Package hyperref Info: bookmark on input line 31:
+(hyperref)             thecounter {5.3}
 (hyperref)             text {\protect \numberline {\caption@lstfmt {\@nameuse {
 p@figure}}{\@nameuse {thefigure}}}{\ignorespaces Charge-sensitive amplifier lay
 out.\relax }}
-(hyperref)             reference {figure.caption.30}
+(hyperref)             reference {figure.caption.32}
 (hyperref)             toclevel {0}
 (hyperref)             type {lof}.
-Package hyperref Info: Anchor `figure.caption.31' on input line 24.
+Package hyperref Info: Anchor `figure.caption.33' on input line 34.
 Package epstopdf Info: Source file: <./Figures/OTA_layout.eps>
 (epstopdf)                    date: 2014-05-08 17:10:23
 (epstopdf)                    size: 6481134 bytes
@@ -3073,25 +3228,25 @@ Package epstopdf Info: Source file: <./Figures/OTA_layout.eps>
 (epstopdf)                    size: 2419929 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/OTA_layout-eps-c
 onverted-to.pdf ./Figures/OTA_layout.eps>
-(epstopdf)             \includegraphics on input line 26.
+(epstopdf)             \includegraphics on input line 36.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/OTA_layout-eps-converted-to.pdf, id=1508, 635.37375pt x 503.8825pt>
+<./Figures/OTA_layout-eps-converted-to.pdf, id=1619, 635.37375pt x 503.8825pt>
 File: ./Figures/OTA_layout-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figures/OTA_layout-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/OTA_layout-eps-converted-to.pdf used on inpu
-t line 26.
+t line 36.
 (pdftex.def)             Requested size: 325.215pt x 257.92238pt.
-Package hyperref Info: bookmark on input line 27:
-(hyperref)             thecounter {5.3}
+Package hyperref Info: bookmark on input line 37:
+(hyperref)             thecounter {5.4}
 (hyperref)             text {\protect \numberline {\caption@lstfmt {\@nameuse {
 p@figure}}{\@nameuse {thefigure}}}{\ignorespaces Recycling folded cascode OTA l
 ayout.\relax }}
-(hyperref)             reference {figure.caption.31}
+(hyperref)             reference {figure.caption.33}
 (hyperref)             toclevel {0}
 (hyperref)             type {lof}.
-Package hyperref Info: Anchor `figure.caption.32' on input line 30.
+Package hyperref Info: Anchor `figure.caption.34' on input line 40.
 Package epstopdf Info: Source file: <./Figures/buffer_layout.eps>
 (epstopdf)                    date: 2014-05-08 17:09:44
 (epstopdf)                    size: 7468285 bytes
@@ -3101,53 +3256,155 @@ df>
 (epstopdf)                    size: 3025734 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/buffer_layout-ep
 s-converted-to.pdf ./Figures/buffer_layout.eps>
-(epstopdf)             \includegraphics on input line 32.
+(epstopdf)             \includegraphics on input line 42.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/buffer_layout-eps-converted-to.pdf, id=1509, 704.6325pt x 499.8675pt
+<./Figures/buffer_layout-eps-converted-to.pdf, id=1620, 704.6325pt x 499.8675pt
 >
 File: ./Figures/buffer_layout-eps-converted-to.pdf Graphic file (type pdf)
  <use ./Figures/buffer_layout-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/buffer_layout-eps-converted-to.pdf used on i
-nput line 32.
+nput line 42.
 (pdftex.def)             Requested size: 325.215pt x 230.70457pt.
-Package hyperref Info: bookmark on input line 33:
-(hyperref)             thecounter {5.4}
+Package hyperref Info: bookmark on input line 43:
+(hyperref)             thecounter {5.5}
 (hyperref)             text {\protect \numberline {\caption@lstfmt {\@nameuse {
 p@figure}}{\@nameuse {thefigure}}}{\ignorespaces Rail-to-rail operational ampli
 fier layout.\relax }}
-(hyperref)             reference {figure.caption.32}
+(hyperref)             reference {figure.caption.34}
 (hyperref)             toclevel {0}
 (hyperref)             type {lof}.
-Package hyperref Info: Anchor `figure.caption.33' on input line 36.
-
-<./Figures/filter_layout.pdf, id=1510, 942.52126pt x 536.0025pt>
-File: ./Figures/filter_layout.pdf Graphic file (type pdf)
-
-<use ./Figures/filter_layout.pdf>
-Package pdftex.def Info: ./Figures/filter_layout.pdf used on input line 38.
-(pdftex.def)             Requested size: 433.62pt x 246.59685pt.
-
-Overfull \hbox (4.26434pt too wide) in paragraph at lines 38--39
- [][] 
- []
-
-Package hyperref Info: bookmark on input line 39:
-(hyperref)             thecounter {5.5}
-(hyperref)             text {\protect \numberline {\caption@lstfmt {\@nameuse {
-p@figure}}{\@nameuse {thefigure}}}{\ignorespaces Filter Layout.\relax }}
-(hyperref)             reference {figure.caption.33}
-(hyperref)             toclevel {0}
-(hyperref)             type {lof}.
-Package hyperref Info: Anchor `section.5.2' on input line 44.
-Package hyperref Info: bookmark on input line 44:
+Package hyperref Info: Anchor `section.5.2' on input line 47.
+Package hyperref Info: bookmark on input line 47:
 (hyperref)             thecounter {5.2}
 (hyperref)             text {\protect \tocsection {\csname sectionname\endcsnam
-e }{\@secnumber }{\Sectionformat {Filter simulation results}{1}}}
+e }{\@secnumber }{\Sectionformat {Filter post-layout simulation results}{1}}}
 (hyperref)             reference {section.5.2}
 (hyperref)             toclevel {1}
 (hyperref)             type {toc}.
-Package hyperref Info: Anchor `figure.caption.34' on input line 47.
+Package hyperref Info: Anchor `subsection.5.2.1' on input line 48.
+Package hyperref Info: bookmark on input line 48:
+(hyperref)             thecounter {5.2.1}
+(hyperref)             text {\protect \tocsubsection {\csname subsectionname\en
+dcsname }{\@secnumber }{\Sectionformat {Power dissipation}{2}}}
+(hyperref)             reference {subsection.5.2.1}
+(hyperref)             toclevel {2}
+(hyperref)             type {toc}.
+Package hyperref Info: Reference (link) `table.caption.35' on input line 50.
+Package hyperref Info: Anchor `table.caption.35' on input line 53.
+Package hyperref Info: bookmark on input line 63:
+(hyperref)             thecounter {5.1}
+(hyperref)             text {\protect \numberline {\caption@lstfmt {\@nameuse {
+p@table}}{\@nameuse {thetable}}}{\ignorespaces SC filter simulated current diss
+ipation.\relax }}
+(hyperref)             reference {table.caption.35}
+(hyperref)             toclevel {0}
+(hyperref)             type {lot}.
+Package hyperref Info: Anchor `subsection.5.2.2' on input line 68.
+Package hyperref Info: bookmark on input line 68:
+(hyperref)             thecounter {5.2.2}
+(hyperref)             text {\protect \tocsubsection {\csname subsectionname\en
+dcsname }{\@secnumber }{\Sectionformat {Sub-blocks}{2}}}
+(hyperref)             reference {subsection.5.2.2}
+(hyperref)             toclevel {2}
+(hyperref)             type {toc}.
+Package hyperref Info: Anchor `subsection.5.2.3' on input line 69.
+Package hyperref Info: bookmark on input line 69:
+(hyperref)             thecounter {5.2.3}
+(hyperref)             text {\protect \tocsubsection {\csname subsectionname\en
+dcsname }{\@secnumber }{\Sectionformat {Functionality}{2}}}
+(hyperref)             reference {subsection.5.2.3}
+(hyperref)             toclevel {2}
+(hyperref)             type {toc}.
+Package hyperref Info: Anchor `subsection.5.2.4' on input line 70.
+Package hyperref Info: bookmark on input line 70:
+(hyperref)             thecounter {5.2.4}
+(hyperref)             text {\protect \tocsubsection {\csname subsectionname\en
+dcsname }{\@secnumber }{\Sectionformat {Linearity}{2}}}
+(hyperref)             reference {subsection.5.2.4}
+(hyperref)             toclevel {2}
+(hyperref)             type {toc}.
+Package hyperref Info: Anchor `subsection.5.2.5' on input line 71.
+Package hyperref Info: bookmark on input line 71:
+(hyperref)             thecounter {5.2.5}
+(hyperref)             text {\protect \tocsubsection {\csname subsectionname\en
+dcsname }{\@secnumber }{\Sectionformat {Weighting function}{2}}}
+(hyperref)             reference {subsection.5.2.5}
+(hyperref)             toclevel {2}
+(hyperref)             type {toc}.
+Package hyperref Info: Reference (link) `chapter.3' on input line 72.
+Package hyperref Info: Reference (link) `figure.caption.36' on input line 72.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package hyperref Info: Anchor `page.40' on input line 73.
+ [40
+Package `hyperref' Info: End of reference (link) `table.caption.35', line 50.
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package hyperref Info: Anchor `page.41' on input line 74.
+ [41
+Package `hyperref' Info: End of reference (link) `chapter.3', line 72.
+ <./Figures/IC_layout.pdf>]
+Package hyperref Info: Reference (link) `figure.caption.37' on input line 74.
+Package hyperref Info: Reference (link) `figure.caption.16' on input line 74.
+Package hyperref Info: Anchor `figure.caption.36' on input line 78.
+Package epstopdf Info: Source file: <./Test/wf_test_circuit.eps>
+(epstopdf)                    date: 2014-05-27 11:07:25
+(epstopdf)                    size: 516763 bytes
+(epstopdf)             Output file: <./Test/wf_test_circuit-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2014-05-27 11:07:31
+(epstopdf)                    size: 60164 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Test/wf_test_circuit-eps
+-converted-to.pdf ./Test/wf_test_circuit.eps>
+(epstopdf)             \includegraphics on input line 80.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Test/wf_test_circuit-eps-converted-to.pdf, id=1665, 529.98pt x 146.5475pt>
+File: ./Test/wf_test_circuit-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./Test/wf_test_circuit-eps-converted-to.pdf>
+Package pdftex.def Info: ./Test/wf_test_circuit-eps-converted-to.pdf used on in
+put line 80.
+(pdftex.def)             Requested size: 361.34999pt x 99.9193pt.
+Package hyperref Info: bookmark on input line 81:
+(hyperref)             thecounter {5.6}
+(hyperref)             text {\protect \numberline {\caption@lstfmt {\@nameuse {
+p@figure}}{\@nameuse {thefigure}}}{\ignorespaces Weighting function test circui
+t.\relax }}
+(hyperref)             reference {figure.caption.36}
+(hyperref)             toclevel {0}
+(hyperref)             type {lof}.
+Package hyperref Info: Anchor `figure.caption.37' on input line 84.
+Package epstopdf Info: Source file: <./Test/sim_wf.eps>
+(epstopdf)                    date: 2014-05-08 13:52:21
+(epstopdf)                    size: 63220 bytes
+(epstopdf)             Output file: <./Test/sim_wf-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-05-08 13:54:37
+(epstopdf)                    size: 10070 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Test/sim_wf-eps-converte
+d-to.pdf ./Test/sim_wf.eps>
+(epstopdf)             \includegraphics on input line 86.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Test/sim_wf-eps-converted-to.pdf, id=1666, 462.72874pt x 388.45125pt>
+File: ./Test/sim_wf-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./Test/sim_wf-eps-converted-to.pdf>
+Package pdftex.def Info: ./Test/sim_wf-eps-converted-to.pdf used on input line 
+86.
+(pdftex.def)             Requested size: 260.17244pt x 218.40845pt.
+Package hyperref Info: bookmark on input line 87:
+(hyperref)             thecounter {5.7}
+(hyperref)             text {\protect \numberline {\caption@lstfmt {\@nameuse {
+p@figure}}{\@nameuse {thefigure}}}{\ignorespaces SPICE-simulated weighting func
+tion. $\tau =8\,\text {ns}$, $N=16$ and $T_s=19.25\,\text {ns}$.\relax }}
+(hyperref)             reference {figure.caption.37}
+(hyperref)             toclevel {0}
+(hyperref)             type {lof}.
+Package hyperref Info: Anchor `figure.caption.38' on input line 91.
 Package epstopdf Info: Source file: <./Test/bode_OTA_post.eps>
 (epstopdf)                    date: 2014-05-05 11:11:57
 (epstopdf)                    size: 209814 bytes
@@ -3157,112 +3414,58 @@ Package epstopdf Info: Source file: <./Test/bode_OTA_post.eps>
 (epstopdf)                    size: 27413 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Test/bode_OTA_post-eps-c
 onverted-to.pdf ./Test/bode_OTA_post.eps>
-(epstopdf)             \includegraphics on input line 49.
+(epstopdf)             \includegraphics on input line 93.
 Package epstopdf Info: Output file is already uptodate.
-<./Test/bode_OTA_post-eps-converted-to.pdf, id=1511, 562.1pt x 421.575pt>
+
+<./Test/bode_OTA_post-eps-converted-to.pdf, id=1667, 562.1pt x 421.575pt>
 File: ./Test/bode_OTA_post-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Test/bode_OTA_post-eps-converted-to.pdf>
 Package pdftex.def Info: ./Test/bode_OTA_post-eps-converted-to.pdf used on inpu
-t line 49.
+t line 93.
 (pdftex.def)             Requested size: 383.03122pt x 287.27187pt.
-Package hyperref Info: bookmark on input line 50:
-(hyperref)             thecounter {5.6}
+Package hyperref Info: bookmark on input line 94:
+(hyperref)             thecounter {5.8}
 (hyperref)             text {\protect \numberline {\caption@lstfmt {\@nameuse {
 p@figure}}{\@nameuse {thefigure}}}{\ignorespaces Bode plot for the OTA open-loo
 p response.\relax }}
-(hyperref)             reference {figure.caption.34}
+(hyperref)             reference {figure.caption.38}
 (hyperref)             toclevel {0}
 (hyperref)             type {lof}.
-Package hyperref Info: Anchor `figure.caption.35' on input line 53.
-Package epstopdf Info: Source file: <./Test/wf_test_circuit.eps>
-(epstopdf)                    date: 2014-05-08 17:55:25
-(epstopdf)                    size: 548535 bytes
-(epstopdf)             Output file: <./Test/wf_test_circuit-eps-converted-to.pd
-f>
-(epstopdf)                    date: 2014-05-08 17:56:18
-(epstopdf)                    size: 64281 bytes
-(epstopdf)             Command: <repstopdf --outfile=./Test/wf_test_circuit-eps
--converted-to.pdf ./Test/wf_test_circuit.eps>
-(epstopdf)             \includegraphics on input line 55.
-Package epstopdf Info: Output file is already uptodate.
+Package hyperref Info: Anchor `figure.caption.39' on input line 98.
 
-<./Test/wf_test_circuit-eps-converted-to.pdf, id=1512, 529.98pt x 146.5475pt>
-File: ./Test/wf_test_circuit-eps-converted-to.pdf Graphic file (type pdf)
-
-<use ./Test/wf_test_circuit-eps-converted-to.pdf>
-Package pdftex.def Info: ./Test/wf_test_circuit-eps-converted-to.pdf used on in
-put line 55.
-(pdftex.def)             Requested size: 361.34999pt x 99.9193pt.
-Package hyperref Info: bookmark on input line 56:
-(hyperref)             thecounter {5.7}
-(hyperref)             text {\protect \numberline {\caption@lstfmt {\@nameuse {
-p@figure}}{\@nameuse {thefigure}}}{\ignorespaces Weighting function test circui
-t.\relax }}
-(hyperref)             reference {figure.caption.35}
-(hyperref)             toclevel {0}
-(hyperref)             type {lof}.
-Package hyperref Info: Anchor `figure.caption.36' on input line 59.
-Package epstopdf Info: Source file: <./Test/sim_wf.eps>
-(epstopdf)                    date: 2014-05-08 13:52:21
-(epstopdf)                    size: 63220 bytes
-(epstopdf)             Output file: <./Test/sim_wf-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-05-08 13:54:37
-(epstopdf)                    size: 10070 bytes
-(epstopdf)             Command: <repstopdf --outfile=./Test/sim_wf-eps-converte
-d-to.pdf ./Test/sim_wf.eps>
-(epstopdf)             \includegraphics on input line 61.
-Package epstopdf Info: Output file is already uptodate.
-
-<./Test/sim_wf-eps-converted-to.pdf, id=1513, 462.72874pt x 388.45125pt>
-File: ./Test/sim_wf-eps-converted-to.pdf Graphic file (type pdf)
-
-<use ./Test/sim_wf-eps-converted-to.pdf>
-Package pdftex.def Info: ./Test/sim_wf-eps-converted-to.pdf used on input line 
-61.
-(pdftex.def)             Requested size: 260.17244pt x 218.40845pt.
-Package hyperref Info: bookmark on input line 62:
-(hyperref)             thecounter {5.8}
-(hyperref)             text {\protect \numberline {\caption@lstfmt {\@nameuse {
-p@figure}}{\@nameuse {thefigure}}}{\ignorespaces SPICE-simulated weighting func
-tion. $\tau =8\,\text {ns}$, $N=16$ and $T_s=19.25\,\text {ns}$.\relax }}
-(hyperref)             reference {figure.caption.36}
-(hyperref)             toclevel {0}
-(hyperref)             type {lof}.
-Package hyperref Info: Anchor `figure.caption.37' on input line 66.
-
-<./Test/gain_curves.pdf, id=1514, 562.1pt x 421.575pt>
+<./Test/gain_curves.pdf, id=1668, 562.1pt x 421.575pt>
 File: ./Test/gain_curves.pdf Graphic file (type pdf)
 
 <use ./Test/gain_curves.pdf>
-Package pdftex.def Info: ./Test/gain_curves.pdf used on input line 68.
+Package pdftex.def Info: ./Test/gain_curves.pdf used on input line 100.
 (pdftex.def)             Requested size: 317.98755pt x 238.49265pt.
-Package hyperref Info: bookmark on input line 69:
+Package hyperref Info: bookmark on input line 101:
 (hyperref)             thecounter {5.9}
 (hyperref)             text {\protect \numberline {\caption@lstfmt {\@nameuse {
 p@figure}}{\@nameuse {thefigure}}}{\ignorespaces Filter output step response wi
 th the 64 programmable gains. \mbox {$V_\textit {in}=0.1\,V$} and \mbox {$T_s=4
 0\,\text {ns}$}.\relax }}
-(hyperref)             reference {figure.caption.37}
+(hyperref)             reference {figure.caption.39}
 (hyperref)             toclevel {0}
 (hyperref)             type {lof}.
-Package hyperref Info: Anchor `figure.caption.38' on input line 72.
+Package hyperref Info: Anchor `figure.caption.40' on input line 104.
 
-<./Test/linearity.pdf, id=1515, 562.1pt x 421.575pt>
+<./Test/linearity.pdf, id=1669, 562.1pt x 421.575pt>
 File: ./Test/linearity.pdf Graphic file (type pdf)
 
 <use ./Test/linearity.pdf>
-Package pdftex.def Info: ./Test/linearity.pdf used on input line 74.
+Package pdftex.def Info: ./Test/linearity.pdf used on input line 106.
 (pdftex.def)             Requested size: 317.98755pt x 238.49265pt.
-Package hyperref Info: bookmark on input line 75:
+Package hyperref Info: bookmark on input line 107:
 (hyperref)             thecounter {5.10}
 (hyperref)             text {\protect \numberline {\caption@lstfmt {\@nameuse {
 p@figure}}{\@nameuse {thefigure}}}{\ignorespaces Filter linearity test results,
  full-scale input range.\relax }}
-(hyperref)             reference {figure.caption.38}
+(hyperref)             reference {figure.caption.40}
 (hyperref)             toclevel {0}
 (hyperref)             type {lof}.
-Package hyperref Info: Anchor `figure.caption.39' on input line 78.
+Package hyperref Info: Anchor `figure.caption.41' on input line 111.
 Package epstopdf Info: Source file: <./Test/test_filter_after_omni.eps>
 (epstopdf)                    date: 2014-04-28 13:59:24
 (epstopdf)                    size: 151780 bytes
@@ -3272,69 +3475,63 @@ d-to.pdf>
 (epstopdf)                    size: 26059 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Test/test_filter_after_o
 mni-eps-converted-to.pdf ./Test/test_filter_after_omni.eps>
-(epstopdf)             \includegraphics on input line 80.
+(epstopdf)             \includegraphics on input line 113.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Test/test_filter_after_omni-eps-converted-to.pdf, id=1516, 562.1pt x 460.721
+<./Test/test_filter_after_omni-eps-converted-to.pdf, id=1670, 562.1pt x 460.721
 25pt>
 File: ./Test/test_filter_after_omni-eps-converted-to.pdf Graphic file (type pdf
 )
  <use ./Test/test_filter_after_omni-eps-converted-to.pdf>
 Package pdftex.def Info: ./Test/test_filter_after_omni-eps-converted-to.pdf use
-d on input line 80.
+d on input line 113.
 (pdftex.def)             Requested size: 361.34999pt x 296.1752pt.
-Package hyperref Info: bookmark on input line 81:
+Package hyperref Info: bookmark on input line 114:
 (hyperref)             thecounter {5.11}
 (hyperref)             text {\protect \numberline {\caption@lstfmt {\@nameuse {
 p@figure}}{\@nameuse {thefigure}}}{\ignorespaces Filter control signals testing
 . $V_\textit {in}=0.1\,V$ and $\text {gain}=0.25\,V/V$.\relax }}
-(hyperref)             reference {figure.caption.39}
+(hyperref)             reference {figure.caption.41}
 (hyperref)             toclevel {0}
 (hyperref)             type {lof}.
-Package hyperref Info: Anchor `figure.caption.40' on input line 84.
+Package hyperref Info: Anchor `figure.caption.42' on input line 120.
 
-<./Test/bode_buffer_post.pdf, id=1517, 563.10374pt x 422.57875pt>
+<./Test/bode_buffer_post.pdf, id=1671, 563.10374pt x 422.57875pt>
 File: ./Test/bode_buffer_post.pdf Graphic file (type pdf)
 
 <use ./Test/bode_buffer_post.pdf>
-Package pdftex.def Info: ./Test/bode_buffer_post.pdf used on input line 86.
+Package pdftex.def Info: ./Test/bode_buffer_post.pdf used on input line 122.
 (pdftex.def)             Requested size: 383.03122pt x 287.44646pt.
-Package hyperref Info: bookmark on input line 87:
+Package hyperref Info: bookmark on input line 123:
 (hyperref)             thecounter {5.12}
 (hyperref)             text {\protect \numberline {\caption@lstfmt {\@nameuse {
 p@figure}}{\@nameuse {thefigure}}}{\ignorespaces Bode plot for the buffer open-
 loop response.\relax }}
-(hyperref)             reference {figure.caption.40}
+(hyperref)             reference {figure.caption.42}
 (hyperref)             toclevel {0}
 (hyperref)             type {lof}.
 )
-Package hyperref Info: Anchor `page.36' on input line 212.
- [36
-
-
-
-
-
-Package `hyperref' Info: End of reference (link) `figure.caption.29', line 8.
-]
-Package hyperref Info: Anchor `page.37' on input line 212.
- [37 <./Figures/IC_layout.pdf>]
-Package hyperref Info: Anchor `page.38' on input line 212.
- [38 <./Figures/CSA_layout-eps-converted-to.pdf> <./Figures/OTA_layout-eps-conv
-erted-to.pdf>]
-Package hyperref Info: Anchor `page.39' on input line 212.
- [39 <./Figures/buffer_layout-eps-converted-to.pdf> <./Figures/filter_layout.pd
-f>]
-Package hyperref Info: Anchor `page.40' on input line 212.
- [40 <./Test/bode_OTA_post-eps-converted-to.pdf> <./Test/wf_test_circuit-eps-co
-nverted-to.pdf>]
-Package hyperref Info: Anchor `page.41' on input line 212.
- [41 <./Test/sim_wf-eps-converted-to.pdf> <./Test/gain_curves.pdf>]
 Package hyperref Info: Anchor `page.42' on input line 212.
- [42 <./Test/linearity.pdf> <./Test/test_filter_after_omni-eps-converted-to.pdf
->]
+ [42
+Package `hyperref' Info: End of reference (link) `figure.caption.36', line 72.
+Package `hyperref' Info: End of reference (link) `figure.caption.37', line 74.
+Package `hyperref' Info: End of reference (link) `figure.caption.16', line 74.
+ <./Figures/filter_layout.pdf>]
 Package hyperref Info: Anchor `page.43' on input line 212.
- [43 <./Test/bode_buffer_post.pdf>]
+ [43 <./Figures/CSA_layout-eps-converted-to.pdf> <./Figures/OTA_layout-eps-conv
+erted-to.pdf>]
+Package hyperref Info: Anchor `page.44' on input line 212.
+ [44 <./Figures/buffer_layout-eps-converted-to.pdf> <./Test/wf_test_circuit-eps
+-converted-to.pdf>]
+Package hyperref Info: Anchor `page.45' on input line 212.
+ [45 <./Test/sim_wf-eps-converted-to.pdf> <./Test/bode_OTA_post-eps-converted-t
+o.pdf>]
+Package hyperref Info: Anchor `page.46' on input line 212.
+ [46 <./Test/gain_curves.pdf> <./Test/linearity.pdf>]
+Package hyperref Info: Anchor `page.47' on input line 212.
+ [47 <./Test/test_filter_after_omni-eps-converted-to.pdf>]
+Package hyperref Info: Anchor `page.48' on input line 212.
+ [48 <./Test/bode_buffer_post.pdf>]
 \openout2 = `./text/conclusion.aux'.
 
  (./text/conclusion.tex
@@ -3361,8 +3558,8 @@ e }{\@secnumber }{\Sectionformat {Summary}{1}}}
 (hyperref)             reference {section.6.1}
 (hyperref)             toclevel {1}
 (hyperref)             type {toc}.
-Package hyperref Info: Anchor `section.6.2' on input line 16.
-Package hyperref Info: bookmark on input line 16:
+Package hyperref Info: Anchor `section.6.2' on input line 13.
+Package hyperref Info: bookmark on input line 13:
 (hyperref)             thecounter {6.2}
 (hyperref)             text {\protect \tocsection {\csname sectionname\endcsnam
 e }{\@secnumber }{\Sectionformat {Future work}{1}}}
@@ -3370,8 +3567,8 @@ e }{\@secnumber }{\Sectionformat {Future work}{1}}}
 (hyperref)             toclevel {1}
 (hyperref)             type {toc}.
 )
-Package hyperref Info: Anchor `page.44' on input line 214.
- [44
+Package hyperref Info: Anchor `page.49' on input line 214.
+ [49
 
 
 
@@ -3384,8 +3581,8 @@ Package hyperref Info: bookmark on input line 228:
 (hyperref)             reference {section.6.2}
 (hyperref)             toclevel {0}
 (hyperref)             type {toc}.
-Package hyperref Info: Anchor `page.45' on input line 232.
- [45
+Package hyperref Info: Anchor `page.50' on input line 232.
+ [50
 
 
 
@@ -3408,7 +3605,7 @@ Overfull \hbox (9.53278pt too wide) in paragraph at lines 1--1
 \OT1/ptm/b/n/14.4 A.[] 
  []
 
-Package hyperref Info: Reference (link) `figure.caption.41' on input line 3.
+Package hyperref Info: Reference (link) `figure.caption.43' on input line 3.
 Package hyperref Info: Reference (link) `table.A.1' on input line 4.
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 9.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1pcr.fd
@@ -3418,14 +3615,14 @@ Underfull \vbox (badness 10000) detected at line 27
  []
 
 Package hyperref Info: Anchor `table.A.1' on input line 27.
-Package hyperref Info: Anchor `page.46' on input line 67.
-[46
+Package hyperref Info: Anchor `page.51' on input line 67.
+[51
 
 
 
 
 
-Package `hyperref' Info: End of reference (link) `figure.caption.41', line 3.
+Package `hyperref' Info: End of reference (link) `figure.caption.43', line 3.
 Package `hyperref' Info: End of reference (link) `table.A.1', line 4.
 ]
 Package hyperref Info: bookmark on input line 75:
@@ -3435,10 +3632,10 @@ p@table}}{\@nameuse {thetable}}}{\ignorespaces The Bean 2 prototype pinout}}
 (hyperref)             reference {table.A.1}
 (hyperref)             toclevel {0}
 (hyperref)             type {lot}.
-Package hyperref Info: Anchor `page.47' on input line 76.
- [47]
-Package hyperref Info: Anchor `figure.caption.41' on input line 79.
- <./Figures/bondpad.pdf, id=1881, 537.00626pt x 531.9875pt>
+Package hyperref Info: Anchor `page.52' on input line 76.
+ [52]
+Package hyperref Info: Anchor `figure.caption.43' on input line 79.
+ <./Figures/bondpad.pdf, id=1999, 537.00626pt x 531.9875pt>
 File: ./Figures/bondpad.pdf Graphic file (type pdf)
 
 <use ./Figures/bondpad.pdf>
@@ -3454,15 +3651,15 @@ Package hyperref Info: bookmark on input line 82:
 (hyperref)             text {\protect \numberline {\caption@lstfmt {\@nameuse {
 p@figure}}{\@nameuse {thefigure}}}{\ignorespaces The Bean 2 prototype bonding d
 iagram.\relax }}
-(hyperref)             reference {figure.caption.41}
+(hyperref)             reference {figure.caption.43}
 (hyperref)             toclevel {0}
 (hyperref)             type {lof}.
 )
-Package hyperref Info: Anchor `page.48' on input line 235.
- [48]
-Package hyperref Info: Anchor `page.49' on input line 235.
- [49 <./Figures/bondpad.pdf>] (./Thesis.bbl
-Package hyperref Info: Anchor `appendix*.42' on input line 1.
+Package hyperref Info: Anchor `page.53' on input line 235.
+ [53]
+Package hyperref Info: Anchor `page.54' on input line 235.
+ [54 <./Figures/bondpad.pdf>] (./Thesis.bbl
+Package hyperref Info: Anchor `appendix*.44' on input line 1.
 Package hyperref Info: Anchor `chapter*.7' on input line 1.
 
 References
@@ -3485,8 +3682,8 @@ Package hyperref Info: Anchor `cite.bernardinis101' on input line 237.
 
 Underfull \vbox (badness 2828) has occurred while \output is active []
 
-Package hyperref Info: Anchor `page.50' on input line 266.
- [50
+Package hyperref Info: Anchor `page.55' on input line 266.
+ [55
 
 
 
@@ -3502,9 +3699,9 @@ Package hyperref Info: Anchor `cite.fiorini101' on input line 397.
 Package hyperref Info: Anchor `cite.gadomski101' on input line 423.
 Package hyperref Info: Anchor `cite.gatti102' on input line 455.
 Package hyperref Info: Anchor `cite.gatti101' on input line 483.
-Package hyperref Info: Anchor `page.51' on input line 510.
+Package hyperref Info: Anchor `page.56' on input line 510.
 
-[51
+[56
 Package `hyperref' Info: End of reference (link) `table.A.1', line 4.
 ]
 Package hyperref Info: Anchor `cite.gatti103' on input line 510.
@@ -3513,53 +3710,53 @@ Package hyperref Info: Anchor `cite.geraci101' on input line 569.
 Package hyperref Info: Anchor `cite.geraci103' on input line 596.
 Package hyperref Info: Anchor `cite.degeronimo102' on input line 626.
 Package hyperref Info: Anchor `cite.goulding101' on input line 652.
-Package hyperref Info: Anchor `cite.Haller100' on input line 678.
-Package hyperref Info: Anchor `cite.hogervorst102' on input line 707.
-Package hyperref Info: Anchor `cite.hogervorst101' on input line 738.
+Package hyperref Info: Anchor `cite.gray101' on input line 679.
+Package hyperref Info: Anchor `cite.haigh101' on input line 707.
+Package hyperref Info: Anchor `cite.Haller100' on input line 736.
 
 Underfull \vbox (badness 1796) has occurred while \output is active []
 
-Package hyperref Info: Anchor `page.52' on input line 767.
- [52]
-Package hyperref Info: Anchor `cite.cplex' on input line 767.
-Package hyperref Info: Anchor `cite.jordanov101' on input line 789.
-Package hyperref Info: Anchor `cite.Kleinfelder100' on input line 816.
-Package hyperref Info: Anchor `cite.lutz101' on input line 847.
-Package hyperref Info: Anchor `cite.murmann101' on input line 875.
-Package hyperref Info: Anchor `cite.oconnor100' on input line 900.
-Package hyperref Info: Anchor `cite.porro101' on input line 928.
-Package hyperref Info: Anchor `cite.pullia103' on input line 954.
-Package hyperref Info: Anchor `cite.pullia104' on input line 979.
-Package hyperref Info: Anchor `cite.pullia105' on input line 1005.
-Package hyperref Info: Anchor `page.53' on input line 1032.
+Package hyperref Info: Anchor `page.57' on input line 765.
+ [57]
+Package hyperref Info: Anchor `cite.hogervorst102' on input line 765.
+Package hyperref Info: Anchor `cite.hogervorst101' on input line 796.
+Package hyperref Info: Anchor `cite.cplex' on input line 825.
+Package hyperref Info: Anchor `cite.jindal101' on input line 847.
+Package hyperref Info: Anchor `cite.jordanov101' on input line 871.
+Package hyperref Info: Anchor `cite.Kleinfelder100' on input line 898.
+Package hyperref Info: Anchor `cite.lutz101' on input line 929.
+Package hyperref Info: Anchor `cite.murmann101' on input line 957.
+Package hyperref Info: Anchor `cite.oconnor100' on input line 982.
+Package hyperref Info: Anchor `cite.porro101' on input line 1010.
+Package hyperref Info: Anchor `page.58' on input line 1036.
 
-[53
+[58
 Package `hyperref' Info: End of reference (link) `table.A.1', line 4.
 ]
-Package hyperref Info: Anchor `cite.pullia102' on input line 1032.
-Package hyperref Info: Anchor `cite.radeka104' on input line 1056.
-Package hyperref Info: Anchor `cite.radeka105' on input line 1081.
-Package hyperref Info: Anchor `cite.radeka101' on input line 1105.
-Package hyperref Info: Anchor `cite.radeka201' on input line 1128.
-Package hyperref Info: Anchor `cite.sampietro101' on input line 1159.
-Package hyperref Info: Anchor `cite.analogessentials' on input line 1186.
-Package hyperref Info: Anchor `cite.sansen101' on input line 1210.
-Package hyperref Info: Anchor `cite.silveira101' on input line 1237.
-Package hyperref Info: Anchor `cite.Snoeys100' on input line 1269.
-
-Underfull \vbox (badness 6412) has occurred while \output is active []
-
-Package hyperref Info: Anchor `page.54' on input line 1298.
- [54]
-Package hyperref Info: Anchor `cite.spieler2005semiconductor' on input line 129
-8.
-Package hyperref Info: Anchor `cite.tuttle101' on input line 1321.
-Package hyperref Info: Anchor `cite.van101' on input line 1344.
-Package hyperref Info: Anchor `cite.vleugels101' on input line 1367.
+Package hyperref Info: Anchor `cite.pullia103' on input line 1036.
+Package hyperref Info: Anchor `cite.pullia104' on input line 1061.
+Package hyperref Info: Anchor `cite.pullia105' on input line 1087.
+Package hyperref Info: Anchor `cite.pullia102' on input line 1114.
+Package hyperref Info: Anchor `cite.radeka104' on input line 1138.
+Package hyperref Info: Anchor `cite.radeka105' on input line 1163.
+Package hyperref Info: Anchor `cite.radeka101' on input line 1187.
+Package hyperref Info: Anchor `cite.radeka201' on input line 1210.
+Package hyperref Info: Anchor `cite.rashid101' on input line 1238.
+Package hyperref Info: Anchor `cite.sampietro101' on input line 1264.
+Package hyperref Info: Anchor `cite.analogessentials' on input line 1291.
+Package hyperref Info: Anchor `page.59' on input line 1315.
+ [59]
+Package hyperref Info: Anchor `cite.sansen101' on input line 1315.
+Package hyperref Info: Anchor `cite.silveira101' on input line 1342.
+Package hyperref Info: Anchor `cite.Snoeys100' on input line 1374.
+Package hyperref Info: Anchor `cite.spieler2005semiconductor' on input line 140
+3.
+Package hyperref Info: Anchor `cite.tuttle101' on input line 1426.
+Package hyperref Info: Anchor `cite.van101' on input line 1449.
+Package hyperref Info: Anchor `cite.vleugels101' on input line 1472.
 )
-Package hyperref Info: Anchor `page.55' on input line 240.
-
-[55]
+Package hyperref Info: Anchor `page.60' on input line 240.
+ [60]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 242.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 242.
  (./Thesis.aux (./text/introduction.aux) (./text/problem.aux)
@@ -3669,6 +3866,7 @@ Figures/LogoUC.pdf
 ./text/introduction.tex
 ./Figures/detector-eps-converted-to.pdf
 ./Figures/csa_post-eps-converted-to.pdf
+./Figures/noise_cir-eps-converted-to.pdf
 ./text/problem.tex
 ./text/theoretical.tex
 ./Figures/system-eps-converted-to.pdf
@@ -3692,13 +3890,13 @@ Figures/LogoUC.pdf
 ./Figures/Filter/bias_filter_post-eps-converted-to.pdf
 ./text/results.tex
 ./Figures/IC_layout.pdf
+./Figures/filter_layout.pdf
 ./Figures/CSA_layout-eps-converted-to.pdf
 ./Figures/OTA_layout-eps-converted-to.pdf
 ./Figures/buffer_layout-eps-converted-to.pdf
-./Figures/filter_layout.pdf
-./Test/bode_OTA_post-eps-converted-to.pdf
 ./Test/wf_test_circuit-eps-converted-to.pdf
 ./Test/sim_wf-eps-converted-to.pdf
+./Test/bode_OTA_post-eps-converted-to.pdf
 ./Test/gain_curves.pdf
 ./Test/linearity.pdf
 ./Test/test_filter_after_omni-eps-converted-to.pdf
@@ -3712,20 +3910,20 @@ Figures/LogoUC.pdf
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 242.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 0C6947902A16B58373DE342FA1821D0B;2577.
+(rerunfilecheck)             Checksum: AB022A5EA29229A086C7D4D23705D15F;3113.
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 242.
  ) 
 Here is how much of TeX's memory you used:
- 11524 strings out of 493308
- 170711 string characters out of 6137816
- 288232 words of memory out of 5000000
- 14256 multiletter control sequences out of 15000+600000
+ 11583 strings out of 493308
+ 171716 string characters out of 6137816
+ 288775 words of memory out of 5000000
+ 14291 multiletter control sequences out of 15000+600000
  44348 words of font info for 116 fonts, out of 8000000 for 9000
  1118 hyphenation exceptions out of 8191
- 44i,15n,49p,2066b,626s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,15n,49p,2020b,629s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
@@ -3747,10 +3945,10 @@ type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
 pe1/urw/courier/ucrr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/
 times/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmr
 8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Thesis.pdf (66 pages, 9769633 bytes).
+Output written on Thesis.pdf (71 pages, 9803239 bytes).
 PDF statistics:
- 2053 PDF objects out of 2073 (max. 8388607)
- 1754 compressed objects within 18 object streams
- 238 named destinations out of 1000 (max. 500000)
- 487 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2176 PDF objects out of 2487 (max. 8388607)
+ 1869 compressed objects within 19 object streams
+ 261 named destinations out of 1000 (max. 500000)
+ 540 words of extra memory for PDF output out of 10000 (max. 10000000)
 

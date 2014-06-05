@@ -7,32 +7,38 @@
 \contentsline {chapter}{\tocchapter {}{1}{INTRODUCTION}}{1}{chapter.1}
 \contentsline {section}{\tocsection {}{1.1}{Particle physics experiments}}{1}{section.1.1}
 \contentsline {section}{\tocsection {}{1.2}{Electronics for particle physics experiments}}{2}{section.1.2}
-\contentsline {section}{\tocsection {}{1.3}{Noise minimization in circuits for particle physics instrumentation}}{3}{section.1.3}
-\contentsline {section}{\tocsection {}{1.4}{Thesis content}}{5}{section.1.4}
-\contentsline {chapter}{\tocchapter {}{2}{PROBLEM DEFINITION}}{7}{chapter.2}
-\contentsline {section}{\tocsection {}{2.1}{The International Linear Collider}}{7}{section.2.1}
-\contentsline {section}{\tocsection {}{2.2}{The Bean}}{8}{section.2.2}
-\contentsline {chapter}{\tocchapter {}{3}{NOISE ANALYSIS IN PULSE-PROCESSING DISCRETE-TIME FILTERS\FN@sf@gobble@optonly }}{9}{chapter.3}
-\contentsline {section}{\tocsection {}{3.1}{Introduction}}{9}{section.3.1}
-\contentsline {section}{\tocsection {}{3.2}{Discrete-Time Analysis}}{10}{section.3.2}
-\contentsline {section}{\tocsection {}{3.3}{Example}}{15}{section.3.3}
-\contentsline {section}{\tocsection {}{3.4}{$\mathit {ENC}$ Minimization}}{19}{section.3.4}
-\contentsline {section}{\tocsection {}{3.5}{Conclusion}}{23}{section.3.5}
-\contentsline {chapter}{\tocchapter {}{4}{A SC FILTER FOR ARBITRARY WEIGHTING FUNCTION SYNTHESIS}}{25}{chapter.4}
-\contentsline {section}{\tocsection {}{4.1}{Introduction}}{25}{section.4.1}
-\contentsline {section}{\tocsection {}{4.2}{System-Level Design}}{25}{section.4.2}
-\contentsline {subsection}{\tocsubsection {}{4.2.1}{Filter Specifications}}{26}{subsection.4.2.1}
-\contentsline {section}{\tocsection {}{4.3}{Circuit Design}}{27}{section.4.3}
-\contentsline {subsection}{\tocsubsection {}{4.3.1}{Operational Transconductance Amplifier}}{28}{subsection.4.3.1}
-\contentsline {subsection}{\tocsubsection {}{4.3.2}{Variable Capacitor}}{31}{subsection.4.3.2}
-\contentsline {subsection}{\tocsubsection {}{4.3.3}{Rail-to-Rail buffer}}{31}{subsection.4.3.3}
-\contentsline {subsection}{\tocsubsection {}{4.3.4}{IC bias network}}{33}{subsection.4.3.4}
-\contentsline {chapter}{\tocchapter {}{5}{RESULTS}}{36}{chapter.5}
-\contentsline {section}{\tocsection {}{5.1}{The Bean 2 prototype Implementation}}{36}{section.5.1}
-\contentsline {section}{\tocsection {}{5.2}{Filter simulation results}}{36}{section.5.2}
-\contentsline {chapter}{\tocchapter {}{6}{CONCLUSION}}{44}{chapter.6}
-\contentsline {section}{\tocsection {}{6.1}{Summary}}{44}{section.6.1}
-\contentsline {section}{\tocsection {}{6.2}{Future work}}{44}{section.6.2}
-\contentsline {chapter}{APPENDIX}{45}{section.6.2}
-\contentsline {chapter}{\tocchapter {}{A}{The Bean 2 prototype pinout}}{46}{appendix.A}
-\contentsline {chapter}{\tocchapter {}{}{References}}{50}{chapter*.7}
+\contentsline {section}{\tocsection {}{1.3}{Noise minimization in circuits for particle physics instrumentation}}{4}{section.1.3}
+\contentsline {subsection}{\tocsubsection {}{1.3.1}{Basic notions}}{4}{subsection.1.3.1}
+\contentsline {subsection}{\tocsubsection {}{1.3.2}{Current trends in noise minimization for particle physics instrumentation systems}}{6}{subsection.1.3.2}
+\contentsline {section}{\tocsection {}{1.4}{Thesis content}}{7}{section.1.4}
+\contentsline {chapter}{\tocchapter {}{2}{PROBLEM DEFINITION}}{9}{chapter.2}
+\contentsline {section}{\tocsection {}{2.1}{The BeamCal Instrumentation }}{9}{section.2.1}
+\contentsline {chapter}{\tocchapter {}{3}{NOISE ANALYSIS IN PULSE-PROCESSING DISCRETE-TIME FILTERS\FN@sf@gobble@optonly }}{11}{chapter.3}
+\contentsline {section}{\tocsection {}{3.1}{Introduction}}{11}{section.3.1}
+\contentsline {section}{\tocsection {}{3.2}{Discrete-Time Analysis}}{12}{section.3.2}
+\contentsline {section}{\tocsection {}{3.3}{Example}}{17}{section.3.3}
+\contentsline {section}{\tocsection {}{3.4}{$\mathit {ENC}$ Minimization}}{21}{section.3.4}
+\contentsline {section}{\tocsection {}{3.5}{Conclusion}}{25}{section.3.5}
+\contentsline {chapter}{\tocchapter {}{4}{A SC FILTER FOR ARBITRARY WEIGHTING FUNCTION SYNTHESIS}}{27}{chapter.4}
+\contentsline {section}{\tocsection {}{4.1}{Introduction}}{27}{section.4.1}
+\contentsline {section}{\tocsection {}{4.2}{System-Level Design}}{27}{section.4.2}
+\contentsline {subsection}{\tocsubsection {}{4.2.1}{Filter Specifications}}{28}{subsection.4.2.1}
+\contentsline {section}{\tocsection {}{4.3}{Circuit Design}}{29}{section.4.3}
+\contentsline {subsection}{\tocsubsection {}{4.3.1}{Operational Transconductance Amplifier}}{29}{subsection.4.3.1}
+\contentsline {subsection}{\tocsubsection {}{4.3.2}{Variable Capacitor}}{32}{subsection.4.3.2}
+\contentsline {subsection}{\tocsubsection {}{4.3.3}{Rail-to-Rail buffer}}{34}{subsection.4.3.3}
+\contentsline {subsection}{\tocsubsection {}{4.3.4}{IC bias network}}{37}{subsection.4.3.4}
+\contentsline {chapter}{\tocchapter {}{5}{RESULTS}}{39}{chapter.5}
+\contentsline {section}{\tocsection {}{5.1}{The Bean V2 prototype Implementation}}{39}{section.5.1}
+\contentsline {section}{\tocsection {}{5.2}{Filter post-layout simulation results}}{40}{section.5.2}
+\contentsline {subsection}{\tocsubsection {}{5.2.1}{Power dissipation}}{40}{subsection.5.2.1}
+\contentsline {subsection}{\tocsubsection {}{5.2.2}{Sub-blocks}}{41}{subsection.5.2.2}
+\contentsline {subsection}{\tocsubsection {}{5.2.3}{Functionality}}{41}{subsection.5.2.3}
+\contentsline {subsection}{\tocsubsection {}{5.2.4}{Linearity}}{41}{subsection.5.2.4}
+\contentsline {subsection}{\tocsubsection {}{5.2.5}{Weighting function}}{41}{subsection.5.2.5}
+\contentsline {chapter}{\tocchapter {}{6}{CONCLUSION}}{49}{chapter.6}
+\contentsline {section}{\tocsection {}{6.1}{Summary}}{49}{section.6.1}
+\contentsline {section}{\tocsection {}{6.2}{Future work}}{49}{section.6.2}
+\contentsline {chapter}{APPENDIX}{50}{section.6.2}
+\contentsline {chapter}{\tocchapter {}{A}{The Bean 2 prototype pinout}}{51}{appendix.A}
+\contentsline {chapter}{\tocchapter {}{}{References}}{55}{chapter*.7}
