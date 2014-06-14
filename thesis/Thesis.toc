@@ -31,8 +31,8 @@
 \contentsline {chapter}{\tocchapter {}{5}{RESULTS}}{39}{chapter.5}
 \contentsline {section}{\tocsection {}{5.1}{The Bean V2 prototype Implementation}}{39}{section.5.1}
 \contentsline {section}{\tocsection {}{5.2}{Filter post-layout simulation results}}{40}{section.5.2}
-\contentsline {subsection}{\tocsubsection {}{5.2.1}{Power dissipation}}{40}{subsection.5.2.1}
-\contentsline {subsection}{\tocsubsection {}{5.2.2}{Sub-blocks}}{41}{subsection.5.2.2}
+\contentsline {subsection}{\tocsubsection {}{5.2.1}{Sub-blocks}}{40}{subsection.5.2.1}
+\contentsline {subsection}{\tocsubsection {}{5.2.2}{Power dissipation}}{40}{subsection.5.2.2}
 \contentsline {subsection}{\tocsubsection {}{5.2.3}{Functionality}}{41}{subsection.5.2.3}
 \contentsline {subsection}{\tocsubsection {}{5.2.4}{Linearity}}{41}{subsection.5.2.4}
 \contentsline {subsection}{\tocsubsection {}{5.2.5}{Weighting function}}{41}{subsection.5.2.5}

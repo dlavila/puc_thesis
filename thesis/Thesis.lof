@@ -32,14 +32,15 @@
 \contentsline {figure}{\numberline {5.3}{\ignorespaces Charge-sensitive amplifier layout.\relax }}{43}{figure.caption.32}
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Recycling folded cascode OTA layout.\relax }}{43}{figure.caption.33}
 \contentsline {figure}{\numberline {5.5}{\ignorespaces Rail-to-rail operational amplifier layout.\relax }}{44}{figure.caption.34}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Weighting function test circuit.\relax }}{44}{figure.caption.36}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces SPICE-simulated weighting function. $\tau =8\tmspace +\thinmuskip {.1667em}\text {ns}$, $N=16$ and $T_s=19.25\tmspace +\thinmuskip {.1667em}\text {ns}$.\relax }}{45}{figure.caption.37}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Bode plot for the OTA open-loop response.\relax }}{45}{figure.caption.38}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Filter output step response with the 64 programmable gains. \unhbox \voidb@x \hbox {$V_\textit {in}=0.1\tmspace +\thinmuskip {.1667em}V$} and \unhbox \voidb@x \hbox {$T_s=40\tmspace +\thinmuskip {.1667em}\text {ns}$}.\relax }}{46}{figure.caption.39}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Filter linearity test results, full-scale input range.\relax }}{46}{figure.caption.40}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Filter control signals testing. $V_\textit {in}=0.1\tmspace +\thinmuskip {.1667em}V$ and $\text {gain}=0.25\tmspace +\thinmuskip {.1667em}V/V$.\relax }}{47}{figure.caption.41}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Bode plot for the buffer open-loop response.\relax }}{48}{figure.caption.42}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Bode plot for the OTA open-loop response.\relax }}{44}{figure.caption.35}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Bode plot for the buffer open-loop response.\relax }}{45}{figure.caption.36}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Weighting function test circuit.\relax }}{45}{figure.caption.38}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces SPICE-simulated weighting function. $\tau =8\tmspace +\thinmuskip {.1667em}\text {ns}$, $N=16$ and $T_s=19.25\tmspace +\thinmuskip {.1667em}\text {ns}$.\relax }}{46}{figure.caption.39}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Bode plot for the OTA open-loop response.\relax }}{46}{figure.caption.40}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Filter output step response with the 64 programmable gains. \unhbox \voidb@x \hbox {$V_\textit {in}=0.1\tmspace +\thinmuskip {.1667em}V$} and \unhbox \voidb@x \hbox {$T_s=40\tmspace +\thinmuskip {.1667em}\text {ns}$}.\relax }}{47}{figure.caption.41}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Filter linearity test results, full-scale input range.\relax }}{47}{figure.caption.42}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Filter control signals testing. $V_\textit {in}=0.1\tmspace +\thinmuskip {.1667em}V$ and $\text {gain}=0.25\tmspace +\thinmuskip {.1667em}V/V$.\relax }}{48}{figure.caption.43}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces The Bean 2 prototype bonding diagram.\relax }}{54}{figure.caption.43}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces The Bean 2 prototype bonding diagram.\relax }}{54}{figure.caption.44}
 \addvspace {10\p@ }

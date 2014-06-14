@@ -31,8 +31,8 @@
 \BOOKMARK [0][-]{chapter.5}{5. RESULTS}{}% 31
 \BOOKMARK [1][-]{section.5.1}{5.1. The Bean V2 prototype Implementation}{chapter.5}% 32
 \BOOKMARK [1][-]{section.5.2}{5.2. Filter post-layout simulation results}{chapter.5}% 33
-\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1. Power dissipation}{section.5.2}% 34
-\BOOKMARK [2][-]{subsection.5.2.2}{5.2.2. Sub-blocks}{section.5.2}% 35
+\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1. Sub-blocks}{section.5.2}% 34
+\BOOKMARK [2][-]{subsection.5.2.2}{5.2.2. Power dissipation}{section.5.2}% 35
 \BOOKMARK [2][-]{subsection.5.2.3}{5.2.3. Functionality}{section.5.2}% 36
 \BOOKMARK [2][-]{subsection.5.2.4}{5.2.4. Linearity}{section.5.2}% 37
 \BOOKMARK [2][-]{subsection.5.2.5}{5.2.5. Weighting function}{section.5.2}% 38

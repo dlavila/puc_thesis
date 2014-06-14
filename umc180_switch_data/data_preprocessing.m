@@ -16,6 +16,10 @@ disp('Processing switchs resistance data')
 reverseStr = '';
 percent_tot = length(L_n)*length(r_cmos_ref);
 percent_count = 0;
+
+global s_dat
+s_dat = struct('r_switch_n',r_switch_n , 'L_n', L_n ,'W_n', W_n , 'r_switch_p',r_switch_p,'L_p',L_p,'W_p',W_p, 'Vin_n',Vin_n,'Vin_p',Vin_p );
+
 for j = 1:length(L_n)   
     for i = 1:length(r_cmos_ref)
         [Wn_post(j,i),Wp_post(j,i)] = cmos_switch_dim_rmin(r_cmos_ref(i),L_n(j));

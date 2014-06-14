@@ -2,11 +2,11 @@
 \label{chapter:results}
 
 \section{The Bean V2 prototype Implementation}
-The Bean V2 prototype was designed for a standard 180-nm CMOS process. This iteration of the Bean includes two standalone structures: a trimmed version a readout channel, which includes two CSA (one to generate the baseline\footnote{The baseline is defined as the CSA DC output voltage after reset, when no input has been applied.} voltage), a pre-charger circuit, the designed SC filter and output buffers; and an isolated version of the filter with its inputs directly bonded out off-chip.  Both structures will be tested separately, thus control signals and reference voltages for both filters are tied together. Also, a logic circuit to generate the non-overlapping two-phase clock was included. Future revisions of the Bean will include an ADC within the channel.
+The Bean V2 prototype was designed for a standard mixed-signal 180-nm CMOS process. This iteration of the Bean includes two standalone structures: a trimmed version a readout channel, which includes two CSA (one with its input and output shorted to generate the baseline voltage\footnote{The baseline is defined as the CSA DC output voltage after reset, when no input has been applied.}), a pre-charger circuit, the designed SC filter and output buffers; and an isolated version of the filter with its inputs directly bonded out off-chip.  Both structures will be tested separately, thus control signals and reference voltages for both filters are tied together. Also, a logic circuit to generate the non-overlapping two-phase clock was included. Future revisions of the Bean will include an ADC within the channel.
 
-Fig.~\ref{fig:IC_layout} shows the layout of the Bean V2 prototype; for a detailed description of the IC pinout, see Apprendix~A. Each channel cell was designed to have a pitch lower than $190\,\mu\text{m}$. If the number of channels is increased to the nominal value of 32, the IC will be approximately 6~mm tall, which can be fit into four UMC180 mini@sic sub-blocks according to the Europractice rules. After including the ADC and the digital memory, channel length is expected to be lower than $1\,\text{mm}$.
+Fig.~\ref{fig:IC_layout} shows the layout of the Bean V2 prototype; for a detailed description of the IC pinout, see Appendix~A. Each channel cell was designed to have a pitch lower than $190\,\mu\text{m}$. If the number of channels is increased to the nominal value of 32, the IC will be approximately 6~mm tall, which can be fit into four mini@sic sub-blocks according to the Europractice rules. After including the ADC and the digital memory, channel length is expected to be lower than $1\,\text{mm}$.
 
-The SC filter, shown in Fig.~\ref{fig:filter_layout}, has a total area of $185\,\mu\text{m}\times 332\,\mu\text{m}$, and was layout to resemble the components spatial distribution of circuit in Fig.~\ref{fig:filter_post}. The filters outputs, the main CSA output and the baseline voltage are buffered out off-chip using the rail-to-rail amplifiers (connected as unity-gain buffers) shown in Fig.~\ref{fig:buffer_layout}. The CSA and the filter OTA are depicted in Figs.~\ref{fig:csa_layout} and \ref{fig:ota_layout} respectively. All structures were carefully side-shielded with multiple guard-rings. Also, to mitigate the effects of cross-chip gradients,  common centroid layout and dummy devices were used in the layout of the filter OTA and the rail-to-rail op-amps. These considerations were not taken into account for the CSA layout, since mismatch is not critical for this cell because of the size of its transistors and also because it is single-ended. As mentioned in the previous chapter, $C_F$ and $C_S$ capacitors were implemented with a parallel connection of unity capacitors. To prevent copper-dishing effects, both capacitors were surrounded by dummy capacitors implemented with the same unitary capacitors.
+The SC filter, shown in Fig.~\ref{fig:filter_layout}, has a total area of $185\,\mu\text{m}\times 332\,\mu\text{m}$, and was layout to resemble the components spatial distribution of circuit in Fig.~\ref{fig:filter_post}. The filters outputs, the main CSA output and the baseline voltage are buffered out off-chip using the rail-to-rail amplifiers (connected as unity-gain buffers) shown in Fig.~\ref{fig:buffer_layout}. The CSA and the filter OTA are depicted in Figs.~\ref{fig:csa_layout} and \ref{fig:ota_layout} respectively. All structures were carefully side-shielded with multiple guard-rings. Also, to mitigate the effects of cross-chip gradients,  common-centroid technique and dummy devices were used in the layout of the filter OTA and the rail-to-rail op-amps. These considerations were not taken into account for the CSA layout, since mismatch is not critical for this cell because of the size of its transistors and because it is single-ended. As mentioned in the previous chapter, $C_F$ and $C_S$ capacitors were implemented with a parallel connection of unity capacitors. To prevent copper-dishing effects, both capacitors were surrounded by dummy capacitors implemented with the same unity capacitors.
 
 Because of the lack of models for the pads provided by Faraday and the tools needed to use them, it was necessary to design custom pads. They were designed for ground, positive supply voltage, analog input/output, digital input, and digital output. Special care was taken for the Latch-up failure of the output digital drivers, and the Electrostatic discharge phenomena. 
 
@@ -45,6 +45,21 @@ Because of the lack of models for the pads provided by Faraday and the tools nee
 
 
 \section{Filter post-layout simulation results}
+\subsection{Sub-blocks}
+The filter OTA and the buffer op-amp are the complex sub-blocks of the design. Thus, before proceeding with the complete layout,  both structures were separately extracted and individually simulated. Figs.~\ref{fig:bode_OTA} and \ref{fig:bode_buffer}  shows the simulated open-loop response of the filter OTA and the buffer op-amp respectively. Proper 
+
+\begin{figure}[!t]
+	\centering
+	\includegraphics[width=5.3in]{./Test/bode_OTA_post}
+	\caption{Bode plot for the OTA open-loop response.}\label{fig:bode_OTA}
+\end{figure}
+
+\begin{figure}[!t]
+	\centering
+	\includegraphics[width=5.3in]{./Test/bode_buffer_post}
+	\caption{Bode plot for the buffer open-loop response.}\label{fig:bode_buffer}
+\end{figure}
+
 \subsection{Power dissipation} 
 
 The power dissipated by the SC filter prototype was calculated using transient simulations over the extracted filter, under nominal operation and a single input value. The results are presented in Table~\ref{tab:power_dissipation}, the measurements are current consumption averages of the supply node of each component. 
@@ -65,7 +80,7 @@ The power dissipated by the SC filter prototype was calculated using transient s
 	\end{center}
 \end{table}
 
-\subsection{Sub-blocks}
+
 \subsection{Functionality} 
 \subsection{Linearity}
 \subsection{Weighting function}
@@ -117,8 +132,3 @@ To characterize the designed filter and
 
 
 
-\begin{figure}[!t]
-	\centering
-	\includegraphics[width=5.3in]{./Test/bode_buffer_post}
-	\caption{Bode plot for the buffer open-loop response.}\label{fig:bode_buffer}
-\end{figure}
