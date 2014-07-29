@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[     11641,        322]
-NotebookOptionsPosition[     11011,        297]
-NotebookOutlinePosition[     11366,        313]
-CellTagsIndexPosition[     11323,        310]
+NotebookDataLength[     21959,        574]
+NotebookOptionsPosition[     20528,        530]
+NotebookOutlinePosition[     20886,        546]
+CellTagsIndexPosition[     20843,        543]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -235,11 +235,11 @@ DQ==
 Cell[BoxData[
  TagBox[
   StyleBox[
-   DynamicModuleBox[{$CellContext`ti$$ = 7.92, Typeset`show$$ = True, 
+   DynamicModuleBox[{$CellContext`ti$$ = 0.96, Typeset`show$$ = True, 
     Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
     Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
     "\"untitled\"", Typeset`specs$$ = {{
-      Hold[$CellContext`ti$$], 0, 10}}, Typeset`size$$ = {473., {234., 239.}},
+      Hold[$CellContext`ti$$], 0, 10}}, Typeset`size$$ = {291., {143., 148.}},
      Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
     True, $CellContext`ti$185670$$ = 0}, 
     DynamicBox[Manipulate`ManipulateBoxes[
@@ -281,7 +281,7 @@ Cell[BoxData[
                 0.25, $CellContext`ti$$]}]}]}}], 
       "Specifications" :> {{$CellContext`ti$$, 0, 10}}, "Options" :> {}, 
       "DefaultOptions" :> {}],
-     ImageSizeCache->{518., {278., 283.}},
+     ImageSizeCache->{336., {187., 192.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -292,11 +292,244 @@ Cell[BoxData[
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
  CellChangeTimes->{{3.607383798334753*^9, 3.60738382271848*^9}, 
-   3.607383970530758*^9}]
+   3.607383970530758*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Table", "::", "iterb"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Iterator \[NoBreak]\\!\\({t, 0.25`, tf, Ts}\\)\[NoBreak] \
+does not have appropriate bounds. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/iterb\\\", \
+ButtonNote -> \\\"Table::iterb\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.614550914909358*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Plot", "::", "plln"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Limiting value \[NoBreak]\\!\\(tf\\)\[NoBreak] in \
+\[NoBreak]\\!\\({t, 0, tf}\\)\[NoBreak] is not a machine-sized real number. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/plln\\\", \
+ButtonNote -> \\\"Plot::plln\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6145509150323277`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Plot", "::", "plln"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Limiting value \[NoBreak]\\!\\(tf\\)\[NoBreak] in \
+\[NoBreak]\\!\\({t, 0, tf}\\)\[NoBreak] is not a machine-sized real number. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/plln\\\", \
+ButtonNote -> \\\"Plot::plln\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.614550915074107*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Plot", "::", "plln"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Limiting value \[NoBreak]\\!\\(tf\\)\[NoBreak] in \
+\[NoBreak]\\!\\({t, 0, tf}\\)\[NoBreak] is not a machine-sized real number. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/plln\\\", \
+ButtonNote -> \\\"Plot::plln\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.614550915113008*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"General", "::", "stop"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Further output of \[NoBreak]\\!\\(\\*StyleBox[\\(Plot :: \
+plln\\), \\\"MessageName\\\"]\\)\[NoBreak] will be suppressed during this \
+calculation. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/General/stop\\\", ButtonNote -> \
+\\\"General::stop\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.61455091513739*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Table", "::", "iterb"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Iterator \[NoBreak]\\!\\({t, 0.25`, tf, Ts}\\)\[NoBreak] \
+does not have appropriate bounds. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/iterb\\\", \
+ButtonNote -> \\\"Table::iterb\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6145509153036633`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Plot", "::", "plln"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Limiting value \[NoBreak]\\!\\(tf\\)\[NoBreak] in \
+\[NoBreak]\\!\\({t, 0, tf}\\)\[NoBreak] is not a machine-sized real number. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/plln\\\", \
+ButtonNote -> \\\"Plot::plln\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.614550915341105*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Plot", "::", "plln"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Limiting value \[NoBreak]\\!\\(tf\\)\[NoBreak] in \
+\[NoBreak]\\!\\({t, 0, tf}\\)\[NoBreak] is not a machine-sized real number. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/plln\\\", \
+ButtonNote -> \\\"Plot::plln\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6145509153789167`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Plot", "::", "plln"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Limiting value \[NoBreak]\\!\\(tf\\)\[NoBreak] in \
+\[NoBreak]\\!\\({t, 0, tf}\\)\[NoBreak] is not a machine-sized real number. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/plln\\\", \
+ButtonNote -> \\\"Plot::plln\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.614550915418269*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"General", "::", "stop"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Further output of \[NoBreak]\\!\\(\\*StyleBox[\\(Plot :: \
+plln\\), \\\"MessageName\\\"]\\)\[NoBreak] will be suppressed during this \
+calculation. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/General/stop\\\", ButtonNote -> \
+\\\"General::stop\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.614550915448653*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Table", "::", "iterb"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Iterator \[NoBreak]\\!\\({t, 0.25`, 10, Ts}\\)\[NoBreak] \
+does not have appropriate bounds. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/iterb\\\", \
+ButtonNote -> \\\"Table::iterb\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.614550921778264*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Table", "::", "iterb"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Iterator \[NoBreak]\\!\\({t, 0.25`, 10, Ts}\\)\[NoBreak] \
+does not have appropriate bounds. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/iterb\\\", \
+ButtonNote -> \\\"Table::iterb\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.61455092181358*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Table", "::", "iterb"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Iterator \[NoBreak]\\!\\({t, 0.25`, 10, Ts}\\)\[NoBreak] \
+does not have appropriate bounds. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/iterb\\\", \
+ButtonNote -> \\\"Table::iterb\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.614550921856079*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"General", "::", "stop"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Further output of \[NoBreak]\\!\\(\\*StyleBox[\\(Table :: \
+iterb\\), \\\"MessageName\\\"]\\)\[NoBreak] will be suppressed during this \
+calculation. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/General/stop\\\", ButtonNote -> \
+\\\"General::stop\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.614550921875032*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Plot", "::", "prng"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Value of option PlotRange -> \[NoBreak]\\!\\({\\(\\({0, \
+11}\\)\\), \\(\\({0, Amp}\\)\\)}\\)\[NoBreak] is not All, Full, Automatic, a \
+positive machine number, or an appropriate list of range specifications. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/Plot\\\", ButtonNote -> \
+\\\"Plot::prng\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.614550921970845*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Table", "::", "iterb"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Iterator \[NoBreak]\\!\\({t, 0.25`, 10, Ts}\\)\[NoBreak] \
+does not have appropriate bounds. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/iterb\\\", \
+ButtonNote -> \\\"Table::iterb\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6145509244708853`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Table", "::", "iterb"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Iterator \[NoBreak]\\!\\({t, 0.25`, 10, Ts}\\)\[NoBreak] \
+does not have appropriate bounds. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/iterb\\\", \
+ButtonNote -> \\\"Table::iterb\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.61455092450554*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Table", "::", "iterb"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Iterator \[NoBreak]\\!\\({t, 0.25`, 10, Ts}\\)\[NoBreak] \
+does not have appropriate bounds. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/iterb\\\", \
+ButtonNote -> \\\"Table::iterb\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6145509245969543`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"General", "::", "stop"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Further output of \[NoBreak]\\!\\(\\*StyleBox[\\(Table :: \
+iterb\\), \\\"MessageName\\\"]\\)\[NoBreak] will be suppressed during this \
+calculation. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/General/stop\\\", ButtonNote -> \
+\\\"General::stop\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.614550924598023*^9}]
 }, Open  ]]
 },
-WindowSize->{800, 556},
-WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowSize->{456, 455},
+WindowMargins->{{359, Automatic}, {25, Automatic}},
 FrontEndVersion->"9.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (November 20, \
 2012)",
 StyleDefinitions->"Default.nb"
@@ -321,8 +554,27 @@ Cell[1491, 49, 417, 12, 28, "Input"],
 Cell[1911, 63, 1251, 32, 28, "Input"],
 Cell[3165, 97, 686, 22, 28, "Input"],
 Cell[CellGroupData[{
-Cell[3876, 123, 4242, 109, 182, "Input"],
-Cell[8121, 234, 2874, 60, 578, "Output"]
+Cell[3876, 123, 4242, 109, 369, "Input"],
+Cell[8121, 234, 2874, 60, 396, "Output"],
+Cell[10998, 296, 471, 10, 41, "Message"],
+Cell[11472, 308, 503, 10, 42, "Message"],
+Cell[11978, 320, 501, 10, 42, "Message"],
+Cell[12482, 332, 501, 10, 42, "Message"],
+Cell[12986, 344, 526, 11, 41, "Message"],
+Cell[13515, 357, 473, 10, 41, "Message"],
+Cell[13991, 369, 501, 10, 42, "Message"],
+Cell[14495, 381, 503, 10, 42, "Message"],
+Cell[15001, 393, 501, 10, 42, "Message"],
+Cell[15505, 405, 527, 11, 41, "Message"],
+Cell[16035, 418, 471, 10, 41, "Message"],
+Cell[16509, 430, 470, 10, 24, "Message"],
+Cell[16982, 442, 471, 10, 24, "Message"],
+Cell[17456, 454, 529, 11, 41, "Message"],
+Cell[17988, 467, 567, 11, 76, "Message"],
+Cell[18558, 480, 473, 10, 24, "Message"],
+Cell[19034, 492, 470, 10, 24, "Message"],
+Cell[19507, 504, 473, 10, 24, "Message"],
+Cell[19983, 516, 529, 11, 24, "Message"]
 }, Open  ]]
 }
 ]

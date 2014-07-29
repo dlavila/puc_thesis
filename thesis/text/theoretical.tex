@@ -1,12 +1,12 @@
 \chapter{NOISE ANALYSIS IN PULSE-PROCESSING DISCRETE-TIME FILTERS\footnotemark}
 \label{chapter:theoretical}
 \section{Introduction}
-\footnotetext{See also \citep{avila101}}
+\footnotetext{See also \citep{avila101}.}
 In particle physics experiments, where the results from the collisions are inferred from the measurement of electric charge in various sets of detectors \citep{gatti101,radeka101}, noise sets a fundamental limit for the charge measurement resolution \citep{degeronimo102}. In such experiments, the typical detector \mbox{front-end} circuit comprises a \mbox{charge-sensitive} amplifier (CSA) and a filter, often referred to as pulse shaper. The former is used to convert the input charge signal, coming from the detector electrodes, into a voltage signal, and is responsible for most of the noise present in the readout circuit signal path \citep{degeronimo101,degeronimo102}. The filter is used to convert the voltage signal at the CSA output into a shaped voltage pulse, in order to maximize the \mbox{signal-to-noise} ratio (SNR) at the measurement time.
 
 Different noise analysis methods have been proposed to guide a proper filter design. The outcome of these methods is the equivalent noise charge ($\mathit{ENC}$), a measure of the \mbox{front-end} noise defined as the charge required at the detector input to produce an output SNR  of $1$. A \mbox{time-domain} analysis based on the weighting function (WF) concept \citep{radeka101, goulding101} has long been the preferred analysis, since it allows to find the optimum filter for a wide range of detector configurations \citep{radeka104,geraci101, gatti102,pullia103,pullia105}.
 
-Traditionally, the filter synthesis has been performed using \mbox{continuous-time} networks. However, since producing arbitrary WFs by means of \mbox{continuous-time} analog circuitry is often impossible \citep{gatti102}, this approach does not always allow to synthesize optimum filters. A different approach based on \mbox{discrete-time} filters, implemented by means of digital signal processor (DSP) units \citep{geraci103,sampietro101,jordanov101} or switched capacitor networks \citep{porro101,fiorini101,abusleme101}, allows to synthesize WFs with virtually any shape, producing \mbox{near-optimum} filters. Moreover, this promising approach takes advantage of the aggressive technology scaling and the new techniques of the VLSI industry, allowing to implement fast, reliable and flexible filters.
+Traditionally, the filter synthesis has been performed using \mbox{continuous-time} networks. However, since producing arbitrary WFs by means of \mbox{continuous-time} analog circuitry is often impossible \citep{gatti102}, this approach does not always allow to synthesize optimum filters. A different approach based on \mbox{discrete-time} filters, implemented by means of digital signal processor (DSP) units \citep{geraci103,sampietro101,jordanov101} or switched capacitor networks \citep{porro101,fiorini101,abusleme101}, allows to synthesize WFs with virtually any shape, producing \mbox{near-optimum} filters. Moreover, this promising approach takes advantage of the aggressive technology scaling and the new techniques of the \textsc{vlsi} industry, allowing to implement fast, reliable and flexible filters.
 
 In this work, a mathematical framework for a \mbox{design-oriented} analysis of \mbox{discrete-time} filters in the \mbox{discrete-time} domain is presented. Although \mbox{discrete-time} filters can be analyzed using a \mbox{continuous-time} method, it is not insightful and the resulting expressions are complex and difficult to use for design purposes. Furthermore, the analysis of \mbox{discrete-time} filters in the \mbox{discrete-time} domain provides a better insight on how their discrete nature affects the \mbox{front-end} noise. The proposed analysis can produce \mbox{closed-form} expressions for the $\mathit{ENC}$ calculation, which can be used for efficient algorithms for the $\mathit{ENC}$ evaluation and filter optimization procedures.
 
@@ -81,7 +81,7 @@ therefore,
 \begin{figure}[!t]
 	\centering
 	\includegraphics[width=4.5in]{./Figures/sequence.eps}
-	\caption{Noise contribution of the pulses generated within $P_i$ and measured at an arbitrary sample $k$ (i.e., $t=kT_s$), using an arbitrary filtered noise core function $\hat{y}(t)$. The independent contribution of each pulse is pointed out with black dots.}\label{fig:sequence}
+	\caption[Noise contribution of the pulses generated within $P_i$.]{Noise contribution of the pulses generated within $P_i$ and measured at an arbitrary sample $k$ (i.e., $t=kT_s$), using an arbitrary filtered noise core function $\hat{y}(t)$. The independent contribution of each pulse is pointed out with black dots.}\label{fig:sequence}
 \end{figure}
 
 Based on \eqref{eq:sigmaj}, the total integrated noise at the filter input measured at the \mbox{$k$-th} sample, $\sigma^2(kT_s)$, can be written as the sum of the individual noise contributions originated at each interval $P_i$:
@@ -112,7 +112,7 @@ Finally, replacing \eqref{eq:sigmaj} in \eqref{eq:sigmaNprev} and defining $h = 
 \begin{figure}[!t]
 	\centering
 	\includegraphics[width=5in]{./Figures/envelope-example.eps}
-	\caption{Evolution of the total integrated noise at the filter input, where the noise of each sample was split according to \eqref{eq:noise_evo}.}\label{fig:envelope-example}
+	\caption[Evolution of the total integrated noise at the filter input.]{Evolution of the total integrated noise at the filter input, where the noise of each sample was split according to \eqref{eq:noise_evo}.}\label{fig:envelope-example}
 \end{figure}
 
 The only term of \eqref{eq:final} that depends on the input-referred noise process is $\sigma^2(t)$, which can be calculated analytically or numerically for typical noise processes by using \eqref{eq:envelope}. For instance, \figurename~\ref{fig:envelopes} illustrates $\sigma^2(t)$ for thermal, shot and flicker noise. Even though the analysis presented here has been applied for a single noise source, it can be easily extended for circuits with several noise sources by applying the superposition principle in quadrature. 
@@ -120,7 +120,7 @@ The only term of \eqref{eq:final} that depends on the input-referred noise proce
 \begin{figure}[!t]
 	\centering
 	\includegraphics[width=4.2in]{./Figures/envelopes.eps}
-	\caption{$\sigma^2(t)$ for thermal, shot and flicker noise with normalized time $t/\tau$ and an arbitrary amplitude.}\label{fig:envelopes}
+	\caption[$\sigma^2(t)$ for thermal, shot and flicker noise.]{$\sigma^2(t)$ for thermal, shot and flicker noise with normalized time $t/\tau$ and an arbitrary amplitude.}\label{fig:envelopes}
 \end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -239,7 +239,7 @@ To obtain a numerical solution for the optimization problem, given by the object
 	\end{equation}
 where $K$ is the Boltzmann constant, $T$ is the absolute temperature, $g_m$ is the transconductance of the input device and $\gamma$ is a constant factor, typically $\approx 2/3$ \citep{van101}. The following parameters, typical of an HPGe segmented detector \citep{pullia102}, were used: $T = 120\,\text{K}$, $g_m = 15\,\text{mS}$, $R_F = 1\, \text{G}\Omega$, $I_L = 100\,\text{pA}$, $C_T = 40\,\text{pF}$, $C_F = 1\,\text{pF}$ and $a_F = 10^{-15}\,\text{V}^2$. Additionally, the following parameters were arbitrarily selected: $t_m = 10\,\micro \text{s}$, $T_s = 0.5\,\micro\text{s}$ and $h_w = 1$.
 
-The optimization problem was formulated in \textsc{matlab} and then solved through convex optimization with \textsc{cplex} \citep{cplex}. \figurename~\ref{fig:optimum_tau} shows the optimum value of the $\mathit{ENC}^2$ as a function of $\hat{\tau}$, where the existence of a global optimum at $\hat{\tau} =0.184\,\mu\text{s}$ can be seen. \figurename~\ref{fig:optimum_wf} shows the optimum WF for different values of $\hat{\tau}$. Using the optimum WF and the noise parameters shown above the $\mathit{ENC}$ can be computed as described in \citep{gatti101} and \citep{pullia104}.
+The optimization problem was formulated in \textsc{Matlab} and then solved through convex optimization with \textsc{cplex} \citep{cplex}. \figurename~\ref{fig:optimum_tau} shows the optimum value of the $\mathit{ENC}^2$ as a function of $\hat{\tau}$, where the existence of a global optimum at $\hat{\tau} =0.184\,\mu\text{s}$ can be seen. \figurename~\ref{fig:optimum_wf} shows the optimum WF for different values of $\hat{\tau}$. Using the optimum WF and the noise parameters shown above the $\mathit{ENC}$ can be computed as described in \citep{gatti101} and \citep{pullia104}.
 
 \begin{figure}[!t]
 	\centering
