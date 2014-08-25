@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.11)  10 JUL 2014 10:28
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.11)  30 JUL 2014 16:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1074,9 +1074,9 @@ Package hyperref Info: Reference (link) `subsection.5.2.5' on input line 38.
 Package hyperref Info: Reference (link) `chapter.6' on input line 39.
 Package hyperref Info: Reference (link) `section.6.1' on input line 40.
 Package hyperref Info: Reference (link) `section.6.2' on input line 41.
-Package hyperref Info: Reference (link) `section.6.2' on input line 42.
-Package hyperref Info: Reference (link) `appendix.A' on input line 43.
-Package hyperref Info: Reference (link) `chapter*.7' on input line 44.
+Package hyperref Info: Reference (link) `chapter*.7' on input line 42.
+Package hyperref Info: Reference (link) `chapter*.7' on input line 43.
+Package hyperref Info: Reference (link) `appendix.A' on input line 44.
 )
 \tf@toc=\write4
 \openout4 = `Thesis.toc'.
@@ -1101,9 +1101,9 @@ Package `hyperref' Info: End of reference (link) `subsection.5.2.5', line 38.
 Package `hyperref' Info: End of reference (link) `chapter.6', line 39.
 Package `hyperref' Info: End of reference (link) `section.6.1', line 40.
 Package `hyperref' Info: End of reference (link) `section.6.2', line 41.
-Package `hyperref' Info: End of reference (link) `section.6.2', line 42.
-Package `hyperref' Info: End of reference (link) `appendix.A', line 43.
-Package `hyperref' Info: End of reference (link) `chapter*.7', line 44.
+Package `hyperref' Info: End of reference (link) `chapter*.7', line 42.
+Package `hyperref' Info: End of reference (link) `chapter*.7', line 43.
+Package `hyperref' Info: End of reference (link) `appendix.A', line 44.
 ]
 Package hyperref Info: Anchor `chapter*.3' on input line 180.
 Package hyperref Info: bookmark on input line 180:
@@ -1177,7 +1177,7 @@ Package hyperref Info: Reference (link) `figure.caption.39' on input line 39.
 Package hyperref Info: Reference (link) `figure.caption.40' on input line 40.
 Package hyperref Info: Reference (link) `figure.caption.41' on input line 41.
 Package hyperref Info: Reference (link) `figure.caption.42' on input line 42.
-Package hyperref Info: Reference (link) `figure.caption.43' on input line 45.
+Package hyperref Info: Reference (link) `figure.caption.44' on input line 46.
 )
 \tf@lof=\write5
 \openout5 = `Thesis.lof'.
@@ -1196,7 +1196,7 @@ Package `hyperref' Info: End of reference (link) `figure.caption.39', line 39.
 Package `hyperref' Info: End of reference (link) `figure.caption.40', line 40.
 Package `hyperref' Info: End of reference (link) `figure.caption.41', line 41.
 Package `hyperref' Info: End of reference (link) `figure.caption.42', line 42.
-Package `hyperref' Info: End of reference (link) `figure.caption.43', line 45.
+Package `hyperref' Info: End of reference (link) `figure.caption.44', line 46.
 ]
 Package hyperref Info: Anchor `chapter*.4' on input line 181.
 Package hyperref Info: bookmark on input line 181:
@@ -1214,7 +1214,7 @@ Package hyperref Info: Reference (link) `table.caption.19' on input line 9.
 Package hyperref Info: Reference (link) `table.caption.23' on input line 10.
 Package hyperref Info: Reference (link) `table.caption.25' on input line 11.
 Package hyperref Info: Reference (link) `table.caption.37' on input line 13.
-Package hyperref Info: Reference (link) `table.A.1' on input line 16.
+Package hyperref Info: Reference (link) `table.A.1' on input line 17.
 )
 \tf@lot=\write6
 \openout6 = `Thesis.lot'.
@@ -1228,7 +1228,7 @@ Package `hyperref' Info: End of reference (link) `table.caption.19', line 9.
 Package `hyperref' Info: End of reference (link) `table.caption.23', line 10.
 Package `hyperref' Info: End of reference (link) `table.caption.25', line 11.
 Package `hyperref' Info: End of reference (link) `table.caption.37', line 13.
-Package `hyperref' Info: End of reference (link) `table.A.1', line 16.
+Package `hyperref' Info: End of reference (link) `table.A.1', line 17.
 ]
 Package hyperref Info: Anchor `chapter*.2' on input line 189.
 pdfTeX warning (ext4): destination with the same identifier (name{chapter*.2}) 
@@ -3649,15 +3649,121 @@ Package hyperref Info: Anchor `page.51' on input line 215.
 [51
 Package `hyperref' Info: End of reference (cite) `cite.guzman101', line 13.
 Package `hyperref' Info: End of reference (cite) `cite.guzman101', line 13.
-]
-Package hyperref Info: bookmark on input line 229:
+] (./Thesis.bbl
+Package hyperref Info: Anchor `chapter*.43' on input line 1.
+Package hyperref Info: Anchor `chapter*.7' on input line 1.
+
+References
+Package hyperref Info: bookmark on input line 1:
 (hyperref)             thecounter {6}
-(hyperref)             text {APPENDIX}
-(hyperref)             reference {section.6.2}
+(hyperref)             text {\protect \tocchapter {\csname chaptername\endcsnam
+e }{\@secnumber }{\refname }}
+(hyperref)             reference {chapter*.7}
 (hyperref)             toclevel {0}
 (hyperref)             type {toc}.
-Package hyperref Info: Anchor `page.52' on input line 233.
+Package hyperref Info: Anchor `cite.Aad:2012tfa' on input line 10.
+Package hyperref Info: Anchor `cite.abuslemethesis' on input line 36.
+Package hyperref Info: Anchor `cite.abusleme101' on input line 65.
+Package hyperref Info: Anchor `cite.Alvarez101' on input line 96.
+Package hyperref Info: Anchor `cite.Asp100' on input line 124.
+Package hyperref Info: Anchor `cite.assaad101' on input line 158.
+Package hyperref Info: Anchor `cite.avila101' on input line 186.
+Package hyperref Info: Anchor `cite.baker101' on input line 212.
+Package hyperref Info: Anchor `cite.bernardinis101' on input line 237.
+
+Underfull \vbox (badness 2828) has occurred while \output is active []
+
+Package hyperref Info: Anchor `page.52' on input line 266.
  [52
+
+
+
+
+
+]
+Package hyperref Info: Anchor `cite.bertuccio101' on input line 266.
+Package hyperref Info: Anchor `cite.cern101' on input line 292.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 304.
+
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Package hyperref Info: Anchor `cite.Chatrchyan:2012ufa' on input line 315.
+Package hyperref Info: Anchor `cite.deGeronimo500' on input line 342.
+Package hyperref Info: Anchor `cite.degeronimo101' on input line 370.
+Package hyperref Info: Anchor `cite.fiorini101' on input line 398.
+Package hyperref Info: Anchor `cite.gadomski101' on input line 425.
+Package hyperref Info: Anchor `cite.gatti102' on input line 457.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package hyperref Info: Anchor `page.53' on input line 485.
+ [53
+Package `hyperref' Info: End of reference (link) `figure.caption.16', line 110.
+
+]
+Package hyperref Info: Anchor `cite.gatti101' on input line 485.
+Package hyperref Info: Anchor `cite.gatti104' on input line 512.
+Package hyperref Info: Anchor `cite.geraci101' on input line 542.
+Package hyperref Info: Anchor `cite.geraci103' on input line 569.
+Package hyperref Info: Anchor `cite.degeronimo102' on input line 599.
+Package hyperref Info: Anchor `cite.goulding101' on input line 625.
+Package hyperref Info: Anchor `cite.gray101' on input line 652.
+Package hyperref Info: Anchor `cite.guzman101' on input line 678.
+Package hyperref Info: Anchor `cite.haigh101' on input line 712.
+Package hyperref Info: Anchor `page.54' on input line 741.
+
+[54]
+Package hyperref Info: Anchor `cite.Haller100' on input line 741.
+Package hyperref Info: Anchor `cite.hogervorst102' on input line 770.
+Package hyperref Info: Anchor `cite.hogervorst101' on input line 801.
+Package hyperref Info: Anchor `cite.cplex' on input line 829.
+Package hyperref Info: Anchor `cite.jindal101' on input line 851.
+Package hyperref Info: Anchor `cite.jordanov101' on input line 875.
+Package hyperref Info: Anchor `cite.Kleinfelder100' on input line 902.
+Package hyperref Info: Anchor `cite.lutz101' on input line 933.
+Package hyperref Info: Anchor `cite.motchenbacher' on input line 963.
+Package hyperref Info: Anchor `cite.murmann101' on input line 984.
+Package hyperref Info: Anchor `page.55' on input line 1009.
+ [55
+Package `hyperref' Info: End of reference (link) `figure.caption.16', line 110.
+
+]
+Package hyperref Info: Anchor `cite.oconnor100' on input line 1009.
+Package hyperref Info: Anchor `cite.porro101' on input line 1036.
+Package hyperref Info: Anchor `cite.pullia103' on input line 1059.
+Package hyperref Info: Anchor `cite.pullia104' on input line 1084.
+Package hyperref Info: Anchor `cite.pullia105' on input line 1110.
+Package hyperref Info: Anchor `cite.pullia102' on input line 1138.
+Package hyperref Info: Anchor `cite.radeka104' on input line 1163.
+Package hyperref Info: Anchor `cite.radeka101' on input line 1188.
+Package hyperref Info: Anchor `cite.radeka201' on input line 1212.
+Package hyperref Info: Anchor `cite.rashid101' on input line 1240.
+Package hyperref Info: Anchor `page.56' on input line 1266.
+ [56]
+Package hyperref Info: Anchor `cite.sampietro101' on input line 1266.
+Package hyperref Info: Anchor `cite.analogessentials' on input line 1293.
+Package hyperref Info: Anchor `cite.sansen101' on input line 1317.
+Package hyperref Info: Anchor `cite.silveira101' on input line 1345.
+Package hyperref Info: Anchor `cite.Snoeys100' on input line 1377.
+Package hyperref Info: Anchor `cite.spieler2005semiconductor' on input line 140
+4.
+Package hyperref Info: Anchor `cite.tuttle101' on input line 1427.
+Package hyperref Info: Anchor `cite.van101' on input line 1450.
+Package hyperref Info: Anchor `cite.vleugels101' on input line 1473.
+)
+Package hyperref Info: Anchor `page.57' on input line 229.
+ [57]
+Package hyperref Info: bookmark on input line 236:
+(hyperref)             thecounter {6}
+(hyperref)             text {APPENDIX}
+(hyperref)             reference {chapter*.7}
+(hyperref)             toclevel {0}
+(hyperref)             type {toc}.
+Package hyperref Info: Anchor `page.58' on input line 240.
+ [58
+
 
 
 
@@ -3680,24 +3786,21 @@ Overfull \hbox (9.53278pt too wide) in paragraph at lines 1--1
 \OT1/ptm/b/n/14.4 A.[] 
  []
 
-Package hyperref Info: Reference (link) `figure.caption.43' on input line 3.
+Package hyperref Info: Reference (link) `figure.caption.44' on input line 3.
 Package hyperref Info: Reference (link) `table.A.1' on input line 4.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 9.
-(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
+
 Underfull \vbox (badness 10000) detected at line 27
  []
 
 Package hyperref Info: Anchor `table.A.1' on input line 27.
-Package hyperref Info: Anchor `page.53' on input line 67.
-[53
+Package hyperref Info: Anchor `page.59' on input line 67.
+[59
 
 
 
 
 
-Package `hyperref' Info: End of reference (link) `figure.caption.43', line 3.
+Package `hyperref' Info: End of reference (link) `figure.caption.44', line 3.
 Package `hyperref' Info: End of reference (link) `table.A.1', line 4.
 ]
 Package hyperref Info: bookmark on input line 75:
@@ -3707,10 +3810,10 @@ p@table}}{\@nameuse {thetable}}}{\ignorespaces The Bean 2 prototype pinout}}
 (hyperref)             reference {table.A.1}
 (hyperref)             toclevel {0}
 (hyperref)             type {lot}.
-Package hyperref Info: Anchor `page.54' on input line 76.
- [54]
-Package hyperref Info: Anchor `figure.caption.43' on input line 79.
- <./Figures/bondpad.pdf, id=2050, 537.00626pt x 531.9875pt>
+Package hyperref Info: Anchor `page.60' on input line 76.
+ [60]
+Package hyperref Info: Anchor `figure.caption.44' on input line 79.
+ <./Figures/bondpad.pdf, id=2081, 537.00626pt x 531.9875pt>
 File: ./Figures/bondpad.pdf Graphic file (type pdf)
 
 <use ./Figures/bondpad.pdf>
@@ -3726,117 +3829,20 @@ Package hyperref Info: bookmark on input line 82:
 (hyperref)             text {\protect \numberline {\caption@lstfmt {\@nameuse {
 p@figure}}{\@nameuse {thefigure}}}{\ignorespaces The Bean 2 prototype bonding d
 iagram.\relax }}
-(hyperref)             reference {figure.caption.43}
+(hyperref)             reference {figure.caption.44}
 (hyperref)             toclevel {0}
 (hyperref)             type {lof}.
 )
-Package hyperref Info: Anchor `page.55' on input line 236.
- [55]
-Package hyperref Info: Anchor `page.56' on input line 236.
- [56 <./Figures/bondpad.pdf>] (./Thesis.bbl
-Package hyperref Info: Anchor `appendix*.44' on input line 1.
-Package hyperref Info: Anchor `chapter*.7' on input line 1.
-
-References
-Package hyperref Info: bookmark on input line 1:
-(hyperref)             thecounter {A}
-(hyperref)             text {\protect \tocchapter {\csname chaptername\endcsnam
-e }{\@secnumber }{\refname }}
-(hyperref)             reference {chapter*.7}
-(hyperref)             toclevel {0}
-(hyperref)             type {toc}.
-Package hyperref Info: Anchor `cite.Aad:2012tfa' on input line 10.
-Package hyperref Info: Anchor `cite.abuslemethesis' on input line 36.
-Package hyperref Info: Anchor `cite.abusleme101' on input line 65.
-Package hyperref Info: Anchor `cite.Alvarez101' on input line 96.
-Package hyperref Info: Anchor `cite.Asp100' on input line 124.
-Package hyperref Info: Anchor `cite.assaad101' on input line 158.
-Package hyperref Info: Anchor `cite.avila101' on input line 186.
-Package hyperref Info: Anchor `cite.baker101' on input line 212.
-Package hyperref Info: Anchor `cite.bernardinis101' on input line 237.
-
-Underfull \vbox (badness 2828) has occurred while \output is active []
-
-Package hyperref Info: Anchor `page.57' on input line 266.
- [57
-
-
-
-
-
-]
-Package hyperref Info: Anchor `cite.bertuccio101' on input line 266.
-Package hyperref Info: Anchor `cite.cern101' on input line 292.
-Package hyperref Info: Anchor `cite.Chatrchyan:2012ufa' on input line 315.
-Package hyperref Info: Anchor `cite.deGeronimo500' on input line 342.
-Package hyperref Info: Anchor `cite.degeronimo101' on input line 370.
-Package hyperref Info: Anchor `cite.fiorini101' on input line 398.
-Package hyperref Info: Anchor `cite.gadomski101' on input line 425.
-Package hyperref Info: Anchor `cite.gatti102' on input line 457.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-Package hyperref Info: Anchor `page.58' on input line 485.
- [58
-Package `hyperref' Info: End of reference (link) `table.A.1', line 4.
-]
-Package hyperref Info: Anchor `cite.gatti101' on input line 485.
-Package hyperref Info: Anchor `cite.gatti104' on input line 512.
-Package hyperref Info: Anchor `cite.geraci101' on input line 542.
-Package hyperref Info: Anchor `cite.geraci103' on input line 569.
-Package hyperref Info: Anchor `cite.degeronimo102' on input line 599.
-Package hyperref Info: Anchor `cite.goulding101' on input line 625.
-Package hyperref Info: Anchor `cite.gray101' on input line 652.
-Package hyperref Info: Anchor `cite.guzman101' on input line 678.
-Package hyperref Info: Anchor `cite.haigh101' on input line 712.
-Package hyperref Info: Anchor `page.59' on input line 741.
-
-[59]
-Package hyperref Info: Anchor `cite.Haller100' on input line 741.
-Package hyperref Info: Anchor `cite.hogervorst102' on input line 770.
-Package hyperref Info: Anchor `cite.hogervorst101' on input line 801.
-Package hyperref Info: Anchor `cite.cplex' on input line 829.
-Package hyperref Info: Anchor `cite.jindal101' on input line 851.
-Package hyperref Info: Anchor `cite.jordanov101' on input line 875.
-Package hyperref Info: Anchor `cite.Kleinfelder100' on input line 902.
-Package hyperref Info: Anchor `cite.lutz101' on input line 933.
-Package hyperref Info: Anchor `cite.motchenbacher' on input line 963.
-Package hyperref Info: Anchor `cite.murmann101' on input line 984.
-Package hyperref Info: Anchor `page.60' on input line 1009.
- [60
-Package `hyperref' Info: End of reference (link) `table.A.1', line 4.
-]
-Package hyperref Info: Anchor `cite.oconnor100' on input line 1009.
-Package hyperref Info: Anchor `cite.porro101' on input line 1036.
-Package hyperref Info: Anchor `cite.pullia103' on input line 1059.
-Package hyperref Info: Anchor `cite.pullia104' on input line 1084.
-Package hyperref Info: Anchor `cite.pullia105' on input line 1110.
-Package hyperref Info: Anchor `cite.pullia102' on input line 1138.
-Package hyperref Info: Anchor `cite.radeka104' on input line 1163.
-Package hyperref Info: Anchor `cite.radeka101' on input line 1188.
-Package hyperref Info: Anchor `cite.radeka201' on input line 1212.
-Package hyperref Info: Anchor `cite.rashid101' on input line 1240.
-Package hyperref Info: Anchor `page.61' on input line 1266.
+Package hyperref Info: Anchor `page.61' on input line 243.
  [61]
-Package hyperref Info: Anchor `cite.sampietro101' on input line 1266.
-Package hyperref Info: Anchor `cite.analogessentials' on input line 1293.
-Package hyperref Info: Anchor `cite.sansen101' on input line 1317.
-Package hyperref Info: Anchor `cite.silveira101' on input line 1345.
-Package hyperref Info: Anchor `cite.Snoeys100' on input line 1377.
-Package hyperref Info: Anchor `cite.spieler2005semiconductor' on input line 140
-4.
-Package hyperref Info: Anchor `cite.tuttle101' on input line 1427.
-Package hyperref Info: Anchor `cite.van101' on input line 1450.
-Package hyperref Info: Anchor `cite.vleugels101' on input line 1473.
-)
-Package hyperref Info: Anchor `page.62' on input line 241.
- [62]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 243.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 243.
+Package hyperref Info: Anchor `page.62' on input line 243.
+ [62 <./Figures/bondpad.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 245.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 245.
  (./Thesis.aux (./text/introduction.aux)
 (./text/problem.aux) (./text/theoretical.aux) (./text/filter.aux)
 (./text/results.aux) (./text/conclusion.aux) (./text/appendixA.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 243.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 245.
 
 
  *File List*
@@ -3979,21 +3985,21 @@ Figures/LogoUC.pdf
 ./Test/wf_test_circuit-eps-converted-to.pdf
 ./Test/sim_wf-eps-converted-to.pdf
 ./text/conclusion.tex
-./text/appendixA.tex
-  ot1pcr.fd    2001/06/04 font definitions for OT1/pcr.
-./Figures/bondpad.pdf
   Thesis.bbl
+  ot1pcr.fd    2001/06/04 font definitions for OT1/pcr.
+./text/appendixA.tex
+./Figures/bondpad.pdf
  ***********
 
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 243.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 245.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 0AA4A61C52F17F97C2675A2122CEE665;3094.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 243.
+(rerunfilecheck)             Checksum: 9A617957A5E63A3EDB031F455A5D4CFC;3093.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 245.
  ) 
 Here is how much of TeX's memory you used:
  11781 strings out of 493308
- 173994 string characters out of 6137816
- 289202 words of memory out of 5000000
+ 173993 string characters out of 6137816
+ 289203 words of memory out of 5000000
  14468 multiletter control sequences out of 15000+600000
  46056 words of font info for 124 fonts, out of 8000000 for 9000
  1121 hyphenation exceptions out of 8191
@@ -4019,7 +4025,7 @@ type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
 pe1/urw/courier/ucrr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/
 times/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmr
 8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Thesis.pdf (73 pages, 9908183 bytes).
+Output written on Thesis.pdf (73 pages, 9908120 bytes).
 PDF statistics:
  2230 PDF objects out of 2487 (max. 8388607)
  1916 compressed objects within 20 object streams
